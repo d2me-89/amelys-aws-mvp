@@ -13,7 +13,7 @@ export default function IntroDroitPage() {
       <hr style={{ margin: "1.5rem 0" }} />
 
       <Link
-        href="/app/matieres/introduction-au-droit/modules/module-01-notion-de-droit"
+        href="/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit"
       >
         Ouvrir le Module 1 — Notion de droit
       </Link>
