@@ -1,8 +1,10 @@
+"use client";
+
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
-// Liste blanche des 22 slugs (évite les “activite”)
 const allowedPromptSlugs = new Set<string>([
   ...Array.from({ length: 10 }).map((_, i) => `cours-${String(i + 1).padStart(2, "0")}`),
   "points-cles",
@@ -51,14 +53,15 @@ function introFromSlug(slug: string) {
   return "Activité du module.";
 }
 
-export default function PromptLandingPage({ params }: { params: any }) {
-  // Amplify-safe: on accepte plusieurs noms possibles du param
-  const promptSlug: string =
-    params?.promptSlug ?? params?.slug ?? params?.promptslug ?? "";
+export default function PromptLandingPage() {
+  const params = useParams();
+
+  // IMPORTANT : le nom du dossier est [promptSlug] donc la clé attendue est promptSlug
+  const raw = params?.promptSlug;
+  const promptSlug = typeof raw === "string" ? raw : "";
 
   const isValid = allowedPromptSlugs.has(promptSlug);
 
-  // ✅ IMPORTANT : pas de fallback “activite” pour le conversationId
   const conversationId = isValid
     ? `intro-droit-${moduleSlug}-${promptSlug}`
     : "";
@@ -78,7 +81,7 @@ export default function PromptLandingPage({ params }: { params: any }) {
       <p style={{ marginTop: 0, opacity: 0.8 }}>
         {isValid
           ? introFromSlug(promptSlug)
-          : "Ce prompt n’existe pas (ou le paramètre de route n’a pas été transmis correctement)."}
+          : `Slug reçu = ${promptSlug || "vide"}.`}
       </p>
 
       <div
@@ -94,8 +97,8 @@ export default function PromptLandingPage({ params }: { params: any }) {
         {isValid ? (
           <>
             <div style={{ opacity: 0.95 }}>
-              Quand tu es prêt, clique sur <b>Lancer</b>. Cette conversation est
-              dédiée à <code>{promptSlug}</code>.
+              Quand tu es prêt, clique sur <b>Lancer</b>. Conversation dédiée à{" "}
+              <code>{promptSlug}</code>.
             </div>
 
             <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
