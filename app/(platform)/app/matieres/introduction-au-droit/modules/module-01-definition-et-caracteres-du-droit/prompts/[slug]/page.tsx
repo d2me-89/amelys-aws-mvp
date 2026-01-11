@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-dynamic";
+
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
 function titleFromSlug(s: string) {
