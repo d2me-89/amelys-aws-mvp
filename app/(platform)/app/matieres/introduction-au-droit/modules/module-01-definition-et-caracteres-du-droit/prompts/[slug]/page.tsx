@@ -40,7 +40,7 @@ export default function PromptLandingPage({
 }: {
   params: { slug: string };
 }) {
-  const promptSlug = params?.slug;
+  const promptSlug = params.slug;
   if (!promptSlug) notFound();
 
   const title = titleFromSlug(promptSlug);
