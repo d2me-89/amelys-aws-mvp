@@ -1,18 +1,17 @@
+"use client";
+
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
-export const dynamic = "force-dynamic";
+export default function ConversationPage() {
+  const params = useParams();
 
-export default function ConversationPage({
-  params,
-}: {
-  params: { conversation: string };
-}) {
-  const conversationId = params.conversation;
+  const conversationId =
+    typeof params.conversation === "string"
+      ? params.conversation
+      : "unknown";
 
-  // Sécurité simple
-  const safeId = conversationId || "unknown";
-
-  const parts = safeId.split("-");
+  const parts = conversationId.split("-");
   const prompt =
     parts.length >= 2 ? parts.slice(-2).join("-") : "unknown";
 
@@ -26,7 +25,7 @@ export default function ConversationPage({
 
       <div style={{ opacity: 0.8, marginBottom: 16 }}>
         <div>
-          <b>Conversation ID :</b> {safeId}
+          <b>Conversation ID :</b> {conversationId}
         </div>
         <div>
           <b>Prompt :</b> {prompt}
