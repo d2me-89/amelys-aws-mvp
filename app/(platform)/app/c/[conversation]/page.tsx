@@ -73,3 +73,19 @@ export default function ConversationPage({
             padding: "10px 16px",
             borderRadius: 10,
             border: "1px solid rgba(255,255,255,0.25)",
+            background: "transparent",
+            color: "inherit",
+            fontWeight: 700,
+          }}
+        >
+          Envoyer
+        </button>
+      </div>
+
+      <p style={{ fontSize: 12, opacity: 0.6, marginTop: 12 }}>
+        Prochaine micro-étape : rendre l’input actif + stocker les messages (même
+        en mémoire), puis brancher une route API.
+      </p>
+    </main>
+  );
+}
