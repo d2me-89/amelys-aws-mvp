@@ -38,9 +38,9 @@ function introFromSlug(s: string) {
 export default function PromptLandingPage({
   params,
 }: {
-  params: { promptSlug: string };
+  params: { slug: string };
 }) {
-  const promptSlug = params?.promptSlug;
+  const promptSlug = params?.slug;
   if (!promptSlug) notFound();
 
   const title = titleFromSlug(promptSlug);
