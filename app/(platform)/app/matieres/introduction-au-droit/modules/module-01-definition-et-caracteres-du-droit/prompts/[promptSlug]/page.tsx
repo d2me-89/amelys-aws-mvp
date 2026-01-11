@@ -1,9 +1,9 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
-function titleFromSlug(slug?: string) {
-  const s = slug ?? "";
+function titleFromSlug(s: string) {
   if (s.startsWith("cours-")) return `Cours ${s.split("-")[1]}`;
   if (s === "points-cles") return "Points-clés";
   if (s === "faq") return "FAQ";
@@ -12,11 +12,10 @@ function titleFromSlug(slug?: string) {
   if (s.startsWith("dissertation-")) return `Dissertation ${s.split("-")[1]}`;
   if (s === "note-de-synthese") return "Note de synthèse";
   if (s === "td") return "TD";
-  return s || "Activité";
+  return "Activité";
 }
 
-function introFromSlug(slug?: string) {
-  const s = slug ?? "";
+function introFromSlug(s: string) {
   if (s.startsWith("cours-"))
     return "Je te présente la leçon, puis tu peux lancer la génération du cours. Ensuite, on discute et je t’aide à réviser.";
   if (s === "points-cles")
@@ -39,14 +38,15 @@ function introFromSlug(slug?: string) {
 export default function PromptLandingPage({
   params,
 }: {
-  params?: { promptSlug?: string };
+  params: { promptSlug: string };
 }) {
-  const promptSlug = params?.promptSlug ?? "";
+  const promptSlug = params?.promptSlug;
+  if (!promptSlug) notFound();
+
   const title = titleFromSlug(promptSlug);
   const intro = introFromSlug(promptSlug);
 
-  // MVP : conversationId déterministe (plus tard: vrai ID stocké)
-  const conversationId = `intro-droit-${moduleSlug}-${promptSlug || "unknown"}`;
+  const conversationId = `intro-droit-${moduleSlug}-${promptSlug}`;
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 900 }}>
@@ -105,14 +105,6 @@ export default function PromptLandingPage({
             Reprendre
           </Link>
         </div>
-
-        {promptSlug === "" && (
-          <div style={{ marginTop: 14, fontSize: 12, opacity: 0.75 }}>
-            ⚠️ Paramètre <code>promptSlug</code> manquant : vérifie que l’URL ressemble à{" "}
-            <code>.../prompts/cours-01</code> et que le dossier s’appelle bien{" "}
-            <code>[promptSlug]</code>.
-          </div>
-        )}
       </div>
     </main>
   );
