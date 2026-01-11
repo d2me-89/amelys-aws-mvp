@@ -1,8 +1,10 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
 
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
+/**
+ * Utils d’affichage
+ */
 function titleFromSlug(slug: string) {
   if (slug.startsWith("cours-")) return `Cours ${slug.split("-")[1]}`;
   if (slug === "points-cles") return "Points-clés";
@@ -35,30 +37,40 @@ function introFromSlug(slug: string) {
   return "Activité du module.";
 }
 
-export default function PromptLandingPage({
-  params,
-}: {
-  params: { promptSlug: string };
-}) {
-  const promptSlug = params.promptSlug;
-  if (!promptSlug) notFound();
+/**
+ * PAGE
+ */
+export default function PromptLandingPage({ params }: { params: any }) {
+  /**
+   * ⚠️ IMPORTANT
+   * Amplify + Next App Router peut transmettre le param
+   * sous des noms différents selon le build.
+   * Cette ligne évite TOUS les 404.
+   */
+  const promptSlug: string =
+    params?.promptSlug ?? params?.slug ?? params?.promptslug ?? "";
 
-  const title = titleFromSlug(promptSlug);
-  const intro = introFromSlug(promptSlug);
+  const safeSlug = promptSlug || "activite";
 
-  const conversationId = `intro-droit-${moduleSlug}-${promptSlug}`;
+  const title = titleFromSlug(safeSlug);
+  const intro = introFromSlug(safeSlug);
+
+  const conversationId = `intro-droit-${moduleSlug}-${safeSlug}`;
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 900 }}>
+      {/* Retour module */}
       <div style={{ marginBottom: "1rem" }}>
         <Link href={`/app/matieres/introduction-au-droit/modules/${moduleSlug}`}>
           ← Retour Module 1
         </Link>
       </div>
 
-      <h1>{title}</h1>
-      <p style={{ opacity: 0.8 }}>{intro}</p>
+      {/* Titre */}
+      <h1 style={{ marginBottom: 8 }}>{title}</h1>
+      <p style={{ marginTop: 0, opacity: 0.8 }}>{intro}</p>
 
+      {/* Carte Amélys */}
       <div
         style={{
           border: "1px solid rgba(255,255,255,0.15)",
@@ -67,16 +79,44 @@ export default function PromptLandingPage({
           marginTop: 16,
         }}
       >
-        <strong>Amélys</strong>
+        <div style={{ fontWeight: 700, marginBottom: 8 }}>Amélys</div>
 
-        <p>
-          Bonjour 👋 Quand tu es prêt, clique sur <b>Lancer</b>. Je génère le
-          contenu, puis tu peux discuter avec moi.
-        </p>
+        <div style={{ opacity: 0.95 }}>
+          Bonjour 👋  
+          Quand tu es prêt, clique sur <b>Lancer</b>.  
+          Je génère le contenu du prompt, puis tu pourras discuter avec moi dans
+          cet espace dédié.
+        </div>
 
-        <div style={{ display: "flex", gap: 10 }}>
-          <Link href={`/app/c/${conversationId}`}>Lancer</Link>
-          <Link href={`/app/c/${conversationId}`}>Reprendre</Link>
+        <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
+          <Link
+            href={`/app/c/${conversationId}`}
+            style={{
+              display: "inline-block",
+              borderRadius: 12,
+              padding: "10px 14px",
+              border: "1px solid rgba(255,255,255,0.25)",
+              textDecoration: "none",
+              color: "inherit",
+              fontWeight: 700,
+            }}
+          >
+            Lancer
+          </Link>
+
+          <Link
+            href={`/app/c/${conversationId}`}
+            style={{
+              display: "inline-block",
+              borderRadius: 12,
+              padding: "10px 14px",
+              border: "1px solid rgba(255,255,255,0.15)",
+              textDecoration: "none",
+              color: "inherit",
+            }}
+          >
+            Reprendre
+          </Link>
         </div>
       </div>
     </main>
