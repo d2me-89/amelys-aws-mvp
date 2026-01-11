@@ -1,7 +1,4 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
-
-export const dynamic = "force-dynamic";
 
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
@@ -37,18 +34,15 @@ function introFromSlug(s: string) {
   return "Activité du module.";
 }
 
-export default function PromptLandingPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const promptSlug = params.slug;
-  if (!promptSlug) notFound();
+export default function PromptLandingPage({ params }: { params: any }) {
+  // ✅ Robust: marche si le segment s’appelle [slug], [promptSlug] ou [promptslug]
+  const promptSlug: string =
+    params?.slug ?? params?.promptSlug ?? params?.promptslug ?? "";
 
-  const title = titleFromSlug(promptSlug);
-  const intro = introFromSlug(promptSlug);
+  const title = titleFromSlug(promptSlug || "activite");
+  const intro = introFromSlug(promptSlug || "activite");
 
-  const conversationId = `intro-droit-${moduleSlug}-${promptSlug}`;
+  const conversationId = `intro-droit-${moduleSlug}-${promptSlug || "unknown"}`;
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 900 }}>
@@ -107,6 +101,13 @@ export default function PromptLandingPage({
             Reprendre
           </Link>
         </div>
+
+        {promptSlug === "" && (
+          <div style={{ marginTop: 14, fontSize: 12, opacity: 0.75 }}>
+            ⚠️ Je ne reçois pas le paramètre de route (nom de segment dynamique différent au build).
+            On peut normaliser proprement ensuite.
+          </div>
+        )}
       </div>
     </main>
   );
