@@ -3,7 +3,7 @@ import Link from "next/link";
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
 /**
- * Utils d’affichage
+ * Titre selon le type de prompt
  */
 function titleFromSlug(slug: string) {
   if (slug.startsWith("cours-")) return `Cours ${slug.split("-")[1]}`;
@@ -17,6 +17,9 @@ function titleFromSlug(slug: string) {
   return "Activité";
 }
 
+/**
+ * Texte d’introduction selon le type de prompt
+ */
 function introFromSlug(slug: string) {
   if (slug.startsWith("cours-"))
     return "Je te présente la leçon, puis tu peux lancer la génération du cours. Ensuite, on discute et je t’aide à réviser.";
@@ -38,14 +41,12 @@ function introFromSlug(slug: string) {
 }
 
 /**
- * PAGE
+ * PAGE PROMPT
  */
 export default function PromptLandingPage({ params }: { params: any }) {
   /**
-   * ⚠️ IMPORTANT
-   * Amplify + Next App Router peut transmettre le param
-   * sous des noms différents selon le build.
-   * Cette ligne évite TOUS les 404.
+   * ⚠️ Amplify-safe :
+   * selon le build, le param dynamique peut arriver sous différents noms
    */
   const promptSlug: string =
     params?.promptSlug ?? params?.slug ?? params?.promptslug ?? "";
