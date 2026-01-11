@@ -1,16 +1,22 @@
 import Link from "next/link";
 
-export default function ConversationPage({
-  params,
-}: {
-  params: { conversationId: string };
-}) {
-  const conversationId = params.conversationId;
+export const dynamic = "force-dynamic";
 
-  // MVP : on déduit le prompt depuis l’ID (convention actuelle)
-  // ex: intro-droit-module-01-...-cours-01
-  const parts = conversationId.split("-");
-  const prompt = parts.slice(-2).join("-"); // cours-01, faq, etc.
+export default function ConversationPage({ params }: { params: any }) {
+  // Amplify-safe: certains builds peuvent exposer le param sous un nom différent
+  const conversationId: string =
+    params?.conversationId ??
+    params?.conversationid ??
+    params?.id ??
+    params?.slug ??
+    "";
+
+  const safeId = conversationId || "unknown";
+
+  // On évite tout crash: split sur une string sûre
+  const parts = safeId.split("-");
+  const prompt =
+    parts.length >= 2 ? parts.slice(-2).join("-") : safeId || "unknown";
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 900 }}>
@@ -22,11 +28,17 @@ export default function ConversationPage({
 
       <div style={{ opacity: 0.75, marginBottom: 16 }}>
         <div>
-          <b>Conversation ID :</b> {conversationId}
+          <b>Conversation ID :</b> {safeId}
         </div>
         <div>
           <b>Prompt :</b> {prompt}
         </div>
+        {conversationId === "" && (
+          <div style={{ marginTop: 8, fontSize: 12, opacity: 0.85 }}>
+            ⚠️ Le paramètre de route n’a pas été reçu (nom différent au build). La page
+            est sécurisée pour éviter les erreurs serveur.
+          </div>
+        )}
       </div>
 
       <div
@@ -39,15 +51,13 @@ export default function ConversationPage({
       >
         <div style={{ fontWeight: 700, marginBottom: 8 }}>Amélys</div>
 
-        <p>
+        <p style={{ marginTop: 0 }}>
           (MVP) Ici, on affichera :
-          <br />
-          – la génération initiale du prompt (au clic <b>“Lancer”</b>)
-          <br />
-          – puis la discussion dédiée à ce prompt
+          <br />– la génération initiale du prompt (au clic <b>“Lancer”</b>)
+          <br />– puis la discussion dédiée à ce prompt
         </p>
 
-        <p style={{ opacity: 0.8 }}>
+        <p style={{ opacity: 0.8, marginBottom: 0 }}>
           Pour l’instant, c’est un mock. Prochaine étape : input actif + API route
           qui appelle Bedrock Claude (streaming).
         </p>
@@ -81,11 +91,6 @@ export default function ConversationPage({
           Envoyer
         </button>
       </div>
-
-      <p style={{ fontSize: 12, opacity: 0.6, marginTop: 12 }}>
-        Prochaine micro-étape : rendre l’input actif + stocker les messages (même
-        en mémoire), puis brancher une route API.
-      </p>
     </main>
   );
 }
