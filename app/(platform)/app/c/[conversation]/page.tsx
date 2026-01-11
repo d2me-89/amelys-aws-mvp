@@ -2,22 +2,19 @@ import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
-export default function ConversationPage({ params }: { params: any }) {
-  // ✅ Anti-crash : si le param n'arrive pas, on ne casse pas le SSR
-  const conversationId: string =
-    params?.conversation ??
-    params?.conversationId ??
-    params?.conversationid ??
-    params?.id ??
-    params?.slug ??
-    "";
+export default function ConversationPage({
+  params,
+}: {
+  params: { conversation: string };
+}) {
+  const conversationId = params.conversation;
 
+  // Sécurité simple
   const safeId = conversationId || "unknown";
 
-  // ✅ split uniquement sur une string sûre
   const parts = safeId.split("-");
   const prompt =
-    parts.length >= 2 ? parts.slice(-2).join("-") : safeId || "unknown";
+    parts.length >= 2 ? parts.slice(-2).join("-") : "unknown";
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 900 }}>
@@ -25,7 +22,7 @@ export default function ConversationPage({ params }: { params: any }) {
         <Link href="/app">← Retour /app</Link>
       </div>
 
-      <h1 style={{ marginBottom: 8 }}>Conversation Amélys</h1>
+      <h1>Conversation Amélys</h1>
 
       <div style={{ opacity: 0.8, marginBottom: 16 }}>
         <div>
@@ -34,13 +31,6 @@ export default function ConversationPage({ params }: { params: any }) {
         <div>
           <b>Prompt :</b> {prompt}
         </div>
-
-        {conversationId === "" && (
-          <div style={{ marginTop: 10, fontSize: 12, opacity: 0.75 }}>
-            ⚠️ Le paramètre de route n’a pas été reçu sous <code>conversation</code>.
-            La page est sécurisée pour éviter les crashs SSR.
-          </div>
-        )}
       </div>
 
       <div
@@ -50,12 +40,12 @@ export default function ConversationPage({ params }: { params: any }) {
           padding: 16,
         }}
       >
-        <div style={{ fontWeight: 700, marginBottom: 8 }}>Amélys</div>
-        <div style={{ opacity: 0.95 }}>
+        <b>Amélys</b>
+        <p style={{ marginTop: 8 }}>
           (MVP) Ici on affichera :
-          <br />— la génération initiale du prompt (au clic “Lancer”)
-          <br />— puis la discussion dédiée à ce prompt
-        </div>
+          <br />— la génération initiale du prompt
+          <br />— puis la discussion dédiée
+        </p>
       </div>
     </main>
   );
