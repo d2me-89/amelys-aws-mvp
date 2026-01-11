@@ -2,9 +2,23 @@ import Link from "next/link";
 
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
-/**
- * Titre selon le type de prompt
- */
+// Liste blanche des 22 slugs (évite les “activite”)
+const allowedPromptSlugs = new Set<string>([
+  ...Array.from({ length: 10 }).map((_, i) => `cours-${String(i + 1).padStart(2, "0")}`),
+  "points-cles",
+  "faq",
+  "cas-pratique-01",
+  "cas-pratique-02",
+  "commentaire-01",
+  "commentaire-02",
+  "commentaire-03",
+  "dissertation-01",
+  "dissertation-02",
+  "dissertation-03",
+  "note-de-synthese",
+  "td",
+]);
+
 function titleFromSlug(slug: string) {
   if (slug.startsWith("cours-")) return `Cours ${slug.split("-")[1]}`;
   if (slug === "points-cles") return "Points-clés";
@@ -17,9 +31,6 @@ function titleFromSlug(slug: string) {
   return "Activité";
 }
 
-/**
- * Texte d’introduction selon le type de prompt
- */
 function introFromSlug(slug: string) {
   if (slug.startsWith("cours-"))
     return "Je te présente la leçon, puis tu peux lancer la génération du cours. Ensuite, on discute et je t’aide à réviser.";
@@ -40,38 +51,36 @@ function introFromSlug(slug: string) {
   return "Activité du module.";
 }
 
-/**
- * PAGE PROMPT
- */
 export default function PromptLandingPage({ params }: { params: any }) {
-  /**
-   * ⚠️ Amplify-safe :
-   * selon le build, le param dynamique peut arriver sous différents noms
-   */
+  // Amplify-safe: on accepte plusieurs noms possibles du param
   const promptSlug: string =
     params?.promptSlug ?? params?.slug ?? params?.promptslug ?? "";
 
-  const safeSlug = promptSlug || "activite";
+  const isValid = allowedPromptSlugs.has(promptSlug);
 
-  const title = titleFromSlug(safeSlug);
-  const intro = introFromSlug(safeSlug);
-
-  const conversationId = `intro-droit-${moduleSlug}-${safeSlug}`;
+  // ✅ IMPORTANT : pas de fallback “activite” pour le conversationId
+  const conversationId = isValid
+    ? `intro-droit-${moduleSlug}-${promptSlug}`
+    : "";
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 900 }}>
-      {/* Retour module */}
       <div style={{ marginBottom: "1rem" }}>
         <Link href={`/app/matieres/introduction-au-droit/modules/${moduleSlug}`}>
           ← Retour Module 1
         </Link>
       </div>
 
-      {/* Titre */}
-      <h1 style={{ marginBottom: 8 }}>{title}</h1>
-      <p style={{ marginTop: 0, opacity: 0.8 }}>{intro}</p>
+      <h1 style={{ marginBottom: 8 }}>
+        {isValid ? titleFromSlug(promptSlug) : "Prompt introuvable"}
+      </h1>
 
-      {/* Carte Amélys */}
+      <p style={{ marginTop: 0, opacity: 0.8 }}>
+        {isValid
+          ? introFromSlug(promptSlug)
+          : "Ce prompt n’existe pas (ou le paramètre de route n’a pas été transmis correctement)."}
+      </p>
+
       <div
         style={{
           border: "1px solid rgba(255,255,255,0.15)",
@@ -82,43 +91,49 @@ export default function PromptLandingPage({ params }: { params: any }) {
       >
         <div style={{ fontWeight: 700, marginBottom: 8 }}>Amélys</div>
 
-        <div style={{ opacity: 0.95 }}>
-          Bonjour 👋  
-          Quand tu es prêt, clique sur <b>Lancer</b>.  
-          Je génère le contenu du prompt, puis tu pourras discuter avec moi dans
-          cet espace dédié.
-        </div>
+        {isValid ? (
+          <>
+            <div style={{ opacity: 0.95 }}>
+              Quand tu es prêt, clique sur <b>Lancer</b>. Cette conversation est
+              dédiée à <code>{promptSlug}</code>.
+            </div>
 
-        <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
-          <Link
-            href={`/app/c/${conversationId}`}
-            style={{
-              display: "inline-block",
-              borderRadius: 12,
-              padding: "10px 14px",
-              border: "1px solid rgba(255,255,255,0.25)",
-              textDecoration: "none",
-              color: "inherit",
-              fontWeight: 700,
-            }}
-          >
-            Lancer
-          </Link>
+            <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
+              <Link
+                href={`/app/c/${conversationId}`}
+                style={{
+                  display: "inline-block",
+                  borderRadius: 12,
+                  padding: "10px 14px",
+                  border: "1px solid rgba(255,255,255,0.25)",
+                  textDecoration: "none",
+                  color: "inherit",
+                  fontWeight: 700,
+                }}
+              >
+                Lancer
+              </Link>
 
-          <Link
-            href={`/app/c/${conversationId}`}
-            style={{
-              display: "inline-block",
-              borderRadius: 12,
-              padding: "10px 14px",
-              border: "1px solid rgba(255,255,255,0.15)",
-              textDecoration: "none",
-              color: "inherit",
-            }}
-          >
-            Reprendre
-          </Link>
-        </div>
+              <Link
+                href={`/app/c/${conversationId}`}
+                style={{
+                  display: "inline-block",
+                  borderRadius: 12,
+                  padding: "10px 14px",
+                  border: "1px solid rgba(255,255,255,0.15)",
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                Reprendre
+              </Link>
+            </div>
+          </>
+        ) : (
+          <div style={{ opacity: 0.95 }}>
+            ⚠️ Impossible de lancer : slug reçu = <code>{promptSlug || "vide"}</code>.
+          </div>
+        )}
       </div>
     </main>
   );
