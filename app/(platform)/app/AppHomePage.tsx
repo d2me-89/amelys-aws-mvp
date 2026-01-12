@@ -7,7 +7,7 @@ export default function AppHome() {
       <div style={{ 
         padding: "2rem", 
         fontFamily: "sans-serif",
-        maxWidth: "1201px",
+        maxWidth: "1200px",
         margin: "0 auto"
       }}>
         <h1>Amélys — Plateforme d'enseignement du droit</h1>
