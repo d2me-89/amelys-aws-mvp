@@ -31,23 +31,6 @@ export default function Sidebar() {
         </button>
       )}
 
-      {/* Overlay (fond sombre sur mobile) */}
-      {isOpen && (
-        <div
-          onClick={toggleSidebar}
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            background: "rgba(0,0,0,0.5)",
-            zIndex: 998,
-            display: window.innerWidth < 768 ? "block" : "none",
-          }}
-        />
-      )}
-
       {/* Sidebar */}
       <aside
         style={{
@@ -113,12 +96,11 @@ export default function Sidebar() {
           flex: "1 1 auto", 
           overflowY: "auto", 
           padding: "1rem 0",
-          scrollbarWidth: "thin",
         }}>
           <SidebarLink href="/app" icon="🏠" label="Tableau de bord" />
           <SidebarLink href="/app/matieres/introduction-au-droit" icon="📚" label="Catalogue de cours" />
           <SidebarLink href="/app/entrainements" icon="💪" label="Entraînements" />
-          <SidebarLink href="/app/jurisask" icon="🤖" label="AmélysAsk" />
+          <SidebarLink href="/app/amelysask" icon="🤖" label="AmélysAsk" />
           <SidebarLink href="/app/parcours" icon="🎯" label="Parcours de pré-rentrée" />
           <SidebarLink href="/app/cours-telechargables" icon="📥" label="Cours téléchargeables" />
           <SidebarLink href="/app/profs-en-ligne" icon="👨‍🏫" label="Profs en ligne" />
@@ -158,15 +140,13 @@ export default function Sidebar() {
 }
 
 // Composant SidebarLink
-function SidebarLink({ 
-  href, 
-  icon, 
-  label 
-}: { 
-  href: string; 
-  icon: string; 
-  label: string; 
-}) {
+interface SidebarLinkProps {
+  href: string;
+  icon: string;
+  label: string;
+}
+
+function SidebarLink({ href, icon, label }: SidebarLinkProps) {
   return (
     <Link
       href={href}
