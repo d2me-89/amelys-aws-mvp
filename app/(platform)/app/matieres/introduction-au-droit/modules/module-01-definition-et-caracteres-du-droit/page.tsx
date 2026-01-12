@@ -18,7 +18,7 @@ type Prompt = {
 };
 
 // -----------------------------------------------------------------------------
-// Slug du module + liste des 22 activités
+// Module + liste des 22 activités
 // -----------------------------------------------------------------------------
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
@@ -50,13 +50,13 @@ const prompts: Prompt[] = [
 ];
 
 // -----------------------------------------------------------------------------
-// Convention de conversationId (doit matcher celle de la conversation page)
+// Convention de conversationId : doit matcher la page conversation
 // -----------------------------------------------------------------------------
 function conversationIdFor(promptSlug: string) {
   return `intro-droit-${moduleSlug}-${promptSlug}`;
 }
 
-// Clé localStorage du statut "Terminée" (doit matcher celle de la conversation page)
+// Clé localStorage du statut "Terminée" : doit matcher la page conversation
 function doneKey(conversationId: string) {
   return `amelys:done:${conversationId}`;
 }
@@ -65,15 +65,15 @@ export default function Module1Page() {
   // Map { promptSlug -> bool }
   const [doneMap, setDoneMap] = useState<Record<string, boolean>>({});
 
+  // Base URL du module (évite de répéter la chaîne partout)
   const basePath = useMemo(
     () => `/app/matieres/introduction-au-droit/modules/${moduleSlug}`,
     []
   );
 
   // ---------------------------------------------------------------------------
-  // Fonction centralisée: relire tous les statuts depuis localStorage
-  // (utile au montage + quand on revient sur la page)
-  // ---------------------------------------------------------------------------
+  // Fonction centrale : relire tous les statuts "done" depuis localStorage
+  // ----------------------------------------------------------------------------
   const reloadDoneMap = useCallback(() => {
     const nextMap: Record<string, boolean> = {};
 
@@ -97,45 +97,28 @@ export default function Module1Page() {
   }, [reloadDoneMap]);
 
   // ---------------------------------------------------------------------------
-  // 2) Rechargement quand on revient sur l’onglet / la page (retour depuis conversation)
+  // 2) MVP “inratable” : polling léger quand la page est visible
+  //    -> garantit la mise à jour même si Next ne remonte pas la page
   // ---------------------------------------------------------------------------
   useEffect(() => {
-    const onFocus = () => reloadDoneMap();
-    const onVisibility = () => {
-      if (document.visibilityState === "visible") reloadDoneMap();
-    };
-
-    window.addEventListener("focus", onFocus);
-    document.addEventListener("visibilitychange", onVisibility);
-
-    return () => {
-      window.removeEventListener("focus", onFocus);
-      document.removeEventListener("visibilitychange", onVisibility);
-    };
-  }, [reloadDoneMap]);
-
-  // ---------------------------------------------------------------------------
-  // 3) Si changement depuis un AUTRE onglet: event "storage"
-  // (ne se déclenche pas dans le même onglet, mais utile quand même)
-  // ---------------------------------------------------------------------------
-  useEffect(() => {
-    const onStorage = (e: StorageEvent) => {
-      if (e.key && e.key.startsWith("amelys:done:")) {
+    const id = window.setInterval(() => {
+      if (document.visibilityState === "visible") {
         reloadDoneMap();
       }
-    };
-    window.addEventListener("storage", onStorage);
-    return () => window.removeEventListener("storage", onStorage);
+    }, 700);
+
+    return () => window.clearInterval(id);
   }, [reloadDoneMap]);
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+      {/* Navigation */}
       <div style={{ marginBottom: "1rem", display: "flex", gap: 12 }}>
         <Link href="/app/matieres/introduction-au-droit">
           ← Retour Introduction au droit
         </Link>
 
-        {/* Petit bouton utile en MVP (facultatif) */}
+        {/* Filet de sécurité (utile en MVP) */}
         <button
           onClick={reloadDoneMap}
           style={{
@@ -152,6 +135,7 @@ export default function Module1Page() {
         </button>
       </div>
 
+      {/* Titre */}
       <h1 style={{ marginBottom: "0.25rem" }}>
         Module 1 — Définition et caractères du droit
       </h1>
@@ -160,6 +144,7 @@ export default function Module1Page() {
         commentaires, 3 dissertations, note de synthèse, TD.
       </p>
 
+      {/* Grille */}
       <div
         style={{
           display: "grid",
@@ -184,6 +169,7 @@ export default function Module1Page() {
                 position: "relative",
               }}
             >
+              {/* Pastille verte */}
               {isDone && (
                 <span
                   style={{
@@ -205,7 +191,6 @@ export default function Module1Page() {
               <div style={{ fontSize: 12, opacity: 0.7, marginBottom: 6 }}>
                 {p.kind}
               </div>
-
               <div style={{ fontWeight: 700 }}>{p.label}</div>
 
               <div style={{ fontSize: 12, opacity: 0.65, marginTop: 8 }}>
@@ -217,9 +202,8 @@ export default function Module1Page() {
       </div>
 
       <div style={{ marginTop: 14, fontSize: 12, opacity: 0.65 }}>
-        Les pastilles “Terminée” se mettent à jour automatiquement quand tu reviens
-        sur cette page (focus/visibilité). Le bouton “Rafraîchir” est un filet de
-        sécurité MVP.
+        MVP : la page relit automatiquement le statut “Terminée” (polling léger).
+        On remplacera ça plus tard par un store global ou une DB.
       </div>
     </main>
   );
