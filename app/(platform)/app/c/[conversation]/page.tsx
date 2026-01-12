@@ -1,74 +1,53 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import { useEffect, useMemo, useRef, useState } from "react";
 
-type Message = {
-  role: "user" | "assistant";
-  content: string;
-};
+type Message = { role: "user" | "assistant"; content: string };
 
-// mêmes clés que le module
-function convKey(conversationId: string) {
-  return `amelys:conv:${conversationId}`;
-}
-function draftKey(conversationId: string) {
-  return `amelys:draft:${conversationId}`;
-}
-function doneKey(conversationId: string) {
-  return `amelys:done:${conversationId}`;
-}
+const convKey = (id: string) => `amelys:conv:${id}`;
+const draftKey = (id: string) => `amelys:draft:${id}`;
+const doneKey = (id: string) => `amelys:done:${id}`;
 
 export default function ConversationPage() {
-  // ✅ version stable : useParams() sans générique + extraction manuelle
+  // ✅ source de vérité : Next te donne params.conversation
   const params = useParams();
   const conversationId =
     typeof (params as any)?.conversation === "string"
       ? (params as any).conversation
       : "";
 
-  // Si jamais l’URL est malformée, on évite de polluer localStorage avec "unknown"
-  const safeConversationId = conversationId || "invalid-conversation";
+  const modulePath =
+    "/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit";
 
-  // ✅ extraction stable du promptSlug (cours-01, etc.)
   const promptSlug = useMemo(() => {
     if (!conversationId) return "unknown";
     const parts = conversationId.split("-");
     return parts.length >= 2 ? parts.slice(-2).join("-") : "unknown";
   }, [conversationId]);
 
-  // retour module (fixe pour MVP)
-  const modulePath =
-    "/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit";
-
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isDone, setIsDone] = useState(false);
   const endRef = useRef<HTMLDivElement>(null);
 
-  // ✅ Load depuis localStorage (messages + draft + done)
+  // ✅ Attendre d’avoir conversationId avant de toucher au localStorage
   useEffect(() => {
-    // si conversationId absent, on affiche juste un état neutre
-    if (!conversationId) {
-      setMessages([
-        {
-          role: "assistant",
-          content:
-            "Erreur : identifiant de conversation manquant dans l’URL. Reviens au module et relance.",
-        },
-      ]);
-      setInput("");
-      setIsDone(false);
-      return;
-    }
+    if (!conversationId) return;
 
     try {
-      const rawMsgs = localStorage.getItem(convKey(safeConversationId));
+      const rawMsgs = localStorage.getItem(convKey(conversationId));
       if (rawMsgs) {
         setMessages(JSON.parse(rawMsgs));
       } else {
+        // seed mock (comme avant)
         setMessages([
+          {
+            role: "assistant",
+            content:
+              "(MVP) Je suis Amélys. Tu peux m’écrire ci-dessous : je réponds en mode simulation.",
+          },
           {
             role: "assistant",
             content: `Conversation dédiée au prompt : ${promptSlug}. Reste dans le cadre du module et de l’activité.`,
@@ -76,47 +55,41 @@ export default function ConversationPage() {
         ]);
       }
 
-      const rawDraft = localStorage.getItem(draftKey(safeConversationId));
-      setInput(rawDraft ?? "");
-
-      const rawDone = localStorage.getItem(doneKey(safeConversationId));
-      setIsDone(rawDone === "true");
+      setInput(localStorage.getItem(draftKey(conversationId)) ?? "");
+      setIsDone(localStorage.getItem(doneKey(conversationId)) === "true");
     } catch {
       setMessages([
-        {
-          role: "assistant",
-          content: `Conversation dédiée au prompt : ${promptSlug}.`,
-        },
+        { role: "assistant", content: `Conversation dédiée au prompt : ${promptSlug}.` },
       ]);
       setInput("");
       setIsDone(false);
     }
-  }, [conversationId, safeConversationId, promptSlug]);
+  }, [conversationId, promptSlug]);
 
-  // ✅ Persist messages (uniquement si conversationId valide)
+  // persist messages
   useEffect(() => {
     if (!conversationId) return;
     try {
-      localStorage.setItem(convKey(safeConversationId), JSON.stringify(messages));
+      localStorage.setItem(convKey(conversationId), JSON.stringify(messages));
     } catch {}
     endRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, conversationId, safeConversationId]);
+  }, [messages, conversationId]);
 
-  // ✅ Persist draft
+  // persist draft
   useEffect(() => {
     if (!conversationId) return;
     try {
-      localStorage.setItem(draftKey(safeConversationId), input);
+      localStorage.setItem(draftKey(conversationId), input);
     } catch {}
-  }, [input, conversationId, safeConversationId]);
+  }, [input, conversationId]);
 
-  // ✅ Persist done
+  // persist done
   useEffect(() => {
     if (!conversationId) return;
     try {
-      localStorage.setItem(doneKey(safeConversationId), String(isDone));
+      localStorage.setItem(doneKey(conversationId), String(isDone));
     } catch {}
-  }, [isDone, conversationId, safeConversationId]);
+  }, [isDone, conversationId]);
 
   function sendMessage() {
     const text = input.trim();
@@ -153,19 +126,28 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
     if (!ok) return;
 
     try {
-      localStorage.removeItem(convKey(safeConversationId));
-      localStorage.removeItem(draftKey(safeConversationId));
-      localStorage.removeItem(doneKey(safeConversationId));
+      localStorage.removeItem(convKey(conversationId));
+      localStorage.removeItem(draftKey(conversationId));
+      localStorage.removeItem(doneKey(conversationId));
     } catch {}
 
     setIsDone(false);
     setInput("");
     setMessages([
-      {
-        role: "assistant",
-        content: `Conversation réinitialisée. Activité : ${promptSlug}.`,
-      },
+      { role: "assistant", content: `Conversation réinitialisée. Activité : ${promptSlug}.` },
     ]);
+  }
+
+  // ✅ Si l’ID n’est pas encore dispo, on affiche un écran neutre (1 seconde max)
+  if (!conversationId) {
+    return (
+      <main style={{ padding: 16, fontFamily: "sans-serif" }}>
+        <Link href={modulePath}>← Retour au module</Link>
+        <div style={{ marginTop: 16, opacity: 0.8 }}>
+          Chargement de la conversation…
+        </div>
+      </main>
+    );
   }
 
   return (
@@ -178,12 +160,10 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         padding: 16,
       }}
     >
-      {/* HEADER */}
       <div style={{ flex: "0 0 auto", maxWidth: 980, width: "100%", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <Link href={modulePath}>← Retour au module</Link>
 
-          {/* ✅ pastille UNIQUEMENT si isDone === true */}
           {isDone && (
             <span
               style={{
@@ -241,7 +221,6 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         </div>
       </div>
 
-      {/* MESSAGES */}
       <div
         style={{
           flex: "1 1 auto",
@@ -284,7 +263,6 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         <div ref={endRef} />
       </div>
 
-      {/* INPUT */}
       <div
         style={{
           flex: "0 0 auto",
@@ -311,6 +289,7 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         />
         <button
           onClick={sendMessage}
+          disabled={input.trim().length === 0}
           style={{
             padding: "12px 18px",
             borderRadius: 12,
@@ -318,7 +297,8 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
             background: "transparent",
             color: "inherit",
             fontWeight: 700,
-            cursor: "pointer",
+            cursor: input.trim().length === 0 ? "not-allowed" : "pointer",
+            opacity: input.trim().length === 0 ? 0.5 : 1,
           }}
         >
           Envoyer
