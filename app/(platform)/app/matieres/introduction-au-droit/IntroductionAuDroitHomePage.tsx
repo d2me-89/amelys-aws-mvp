@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AppLayout from "../../../../../components/AppLayout";
+import AppLayout from "../../../../components/AppLayout";
 
 export default function IntroDroitPage() {
   return (
