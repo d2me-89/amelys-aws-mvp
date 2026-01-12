@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import { useSidebar } from "./SidebarContext";
 
 export default function Sidebar() {
@@ -20,7 +20,7 @@ export default function Sidebar() {
         background: "linear-gradient(180deg, rgba(20,20,35,0.98) 0%, rgba(15,15,25,0.98) 100%)",
         borderRight: "1px solid rgba(255,255,255,0.1)",
         transition: "width 0.3s ease",
-        overflow: "visible",
+        overflow: "hidden",
         zIndex: 999,
         display: "flex",
         flexDirection: "column",
@@ -85,9 +85,13 @@ export default function Sidebar() {
         style={{
           flex: "1 1 auto",
           overflowY: "auto",
-          overflowX: "visible",
+          overflowX: "hidden",
           padding: "1rem 0",
+          // Masquer la scrollbar complètement
+          scrollbarWidth: "none", // Firefox
+          msOverflowStyle: "none", // IE/Edge
         }}
+        className="hide-scrollbar"
       >
         <SidebarLink
           href="/app"
@@ -194,6 +198,13 @@ export default function Sidebar() {
           isActive={pathname === "/app/parametres"}
         />
       </div>
+
+      {/* Style global pour masquer la scrollbar (Chrome/Safari) */}
+      <style jsx global>{`
+        .hide-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+      `}</style>
     </aside>
   );
 }
