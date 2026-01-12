@@ -142,36 +142,27 @@ export default function Sidebar() {
           isActive={pathname === "/app/profs-en-ligne"}
         />
 
-        {/* Section Nos formules - Position absolute pour ne pas affecter le flux */}
+        {/* Section Nos formules - Glisse vers la droite comme les autres */}
         <div
           style={{
-            position: "relative",
-            height: isOpen ? "auto" : "0",
-            margin: isOpen ? "1.5rem 0.75rem 0.5rem" : "0",
-            transition: "all 0.3s ease",
+            margin: "1.5rem 0 0.5rem",
+            paddingLeft: "1rem",
+            paddingRight: "1rem",
+            borderTop: "1px solid rgba(255,255,255,0.1)",
+            paddingTop: "1rem",
           }}
         >
           <div
             style={{
-              borderTop: isOpen ? "1px solid rgba(255,255,255,0.1)" : "none",
-              paddingTop: isOpen ? "1rem" : "0",
-              opacity: isOpen ? 1 : 0,
-              transition: "opacity 0.3s ease",
+              fontSize: "0.7rem",
+              opacity: 0.5,
+              textTransform: "uppercase",
+              letterSpacing: "0.05em",
+              fontWeight: 600,
+              whiteSpace: "nowrap",
             }}
           >
-            <div
-              style={{
-                fontSize: "0.7rem",
-                opacity: 0.5,
-                textTransform: "uppercase",
-                letterSpacing: "0.05em",
-                marginBottom: "0.5rem",
-                paddingLeft: "0.5rem",
-                fontWeight: 600,
-              }}
-            >
-              Nos formules
-            </div>
+            Nos formules
           </div>
         </div>
 
