@@ -9,58 +9,93 @@ type Message = {
   content: string;
 };
 
-// -----------------------------------------------------------------------------
-// Helpers localStorage (mêmes clés que précédemment)
-// -----------------------------------------------------------------------------
-function convKey(conversationId: string) {
-  return `amelys:conv:${conversationId}`;
-}
-function draftKey(conversationId: string) {
-  return `amelys:draft:${conversationId}`;
-}
-function doneKey(conversationId: string) {
-  return `amelys:done:${conversationId}`;
+// Clés localStorage (par conversation)
+const convKey = (id: string) => `amelys:conv:${id}`;
+const draftKey = (id: string) => `amelys:draft:${id}`;
+const doneKey = (id: string) => `amelys:done:${id}`;
+
+// ✅ Récupération robuste de l'id conversation (params OU URL)
+function getConversationIdFromRuntime(params: any): string {
+  // 1) App Router param (ton dossier s'appelle [conversation])
+  const p1 = params?.conversation;
+  if (typeof p1 === "string" && p1.length > 0) return p1;
+
+  // 2) Au cas où (si un jour tu renomme le dossier)
+  const p2 = params?.conversationId;
+  if (typeof p2 === "string" && p2.length > 0) return p2;
+
+  // 3) Fallback inratable: parse depuis l’URL
+  if (typeof window !== "undefined") {
+    const path = window.location.pathname; // ex: /app/c/intro-droit-...-cours-01
+    const marker = "/app/c/";
+    const idx = path.indexOf(marker);
+    if (idx >= 0) {
+      const rest = path.slice(idx + marker.length);
+      if (rest) return decodeURIComponent(rest);
+    }
+  }
+
+  return "";
 }
 
 export default function ConversationPage() {
-  // ---------------------------------------------------------------------------
-  // Récupération du paramètre dynamique /app/c/[conversation]
-  // ---------------------------------------------------------------------------
-  const params = useParams<{ conversation: string }>();
-  const conversationId = params?.conversation ?? "unknown";
+  const params = useParams();
 
-  // ---------------------------------------------------------------------------
-  // Dérivation métier : on extrait le prompt (cours-01, faq, etc.)
-  // ---------------------------------------------------------------------------
+  // On stocke conversationId en state pour le rendre stable après montage
+  const [conversationId, setConversationId] = useState<string>("");
+
+  // États UI
+  const [messages, setMessages] = useState<Message[]>([]);
+  const [input, setInput] = useState("");
+  const [isDone, setIsDone] = useState(false);
+
+  const endRef = useRef<HTMLDivElement>(null);
+
+  // Pour ce MVP: retour vers le module 1
+  const modulePath =
+    "/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit";
+
+  // ✅ Déduire promptSlug (cours-01, etc.) depuis l’id
   const promptSlug = useMemo(() => {
+    if (!conversationId) return "unknown";
     const parts = conversationId.split("-");
     return parts.length >= 2 ? parts.slice(-2).join("-") : "unknown";
   }, [conversationId]);
 
-  // ---------------------------------------------------------------------------
-  // Chemin de retour vers le menu du module (fixe pour ce MVP)
-  // ---------------------------------------------------------------------------
-  const modulePath =
-    "/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit";
-
-  // ---------------------------------------------------------------------------
-  // États locaux
-  // ---------------------------------------------------------------------------
-  const [messages, setMessages] = useState<Message[]>([]);
-  const [input, setInput] = useState("");
-  const [isDone, setIsDone] = useState(false);
-  const endRef = useRef<HTMLDivElement>(null);
-
-  // ---------------------------------------------------------------------------
-  // Chargement initial depuis localStorage (messages, draft, statut terminé)
-  // ---------------------------------------------------------------------------
+  // 1) Récupérer conversationId au montage + quand params changent
   useEffect(() => {
+    const id = getConversationIdFromRuntime(params);
+    setConversationId(id);
+  }, [params]);
+
+  // 2) Charger depuis localStorage (seulement si conversationId valide)
+  useEffect(() => {
+    if (!conversationId) {
+      // État clair si l’ID n’est pas disponible
+      setIsDone(false);
+      setInput("");
+      setMessages([
+        {
+          role: "assistant",
+          content:
+            "Erreur : identifiant de conversation introuvable. Reviens au module et relance l’activité.",
+        },
+      ]);
+      return;
+    }
+
     try {
       const rawMsgs = localStorage.getItem(convKey(conversationId));
       if (rawMsgs) {
         setMessages(JSON.parse(rawMsgs));
       } else {
+        // ✅ Seed mock si pas d’historique
         setMessages([
+          {
+            role: "assistant",
+            content:
+              "(MVP) Je suis Amélys. Tu peux m’écrire ci-dessous : je réponds en mode simulation. Prochaine étape : brancher Bedrock Claude.",
+          },
           {
             role: "assistant",
             content: `Conversation dédiée au prompt : ${promptSlug}. Reste dans le cadre du module et de l’activité.`,
@@ -69,50 +104,50 @@ export default function ConversationPage() {
       }
 
       const rawDraft = localStorage.getItem(draftKey(conversationId));
-      if (rawDraft) setInput(rawDraft);
+      setInput(rawDraft ?? "");
 
       const rawDone = localStorage.getItem(doneKey(conversationId));
       setIsDone(rawDone === "true");
     } catch {
+      setIsDone(false);
+      setInput("");
       setMessages([
         {
           role: "assistant",
           content: `Conversation dédiée au prompt : ${promptSlug}.`,
         },
       ]);
-      setInput("");
-      setIsDone(false);
     }
   }, [conversationId, promptSlug]);
 
-  // ---------------------------------------------------------------------------
-  // Persistance automatique
-  // ---------------------------------------------------------------------------
+  // 3) Persister messages (seulement si conversationId valide)
   useEffect(() => {
+    if (!conversationId) return;
     try {
       localStorage.setItem(convKey(conversationId), JSON.stringify(messages));
     } catch {}
     endRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, conversationId]);
 
+  // 4) Persister draft
   useEffect(() => {
+    if (!conversationId) return;
     try {
       localStorage.setItem(draftKey(conversationId), input);
     } catch {}
   }, [input, conversationId]);
 
+  // 5) Persister done
   useEffect(() => {
+    if (!conversationId) return;
     try {
       localStorage.setItem(doneKey(conversationId), String(isDone));
     } catch {}
   }, [isDone, conversationId]);
 
-  // ---------------------------------------------------------------------------
-  // Actions utilisateur
-  // ---------------------------------------------------------------------------
   function sendMessage() {
     const text = input.trim();
-    if (!text) return;
+    if (!text || !conversationId) return;
 
     setMessages((prev) => [
       ...prev,
@@ -128,11 +163,17 @@ export default function ConversationPage() {
 Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`,
       },
     ]);
-
     setInput("");
   }
 
+  function toggleDone() {
+    if (!conversationId) return;
+    setIsDone((v) => !v);
+  }
+
   function resetConversation() {
+    if (!conversationId) return;
+
     const ok = confirm(
       "Réinitialiser cette conversation ?\n\nCela efface : messages, brouillon et statut “Terminée”."
     );
@@ -151,16 +192,14 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         role: "assistant",
         content: `Conversation réinitialisée. Activité : ${promptSlug}.`,
       },
+      {
+        role: "assistant",
+        content:
+          "(MVP) Tu peux reprendre et je réponds en simulation. Prochaine étape : IA réelle.",
+      },
     ]);
   }
 
-  function toggleDone() {
-    setIsDone((v) => !v);
-  }
-
-  // ---------------------------------------------------------------------------
-  // Rendu
-  // ---------------------------------------------------------------------------
   return (
     <main
       style={{
@@ -172,19 +211,12 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
       }}
     >
       {/* HEADER */}
-      <div
-        style={{
-          flex: "0 0 auto",
-          maxWidth: 980,
-          width: "100%",
-          margin: "0 auto",
-        }}
-      >
+      <div style={{ flex: "0 0 auto", maxWidth: 980, width: "100%", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          {/* ✅ Bouton utile : retour AU MODULE */}
           <Link href={modulePath}>← Retour au module</Link>
 
-          {isDone && (
+          {/* ✅ Badge UNIQUEMENT si conversationId valide + isDone true */}
+          {conversationId && isDone && (
             <span
               style={{
                 marginLeft: 8,
@@ -203,13 +235,16 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
           <div style={{ marginLeft: "auto", display: "flex", gap: 8 }}>
             <button
               onClick={toggleDone}
+              disabled={!conversationId}
               style={{
                 padding: "8px 12px",
                 borderRadius: 12,
                 border: "1px solid rgba(255,255,255,0.25)",
                 background: "transparent",
+                color: "inherit",
                 fontWeight: 700,
-                cursor: "pointer",
+                cursor: conversationId ? "pointer" : "not-allowed",
+                opacity: conversationId ? 1 : 0.5,
               }}
             >
               {isDone ? "Reprendre" : "Marquer comme terminée"}
@@ -217,13 +252,15 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
 
             <button
               onClick={resetConversation}
+              disabled={!conversationId}
               style={{
                 padding: "8px 12px",
                 borderRadius: 12,
                 border: "1px solid rgba(255,255,255,0.18)",
                 background: "transparent",
-                cursor: "pointer",
-                opacity: 0.9,
+                color: "inherit",
+                cursor: conversationId ? "pointer" : "not-allowed",
+                opacity: conversationId ? 0.9 : 0.5,
               }}
             >
               Réinitialiser
@@ -232,10 +269,12 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         </div>
 
         <h1 style={{ marginTop: 12, marginBottom: 6 }}>Conversation Amélys</h1>
-
         <div style={{ opacity: 0.75, fontSize: 14 }}>
           <div>
             <b>Activité</b> : {promptSlug}
+          </div>
+          <div style={{ fontSize: 12, opacity: 0.7 }}>
+            <b>ID</b> : {conversationId || "—"}
           </div>
         </div>
       </div>
@@ -299,23 +338,29 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && sendMessage()}
           placeholder="Écris ta question… (Enter pour envoyer)"
+          disabled={!conversationId}
           style={{
             flex: 1,
             padding: "12px 14px",
             borderRadius: 12,
             border: "1px solid rgba(255,255,255,0.25)",
             background: "transparent",
+            color: "inherit",
+            opacity: conversationId ? 1 : 0.6,
           }}
         />
         <button
           onClick={sendMessage}
+          disabled={!conversationId || input.trim().length === 0}
           style={{
             padding: "12px 18px",
             borderRadius: 12,
             border: "1px solid rgba(255,255,255,0.25)",
             background: "transparent",
+            color: "inherit",
             fontWeight: 700,
-            cursor: "pointer",
+            cursor: !conversationId ? "not-allowed" : "pointer",
+            opacity: !conversationId || input.trim().length === 0 ? 0.5 : 1,
           }}
         >
           Envoyer
