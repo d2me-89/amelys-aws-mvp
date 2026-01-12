@@ -1,6 +1,6 @@
 "use client";
 
-import Sidebar from "./Sidebar-improved";
+import Sidebar from "./Sidebar";
 import { SidebarProvider, useSidebar } from "./SidebarContext";
 
 function AppLayoutContent({ children }: { children: React.ReactNode }) {
