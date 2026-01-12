@@ -1,52 +1,68 @@
 "use client";
 
 import Link from "next/link";
-import { useParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 type Message = { role: "user" | "assistant"; content: string };
 
+// --- Clés localStorage (par conversationId) ---
 const convKey = (id: string) => `amelys:conv:${id}`;
 const draftKey = (id: string) => `amelys:draft:${id}`;
 const doneKey = (id: string) => `amelys:done:${id}`;
 
-export default function ConversationPage() {
-  // ✅ source de vérité : Next te donne params.conversation
-  const params = useParams();
-  const conversationId =
-    typeof (params as any)?.conversation === "string"
-      ? (params as any).conversation
-      : "";
+// --- Extraction robuste de l'id depuis l'URL ---
+// URL attendue : /app/c/<conversationId>
+function readConversationIdFromPathname(): string {
+  if (typeof window === "undefined") return "";
+  const path = window.location.pathname; // ex: /app/c/intro-droit-...-cours-01
+  const marker = "/app/c/";
+  const idx = path.indexOf(marker);
+  if (idx < 0) return "";
+  const rest = path.slice(idx + marker.length);
+  return rest ? decodeURIComponent(rest) : "";
+}
 
+export default function ConversationPage() {
   const modulePath =
     "/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit";
 
-  const promptSlug = useMemo(() => {
-    if (!conversationId) return "unknown";
-    const parts = conversationId.split("-");
-    return parts.length >= 2 ? parts.slice(-2).join("-") : "unknown";
-  }, [conversationId]);
+  // conversationId est lu depuis l'URL (source de vérité)
+  const [conversationId, setConversationId] = useState<string>("");
 
+  // UI state
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isDone, setIsDone] = useState(false);
   const endRef = useRef<HTMLDivElement>(null);
 
-  // ✅ Attendre d’avoir conversationId avant de toucher au localStorage
+  // Déduit le promptSlug depuis la fin de l'id (cours-01, faq, etc.)
+  const promptSlug = useMemo(() => {
+    if (!conversationId) return "";
+    const parts = conversationId.split("-");
+    return parts.length >= 2 ? parts.slice(-2).join("-") : "";
+  }, [conversationId]);
+
+  // 1) Lire l'id au montage (et si l'URL change)
+  useEffect(() => {
+    const id = readConversationIdFromPathname();
+    setConversationId(id);
+  }, []);
+
+  // 2) Charger depuis localStorage (SEULEMENT si conversationId valide)
   useEffect(() => {
     if (!conversationId) return;
 
     try {
-      const rawMsgs = localStorage.getItem(convKey(conversationId));
-      if (rawMsgs) {
-        setMessages(JSON.parse(rawMsgs));
+      const raw = localStorage.getItem(convKey(conversationId));
+      if (raw) {
+        setMessages(JSON.parse(raw));
       } else {
-        // seed mock (comme avant)
+        // Seed mock
         setMessages([
           {
             role: "assistant",
             content:
-              "(MVP) Je suis Amélys. Tu peux m’écrire ci-dessous : je réponds en mode simulation.",
+              "(MVP) Je suis Amélys. Tu peux m’écrire ci-dessous : je réponds en mode simulation. Prochaine étape : brancher Bedrock Claude.",
           },
           {
             role: "assistant",
@@ -59,14 +75,17 @@ export default function ConversationPage() {
       setIsDone(localStorage.getItem(doneKey(conversationId)) === "true");
     } catch {
       setMessages([
-        { role: "assistant", content: `Conversation dédiée au prompt : ${promptSlug}.` },
+        {
+          role: "assistant",
+          content: "(MVP) Erreur de lecture localStorage. Recharge la page.",
+        },
       ]);
       setInput("");
       setIsDone(false);
     }
   }, [conversationId, promptSlug]);
 
-  // persist messages
+  // 3) Persist messages (SEULEMENT si conversationId valide)
   useEffect(() => {
     if (!conversationId) return;
     try {
@@ -75,7 +94,7 @@ export default function ConversationPage() {
     endRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, conversationId]);
 
-  // persist draft
+  // 4) Persist draft
   useEffect(() => {
     if (!conversationId) return;
     try {
@@ -83,7 +102,7 @@ export default function ConversationPage() {
     } catch {}
   }, [input, conversationId]);
 
-  // persist done
+  // 5) Persist done
   useEffect(() => {
     if (!conversationId) return;
     try {
@@ -134,11 +153,19 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
     setIsDone(false);
     setInput("");
     setMessages([
-      { role: "assistant", content: `Conversation réinitialisée. Activité : ${promptSlug}.` },
+      {
+        role: "assistant",
+        content: `Conversation réinitialisée. Activité : ${promptSlug}.`,
+      },
+      {
+        role: "assistant",
+        content:
+          "(MVP) Tu peux reprendre et je réponds en simulation.",
+      },
     ]);
   }
 
-  // ✅ Si l’ID n’est pas encore dispo, on affiche un écran neutre (1 seconde max)
+  // Écran neutre tant que l'id n'est pas lu
   if (!conversationId) {
     return (
       <main style={{ padding: 16, fontFamily: "sans-serif" }}>
@@ -160,6 +187,7 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         padding: 16,
       }}
     >
+      {/* Header */}
       <div style={{ flex: "0 0 auto", maxWidth: 980, width: "100%", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <Link href={modulePath}>← Retour au module</Link>
@@ -216,11 +244,12 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         <h1 style={{ marginTop: 12, marginBottom: 6 }}>Conversation Amélys</h1>
         <div style={{ opacity: 0.75, fontSize: 14 }}>
           <div>
-            <b>Activité</b> : {promptSlug}
+            <b>Activité</b> : {promptSlug || "—"}
           </div>
         </div>
       </div>
 
+      {/* Messages */}
       <div
         style={{
           flex: "1 1 auto",
@@ -263,6 +292,7 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         <div ref={endRef} />
       </div>
 
+      {/* Input */}
       <div
         style={{
           flex: "0 0 auto",
