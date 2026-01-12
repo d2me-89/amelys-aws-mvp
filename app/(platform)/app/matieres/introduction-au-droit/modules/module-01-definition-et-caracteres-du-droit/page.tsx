@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 
 type Prompt = {
   slug: string;
@@ -18,12 +18,11 @@ type Prompt = {
 };
 
 // -----------------------------------------------------------------------------
-// Constantes métier (slug du module + liste des 22 activités)
+// Slug du module + liste des 22 activités
 // -----------------------------------------------------------------------------
 const moduleSlug = "module-01-definition-et-caracteres-du-droit";
 
 const prompts: Prompt[] = [
-  // 10 cours
   ...Array.from({ length: 10 }).map((_, i) => ({
     slug: `cours-${String(i + 1).padStart(2, "0")}`,
     label: `Cours ${i + 1}`,
@@ -31,19 +30,16 @@ const prompts: Prompt[] = [
   })),
   { slug: "points-cles", label: "Points-clés", kind: "points-cles" },
   { slug: "faq", label: "FAQ", kind: "faq" },
-  // 2 cas pratiques
   ...Array.from({ length: 2 }).map((_, i) => ({
     slug: `cas-pratique-${String(i + 1).padStart(2, "0")}`,
     label: `Cas pratique ${i + 1}`,
     kind: "cas-pratique" as const,
   })),
-  // 3 commentaires
   ...Array.from({ length: 3 }).map((_, i) => ({
     slug: `commentaire-${String(i + 1).padStart(2, "0")}`,
     label: `Commentaire ${i + 1}`,
     kind: "commentaire" as const,
   })),
-  // 3 dissertations
   ...Array.from({ length: 3 }).map((_, i) => ({
     slug: `dissertation-${String(i + 1).padStart(2, "0")}`,
     label: `Dissertation ${i + 1}`,
@@ -54,39 +50,38 @@ const prompts: Prompt[] = [
 ];
 
 // -----------------------------------------------------------------------------
-// Convention d'ID : la conversation est unique par (matière + module + prompt)
-// -> exactement la même convention que sur la page prompt et la page conversation
+// Convention de conversationId (doit matcher celle de la conversation page)
 // -----------------------------------------------------------------------------
 function conversationIdFor(promptSlug: string) {
   return `intro-droit-${moduleSlug}-${promptSlug}`;
 }
 
-// Clé localStorage utilisée pour le statut "Terminée" (identique à la page chat)
+// Clé localStorage du statut "Terminée" (doit matcher celle de la conversation page)
 function doneKey(conversationId: string) {
   return `amelys:done:${conversationId}`;
 }
 
 export default function Module1Page() {
-  // -----------------------------------------------------------------------------
-  // État local : map { promptSlug -> true/false } pour savoir si chaque activité est terminée
-  // -----------------------------------------------------------------------------
+  // Map { promptSlug -> bool }
   const [doneMap, setDoneMap] = useState<Record<string, boolean>>({});
 
-  // -----------------------------------------------------------------------------
-  // Chargement : on lit localStorage pour chaque prompt
-  // (au montage de la page, puis on pourra recharger si besoin)
-  // -----------------------------------------------------------------------------
-  useEffect(() => {
+  const basePath = useMemo(
+    () => `/app/matieres/introduction-au-droit/modules/${moduleSlug}`,
+    []
+  );
+
+  // ---------------------------------------------------------------------------
+  // Fonction centralisée: relire tous les statuts depuis localStorage
+  // (utile au montage + quand on revient sur la page)
+  // ---------------------------------------------------------------------------
+  const reloadDoneMap = useCallback(() => {
     const nextMap: Record<string, boolean> = {};
 
     for (const p of prompts) {
       const convId = conversationIdFor(p.slug);
-
       try {
-        // "true" => terminé ; sinon pas terminé
         nextMap[p.slug] = localStorage.getItem(doneKey(convId)) === "true";
       } catch {
-        // si localStorage est indispo, on considère "non terminé"
         nextMap[p.slug] = false;
       }
     }
@@ -94,32 +89,77 @@ export default function Module1Page() {
     setDoneMap(nextMap);
   }, []);
 
-  // -----------------------------------------------------------------------------
-  // Pour éviter de recalculer 100 fois des strings d'URL à chaque rendu
-  // -----------------------------------------------------------------------------
-  const basePath = useMemo(() => {
-    return `/app/matieres/introduction-au-droit/modules/${moduleSlug}`;
-  }, []);
+  // ---------------------------------------------------------------------------
+  // 1) Lecture initiale au montage
+  // ---------------------------------------------------------------------------
+  useEffect(() => {
+    reloadDoneMap();
+  }, [reloadDoneMap]);
+
+  // ---------------------------------------------------------------------------
+  // 2) Rechargement quand on revient sur l’onglet / la page (retour depuis conversation)
+  // ---------------------------------------------------------------------------
+  useEffect(() => {
+    const onFocus = () => reloadDoneMap();
+    const onVisibility = () => {
+      if (document.visibilityState === "visible") reloadDoneMap();
+    };
+
+    window.addEventListener("focus", onFocus);
+    document.addEventListener("visibilitychange", onVisibility);
+
+    return () => {
+      window.removeEventListener("focus", onFocus);
+      document.removeEventListener("visibilitychange", onVisibility);
+    };
+  }, [reloadDoneMap]);
+
+  // ---------------------------------------------------------------------------
+  // 3) Si changement depuis un AUTRE onglet: event "storage"
+  // (ne se déclenche pas dans le même onglet, mais utile quand même)
+  // ---------------------------------------------------------------------------
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key && e.key.startsWith("amelys:done:")) {
+        reloadDoneMap();
+      }
+    };
+    window.addEventListener("storage", onStorage);
+    return () => window.removeEventListener("storage", onStorage);
+  }, [reloadDoneMap]);
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      {/* Navigation */}
-      <div style={{ marginBottom: "1rem" }}>
+      <div style={{ marginBottom: "1rem", display: "flex", gap: 12 }}>
         <Link href="/app/matieres/introduction-au-droit">
           ← Retour Introduction au droit
         </Link>
+
+        {/* Petit bouton utile en MVP (facultatif) */}
+        <button
+          onClick={reloadDoneMap}
+          style={{
+            border: "1px solid rgba(255,255,255,0.15)",
+            background: "transparent",
+            color: "inherit",
+            borderRadius: 10,
+            padding: "6px 10px",
+            cursor: "pointer",
+            opacity: 0.9,
+          }}
+        >
+          Rafraîchir
+        </button>
       </div>
 
-      {/* Titre module */}
       <h1 style={{ marginBottom: "0.25rem" }}>
         Module 1 — Définition et caractères du droit
       </h1>
       <p style={{ marginTop: 0, opacity: 0.8 }}>
-        22 activités guidées : 10 cours, points-clés, FAQ, 2 cas pratiques, 3 commentaires,
-        3 dissertations, note de synthèse, TD.
+        22 activités guidées : 10 cours, points-clés, FAQ, 2 cas pratiques, 3
+        commentaires, 3 dissertations, note de synthèse, TD.
       </p>
 
-      {/* Grille des 22 boutons */}
       <div
         style={{
           display: "grid",
@@ -144,7 +184,6 @@ export default function Module1Page() {
                 position: "relative",
               }}
             >
-              {/* Pastille "Terminée" (verte) */}
               {isDone && (
                 <span
                   style={{
@@ -163,15 +202,12 @@ export default function Module1Page() {
                 </span>
               )}
 
-              {/* Type (cours / faq / etc.) */}
               <div style={{ fontSize: 12, opacity: 0.7, marginBottom: 6 }}>
                 {p.kind}
               </div>
 
-              {/* Libellé */}
               <div style={{ fontWeight: 700 }}>{p.label}</div>
 
-              {/* Micro-indication (optionnelle) */}
               <div style={{ fontSize: 12, opacity: 0.65, marginTop: 8 }}>
                 Ouvrir la conversation dédiée
               </div>
@@ -180,11 +216,10 @@ export default function Module1Page() {
         })}
       </div>
 
-      {/* Note : si tu veux une mise à jour "live" sans refresh :
-          on pourra ajouter un bouton "Rafraîchir" ou un event listener "storage". */}
       <div style={{ marginTop: 14, fontSize: 12, opacity: 0.65 }}>
-        Astuce : si tu marques une activité “Terminée” dans un autre onglet, un refresh
-        de cette page mettra à jour les pastilles.
+        Les pastilles “Terminée” se mettent à jour automatiquement quand tu reviens
+        sur cette page (focus/visibilité). Le bouton “Rafraîchir” est un filet de
+        sécurité MVP.
       </div>
     </main>
   );
