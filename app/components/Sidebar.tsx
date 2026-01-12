@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 import { useSidebar } from "./SidebarContext";
 
 export default function Sidebar() {
@@ -196,7 +197,7 @@ export default function Sidebar() {
   );
 }
 
-// Composant SidebarLink
+// Composant SidebarLink avec tooltip
 interface SidebarLinkProps {
   href: string;
   icon: string;
@@ -206,50 +207,94 @@ interface SidebarLinkProps {
 }
 
 function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) {
+  const [showTooltip, setShowTooltip] = useState(false);
+
   return (
-    <Link
-      href={href}
-      style={{
-        display: "flex",
-        alignItems: "center",
-        gap: "0.75rem",
-        padding: isOpen ? "0.75rem 1rem" : "0.75rem",
-        margin: "0.25rem 0.5rem",
-        borderRadius: "8px",
-        textDecoration: "none",
-        color: isActive ? "rgba(255,255,255,1)" : "rgba(255,255,255,0.7)",
-        transition: "all 0.2s ease",
-        fontSize: "0.95rem",
-        background: isActive ? "rgba(255,193,7,0.25)" : "transparent",
-        justifyContent: isOpen ? "flex-start" : "center",
-        position: "relative",
-        fontWeight: isActive ? 600 : 400,
-      }}
-      onMouseEnter={(e) => {
-        if (!isActive) {
-          e.currentTarget.style.background = "rgba(255,193,7,0.1)";
-          e.currentTarget.style.color = "rgba(255,255,255,1)";
-        }
-      }}
-      onMouseLeave={(e) => {
-        if (!isActive) {
-          e.currentTarget.style.background = "transparent";
-          e.currentTarget.style.color = "rgba(255,255,255,0.7)";
-        }
-      }}
-    >
-      <span
+    <div style={{ position: "relative" }}>
+      <Link
+        href={href}
         style={{
-          fontSize: "1.3rem",
-          minWidth: "1.5rem",
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
+          gap: "0.75rem",
+          padding: isOpen ? "0.75rem 1rem" : "0.75rem",
+          margin: "0.25rem 0.5rem",
+          borderRadius: "8px",
+          textDecoration: "none",
+          color: isActive ? "rgba(255,255,255,1)" : "rgba(255,255,255,0.7)",
+          transition: "all 0.2s ease",
+          fontSize: "0.95rem",
+          background: isActive ? "rgba(255,193,7,0.25)" : "transparent",
+          justifyContent: isOpen ? "flex-start" : "center",
+          position: "relative",
+          fontWeight: isActive ? 600 : 400,
+        }}
+        onMouseEnter={(e) => {
+          if (!isOpen) setShowTooltip(true);
+          if (!isActive) {
+            e.currentTarget.style.background = "rgba(255,193,7,0.1)";
+            e.currentTarget.style.color = "rgba(255,255,255,1)";
+          }
+        }}
+        onMouseLeave={(e) => {
+          setShowTooltip(false);
+          if (!isActive) {
+            e.currentTarget.style.background = "transparent";
+            e.currentTarget.style.color = "rgba(255,255,255,0.7)";
+          }
         }}
       >
-        {icon}
-      </span>
-      {isOpen && <span style={{ whiteSpace: "nowrap" }}>{label}</span>}
-    </Link>
+        <span
+          style={{
+            fontSize: "1.3rem",
+            minWidth: "1.5rem",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          {icon}
+        </span>
+        {isOpen && <span style={{ whiteSpace: "nowrap" }}>{label}</span>}
+      </Link>
+
+      {/* Tooltip (bulle) - visible uniquement en mode réduit */}
+      {!isOpen && showTooltip && (
+        <div
+          style={{
+            position: "absolute",
+            left: "75px",
+            top: "50%",
+            transform: "translateY(-50%)",
+            background: "rgba(20,30,50,0.95)",
+            color: "white",
+            padding: "0.5rem 0.75rem",
+            borderRadius: "6px",
+            fontSize: "0.9rem",
+            whiteSpace: "nowrap",
+            zIndex: 1000,
+            boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+            border: "1px solid rgba(255,255,255,0.1)",
+            pointerEvents: "none",
+          }}
+        >
+          {label}
+          {/* Petite flèche pointant vers la gauche */}
+          <div
+            style={{
+              position: "absolute",
+              left: "-6px",
+              top: "50%",
+              transform: "translateY(-50%)",
+              width: 0,
+              height: 0,
+              borderTop: "6px solid transparent",
+              borderBottom: "6px solid transparent",
+              borderRight: "6px solid rgba(20,30,50,0.95)",
+            }}
+          />
+        </div>
+      )}
+    </div>
   );
 }
