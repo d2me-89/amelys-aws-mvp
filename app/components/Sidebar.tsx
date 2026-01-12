@@ -142,34 +142,36 @@ export default function Sidebar() {
           isActive={pathname === "/app/profs-en-ligne"}
         />
 
-        {/* Section Nos formules - Glisse vers la droite comme les autres */}
-        <div
-          style={{
-            margin: "1.5rem 0 0.5rem",
-            paddingLeft: "1rem",
-            paddingRight: "1rem",
-            borderTop: "1px solid rgba(255,255,255,0.1)",
-            paddingTop: "1rem",
-          }}
-        >
+        {/* Section Nos formules - Visible uniquement en mode étendu */}
+        {isOpen && (
           <div
             style={{
-              fontSize: "0.7rem",
-              opacity: 0.5,
-              textTransform: "uppercase",
-              letterSpacing: "0.05em",
-              fontWeight: 600,
-              whiteSpace: "nowrap",
+              margin: "1.5rem 0 0.5rem",
+              paddingLeft: "1rem",
+              paddingRight: "1rem",
+              borderTop: "1px solid rgba(255,255,255,0.1)",
+              paddingTop: "1rem",
             }}
           >
-            Nos formules
+            <div
+              style={{
+                fontSize: "0.7rem",
+                opacity: 0.5,
+                textTransform: "uppercase",
+                letterSpacing: "0.05em",
+                fontWeight: 600,
+                whiteSpace: "nowrap",
+              }}
+            >
+              Nos formules
+            </div>
           </div>
-        </div>
+        )}
 
         <SidebarLink
           href="/app/formules"
           icon="🎓"
-          label="Découvrir"
+          label="Nos formules"
           isOpen={isOpen}
           isActive={pathname === "/app/formules"}
         />
