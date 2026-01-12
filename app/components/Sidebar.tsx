@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useSidebar } from "./SidebarContext";
 
 export default function Sidebar() {
@@ -198,7 +198,7 @@ export default function Sidebar() {
   );
 }
 
-// Composant SidebarLink avec tooltip
+// Composant SidebarLink avec tooltip positionné correctement
 interface SidebarLinkProps {
   href: string;
   icon: string;
@@ -209,10 +209,36 @@ interface SidebarLinkProps {
 
 function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) {
   const [showTooltip, setShowTooltip] = useState(false);
+  const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
+  const linkRef = useRef<HTMLAnchorElement>(null);
+
+  const handleMouseEnter = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (!isOpen && linkRef.current) {
+      const rect = linkRef.current.getBoundingClientRect();
+      setTooltipPosition({
+        top: rect.top + rect.height / 2,
+        left: 80,
+      });
+      setShowTooltip(true);
+    }
+    if (!isActive) {
+      e.currentTarget.style.background = "rgba(255,193,7,0.1)";
+      e.currentTarget.style.color = "rgba(255,255,255,1)";
+    }
+  };
+
+  const handleMouseLeave = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    setShowTooltip(false);
+    if (!isActive) {
+      e.currentTarget.style.background = "transparent";
+      e.currentTarget.style.color = "rgba(255,255,255,0.7)";
+    }
+  };
 
   return (
-    <div style={{ position: "relative" }}>
+    <>
       <Link
+        ref={linkRef}
         href={href}
         style={{
           display: "flex",
@@ -230,20 +256,8 @@ function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) 
           position: "relative",
           fontWeight: isActive ? 600 : 400,
         }}
-        onMouseEnter={(e) => {
-          if (!isOpen) setShowTooltip(true);
-          if (!isActive) {
-            e.currentTarget.style.background = "rgba(255,193,7,0.1)";
-            e.currentTarget.style.color = "rgba(255,255,255,1)";
-          }
-        }}
-        onMouseLeave={(e) => {
-          setShowTooltip(false);
-          if (!isActive) {
-            e.currentTarget.style.background = "transparent";
-            e.currentTarget.style.color = "rgba(255,255,255,0.7)";
-          }
-        }}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         <span
           style={{
@@ -264,8 +278,9 @@ function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) 
         <div
           style={{
             position: "fixed",
-            left: "80px",
-            top: "auto",
+            left: `${tooltipPosition.left}px`,
+            top: `${tooltipPosition.top}px`,
+            transform: "translateY(-50%)",
             background: "rgba(30,40,60,0.98)",
             color: "white",
             padding: "0.6rem 1rem",
@@ -296,6 +311,6 @@ function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) 
           />
         </div>
       )}
-    </div>
+    </>
   );
 }
