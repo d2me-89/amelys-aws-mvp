@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AppLayout from "../../../components/AppLayout";
+import AppLayout from "../../../../../components/AppLayout";
 
 export default function IntroDroitPage() {
   return (
@@ -16,6 +16,15 @@ export default function IntroDroitPage() {
 
         <Link
           href="/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit"
+          style={{
+            display: "inline-block",
+            padding: "0.75rem 1rem",
+            background: "rgba(102, 126, 234, 0.15)",
+            borderRadius: "8px",
+            textDecoration: "none",
+            color: "inherit",
+            border: "1px solid rgba(102, 126, 234, 0.3)",
+          }}
         >
           Ouvrir le Module 1 — Définition et caractères du Droit
         </Link>
