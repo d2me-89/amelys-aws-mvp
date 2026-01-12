@@ -78,7 +78,7 @@ export default function Module1Page() {
         {prompts.map((p) => (
           <Link
             key={p.slug}
-            href={`/app/matieres/introduction-au-droit/modules/module-01-notion-de-droit/prompts/${p.slug}`}
+            href={`/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit/prompts/${p.slug}`}
             style={{
               border: "1px solid rgba(255,255,255,0.15)",
               borderRadius: 14,
