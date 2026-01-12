@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import React, { useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 
 type ChatMsg = {
   id: string;
@@ -14,34 +14,27 @@ function uid() {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
 
+function storageKey(conversationId: string) {
+  return `amelys:conv:${conversationId}`;
+}
+
+function draftKey(conversationId: string) {
+  return `amelys:draft:${conversationId}`;
+}
+
 export default function ConversationPage() {
   const params = useParams();
 
   const conversationId =
     typeof params.conversation === "string" ? params.conversation : "unknown";
 
-  // Extrait un prompt comme "cours-01" depuis la fin de l’ID
   const prompt = useMemo(() => {
     const parts = conversationId.split("-");
     if (parts.length >= 2) return parts.slice(-2).join("-");
     return "unknown";
   }, [conversationId]);
 
-  const [messages, setMessages] = useState<ChatMsg[]>([
-    {
-      id: uid(),
-      role: "assistant",
-      content:
-        "(MVP) Je suis Amélys. Tu peux m’écrire ci-dessous : je réponds en mode simulation. Prochaine étape : brancher Bedrock Claude.",
-    },
-    {
-      id: uid(),
-      role: "assistant",
-      content:
-        `Conversation dédiée au prompt : ${prompt}. Reste dans le cadre du module et de l’activité.`,
-    },
-  ]);
-
+  const [messages, setMessages] = useState<ChatMsg[]>([]);
   const [input, setInput] = useState("");
   const [isThinking, setIsThinking] = useState(false);
   const endRef = useRef<HTMLDivElement | null>(null);
@@ -56,6 +49,80 @@ export default function ConversationPage() {
     setMessages((prev) => [...prev, { id: uid(), role, content }]);
   }
 
+  // ✅ 1) Chargement initial depuis localStorage (messages + draft)
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(storageKey(conversationId));
+      if (raw) {
+        const parsed = JSON.parse(raw) as ChatMsg[];
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setMessages(parsed);
+        } else {
+          setMessages([
+            {
+              id: uid(),
+              role: "assistant",
+              content:
+                "(MVP) Je suis Amélys. Tu peux m’écrire ci-dessous : je réponds en mode simulation. Prochaine étape : brancher Bedrock Claude.",
+            },
+            {
+              id: uid(),
+              role: "assistant",
+              content: `Conversation dédiée au prompt : ${prompt}. Reste dans le cadre du module et de l’activité.`,
+            },
+          ]);
+        }
+      } else {
+        setMessages([
+          {
+            id: uid(),
+            role: "assistant",
+            content:
+              "(MVP) Je suis Amélys. Tu peux m’écrire ci-dessous : je réponds en mode simulation. Prochaine étape : brancher Bedrock Claude.",
+          },
+          {
+            id: uid(),
+            role: "assistant",
+            content: `Conversation dédiée au prompt : ${prompt}. Reste dans le cadre du module et de l’activité.`,
+          },
+        ]);
+      }
+
+      const draft = localStorage.getItem(draftKey(conversationId));
+      if (draft) setInput(draft);
+    } catch {
+      // si localStorage bloqué ou JSON cassé, on repart proprement
+      setMessages([
+        {
+          id: uid(),
+          role: "assistant",
+          content:
+            "(MVP) Je suis Amélys. Tu peux m’écrire ci-dessous : je réponds en mode simulation.",
+        },
+      ]);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [conversationId]);
+
+  // ✅ 2) Sauvegarde automatique (messages) dans localStorage
+  useEffect(() => {
+    if (!messages || messages.length === 0) return;
+    try {
+      localStorage.setItem(storageKey(conversationId), JSON.stringify(messages));
+    } catch {
+      // ignore (quota, privacy mode, etc.)
+    }
+  }, [messages, conversationId]);
+
+  // ✅ 3) Sauvegarde du brouillon (input) par conversation
+  useEffect(() => {
+    try {
+      localStorage.setItem(draftKey(conversationId), input);
+    } catch {
+      // ignore
+    }
+  }, [input, conversationId]);
+
   async function handleSend() {
     const text = input.trim();
     if (!text || isThinking) return;
@@ -68,7 +135,6 @@ export default function ConversationPage() {
     // Mock: réponse Amélys après 700ms
     await new Promise((r) => setTimeout(r, 700));
 
-    // Réponse mock cadrée (simple)
     const reply =
       `Réponse (mock) sur ${prompt} :\n\n` +
       `1) Reformulation : ${text}\n` +
@@ -88,10 +154,47 @@ export default function ConversationPage() {
     }
   }
 
+  function clearConversation() {
+    if (!confirm("Effacer l’historique de cette conversation ?")) return;
+    try {
+      localStorage.removeItem(storageKey(conversationId));
+      localStorage.removeItem(draftKey(conversationId));
+    } catch {
+      // ignore
+    }
+    setInput("");
+    setMessages([
+      {
+        id: uid(),
+        role: "assistant",
+        content:
+          "(MVP) Historique effacé. Repars sur une question et je réponds en simulation.",
+      },
+      {
+        id: uid(),
+        role: "assistant",
+        content: `Conversation dédiée au prompt : ${prompt}.`,
+      },
+    ]);
+  }
+
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 980 }}>
-      <div style={{ marginBottom: "1rem" }}>
+      <div style={{ marginBottom: "1rem", display: "flex", gap: 12 }}>
         <Link href="/app">← Retour /app</Link>
+        <button
+          onClick={clearConversation}
+          style={{
+            border: "1px solid rgba(255,255,255,0.15)",
+            background: "transparent",
+            color: "inherit",
+            borderRadius: 10,
+            padding: "6px 10px",
+            cursor: "pointer",
+          }}
+        >
+          Effacer
+        </button>
       </div>
 
       <h1 style={{ marginBottom: 6 }}>Conversation Amélys</h1>
@@ -201,8 +304,8 @@ export default function ConversationPage() {
       </div>
 
       <div style={{ marginTop: 10, fontSize: 12, opacity: 0.7 }}>
-        Prochaine étape : remplacer la réponse mock par un appel API streaming
-        vers Bedrock Claude, et persister les messages par conversation.
+        ✔️ Messages persistés en local (par conversationId). Prochaine étape :
+        brancher une API streaming vers Bedrock + persister côté DB.
       </div>
     </main>
   );
