@@ -27,17 +27,34 @@ export default function Sidebar() {
         boxShadow: "2px 0 10px rgba(0,0,0,0.3)",
       }}
     >
-      {/* Header avec bouton toggle */}
+      {/* Header avec layout inversé */}
       <div
         style={{
           padding: "1.5rem 1rem",
           borderBottom: "1px solid rgba(255,255,255,0.1)",
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-between",
+          justifyContent: isOpen ? "space-between" : "center",
           minHeight: "70px",
         }}
       >
+        {/* Amélys - à gauche, disparaît en mode réduit */}
+        {isOpen && (
+          <div
+            style={{
+              fontWeight: 700,
+              fontSize: "1.3rem",
+              background: "linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Amélys
+          </div>
+        )}
+
+        {/* Bouton ☰ - à droite en mode étendu, centré en mode réduit */}
         <button
           onClick={toggleSidebar}
           style={{
@@ -62,22 +79,6 @@ export default function Sidebar() {
         >
           ☰
         </button>
-
-        <div
-          style={{
-            fontWeight: 700,
-            fontSize: "1.3rem",
-            background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            marginLeft: "0.5rem",
-            whiteSpace: "nowrap",
-            opacity: isOpen ? 1 : 0,
-            transition: "opacity 0.3s ease",
-          }}
-        >
-          Amélys
-        </div>
       </div>
 
       {/* Navigation principale */}
