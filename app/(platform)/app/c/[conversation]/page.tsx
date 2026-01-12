@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
@@ -9,95 +9,58 @@ type Message = {
   content: string;
 };
 
-function convKey(conversationId: string) {
-  return `amelys:conv:${conversationId}`;
-}
-function draftKey(conversationId: string) {
-  return `amelys:draft:${conversationId}`;
-}
-function doneKey(conversationId: string) {
-  return `amelys:done:${conversationId}`;
-}
-
 export default function ConversationPage() {
   const params = useParams<{ conversation: string }>();
   const conversationId = params?.conversation ?? "unknown";
 
-  const promptSlug = useMemo(() => {
-    const parts = conversationId.split("-");
-    return parts.length >= 2 ? parts.slice(-2).join("-") : "unknown";
-  }, [conversationId]);
+  // promptSlug dérivé (simple MVP)
+  const promptSlug =
+    conversationId.split("-").slice(-2).join("-") || "unknown";
+
+  const storageKey = `conversation:${conversationId}`;
 
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
-  const [isDone, setIsDone] = useState(false);
   const endRef = useRef<HTMLDivElement>(null);
 
-  // ⬇️ Charger (messages + draft + done) depuis localStorage
+  // 🔹 Charger depuis localStorage
   useEffect(() => {
-    try {
-      const rawMsgs = localStorage.getItem(convKey(conversationId));
-      if (rawMsgs) {
-        setMessages(JSON.parse(rawMsgs));
-      } else {
-        setMessages([
-          {
-            role: "assistant",
-            content: `Conversation dédiée au prompt : ${promptSlug}. Reste dans le cadre du module et de l’activité.`,
-          },
-        ]);
+    const raw = localStorage.getItem(storageKey);
+    if (raw) {
+      try {
+        setMessages(JSON.parse(raw));
+      } catch {
+        setMessages([]);
       }
-
-      const rawDraft = localStorage.getItem(draftKey(conversationId));
-      if (rawDraft) setInput(rawDraft);
-
-      const rawDone = localStorage.getItem(doneKey(conversationId));
-      setIsDone(rawDone === "true");
-    } catch {
+    } else {
       setMessages([
         {
           role: "assistant",
-          content: `Conversation dédiée au prompt : ${promptSlug}.`,
+          content: `Conversation dédiée au prompt : ${promptSlug}. Reste dans le cadre du module et de l’activité.`,
         },
       ]);
-      setInput("");
-      setIsDone(false);
     }
-  }, [conversationId, promptSlug]);
+  }, [storageKey, promptSlug]);
 
-  // ⬇️ Sauvegarder messages
+  // 🔹 Sauvegarder
   useEffect(() => {
-    try {
-      localStorage.setItem(convKey(conversationId), JSON.stringify(messages));
-    } catch {}
+    localStorage.setItem(storageKey, JSON.stringify(messages));
     endRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, conversationId]);
-
-  // ⬇️ Sauvegarder draft
-  useEffect(() => {
-    try {
-      localStorage.setItem(draftKey(conversationId), input);
-    } catch {}
-  }, [input, conversationId]);
-
-  // ⬇️ Sauvegarder done
-  useEffect(() => {
-    try {
-      localStorage.setItem(doneKey(conversationId), String(isDone));
-    } catch {}
-  }, [isDone, conversationId]);
+  }, [messages, storageKey]);
 
   function sendMessage() {
-    const text = input.trim();
-    if (!text) return;
+    if (!input.trim()) return;
 
-    const userMessage: Message = { role: "user", content: text };
+    const userMessage: Message = {
+      role: "user",
+      content: input,
+    };
 
     const assistantMock: Message = {
       role: "assistant",
       content: `Réponse (mock) sur ${promptSlug} :
 
-1) Reformulation : ${text}
+1) Reformulation : ${input}
 2) Point clé : …
 3) Exemple (droit) : …
 
@@ -106,32 +69,6 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
 
     setMessages((prev) => [...prev, userMessage, assistantMock]);
     setInput("");
-  }
-
-  function resetConversation() {
-    const ok = confirm(
-      "Réinitialiser cette conversation ?\n\nCela efface : messages, brouillon et statut “Terminée”."
-    );
-    if (!ok) return;
-
-    try {
-      localStorage.removeItem(convKey(conversationId));
-      localStorage.removeItem(draftKey(conversationId));
-      localStorage.removeItem(doneKey(conversationId));
-    } catch {}
-
-    setIsDone(false);
-    setInput("");
-    setMessages([
-      {
-        role: "assistant",
-        content: `Conversation réinitialisée. Activité : ${promptSlug}. Pose ta question et je réponds (mock).`,
-      },
-    ]);
-  }
-
-  function toggleDone() {
-    setIsDone((v) => !v);
   }
 
   return (
@@ -153,67 +90,15 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
           margin: "0 auto",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <Link href="/app">← Retour /app</Link>
+        <Link href="/app">← Retour /app</Link>
 
-          {/* Badge Terminée */}
-          {isDone && (
-            <span
-              style={{
-                marginLeft: 8,
-                fontSize: 12,
-                fontWeight: 800,
-                padding: "4px 10px",
-                borderRadius: 999,
-                border: "1px solid rgba(0, 255, 150, 0.4)",
-                background: "rgba(0, 255, 150, 0.12)",
-              }}
-            >
-              ✅ Terminée
-            </span>
-          )}
-
-          <div style={{ marginLeft: "auto", display: "flex", gap: 8 }}>
-            <button
-              onClick={toggleDone}
-              style={{
-                padding: "8px 12px",
-                borderRadius: 12,
-                border: "1px solid rgba(255,255,255,0.25)",
-                background: "transparent",
-                color: "inherit",
-                fontWeight: 700,
-                cursor: "pointer",
-              }}
-            >
-              {isDone ? "Reprendre" : "Marquer comme terminée"}
-            </button>
-
-            <button
-              onClick={resetConversation}
-              style={{
-                padding: "8px 12px",
-                borderRadius: 12,
-                border: "1px solid rgba(255,255,255,0.18)",
-                background: "transparent",
-                color: "inherit",
-                cursor: "pointer",
-                opacity: 0.9,
-              }}
-            >
-              Réinitialiser
-            </button>
-          </div>
-        </div>
-
-        <h1 style={{ marginTop: 12, marginBottom: 6 }}>Conversation Amélys</h1>
-
+        <h1 style={{ marginTop: 12 }}>Conversation Amélys</h1>
         <div style={{ opacity: 0.75, fontSize: 14 }}>
           <div>
             <b>Conversation ID</b> : {conversationId}
           </div>
           <div>
-            <b>Activité</b> : {promptSlug}
+            <b>Prompt</b> : {promptSlug}
           </div>
         </div>
       </div>
@@ -238,7 +123,8 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
             style={{
               marginBottom: 16,
               display: "flex",
-              justifyContent: m.role === "user" ? "flex-end" : "flex-start",
+              justifyContent:
+                m.role === "user" ? "flex-end" : "flex-start",
             }}
           >
             <div
@@ -310,7 +196,8 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
           opacity: 0.6,
         }}
       >
-        ✔️ Messages + statut “Terminée” persistés en local (par conversationId).
+        Prochaine étape : remplacer la réponse mock par un appel API streaming
+        vers Bedrock Claude, et persister les messages côté backend.
       </div>
     </main>
   );
