@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AppLayout from "../../components/AppLayout";
+import AppLayout from "../../components/AppLayout"; 
 
 export default function AppHome() {
   return (
@@ -7,7 +7,7 @@ export default function AppHome() {
       <div style={{ 
         padding: "2rem", 
         fontFamily: "sans-serif",
-        maxWidth: "1200px",
+        maxWidth: "1201px",
         margin: "0 auto"
       }}>
         <h1>Amélys — Plateforme d'enseignement du droit</h1>
