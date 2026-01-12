@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AppHome() {
   return (
     <main style={{ 
@@ -30,8 +32,8 @@ export default function AppHome() {
             textDecoration: "none",
             color: "inherit",
             display: "block"
-          }}
-        >
+         }}
+        >  
           <h3 style={{ marginTop: 0 }}>📚 Introduction au droit</h3>
           <p style={{ margin: 0, opacity: 0.8 }}>
             5 parties • 25 modules • 550 activités
