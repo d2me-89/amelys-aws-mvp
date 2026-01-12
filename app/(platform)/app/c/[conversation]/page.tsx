@@ -9,6 +9,7 @@ type Message = {
   content: string;
 };
 
+// mêmes clés que le module
 function convKey(conversationId: string) {
   return `amelys:conv:${conversationId}`;
 }
@@ -20,23 +21,50 @@ function doneKey(conversationId: string) {
 }
 
 export default function ConversationPage() {
-  const params = useParams<{ conversation: string }>();
-  const conversationId = params?.conversation ?? "unknown";
+  // ✅ version stable : useParams() sans générique + extraction manuelle
+  const params = useParams();
+  const conversationId =
+    typeof (params as any)?.conversation === "string"
+      ? (params as any).conversation
+      : "";
 
+  // Si jamais l’URL est malformée, on évite de polluer localStorage avec "unknown"
+  const safeConversationId = conversationId || "invalid-conversation";
+
+  // ✅ extraction stable du promptSlug (cours-01, etc.)
   const promptSlug = useMemo(() => {
+    if (!conversationId) return "unknown";
     const parts = conversationId.split("-");
     return parts.length >= 2 ? parts.slice(-2).join("-") : "unknown";
   }, [conversationId]);
+
+  // retour module (fixe pour MVP)
+  const modulePath =
+    "/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit";
 
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isDone, setIsDone] = useState(false);
   const endRef = useRef<HTMLDivElement>(null);
 
-  // ⬇️ Charger (messages + draft + done) depuis localStorage
+  // ✅ Load depuis localStorage (messages + draft + done)
   useEffect(() => {
+    // si conversationId absent, on affiche juste un état neutre
+    if (!conversationId) {
+      setMessages([
+        {
+          role: "assistant",
+          content:
+            "Erreur : identifiant de conversation manquant dans l’URL. Reviens au module et relance.",
+        },
+      ]);
+      setInput("");
+      setIsDone(false);
+      return;
+    }
+
     try {
-      const rawMsgs = localStorage.getItem(convKey(conversationId));
+      const rawMsgs = localStorage.getItem(convKey(safeConversationId));
       if (rawMsgs) {
         setMessages(JSON.parse(rawMsgs));
       } else {
@@ -48,10 +76,10 @@ export default function ConversationPage() {
         ]);
       }
 
-      const rawDraft = localStorage.getItem(draftKey(conversationId));
-      if (rawDraft) setInput(rawDraft);
+      const rawDraft = localStorage.getItem(draftKey(safeConversationId));
+      setInput(rawDraft ?? "");
 
-      const rawDone = localStorage.getItem(doneKey(conversationId));
+      const rawDone = localStorage.getItem(doneKey(safeConversationId));
       setIsDone(rawDone === "true");
     } catch {
       setMessages([
@@ -63,61 +91,71 @@ export default function ConversationPage() {
       setInput("");
       setIsDone(false);
     }
-  }, [conversationId, promptSlug]);
+  }, [conversationId, safeConversationId, promptSlug]);
 
-  // ⬇️ Sauvegarder messages
+  // ✅ Persist messages (uniquement si conversationId valide)
   useEffect(() => {
+    if (!conversationId) return;
     try {
-      localStorage.setItem(convKey(conversationId), JSON.stringify(messages));
+      localStorage.setItem(convKey(safeConversationId), JSON.stringify(messages));
     } catch {}
     endRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, conversationId]);
+  }, [messages, conversationId, safeConversationId]);
 
-  // ⬇️ Sauvegarder draft
+  // ✅ Persist draft
   useEffect(() => {
+    if (!conversationId) return;
     try {
-      localStorage.setItem(draftKey(conversationId), input);
+      localStorage.setItem(draftKey(safeConversationId), input);
     } catch {}
-  }, [input, conversationId]);
+  }, [input, conversationId, safeConversationId]);
 
-  // ⬇️ Sauvegarder done
+  // ✅ Persist done
   useEffect(() => {
+    if (!conversationId) return;
     try {
-      localStorage.setItem(doneKey(conversationId), String(isDone));
+      localStorage.setItem(doneKey(safeConversationId), String(isDone));
     } catch {}
-  }, [isDone, conversationId]);
+  }, [isDone, conversationId, safeConversationId]);
 
   function sendMessage() {
     const text = input.trim();
-    if (!text) return;
+    if (!text || !conversationId) return;
 
-    const userMessage: Message = { role: "user", content: text };
-
-    const assistantMock: Message = {
-      role: "assistant",
-      content: `Réponse (mock) sur ${promptSlug} :
+    setMessages((prev) => [
+      ...prev,
+      { role: "user", content: text },
+      {
+        role: "assistant",
+        content: `Réponse (mock) sur ${promptSlug} :
 
 1) Reformulation : ${text}
 2) Point clé : …
 3) Exemple (droit) : …
 
 Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`,
-    };
-
-    setMessages((prev) => [...prev, userMessage, assistantMock]);
+      },
+    ]);
     setInput("");
   }
 
+  function toggleDone() {
+    if (!conversationId) return;
+    setIsDone((v) => !v);
+  }
+
   function resetConversation() {
+    if (!conversationId) return;
+
     const ok = confirm(
       "Réinitialiser cette conversation ?\n\nCela efface : messages, brouillon et statut “Terminée”."
     );
     if (!ok) return;
 
     try {
-      localStorage.removeItem(convKey(conversationId));
-      localStorage.removeItem(draftKey(conversationId));
-      localStorage.removeItem(doneKey(conversationId));
+      localStorage.removeItem(convKey(safeConversationId));
+      localStorage.removeItem(draftKey(safeConversationId));
+      localStorage.removeItem(doneKey(safeConversationId));
     } catch {}
 
     setIsDone(false);
@@ -125,13 +163,9 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
     setMessages([
       {
         role: "assistant",
-        content: `Conversation réinitialisée. Activité : ${promptSlug}. Pose ta question et je réponds (mock).`,
+        content: `Conversation réinitialisée. Activité : ${promptSlug}.`,
       },
     ]);
-  }
-
-  function toggleDone() {
-    setIsDone((v) => !v);
   }
 
   return (
@@ -145,18 +179,11 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
       }}
     >
       {/* HEADER */}
-      <div
-        style={{
-          flex: "0 0 auto",
-          maxWidth: 980,
-          width: "100%",
-          margin: "0 auto",
-        }}
-      >
+      <div style={{ flex: "0 0 auto", maxWidth: 980, width: "100%", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <Link href="/app">← Retour /app</Link>
+          <Link href={modulePath}>← Retour au module</Link>
 
-          {/* Badge Terminée */}
+          {/* ✅ pastille UNIQUEMENT si isDone === true */}
           {isDone && (
             <span
               style={{
@@ -207,11 +234,7 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         </div>
 
         <h1 style={{ marginTop: 12, marginBottom: 6 }}>Conversation Amélys</h1>
-
         <div style={{ opacity: 0.75, fontSize: 14 }}>
-          <div>
-            <b>Conversation ID</b> : {conversationId}
-          </div>
           <div>
             <b>Activité</b> : {promptSlug}
           </div>
@@ -300,17 +323,6 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         >
           Envoyer
         </button>
-      </div>
-
-      <div
-        style={{
-          maxWidth: 980,
-          margin: "8px auto 0",
-          fontSize: 12,
-          opacity: 0.6,
-        }}
-      >
-        ✔️ Messages + statut “Terminée” persistés en local (par conversationId).
       </div>
     </main>
   );
