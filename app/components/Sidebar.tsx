@@ -63,21 +63,21 @@ export default function Sidebar() {
           ☰
         </button>
 
-        {isOpen && (
-          <div
-            style={{
-              fontWeight: 700,
-              fontSize: "1.3rem",
-              background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              marginLeft: "0.5rem",
-              whiteSpace: "nowrap",
-            }}
-          >
-            Amélys
-          </div>
-        )}
+        <div
+          style={{
+            fontWeight: 700,
+            fontSize: "1.3rem",
+            background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            marginLeft: "0.5rem",
+            whiteSpace: "nowrap",
+            opacity: isOpen ? 1 : 0,
+            transition: "opacity 0.3s ease",
+          }}
+        >
+          Amélys
+        </div>
       </div>
 
       {/* Navigation principale */}
@@ -87,9 +87,8 @@ export default function Sidebar() {
           overflowY: "auto",
           overflowX: "hidden",
           padding: "1rem 0",
-          // Masquer la scrollbar complètement
-          scrollbarWidth: "none", // Firefox
-          msOverflowStyle: "none", // IE/Edge
+          scrollbarWidth: "none",
+          msOverflowStyle: "none",
         }}
         className="hide-scrollbar"
       >
@@ -143,30 +142,33 @@ export default function Sidebar() {
           isActive={pathname === "/app/profs-en-ligne"}
         />
 
-        {/* Section Nos formules */}
-        {isOpen && (
+        {/* Section Nos formules - Toujours présente mais invisible en mode réduit */}
+        <div
+          style={{
+            margin: "1.5rem 0.75rem 0.5rem",
+            borderTop: "1px solid rgba(255,255,255,0.1)",
+            paddingTop: "1rem",
+            maxHeight: isOpen ? "100px" : "0",
+            opacity: isOpen ? 1 : 0,
+            overflow: "hidden",
+            transition: "all 0.3s ease",
+          }}
+        >
           <div
             style={{
-              margin: "1.5rem 0.75rem 0.5rem",
-              borderTop: "1px solid rgba(255,255,255,0.1)",
-              paddingTop: "1rem",
+              fontSize: "0.7rem",
+              opacity: 0.5,
+              textTransform: "uppercase",
+              letterSpacing: "0.05em",
+              marginBottom: "0.5rem",
+              paddingLeft: "0.5rem",
+              fontWeight: 600,
             }}
           >
-            <div
-              style={{
-                fontSize: "0.7rem",
-                opacity: 0.5,
-                textTransform: "uppercase",
-                letterSpacing: "0.05em",
-                marginBottom: "0.5rem",
-                paddingLeft: "0.5rem",
-                fontWeight: 600,
-              }}
-            >
-              Nos formules
-            </div>
+            Nos formules
           </div>
-        )}
+        </div>
+
         <SidebarLink
           href="/app/formules"
           icon="🎓"
@@ -199,7 +201,7 @@ export default function Sidebar() {
         />
       </div>
 
-      {/* Style global pour masquer la scrollbar (Chrome/Safari) */}
+      {/* Style global pour masquer la scrollbar */}
       <style jsx global>{`
         .hide-scrollbar::-webkit-scrollbar {
           display: none;
