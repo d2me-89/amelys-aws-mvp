@@ -1,63 +1,75 @@
 "use client";
 
 import Link from "next/link";
+import { useParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 type Message = { role: "user" | "assistant"; content: string };
 
-// --- Clés localStorage (par conversationId) ---
+// localStorage keys (scopées par conversationId)
 const convKey = (id: string) => `amelys:conv:${id}`;
 const draftKey = (id: string) => `amelys:draft:${id}`;
 const doneKey = (id: string) => `amelys:done:${id}`;
 
-// --- Extraction robuste de l'id depuis l'URL ---
-// URL attendue : /app/c/<conversationId>
-function readConversationIdFromPathname(): string {
-  if (typeof window === "undefined") return "";
-  const path = window.location.pathname; // ex: /app/c/intro-droit-...-cours-01
-  const marker = "/app/c/";
-  const idx = path.indexOf(marker);
-  if (idx < 0) return "";
-  const rest = path.slice(idx + marker.length);
-  return rest ? decodeURIComponent(rest) : "";
+// module path (MVP fixe)
+const modulePath =
+  "/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit";
+
+// liste blanche des slugs (pour extraire proprement l’activité)
+const allowedPromptSlugs: string[] = [
+  ...Array.from({ length: 10 }).map((_, i) => `cours-${String(i + 1).padStart(2, "0")}`),
+  "points-cles",
+  "faq",
+  "cas-pratique-01",
+  "cas-pratique-02",
+  "commentaire-01",
+  "commentaire-02",
+  "commentaire-03",
+  "dissertation-01",
+  "dissertation-02",
+  "dissertation-03",
+  "note-de-synthese",
+  "td",
+];
+
+function extractPromptSlug(conversationId: string): string {
+  for (const slug of allowedPromptSlugs) {
+    if (conversationId === slug) return slug;
+    if (conversationId.endsWith(`-${slug}`)) return slug;
+  }
+  return "unknown";
 }
 
 export default function ConversationPage() {
-  const modulePath =
-    "/app/matieres/introduction-au-droit/modules/module-01-definition-et-caracteres-du-droit";
+  // ✅ Source officielle Next.js : /app/c/[conversation] => params.conversation
+  const params = useParams();
 
-  // conversationId est lu depuis l'URL (source de vérité)
-  const [conversationId, setConversationId] = useState<string>("");
+  // conversationId doit venir de Next. On ne met PAS "unknown" ici.
+  const conversationId =
+    typeof (params as any)?.conversation === "string"
+      ? (params as any).conversation
+      : "";
 
-  // UI state
+  const promptSlug = useMemo(() => {
+    if (!conversationId) return "unknown";
+    return extractPromptSlug(conversationId);
+  }, [conversationId]);
+
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isDone, setIsDone] = useState(false);
   const endRef = useRef<HTMLDivElement>(null);
 
-  // Déduit le promptSlug depuis la fin de l'id (cours-01, faq, etc.)
-  const promptSlug = useMemo(() => {
-    if (!conversationId) return "";
-    const parts = conversationId.split("-");
-    return parts.length >= 2 ? parts.slice(-2).join("-") : "";
-  }, [conversationId]);
-
-  // 1) Lire l'id au montage (et si l'URL change)
-  useEffect(() => {
-    const id = readConversationIdFromPathname();
-    setConversationId(id);
-  }, []);
-
-  // 2) Charger depuis localStorage (SEULEMENT si conversationId valide)
+  // ✅ Charger depuis localStorage uniquement quand l’ID est dispo
   useEffect(() => {
     if (!conversationId) return;
 
     try {
-      const raw = localStorage.getItem(convKey(conversationId));
-      if (raw) {
-        setMessages(JSON.parse(raw));
+      const rawMsgs = localStorage.getItem(convKey(conversationId));
+      if (rawMsgs) {
+        setMessages(JSON.parse(rawMsgs));
       } else {
-        // Seed mock
+        // Seed mock (si aucune conversation enregistrée)
         setMessages([
           {
             role: "assistant",
@@ -77,7 +89,7 @@ export default function ConversationPage() {
       setMessages([
         {
           role: "assistant",
-          content: "(MVP) Erreur de lecture localStorage. Recharge la page.",
+          content: "(MVP) Erreur localStorage. Recharge la page.",
         },
       ]);
       setInput("");
@@ -85,7 +97,7 @@ export default function ConversationPage() {
     }
   }, [conversationId, promptSlug]);
 
-  // 3) Persist messages (SEULEMENT si conversationId valide)
+  // ✅ Persistance messages (uniquement si l’ID est dispo)
   useEffect(() => {
     if (!conversationId) return;
     try {
@@ -94,7 +106,7 @@ export default function ConversationPage() {
     endRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, conversationId]);
 
-  // 4) Persist draft
+  // ✅ Persistance draft
   useEffect(() => {
     if (!conversationId) return;
     try {
@@ -102,7 +114,7 @@ export default function ConversationPage() {
     } catch {}
   }, [input, conversationId]);
 
-  // 5) Persist done
+  // ✅ Persistance done
   useEffect(() => {
     if (!conversationId) return;
     try {
@@ -153,26 +165,17 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
     setIsDone(false);
     setInput("");
     setMessages([
-      {
-        role: "assistant",
-        content: `Conversation réinitialisée. Activité : ${promptSlug}.`,
-      },
-      {
-        role: "assistant",
-        content:
-          "(MVP) Tu peux reprendre et je réponds en simulation.",
-      },
+      { role: "assistant", content: `Conversation réinitialisée. Activité : ${promptSlug}.` },
+      { role: "assistant", content: "(MVP) Tu peux reprendre et je réponds en simulation." },
     ]);
   }
 
-  // Écran neutre tant que l'id n'est pas lu
+  // ✅ Tant que Next n’a pas injecté le param, on montre un écran neutre
   if (!conversationId) {
     return (
       <main style={{ padding: 16, fontFamily: "sans-serif" }}>
         <Link href={modulePath}>← Retour au module</Link>
-        <div style={{ marginTop: 16, opacity: 0.8 }}>
-          Chargement de la conversation…
-        </div>
+        <div style={{ marginTop: 16, opacity: 0.8 }}>Chargement…</div>
       </main>
     );
   }
@@ -187,11 +190,12 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         padding: 16,
       }}
     >
-      {/* Header */}
+      {/* HEADER */}
       <div style={{ flex: "0 0 auto", maxWidth: 980, width: "100%", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <Link href={modulePath}>← Retour au module</Link>
 
+          {/* badge uniquement si done=true pour CETTE conversationId */}
           {isDone && (
             <span
               style={{
@@ -244,12 +248,15 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         <h1 style={{ marginTop: 12, marginBottom: 6 }}>Conversation Amélys</h1>
         <div style={{ opacity: 0.75, fontSize: 14 }}>
           <div>
-            <b>Activité</b> : {promptSlug || "—"}
+            <b>Activité</b> : {promptSlug}
+          </div>
+          <div style={{ fontSize: 12, opacity: 0.7 }}>
+            <b>ID</b> : {conversationId}
           </div>
         </div>
       </div>
 
-      {/* Messages */}
+      {/* MESSAGES */}
       <div
         style={{
           flex: "1 1 auto",
@@ -292,7 +299,7 @@ Pose-moi une question plus précise (définition, exemple, méthode, mini-cas).`
         <div ref={endRef} />
       </div>
 
-      {/* Input */}
+      {/* INPUT */}
       <div
         style={{
           flex: "0 0 auto",
