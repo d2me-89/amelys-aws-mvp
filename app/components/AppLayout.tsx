@@ -1,9 +1,14 @@
 "use client";
 
+import { ReactNode } from "react";
 import Sidebar from "./Sidebar";
 import { SidebarProvider, useSidebar } from "./SidebarContext";
 
-function AppLayoutContent({ children }: { children: React.ReactNode }) {
+interface AppLayoutContentProps {
+  children: ReactNode;
+}
+
+function AppLayoutContent({ children }: AppLayoutContentProps) {
   const { isOpen } = useSidebar();
 
   return (
@@ -13,7 +18,7 @@ function AppLayoutContent({ children }: { children: React.ReactNode }) {
       <main
         style={{
           flex: 1,
-          marginLeft: isOpen ? "240px" : "0",
+          marginLeft: isOpen ? "240px" : "70px",
           transition: "margin-left 0.3s ease",
           minHeight: "100vh",
         }}
@@ -24,7 +29,11 @@ function AppLayoutContent({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default function AppLayout({ children }: { children: React.ReactNode }) {
+interface AppLayoutProps {
+  children: ReactNode;
+}
+
+export default function AppLayout({ children }: AppLayoutProps) {
   return (
     <SidebarProvider>
       <AppLayoutContent>{children}</AppLayoutContent>
