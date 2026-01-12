@@ -20,7 +20,7 @@ export default function Sidebar() {
         background: "linear-gradient(180deg, rgba(20,20,35,0.98) 0%, rgba(15,15,25,0.98) 100%)",
         borderRight: "1px solid rgba(255,255,255,0.1)",
         transition: "width 0.3s ease",
-        overflow: "hidden",
+        overflow: "visible",
         zIndex: 999,
         display: "flex",
         flexDirection: "column",
@@ -72,6 +72,7 @@ export default function Sidebar() {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               marginLeft: "0.5rem",
+              whiteSpace: "nowrap",
             }}
           >
             Amélys
@@ -84,7 +85,7 @@ export default function Sidebar() {
         style={{
           flex: "1 1 auto",
           overflowY: "auto",
-          overflowX: "hidden",
+          overflowX: "visible",
           padding: "1rem 0",
         }}
       >
@@ -262,20 +263,20 @@ function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) 
       {!isOpen && showTooltip && (
         <div
           style={{
-            position: "absolute",
-            left: "75px",
-            top: "50%",
-            transform: "translateY(-50%)",
-            background: "rgba(20,30,50,0.95)",
+            position: "fixed",
+            left: "80px",
+            top: "auto",
+            background: "rgba(30,40,60,0.98)",
             color: "white",
-            padding: "0.5rem 0.75rem",
-            borderRadius: "6px",
+            padding: "0.6rem 1rem",
+            borderRadius: "8px",
             fontSize: "0.9rem",
             whiteSpace: "nowrap",
-            zIndex: 1000,
-            boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
-            border: "1px solid rgba(255,255,255,0.1)",
+            zIndex: 10000,
+            boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
+            border: "1px solid rgba(255,255,255,0.15)",
             pointerEvents: "none",
+            fontWeight: 500,
           }}
         >
           {label}
@@ -283,14 +284,14 @@ function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) 
           <div
             style={{
               position: "absolute",
-              left: "-6px",
+              left: "-7px",
               top: "50%",
               transform: "translateY(-50%)",
               width: 0,
               height: 0,
-              borderTop: "6px solid transparent",
-              borderBottom: "6px solid transparent",
-              borderRight: "6px solid rgba(20,30,50,0.95)",
+              borderTop: "7px solid transparent",
+              borderBottom: "7px solid transparent",
+              borderRight: "7px solid rgba(30,40,60,0.98)",
             }}
           />
         </div>
