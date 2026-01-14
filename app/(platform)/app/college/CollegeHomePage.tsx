@@ -5,8 +5,8 @@ export default function CollegePage() {
   return (
     <AppLayout>
       <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-        <h1>Sixième</h1>
-        <p>MVP — Matières</p>
+        <h1>Collège</h1>
+        <p>MVP — Années</p>
 
         <div style={{ marginTop: "1rem" }}>
           <Link href="/app">← Retour /app</Link>
