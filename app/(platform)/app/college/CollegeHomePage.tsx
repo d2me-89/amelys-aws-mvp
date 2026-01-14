@@ -4,25 +4,10 @@ import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState } from "react";
 
-// Import des icônes React Icons
-import { 
-  FaCalculator,      // Mathématiques
-  FaBook,            // Français
-  FaGlobeAmericas,   // Géographie
-  FaMicroscope,      // Sciences
-  FaBalanceScale,    // EMC
-  FaLanguage,        // Langues (Anglais/Allemand)
-  FaFlag             // Alternative pour langues
-} from "react-icons/fa";
-
-import { 
-  GiGreekTemple      // Histoire
-} from "react-icons/gi";
-
 type Matiere = {
   id: string;
   nom: string;
-  Icon: any;  // Toutes les matières ont une icône React
+  emoji: string;
   seances: number;
   path: string;
 };
@@ -42,56 +27,56 @@ export default function CollegePage() {
     {
       id: "mathematiques",
       nom: "Mathématiques 6ème",
-      Icon: FaCalculator,
+      emoji: "📐",
       seances: 12,
       path: "/app/college/sixieme/matieres/mathematiques"
     },
     {
       id: "francais",
       nom: "Français 6ème",
-      Icon: FaBook,
+      emoji: "📖",
       seances: 15,
       path: "/app/college/sixieme/matieres/francais"
     },
     {
       id: "anglais",
       nom: "Anglais 6ème",
-      Icon: FaLanguage,  // Icône langue pour Anglais
+      emoji: "🇬🇧",
       seances: 10,
       path: "/app/college/sixieme/matieres/anglais"
     },
     {
       id: "allemand",
       nom: "Allemand 6ème",
-      Icon: FaLanguage,  // Icône langue pour Allemand
+      emoji: "🇩🇪",
       seances: 10,
       path: "/app/college/sixieme/matieres/allemand"
     },
     {
       id: "histoire",
       nom: "Histoire 6ème",
-      Icon: GiGreekTemple,
+      emoji: "🏛️",
       seances: 11,
       path: "/app/college/sixieme/matieres/histoire"
     },
     {
       id: "geographie",
       nom: "Géographie 6ème",
-      Icon: FaGlobeAmericas,
+      emoji: "🌍",
       seances: 9,
       path: "/app/college/sixieme/matieres/geographie"
     },
     {
       id: "sciences",
       nom: "Sciences 6ème",
-      Icon: FaMicroscope,
+      emoji: "🔬",
       seances: 13,
       path: "/app/college/sixieme/matieres/sciences"
     },
     {
       id: "emc",
       nom: "Enseignement Moral et Civique 6ème",
-      Icon: FaBalanceScale,
+      emoji: "⚖️",
       seances: 8,
       path: "/app/college/sixieme/matieres/emc"
     }
@@ -195,8 +180,6 @@ export default function CollegePage() {
               margin: "0 auto"
             }}>
               {matieresSixieme.map((matiere) => {
-                const IconComponent = matiere.Icon;
-                
                 return (
                   <Link
                     key={matiere.id}
@@ -261,14 +244,10 @@ export default function CollegePage() {
                             : "0 4px 12px rgba(0,0,0,0.1)",
                           transition: "all 0.3s ease"
                         }}>
-                          {/* Icône React Icons en noir stylisé */}
-                          <IconComponent 
-                            size={36}
-                            style={{
-                              color: "#1a1a1a",
-                              filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.1))"
-                            }}
-                          />
+                          {/* Emoji */}
+                          <span style={{ fontSize: "2.2rem" }}>
+                            {matiere.emoji}
+                          </span>
                         </div>
                       </div>
 
