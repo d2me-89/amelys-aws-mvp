@@ -1,0 +1,414 @@
+niveau: Sixième
+
+disciplines:
+  - discipline: Mathématiques
+    themes:
+      - theme: Thème 1
+        titre: Nombres, calculs, résolution de problèmes
+        chapitres:
+          - numero: 1
+            titre: Les nombres entiers
+          - numero: 2
+            titre: Les nombres décimaux
+          - numero: 3
+            titre: Les fractions
+          - numero: 4
+            titre: Introduction à la résolution de problèmes
+
+      - theme: Thème 2
+        titre: Grandeurs et mesures
+        chapitres:
+          - numero: 5
+            titre: Les longueurs, les aires et les volumes
+          - numero: 6
+            titre: Le repérage dans le temps et les durées
+          - numero: 7
+            titre: La proportionnalité
+
+      - theme: Thème 3
+        titre: Espace et géométrie
+        chapitres:
+          - numero: 8
+            titre: La distance, le cercle, le disque
+          - numero: 9
+            titre: Les angles et les triangles
+          - numero: 10
+            titre: La symétrie
+          - numero: 11
+            titre: La vision dans l'espace
+
+      - theme: Thème 4
+        titre: Organisation et gestion de données, probabilités
+        chapitres:
+          - numero: 12
+            titre: Organisation et gestion de données
+          - numero: 13
+            titre: Les probabilités
+
+      - theme: Thème 5
+        titre: Initiation à la pensée informatique
+        chapitres:
+          - numero: 14
+            titre: Initiation à la pensée informatique
+
+  - discipline: Français
+    themes:
+      - theme: Thème 1
+        titre: Grammaire
+        chapitres:
+          - numero: 1
+            titre: La nature d'un mot
+          - numero: 2
+            titre: La fonction grammaticale d'un mot
+          - numero: 3
+            titre: Les déterminants
+          - numero: 4
+            titre: L'adjectif qualificatif
+          - numero: 5
+            titre: Le groupe nominal
+          - numero: 6
+            titre: Les pronoms
+          - numero: 7
+            titre: Le verbe
+          - numero: 8
+            titre: Les adverbes
+          - numero: 9
+            titre: Les prépositions
+          - numero: 10
+            titre: Le sujet
+          - numero: 11
+            titre: L'attribut du sujet
+          - numero: 12
+            titre: Le COD et le COI
+          - numero: 13
+            titre: Le complément du nom
+          - numero: 14
+            titre: Les compléments circonstanciels
+          - numero: 15
+            titre: La phrase simple
+          - numero: 16
+            titre: Les conjonctions de coordination
+          - numero: 17
+            titre: La phrase complexe
+          - numero: 18
+            titre: Les connecteurs spatiotemporels
+
+      - theme: Thème 2
+        titre: Conjugaison
+        chapitres:
+          - numero: 19
+            titre: Le présent de l’indicatif
+          - numero: 20
+            titre: L’imparfait de l’indicatif
+          - numero: 21
+            titre: Le passé simple
+          - numero: 22
+            titre: Le futur simple
+          - numero: 23
+            titre: Les temps composés : passé composé et plus-que-parfait
+          - numero: 24
+            titre: La valeur des temps de l'indicatif
+          - numero: 25
+            titre: Le conditionnel présent
+          - numero: 26
+            titre: L’impératif présent
+
+      - theme: Thème 3
+        titre: Orthographe et vocabulaire
+        chapitres:
+          - numero: 27
+            titre: Les accords dans le groupe nominal
+          - numero: 28
+            titre: Les accords de l'adjectif qualificatif
+          - numero: 29
+            titre: L'accord du verbe avec le sujet
+          - numero: 30
+            titre: L'accord du participe passé
+          - numero: 31
+            titre: La formation et l'étymologie des mots
+          - numero: 32
+            titre: Les synonymes et les antonymes
+          - numero: 33
+            titre: La polysémie et les homonymes
+          - numero: 34
+            titre: Les familles de mots et le champ lexical
+          - numero: 35
+            titre: Les homophones
+
+      - theme: Thème 4
+        titre: Culture littéraire
+        chapitres:
+          - numero: 36
+            titre: Créer, recréer le monde : récit des origines
+          - numero: 37
+            titre: Chanter et enchanter le monde : mots et merveilles
+          - numero: 38
+            titre: Se masquer, jouer, déjouer : ruses en action
+          - numero: 39
+            titre: Partir à l'aventure
+          - numero: 40
+            titre: Rencontrer des monstres : expérience de l’autre, expérience de soi
+
+      - theme: Thème 5
+        titre: Étude de textes et d'images
+        chapitres:
+          - numero: 41
+            titre: Les différents types de textes
+          - numero: 42
+            titre: L'auteur, le narrateur et le personnage
+          - numero: 43
+            titre: Les figures de style
+          - numero: 44
+            titre: Les genres littéraires
+          - numero: 45
+            titre: Les registres littéraires
+          - numero: 46
+            titre: L'analyse de l'image
+
+  - discipline: Histoire
+    themes:
+      - theme: Thème 1
+        titre: La longue histoire de l’humanité et des migrations
+        chapitres:
+          - numero: 1
+            titre: Les débuts de l'humanité
+          - numero: 2
+            titre: La « révolution » néolithique
+          - numero: 3
+            titre: Premiers États, premières écritures
+
+      - theme: Thème 2
+        titre: Récits fondateurs, croyances et citoyenneté dans la Méditerranée antique
+        chapitres:
+          - numero: 4
+            titre: Le monde des cités grecques
+          - numero: 5
+            titre: Rome, du mythe à l’histoire
+          - numero: 6
+            titre: La naissance du monothéisme juif
+
+      - theme: Thème 3
+        titre: L'Empire romain dans le monde antique
+        chapitres:
+          - numero: 7
+            titre: Conquêtes, paix romaine et romanisation
+          - numero: 8
+            titre: Des chrétiens dans l'Empire romain
+          - numero: 9
+            titre: Les relations avec les autres mondes anciens
+
+  - discipline: Géographie
+    themes:
+      - theme: Thème 1
+        titre: Habiter une métropole
+        chapitres:
+          - numero: 1
+            titre: Les métropoles et leurs habitants
+          - numero: 2
+            titre: La ville de demain
+
+      - theme: Thème 2
+        titre: Habiter un espace de faible densité
+        chapitres:
+          - numero: 3
+            titre: Habiter un espace à fortes contraintes naturelles
+          - numero: 4
+            titre: Habiter un espace de faible densité agricole
+
+      - theme: Thème 3
+        titre: Habiter les littoraux
+        chapitres:
+          - numero: 5
+            titre: Littoraux industrialo-portuaires et touristiques
+
+      - theme: Thème 4
+        titre: Le monde habité
+        chapitres:
+          - numero: 6
+            titre: La répartition de la population mondiale
+          - numero: 7
+            titre: La diversité des formes d’occupation spatiale
+
+  - discipline: Sciences
+    themes:
+      - theme: Thème 1
+        titre: Matière, mouvement, énergie, information
+        chapitres:
+          - numero: 1
+            titre: La diversité de la matière
+          - numero: 2
+            titre: Les propriétés de la matière
+          - numero: 3
+            titre: Les états physiques de la matière
+          - numero: 4
+            titre: La matière à grande échelle
+          - numero: 5
+            titre: Les mélanges
+          - numero: 6
+            titre: La séparation des constituants d'un mélange
+          - numero: 7
+            titre: Les mouvements
+          - numero: 8
+            titre: Les formes de l'énergie
+          - numero: 9
+            titre: Les conversions et le stockage de l'énergie
+          - numero: 10
+            titre: La transmission d'information par un signal
+
+      - theme: Thème 2
+        titre: Le vivant et son environnement
+        chapitres:
+          - numero: 11
+            titre: L’unité et la diversité du vivant
+          - numero: 12
+            titre: L'histoire de la biodiversité
+          - numero: 13
+            titre: L'alimentation humaine
+          - numero: 14
+            titre: Les micro-organismes et l’alimentation
+          - numero: 15
+            titre: Le développement des êtres vivants
+          - numero: 16
+            titre: La production de matière par le vivant
+
+      - theme: Thème 3
+        titre: Matériaux et objets techniques
+        chapitres:
+          - numero: 17
+            titre: Le tri et le recyclage
+          - numero: 18
+            titre: Les objets techniques
+
+      - theme: Thème 4
+        titre: La Terre et les êtres vivants
+        chapitres:
+          - numero: 19
+            titre: La planète Terre
+          - numero: 20
+            titre: La répartition du vivant
+          - numero: 21
+            titre: Les actions humaines sur l’environnement
+
+  - discipline: Anglais
+    themes:
+      - theme: Thème 1
+        titre: Maîtrise de la langue
+        chapitres:
+          - numero: 1
+            titre: Les nombres
+          - numero: 2
+            titre: La date et l'heure
+          - numero: 3
+            titre: Les noms
+          - numero: 4
+            titre: Les articles
+          - numero: 5
+            titre: Les quantifieurs
+          - numero: 6
+            titre: Les pronoms personnels et réfléchis
+          - numero: 7
+            titre: Les possessifs
+          - numero: 8
+            titre: Le génitif
+          - numero: 9
+            titre: Les démonstratifs
+          - numero: 10
+            titre: Les adjectifs qualificatifs
+          - numero: 11
+            titre: Le comparatif et le superlatif
+          - numero: 12
+            titre: Les prépositions de lieu et de temps
+          - numero: 13
+            titre: La conjugaison de « be »
+          - numero: 14
+            titre: La conjugaison de « have »
+          - numero: 15
+            titre: Le présent simple
+          - numero: 16
+            titre: Le présent en « be-ing »
+          - numero: 17
+            titre: Le prétérit simple et « be-ing »
+          - numero: 18
+            titre: Les verbes irréguliers
+          - numero: 19
+            titre: Les auxiliaires modaux
+          - numero: 20
+            titre: Le futur
+          - numero: 21
+            titre: L'impératif
+          - numero: 22
+            titre: Les pronoms relatifs
+          - numero: 23
+            titre: Les adverbes
+          - numero: 24
+            titre: Les mots de liaison
+          - numero: 25
+            titre: Les formes interrogatives
+          - numero: 26
+            titre: Les question tags
+          - numero: 27
+            titre: La forme exclamative
+
+      - theme: Thème 2
+        titre: Civilisation
+        chapitres:
+          - numero: 1
+            titre: Se présenter
+          - numero: 2
+            titre: La famille et la maison
+          - numero: 3
+            titre: L'école
+          - numero: 4
+            titre: Les habitudes alimentaires
+          - numero: 5
+            titre: Le corps et les vêtements
+          - numero: 6
+            titre: Les animaux familiers
+          - numero: 7
+            titre: Sports et loisirs
+          - numero: 8
+            titre: Les métiers
+          - numero: 9
+            titre: L'habitat et la ville
+          - numero: 10
+            titre: Le Royaume-Uni
+          - numero: 11
+            titre: L'Irlande
+          - numero: 12
+            titre: L'Amérique du Nord
+          - numero: 13
+            titre: L'Australie
+          - numero: 14
+            titre: Le continent indien
+          - numero: 15
+            titre: L'Afrique anglophone
+          - numero: 16
+            titre: La vie sociale
+          - numero: 17
+            titre: Les monuments célèbres
+          - numero: 18
+            titre: La faune et la flore
+          - numero: 19
+            titre: Personnages célèbres
+          - numero: 20
+            titre: Livres célèbres
+          - numero: 21
+            titre: Films célèbres
+          - numero: 22
+            titre: Musiques célèbres
+
+  - discipline: Enseignement moral et civique
+    themes:
+      - theme: Thème 1
+        titre: Les valeurs et principes de la République
+        chapitres:
+          - numero: 1
+            titre: Les valeurs et symboles de la République et de l'Union européenne
+          - numero: 2
+            titre: Droits et devoirs
+          - numero: 3
+            titre: L'égalité entre les femmes et les hommes
+          - numero: 4
+            titre: Le principe de la laïcité
+          - numero: 5
+            titre: La fraternité et la solidarité

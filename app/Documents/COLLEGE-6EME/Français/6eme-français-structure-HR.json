@@ -1,0 +1,1031 @@
+[
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "La nature d'un mot" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des principales classes grammaticales" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les classes grammaticales variables et invariables" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Donner la nature d'un déterminant, d'un nom, d'un verbe, d'un adjectif et d'un pronom" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les noms" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les déterminants" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les adjectifs" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les conjonctions de coordination" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Repérer une conjonction de subordination dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les prépositions" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Trouver les pronoms personnels" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les pronoms de reprise" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Repérer le verbe conjugué" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier les adverbes" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer si un mot est variable ou invariable" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "La fonction grammaticale d'un mot" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier nature et fonction d'un nom" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Trouver la fonction d'un nom" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Trouver la fonction d'un verbe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Les déterminants" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des déterminants" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si un groupe nominal est un groupe nominal minimal" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier le déterminant dans un groupe nominal minimal" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les déterminants" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Trouver les déterminants" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le déterminant dans un groupe nominal non minimal" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une phrase par un article défini ni élidé ni contracté" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier déterminant possessif, déterminant démonstratif, article défini et article indéfini" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Classer un déterminant possessif, un déterminant démonstratif, un article défini ou un article indéfini selon son genre" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Classer un déterminant possessif, un déterminant démonstratif, un article défini ou un article indéfini selon son nombre" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Choisir entre un article défini élidé ou non" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer le possesseur désigné par un déterminant possessif" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Choisir entre les déterminants démonstratifs « ce » et « cet »" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Choisir entre les déterminants démonstratifs « cet » et « cette »" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Compléter une phrase par un article indéfini" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Compléter une phrase par un déterminant démonstratif régulier" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "L'adjectif qualificatif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'adjectif qualificatif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier un adjectif qualificatif épithète dans un groupe nominal" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer la fonction d'un adjectif qualificatif donné dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier un adjectif qualificatif épithète lié au nom dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier un adjectif qualificatif épithète détaché du nom dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier un verbe d'état" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier un adjectif qualificatif attribut du sujet dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Le groupe nominal" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du groupe nominal" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier un groupe nominal dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer si un groupe nominal est un groupe nominal minimal" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Trouver le genre et le nombre d'un nom" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Trouver la bonne orthographe d'un mot" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Transformer un groupe nominal au pluriel" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les groupes nominaux dans une phrase" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire les éléments d'un groupe nominal" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la fonction d'un groupe nominal dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Les pronoms" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du pronom" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier un pronom personnel sujet dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les pronoms personnels" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Trouver le nom désigné par un pronom personnel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Repérer un pronom personnel objet dans un texte" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Trouver le nom désigné par un pronom personnel objet" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une phrase à l'aide d'un pronom personnel objet" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier un article défini et un pronom personnel objet dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Remplacer un groupe nominal par un pronom personnel sujet" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer la fonction d'un pronom personnel objet dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Le verbe" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un verbe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer verbe conjugué et verbe à l'infinitif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Classer des verbes à l'infinitif en fonction de leur groupe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer verbes d'état et verbes d'action" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des modes" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les verbes d'une phrase" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la personne adéquate pour une situation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer si un verbe est conjugué à un temps simple ou à un temps composé" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Les adverbes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un adverbe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier un adverbe dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les adverbes d'une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Classer des adverbes en fonction de leur sens" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le sens d'un adverbe dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Les prépositions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une préposition" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier une préposition dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les prépositions d'une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la préposition adéquate pour compléter une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier un groupe prépositionnel dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer le ou les sens d'une préposition usuelle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la fonction d'un groupe prépositionnel dans une phrase" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer le sens d'une préposition dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Le sujet" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du sujet" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer les verbes et les sujets" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Repérer la place d'un sujet" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si un -t- est nécessaire entre le verbe et le sujet" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Repérer les infinitifs sujets" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer la nature d'un sujet collé, inversé ou éloigné" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Choisir le sujet collé, inversé ou éloigné qui convient à la phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "L'attribut du sujet" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un attribut du sujet" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les verbes d'état" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier un adjectif qualificatif attribut du sujet dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les attributs du sujet" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Trouver le sujet correspondant à l'attribut" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier la nature d'un attribut du sujet" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Accorder un adjectif qualificatif attribut du sujet dans une phrase" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Accorder un nom attribut du sujet dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Accorder un groupe nominal attribut du sujet dans une phrase" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Accorder un pronom attribut du sujet dans une phrase" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Accorder un attribut du sujet dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Le COD et le COI" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du COD" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du COI" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier le COD groupe nominal dans une phrase ne contenant qu'un COD" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier le COD pronom personnel objet dans une phrase ne contenant qu'un COD" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier le COD groupe nominal dans une phrase interrogative ne contenant qu'un COD" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le COI groupe nominal dans une phrase ne contenant qu'un COI" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier le COI pronom personnel objet dans une phrase ne contenant qu'un COI" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier le COI groupe nominal dans une phrase interrogative ne contenant qu'un COI" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Différencier COI et COD dans une phrase ne contenant qu'un COD ou un COI" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Différencier COI et COD dans une phrase ne contenant qu'un COD et un COI" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Différencier COI et COD dans une phrase interrogative ne contenant qu'un COD et un COI" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer la nature du COD dans une phrase ne contenant qu'un COD" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer la nature du COI dans une phrase ne contenant qu'un COI" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer la nature du COD et du COI dans une phrase ne contenant qu'un COD et un COI" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Le complément du nom" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du complément du nom" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Trouver le mot introductif dans un complément du nom" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier le complément du nom dans un groupe nominal" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier le complément du nom dans le sujet d'une phrase simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier le complément du nom dans le COD ou le COI d'une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer la classe grammaticale d'un complément du nom" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Les compléments circonstanciels" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un complément circonstanciel" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer la préposition introduisant un complément circonstanciel" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier un complément circonstanciel dans une phrase ne contenant qu'un complément circonstanciel parmi CC de temps, de lieu et de manière" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer le type de complément circonstanciel dans une phrase ne contenant qu'un complément circonstanciel parmi CC de temps, de lieu et de manière" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les compléments circonstanciels de lieu, de temps ou de manière dans une phrase contenant deux compléments circonstanciels" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer le type de complément circonstanciel dans une phrase contenant deux compléments circonstanciels parmi CC de temps, de lieu et de manière" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la classe grammaticale d'un complément circonstanciel de temps dans une phrase" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer la classe grammaticale d'un complément circonstanciel de lieu dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la classe grammaticale d'un complément circonstanciel de manière dans une phrase" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer la nuance exprimée par un complément circonstanciel de temps dans une phrase" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer la nuance exprimée par un complément circonstanciel de lieu dans une phrase" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Différencier compléments circonstanciels de temps, de lieu ou de manière, COD et COI dans une phrase" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer la classe grammaticale d'un complément circonstanciel de temps, de lieu et de manière dans une phrase" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les compléments circonstanciels, le COD et le COI dans une phrase contenant deux compléments circonstanciels de temps, de lieu ou de manière, un COD et un COI" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "La phrase simple" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer phrase simple et phrase complexe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Les conjonctions de coordination" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des conjonctions de coordination" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les conjonctions de coordination dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le sens d'une conjonction de coordination dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "La phrase complexe" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les connecteurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier phrases complexes par juxtaposition et par coordination" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compter le nombre de verbes dans une phrase complexe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compter le nombre de propositions dans une phrase complexe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Transformer une phrase complexe par juxtaposition en deux phrases simples" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Transformer une phrase complexe par coordination en deux phrases simples" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transformer deux phrases simples en une phrase complexe par juxtaposition" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Transformer deux phrases simples en une phrase complexe par coordination" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Grammaire" },
+  "chapitreTitre": { "S": "Les connecteurs spatiotemporels" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier connecteurs spatial et temporel dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire une frise chronologique à l'aide de connecteurs temporels" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les connecteurs temporels dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les connecteurs spatiaux dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer la valeur de connecteurs temporels dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire une image à l'aide de connecteurs spatiaux" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Réaliser une frise chronologique à l'aide d'un texte avec des connecteurs temporels" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Conjugaison" },
+  "chapitreTitre": { "S": "Le présent de l’indicatif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Adapter les verbes « être » et « avoir » au présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer un verbe du 1er groupe" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer un verbe du 1er groupe en -cer" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Conjuguer un verbe du 1er groupe au présent en -eler et -eter" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Conjuguer un verbe du 1er groupe au présent en -oyer et -uyer" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Adapter un verbe du 1er groupe au présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Adapter un verbe du 2e groupe au présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Adapter un verbe fréquent du 3e groupe au présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter un texte avec les verbes « être » et « avoir » au présent" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Compléter un texte avec des verbes du 1er groupe au présent" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Compléter un texte avec des verbes du 2e groupe au présent" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Compléter un texte avec des verbes fréquents du 3e groupe au présent" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Conjugaison" },
+  "chapitreTitre": { "S": "L’imparfait de l’indicatif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Transposer une phrase avec les verbes « être » ou « avoir » de l'imparfait au présent" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Transposer une phrase avec les verbes « être » et « avoir » du présent à l'imparfait" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Transposer une phrase avec un verbe du 1er groupe de l'imparfait au présent" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transposer une phrase avec un verbe du 1er groupe du présent à l'imparfait" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe de l'imparfait au présent" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe du présent à l'imparfait" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe de l'imparfait au présent" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe du présent à l'imparfait" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Conjuguer les verbes « avoir » et « être » à l'imparfait de l'indicatif" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Conjuguer un verbe du 1er groupe à l'imparfait" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Conjuguer un verbe du 2e groupe à l'imparfait" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Conjuguer un verbe fréquent du 3e groupe à l'imparfait" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Compléter un texte avec les verbes « avoir » et « être » à l'imparfait" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Adapter les verbes « être » et « avoir » à l'imparfait à un changement de sujet" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Compléter un texte avec les verbes du 1er groupe à l'imparfait" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Adapter un verbe du 1er groupe à l'imparfait à un changement de sujet" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Compléter un texte avec les verbes du 2e groupe à l'imparfait" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Adapter un verbe du 2e groupe à l'imparfait à un changement de sujet" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Compléter un texte avec les verbes fréquents du 3e groupe à l'imparfait" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Adapter un verbe fréquent du 3e groupe à l'imparfait à un changement de sujet" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Conjugaison" },
+  "chapitreTitre": { "S": "Le passé simple" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer les verbes « avoir » et « être » au passé simple" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter un texte avec les verbes « avoir » et « être » au passé simple" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Transformer une phrase avec le verbe « avoir » ou « être » au passé simple en fonction d'un sujet" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Conjuguer un verbe du 1er groupe au passé simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter un texte avec les verbes du 1er groupe au passé simple" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Transformer une phrase avec un verbe du 1er groupe au passé simple en fonction d'un sujet" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Conjuguer un verbe du 2e groupe au passé simple" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Compléter un texte avec les verbes du 2e groupe au passé simple" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Transformer une phrase avec un verbe du 2e groupe au passé simple en fonction d'un sujet" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Conjuguer un verbe fréquent du 3e groupe au passé simple" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Compléter un texte avec les verbes fréquents du 3e groupe au passé simple" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Adapter un verbe fréquent du 3e groupe au passé simple à un changement de sujet" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Transposer une phrase avec les verbes « avoir » et « être » du passé simple au présent" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Transposer une phrase avec les verbes « avoir » et « être » du présent au passé simple" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Transposer une phrase avec un verbe du 1er groupe du passé simple au présent" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Transposer une phrase avec un verbe du 1er groupe du présent au passé simple" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe du passé simple au présent" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe du présent au passé simple" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe du passé simple au présent" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe du présent au passé simple" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Conjugaison" },
+  "chapitreTitre": { "S": "Le futur simple" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Transposer une phrase avec les verbes « être » et « avoir » du présent au futur" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Transposer une phrase avec un verbe du 1er groupe du présent au futur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer les verbes « avoir » et « être » au futur" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Conjuguer un verbe du 1er groupe au futur" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Adapter un verbe du 1er groupe au futur à un changement de sujet" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Conjuguer un verbe du 2e groupe au futur" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Adapter un verbe du 2e groupe au futur à un changement de sujet" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Conjuguer un verbe fréquent du 3e groupe au futur" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Adapter un verbe fréquent du 3e groupe au futur à un changement de sujet" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Compléter un texte avec les verbes « avoir » et « être » au futur" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Adapter les verbes « être » et « avoir » au futur à un changement de sujet" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Transposer une phrase avec les verbes « être » et « avoir » du futur au présent" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Compléter un texte avec des verbes du 1er groupe au futur" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Transposer une phrase avec un verbe du 1er groupe du futur au présent" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Compléter un texte avec des verbes du 2e groupe au futur" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe du futur au présent" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe du présent au futur" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Compléter un texte avec les verbes fréquents du 3e groupe au futur" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe du futur au présent" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe du présent au futur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C23" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Conjugaison" },
+  "chapitreTitre": { "S": "Les temps composés : le passé composé et le plus-que-parfait" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Transposer une phrase du présent au passé composé" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer un verbe au plus-que-parfait" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter un texte avec des verbes au plus-que-parfait" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Adapter une phrase au plus-que-parfait à un changement de sujet" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Conjuguer un verbe au passé composé" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter un texte avec des verbes au passé composé" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Adapter une phrase au passé composé à un changement de sujet" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Transposer une phrase du passé composé au présent" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Transposer une phrase du plus-que-parfait au présent" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Transposer une phrase du présent au plus-que-parfait" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C24" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Conjugaison" },
+  "chapitreTitre": { "S": "Le conditionnel présent" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer les verbes « avoir » et « être » au conditionnel présent" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer un verbe du 2e groupe au conditionnel présent" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer un verbe fréquent du 3e groupe au conditionnel présent" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter un texte avec les verbes « avoir » et « être » au conditionnel présent" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Adapter les verbes « être » et « avoir » au conditionnel présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter un texte avec des verbes du 2e groupe au conditionnel présent" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Adapter un verbe du 2e groupe au conditionnel présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Compléter un texte avec les verbes fréquents du 3e groupe au conditionnel présent" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Adapter un verbe fréquent du 3e groupe au conditionnel présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Transposer une phrase avec les verbes « être » ou « avoir » du conditionnel présent au présent" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Transposer une phrase avec les verbes « être » et « avoir » du présent au conditionnel présent" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe du conditionnel présent au présent" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe du présent au conditionnel présent" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe du conditionnel présent au présent" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe du présent au conditionnel présent" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C25" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Conjugaison" },
+  "chapitreTitre": { "S": "L’impératif présent" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si un verbe conjugué à la 2e personne du singulier à l'impératif présent termine par un -s" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer les verbes « avoir » et « être » à l'impératif présent" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer un verbe du 1er groupe à l'impératif présent" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Conjuguer un verbe du 2e groupe à l'impératif présent" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Conjuguer un verbe fréquent du 3e groupe à l'impératif présent" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter une phrase avec un verbe pronominal à l'impératif présent par le pronom personnel réfléchi adéquat" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter un texte avec les verbes « avoir » et « être » à l'impératif présent" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Adapter les verbes « être » et « avoir » à l'impératif présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter un texte avec les verbes du 1er groupe à l'impératif présent" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Adapter un verbe du 1er groupe à l'impératif présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Compléter un texte avec les verbes du 2e groupe à l'impératif présent" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Adapter un verbe du 2e groupe à l'impératif présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Compléter un texte avec les verbes fréquents du 3e groupe à l'impératif présent" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Adapter un verbe fréquent du 3e groupe à l'impératif présent à un changement de sujet" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Transposer une phrase avec les verbes « être » et « avoir » de l'impératif présent au présent" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Transposer une phrase avec les verbes « être » et « avoir » du présent à l'impératif présent" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Transposer une phrase avec un verbe du 1er groupe de l'impératif présent au présent" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Transposer une phrase avec un verbe du 1er groupe du présent à l'impératif présent" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe de l'impératif présent au présent" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Transposer une phrase avec un verbe du 2e groupe du présent à l'impératif présent" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe de l'impératif présent au présent" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Transposer une phrase avec un verbe fréquent du 3e groupe du présent à l'impératif présent" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C26" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Orthographe et vocabulaire" },
+  "chapitreTitre": { "S": "Les accords dans le groupe nominal" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du groupe nominal" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Trouver le genre et le nombre d'un nom" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Trouver la bonne orthographe d'un mot" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer un groupe nominal au pluriel" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C27" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Orthographe et vocabulaire" },
+  "chapitreTitre": { "S": "Les accords de l'adjectif qualificatif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer le féminin d'un adjectif sujet à un doublement de consonne" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Indiquer le pluriel d'un adjectif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Transformer un adjectif du masculin au féminin" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer un adjectif du féminin au masculin" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le féminin d'un adjectif en -er" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer le masculin d'un adjectif en -ère" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer le féminin d'un adjectif en -eur" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer le masculin d'un adjectif en -euse" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Trouver le pluriel d'un adjectif" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Écrire le pluriel d'un adjectif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C28" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Orthographe et vocabulaire" },
+  "chapitreTitre": { "S": "L'accord du participe passé" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Accorder le participe passé d'un verbe au passé composé avec l'auxiliaire « être »" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Accorder le participe passé d'un verbe au passé composé avec l'auxiliaire « avoir » dans le cas simple" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Accorder le participe passé comme adjectif dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C29" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Orthographe et vocabulaire" },
+  "chapitreTitre": { "S": "La formation et l'étymologie des mots" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier le radical" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier la terminaison d'un mot" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Trouver les mots formés à partir d'un radical" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la signification d'un mot d'après son suffixe ou son préfixe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Former un mot à partir d'un radical et d'un préfixe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Former un mot à partir d'un radical et d'un suffixe" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques de l'étymologie" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer l'origine d'un mot à l'aide de ses racines latines ou grecques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Associer un mot français à son origine latine" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Former un mot à partir d'un préfixe ou d'un suffixe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C30" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Orthographe et vocabulaire" },
+  "chapitreTitre": { "S": "Les synonymes et les antonymes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les synonymes d'un mot" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les synonymes permettant d'éviter la répétition entre deux phrases dans un petit texte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les antonymes d'un mot" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Remplacer un mot par son synonyme dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Former un antonyme d'un mot à l'aide de l'ajout d'un préfixe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C31" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Orthographe et vocabulaire" },
+  "chapitreTitre": { "S": "La polysémie et les homonymes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Sélectionner des homonymes parmi une liste de mots" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Donner le sens d'un mot" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier homonymie et polysémie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un homonyme à sa définition" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter une phrase par l'homonyme qui convient" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C32" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Orthographe et vocabulaire" },
+  "chapitreTitre": { "S": "Les familles de mots et le champ lexical" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Trouver le champ lexical correspondant à des mots" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Sélectionner les champs lexicaux d'un mot" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Repérer les mots formant des champs lexicaux dans un texte" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Trouver le radical" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Trouver un verbe de la même famille" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Trouver un adjectif de la même famille qu'un mot donné" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Trouver un nom de la même famille qu'un mot donné" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Trouver les mots correspondant à un champ lexical" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C33" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Orthographe et vocabulaire" },
+  "chapitreTitre": { "S": "Les homophones" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir entre « ce » et « se »" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer les déterminants possessifs d'une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase avec « ces » ou « ses »" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase avec « ce », « se », « ces » ou « ses »" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Donner la nature de « a », « as » et « à »" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Choisir entre « à », « a » et « as »" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Choisir entre « ou » et « où »" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Choisir entre « la » et « là »" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Choisir entre « l'a » et « l'as »" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Choisir entre « la », « là », « l'a » et « l'as »" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Donner la nature de « et », « es » et « est »" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Choisir entre « et », « es » ou « est »" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Compléter un texte avec « et », « est » ou « es » et « son » ou « sont »" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer la nature de « on » et « ont » dans une phrase" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Choisir entre « on » et « ont »" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Donner la nature de « son » et « sont »" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Choisir entre « son » et « sont »" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Choisir entre « c'est » et « s'est »" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Choisir entre « c'était » et « s'était »" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Compléter une phrase avec « c'est », « s'est », « c'était » ou « s'était »" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Choisir entre « c' » et « s' »" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Déterminer la nature de « mes » et « mais » dans une phrase" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Déterminer la nature de « mur », « mûr » et « mûre » dans une phrase" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Choisir entre « mes » et « mais »" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Choisir entre « mur », « mûr » et « mûre »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C34" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Culture littéraire" },
+  "chapitreTitre": { "S": "Créer, recréer le monde : récit des origines" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C35" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Culture littéraire" },
+  "chapitreTitre": { "S": "Chanter et enchanter le monde : mots et merveilles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C36" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Culture littéraire" },
+  "chapitreTitre": { "S": "Se masquer, jouer, déjouer : ruses en action" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C37" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Culture littéraire" },
+  "chapitreTitre": { "S": "Partir à l'aventure" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C38" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Culture littéraire" },
+  "chapitreTitre": { "S": "Rencontrer des monstres : expérience de l’autre, expérience de soi" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C39" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Étude de textes et d'images" },
+  "chapitreTitre": { "S": "Les différents types de textes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du texte narratif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les personnages du texte narratif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les rôles des personnages d'un extrait de texte narratif" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du texte descriptif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les étapes du schéma narratif" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer l'étape du schéma narratif d'un extrait de texte narratif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les verbes descriptifs dans un extrait de texte descriptif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier le temps dominant dans un extrait de texte descriptif" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer si un extrait de texte correspond à un texte narratif ou à un texte descriptif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C40" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Étude de textes et d'images" },
+  "chapitreTitre": { "S": "L'auteur, le narrateur et le personnage" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'auteur" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du narrateur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'un personnage" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer l'auteur à l'aide d'un extrait de texte" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer si le narrateur d'un extrait de texte est un narrateur interne, externe ou omniscient lorsque la focalisation est fixe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les personnages dans un extrait de texte" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C41" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Étude de textes et d'images" },
+  "chapitreTitre": { "S": "Les figures de style" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la comparaison" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier l'outil de comparaison dans une comparaison" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier le comparé et le comparant dans une comparaison" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la métaphore" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier la façon de rapprocher le comparé et le comparant dans une métaphore" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier le comparé et le comparant dans une métaphore" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques de la personnification" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer si une figure de style est une comparaison" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer si une figure de style est une métaphore" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer le comparé d'une métaphore lorsqu'il n'est pas exprimé" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer si une figure de style est une comparaison ou une métaphore" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C42" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Étude de textes et d'images" },
+  "chapitreTitre": { "S": "Les genres littéraires" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le genre littéraire de l'épopée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les genres littéraires du conte et de la légende" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le genre littéraire du récit religieux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les genres littéraires de la fable et du fabliau" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le genre littéraire du théâtre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le genre littéraire du roman" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître le genre littéraire de la nouvelle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître le genre littéraire de la poésie" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer les indices du genre littéraire de l'épopée dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer les indices des genres littéraires du conte et de la légende dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer les indices du genre littéraire du récit religieux dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer les indices des genres littéraires de la fable et du fabliau dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer les indices du genre littéraire du théâtre dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer les indices du genre littéraire du roman dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer les indices du genre littéraire de la nouvelle dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déterminer les indices du genre littéraire de la poésie dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer le genre littéraire d'un extrait de texte simple" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C43" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Étude de textes et d'images" },
+  "chapitreTitre": { "S": "Les registres littéraires" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du registre réaliste" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du registre merveilleux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques du registre fantastique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du registre lyrique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer les indices du registre réaliste dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer les indices du registre merveilleux dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer les indices du registre fantastique dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer les indices du registre lyrique dans un extrait de texte" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer le registre littéraire dans un extrait de texte simple" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C44" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Étude de textes et d'images" },
+  "chapitreTitre": { "S": "L'analyse de l'image" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la peinture" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la sculpture" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la bande dessinée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du cinéma et des vidéos" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le vocabulaire de l'analyse des images fixes" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le vocabulaire de l'analyse des images animées" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le lien entre texte et image" } } }
+    ]
+  }
+}
+]

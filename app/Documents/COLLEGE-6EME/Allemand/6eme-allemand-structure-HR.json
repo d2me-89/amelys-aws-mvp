@@ -1,0 +1,460 @@
+[
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Le nominatif et l'accusatif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Reconnaître un nominatif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître un accusatif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier nominatif et accusatif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Généralités sur le nom" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Reconnaître un nom" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer le genre d'un nom dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Mettre un nom masculin au pluriel" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Mettre un nom féminin au pluriel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre un nom neutre au pluriel" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les articles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Donner le cas d'un groupe nominal comportant un article défini" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Donner le cas d'un groupe nominal comportant un article indéfini" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer la présence ou l'absence de l'article au pluriel" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir la forme appropriée de l'article défini dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Choisir la forme appropriée de l'article indéfini dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Placer l'article manquant dans une phrase" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Changer le nombre d'un groupe nominal en allemand" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Changer le genre d'un groupe nominal en allemand" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les nombres" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les nombres cardinaux à un chiffre en allemand" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les nombres cardinaux à deux chiffres en allemand" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les nombres ordinaux en allemand" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Écrire un nombre cardinal en toutes lettres dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter une phrase par un nombre ordinal au nominatif" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter une phrase par un nombre ordinal à l’accusatif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Écrire en toutes lettres le nombre cardinal ou ordinal dans une phrase" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français une phrase comportant un nombre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "La date et l'heure" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Écrire la date en toutes lettres en allemand" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Écrire l'heure en toutes lettres en allemand" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Traduire une phrase comportant une date" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire une phrase comportant une heure" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les pronoms personnels et le pronom impersonnel « es »" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Repérer les pronoms personnels dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec le bon pronom personnel à l'accusatif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer si une phrase doit être complétée par le pronom impersonnel es" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase avec le bon pronom personnel au nominatif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser le bon pronom personnel dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter une phrase avec le bon pronom personnel ou impersonnel" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire une phrase comprenant le pronom impersonnel es" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les pronoms réfléchis" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Repérer les pronoms réfléchis dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Savoir à quel sujet se rapporte le pronom réfléchi" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser le bon pronom réfléchi dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décliner correctement un pronom réfléchi" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Reconstituer une phrase comportant un pronom réfléchi" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire une phrase comprenant un pronom réfléchi" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les pronoms interrogatifs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Repérer les pronoms interrogatifs dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le bon pronom interrogatif dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase en déclinant correctement Wer et Was" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconstituer une phrase comportant un pronom interrogatif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire une phrase comprenant un pronom interrogatif en allemand" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les pronoms indéfinis" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Repérer les pronoms indéfinis dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le bon pronom indéfini dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase en déclinant correctement le pronom indéfini" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconstituer une phrase comportant un pronom indéfini" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire une phrase comprenant un pronom indéfini" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "L'adjectif attribut du sujet et l'adjectif épithète" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Repérer un adjectif attribut du sujet dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer un adjectif épithète dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconstituer une phrase comportant un adjectif attribut du sujet" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconstituer une phrase comportant un adjectif épithète" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Accorder un adjectif épithète dans un groupe nominal défini" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Accorder un adjectif épithète dans un groupe nominal indéfini" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Accorder un adjectif épithète dans un groupe nominal sans déterminant" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer quel type d'adjectif est utilisé dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Choisir la bonne forme de l'adjectif épithète dans une phrase" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire une phrase comprenant un adjectif attribut" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire une phrase comprenant un adjectif épithète" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les verbes « haben » et « sein »" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer sein ou haben dans une phrase au présent de l'indicatif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer sein ou haben dans une phrase au prétérit" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer sein ou haben dans une phrase au parfait" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Conjuguer « sein » ou « haben » dans une phrase à l’impératif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Choisir le bon auxiliaire dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les verbes de modalité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Le présent de l'indicatif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Le participe passé" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Le parfait" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "L'impératif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les verbes à préverbe séparable et inséparable" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les différents types de phrases" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "La négation avec « nicht » ou « kein »" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les prépositions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les compléments de lieu et de temps" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Le comparatif de supériorité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C23" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Le superlatif de l'adjectif attribut ou adverbial" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C24" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les propositions subordonnées" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#ALLEMAND#T1#C25" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Allemand" },
+  "themeTitre": { "S": "Les bases de la grammaire allemande" },
+  "chapitreTitre": { "S": "Les mots de liaison" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposition 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Proposition 2" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposition 3" } } }
+    ]
+  }
+}
+]
