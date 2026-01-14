@@ -299,7 +299,7 @@ export default function CollegePage() {
     id: string;
     nom: string;
     emoji: string;
-    description: string;
+    seances: number;
     path: string;
   };
 
@@ -308,35 +308,35 @@ export default function CollegePage() {
       id: "francais",
       nom: "Français",
       emoji: "📚",
-      description: "Écrit sur 3 heures (compréhension, dictée, rédaction, grammaire) • Coefficient 2",
+      seances: 10,
       path: "/app/college/brevet/epreuves/francais"
     },
     {
       id: "mathematiques",
       nom: "Mathématiques",
       emoji: "📐",
-      description: "Épreuve écrite (environ 2 heures) • Coefficient 2",
+      seances: 10,
       path: "/app/college/brevet/epreuves/mathematiques"
     },
     {
       id: "histoire-geo-emc",
       nom: "Histoire-Géographie + EMC",
       emoji: "🏛️",
-      description: "Épreuve écrite (≈2 heures) • Histoire-Géographie (coef 1,5) + EMC (coef 0,5)",
+      seances: 10,
       path: "/app/college/brevet/epreuves/histoire-geo-emc"
     },
     {
       id: "sciences",
       nom: "Sciences",
       emoji: "🔬",
-      description: "Épreuve écrite d'1 heure, portant sur deux disciplines scientifiques tirées au sort parmi : Physique-Chimie, SVT, Technologie • Coefficient 2",
+      seances: 10,
       path: "/app/college/brevet/epreuves/sciences"
     },
     {
       id: "oral",
       nom: "Oral du brevet",
       emoji: "📣",
-      description: "Présentation d'un projet réalisé en cours (par exemple histoire des arts, projet interdisciplinaire) • Coefficient 2",
+      seances: 10,
       path: "/app/college/brevet/epreuves/oral"
     }
   ];
@@ -697,13 +697,28 @@ export default function CollegePage() {
                       </div>
                     </div>
 
-                    {/* Partie basse - PARFAITEMENT IDENTIQUE aux matières */}
+                    {/* Partie basse - IDENTIQUE aux matières */}
                     <div style={{
                       padding: "1.28rem",
                       background: "rgba(255,255,255,0.03)",
                       minHeight: "102px"
                     }}>
-                      {/* Titre - MÊME taille et MÊME marge que les matières */}
+                      {/* Badge séances */}
+                      <div style={{
+                        display: "inline-block",
+                        padding: "0.26rem 0.68rem",
+                        borderRadius: "14px",
+                        background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
+                        border: "1px solid rgba(255,215,0,0.3)",
+                        fontSize: "0.64rem",
+                        fontWeight: 600,
+                        color: "#FFD700",
+                        marginBottom: "0.85rem"
+                      }}>
+                        {epreuve.seances} séances
+                      </div>
+
+                      {/* Titre */}
                       <h3 style={{
                         fontSize: "1rem",
                         fontWeight: 700,
@@ -714,15 +729,17 @@ export default function CollegePage() {
                         {epreuve.nom}
                       </h3>
 
-                      {/* Description */}
-                      <p style={{
-                        fontSize: "0.75rem",
-                        margin: 0,
-                        color: "rgba(255,255,255,0.7)",
-                        lineHeight: "1.5"
+                      {/* Espace réservé pour avancement */}
+                      <div style={{
+                        minHeight: "34px",
+                        opacity: 0.3,
+                        borderTop: "1px dashed rgba(255,255,255,0.1)",
+                        paddingTop: "0.64rem",
+                        fontSize: "0.6rem",
+                        color: "rgba(255,255,255,0.5)"
                       }}>
-                        {epreuve.description}
-                      </p>
+                        {/* Espace pour : % terminé, barre de progression, nombre d'étapes */}
+                      </div>
                     </div>
                   </div>
                 </Link>
