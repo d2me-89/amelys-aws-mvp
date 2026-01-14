@@ -753,4 +753,4 @@ export default function CollegePage() {
       </main>
     </AppLayout>
   );
-}}
+}
