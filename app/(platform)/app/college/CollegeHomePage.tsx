@@ -34,7 +34,7 @@ export default function CollegePage() {
     {
       id: "francais",
       nom: "Français 6ème",
-      emoji: "📖",
+      emoji: "📚",
       seances: 15,
       path: "/app/college/sixieme/matieres/francais"
     },
@@ -81,6 +81,261 @@ export default function CollegePage() {
       path: "/app/college/sixieme/matieres/emc"
     }
   ];
+
+  const matieresCinquieme: Matiere[] = [
+    {
+      id: "mathematiques",
+      nom: "Mathématiques 5ème",
+      emoji: "📐",
+      seances: 12,
+      path: "/app/college/cinquieme/matieres/mathematiques"
+    },
+    {
+      id: "francais",
+      nom: "Français 5ème",
+      emoji: "📚",
+      seances: 15,
+      path: "/app/college/cinquieme/matieres/francais"
+    },
+    {
+      id: "histoire",
+      nom: "Histoire 5ème",
+      emoji: "🏛️",
+      seances: 11,
+      path: "/app/college/cinquieme/matieres/histoire"
+    },
+    {
+      id: "geographie",
+      nom: "Géographie 5ème",
+      emoji: "🌍",
+      seances: 9,
+      path: "/app/college/cinquieme/matieres/geographie"
+    },
+    {
+      id: "physique-chimie",
+      nom: "Physique-Chimie 5ème",
+      emoji: "⚛️",
+      seances: 10,
+      path: "/app/college/cinquieme/matieres/physique-chimie"
+    },
+    {
+      id: "svt",
+      nom: "SVT 5ème",
+      emoji: "🧬",
+      seances: 10,
+      path: "/app/college/cinquieme/matieres/svt"
+    },
+    {
+      id: "anglais",
+      nom: "Anglais 5ème",
+      emoji: "🇬🇧",
+      seances: 10,
+      path: "/app/college/cinquieme/matieres/anglais"
+    },
+    {
+      id: "allemand",
+      nom: "Allemand 5ème",
+      emoji: "🇩🇪",
+      seances: 10,
+      path: "/app/college/cinquieme/matieres/allemand"
+    },
+    {
+      id: "espagnol",
+      nom: "Espagnol 5ème",
+      emoji: "🇪🇸",
+      seances: 10,
+      path: "/app/college/cinquieme/matieres/espagnol"
+    },
+    {
+      id: "emc",
+      nom: "EMC 5ème",
+      emoji: "⚖️",
+      seances: 8,
+      path: "/app/college/cinquieme/matieres/emc"
+    }
+  ];
+
+  const matieresQuatrieme: Matiere[] = [
+    {
+      id: "mathematiques",
+      nom: "Mathématiques 4ème",
+      emoji: "📐",
+      seances: 12,
+      path: "/app/college/quatrieme/matieres/mathematiques"
+    },
+    {
+      id: "francais",
+      nom: "Français 4ème",
+      emoji: "📚",
+      seances: 15,
+      path: "/app/college/quatrieme/matieres/francais"
+    },
+    {
+      id: "histoire",
+      nom: "Histoire 4ème",
+      emoji: "🏛️",
+      seances: 11,
+      path: "/app/college/quatrieme/matieres/histoire"
+    },
+    {
+      id: "geographie",
+      nom: "Géographie 4ème",
+      emoji: "🌍",
+      seances: 9,
+      path: "/app/college/quatrieme/matieres/geographie"
+    },
+    {
+      id: "physique-chimie",
+      nom: "Physique-Chimie 4ème",
+      emoji: "⚛️",
+      seances: 10,
+      path: "/app/college/quatrieme/matieres/physique-chimie"
+    },
+    {
+      id: "svt",
+      nom: "SVT 4ème",
+      emoji: "🧬",
+      seances: 10,
+      path: "/app/college/quatrieme/matieres/svt"
+    },
+    {
+      id: "anglais",
+      nom: "Anglais 4ème",
+      emoji: "🇬🇧",
+      seances: 10,
+      path: "/app/college/quatrieme/matieres/anglais"
+    },
+    {
+      id: "allemand",
+      nom: "Allemand 4ème",
+      emoji: "🇩🇪",
+      seances: 10,
+      path: "/app/college/quatrieme/matieres/allemand"
+    },
+    {
+      id: "espagnol",
+      nom: "Espagnol 4ème",
+      emoji: "🇪🇸",
+      seances: 10,
+      path: "/app/college/quatrieme/matieres/espagnol"
+    },
+    {
+      id: "emc",
+      nom: "EMC 4ème",
+      emoji: "⚖️",
+      seances: 8,
+      path: "/app/college/quatrieme/matieres/emc"
+    }
+  ];
+
+  const matieresTroisieme: Matiere[] = [
+    {
+      id: "mathematiques",
+      nom: "Mathématiques 3ème",
+      emoji: "📐",
+      seances: 12,
+      path: "/app/college/troisieme/matieres/mathematiques"
+    },
+    {
+      id: "francais",
+      nom: "Français 3ème",
+      emoji: "📚",
+      seances: 15,
+      path: "/app/college/troisieme/matieres/francais"
+    },
+    {
+      id: "histoire",
+      nom: "Histoire 3ème",
+      emoji: "🏛️",
+      seances: 11,
+      path: "/app/college/troisieme/matieres/histoire"
+    },
+    {
+      id: "geographie",
+      nom: "Géographie 3ème",
+      emoji: "🌍",
+      seances: 9,
+      path: "/app/college/troisieme/matieres/geographie"
+    },
+    {
+      id: "physique-chimie",
+      nom: "Physique-Chimie 3ème",
+      emoji: "⚛️",
+      seances: 10,
+      path: "/app/college/troisieme/matieres/physique-chimie"
+    },
+    {
+      id: "svt",
+      nom: "SVT 3ème",
+      emoji: "🧬",
+      seances: 10,
+      path: "/app/college/troisieme/matieres/svt"
+    },
+    {
+      id: "anglais",
+      nom: "Anglais 3ème",
+      emoji: "🇬🇧",
+      seances: 10,
+      path: "/app/college/troisieme/matieres/anglais"
+    },
+    {
+      id: "allemand",
+      nom: "Allemand 3ème",
+      emoji: "🇩🇪",
+      seances: 10,
+      path: "/app/college/troisieme/matieres/allemand"
+    },
+    {
+      id: "espagnol",
+      nom: "Espagnol 3ème",
+      emoji: "🇪🇸",
+      seances: 10,
+      path: "/app/college/troisieme/matieres/espagnol"
+    },
+    {
+      id: "emc",
+      nom: "EMC 3ème",
+      emoji: "⚖️",
+      seances: 8,
+      path: "/app/college/troisieme/matieres/emc"
+    }
+  ];
+
+  // Fonction pour obtenir les matières selon la classe sélectionnée
+  const getMatieres = () => {
+    switch(selectedClass) {
+      case "sixieme": return matieresSixieme;
+      case "cinquieme": return matieresCinquieme;
+      case "quatrieme": return matieresQuatrieme;
+      case "troisieme": return matieresTroisieme;
+      default: return [];
+    }
+  };
+
+  // Fonction pour obtenir le titre selon la classe
+  const getTitre = () => {
+    switch(selectedClass) {
+      case "sixieme": return "Matières de Sixième";
+      case "cinquieme": return "Matières de Cinquième";
+      case "quatrieme": return "Matières de Quatrième";
+      case "troisieme": return "Matières de Troisième";
+      default: return "";
+    }
+  };
+
+  // Fonction pour obtenir le nombre de matières
+  const getNombreMatieres = () => {
+    switch(selectedClass) {
+      case "sixieme": return 8;
+      case "cinquieme": return 10;
+      case "quatrieme": return 10;
+      case "troisieme": return 10;
+      default: return 0;
+    }
+  };
+
+  const matieres = getMatieres();
+  const showMatieres = ["sixieme", "cinquieme", "quatrieme", "troisieme"].includes(selectedClass);
 
   return (
     <AppLayout>
@@ -152,15 +407,15 @@ export default function CollegePage() {
           ))}
         </div>
 
-        {/* Matières de Sixième */}
-        {selectedClass === "sixieme" && (
+        {/* Affichage des matières (Sixième ou Cinquième) */}
+        {showMatieres && (
           <div style={{ marginTop: "2rem" }}>
             <h2 style={{ 
               fontSize: "1.8rem", 
               marginBottom: "0.5rem",
               fontWeight: 700
             }}>
-              Matières de Sixième
+              {getTitre()}
             </h2>
             
             <p style={{ 
@@ -168,7 +423,7 @@ export default function CollegePage() {
               opacity: 0.8,
               marginBottom: "1.5rem"
             }}>
-              8 matières • Des centaines de modules • Des milliers d'activités
+              {getNombreMatieres()} matières • Des centaines de modules • Des milliers d'activités
             </p>
 
             {/* Grille de matières */}
@@ -179,119 +434,130 @@ export default function CollegePage() {
               maxWidth: "1300px",
               margin: "0 auto"
             }}>
-              {matieresSixieme.map((matiere) => {
-                return (
-                  <Link
-                    key={matiere.id}
-                    href={matiere.path}
-                    style={{
-                      textDecoration: "none",
-                      color: "inherit",
-                      display: "block"
-                    }}
-                    onMouseEnter={() => setHoveredCard(matiere.id)}
-                    onMouseLeave={() => setHoveredCard(null)}
-                  >
+              {matieres.map((matiere) => (
+                <Link
+                  key={matiere.id}
+                  href={matiere.path}
+                  style={{
+                    textDecoration: "none",
+                    color: "inherit",
+                    display: "block"
+                  }}
+                  onMouseEnter={() => setHoveredCard(matiere.id)}
+                  onMouseLeave={() => setHoveredCard(null)}
+                >
+                  <div style={{
+                    borderRadius: "16px",
+                    overflow: "hidden",
+                    background: "rgba(255,255,255,0.05)",
+                    border: hoveredCard === matiere.id 
+                      ? "1px solid rgba(255,255,255,0.3)"
+                      : "1px solid rgba(255,255,255,0.1)",
+                    transition: "all 0.3s ease",
+                    transform: hoveredCard === matiere.id 
+                      ? "translateY(-8px)" 
+                      : "translateY(0)",
+                    boxShadow: hoveredCard === matiere.id
+                      ? "0 12px 24px rgba(0,0,0,0.3)"
+                      : "0 4px 8px rgba(0,0,0,0.2)",
+                  }}>
+                    {/* Partie haute avec dégradé */}
                     <div style={{
-                      borderRadius: "16px",
-                      overflow: "hidden",
-                      background: "rgba(255,255,255,0.05)",
-                      border: hoveredCard === matiere.id 
-                        ? "1px solid rgba(255,255,255,0.3)"
-                        : "1px solid rgba(255,255,255,0.1)",
-                      transition: "all 0.3s ease",
-                      transform: hoveredCard === matiere.id 
-                        ? "translateY(-8px)" 
-                        : "translateY(0)",
-                      boxShadow: hoveredCard === matiere.id
-                        ? "0 12px 24px rgba(0,0,0,0.3)"
-                        : "0 4px 8px rgba(0,0,0,0.2)",
+                      background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3d3d3d 100%)",
+                      padding: "2rem 1.5rem",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      position: "relative",
+                      overflow: "hidden"
                     }}>
-                      {/* Partie haute avec dégradé */}
+                      {/* Effet brillance doré */}
                       <div style={{
-                        background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3d3d3d 100%)",
-                        padding: "2rem 1.5rem",
+                        position: "absolute",
+                        top: "-50%",
+                        left: "-50%",
+                        width: "200%",
+                        height: "200%",
+                        background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
+                        pointerEvents: "none"
+                      }} />
+
+                      {/* Conteneur de l'icône avec illumination */}
+                      <div style={{
+                        width: "70px",
+                        height: "70px",
+                        borderRadius: "18px",
+                        background: "#ffffff",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
                         position: "relative",
-                        overflow: "hidden"
+                        zIndex: 1,
+                        boxShadow: hoveredCard === matiere.id
+                          ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
+                          : "0 4px 12px rgba(0,0,0,0.1)",
+                        transition: "all 0.3s ease"
                       }}>
-                        {/* Effet brillance doré */}
-                        <div style={{
-                          position: "absolute",
-                          top: "-50%",
-                          left: "-50%",
-                          width: "200%",
-                          height: "200%",
-                          background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
-                          pointerEvents: "none"
-                        }} />
-
-                        {/* Conteneur de l'icône avec illumination */}
-                        <div style={{
-                          width: "70px",
-                          height: "70px",
-                          borderRadius: "18px",
-                          background: "#ffffff",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          position: "relative",
-                          zIndex: 1,
-                          boxShadow: hoveredCard === matiere.id
-                            ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
-                            : "0 4px 12px rgba(0,0,0,0.1)",
-                          transition: "all 0.3s ease"
-                        }}>
-                          {/* Emoji */}
-                          <span style={{ fontSize: "2.2rem" }}>
-                            {matiere.emoji}
-                          </span>
-                        </div>
-                      </div>
-
-                      {/* Partie basse */}
-                      <div style={{
-                        padding: "1rem",
-                        background: "rgba(255,255,255,0.03)"
-                      }}>
-                        {/* Badge séances */}
-                        <div style={{
-                          display: "inline-block",
-                          padding: "0.3rem 0.8rem",
-                          borderRadius: "16px",
-                          background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
-                          border: "1px solid rgba(255,215,0,0.3)",
-                          fontSize: "0.75rem",
-                          fontWeight: 600,
-                          color: "#FFD700",
-                          marginBottom: "0.75rem"
-                        }}>
-                          {matiere.seances} séances
-                        </div>
-
-                        {/* Titre */}
-                        <h3 style={{
-                          fontSize: "1rem",
-                          fontWeight: 700,
-                          margin: "0",
-                          color: "#fff",
-                          lineHeight: "1.3"
-                        }}>
-                          {matiere.nom}
-                        </h3>
+                        {/* Emoji */}
+                        <span style={{ fontSize: "2.2rem" }}>
+                          {matiere.emoji}
+                        </span>
                       </div>
                     </div>
-                  </Link>
-                );
-              })}
+
+                    {/* Partie basse avec espace pour avancement futur */}
+                    <div style={{
+                      padding: "1.5rem",
+                      background: "rgba(255,255,255,0.03)",
+                      minHeight: "120px"
+                    }}>
+                      {/* Badge séances */}
+                      <div style={{
+                        display: "inline-block",
+                        padding: "0.3rem 0.8rem",
+                        borderRadius: "16px",
+                        background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
+                        border: "1px solid rgba(255,215,0,0.3)",
+                        fontSize: "0.75rem",
+                        fontWeight: 600,
+                        color: "#FFD700",
+                        marginBottom: "1rem"
+                      }}>
+                        {matiere.seances} séances
+                      </div>
+
+                      {/* Titre */}
+                      <h3 style={{
+                        fontSize: "1rem",
+                        fontWeight: 700,
+                        margin: "0 0 1rem 0",
+                        color: "#fff",
+                        lineHeight: "1.3"
+                      }}>
+                        {matiere.nom}
+                      </h3>
+
+                      {/* Espace réservé pour avancement (à remplir plus tard) */}
+                      <div style={{
+                        minHeight: "40px",
+                        opacity: 0.3,
+                        borderTop: "1px dashed rgba(255,255,255,0.1)",
+                        paddingTop: "0.75rem",
+                        fontSize: "0.7rem",
+                        color: "rgba(255,255,255,0.5)"
+                      }}>
+                        {/* Espace pour : % terminé, barre de progression, nombre d'étapes */}
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              ))}
             </div>
           </div>
         )}
 
         {/* Message pour les autres classes */}
-        {selectedClass && selectedClass !== "sixieme" && (
+        {selectedClass && !showMatieres && (
           <div style={{
             textAlign: "center",
             padding: "3rem 2rem",
