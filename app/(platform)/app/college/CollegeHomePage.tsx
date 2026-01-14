@@ -4,22 +4,25 @@ import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState } from "react";
 
-// Import des icônes Lucide React - ICÔNES UNIVERSELLES
+// Import des icônes React Icons
 import { 
-  Calculator,      // Mathématiques
-  BookOpen,        // Français
-  Globe,           // Anglais
-  Languages,       // Allemand
-  Landmark,        // Histoire
-  Map,             // Géographie
-  Atom,            // Sciences (remplace Flask)
-  Scale            // EMC
-} from "lucide-react";
+  FaCalculator,      // Mathématiques
+  FaBook,            // Français
+  FaGlobeAmericas,   // Géographie
+  FaMicroscope,      // Sciences
+  FaBalanceScale,    // EMC
+  FaLanguage,        // Langues (Anglais/Allemand)
+  FaFlag             // Alternative pour langues
+} from "react-icons/fa";
+
+import { 
+  GiGreekTemple      // Histoire
+} from "react-icons/gi";
 
 type Matiere = {
   id: string;
   nom: string;
-  Icon: any;
+  Icon: any;  // Toutes les matières ont une icône React
   seances: number;
   path: string;
 };
@@ -39,56 +42,56 @@ export default function CollegePage() {
     {
       id: "mathematiques",
       nom: "Mathématiques 6ème",
-      Icon: Calculator,
+      Icon: FaCalculator,
       seances: 12,
       path: "/app/college/sixieme/matieres/mathematiques"
     },
     {
       id: "francais",
       nom: "Français 6ème",
-      Icon: BookOpen,
+      Icon: FaBook,
       seances: 15,
       path: "/app/college/sixieme/matieres/francais"
     },
     {
       id: "anglais",
       nom: "Anglais 6ème",
-      Icon: Globe,
+      Icon: FaLanguage,  // Icône langue pour Anglais
       seances: 10,
       path: "/app/college/sixieme/matieres/anglais"
     },
     {
       id: "allemand",
       nom: "Allemand 6ème",
-      Icon: Languages,
+      Icon: FaLanguage,  // Icône langue pour Allemand
       seances: 10,
       path: "/app/college/sixieme/matieres/allemand"
     },
     {
       id: "histoire",
       nom: "Histoire 6ème",
-      Icon: Landmark,
+      Icon: GiGreekTemple,
       seances: 11,
       path: "/app/college/sixieme/matieres/histoire"
     },
     {
       id: "geographie",
       nom: "Géographie 6ème",
-      Icon: Map,
+      Icon: FaGlobeAmericas,
       seances: 9,
       path: "/app/college/sixieme/matieres/geographie"
     },
     {
       id: "sciences",
       nom: "Sciences 6ème",
-      Icon: Atom,  // Changé de Flask à Atom
+      Icon: FaMicroscope,
       seances: 13,
       path: "/app/college/sixieme/matieres/sciences"
     },
     {
       id: "emc",
       nom: "Enseignement Moral et Civique 6ème",
-      Icon: Scale,
+      Icon: FaBalanceScale,
       seances: 8,
       path: "/app/college/sixieme/matieres/emc"
     }
@@ -258,12 +261,12 @@ export default function CollegePage() {
                             : "0 4px 12px rgba(0,0,0,0.1)",
                           transition: "all 0.3s ease"
                         }}>
-                          {/* Icône Lucide React avec couleur */}
+                          {/* Icône React Icons en noir stylisé */}
                           <IconComponent 
-                            size={36} 
-                            strokeWidth={2}
+                            size={36}
                             style={{
-                              color: "#2d2d2d"
+                              color: "#1a1a1a",
+                              filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.1))"
                             }}
                           />
                         </div>
