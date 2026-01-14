@@ -101,16 +101,16 @@ export default function Sidebar() {
           isActive={pathname === "/app"}
         />
         <SidebarLink
-          href="/app/matieres/introduction-au-droit"
-          icon="📚"
-          label="Catalogue de cours"
+          href="/app/college"
+          icon="🏫"
+          label="Collège"
           isOpen={isOpen}
-          isActive={pathname.startsWith("/app/matieres")}
+          isActive={pathname.startsWith("/app")}
         />
         <SidebarLink
-          href="/app/entrainements"
-          icon="💪"
-          label="Entraînements"
+          href="/app/lycee"
+          icon="🎓"
+          label="Lyçée"
           isOpen={isOpen}
           isActive={pathname === "/app/entrainements"}
         />
@@ -171,8 +171,8 @@ export default function Sidebar() {
 
         <SidebarLink
           href="/app/formules"
-          icon="🎓"
-          label="Nos formules"
+          icon="📒"
+          label="Freemium"
           isOpen={isOpen}
           isActive={pathname === "/app/formules"}
         />

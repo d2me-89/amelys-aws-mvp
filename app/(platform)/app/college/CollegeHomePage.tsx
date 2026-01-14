@@ -314,7 +314,7 @@ export default function CollegePage() {
     {
       id: "mathematiques",
       nom: "Mathématiques",
-      emoji: "➕",
+      emoji: "📐",
       description: "Épreuve écrite (environ 2 heures) • Coefficient 2",
       path: "/app/college/brevet/epreuves/mathematiques"
     },
@@ -504,10 +504,10 @@ export default function CollegePage() {
                       ? "0 12px 24px rgba(0,0,0,0.3)"
                       : "0 4px 8px rgba(0,0,0,0.2)",
                   }}>
-                    {/* Partie haute avec dégradé */}
+                    {/* Partie haute avec dégradé - RÉDUITE de 15% */}
                     <div style={{
                       background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3d3d3d 100%)",
-                      padding: "2rem 1.5rem",
+                      padding: "1.7rem 1.3rem",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -525,11 +525,11 @@ export default function CollegePage() {
                         pointerEvents: "none"
                       }} />
 
-                      {/* Conteneur de l'icône avec illumination */}
+                      {/* Conteneur de l'icône avec illumination - RÉDUIT de 15% */}
                       <div style={{
-                        width: "70px",
-                        height: "70px",
-                        borderRadius: "18px",
+                        width: "60px",
+                        height: "60px",
+                        borderRadius: "15px",
                         background: "#ffffff",
                         display: "flex",
                         alignItems: "center",
@@ -541,52 +541,52 @@ export default function CollegePage() {
                           : "0 4px 12px rgba(0,0,0,0.1)",
                         transition: "all 0.3s ease"
                       }}>
-                        {/* Emoji */}
-                        <span style={{ fontSize: "2.2rem" }}>
+                        {/* Emoji - RÉDUIT de 15% */}
+                        <span style={{ fontSize: "1.87rem" }}>
                           {matiere.emoji}
                         </span>
                       </div>
                     </div>
 
-                    {/* Partie basse avec espace pour avancement futur */}
+                    {/* Partie basse avec espace pour avancement futur - RÉDUITE de 15% */}
                     <div style={{
-                      padding: "1.5rem",
+                      padding: "1.28rem",
                       background: "rgba(255,255,255,0.03)",
-                      minHeight: "120px"
+                      minHeight: "102px"
                     }}>
-                      {/* Badge séances */}
+                      {/* Badge séances - RÉDUIT de 15% */}
                       <div style={{
                         display: "inline-block",
-                        padding: "0.3rem 0.8rem",
-                        borderRadius: "16px",
+                        padding: "0.26rem 0.68rem",
+                        borderRadius: "14px",
                         background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
                         border: "1px solid rgba(255,215,0,0.3)",
-                        fontSize: "0.75rem",
+                        fontSize: "0.64rem",
                         fontWeight: 600,
                         color: "#FFD700",
-                        marginBottom: "1rem"
+                        marginBottom: "0.85rem"
                       }}>
                         {matiere.seances} séances
                       </div>
 
-                      {/* Titre */}
+                      {/* Titre - RÉDUIT de 15% */}
                       <h3 style={{
-                        fontSize: "1rem",
+                        fontSize: "0.85rem",
                         fontWeight: 700,
-                        margin: "0 0 1rem 0",
+                        margin: "0 0 0.85rem 0",
                         color: "#fff",
                         lineHeight: "1.3"
                       }}>
                         {matiere.nom}
                       </h3>
 
-                      {/* Espace réservé pour avancement (à remplir plus tard) */}
+                      {/* Espace réservé pour avancement (à remplir plus tard) - RÉDUIT de 15% */}
                       <div style={{
-                        minHeight: "40px",
+                        minHeight: "34px",
                         opacity: 0.3,
                         borderTop: "1px dashed rgba(255,255,255,0.1)",
-                        paddingTop: "0.75rem",
-                        fontSize: "0.7rem",
+                        paddingTop: "0.64rem",
+                        fontSize: "0.6rem",
                         color: "rgba(255,255,255,0.5)"
                       }}>
                         {/* Espace pour : % terminé, barre de progression, nombre d'étapes */}
@@ -653,10 +653,10 @@ export default function CollegePage() {
                       ? "0 12px 24px rgba(0,0,0,0.3)"
                       : "0 4px 8px rgba(0,0,0,0.2)",
                   }}>
-                    {/* Partie haute avec dégradé */}
+                    {/* Partie haute avec dégradé - RÉDUITE de 15% */}
                     <div style={{
                       background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3d3d3d 100%)",
-                      padding: "2rem 1.5rem",
+                      padding: "1.7rem 1.3rem",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -674,11 +674,11 @@ export default function CollegePage() {
                         pointerEvents: "none"
                       }} />
 
-                      {/* Conteneur de l'icône avec illumination */}
+                      {/* Conteneur de l'icône avec illumination - RÉDUIT de 15% */}
                       <div style={{
-                        width: "70px",
-                        height: "70px",
-                        borderRadius: "18px",
+                        width: "60px",
+                        height: "60px",
+                        borderRadius: "15px",
                         background: "#ffffff",
                         display: "flex",
                         alignItems: "center",
@@ -690,33 +690,33 @@ export default function CollegePage() {
                           : "0 4px 12px rgba(0,0,0,0.1)",
                         transition: "all 0.3s ease"
                       }}>
-                        {/* Emoji */}
-                        <span style={{ fontSize: "2.2rem" }}>
+                        {/* Emoji - RÉDUIT de 15% */}
+                        <span style={{ fontSize: "1.87rem" }}>
                           {epreuve.emoji}
                         </span>
                       </div>
                     </div>
 
-                    {/* Partie basse */}
+                    {/* Partie basse - RÉDUITE de 15% */}
                     <div style={{
-                      padding: "1.5rem",
+                      padding: "1.28rem",
                       background: "rgba(255,255,255,0.03)",
-                      minHeight: "140px"
+                      minHeight: "119px"
                     }}>
-                      {/* Titre */}
+                      {/* Titre - RÉDUIT de 15% */}
                       <h3 style={{
-                        fontSize: "1rem",
+                        fontSize: "0.85rem",
                         fontWeight: 700,
-                        margin: "0 0 0.75rem 0",
+                        margin: "0 0 0.64rem 0",
                         color: "#fff",
                         lineHeight: "1.3"
                       }}>
                         {epreuve.nom}
                       </h3>
 
-                      {/* Description */}
+                      {/* Description - RÉDUITE de 15% */}
                       <p style={{
-                        fontSize: "0.8rem",
+                        fontSize: "0.68rem",
                         margin: 0,
                         color: "rgba(255,255,255,0.75)",
                         lineHeight: "1.4"
