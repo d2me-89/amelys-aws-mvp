@@ -4,16 +4,28 @@ import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState } from "react";
 
+// Import des icônes Lucide React
+import { 
+  Calculator,      // Mathématiques
+  BookOpen,        // Français
+  Globe,           // Anglais
+  Languages,       // Allemand
+  Landmark,        // Histoire
+  Map,             // Géographie
+  Flask,           // Sciences
+  Scale            // EMC
+} from "lucide-react";
+
 type Matiere = {
   id: string;
   nom: string;
-  icon: string;
+  Icon: any; // Composant d'icône Lucide
   seances: number;
   path: string;
 };
 
 export default function CollegePage() {
-  const [selectedClass, setSelectedClass] = useState<string>("sixieme"); // Sixième sélectionnée par défaut
+  const [selectedClass, setSelectedClass] = useState<string>("sixieme");
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
   const classes = [
@@ -23,61 +35,60 @@ export default function CollegePage() {
     { id: "troisieme", label: "Troisième" },
   ];
 
-  // Matières pour la Sixième (les autres classes auront leurs matières plus tard)
   const matieresSixieme: Matiere[] = [
     {
       id: "mathematiques",
       nom: "Mathématiques 6ème",
-      icon: "📐",
+      Icon: Calculator,
       seances: 12,
       path: "/app/college/sixieme/matieres/mathematiques"
     },
     {
       id: "francais",
       nom: "Français 6ème",
-      icon: "📖",
+      Icon: BookOpen,
       seances: 15,
       path: "/app/college/sixieme/matieres/francais"
     },
     {
       id: "anglais",
       nom: "Anglais 6ème",
-      icon: "🇬🇧",
+      Icon: Globe,
       seances: 10,
       path: "/app/college/sixieme/matieres/anglais"
     },
     {
       id: "allemand",
       nom: "Allemand 6ème",
-      icon: "🇩🇪",
+      Icon: Languages,
       seances: 10,
       path: "/app/college/sixieme/matieres/allemand"
     },
     {
       id: "histoire",
       nom: "Histoire 6ème",
-      icon: "🏛️",
+      Icon: Landmark,
       seances: 11,
       path: "/app/college/sixieme/matieres/histoire"
     },
     {
       id: "geographie",
       nom: "Géographie 6ème",
-      icon: "🌍",
+      Icon: Map,
       seances: 9,
       path: "/app/college/sixieme/matieres/geographie"
     },
     {
       id: "sciences",
       nom: "Sciences 6ème",
-      icon: "🔬",
+      Icon: Flask,
       seances: 13,
       path: "/app/college/sixieme/matieres/sciences"
     },
     {
       id: "emc",
       nom: "Enseignement Moral et Civique 6ème",
-      icon: "⚖️",
+      Icon: Scale,
       seances: 8,
       path: "/app/college/sixieme/matieres/emc"
     }
@@ -108,7 +119,7 @@ export default function CollegePage() {
           Sélectionne ta classe pour accéder à tes matières
         </p>
 
-        {/* 4 boutons de classes - centrés et espacés */}
+        {/* 4 boutons de classes */}
         <div style={{
           display: "flex",
           justifyContent: "center",
@@ -153,7 +164,7 @@ export default function CollegePage() {
           ))}
         </div>
 
-        {/* Affichage conditionnel : Matières de Sixième */}
+        {/* Matières de Sixième */}
         {selectedClass === "sixieme" && (
           <div style={{ marginTop: "2rem" }}>
             <h2 style={{ 
@@ -172,7 +183,7 @@ export default function CollegePage() {
               8 matières • Des centaines de modules • Des milliers d'activités
             </p>
 
-            {/* Grille de matières - style JurisLogic - 2 lignes de 4 */}
+            {/* Grille de matières */}
             <div style={{
               display: "grid",
               gridTemplateColumns: "repeat(4, 1fr)",
@@ -180,114 +191,127 @@ export default function CollegePage() {
               maxWidth: "1300px",
               margin: "0 auto"
             }}>
-              {matieresSixieme.map((matiere) => (
-                <Link
-                  key={matiere.id}
-                  href={matiere.path}
-                  style={{
-                    textDecoration: "none",
-                    color: "inherit",
-                    display: "block"
-                  }}
-                  onMouseEnter={() => setHoveredCard(matiere.id)}
-                  onMouseLeave={() => setHoveredCard(null)}
-                >
-                  <div style={{
-                    borderRadius: "16px",
-                    overflow: "hidden",
-                    background: "rgba(255,255,255,0.05)",
-                    border: hoveredCard === matiere.id 
-                      ? "1px solid rgba(255,255,255,0.3)"
-                      : "1px solid rgba(255,255,255,0.1)",
-                    transition: "all 0.3s ease",
-                    transform: hoveredCard === matiere.id 
-                      ? "translateY(-8px)" 
-                      : "translateY(0)",
-                    boxShadow: hoveredCard === matiere.id
-                      ? "0 12px 24px rgba(0,0,0,0.3)"
-                      : "0 4px 8px rgba(0,0,0,0.2)",
-                  }}>
-                    {/* Partie haute avec dégradé noir/doré et icône */}
+              {matieresSixieme.map((matiere) => {
+                const IconComponent = matiere.Icon;
+                
+                return (
+                  <Link
+                    key={matiere.id}
+                    href={matiere.path}
+                    style={{
+                      textDecoration: "none",
+                      color: "inherit",
+                      display: "block"
+                    }}
+                    onMouseEnter={() => setHoveredCard(matiere.id)}
+                    onMouseLeave={() => setHoveredCard(null)}
+                  >
                     <div style={{
-                      background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3d3d3d 100%)",
-                      padding: "2rem 1.5rem",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      position: "relative",
-                      overflow: "hidden"
+                      borderRadius: "16px",
+                      overflow: "hidden",
+                      background: "rgba(255,255,255,0.05)",
+                      border: hoveredCard === matiere.id 
+                        ? "1px solid rgba(255,255,255,0.3)"
+                        : "1px solid rgba(255,255,255,0.1)",
+                      transition: "all 0.3s ease",
+                      transform: hoveredCard === matiere.id 
+                        ? "translateY(-8px)" 
+                        : "translateY(0)",
+                      boxShadow: hoveredCard === matiere.id
+                        ? "0 12px 24px rgba(0,0,0,0.3)"
+                        : "0 4px 8px rgba(0,0,0,0.2)",
                     }}>
-                      {/* Effet de brillance doré en arrière-plan */}
+                      {/* Partie haute avec dégradé */}
                       <div style={{
-                        position: "absolute",
-                        top: "-50%",
-                        left: "-50%",
-                        width: "200%",
-                        height: "200%",
-                        background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
-                        pointerEvents: "none"
-                      }} />
-
-                      {/* Icône sur fond blanc avec contour doré au survol - TAILLE RÉDUITE */}
-                      <div style={{
-                        width: "70px",
-                        height: "70px",
-                        borderRadius: "18px",
-                        background: "#ffffff",
+                        background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3d3d3d 100%)",
+                        padding: "2rem 1.5rem",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        fontSize: "2.2rem",
                         position: "relative",
-                        zIndex: 1,
-                        boxShadow: hoveredCard === matiere.id
-                          ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
-                          : "0 4px 12px rgba(0,0,0,0.1)",
-                        transition: "all 0.3s ease"
+                        overflow: "hidden"
                       }}>
-                        {matiere.icon}
-                      </div>
-                    </div>
+                        {/* Effet brillance doré */}
+                        <div style={{
+                          position: "absolute",
+                          top: "-50%",
+                          left: "-50%",
+                          width: "200%",
+                          height: "200%",
+                          background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
+                          pointerEvents: "none"
+                        }} />
 
-                    {/* Partie basse avec infos */}
-                    <div style={{
-                      padding: "1rem",
-                      background: "rgba(255,255,255,0.03)"
-                    }}>
-                      {/* Badge nombre de séances */}
+                        {/* Conteneur de l'icône avec illumination */}
+                        <div style={{
+                          width: "70px",
+                          height: "70px",
+                          borderRadius: "18px",
+                          background: "#ffffff",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          position: "relative",
+                          zIndex: 1,
+                          boxShadow: hoveredCard === matiere.id
+                            ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
+                            : "0 4px 12px rgba(0,0,0,0.1)",
+                          transition: "all 0.3s ease"
+                        }}>
+                          {/* Icône Lucide React avec couleur dégradée */}
+                          <div style={{
+                            background: "linear-gradient(135deg, #1a1a1a 0%, #3d3d3d 100%)",
+                            WebkitBackgroundClip: "text",
+                            WebkitTextFillColor: "transparent",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center"
+                          }}>
+                            <IconComponent size={36} strokeWidth={2} />
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Partie basse */}
                       <div style={{
-                        display: "inline-block",
-                        padding: "0.3rem 0.8rem",
-                        borderRadius: "16px",
-                        background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
-                        border: "1px solid rgba(255,215,0,0.3)",
-                        fontSize: "0.75rem",
-                        fontWeight: 600,
-                        color: "#FFD700",
-                        marginBottom: "0.75rem"
+                        padding: "1rem",
+                        background: "rgba(255,255,255,0.03)"
                       }}>
-                        {matiere.seances} séances
-                      </div>
+                        {/* Badge séances */}
+                        <div style={{
+                          display: "inline-block",
+                          padding: "0.3rem 0.8rem",
+                          borderRadius: "16px",
+                          background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
+                          border: "1px solid rgba(255,215,0,0.3)",
+                          fontSize: "0.75rem",
+                          fontWeight: 600,
+                          color: "#FFD700",
+                          marginBottom: "0.75rem"
+                        }}>
+                          {matiere.seances} séances
+                        </div>
 
-                      {/* Titre de la matière */}
-                      <h3 style={{
-                        fontSize: "1rem",
-                        fontWeight: 700,
-                        margin: "0",
-                        color: "#fff",
-                        lineHeight: "1.3"
-                      }}>
-                        {matiere.nom}
-                      </h3>
+                        {/* Titre */}
+                        <h3 style={{
+                          fontSize: "1rem",
+                          fontWeight: 700,
+                          margin: "0",
+                          color: "#fff",
+                          lineHeight: "1.3"
+                        }}>
+                          {matiere.nom}
+                        </h3>
+                      </div>
                     </div>
-                  </div>
-                </Link>
-              ))}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         )}
 
-        {/* Message pour les autres classes (pas encore disponibles) */}
+        {/* Message pour les autres classes */}
         {selectedClass && selectedClass !== "sixieme" && (
           <div style={{
             textAlign: "center",
@@ -306,7 +330,6 @@ export default function CollegePage() {
             </p>
           </div>
         )}
-
       </main>
     </AppLayout>
   );
