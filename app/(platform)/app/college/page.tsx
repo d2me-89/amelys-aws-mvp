@@ -1,3 +1,3 @@
-import CollegeHomePagePage from "./CollegeHomePageHomePage";
+import CollegeHomePage from "./CollegeHomePage";
 
-export default CollegeHomePagePage;
+export default CollegeHomePage;
