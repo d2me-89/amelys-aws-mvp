@@ -10,10 +10,10 @@ export default function AppHome() {
         maxWidth: "1200px",
         margin: "0 auto"
       }}>
-        <h1>Amélys — Plateforme d'enseignement du droit</h1>
+        <h1>Amélys — Plateforme d'apprentissage de l'enseignement secondaire</h1>
         
         <p style={{ fontSize: "1.1rem", opacity: 0.9 }}>
-          Apprends le droit de façon interactive avec une IA juridique dédiée.
+          Réussis ta scolarité de façon interactive avec une IA scolaire dédiée.
         </p>
 
         <hr style={{ margin: "2rem 0", opacity: 0.3 }} />
@@ -26,7 +26,7 @@ export default function AppHome() {
           marginTop: "1rem"
         }}>
           <Link 
-            href="/app/matieres/introduction-au-droit"
+            href="/app/college/sixieme"
             style={{
               border: "1px solid rgba(255,255,255,0.2)",
               borderRadius: "12px",
@@ -36,7 +36,7 @@ export default function AppHome() {
               display: "block"
             }}
           >
-            <h3 style={{ marginTop: 0 }}>📚 Introduction au droit</h3>
+            <h3 style={{ marginTop: 0 }}>📚 Collège</h3>
             <p style={{ margin: 0, opacity: 0.8 }}>
               5 parties • 25 modules • 550 activités
             </p>

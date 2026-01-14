@@ -1,7 +1,7 @@
 import Link from "next/link";
 import AppLayout from "../../../../components/AppLayout";
 
-export default function SixiemePage() {
+export default function CollegePage() {
   return (
     <AppLayout>
       <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
@@ -15,7 +15,7 @@ export default function SixiemePage() {
         <hr style={{ margin: "1.5rem 0" }} />
 
         <Link
-          href="/app/college/sixieme/matieres/mathematiques"
+          href="/app/college/sixieme"
           style={{
             display: "inline-block",
             padding: "0.75rem 1rem",
@@ -26,7 +26,7 @@ export default function SixiemePage() {
             border: "1px solid rgba(102, 126, 234, 0.3)",
           }}
         >
-          Mathématiques
+          Sixième
         </Link>
       </main>
     </AppLayout>
