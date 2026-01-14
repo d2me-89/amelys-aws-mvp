@@ -1,3 +1,0 @@
-import Module01DefinitionEtCaracteresDuDroitPage from "./Module01DefinitionEtCaracteresDuDroitPage";
-
-export default Module01DefinitionEtCaracteresDuDroitPage;
