@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AppLayout from "../../components/AppLayout"; 
+import AppLayout from "@/app/components/AppLayout";
 
 export default function AppHome() {
   return (
