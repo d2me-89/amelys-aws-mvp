@@ -554,14 +554,14 @@ export default function CollegePage() {
                       background: "rgba(255,255,255,0.03)",
                       minHeight: "102px"
                     }}>
-                      {/* Badge séances - RÉDUIT de 15% */}
+                      {/* Badge séances - AGRANDI de 20% */}
                       <div style={{
                         display: "inline-block",
-                        padding: "0.26rem 0.68rem",
-                        borderRadius: "14px",
+                        padding: "0.31rem 0.82rem",
+                        borderRadius: "17px",
                         background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
                         border: "1px solid rgba(255,215,0,0.3)",
-                        fontSize: "0.64rem",
+                        fontSize: "0.77rem",
                         fontWeight: 600,
                         color: "#FFD700",
                         marginBottom: "0.85rem"
@@ -569,9 +569,9 @@ export default function CollegePage() {
                         {matiere.seances} séances
                       </div>
 
-                      {/* Titre - Taille normale */}
+                      {/* Titre - AGRANDI de 20% */}
                       <h3 style={{
-                        fontSize: "1rem",
+                        fontSize: "1.2rem",
                         fontWeight: 700,
                         margin: "0 0 0.85rem 0",
                         color: "#fff",
@@ -703,14 +703,14 @@ export default function CollegePage() {
                       background: "rgba(255,255,255,0.03)",
                       minHeight: "102px"
                     }}>
-                      {/* Badge séances */}
+                      {/* Badge séances - AGRANDI de 20% */}
                       <div style={{
                         display: "inline-block",
-                        padding: "0.26rem 0.68rem",
-                        borderRadius: "14px",
+                        padding: "0.31rem 0.82rem",
+                        borderRadius: "17px",
                         background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
                         border: "1px solid rgba(255,215,0,0.3)",
-                        fontSize: "0.64rem",
+                        fontSize: "0.77rem",
                         fontWeight: 600,
                         color: "#FFD700",
                         marginBottom: "0.85rem"
@@ -718,9 +718,9 @@ export default function CollegePage() {
                         {epreuve.seances} séances
                       </div>
 
-                      {/* Titre */}
+                      {/* Titre - AGRANDI de 20% */}
                       <h3 style={{
-                        fontSize: "1rem",
+                        fontSize: "1.2rem",
                         fontWeight: 700,
                         margin: "0 0 0.85rem 0",
                         color: "#fff",
