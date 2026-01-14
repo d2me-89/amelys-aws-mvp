@@ -21,6 +21,7 @@ export default function CollegePage() {
     { id: "cinquieme", label: "Cinquième" },
     { id: "quatrieme", label: "Quatrième" },
     { id: "troisieme", label: "Troisième" },
+    { id: "brevet", label: "Brevet" },
   ];
 
   const matieresSixieme: Matiere[] = [
@@ -39,20 +40,6 @@ export default function CollegePage() {
       path: "/app/college/sixieme/matieres/francais"
     },
     {
-      id: "anglais",
-      nom: "Anglais 6ème",
-      emoji: "🇬🇧",
-      seances: 10,
-      path: "/app/college/sixieme/matieres/anglais"
-    },
-    {
-      id: "allemand",
-      nom: "Allemand 6ème",
-      emoji: "🇩🇪",
-      seances: 10,
-      path: "/app/college/sixieme/matieres/allemand"
-    },
-    {
       id: "histoire",
       nom: "Histoire 6ème",
       emoji: "🏛️",
@@ -67,6 +54,13 @@ export default function CollegePage() {
       path: "/app/college/sixieme/matieres/geographie"
     },
     {
+      id: "emc",
+      nom: "EMC 6ème",
+      emoji: "⚖️",
+      seances: 8,
+      path: "/app/college/sixieme/matieres/emc"
+    },
+    {
       id: "sciences",
       nom: "Sciences 6ème",
       emoji: "🔬",
@@ -74,11 +68,11 @@ export default function CollegePage() {
       path: "/app/college/sixieme/matieres/sciences"
     },
     {
-      id: "emc",
-      nom: "Enseignement Moral et Civique 6ème",
-      emoji: "⚖️",
-      seances: 8,
-      path: "/app/college/sixieme/matieres/emc"
+      id: "anglais",
+      nom: "Anglais 6ème",
+      emoji: "🇬🇧",
+      seances: 10,
+      path: "/app/college/sixieme/matieres/anglais"
     }
   ];
 
@@ -112,6 +106,13 @@ export default function CollegePage() {
       path: "/app/college/cinquieme/matieres/geographie"
     },
     {
+      id: "emc",
+      nom: "EMC 5ème",
+      emoji: "⚖️",
+      seances: 8,
+      path: "/app/college/cinquieme/matieres/emc"
+    },
+    {
       id: "physique-chimie",
       nom: "Physique-Chimie 5ème",
       emoji: "⚛️",
@@ -126,6 +127,13 @@ export default function CollegePage() {
       path: "/app/college/cinquieme/matieres/svt"
     },
     {
+      id: "technologie",
+      nom: "Technologie 5ème",
+      emoji: "⚙️",
+      seances: 10,
+      path: "/app/college/cinquieme/matieres/technologie"
+    },
+    {
       id: "anglais",
       nom: "Anglais 5ème",
       emoji: "🇬🇧",
@@ -133,25 +141,11 @@ export default function CollegePage() {
       path: "/app/college/cinquieme/matieres/anglais"
     },
     {
-      id: "allemand",
-      nom: "Allemand 5ème",
-      emoji: "🇩🇪",
-      seances: 10,
-      path: "/app/college/cinquieme/matieres/allemand"
-    },
-    {
       id: "espagnol",
       nom: "Espagnol 5ème",
       emoji: "🇪🇸",
       seances: 10,
       path: "/app/college/cinquieme/matieres/espagnol"
-    },
-    {
-      id: "emc",
-      nom: "EMC 5ème",
-      emoji: "⚖️",
-      seances: 8,
-      path: "/app/college/cinquieme/matieres/emc"
     }
   ];
 
@@ -185,6 +179,13 @@ export default function CollegePage() {
       path: "/app/college/quatrieme/matieres/geographie"
     },
     {
+      id: "emc",
+      nom: "EMC 4ème",
+      emoji: "⚖️",
+      seances: 8,
+      path: "/app/college/quatrieme/matieres/emc"
+    },
+    {
       id: "physique-chimie",
       nom: "Physique-Chimie 4ème",
       emoji: "⚛️",
@@ -199,6 +200,13 @@ export default function CollegePage() {
       path: "/app/college/quatrieme/matieres/svt"
     },
     {
+      id: "technologie",
+      nom: "Technologie 4ème",
+      emoji: "⚙️",
+      seances: 10,
+      path: "/app/college/quatrieme/matieres/technologie"
+    },
+    {
       id: "anglais",
       nom: "Anglais 4ème",
       emoji: "🇬🇧",
@@ -206,25 +214,11 @@ export default function CollegePage() {
       path: "/app/college/quatrieme/matieres/anglais"
     },
     {
-      id: "allemand",
-      nom: "Allemand 4ème",
-      emoji: "🇩🇪",
-      seances: 10,
-      path: "/app/college/quatrieme/matieres/allemand"
-    },
-    {
       id: "espagnol",
       nom: "Espagnol 4ème",
       emoji: "🇪🇸",
       seances: 10,
       path: "/app/college/quatrieme/matieres/espagnol"
-    },
-    {
-      id: "emc",
-      nom: "EMC 4ème",
-      emoji: "⚖️",
-      seances: 8,
-      path: "/app/college/quatrieme/matieres/emc"
     }
   ];
 
@@ -258,6 +252,13 @@ export default function CollegePage() {
       path: "/app/college/troisieme/matieres/geographie"
     },
     {
+      id: "emc",
+      nom: "EMC 3ème",
+      emoji: "⚖️",
+      seances: 8,
+      path: "/app/college/troisieme/matieres/emc"
+    },
+    {
       id: "physique-chimie",
       nom: "Physique-Chimie 3ème",
       emoji: "⚛️",
@@ -272,6 +273,13 @@ export default function CollegePage() {
       path: "/app/college/troisieme/matieres/svt"
     },
     {
+      id: "technologie",
+      nom: "Technologie 3ème",
+      emoji: "⚙️",
+      seances: 10,
+      path: "/app/college/troisieme/matieres/technologie"
+    },
+    {
       id: "anglais",
       nom: "Anglais 3ème",
       emoji: "🇬🇧",
@@ -279,25 +287,57 @@ export default function CollegePage() {
       path: "/app/college/troisieme/matieres/anglais"
     },
     {
-      id: "allemand",
-      nom: "Allemand 3ème",
-      emoji: "🇩🇪",
-      seances: 10,
-      path: "/app/college/troisieme/matieres/allemand"
-    },
-    {
       id: "espagnol",
       nom: "Espagnol 3ème",
       emoji: "🇪🇸",
       seances: 10,
       path: "/app/college/troisieme/matieres/espagnol"
+    }
+  ];
+
+  type Epreuve = {
+    id: string;
+    nom: string;
+    emoji: string;
+    description: string;
+    path: string;
+  };
+
+  const epreuvesBrevet: Epreuve[] = [
+    {
+      id: "francais",
+      nom: "Français",
+      emoji: "📚",
+      description: "Écrit sur 3 heures (compréhension, dictée, rédaction, grammaire) • Coefficient 2",
+      path: "/app/college/brevet/epreuves/francais"
     },
     {
-      id: "emc",
-      nom: "EMC 3ème",
-      emoji: "⚖️",
-      seances: 8,
-      path: "/app/college/troisieme/matieres/emc"
+      id: "mathematiques",
+      nom: "Mathématiques",
+      emoji: "➕",
+      description: "Épreuve écrite (environ 2 heures) • Coefficient 2",
+      path: "/app/college/brevet/epreuves/mathematiques"
+    },
+    {
+      id: "histoire-geo-emc",
+      nom: "Histoire-Géographie + EMC",
+      emoji: "🏛️",
+      description: "Épreuve écrite (≈2 heures) • Histoire-Géographie (coef 1,5) + EMC (coef 0,5)",
+      path: "/app/college/brevet/epreuves/histoire-geo-emc"
+    },
+    {
+      id: "sciences",
+      nom: "Sciences",
+      emoji: "🔬",
+      description: "Épreuve écrite d'1 heure, portant sur deux disciplines scientifiques tirées au sort parmi : Physique-Chimie, SVT, Technologie • Coefficient 2",
+      path: "/app/college/brevet/epreuves/sciences"
+    },
+    {
+      id: "oral",
+      nom: "Oral du brevet",
+      emoji: "📣",
+      description: "Présentation d'un projet réalisé en cours (par exemple histoire des arts, projet interdisciplinaire) • Coefficient 2",
+      path: "/app/college/brevet/epreuves/oral"
     }
   ];
 
@@ -326,16 +366,19 @@ export default function CollegePage() {
   // Fonction pour obtenir le nombre de matières
   const getNombreMatieres = () => {
     switch(selectedClass) {
-      case "sixieme": return 8;
+      case "sixieme": return 7;
       case "cinquieme": return 10;
       case "quatrieme": return 10;
       case "troisieme": return 10;
+      case "brevet": return 5; // 5 épreuves
       default: return 0;
     }
   };
 
   const matieres = getMatieres();
+  const epreuves = selectedClass === "brevet" ? epreuvesBrevet : [];
   const showMatieres = ["sixieme", "cinquieme", "quatrieme", "troisieme"].includes(selectedClass);
+  const showBrevet = selectedClass === "brevet";
 
   return (
     <AppLayout>
@@ -556,8 +599,140 @@ export default function CollegePage() {
           </div>
         )}
 
+        {/* Affichage des épreuves du Brevet */}
+        {showBrevet && (
+          <div style={{ marginTop: "2rem" }}>
+            <h2 style={{ 
+              fontSize: "1.8rem", 
+              marginBottom: "0.5rem",
+              fontWeight: 700
+            }}>
+              Épreuves du Brevet
+            </h2>
+            
+            <p style={{ 
+              fontSize: "0.95rem", 
+              opacity: 0.8,
+              marginBottom: "1.5rem"
+            }}>
+              5 épreuves • Des dizaines de brevets blancs • Des centaines d'exercices pratiques
+            </p>
+
+            {/* Grille des épreuves */}
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(4, 1fr)",
+              gap: "1.5rem",
+              maxWidth: "1300px",
+              margin: "0 auto"
+            }}>
+              {epreuves.map((epreuve) => (
+                <Link
+                  key={epreuve.id}
+                  href={epreuve.path}
+                  style={{
+                    textDecoration: "none",
+                    color: "inherit",
+                    display: "block"
+                  }}
+                  onMouseEnter={() => setHoveredCard(epreuve.id)}
+                  onMouseLeave={() => setHoveredCard(null)}
+                >
+                  <div style={{
+                    borderRadius: "16px",
+                    overflow: "hidden",
+                    background: "rgba(255,255,255,0.05)",
+                    border: hoveredCard === epreuve.id 
+                      ? "1px solid rgba(255,255,255,0.3)"
+                      : "1px solid rgba(255,255,255,0.1)",
+                    transition: "all 0.3s ease",
+                    transform: hoveredCard === epreuve.id 
+                      ? "translateY(-8px)" 
+                      : "translateY(0)",
+                    boxShadow: hoveredCard === epreuve.id
+                      ? "0 12px 24px rgba(0,0,0,0.3)"
+                      : "0 4px 8px rgba(0,0,0,0.2)",
+                  }}>
+                    {/* Partie haute avec dégradé */}
+                    <div style={{
+                      background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3d3d3d 100%)",
+                      padding: "2rem 1.5rem",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      position: "relative",
+                      overflow: "hidden"
+                    }}>
+                      {/* Effet brillance doré */}
+                      <div style={{
+                        position: "absolute",
+                        top: "-50%",
+                        left: "-50%",
+                        width: "200%",
+                        height: "200%",
+                        background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
+                        pointerEvents: "none"
+                      }} />
+
+                      {/* Conteneur de l'icône avec illumination */}
+                      <div style={{
+                        width: "70px",
+                        height: "70px",
+                        borderRadius: "18px",
+                        background: "#ffffff",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        position: "relative",
+                        zIndex: 1,
+                        boxShadow: hoveredCard === epreuve.id
+                          ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
+                          : "0 4px 12px rgba(0,0,0,0.1)",
+                        transition: "all 0.3s ease"
+                      }}>
+                        {/* Emoji */}
+                        <span style={{ fontSize: "2.2rem" }}>
+                          {epreuve.emoji}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Partie basse */}
+                    <div style={{
+                      padding: "1.5rem",
+                      background: "rgba(255,255,255,0.03)",
+                      minHeight: "140px"
+                    }}>
+                      {/* Titre */}
+                      <h3 style={{
+                        fontSize: "1rem",
+                        fontWeight: 700,
+                        margin: "0 0 0.75rem 0",
+                        color: "#fff",
+                        lineHeight: "1.3"
+                      }}>
+                        {epreuve.nom}
+                      </h3>
+
+                      {/* Description */}
+                      <p style={{
+                        fontSize: "0.8rem",
+                        margin: 0,
+                        color: "rgba(255,255,255,0.75)",
+                        lineHeight: "1.4"
+                      }}>
+                        {epreuve.description}
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Message pour les autres classes */}
-        {selectedClass && !showMatieres && (
+        {selectedClass && !showMatieres && !showBrevet && (
           <div style={{
             textAlign: "center",
             padding: "3rem 2rem",
