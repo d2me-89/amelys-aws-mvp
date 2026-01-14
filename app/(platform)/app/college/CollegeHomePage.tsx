@@ -697,17 +697,17 @@ export default function CollegePage() {
                       </div>
                     </div>
 
-                    {/* Partie basse - MÊME TAILLE que les matières */}
+                    {/* Partie basse - PARFAITEMENT IDENTIQUE aux matières */}
                     <div style={{
                       padding: "1.28rem",
                       background: "rgba(255,255,255,0.03)",
                       minHeight: "102px"
                     }}>
-                      {/* Titre - Taille normale */}
+                      {/* Titre - MÊME taille et MÊME marge que les matières */}
                       <h3 style={{
                         fontSize: "1rem",
                         fontWeight: 700,
-                        margin: "0 0 0.64rem 0",
+                        margin: "0 0 0.85rem 0",
                         color: "#fff",
                         lineHeight: "1.3"
                       }}>
@@ -716,10 +716,10 @@ export default function CollegePage() {
 
                       {/* Description */}
                       <p style={{
-                        fontSize: "0.68rem",
+                        fontSize: "0.75rem",
                         margin: 0,
-                        color: "rgba(255,255,255,0.75)",
-                        lineHeight: "1.4"
+                        color: "rgba(255,255,255,0.7)",
+                        lineHeight: "1.5"
                       }}>
                         {epreuve.description}
                       </p>
@@ -753,4 +753,4 @@ export default function CollegePage() {
       </main>
     </AppLayout>
   );
-}
+}}
