@@ -4,7 +4,7 @@ import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState } from "react";
 
-// Import des icônes Lucide React
+// Import des icônes Lucide React - ICÔNES UNIVERSELLES
 import { 
   Calculator,      // Mathématiques
   BookOpen,        // Français
@@ -12,14 +12,14 @@ import {
   Languages,       // Allemand
   Landmark,        // Histoire
   Map,             // Géographie
-  Flask,           // Sciences
+  Atom,            // Sciences (remplace Flask)
   Scale            // EMC
 } from "lucide-react";
 
 type Matiere = {
   id: string;
   nom: string;
-  Icon: any; // Composant d'icône Lucide
+  Icon: any;
   seances: number;
   path: string;
 };
@@ -81,7 +81,7 @@ export default function CollegePage() {
     {
       id: "sciences",
       nom: "Sciences 6ème",
-      Icon: Flask,
+      Icon: Atom,  // Changé de Flask à Atom
       seances: 13,
       path: "/app/college/sixieme/matieres/sciences"
     },
@@ -258,17 +258,14 @@ export default function CollegePage() {
                             : "0 4px 12px rgba(0,0,0,0.1)",
                           transition: "all 0.3s ease"
                         }}>
-                          {/* Icône Lucide React avec couleur dégradée */}
-                          <div style={{
-                            background: "linear-gradient(135deg, #1a1a1a 0%, #3d3d3d 100%)",
-                            WebkitBackgroundClip: "text",
-                            WebkitTextFillColor: "transparent",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center"
-                          }}>
-                            <IconComponent size={36} strokeWidth={2} />
-                          </div>
+                          {/* Icône Lucide React avec couleur */}
+                          <IconComponent 
+                            size={36} 
+                            strokeWidth={2}
+                            style={{
+                              color: "#2d2d2d"
+                            }}
+                          />
                         </div>
                       </div>
 
