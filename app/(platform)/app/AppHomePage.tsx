@@ -18,7 +18,7 @@ export default function AppHome() {
 
         <hr style={{ margin: "2rem 0", opacity: 0.3 }} />
 
-        <h2>Matières disponibles</h2>
+        <h2>Niveau</h2>
 
         <div style={{
           display: "grid",
@@ -26,7 +26,7 @@ export default function AppHome() {
           marginTop: "1rem"
         }}>
           <Link 
-            href="/app/college/sixieme"
+            href="/app/college"
             style={{
               border: "1px solid rgba(255,255,255,0.2)",
               borderRadius: "12px",
@@ -38,7 +38,7 @@ export default function AppHome() {
           >
             <h3 style={{ marginTop: 0 }}>📚 Collège</h3>
             <p style={{ margin: 0, opacity: 0.8 }}>
-              5 parties • 25 modules • 550 activités
+              8 matieres • Des centaines de modules • Des milliers d'activités
             </p>
           </Link>
         </div>
