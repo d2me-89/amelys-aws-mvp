@@ -86,25 +86,12 @@ export default function CollegePage() {
   return (
     <AppLayout>
       <main style={{ 
-        padding: "3rem 2rem", 
+        padding: "1.5rem 3rem", 
         fontFamily: "sans-serif",
-        maxWidth: "1600px",
+        maxWidth: "1400px",
         margin: "0 auto"
       }}>
         {/* En-tête */}
-        <div style={{ marginBottom: "1rem" }}>
-          <Link 
-            href="/app"
-            style={{
-              color: "rgba(255,255,255,0.7)",
-              textDecoration: "none",
-              fontSize: "0.95rem"
-            }}
-          >
-            ← Retour Tableau de bord
-          </Link>
-        </div>
-
         <h1 style={{ 
           fontSize: "2.5rem", 
           marginBottom: "0.5rem",
@@ -116,7 +103,7 @@ export default function CollegePage() {
         <p style={{ 
           fontSize: "1.1rem", 
           opacity: 0.8,
-          marginBottom: "3rem"
+          marginBottom: "2rem"
         }}>
           Sélectionne ta classe pour accéder à tes matières
         </p>
@@ -127,7 +114,7 @@ export default function CollegePage() {
           justifyContent: "center",
           gap: "2rem",
           flexWrap: "wrap",
-          marginBottom: "4rem"
+          marginBottom: "2.5rem"
         }}>
           {classes.map((cls) => (
             <button
@@ -168,28 +155,30 @@ export default function CollegePage() {
 
         {/* Affichage conditionnel : Matières de Sixième */}
         {selectedClass === "sixieme" && (
-          <div style={{ marginTop: "3rem" }}>
+          <div style={{ marginTop: "2rem" }}>
             <h2 style={{ 
-              fontSize: "2rem", 
-              marginBottom: "1rem",
+              fontSize: "1.8rem", 
+              marginBottom: "0.5rem",
               fontWeight: 700
             }}>
               Matières de Sixième
             </h2>
             
             <p style={{ 
-              fontSize: "1rem", 
+              fontSize: "0.95rem", 
               opacity: 0.8,
-              marginBottom: "2rem"
+              marginBottom: "1.5rem"
             }}>
               8 matières • Des centaines de modules • Des milliers d'activités
             </p>
 
-            {/* Grille de matières - style JurisLogic */}
+            {/* Grille de matières - style JurisLogic - 2 lignes de 4 */}
             <div style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-              gap: "2rem"
+              gridTemplateColumns: "repeat(4, 1fr)",
+              gap: "1.5rem",
+              maxWidth: "1300px",
+              margin: "0 auto"
             }}>
               {matieresSixieme.map((matiere) => (
                 <Link
@@ -221,7 +210,7 @@ export default function CollegePage() {
                     {/* Partie haute avec dégradé noir/doré et icône */}
                     <div style={{
                       background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3d3d3d 100%)",
-                      padding: "3rem 2rem",
+                      padding: "2rem 1.5rem",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -239,20 +228,20 @@ export default function CollegePage() {
                         pointerEvents: "none"
                       }} />
 
-                      {/* Icône sur fond blanc avec contour doré au survol */}
+                      {/* Icône sur fond blanc avec contour doré au survol - TAILLE RÉDUITE */}
                       <div style={{
-                        width: "100px",
-                        height: "100px",
-                        borderRadius: "24px",
+                        width: "70px",
+                        height: "70px",
+                        borderRadius: "18px",
                         background: "#ffffff",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        fontSize: "3rem",
+                        fontSize: "2.2rem",
                         position: "relative",
                         zIndex: 1,
                         boxShadow: hoveredCard === matiere.id
-                          ? "0 0 0 3px rgba(255,215,0,0.4), 0 0 20px rgba(255,215,0,0.3)"
+                          ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
                           : "0 4px 12px rgba(0,0,0,0.1)",
                         transition: "all 0.3s ease"
                       }}>
@@ -262,30 +251,31 @@ export default function CollegePage() {
 
                     {/* Partie basse avec infos */}
                     <div style={{
-                      padding: "1.5rem",
+                      padding: "1rem",
                       background: "rgba(255,255,255,0.03)"
                     }}>
                       {/* Badge nombre de séances */}
                       <div style={{
                         display: "inline-block",
-                        padding: "0.4rem 1rem",
-                        borderRadius: "20px",
+                        padding: "0.3rem 0.8rem",
+                        borderRadius: "16px",
                         background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
                         border: "1px solid rgba(255,215,0,0.3)",
-                        fontSize: "0.85rem",
+                        fontSize: "0.75rem",
                         fontWeight: 600,
                         color: "#FFD700",
-                        marginBottom: "1rem"
+                        marginBottom: "0.75rem"
                       }}>
                         {matiere.seances} séances
                       </div>
 
                       {/* Titre de la matière */}
                       <h3 style={{
-                        fontSize: "1.3rem",
+                        fontSize: "1rem",
                         fontWeight: 700,
-                        margin: "0 0 0.5rem 0",
-                        color: "#fff"
+                        margin: "0",
+                        color: "#fff",
+                        lineHeight: "1.3"
                       }}>
                         {matiere.nom}
                       </h3>
