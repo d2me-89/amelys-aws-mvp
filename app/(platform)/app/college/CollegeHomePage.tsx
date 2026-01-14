@@ -569,9 +569,9 @@ export default function CollegePage() {
                         {matiere.seances} séances
                       </div>
 
-                      {/* Titre - RÉDUIT de 15% */}
+                      {/* Titre - Taille normale */}
                       <h3 style={{
-                        fontSize: "0.85rem",
+                        fontSize: "1rem",
                         fontWeight: 700,
                         margin: "0 0 0.85rem 0",
                         color: "#fff",
@@ -697,15 +697,15 @@ export default function CollegePage() {
                       </div>
                     </div>
 
-                    {/* Partie basse - RÉDUITE de 15% */}
+                    {/* Partie basse - MÊME TAILLE que les matières */}
                     <div style={{
                       padding: "1.28rem",
                       background: "rgba(255,255,255,0.03)",
-                      minHeight: "119px"
+                      minHeight: "102px"
                     }}>
-                      {/* Titre - RÉDUIT de 15% */}
+                      {/* Titre - Taille normale */}
                       <h3 style={{
-                        fontSize: "0.85rem",
+                        fontSize: "1rem",
                         fontWeight: 700,
                         margin: "0 0 0.64rem 0",
                         color: "#fff",
@@ -714,7 +714,7 @@ export default function CollegePage() {
                         {epreuve.nom}
                       </h3>
 
-                      {/* Description - RÉDUITE de 15% */}
+                      {/* Description */}
                       <p style={{
                         fontSize: "0.68rem",
                         margin: 0,

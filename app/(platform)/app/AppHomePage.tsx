@@ -36,7 +36,7 @@ export default function AppHome() {
               display: "block"
             }}
           >
-            <h3 style={{ marginTop: 0 }}>📚 Collège</h3>
+            <h3 style={{ marginTop: 0 }}>🏫 Collège</h3>
             <p style={{ margin: 0, opacity: 0.8 }}>
               8 matieres • Des centaines de modules • Des milliers d'activités
             </p>
