@@ -105,14 +105,14 @@ export default function Sidebar() {
           icon="🏫"
           label="Collège"
           isOpen={isOpen}
-          isActive={pathname.startsWith("/app")}
+          isActive={pathname.startsWith("/app/college")}
         />
         <SidebarLink
           href="/app/lycee"
           icon="🎓"
-          label="Lyçée"
+          label="Lycée"
           isOpen={isOpen}
-          isActive={pathname === "/app/entrainements"}
+          isActive={pathname.startsWith("/app/lycee")}
         />
         <SidebarLink
           href="/app/amelysask"
@@ -171,7 +171,7 @@ export default function Sidebar() {
 
         <SidebarLink
           href="/app/formules"
-          icon="📒"
+          icon="💳"
           label="Freemium"
           isOpen={isOpen}
           isActive={pathname === "/app/formules"}
