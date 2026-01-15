@@ -456,7 +456,6 @@ export default function LyceePage() {
     }
   ];
 
-  // Fonction pour obtenir les matières selon la classe sélectionnée
   const getMatieres = () => {
     switch(selectedClass) {
       case "seconde": return matieresSeconde;
@@ -466,7 +465,6 @@ export default function LyceePage() {
     }
   };
 
-  // Fonction pour obtenir le titre selon la classe
   const getTitre = () => {
     switch(selectedClass) {
       case "seconde": return "Matières de Seconde";
@@ -477,7 +475,6 @@ export default function LyceePage() {
     }
   };
 
-  // Fonction pour obtenir le nombre de matières
   const getNombreMatieres = () => {
     switch(selectedClass) {
       case "seconde": return 11;
@@ -518,7 +515,7 @@ export default function LyceePage() {
           Sélectionne ta classe pour accéder à tes matières
         </p>
 
-        {/* 4 boutons de classes */}
+        {/* 4 boutons de classes - MODIFIÉ : couleurs bleues */}
         <div style={{
           display: "flex",
           justifyContent: "center",
@@ -537,10 +534,10 @@ export default function LyceePage() {
                 borderRadius: "50px",
                 color: selectedClass === cls.id ? "#fff" : "rgba(255,255,255,0.9)",
                 background: selectedClass === cls.id 
-                  ? "linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%)"
+                  ? "linear-gradient(135deg, #38BDF8 0%, #0EA5E9 50%, #0284C7 100%)"
                   : "rgba(255,255,255,0.1)",
                 border: selectedClass === cls.id 
-                  ? "2px solid rgba(255,215,0,0.5)"
+                  ? "2px solid rgba(56,189,248,0.5)"
                   : "2px solid rgba(255,255,255,0.2)",
                 transition: "all 0.3s ease",
                 cursor: "pointer",
@@ -548,7 +545,7 @@ export default function LyceePage() {
               onMouseEnter={(e) => {
                 if (selectedClass !== cls.id) {
                   e.currentTarget.style.background = "rgba(255,255,255,0.15)";
-                  e.currentTarget.style.borderColor = "rgba(255,215,0,0.4)";
+                  e.currentTarget.style.borderColor = "rgba(56,189,248,0.4)";
                 }
               }}
               onMouseLeave={(e) => {
@@ -627,18 +624,18 @@ export default function LyceePage() {
                       position: "relative",
                       overflow: "hidden"
                     }}>
-                      {/* Effet brillance doré */}
+                      {/* Effet brillance MODIFIÉ : bleuté */}
                       <div style={{
                         position: "absolute",
                         top: "-50%",
                         left: "-50%",
                         width: "200%",
                         height: "200%",
-                        background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
+                        background: "radial-gradient(circle, rgba(125,211,252,0.2) 0%, transparent 70%)",
                         pointerEvents: "none"
                       }} />
 
-                      {/* Conteneur de l'icône avec illumination */}
+                      {/* Conteneur de l'icône MODIFIÉ : bordure et ombre bleues */}
                       <div style={{
                         width: "60px",
                         height: "60px",
@@ -650,7 +647,7 @@ export default function LyceePage() {
                         position: "relative",
                         zIndex: 1,
                         boxShadow: hoveredCard === matiere.id
-                          ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
+                          ? "0 0 0 4px rgba(56,189,248,0.5), 0 0 30px rgba(56,189,248,0.5), 0 0 50px rgba(56,189,248,0.3)"
                           : "0 4px 12px rgba(0,0,0,0.1)",
                         transition: "all 0.3s ease"
                       }}>
@@ -667,16 +664,16 @@ export default function LyceePage() {
                       background: "rgba(255,255,255,0.03)",
                       minHeight: "102px"
                     }}>
-                      {/* Badge séances */}
+                      {/* Badge séances MODIFIÉ : couleurs bleues */}
                       <div style={{
                         display: "inline-block",
                         padding: "0.31rem 0.82rem",
                         borderRadius: "17px",
                         background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
-                        border: "1px solid rgba(255,215,0,0.3)",
+                        border: "1px solid rgba(56,189,248,0.4)",
                         fontSize: "0.77rem",
                         fontWeight: 600,
-                        color: "#FFD700",
+                        color: "#7DD3FC",
                         marginBottom: "0.85rem"
                       }}>
                         {matiere.seances} séances
@@ -782,18 +779,18 @@ export default function LyceePage() {
                       position: "relative",
                       overflow: "hidden"
                     }}>
-                      {/* Effet brillance doré */}
+                      {/* Effet brillance MODIFIÉ : bleuté */}
                       <div style={{
                         position: "absolute",
                         top: "-50%",
                         left: "-50%",
                         width: "200%",
                         height: "200%",
-                        background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
+                        background: "radial-gradient(circle, rgba(125,211,252,0.2) 0%, transparent 70%)",
                         pointerEvents: "none"
                       }} />
 
-                      {/* Conteneur de l'icône avec illumination */}
+                      {/* Conteneur de l'icône MODIFIÉ : bordure et ombre bleues */}
                       <div style={{
                         width: "60px",
                         height: "60px",
@@ -805,7 +802,7 @@ export default function LyceePage() {
                         position: "relative",
                         zIndex: 1,
                         boxShadow: hoveredCard === epreuve.id
-                          ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
+                          ? "0 0 0 4px rgba(56,189,248,0.5), 0 0 30px rgba(56,189,248,0.5), 0 0 50px rgba(56,189,248,0.3)"
                           : "0 4px 12px rgba(0,0,0,0.1)",
                         transition: "all 0.3s ease"
                       }}>
@@ -822,16 +819,16 @@ export default function LyceePage() {
                       background: "rgba(255,255,255,0.03)",
                       minHeight: "102px"
                     }}>
-                      {/* Badge séances */}
+                      {/* Badge séances MODIFIÉ : couleurs bleues */}
                       <div style={{
                         display: "inline-block",
                         padding: "0.31rem 0.82rem",
                         borderRadius: "17px",
                         background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
-                        border: "1px solid rgba(255,215,0,0.3)",
+                        border: "1px solid rgba(56,189,248,0.4)",
                         fontSize: "0.77rem",
                         fontWeight: 600,
-                        color: "#FFD700",
+                        color: "#7DD3FC",
                         marginBottom: "0.85rem"
                       }}>
                         {epreuve.seances} séances
