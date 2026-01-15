@@ -143,17 +143,18 @@ export default function Sidebar() {
           isActive={pathname === "/app/profs-en-ligne"}
         />
 
-        {/* Section Nos formules - Visible uniquement en mode étendu */}
-        {isOpen && (
-          <div
-            style={{
-              margin: "1.5rem 0 0.5rem",
-              paddingLeft: "1rem",
-              paddingRight: "1rem",
-              borderTop: "1px solid rgba(255,255,255,0.1)",
-              paddingTop: "1rem",
-            }}
-          >
+        {/* Section Nos formules - Toujours visible pour stabilité */}
+        <div
+          style={{
+            margin: "1.5rem 0 0.5rem",
+            paddingLeft: "1rem",
+            paddingRight: "1rem",
+            borderTop: "1px solid rgba(255,255,255,0.1)",
+            paddingTop: "1rem",
+            overflow: "hidden", // Cache le texte qui dépasse en mode réduit
+          }}
+        >
+          {isOpen && (
             <div
               style={{
                 fontSize: "0.7rem",
@@ -166,8 +167,8 @@ export default function Sidebar() {
             >
               Nos formules
             </div>
-          </div>
-        )}
+          )}
+        </div>
 
         <SidebarLink
           href="/app/formules"
