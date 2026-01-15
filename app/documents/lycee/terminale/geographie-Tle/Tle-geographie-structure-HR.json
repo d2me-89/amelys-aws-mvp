@@ -1,0 +1,328 @@
+[
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Mers et océans - au cœur de la mondialisation" },
+  "chapitreTitre": { "S": "Mers et océans : vecteurs essentiels de la mondialisation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la répartition des ressources halieutiques dans le monde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la répartition des ressources en gaz et en pétrole dans le monde" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la production d’électricité offshore dans le monde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la répartition des ressources minérales dans le monde" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître l’importance et la croissance des échanges maritimes dans le monde" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les principales façades maritimes dans le monde" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les principales voies maritimes dans le monde" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les flux migratoires dans le monde" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les flux touristiques dans le monde" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre la circulation des informations par des câbles sous-marins" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les espaces maritimes comme espaces riches en ressources" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les échanges et les flux dans les espaces maritimes" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC - Étudier les aires de puissances, les principaux flux et les espaces stratégiques à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Mers et océans - au cœur de la mondialisation" },
+  "chapitreTitre": { "S": "Mers et océans : entre appropriation, protection et liberté de circulation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les zones économiques exclusives" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les tensions autour des limites des zones économiques exclusives" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le droit maritime comme outil de préservation de la liberté de navigation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les tensions autour des détroits et des canaux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les tensions en Arctique autour de nouvelles voies maritimes" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les tensions autour des ressources halieutiques dans le monde" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les tensions autour des ressources énergétiques dans le monde" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les puissances militaires désireuses de protéger leurs intérêts sur les espaces maritimes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître la lutte contre la piraterie" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les risques naturels majeurs dans les espaces maritimes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les solutions aux risques naturels majeurs dans les espaces maritimes" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la pollution des mers et des océans" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les mesures de protection des écosystèmes marins" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les risques dans les espaces maritimes liés au réchauffement climatique" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les tensions autour des routes maritimes et de l’exploitation des ressources" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître la protection des espaces maritimes" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser une carte mentale sur les risques naturels et technologiques dans le monde et sur l’inégale vulnérabilité des habitants de la Terre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Mers et océans - au cœur de la mondialisation" },
+  "chapitreTitre": { "S": "La France : une puissance maritime ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la France comme deuxième zone économique exclusive du monde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le secteur de l’industrie navale en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les principaux ports de commerce français" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le rôle de la compagnie française CMA CGM" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître l’impact des territoires maritimes français dans le poids diplomatique de la France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la puissance militaire navale de la France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître l’insuffisance des ressources halieutiques en France" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la difficile exploitation des ressources maritimes énergétiques et minières en France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître la difficile préservation des écosystèmes marins" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître le dynamisme économique relatif des espaces maritimes français" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les raisons de la contestation de la souveraineté maritime française" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la France comme deuxième puissance maritime mondiale" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les limites de la puissance maritime française" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC - Répondre à une question sur les fondements et les limites de la puissance maritime de la France dans le monde" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Dynamiques territoriales, coopérations et tensions dans la mondialisation" },
+  "chapitreTitre": { "S": "Des territoires inégalement intégrés dans la mondialisation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition d’une aire de puissance" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les pôles de la Triade" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les atouts économiques de la Triade" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les atouts politiques et culturels de la Triade" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître l’organisation de l’Archipel métropolitain mondial" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les centres de commandement mondiaux de l’Archipel métropolitain mondial" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les quartiers des affaires des grandes métropoles de l’Archipel métropolitain mondial" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les mégalopoles dans le monde" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître l’augmentation rapide des richesses produites dans les pays émergents" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que le niveau de développement dans le monde est relatif" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre que le dynamisme des pays est inégal dans le monde" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre que les pays les moins avancés ont des richesses insuffisantes" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre que les pays les moins avancés ont une faible espérance de vie" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre que les pays les moins avancés ont un taux d’alphabétisation insuffisant" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les territoires marginalisés dans les aires de puissance de l’Archipel métropolitain mondial" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les territoires marginalisés dans les pays émergents de l’Archipel métropolitain mondial" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître les pôles et aires de puissance dans le monde" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Connaître les territoires marginalisés dans la mondialisation" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BAC - Étudier les aires de puissance, les pays émergents et ceux les moins avancés à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Dynamiques territoriales, coopérations et tensions dans la mondialisation" },
+  "chapitreTitre": { "S": "Coopérations, tensions et régulations aux échelles mondiale, régionale et locale" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les acteurs de la mondialisation" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les principes du libre-échange et de la Division internationale du travail" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la multiplication des flux économiques dans le monde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la multiplication des flux culturels dans le monde" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la multiplication des flux de personnes dans le monde" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le réseau mondial de transports" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les rivalités pour le contrôle des ressources et des territoires" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la guerre commerciale entre les puissances économiques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre les droits de douane dans le monde" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître la construction de barrières et de murs dans le monde" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître le développement du multilatéralisme par des organisations internationales" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la régulation de la mondialisation par des organisations avec un nombre limité d’États" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les accords économiques de l’Union européenne" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les accords régionaux économiques en Amérique latine" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les accords régionaux économiques en Asie" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les accords régionaux économiques en Afrique" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître les fondements de la mondialisation, les flux et les transports à l’échelle internationale" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Connaître les tensions liées à la mondialisation et leurs conséquences" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Savoir que la mondialisation est difficile à réguler" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BAC - Étudier les tentatives de régulation de la mondialisation par le multilatéralisme et le régionalisme à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Dynamiques territoriales, coopérations et tensions dans la mondialisation" },
+  "chapitreTitre": { "S": "La France : un rayonnement international différencié et une inégale attractivité dans la mondialisation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la représentation diplomatique de la France à l’étranger" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le rôle de la France dans les institutions internationales" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la présence de l’armée française dans le monde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le rôle de l’armée française dans le maintien de la paix dans le monde" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les interventions militaires françaises à visée humanitaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les principales ONG françaises dans le monde" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître la France comme 7e puissance économique mondiale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître le tourisme en France comme première source de revenus" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître le rayonnement culturel de la France par la francophonie" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître le rayonnement culturel de la France par les médias français et les institutions éducatives et culturelles" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître le rayonnement culturel de la France par le patrimoine culturel français" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les limites de la diplomatie française" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les limites économiques de la France" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les limites de la culture française dans le monde" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître le rayonnement diplomatique, militaire et humanitaire de la France" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître le rayonnement économique et culturel de la France" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître les limites du rayonnement de la France" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC - Répondre à une question sur les tentatives de la France d’affirmer sa place de puissance mondiale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "L’Union européenne dans la mondialisation - des dynamiques complexes" },
+  "chapitreTitre": { "S": "Des politiques européennes entre compétitivité et cohésion des territoires" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les disparités économiques entre les États de l’Union européenne" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les disparités sociales entre les États de l’Union européenne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les disparités régionales au sein des États de l’Union européenne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les disparités locales au sein des États de l’Union européenne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le fonctionnement de la politique de cohésion de l’Union européenne" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les politiques pour réduire les inégalités territoriales au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les politiques pour réduire les inégalités sociales au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les politiques européennes pour faire face à la compétitivité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les politiques européennes pour faire face à la crise environnementale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les réponses politiques de l’Union européenne à la crise environnementale" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les disparités fortes au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les politiques européennes pour assurer la cohésion" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC - Étudier la diversité des territoires européens à l’aide de documents" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC - Étudier les fondements de la puissance économique de l’Union européenne et ses limites à l’aide de documents" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur les frontières à géométrie variable de l’Union européenne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "L’Union européenne dans la mondialisation - des dynamiques complexes" },
+  "chapitreTitre": { "S": "L’Union européenne, un espace plus ou moins ouvert sur le monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre que l’Union européenne a des espaces dans le monde entier" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que l’Union européenne a des paysages diversifiés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la diversité culturelle de l’Union européenne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les étapes de la construction de l’Union européenne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les accords et l’intégration des pays au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître l’Union européenne comme espace productif majeur" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître l’Union européenne comme pôle commercial mondial" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître l’histoire et les valeurs communes de l’Union européenne" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre que l’Union européenne est un territoire attractif" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que des pays de l’Union européenne sont endettés et en concurrence" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les inégalités socio-spatiales de l’Union européenne" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre que l’Union européenne est une puissance diplomatique et militaire limitée" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître la diversité des paysages et des cultures de l’Union européenne" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître la construction de l’Union européenne et ses accords" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître l’Union européenne comme aire de puissance économique et culturelle majeure de la mondialisation" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Comprendre que l’Union européenne est une puissance limitée" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC - Répondre à une question sur les inégalités au sein de l’Union européenne et les politiques régionales mises en œuvre pour allier la cohésion des territoires et leur compétitivité" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC - Étudier les politiques européennes de cohésion et d’amélioration de la compétitivité des territoires à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "L’Union européenne dans la mondialisation - des dynamiques complexes" },
+  "chapitreTitre": { "S": "La France : les dynamiques différenciées des territoires transfrontaliers" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les échanges autour des frontières françaises" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les mobilités autour des frontières françaises" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre que les flux transfrontaliers sont des obstacles à surmonter en France" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la coopération interrégionale mise en œuvre par l’Union européenne pour les flux transfrontaliers français" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les échanges et mobilités dans les régions transfrontalières françaises les plus dynamiques" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les échanges et mobilités dans les régions transfrontalières françaises du Sud" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les échanges et mobilités dans les régions ultra-périphériques françaises" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les échanges et les mobilités autour des frontières françaises" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les flux transfrontaliers en France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre les dynamiques différenciées dans les régions transfrontalières françaises" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur une région transfrontalière, les échanges et les mobilités transfrontalières, les aménagements qui les favorisent et les obstacles surmontés" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T4#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La France et ses régions dans l’Union européenne et dans la mondialisation - lignes de force et recompositions" },
+  "chapitreTitre": { "S": "Les lignes de force du territoire français" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les espaces productifs industriels français les plus dynamiques et les mieux intégrés" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les espaces productifs industriels français en difficulté" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les espaces productifs agricoles français d’agriculture intensive" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les espaces productifs agricoles français d’agriculture extensive" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les espaces touristiques français dédiés au tourisme de masse" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les espaces touristiques français non dédiés au tourisme de masse" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître Paris comme cœur économique du pays et ville mondiale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les métropoles régionales françaises" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la littoralisation en France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître l’attractivité des régions frontalières françaises" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les espaces français en marge" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître l’inégalité de dynamisme et d’intégration des espaces productifs en France" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les espaces privilégiés du territoire national" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur les espaces les plus dynamiques et leurs atouts et les espaces qui le sont moins et leurs difficultés" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TLE#GEO#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La France et ses régions dans l’Union européenne et dans la mondialisation - lignes de force et recompositions" },
+  "chapitreTitre": { "S": "Des recompositions territoriales à toutes les échelles, entre attractivité, concurrence et inégalités" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les objectifs de la politique régionale de l’Union européenne" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les acteurs de la politique régionale de l’Union européenne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître l’aide de l’Union européenne aux régions françaises" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l’aide de l’Union européenne aux projets locaux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le rôle de l’État dans les politiques nationales, régionales et locales en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le rôle des collectivités territoriales dans les politiques nationales, régionales et locales en France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les politiques d’aménagement des territoires pour aider les espaces en difficulté en France" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les politiques d’aménagement des territoires pour améliorer la compétitivité des territoires dynamiques en France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les politiques d’aménagement des territoires pour promouvoir le développement durable en France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les politiques européennes en faveur du territoire français" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les politiques nationales, régionales et locales en France" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC - Répondre à une question sur les politiques menées pour la recomposition du territoire français" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC - Étudier les politiques européennes en faveur de la recomposition du territoire français à l’aide de documents" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC - Étudier les politiques nationales, régionales et locales d’aménagement du territoire français à l’aide de documents" } } }
+    ]
+  }
+}
+]

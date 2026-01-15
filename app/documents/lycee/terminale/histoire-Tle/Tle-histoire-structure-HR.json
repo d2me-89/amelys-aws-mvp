@@ -1,0 +1,288 @@
+[
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Fragilités des démocraties, totalitarismes et Seconde Guerre mondiale (1929-1945)" },
+  "chapitreTitre": { "S": "L’impact de la crise de 1929 : déséquilibres économiques et sociaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter les causes et le déroulement du krach boursier du 24 octobre 1929 à Wall Street" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les conséquences économiques, sociales et politiques de la crise de 1929 aux États-Unis" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer les objectifs, les mesures et les limites du New Deal mis en œuvre par Roosevelt" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les mécanismes de diffusion de la crise économique américaine au reste du monde dans les années 1930" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser la montée d’un chômage de masse et ses conséquences sociales à l’échelle mondiale dans les années 1930" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Montrer comment la crise favorise la naissance de régimes autoritaires et la progression de l’extrême droite dans les années 1930" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Présenter la réponse politique et sociale du Front populaire face à la crise en France" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser les origines et les premières manifestations de la crise de 1929 aux États-Unis" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Démontrer que la crise de 1929 constitue une crise économique, sociale et politique mondiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser les caractéristiques, les mécanismes et les conséquences de la crise de 1929" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Fragilités des démocraties, totalitarismes et Seconde Guerre mondiale (1929-1945)" },
+  "chapitreTitre": { "S": "Les régimes totalitaires" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter la situation politique, économique et sociale de l’URSS au lendemain de la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le fonctionnement politique et institutionnel de la dictature stalinienne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer en quoi la terreur constitue un instrument central de gouvernement dans l’URSS de Staline" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer la naissance et l’idéologie du parti fasciste italien dans les années 1920" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter les conditions de la mise en place de la dictature fasciste en Italie en 1922" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les caractéristiques politiques, idéologiques et sociales de l’Italie fasciste" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les facteurs de l’ascension rapide du régime hitlérien en Allemagne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer les formes d’embrigadement et d’encadrement de la société sous le régime nazi" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Montrer que le régime nazi repose sur une idéologie raciste et antisémite" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BAC – Construire une carte mentale mettant en évidence les fondements politiques, économiques et idéologiques d’un système totalitaire" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter les caractéristiques essentielles de l’URSS de Staline" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Présenter les principes et le fonctionnement du fascisme italien" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Présenter les fondements et les pratiques du régime nazi en Allemagne" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser le totalitarisme imposé par le régime nazi en Allemagne" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser le totalitarisme imposé par Staline et le Parti communiste en URSS" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Fragilités des démocraties, totalitarismes et Seconde Guerre mondiale (1929-1945)" },
+  "chapitreTitre": { "S": "La Seconde Guerre mondiale" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter le déclenchement et les premières phases de la Seconde Guerre mondiale à partir de 1939" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les victoires militaires et territoriales de l’Axe entre 1939 et 1942" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer le retournement du conflit et les victoires des Alliés entre 1942 et 1945" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter les conditions militaires, politiques et diplomatiques de la fin de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le bilan humain exceptionnellement lourd de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les violences de masse et les crimes commis contre les populations civiles durant le conflit" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer la politique de déportation et le génocide des Juifs et des Tsiganes en Europe" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre la notion de crime contre l’humanité à partir de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Présenter la mise en place, l’idéologie et le fonctionnement du régime de Vichy" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les formes et les motivations de la collaboration française pendant la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter les formes, les acteurs et les enjeux de la Résistance française intérieure et extérieure" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les principaux acteurs politiques, militaires et idéologiques de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Présenter les grandes phases chronologiques de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Démontrer que la Seconde Guerre mondiale constitue une guerre d’anéantissement" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Analyser la situation politique, sociale et morale de la France durant la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser le génocide des Juifs d’Europe et la logique d’extermination nazie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La multiplication des acteurs internationaux dans un monde bipolaire (de 1945 au début des années 1970)" },
+  "chapitreTitre": { "S": "La fin de la Seconde Guerre mondiale et les débuts d’un nouvel ordre mondial" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser le bilan humain exceptionnellement lourd de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Présenter l’ampleur des destructions matérielles et économiques laissées par la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer le choc moral et les traumatismes provoqués par la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter la mise en place et les missions du gouvernement provisoire en France après la Libération" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser la naissance de l’État-providence en France dans le contexte de l’après-guerre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer les objectifs, le fonctionnement et les limites de la création de l’Organisation des Nations unies" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Présenter les procès de Nuremberg et de Tokyo et leur importance juridique et mémorielle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser les accords de Bretton Woods et la mise en place d’un nouvel ordre économique international" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer les origines et les premières manifestations de la guerre froide entre les États-Unis et l’URSS" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les tensions apparues dans les anciennes colonies et au Proche-Orient à la sortie de la guerre" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter un bilan global de la Seconde Guerre mondiale à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser la situation politique, économique et sociale de la France au lendemain de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Présenter les fondements et les acteurs du nouvel ordre mondial mis en place après 1945" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre l’émergence de nouvelles tensions internationales dans le monde de l’après-guerre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La multiplication des acteurs internationaux dans un monde bipolaire (de 1945 au début des années 1970)" },
+  "chapitreTitre": { "S": "Une nouvelle donne géopolitique : bipolarisation et émergence du tiers-monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer la formation de deux blocs antagonistes dans le monde à partir de 1947" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la montée des tensions entre les deux blocs durant les premières années de la guerre froide (1948-1953)" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Présenter les phases de dégel et de Détente dans les relations internationales pendant la guerre froide" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les causes politiques, économiques et idéologiques de la décolonisation après 1945" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter les principales étapes et les formes de la décolonisation en Asie et en Afrique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser l’émergence du tiers-monde comme nouvel acteur des relations internationales" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Présenter la création de la République populaire de Chine en 1949 et le rôle de Mao Zedong" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser la place croissante de la Chine maoïste dans les équilibres internationaux" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les facteurs de tensions politiques, territoriales et religieuses au Proche et Moyen-Orient" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer le rôle stratégique du Proche et Moyen-Orient dans le contexte de la guerre froide" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser les tensions et les conflits liés à la création et à l’existence de l’État d’Israël" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer le fonctionnement de la bipolarité du monde durant la guerre froide" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser les liens entre décolonisation, affirmation du tiers-monde et recomposition géopolitique mondiale" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Présenter les caractéristiques politiques et idéologiques de la Chine de Mao" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Comprendre les conflits du Proche et Moyen-Orient comme des enjeux majeurs de la guerre froide" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La multiplication des acteurs internationaux dans un monde bipolaire (de 1945 au début des années 1970)" },
+  "chapitreTitre": { "S": "La France : une nouvelle place dans le monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter le contexte politique et institutionnel des débuts de la Quatrième République" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les causes et les conséquences de l’instabilité ministérielle sous la Quatrième République" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer les origines et les enjeux du déclenchement de la guerre d’Algérie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter les conditions et les conséquences de la fin de la guerre d’Algérie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire le fonctionnement institutionnel et politique de la Cinquième République" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les transformations économiques et sociétales de la France sous la Cinquième République" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer les causes, le déroulement et les conséquences des événements de Mai 1968" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Présenter les débuts de la construction européenne et l’engagement de la France dans ce processus" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser les débats et les tensions en France autour du projet de construction européenne" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Présenter les caractéristiques politiques et institutionnelles de la Quatrième République" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser les débuts et les fondements de la Cinquième République" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer le rôle de la France dans la construction européenne de la fin des années 1940 au début des années 1970" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Les remises en cause économiques, politiques et sociales des années 1970 à 1991" },
+  "chapitreTitre": { "S": "La modification des grands équilibres économiques et politiques mondiaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter les causes, le déroulement et les effets des chocs pétroliers de 1973 et de 1979" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la crise économique mondiale provoquée par les chocs pétroliers dans les années 1970" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer les conséquences sociales de la crise économique liée aux chocs pétroliers" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les mutations des sociétés occidentales induites par la crise économique des années 1970" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter les grandes étapes de la construction européenne depuis les années 1970" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser la fin des régimes autoritaires en Europe méridionale et les élargissements de la Communauté européenne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer les causes et les conséquences de l’effondrement du bloc soviétique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser les facteurs politiques, sociaux et géopolitiques de l’émergence de l’islamisme" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Présenter une synthèse sur les chocs pétroliers et leurs conséquences économiques et sociales à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre l’affirmation de la démocratie dans certaines régions du monde et l’émergence simultanée de nouveaux courants idéologiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Les remises en cause économiques, politiques et sociales des années 1970 à 1991" },
+  "chapitreTitre": { "S": "Un tournant social, politique et culturel : la France de 1974 à 1988" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter les grandes orientations politiques et sociétales mises en œuvre sous la présidence de Valéry Giscard d’Estaing" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les choix politiques, économiques et sociaux de la présidence de François Mitterrand" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer l’évolution des droits des femmes en France entre 1974 et 1988" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter les transformations du système éducatif français entre 1974 et 1988" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les politiques d’intégration des populations immigrées en France entre 1974 et 1988" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer les mutations de la télévision et de la radio et leurs effets sur la société française" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Présenter l’évolution de la politique culturelle française entre 1974 et 1988" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser les mutations politiques de la France entre 1974 et 1988 dans un contexte de crise économique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre les mutations sociétales qui transforment la société française entre 1974 et 1988" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les mutations culturelles et médiatiques de la France entre 1974 et 1988" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T4#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde, l’Europe et la France depuis les années 1990, entre coopérations et conflits" },
+  "chapitreTitre": { "S": "Nouveaux rapports de puissance et enjeux mondiaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les causes et les conséquences de la fin de la bipolarité du monde au début des années 1990" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser l’émergence d’un monde multipolaire à partir des années 2000" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les difficultés et les limites de la gouvernance mondiale assurée par l’Organisation des Nations unies" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser la mise en place d’une gestion collective des grands enjeux mondiaux depuis les années 1990" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter la multiplication et la diversification des conflits armés dans le monde depuis les années 1990" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer le développement des guerres asymétriques et la montée du terrorisme international depuis les années 1990" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Présenter le massacre des Bosniaques musulmans lors des conflits en ex-Yougoslavie comme un crime de masse en Europe" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser le génocide des Tutsi au Rwanda comme une violence de masse révélatrice des limites de la communauté internationale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser les mécanismes, les acteurs et les enjeux de la gouvernance mondiale depuis les années 1990" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier et expliquer les nouvelles formes de conflits armés apparues depuis les années 1990" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter les crimes de masse et les génocides commis depuis les années 1990 et leurs enjeux mémoriels et juridiques" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur les relations internationales dans un monde devenu multipolaire après la guerre froide" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T4#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde, l’Europe et la France depuis les années 1990, entre coopérations et conflits" },
+  "chapitreTitre": { "S": "La construction européenne entre élargissement, approfondissement et remises en question" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les origines et les objectifs de la création de l’Union européenne" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les dynamiques d’élargissement et d’approfondissement de l’Union européenne depuis les années 1990" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Présenter les conditions de mise en place de l’euro et ses enjeux économiques et politiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire le fonctionnement institutionnel et décisionnel de l’Union européenne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les valeurs fondatrices de l’Union européenne et les principes qu’elle défend" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les effets de la crise économique et de la crise migratoire sur l’Union européenne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer la montée des nationalismes et des euroscepticismes au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Présenter une synthèse sur les grandes étapes de la construction européenne" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser le fonctionnement de l’Union européenne et la mise en œuvre de ses valeurs" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Montrer en quoi l’Union européenne traverse des crises politiques, économiques et identitaires" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BAC – Étudier des documents sur les phases d’élargissement et d’approfondissement de l’Union européenne depuis 1990" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser les réussites et les difficultés de l’Union européenne depuis sa création" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TALE#HISTOIRE#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde, l’Europe et la France depuis les années 1990, entre coopérations et conflits" },
+  "chapitreTitre": { "S": "La République française" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser l’évolution des institutions de la Ve République depuis les années 1990" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre les transformations des pratiques politiques et du fonctionnement démocratique sous la Ve République" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser l’évolution de la place et des droits des femmes dans la Ve République" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer la réaffirmation et les débats autour du principe de laïcité dans la France contemporaine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter les évolutions du mariage et des modèles familiaux sous la Ve République" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les principales transformations institutionnelles et politiques de la Ve République" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les grandes évolutions sociales qui transforment la société française sous la Ve République" } } }
+    ]
+  }
+}
+]

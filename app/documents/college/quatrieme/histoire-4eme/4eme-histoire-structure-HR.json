@@ -1,0 +1,193 @@
+[
+{
+  "PK": { "S": "CHAPITRE#4E#HISTOIRE#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le XVIIIe siècle : expansions, Lumières et révolutions" },
+  "chapitreTitre": { "S": "Bourgeoisies marchandes, négoces internationaux, traites négrières et esclavage au XVIIIe siècle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier l’étendue et les principales colonies de l’empire colonial britannique au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer les territoires et les enjeux de l’empire colonial français au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer les autres empires coloniaux européens au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer le fonctionnement et les étapes du commerce triangulaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Montrer comment le commerce atlantique contribue à l’enrichissement des Européens" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser l’exploitation économique des colonies et le recours à l’esclavage dans le commerce atlantique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la domination européenne à l’échelle mondiale au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer les mécanismes de l’exploitation économique des empires coloniaux par les puissances européennes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Étudier des documents pour analyser les échanges commerciaux au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Compléter et interpréter un croquis représentant le commerce triangulaire" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur l’enrichissement de l’Europe au XVIIIe siècle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#HISTOIRE#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le XVIIIe siècle : expansions, Lumières et révolutions" },
+  "chapitreTitre": { "S": "L’Europe des Lumières : circulation des idées, despotisme éclairé et contestation de l’absolutisme" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les progrès scientifiques et techniques qui marquent l’Europe au siècle des Lumières" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer comment les philosophes des Lumières remettent en cause les pouvoirs absolus du roi" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer en quoi les idées des Lumières contestent la société d’ordres" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter l’Encyclopédie : objectifs, auteurs et portée intellectuelle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les différents moyens de diffusion des idées des Lumières en Europe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les réactions des souverains européens face aux idées des Lumières" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la critique de la monarchie absolue et de la société d’Ancien Régime par les Lumières" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer la circulation des idées des Lumières à l’échelle européenne" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Étudier des documents pour analyser les idées des Lumières" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Compléter une frise chronologique sur la création et la diffusion de l’Encyclopédie" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur l’opposition des Lumières à la monarchie absolue et à la société d’Ancien Régime" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#HISTOIRE#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le XVIIIe siècle : expansions, Lumières et révolutions" },
+  "chapitreTitre": { "S": "La Révolution française et l’Empire : nouvel ordre politique et société révolutionnée en France et en Europe" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les causes et les événements marquant la fin de la monarchie absolue en 1789" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer la chute de Louis XVI et la proclamation de la Première République" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Situer les grandes étapes de la période allant de la Première République au Premier Empire" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les transformations politiques, sociales et juridiques de la France révolutionnaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les bouleversements provoqués par la Révolution française à l’échelle européenne" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître et ordonner les principales phases de la période révolutionnaire jusqu’au Premier Empire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET – Étudier des documents pour analyser les révolutions de 1789 et de 1792" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de la période révolutionnaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur la remise en cause ou la consolidation des acquis de la Révolution sous l’Empire napoléonien" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#HISTOIRE#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L’Europe et le monde au XIXe siècle" },
+  "chapitreTitre": { "S": "L’Europe de la révolution industrielle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer le rôle des nouvelles sources d’énergie dans les deux révolutions industrielles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le développement de l’industrie européenne au XIXe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer les progrès de l’agriculture et leurs conséquences au XIXe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer l’essor des transports et ses effets sur l’économie et les sociétés au XIXe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les causes et les effets de la croissance démographique à partir du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le phénomène d’urbanisation et ses conséquences sociales au XIXe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mettre en évidence les fortes inégalités sociales dans l’Europe industrielle du XIXe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer la naissance et le développement des contestations sociales au XIXe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre les caractéristiques et les enjeux des deux révolutions industrielles" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les profondes transformations sociales engendrées par les révolutions industrielles" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre l’urbanisation au XIXe siècle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes découvertes et innovations du XIXe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les innovations technologiques et leurs conséquences sur la vie quotidienne des Européens au XIXe siècle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#HISTOIRE#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L’Europe et le monde au XIXe siècle" },
+  "chapitreTitre": { "S": "Conquêtes et sociétés coloniales" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les motivations politiques, économiques et idéologiques des puissances européennes dans l’expansion coloniale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire la construction et l’organisation des empires coloniaux à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer que les territoires colonisés sont des sociétés dominées et exploitées" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer la naissance et le développement des oppositions à la colonisation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier et localiser les principales conquêtes coloniales en Afrique et en Asie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les formes de domination politique, économique et culturelle exercées par les Européens sur les colonies" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET – Étudier des documents pour caractériser la colonisation de l’Afrique et de l’Asie" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de la colonisation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les modalités de la domination européenne en Afrique et en Asie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#HISTOIRE#T3#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Société, culture et politique dans la France du XIXe siècle" },
+  "chapitreTitre": { "S": "Une difficile conquête : voter de 1815 à 1870" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les conditions et les limites du droit de vote sous la Restauration" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser l’évolution du droit de vote sous la monarchie de Juillet" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre l’instauration du suffrage universel masculin sous la Deuxième République" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier les pratiques et les limites du vote sous le Second Empire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer les modalités du vote sous les monarchies constitutionnelles du XIXe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le fonctionnement du vote sous la Deuxième République et le Second Empire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre l’évolution du droit de vote en France entre 1815 et 1870" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de la conquête du droit de vote entre 1815 et 1870" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les conquêtes citoyennes liées au droit de vote en France entre 1815 et 1870" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#HISTOIRE#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Société, culture et politique dans la France du XIXe siècle" },
+  "chapitreTitre": { "S": "La Troisième République" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer le contexte et les fragilités du retour de la République après 1870" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire les étapes de l’installation politique de la Troisième République" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment se construit une culture républicaine sous la Troisième République" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser la manière dont la Troisième République surmonte crises et oppositions" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les difficultés rencontrées lors de l’installation durable de la République" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer les facteurs de l’enracinement progressif de la République en France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET – Étudier des documents pour analyser les moyens utilisés par les républicains pour enraciner la République" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de l’instauration de la Troisième République" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur l’installation durable de la Troisième République en France" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#HISTOIRE#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Société, culture et politique dans la France du XIXe siècle" },
+  "chapitreTitre": { "S": "Conditions féminines dans une société en mutation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser la participation croissante des femmes à l’activité économique au XIXe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer les progrès de l’accès à l’éducation pour les filles au XIXe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer que le statut juridique des femmes demeure inférieur à celui des hommes au XIXe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l’exclusion durable des femmes de la vie politique au XIXe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer l’évolution de la place des femmes dans la société française au XIXe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les inégalités juridiques et politiques entre les hommes et les femmes au XIXe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre les conditions féminines dans la société du XIXe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des dates et des figures marquantes du progrès de la condition féminine au XIXe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les progrès et les limites de la condition féminine au XIXe siècle" } } }
+    ]
+  }
+}
+]

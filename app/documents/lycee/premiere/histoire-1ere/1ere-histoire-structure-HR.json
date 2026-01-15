@@ -1,0 +1,350 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L'Europe face aux révolutions de 1789 à 1848" },
+  "chapitreTitre": { "S": "De la Révolution française à l'Empire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer le passage de la convocation des États généraux à l’instauration d’une monarchie constitutionnelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le rôle de la prise de la Bastille et des grandes journées révolutionnaires dans la dynamique révolutionnaire" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Présenter les principes et les enjeux de la Déclaration des Droits de l’homme et du citoyen de 1789" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la mise en place de la monarchie constitutionnelle en France en 1791" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les causes de la fragilisation de la monarchie constitutionnelle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer la proclamation de la patrie en danger et ses conséquences politiques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser le climat d’insurrection contre Louis XVI et Marie-Antoinette" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Présenter la Convention nationale et la proclamation de la République" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser le rôle de Robespierre et le fonctionnement du régime de la Terreur (1793-1794)" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer les caractéristiques politiques du Directoire (1795-1799)" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre les conditions de la mise en place du Consulat par Bonaparte" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Présenter les principales réformes napoléoniennes et leurs objectifs" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser le Code civil comme fondement juridique de la société issue de la Révolution" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Décrire le fonctionnement politique et institutionnel du Premier Empire" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Montrer en quoi le Premier Empire constitue un régime impérialiste" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Expliquer les causes et les conséquences de la chute du Premier Empire" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Présenter le déroulement et les principales phases de la Révolution française de 1789 à 1791" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Analyser le fonctionnement et les enjeux de la Première République de 1792 à 1799" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Présenter le Consulat et l’Empire napoléonien de 1799 à 1815" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser les conséquences sociales de la Révolution française" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser les conséquences de l’Empire napoléonien sur la société" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée sur la rupture politique majeure que constituent la Révolution française et l’Empire en France et en Europe" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur les transformations profondes de la société française provoquées par la Révolution et l’Empire" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L'Europe face aux révolutions de 1789 à 1848" },
+  "chapitreTitre": { "S": "L'Europe entre restauration et révolution (1814-1848)" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer le rétablissement des monarchies en Europe après 1815" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Présenter les objectifs et les décisions majeures du congrès de Vienne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le nouvel ordre politique et territorial européen mis en place en 1815" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les caractéristiques du règne de Louis XVIII" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les clivages politiques sous la Restauration en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser la politique et les choix du règne de Charles X" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer les causes et le déroulement des insurrections de 1830 en Europe" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Présenter les principes et les limites de la Charte constitutionnelle de 1830" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire les institutions politiques de la monarchie de Juillet" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les causes de l’instabilité politique sous la monarchie de Juillet" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer les tensions et les conflits sociaux sous la monarchie de Juillet" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Présenter le développement du libéralisme en Europe après le congrès de Vienne" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser les causes des échecs des insurrections libérales des années 1820" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Expliquer les contestations des mouvements nationaux européens contre l’ordre monarchique établi en 1815" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Présenter la restauration monarchique en Europe à partir de 1815 et le rôle du congrès de Vienne" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser la Restauration en France de 1814 à 1830" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Présenter la monarchie de Juillet en France de 1830 à 1848" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Analyser les mouvements libéraux et nationaux en Europe de 1815 à 1848" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BAC – Étudier des documents pour comprendre le retour des monarchies constitutionnelles après 1815" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser les révolutions européennes du premier XIXe siècle" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BAC – Compléter une carte mentale sur les révolutions en Europe au XIXe siècle" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée sur la tentative de la Restauration de rétablir la monarchie face aux idéaux issus de la Révolution" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur l’impact des ambitions nationales et du désir de liberté en Europe entre 1815 et 1848" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T2#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La France dans l'Europe des nationalités : politique et société de 1848 à 1871" },
+  "chapitreTitre": { "S": "La difficile entrée dans l'âge démocratique : la Deuxième République et le Second Empire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter la période d’euphorie républicaine qui accompagne la proclamation de la Deuxième République en 1848" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les causes et les formes des premières insurrections dirigées contre la Deuxième République" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer les principes et les institutions de la Constitution de la Deuxième République" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l’exercice autoritaire du pouvoir par Louis-Napoléon Bonaparte durant sa présidence" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter les causes, le déroulement et les conséquences du coup d’État du 2 décembre 1851" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer les modalités de la restauration de l’Empire par Louis-Napoléon Bonaparte" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser l’autoritarisme du régime impérial sous Napoléon III" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les raisons et les formes de la libéralisation progressive du Second Empire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les effets de la libéralisation du Second Empire sur la vie politique française" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les conséquences institutionnelles de la libéralisation du Second Empire" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter les grandes caractéristiques de la Deuxième République de 1848 à 1851" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser le fonctionnement politique du Second Empire de 1852 à 1870" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer les causes de la chute du Second Empire et la proclamation de la Troisième République en 1870" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur les raisons de l’échec d’une instauration durable de la République en France entre 1848 et 1870" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée montrant en quoi le Second Empire constitue une période de limitation de la vie démocratique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La France dans l'Europe des nationalités : politique et société de 1848 à 1871" },
+  "chapitreTitre": { "S": "L'industrialisation et l'accélération des transformations économiques et sociales en France" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir l’industrialisation et en préciser les principales caractéristiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer le rôle du charbon et de la machine à vapeur dans l’industrialisation de la France entre 1848 et 1870" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser la multiplication des innovations techniques durant la phase d’industrialisation entre 1848 et 1870" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l’essor des usines et la transformation des modes de production pendant l’industrialisation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser la modernisation du système bancaire français sous le Second Empire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Présenter la politique des grands travaux et leurs effets économiques et sociaux sous le Second Empire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer en quoi l’industrialisation constitue un atout politique et économique pour Napoléon III" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser l’évolution démographique de la France entre 1848 et 1870" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Présenter les transformations du monde agricole français durant la période 1848-1870" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer la naissance et l’affirmation du monde ouvrier en France entre 1848 et 1870" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser l’apparition et les enjeux de la question ouvrière en France au milieu du XIXe siècle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les bouleversements de l’économie française liés à l’industrialisation entre 1848 et 1870" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser le rôle joué par Napoléon III dans l’industrialisation et la modernisation de la France" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier et expliquer les principales évolutions sociales en France entre 1848 et 1870" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC – Étudier des documents pour caractériser l’industrialisation en France au XIXe siècle" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur les fondements de l’industrialisation en France au XIXe siècle" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée montrant comment l’industrialisation transforme profondément la société française au XIXe siècle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La France dans l'Europe des nationalités : politique et société de 1848 à 1871" },
+  "chapitreTitre": { "S": "La France et la construction de nouveaux États : les unités italienne et allemande entre 1850 et 1871" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter la composition politique et territoriale de l’Italie en 1848" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer les objectifs du Risorgimento et le rôle du printemps des peuples en Italie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les divisions politiques et idéologiques au sein du Risorgimento italien" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter les fondements du rapprochement diplomatique entre Napoléon III et Cavour" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer les enjeux et les étapes de la deuxième guerre d’indépendance italienne (1859-1861)" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle de Giuseppe Garibaldi dans l’unification du sud de l’Italie" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer les causes et les conséquences de la fin de l’entente franco-italienne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Présenter le développement des mouvements libéraux et nationaux allemands en 1848" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer le rôle et les limites du Parlement allemand de Francfort en 1848" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser la stratégie anti-autrichienne menée par Bismarck pour unifier l’Allemagne" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter les étapes et les conséquences de la proclamation du Deuxième Reich allemand" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les étapes et les acteurs de l’unification italienne entre 1848 et 1871" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre les conditions et les modalités de l’unification allemande entre 1848 et 1871" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC – Compléter une carte mentale sur les prises de position de la France face aux unités italienne et allemande" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur le soutien apporté par la France à l’unité italienne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T3#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La IIIe République de 1871 à 1914 : un régime politique et un empire colonial" },
+  "chapitreTitre": { "S": "La mise en œuvre du projet républicain" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter les conditions du retour de la République en France en 1870" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer les causes de l’échec de la restauration monarchique entre 1871 et 1875" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser la conquête progressive du pouvoir par les républicains entre 1875 et 1879" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer en quoi la Troisième République repose sur un régime parlementaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer les fondements libéraux de la Troisième République" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser la construction de la laïcité sous la Troisième République" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les héritages de la Révolution française et de la Deuxième République dans le projet républicain" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Présenter le Panthéon comme un symbole des valeurs et de la mémoire républicaines" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser le rôle de l’école et de l’armée dans l’enracinement de la Troisième République" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Présenter les formes et les motivations de l’opposition monarchiste à la Troisième République" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser les critiques portées par le mouvement ouvrier socialiste contre la Troisième République" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer les positions et les modes d’action du mouvement anarchiste face à la Troisième République" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre en quoi la Troisième République est marquée par la persistance de l’antisémitisme" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Analyser le refus du droit de vote des femmes comme une limite majeure du projet républicain" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Présenter les étapes de l’instauration de la Troisième République entre 1870 et 1879" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser le modèle politique et la culture républicaine mis en place sous la Troisième République" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Identifier les oppositions à la Troisième République et les contradictions internes du régime" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur la manière dont la République s’impose durablement en France à partir de 1870" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La IIIe République de 1871 à 1914 : un régime politique et un empire colonial" },
+  "chapitreTitre": { "S": "Permanences et mutations de la société française entre 1870 et 1914" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser les effets de l’industrialisation sur la société française à partir de 1870" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les nouvelles sources d’énergie et leurs usages à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer l’essor des villes en France entre 1870 et 1914" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les causes et les conséquences du déclin des campagnes françaises entre 1870 et 1914" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter les mutations de la population active en France entre 1870 et 1914" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser la réorganisation sociale de la société française à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Montrer l’amélioration globale du niveau de vie en France à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire les conditions de vie et de travail des ouvriers en France à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Présenter les conditions de vie et l’intégration des populations immigrées en France à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les formes et les limites de l’émancipation des femmes en France à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les mutations économiques et sociales liées à la seconde révolution industrielle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les processus de modernisation de la société française à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser la permanence des inégalités sociales dans la France de la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser les transformations de la société française à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur les fondements et les caractéristiques de la seconde révolution industrielle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La IIIe République de 1871 à 1914 : un régime politique et un empire colonial" },
+  "chapitreTitre": { "S": "Métropole et colonies" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les intérêts économiques qui motivent la politique de colonisation française" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer les motivations politiques de la colonisation dans le contexte de la Troisième République" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les enjeux géopolitiques de la colonisation à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l’usage du discours humaniste et civilisateur pour justifier la colonisation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter les grandes étapes de la construction de l’empire colonial français" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire les modes d’organisation administrative et politique de l’empire colonial" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les formes d’exploitation économique des territoires colonisés" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer les politiques d’assimilation et de domination exercées sur les populations colonisées" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Montrer que les révoltes des populations colonisées sont réprimées par une violence extrême" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser le rôle de la propagande de l’État français dans la légitimation du projet colonial" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Évaluer le bilan économique des échanges entre la métropole et les colonies" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les formes et les acteurs de l’opposition à la colonisation en France" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser les effets de la colonisation sur les relations internationales à la fin du XIXe siècle" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Présenter les raisons économiques, politiques et idéologiques de la colonisation" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Analyser la construction et le fonctionnement de l’empire colonial français" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Évaluer les effets économiques, sociaux et politiques de la colonisation" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC – Compléter une carte mentale sur la politique coloniale de la France sous la Troisième République" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur la manière dont la France prend le contrôle d’un empire colonial à la fin du XIXe siècle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T4#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La Première Guerre mondiale" },
+  "chapitreTitre": { "S": "Les grandes étapes de la Première Guerre mondiale" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser les rivalités politiques, économiques et territoriales en Europe à la veille de 1914" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer le rôle des rivalités coloniales dans les tensions internationales de 1914" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les alliances politiques et militaires qui structurent l’Europe en 1914" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter le déroulement de la crise de l’été 1914 et l’entrée en guerre des grandes puissances" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire les premières offensives militaires de la Première Guerre mondiale en Europe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser l’organisation et les conditions de vie dans les tranchées durant la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les formes de violence et la souffrance endurées par les soldats au front" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Présenter la bataille de la Somme comme un exemple majeur de la guerre d’usure" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser le déroulement et les enjeux de la Première Guerre mondiale dans l’Empire ottoman" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer l’implication humaine, militaire et économique des colonies dans la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser les formes de soutien apportées par les États-Unis aux Alliés avant leur entrée en guerre" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer les causes et les conséquences de l’entrée en guerre des États-Unis en 1917" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre les raisons du retrait de l’Empire russe du conflit mondial" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Présenter les caractéristiques et les objectifs de la dernière offensive allemande du printemps 1918" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Analyser les conditions et les mécanismes de l’entrée en guerre en 1914" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les caractéristiques militaires, humaines et économiques de la guerre entre 1915 et 1917" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Analyser les spécificités de la dernière année de la Première Guerre mondiale en 1918" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur les grandes étapes de la Première Guerre mondiale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T4#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La Première Guerre mondiale" },
+  "chapitreTitre": { "S": "Les civils, acteurs et victimes de la guerre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser les formes et les causes du consentement des populations à l’entrée en guerre en 1914" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer la mobilisation des esprits et l’usage de la propagande en 1914" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le renforcement du contrôle politique et des libertés publiques durant la guerre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser la mobilisation industrielle au service de l’effort de guerre" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer la mobilisation économique et financière des États durant la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Montrer le rôle de la science et de la recherche dans la conduite de la guerre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les mutations sociales provoquées par la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire les privations et les difficultés de la vie quotidienne à l’arrière pendant la guerre" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Présenter les déplacements et les exodes de populations liés au conflit" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les souffrances psychologiques et morales des civils pendant la guerre" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Montrer que les civils deviennent des victimes directes des violences de guerre" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer le génocide des Arméniens comme une violence de masse commise contre les civils" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser les réactions des populations face à la guerre au moment de l’entrée en conflit en 1914" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre la mobilisation industrielle, financière et scientifique comme caractéristique d’une guerre totale" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Montrer que les civils sont à la fois acteurs et victimes de la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser les souffrances des civils durant la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée montrant en quoi la Première Guerre mondiale constitue une guerre totale" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée sur les souffrances et les expériences vécues par les civils pendant la Première Guerre mondiale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#HISTOIRE#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "La Première Guerre mondiale" },
+  "chapitreTitre": { "S": "Sortir de la guerre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter les conditions et la portée de l’armistice du 11 novembre 1918" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les objectifs et les principaux traités issus de la conférence de la paix de 1919" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer les principes des « quatorze points » du président Wilson et leurs ambitions pour l’après-guerre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter la Société des Nations et analyser ses objectifs et ses limites" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser la Première Guerre mondiale comme une catastrophe démographique pour l’Europe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire la situation économique, matérielle et financière de l’Europe après la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer les problèmes posés par les réfugiés et les déplacés à la sortie du conflit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser le rôle des artistes et des écrivains dans la construction des mémoires de la guerre" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Présenter les formes d’hommage rendues aux morts de la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Montrer que les mémoires de la Première Guerre mondiale sont multiples et parfois conflictuelles" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter les étapes et les modalités de la fin de la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser l’état politique, économique et social de l’Europe au lendemain de la guerre" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre la construction et l’évolution des mémoires de la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC – Compléter une carte mentale sur la situation de l’Europe après la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC – Rédiger une réponse argumentée sur le bilan politique, économique et humain de la Première Guerre mondiale pour les États européens" } } }
+    ]
+  }
+}
+]

@@ -1,0 +1,161 @@
+[
+{
+  "PK": { "S": "CHAPITRE#4E#GEO#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "L’urbanisation du monde" },
+  "chapitreTitre": { "S": "Espaces et paysages de l’urbanisation : géographie des centres et des périphéries" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre que la population mondiale est en majorité urbaine" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les nouveaux défis sociaux et environnementaux des villes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les espaces et les paysages des villes européennes et d’Amérique du Nord" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les espaces et les paysages des villes des pays en développement" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre que le monde est de plus en plus urbain" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que les espaces et les paysages urbains sont diversifiés" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET - Étudier des documents sur la diversité des paysages urbains dans le monde" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Brevet - Compléter un croquis pour identifier l’organisation du territoire d’une métropole mondiale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Répondre à une question sur la diversité des conditions de vie dans les métropoles mondiales" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#GEO#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "L’urbanisation du monde" },
+  "chapitreTitre": { "S": "Des villes inégalement connectées aux réseaux de la mondialisation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître l’Archipel métropolitain mondial" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les atouts économiques des métropoles les mieux connectées" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les atouts politiques et culturels des métropoles les mieux connectées" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les métropoles des pays riches, émergents ou pauvres en marge de la mondialisation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les atouts des métropoles les mieux connectées" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les métropoles en marge de la mondialisation" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET - Étudier des documents sur les inégalités de dynamisme et d’intégration à la mondialisation des métropoles mondiales" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser les principales métropoles mondiales" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Répondre à une question sur les inégalités de dynamisme et d’intégration à la mondialisation des métropoles mondiales" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#GEO#T2#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Les mobilités humaines transnationales" },
+  "chapitreTitre": { "S": "Un monde de migrants" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les effets des flux migratoires dans les pays d’émigration" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les effets des flux migratoires dans les pays d’arrivée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les principales régions de départ et d’arrivée des flux migratoires" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les effets multiples des flux migratoires sur les territoires" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Type BREVET - Étudier des documents sur les flux migratoires vers l’Europe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser les principaux flux migratoires dans le monde" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET - Répondre à une question sur les principaux flux migratoires dans le monde et leurs conséquences sur les territoires de départ et d’accueil" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#GEO#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Les mobilités humaines transnationales" },
+  "chapitreTitre": { "S": "Le tourisme et ses espaces" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre l’augmentation du nombre de touristes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre le tourisme comme atout économique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la dégradation de l’environnement à cause du tourisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Type BREVET - Étudier des documents sur les différentes formes de tourisme dans le monde" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser les principaux espaces touristiques dans le monde" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Type BREVET - Répondre à une question sur les mobilités touristiques dans le monde et leurs conséquences sur les territoires" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#GEO#T3#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Des espaces transformés par la mondialisation" },
+  "chapitreTitre": { "S": "Mers et océans : un monde maritimisé" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la répartition de ressources halieutiques dans le monde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la répartition de ressources énergétiques et minérales dans le monde" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les espaces essentiels aux échanges mondiaux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les espaces confrontés à des risques naturels" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les espaces confrontés à la pollution des mers et des océans" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les espaces au cœur des rivalités entre États" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les espaces au cœur de la mondialisation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les espaces fragiles et exposés aux tensions" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Étudier des documents sur l’importance des littoraux dans la mondialisation" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Brevet - Repères - Compléter un planisphère pour localiser les mers et océans et les principales façades maritimes dans le monde" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET - Répondre à une question sur l’importance des mers et des océans dans la mondialisation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#GEO#T3#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Des espaces transformés par la mondialisation" },
+  "chapitreTitre": { "S": "L’adaptation du territoire des États-Unis aux nouvelles conditions de la mondialisation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la puissance économique des États-Unis" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que les États-Unis sont une puissance politique et militaire" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre que les États-Unis sont une puissance culturelle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les territoires très connectés aux réseaux mondiaux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les territoires en marge des réseaux mondiaux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les États-Unis comme une aire de puissance majeure de la mondialisation" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre que les territoires sont inégalement intégrés à la mondialisation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET - Étudier des documents sur les inégalités de dynamisme sur le territoire des États-Unis dans le contexte de la mondialisation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Brevet - Repères - Compléter une carte des États-Unis pour identifier les principaux territoires et leur dynamisme dans la mondialisation" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Répondre à une question sur les effets de la mondialisation sur le territoire des États-Unis" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#GEO#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Des espaces transformés par la mondialisation" },
+  "chapitreTitre": { "S": "Les dynamiques d’un grand ensemble géographique africain" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les ressources importantes de l’Afrique australe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre l’amélioration de l’économie et des conditions de vie en Afrique australe" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les mutations démographiques majeures en Afrique australe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les limites du développement de l’Afrique australe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre la fragilité des ressources de l’Afrique australe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que l’intégration à la mondialisation de l’Afrique australe est en progrès" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les difficultés persistantes de l’Afrique australe" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET - Étudier des documents sur les réussites et les limites du développement de l’Afrique australe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Brevet - Repères - Compléter un planisphère pour situer l’Afrique australe dans la mondialisation" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Répondre à une question sur les réussites et les limites du développement de l’Afrique australe dans le contexte de la mondialisation" } } }
+    ]
+  }
+}
+]

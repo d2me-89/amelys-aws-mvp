@@ -1,0 +1,344 @@
+[
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Sociétés et environnements - des équilibres fragiles" },
+  "chapitreTitre": { "S": "Les sociétés face aux risques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les notions d’aléa, de risque et de catastrophe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les aléas géologiques majeurs" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les aléas climatiques majeurs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les risques technologiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la définition de la vulnérabilité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre en quoi les sociétés sont de plus en plus vulnérables" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les inégalités de vulnérabilité dans le monde" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la prédiction des aléas" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître la prévention des risques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre les inégalités de prévention dans le monde" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la coopération internationale et mondiale pour la prévention des risques" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les risques et les aléas majeurs" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre comment la société réagit face aux risques" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Questions sur documents - Étudier les aléas et la vulnérabilité des populations face aux risques majeurs à l’aide de documents sur le paysage d’un territoire menacé ou détruit par une catastrophe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Sociétés et environnements - des équilibres fragiles" },
+  "chapitreTitre": { "S": "Des ressources majeures sous pression : tensions et gestion" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre en quoi l’eau est une ressource nécessaire et renouvelable" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre en quoi l’eau est une ressource inégalement répartie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre en quoi l’eau est une ressource inégalement accessible" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les sources d’énergie renouvelables et non renouvelables" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre en quoi les sources d’énergie sont inégalement réparties" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre en quoi les sources d’énergie sont inégalement accessibles" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la surconsommation des ressources majeures" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les impacts environnementaux de la surexploitation de l’eau" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les impacts environnementaux de la surexploitation des énergies fossiles" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre les conflits d’usage et les tensions internationales autour de l’eau" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre en quoi l’énergie est source de compétition et de conflits entre États" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la gestion durable des ressources en eau" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître la gestion durable des ressources énergétiques" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les coopérations mondiales pour une gestion plus durable" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les coopérations régionales pour une gestion plus durable" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître la répartition et l’accès aux ressources majeures" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Comprendre en quoi les ressources majeures provoquent des tensions" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Comprendre la gestion plus durable des ressources" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BAC - Répondre à une question sur les tentatives des sociétés pour gérer plus durablement les ressources en eau" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Sociétés et environnements - des équilibres fragiles" },
+  "chapitreTitre": { "S": "La France : des milieux métropolitains et ultra-marins entre valorisation et protection" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la diversité des littoraux en France" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la diversité des reliefs en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la diversité des climats en France" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les milieux spécifiques de la France d’outre-mer" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre l’aménagement des paysages français" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la valorisation des milieux français" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la fragilisation des milieux à cause des activités humaines" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les risques naturels en France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les risques industriels et technologiques en France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les politiques de protection de l’environnement en France" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la création d’aires protégées en France" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les critiques autour de la création d’espaces protégés" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les axes de la gestion des risques en France" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les limites de la gestion des risques en France" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître la diversité des milieux français, leur aménagement et leur valorisation" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les milieux fragilisés et présentant des risques en France" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître la protection des milieux et la gestion des risques en France" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC - Étudier la diversité des milieux en France, les ressources qu’ils apportent, les contraintes qu’ils imposent et les risques auxquels ils sont soumis à l’aide de documents" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur les ressources, les contraintes et les risques majeurs sur le territoire français" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Territoires, populations et développement - quels défis ?" },
+  "chapitreTitre": { "S": "Des trajectoires démographiques différenciées" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre l’explosion démographique depuis le milieu du XXe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la répartition inégale du peuplement dans le monde" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le ralentissement de la croissance démographique au XXIe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le modèle théorique de la transition démographique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les diverses situations démographiques dans le monde" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le défi du nombre de la démographie" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le défi du vieillissement de la population" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre que la population mondiale est nombreuse et inégalement répartie" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la transition démographique et les diverses situations démographiques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre les défis démographiques" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BAC - Étudier les défis du nombre et du vieillissement selon les régions du monde à l’aide de documents statistiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Territoires, populations et développement - quels défis ?" },
+  "chapitreTitre": { "S": "Développement et inégalités dans le monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les critères pour mesurer le développement" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que la pauvreté est une notion relative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la progression du développement des pays dans le monde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les inégalités entre les pays du Nord et les pays du Sud" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les inégalités entre les pays du Nord" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les inégalités entre les pays du Sud" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les inégalités territoriales à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les inégalités socio-économiques à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre les inégalités entre les hommes et les femmes à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre les inégalités aux échelles régionale et locale" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les différentes trajectoires de développement selon les États" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre la transition économique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les acteurs en faveur d’un développement durable" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre comment définir et mesurer le développement" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Comprendre en quoi les inégalités sont observables à toutes les échelles" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les différentes trajectoires de développement et leur remise en question" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC - Répondre à une question sur la nature des inégalités de développement dans le monde" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Territoires, populations et développement - quels défis ?" },
+  "chapitreTitre": { "S": "La France : dynamiques démographiques et inégalités socio-économiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la démographie française" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le solde migratoire en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les causes et les conséquences du vieillissement de la population française" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre que le vieillissement de la population française est un phénomène inégal" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre que la répartition de la population est inégale sur le territoire français" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que les évolutions démographiques des territoires français sont le reflet de leur inégal dynamisme" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la progression des inégalités en France" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre la raison des inégalités en France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les inégalités territoriales observables à l’échelle nationale en France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les inégalités territoriales observables à l’échelle régionale en France" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les inégalités territoriales observables à l’échelle locale en France" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la politique de cohésion de l’Union européenne" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître la politique de l’État pour réduire les inégalités sociales et territoriales" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître l’action des collectivités territoriales et des acteurs locaux" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les dynamiques démographiques des territoires en France" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Comprendre que la France est un pays riche marqué par des inégalités socio-spatiales" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Comprendre l’action des acteurs de toutes les échelles pour réduire les inégalités territoriales" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur le peuplement du territoire et ses dynamiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Des mobilités généralisées" },
+  "chapitreTitre": { "S": "Les migrations internationales" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les principaux flux migratoires dans le monde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l’évolution des flux migratoires" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les migrations politiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les migrations climatiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les migrations économiques" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l’impact des migrations sur les pays de départ" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les réactions face aux migrations dans les pays d’accueil" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les flux migratoires variés" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre les effets multiples des flux migratoires sur les territoires" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BAC - Répondre à une question sur le lien entre flux migratoires et inégalités de développement dans le monde" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BAC - Étudier les migrations dans le monde et leurs facteurs à l’aide de documents" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC - Étudier les effets des migrations sur les territoires à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Des mobilités généralisées" },
+  "chapitreTitre": { "S": "Les mobilités touristiques internationales" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les principales régions touristiques dans le monde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l’accroissement de la fréquentation touristique dans le monde" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les principales destinations touristiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les nouveaux espaces touristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les grands axes de transports terrestres" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les grands aéroports" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre que le tourisme est un secteur-clé de l’économie des pays riches" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre que le tourisme est un outil contre la pauvreté" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître l’impact du tourisme de masse sur l’environnement et les sociétés locales" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les projets de tourisme plus durable" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la mondialisation des mobilités touristiques" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les conséquences de l’essor du tourisme sur les territoires" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC - Étudier les flux touristiques, les principales régions touristiques, l’augmentation des flux internationaux et les activités qui génèrent un tourisme de masse à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Des mobilités généralisées" },
+  "chapitreTitre": { "S": "La France : mobilités, transports et enjeux d’aménagement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre l’inégal peuplement du territoire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la diversité du solde migratoire des régions françaises" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la multiplication des mobilités quotidiennes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le poids du dynamisme des espaces productifs" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre la métropolisation du territoire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l’héliotropisme et la littoralisation des activités" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre que les frontières sont des espaces privilégiés" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître le réseau autoroutier français" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre que le réseau des LGV est vecteur d’inégalités" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître la multiplicité des acteurs de la politique d’aménagement du territoire et de leurs missions" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître l’évolution des priorités des politiques d’aménagement" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre la volonté de renforcer l’insertion européenne du territoire national" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre la multiplicité des mobilités en France métropolitaine et ultra-marine" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre le rôle des réseaux de transport dans la hiérarchisation du territoire" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Comprendre les politiques d’aménagement du territoire" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur les principaux axes et nœuds de transports en France" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T4#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "L'Afrique australe, un espace en profonde mutation" },
+  "chapitreTitre": { "S": "Les milieux d'Afrique australe : valoriser et ménager" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les États de l'Afrique australe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les reliefs de l'Afrique australe" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les climats de l'Afrique australe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les ressources de l'Afrique australe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la répartition inégale des richesses minières et énergétiques en Afrique australe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que l'eau est une ressource rare en Afrique australe" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre que les territoires d'Afrique australe sont menacés par des catastrophes naturelles et des risques majeurs" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre l'effet néfaste de l'exploitation des ressources sur l'environnement en Afrique australe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre l'effet néfaste de l'exploitation des ressources sur les populations en Afrique australe" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les nouvelles énergies pour réduire la consommation en charbon en Afrique australe" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître l'émergence de nouvelles pratiques agricoles en Afrique australe" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les milieux naturels et les ressources en Afrique australe" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre que les milieux naturels de l'Afrique australe sont à préserver" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur la diversité des milieux et la richesse inégale des ressources naturelles en Afrique australe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "L'Afrique australe, un espace en profonde mutation" },
+  "chapitreTitre": { "S": "Les défis de la transition et du développement en Afrique australe" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre la diversité des stades de transition démographique en Afrique australe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la diversité des rythmes de croissance de la population en Afrique australe" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre que la transition urbaine est un phénomène généralisé en Afrique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre que l'Afrique australe est une région plus fortement urbanisée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Savoir que l'Afrique du Sud est un pays émergent intégré à la mondialisation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les pays d'Afrique australe aux performances économiques modestes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les pays d'Afrique australe en retard dans leur développement" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les inégalités locales en Afrique australe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les inégalités régionales en Afrique australe" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre les mutations démographiques en Afrique australe" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les fortes inégalités de développement entre les États d'Afrique australe" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les fortes inégalités en Afrique australe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#GEO#T4#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "L'Afrique australe, un espace en profonde mutation" },
+  "chapitreTitre": { "S": "Les territoires d'Afrique australe traversés et remodelés par des mobilités complexes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les principaux flux migratoires régionaux d'Afrique australe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que les migrations sont de plus en plus nombreuses de la campagne vers la ville en Afrique australe" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître l'ouverture progressive aux migrations internationales en Afrique australe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les conséquences posées par les flux migratoires" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les principaux sites naturels d'Afrique australe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le développement du tourisme de masse en Afrique australe" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la valorisation de l'écotourisme face aux risques du tourisme de masse en Afrique australe" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les flux migratoires complexes traversant les territoires d'Afrique australe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre l'augmentation des mobilités touristiques en Afrique australe" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BAC - Répondre à une question sur les principaux flux migratoires et les principales mobilités en Afrique australe" } } }
+    ]
+  }
+}
+]

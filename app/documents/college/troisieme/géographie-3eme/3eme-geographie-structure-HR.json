@@ -1,0 +1,173 @@
+[
+{
+  "PK": { "S": "CHAPITRE#3E#GEO#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Dynamiques territoriales de la France contemporaine" },
+  "chapitreTitre": { "S": "Les aires urbaines, une nouvelle géographie d’une France mondialisée" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre l’urbanisation de la France et ses conséquences" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les aires urbaines en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître l’habitat en centre-ville ou en banlieue" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l’habitat dans un espace périurbain de l’aire urbaine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre que la France est un territoire fortement urbanisé" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les différents modes de vie des habitants des aires urbaines" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre l’augmentation des mobilités des habitants" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET - Étudier des documents sur l’organisation du territoire des aires urbaines en France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser les principales aires urbaines de la France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Répondre à une question sur la vie des habitants des aires urbaines en France" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#GEO#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Dynamiques territoriales de la France contemporaine" },
+  "chapitreTitre": { "S": "Les espaces productifs et leurs évolutions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les principaux espaces agricoles en France" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre les transformations des exploitations agricoles en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les espaces industriels dynamiques en France" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les espaces industriels en difficulté en France" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la diversité des activités de services en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les espaces productifs touristiques en France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les mutations et l’inégal dynamisme des espaces agricoles" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les mutations et l’inégal dynamisme des espaces industriels" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les mutations et l’inégal dynamisme des espaces de services" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Étudier des documents sur les mutations des espaces productifs agricoles en France" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser les différents espaces productifs en France" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET - Répondre à une question sur les dynamiques des espaces productifs industriels en France" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#GEO#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Dynamiques territoriales de la France contemporaine" },
+  "chapitreTitre": { "S": "Les espaces de faible densité et leurs atouts" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les espaces essentiellement ruraux en France" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les difficultés communes des espaces de faible densité en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les espaces agricoles dynamiques de faible densité en France" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les espaces touristiques de faible densité en France" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les espaces de faible densité peu peuplés en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les nombreux atouts des espaces de faible densité en France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET - Étudier des documents sur les caractéristiques d’un espace de faible densité" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser la répartition de la population française" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Répondre à une question sur les difficultés et les atouts des espaces de faible densité en France" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#GEO#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Pourquoi et comment aménager le territoire ?" },
+  "chapitreTitre": { "S": "Aménager pour répondre aux inégalités croissantes entre territoires français, à toutes les échelles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les espaces privilégiés en France" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les espaces en difficulté en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les enjeux de l’aménagement des territoires" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les politiques menées à l’échelle de l’Union européenne pour l’aménagement des territoires" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les politiques menées à l’échelle nationale pour l’aménagement des territoires" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les politiques menées à l’échelle régionale et locale pour l’aménagement des territoires" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître l’inégalité de dynamisme des territoires français" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les politiques d’aménagement des territoires français" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Étudier des documents sur les différences de dynamisme sur le territoire français" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser les espaces dynamiques et ceux qui le sont moins sur le territoire français" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET - Répondre à une question sur les inégalités de dynamisme sur le territoire français et les actions mises en œuvre pour les réduire" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#GEO#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Pourquoi et comment aménager le territoire ?" },
+  "chapitreTitre": { "S": "Les territoires ultra-marins français : une problématique spécifique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre la présence mondiale de la France" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la contribution des territoires ultra-marins au rayonnement mondial de la France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les difficultés multiples des territoires ultra-marins" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les atouts des territoires ultra-marins français" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les aides apportées aux territoires ultra-marins" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que les territoires ultra-marins français sont en difficulté" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET - Étudier des documents sur les atouts et les difficultés d’un DROM" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Brevet - Repères - Compléter un planisphère pour localiser les territoires ultra-marins français dans le monde" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Répondre à une question sur les atouts et les difficultés des territoires ultra-marins français" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#GEO#T3#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La France et l’Union européenne" },
+  "chapitreTitre": { "S": "L’Union européenne, un nouveau territoire de référence et d’appartenance" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre que l’Union européenne est un territoire à géométrie variable" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre les inégalités importantes au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la volonté de réduire les inégalités au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre que la France est un pays moteur de l’Union européenne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre que la domination de la France dans l’Union européenne est fragilisée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le fonctionnement de l’Union européenne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la place de la France dans l’Union européenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET - Étudier des documents sur les inégalités de richesses au sein de l’Union européenne et les actions mises en œuvre pour les réduire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser les pays membres de l’Union européenne" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Répondre à une question sur la place de la France au sein de l’Union européenne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#GEO#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La France et l’Union européenne" },
+  "chapitreTitre": { "S": "La France et l’Europe dans le monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le rayonnement diplomatique de la France" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le rayonnement militaire de la France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le rayonnement économique de la France" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le rayonnement culturel de la France" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre que l’Union européenne est un pôle économique mondial" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que l’Union européenne est un pôle commercial mondial" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître le rayonnement culturel important de l’Union européenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les difficultés économiques et sociales de l’Union européenne" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître la puissance diplomatique et militaire limitée de l’Union européenne" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître la puissance de l’Union européenne et ses limites" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET - Étudier des documents sur les réussites et les limites du rayonnement de la France dans le monde" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Brevet - Repères - Compléter une carte pour localiser les espaces de la francophonie" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET - Répondre à une question sur les réussites et les limites du rayonnement de l’Europe dans le monde" } } }
+    ]
+  }
+}
+]

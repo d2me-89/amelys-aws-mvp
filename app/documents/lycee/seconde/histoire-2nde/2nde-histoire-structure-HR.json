@@ -1,0 +1,261 @@
+[
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#TI#CI" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Introduction – la périodisation" },
+  "chapitreTitre": { "S": "Les grandes périodes de l'Histoire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier et nommer les grandes périodes de l’Histoire traditionnellement retenues par les historiens" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Situer dans le temps les grandes ruptures chronologiques marquant le passage d’une période historique à une autre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer les critères utilisés par les historiens pour définir une période historique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer différentes périodisations de l’Histoire et en comprendre les limites" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Montrer que la périodisation est une construction historique et non une réalité figée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Réfléchir à l’intérêt et aux enjeux de la périodisation pour comprendre le passé" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde méditerranéen : empreintes de l’Antiquité et du Moyen Âge" },
+  "chapitreTitre": { "S": "La Méditerranée antique : les empreintes grecques et romaines" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les conditions d’accès à la citoyenneté dans la cité d’Athènes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Présenter les droits et les devoirs du citoyen athénien" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer les principes fondamentaux de la démocratie athénienne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire le fonctionnement des institutions de la démocratie à Athènes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les limites et les dysfonctionnements de la démocratie athénienne" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Situer et expliquer les guerres médiques dans l’histoire du monde grec" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Présenter la formation et les objectifs de la ligue de Délos" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer le rôle dominant exercé par Athènes au sein de la ligue de Délos" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les différentes formes de l’impérialisme athénien" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les points forts de l’impérialisme athénien" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Montrer les faiblesses et les limites de l’impérialisme athénien" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer les causes et les conséquences de la fin de la démocratie athénienne" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Présenter les grandes étapes de la construction de l’Empire romain" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Montrer les fondements de la puissance militaire de l’Empire romain" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Décrire l’organisation administrative de l’Empire romain" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser l’organisation économique et commerciale de l’Empire romain" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Expliquer la gestion et l’évolution de la citoyenneté dans l’Empire romain" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Comprendre les mécanismes et les effets de la romanisation des territoires de l’Empire" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Expliquer les étapes et les enjeux de la christianisation de l’Empire romain" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Analyser les relations entre l’Empire romain et les peuples dits barbares" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Expliquer en quoi la démocratie est une invention majeure de la cité d’Athènes" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Montrer comment l’empire maritime athénien contribue à l’affaiblissement de la démocratie" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Analyser la construction et le fonctionnement global de l’Empire romain" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Montrer que l’Empire romain constitue une mosaïque culturelle et religieuse" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée sur les processus d’intégration des différentes cultures dans l’Empire romain" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde méditerranéen : empreintes de l’Antiquité et du Moyen Âge" },
+  "chapitreTitre": { "S": "La Méditerranée médiévale : espace d’échanges et de conflits à la croisée de trois civilisations" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter les fondements politiques, religieux et culturels de la civilisation chrétienne d’Occident au Moyen Âge" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire les caractéristiques de la civilisation byzantine dans l’est de la Méditerranée médiévale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Présenter les fondements religieux, politiques et culturels de la civilisation musulmane en Méditerranée médiévale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principales marchandises échangées dans l’espace méditerranéen médiéval" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les pratiques commerciales et les réseaux d’échanges en Méditerranée médiévale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer le rôle des banques et des banquiers dans le dynamisme économique méditerranéen" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Montrer l’importance des cités italiennes dans les échanges méditerranéens au Moyen Âge" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer en quoi Tolède constitue un carrefour culturel majeur de la Méditerranée médiévale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Montrer comment la Sicile médiévale devient un espace de contacts et de métissages culturels" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Présenter les étapes et les objectifs de la Reconquista dans la péninsule Ibérique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer l’appel à la guerre sainte lancé par le pape Urbain II" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Décrire le déroulement et les enjeux de la première croisade" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser les objectifs et les résultats des deuxième et troisième croisades" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Expliquer les particularités et les conséquences de la quatrième croisade" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier et comparer les trois grandes civilisations de la Méditerranée médiévale" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Montrer que la Méditerranée médiévale constitue un espace d’échanges économiques et culturels" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Analyser la Méditerranée médiévale comme un espace marqué par des conflits religieux et politiques" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée sur les caractéristiques politiques et religieuses des trois civilisations de la Méditerranée médiévale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#T2#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "XVe-XVIe siècles : un nouveau rapport au monde, un temps de mutation intellectuelle" },
+  "chapitreTitre": { "S": "L’ouverture atlantique et les conséquences de la découverte du Nouveau Monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les causes et les premières étapes des grandes découvertes à la fin du XVe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Montrer comment les voyages de découverte contribuent aux débuts de la mondialisation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Présenter la constitution des premiers empires coloniaux européens dans le Nouveau Monde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer la mise en place et les fondements de l’esclavage dans les colonies américaines" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le fonctionnement du commerce atlantique triangulaire fondé sur l’esclavage" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Montrer comment le commerce atlantique participe à l’enrichissement des puissances européennes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le sort des populations amérindiennes confrontées à la conquête européenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer les enjeux et les arguments de la controverse de Valladolid" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre les mécanismes et les enjeux économiques du commerce atlantique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser la polémique européenne autour du traitement réservé aux populations amérindiennes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée sur les conséquences économiques, sociales et culturelles de la découverte du Nouveau Monde" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "XVe-XVIe siècles : un nouveau rapport au monde, un temps de mutation intellectuelle" },
+  "chapitreTitre": { "S": "Renaissance, humanisme et réformes religieuses : les mutations de l’Europe" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer en quoi la Renaissance marque une rupture avec le Moyen Âge et un retour aux références de l’Antiquité" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les principes fondamentaux de l’humanisme et leurs implications culturelles et intellectuelles" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le rôle décisif de l’imprimerie dans la diffusion des idées humanistes et religieuses" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer comment les progrès de la cartographie transforment la vision du monde à la Renaissance" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer les avancées majeures de la médecine et des sciences du vivant à la Renaissance" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre la portée scientifique et intellectuelle de la révolution copernicienne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les principaux foyers de la Renaissance artistique en Europe" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer l’usage de la perspective et l’apparition de nouveaux codes artistiques à la Renaissance" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser l’évolution du statut social et intellectuel des artistes à la Renaissance" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Présenter les origines et les fondements du protestantisme au XVIe siècle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les caractéristiques du calvinisme et de l’anglicanisme" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer les objectifs et les moyens de la réforme catholique face au protestantisme" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser le rôle des réformes religieuses dans le déclenchement et le déroulement des guerres de religion" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre la naissance et la diffusion du mouvement humaniste à la Renaissance" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Montrer le renouveau des sciences et des arts à travers les innovations de la Renaissance" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier et comparer les principales réformes religieuses de la Renaissance" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#T3#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L'État à l'époque moderne : les modèles français et anglais" },
+  "chapitreTitre": { "S": "L'affirmation de l'État dans le royaume de France" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer comment les infrastructures contribuent à l’unification du territoire du royaume de France" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Montrer le rôle de l’ordonnance de Villers-Cotterêts dans l’unification administrative et linguistique du royaume" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Présenter l’attitude des rois de France face au protestantisme au XVIe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser le rôle de la guerre dans le renforcement de l’administration royale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer pourquoi le pouvoir royal cherche à contrôler la noblesse sous le règne de Louis XIV" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Présenter le château de Versailles comme un symbole et un outil du pouvoir absolu de Louis XIV" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Montrer en quoi la France est un État centralisé autour du roi sous Louis XIV" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les mécanismes de l’extension territoriale et de l’unification du royaume de France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser les réponses du pouvoir monarchique aux guerres de religion" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer les fondements et les formes de l’affirmation du pouvoir absolu en France" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser l’affirmation du pouvoir absolu sous le règne de Louis XIV" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#T3#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L'État à l'époque moderne : les modèles français et anglais" },
+  "chapitreTitre": { "S": "Le modèle britannique et son influence" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer le principe du « King-in-Parliament » et son rôle dans le fonctionnement politique anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la remise en cause du modèle politique anglais par les rois Stuart au XVIIe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Présenter la première révolution anglaise et l’expérience politique du Commonwealth" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer les tensions récurrentes entre le roi et le Parlement dans l’Angleterre du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Présenter l’Habeas Corpus comme une avancée majeure dans la protection des libertés individuelles" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer la portée politique et juridique du Bill of Rights de 1689" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les caractéristiques principales de l’Enlightenment britannique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser la diffusion des idées libérales britanniques en Europe et dans le monde atlantique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Montrer comment les philosophes français des Lumières s’inspirent du modèle politique britannique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer les causes et les formes de la révolte des colons américains contre la métropole britannique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter les principes et les fondements de la Constitution américaine" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser les limites du modèle démocratique américain à la fin du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer le rôle et les motivations de l’intervention française dans la crise américaine" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Présenter les étapes de la construction de la monarchie représentative en Angleterre" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Analyser l’influence du modèle politique britannique sur les philosophes des Lumières" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Montrer comment les valeurs politiques anglaises sont aux fondements de la naissance des États-Unis" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC – Rédiger une réponse organisée sur la naissance des États-Unis et l’héritage du modèle politique britannique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#T4#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Dynamiques et ruptures dans les sociétés des XVIIe et XVIIIe siècles" },
+  "chapitreTitre": { "S": "Les Lumières et le développement des sciences" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer la mise en place et les principes de la méthode expérimentale au XVIIe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Présenter Galilée comme une figure majeure de la rupture scientifique du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les principales avancées scientifiques du XVIIe siècle dans différents domaines" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser la place et le rôle des femmes dans les avancées scientifiques du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire les nouveaux lieux du savoir scientifique au XVIIe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer la diffusion des savoirs par les publications et les revues scientifiques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser le rôle de l’Encyclopédie dans la diffusion des connaissances au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre l’importance des salons et des cabinets de curiosité dans la circulation des savoirs" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer les idées et le rôle des physiocrates dans la réflexion économique du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser la valorisation croissante des ingénieurs et des techniciens au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Présenter les caractéristiques et les débuts de la première révolution industrielle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre l’essor de l’esprit scientifique et rationnel au XVIIe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier le cheminement intellectuel, scientifique et technique menant à la première révolution industrielle" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC – Étudier des documents pour analyser les progrès scientifiques et leur diffusion aux XVIIe et XVIIIe siècles" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#HISTOIRE#T4#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Dynamiques et ruptures dans les sociétés des XVIIe et XVIIIe siècles" },
+  "chapitreTitre": { "S": "Tensions, mutations et crispations de la société d'ordres" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les trois ordres qui composent la société d’Ancien Régime" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Présenter les droits et les privilèges des seigneurs dans la société d’ordres" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Décrire les conditions de vie et de travail des paysans aux XVIIe et XVIIIe siècles" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principales formes de révoltes et de contestations paysannes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser l’amélioration progressive des conditions de vie des paysans au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer les causes et les effets de la croissance démographique aux XVIIe et XVIIIe siècles" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les mutations économiques et sociales dans les villes aux XVIIe et XVIIIe siècles" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les tensions sociales entre riches et pauvres dans les villes d’Ancien Régime" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer la remise en cause de la monarchie absolue par les philosophes des Lumières" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser la croissance des oppositions à la société d’ordres et à l’absolutisme au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Montrer comment les critiques de l’ordre établi sont diffusées dans la société du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer les oppositions de la noblesse et du clergé aux projets de réforme du royaume" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre en quoi la société d’ordres est fondamentalement inégalitaire" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Analyser les liens entre croissance démographique, mutations économiques et tensions urbaines aux XVIIe et XVIIIe siècles" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer pourquoi le XVIIIe siècle marque le début de la remise en cause de la société d’ordres" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BAC – Compléter une carte mentale sur les oppositions à la société d’ordres et à la monarchie absolue au XVIIIe siècle" } } }
+    ]
+  }
+}
+]

@@ -1,0 +1,273 @@
+[
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L'Europe, un théâtre majeur des guerres totales (1914-1945)" },
+  "chapitreTitre": { "S": "Les civils et les militaires dans la Première Guerre mondiale" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire la violence des combats vécue par les soldats pendant la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer le génocide des Arméniens dans le contexte de la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer que la Première Guerre mondiale mobilise l’ensemble des sociétés et constitue une guerre totale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser l’affaiblissement de l’Europe à travers le bilan humain, matériel et moral de la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les bouleversements politiques majeurs provoqués par la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les formes de violence subies par les civils et les militaires dans une guerre totale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer en quoi la Première Guerre mondiale transforme durablement l’Europe" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Étudier des documents pour montrer que la Première Guerre mondiale est une guerre totale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de la Première Guerre mondiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur la violence des combats pendant la Première Guerre mondiale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L'Europe, un théâtre majeur des guerres totales (1914-1945)" },
+  "chapitreTitre": { "S": "Les démocraties fragilisées et les expériences totalitaires dans l'Europe de l’entre-deux-guerres" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les étapes de la succession de Lénine et la mise en place du régime totalitaire soviétique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer la concentration des pouvoirs et le contrôle de la population dans le régime stalinien" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le contrôle de l’économie et des richesses par l’État dans le régime stalinien" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire les conditions et les étapes de la prise de pouvoir des nazis en Allemagne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Montrer que le régime nazi repose sur une idéologie raciste, antisémite et expansionniste" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les effets de la crise économique et sociale sur la France durant l’entre-deux-guerres" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les mesures et les objectifs du Front populaire arrivé au pouvoir en France" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer la mise en place et le fonctionnement du totalitarisme soviétique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser les mécanismes de domination et de contrôle exercés par le régime nazi en Allemagne" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Étudier des documents pour caractériser le système totalitaire nazi" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes dates de l’entre-deux-guerres" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les tentatives du Front populaire pour répondre à la crise des années 1930 en France" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L'Europe, un théâtre majeur des guerres totales (1914-1945)" },
+  "chapitreTitre": { "S": "La Seconde Guerre mondiale : une guerre d'anéantissement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales puissances de l’Axe et des Alliés engagées dans la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Situer les principaux combats et fronts en Europe et en Asie pendant la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer les causes et les étapes de la défaite de l’Allemagne nazie et du Japon impérial" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer que la Seconde Guerre mondiale mobilise l’ensemble des sociétés et constitue une guerre totale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser l’extrême violence des combats et des violences subies par les civils et les militaires" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer le génocide des Juifs et des Tsiganes dans le cadre de la politique d’extermination nazie" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier et ordonner les grandes étapes de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre le génocide des Juifs" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée pour expliquer en quoi la Seconde Guerre mondiale est une « guerre d’anéantissement »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "L'Europe, un théâtre majeur des guerres totales (1914-1945)" },
+  "chapitreTitre": { "S": "La France défaite et occupée : collaboration et résistance" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les causes de la défaite française de 1940 et les conditions de l’armistice" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire la mise en place du régime de Vichy et la fin de la Troisième République" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les formes de la collaboration politique, économique et militaire entre Vichy et l’Allemagne nazie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer la participation du régime de Vichy à la persécution et au génocide des Juifs" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les acteurs et les actions de la Résistance extérieure autour de la France libre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Présenter les formes, les risques et les objectifs de la Résistance intérieure en France occupée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la défaite de 1940 et la disparition du régime républicain en France" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser la collaboration de l’État français sous le régime de Vichy" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer les formes de résistance à l’occupation allemande et au régime de Vichy" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre la défaite de la France et ses conséquences pendant la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de la Seconde Guerre mondiale pour la France" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les choix du régime de Vichy après la défaite de 1940 et les réactions des Français" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde depuis 1945" },
+  "chapitreTitre": { "S": "Indépendances et construction de nouveaux États" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les causes et les formes de la volonté d’indépendance des colonies après la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques du nouvel ordre mondial mis en place après 1945" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Situer et expliquer les principales étapes de l’indépendance des pays d’Asie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Situer et expliquer les principales étapes de l’indépendance des pays d’Afrique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le contexte géopolitique dans lequel s’inscrit la construction des nouveaux États indépendants" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les défis économiques, sociaux et politiques rencontrés par les nouveaux États indépendants" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer en quoi l’après-guerre constitue un contexte favorable aux processus d’indépendance" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier et comparer les principales décolonisations après 1945" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser les difficultés et les enjeux majeurs auxquels font face les nouveaux États indépendants" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre l’accès à l’indépendance des colonies françaises" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de la décolonisation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur l’indépendance des colonies d’Afrique et d’Asie après la Seconde Guerre mondiale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde depuis 1945" },
+  "chapitreTitre": { "S": "Un monde bipolaire au temps de la guerre froide" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques du bloc de l’Ouest et du bloc de l’Est au début de la guerre froide" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer la division de l’Allemagne et les enjeux de la bipolarité allemande pendant la guerre froide" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer que la guerre froide est avant tout un affrontement idéologique entre deux modèles" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser la dimension technologique de la guerre froide, notamment la course aux armements et à l’espace" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer les formes de la confrontation militaire indirecte durant la guerre froide" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l’émergence et le rôle du tiers-monde dans le contexte de la fin de la guerre froide" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les causes et les étapes de la dislocation du bloc de l’Est à la fin de la guerre froide" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer en quoi le monde est structuré en deux camps antagonistes pendant la guerre froide" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Montrer que la guerre froide est un affrontement idéologique, technologique et militaire global" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les causes et les conséquences de la fin de la bipolarisation du monde à la fin de la guerre froide" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Étudier des documents pour caractériser les principales dimensions de la guerre froide" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes étapes de la guerre froide" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les rivalités qui divisent le monde durant la guerre froide" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde depuis 1945" },
+  "chapitreTitre": { "S": "L'affirmation et la mise en œuvre du projet européen" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les origines et les objectifs du projet européen au lendemain de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser l’élargissement et l’approfondissement de la CEE au cours de la guerre froide" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les raisons et les formes du renforcement du projet européen depuis les années 1980" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principales étapes et vagues d’élargissement de l’Union européenne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Montrer que la construction européenne vise à garantir durablement la paix entre les États européens" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Situer les évolutions du projet européen de la CEE à l’Union européenne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre les fondements et les grandes étapes de la construction européenne pendant la guerre froide" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes dates de la construction européenne" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur le rôle du projet européen dans le renforcement de la paix en Europe durant la guerre froide" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Le monde depuis 1945" },
+  "chapitreTitre": { "S": "Les enjeux et les conflits dans le monde après 1989" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les fondements et les manifestations de la puissance des États-Unis après la guerre froide" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les limites et les contestations de la puissance américaine depuis la fin de la guerre froide" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les conflits anciens qui se prolongent après la fin de la guerre froide" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l’émergence de nouveaux types de conflits depuis la fin de la guerre froide" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser l’évolution de la domination des États-Unis dans le monde depuis 1989" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Montrer que le monde demeure marqué par des tensions et des guerres après la guerre froide" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre les tensions et les conflits dans le monde depuis la fin de la guerre froide" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des relations diplomatiques mondiales depuis 1989" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les tensions et les conflits qui fragilisent la paix mondiale depuis la fin de la guerre froide" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Françaises et Français dans une république repensée" },
+  "chapitreTitre": { "S": "1944-1947 : refonder la république, redéfinir la démocratie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer le rétablissement des principes républicains en France après la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les étapes et les caractéristiques de la naissance de la Quatrième République" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer que la France doit faire face à un vaste effort de reconstruction après la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser le renforcement de la protection sociale et des droits des citoyens dans la France de l’après-guerre" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer les avancées majeures des droits des femmes en France après la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les conditions et les modalités du rétablissement de la République en France après 1944" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Montrer comment la démocratie est renforcée en France dans l’immédiat après-guerre" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre la création de la Quatrième République" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique de la restauration de la République et de la démocratie en France après la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur la manière dont la République est rétablie et la démocratie renforcée en France après la Seconde Guerre mondiale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Françaises et Français dans une république repensée" },
+  "chapitreTitre": { "S": "La Ve République : de la république gaullienne à l’alternance et à la cohabitation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les fondements institutionnels et politiques de la Ve République" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer la volonté de Charles de Gaulle de restaurer la puissance et le rayonnement de la France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les causes et les conséquences de la fin de la présidence gaullienne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser le maintien de la droite au pouvoir en France de 1969 à 1981" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les conditions et les enjeux de l’arrivée de la gauche au pouvoir en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les évolutions politiques marquées par l’alternance et la cohabitation de 1995 à 2017" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Présenter les caractéristiques majeures de la présidence de Charles de Gaulle entre 1958 et 1969" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser l’évolution de la vie politique française depuis 1969 sous la Ve République" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre l’alternance politique sous la Ve République" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique de la succession des présidents de la Ve République" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les grandes caractéristiques de la présidence de Charles de Gaulle entre 1958 et 1969" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#HISTOIRE#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Françaises et Français dans une république repensée" },
+  "chapitreTitre": { "S": "La société française des années 1950 aux années 1980" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer les causes et les caractéristiques de la prospérité économique durant les Trente Glorieuses" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la naissance et le développement de la société de consommation en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les causes du ralentissement de la croissance économique à partir des années 1970" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principales avancées des droits des femmes en France depuis la fin de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser l’augmentation de la place accordée aux jeunes dans la société française à partir des années 1970" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Montrer l’amélioration des conditions de vie des Français à partir des années 1950" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les nouveaux débats et les transformations sociales qui animent la société française depuis les années 1950" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – Étudier des documents pour comprendre l’évolution de la place des femmes dans la société française depuis les années 1950" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Compléter et interpréter une frise chronologique des grandes mutations de la société française depuis les années 1950" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Rédiger une réponse argumentée sur les grandes mutations de la société française depuis les années 1950" } } }
+    ]
+  }
+}
+]

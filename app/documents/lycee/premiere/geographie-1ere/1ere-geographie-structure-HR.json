@@ -1,0 +1,320 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La métropolisation : un processus mondial différencié" },
+  "chapitreTitre": { "S": "Le poids croissant des métropoles dans le monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre l’urbanisation et la transition urbaine" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les facteurs de l’urbanisation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre l’importance croissante des villes dans le monde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les conséquences de l’urbanisation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le phénomène de métropolisation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que le processus de métropolisation est inégal" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les fonctions économiques et financières des métropoles" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les fonctions liées au savoir des métropoles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les fonctions politiques et diplomatiques des métropoles" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les fonctions culturelles des métropoles" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre le phénomène d’urbanisation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre la croissance des villes et ses conséquences" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre le poids croissant des métropoles dans le monde" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC - Étudier le phénomène de métropolisation à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La métropolisation : un processus mondial différencié" },
+  "chapitreTitre": { "S": "Des métropoles inégales et en mutation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes métropoles et leur hiérarchie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que les métropoles sont en concurrence" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la densification des métropoles et l’étalement urbain" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre que les métropoles sont polycentriques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le creusement des inégalités dans les métropoles" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître des situations et des réponses différenciées selon le niveau de développement des métropoles" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les grandes métropoles et leur concurrence" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre la densification, l’étalement et le caractère polycentrique des métropoles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les inégalités dans les métropoles" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BAC - Répondre à une question sur le lien entre la mondialisation et le renforcement des inégalités socio-spatiales au sein des territoires métropolitains" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La métropolisation : un processus mondial différencié" },
+  "chapitreTitre": { "S": "La métropolisation et ses effets en France" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Savoir que Paris est une ville mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Savoir que Paris est une ville au sommet de la hiérarchie urbaine française" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les régions françaises concernées par la métropolisation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre que les métropoles régionales ont des dynamiques inégales" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le poids des petites et moyennes villes en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les petites et moyennes villes en France peu dynamiques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les petites et moyennes villes en France dynamiques" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Savoir que Paris est une ville mondiale au sommet de la hiérarchie urbaine française" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les trajectoires différenciées des métropoles régionales françaises" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que les petites et moyennes villes en France sont entre déclin et dynamisme" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur la métropolisation du territoire français" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Une diversification des espaces et des acteurs de la production" },
+  "chapitreTitre": { "S": "Les espaces de production dans le monde : une diversité croissante" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Savoir que les espaces productifs sont hiérarchisés et concentrés sur les mêmes territoires" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la recomposition des espaces de production dans le monde" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le rôle des firmes transnationales dans la production" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le rôle des États dans la production" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la Division internationale des processus productifs" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les systèmes productifs spécialisés" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les effets de la révolution numérique sur les systèmes productifs" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la géographie des espaces productifs dans le monde" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les grands acteurs de la production" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître l’organisation des espaces productifs dans le monde" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BAC - Étudier le rôle des États et le poids croissant des firmes transnationales dans la production mondiale à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Une diversification des espaces et des acteurs de la production" },
+  "chapitreTitre": { "S": "Métropolisation, littoralisation de la production et accroissement des flux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre l’accroissement des flux dans le monde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les facteurs de l’accroissement des flux dans le monde" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la polarisation des flux dans le monde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les métropoles privilégiées par la mondialisation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les littoraux, des espaces productifs majeurs à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les facteurs de l’accroissement des flux dans le monde et leur polarisation" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la métropolisation et la littoralisation des espaces productifs" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BAC - Répondre à une question sur la concentration des espaces productifs dans le monde sur les littoraux et les métropoles" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Une diversification des espaces et des acteurs de la production" },
+  "chapitreTitre": { "S": "Les systèmes productifs en France : entre valorisation locale et intégration européenne et mondiale" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les atouts du territoire français pour valoriser ses espaces productifs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la transformation de l’agriculture française" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la désindustrialisation et la tertiarisation des espaces productifs français" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la géographie des espaces productifs français" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre la métropolisation et la littoralisation des activités en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le poids des espaces productifs locaux en France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les différents acteurs et leur rôle dans la valorisation des espaces productifs en France" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les enjeux autour des espaces productifs en France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre que les systèmes productifs français sont des systèmes en mutation" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que les espaces productifs français sont en recomposition" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les acteurs et les enjeux autour des espaces productifs en France" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur les principaux espaces productifs en France" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Les espaces ruraux - multifonctionnalité ou fragmentation ?" },
+  "chapitreTitre": { "S": "La fragmentation des espaces ruraux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la répartition des ruraux dans le monde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l’augmentation du nombre de ruraux à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître l’activité agricole dans les pays du Sud" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l’activité agricole dans les pays du Nord" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître l’agriculture productiviste et ses impacts sur les paysages" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le développement d’une agriculture durable" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les espaces agricoles dans les pays pauvres du Sud" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le rapprochement entre espaces ruraux et villes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la connexion entre les espaces ruraux et les villes" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître l’importante population rurale dans le monde" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre le dynamisme variable des espaces agricoles dans le monde" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre le lien entre villes et campagnes" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC - Étudier l’évolution de la part de l’activité agricole dans les campagnes à l’aide de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Les espaces ruraux - multifonctionnalité ou fragmentation ?" },
+  "chapitreTitre": { "S": "Affirmation des fonctions non agricoles et conflits d'usages" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre le développement d’industries en lien avec l’agriculture" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre le développement d’industries non agricoles dans les espaces ruraux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître l’agrotourisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l’écotourisme" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les conséquences de l’étalement urbain sur l’environnement" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les tensions autour des ressources en eau causées par la pluriactivité dans les espaces ruraux" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les conflits autour de la terre causés par la pluriactivité dans les espaces ruraux" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre la création d’espaces ruraux protégés comme tentative de résolution des conflits" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la réduction du stress hydrique comme tentative de résolution des conflits" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre la multifonctionnalité des espaces ruraux en France" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre que les espaces ruraux sont marqués par les tensions et les conflits d’usage" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC - Étudier la diversification des fonctions productives dans les espaces ruraux à l’aide de documents" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser une carte mentale sur la diversification des fonctions d’un espace rural à grande échelle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "Les espaces ruraux - multifonctionnalité ou fragmentation ?" },
+  "chapitreTitre": { "S": "La France : des espaces ruraux multifonctionnels" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre le vieillissement des populations rurales en France" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre le renouveau des espaces ruraux en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre que le repeuplement est inégal selon les espaces ruraux en France" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre que les espaces ruraux sont transformés par la périurbanisation en France" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les liens accrus entre espaces ruraux et espaces urbains en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les transformations des systèmes agricoles en France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître l’industrialisation des espaces ruraux en France" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître le tourisme dans les espaces ruraux en France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre l’enjeu économique des mutations du monde rural en France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre l’enjeu social des mutations du monde rural en France" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître le développement durable mis en place en France" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la protection des paysages de campagne en France" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre les mutations démographiques et résidentielles en France" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre les mutations de l’agriculture et des industries en France" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Comprendre les enjeux des mutations en France" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BAC - Étudier la persistance de la ruralité en France et les mutations des liens entre espaces ruraux et urbains à l’aide de documents" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur les fonctions agricoles, industrielles et touristiques des espaces ruraux en France" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T4#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La Chine - des recompositions spatiales multiples" },
+  "chapitreTitre": { "S": "Développement et inégalités en Chine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la forte augmentation des richesses produites en Chine" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que la Chine est un acteur économique international" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la diminution de la pauvreté en Chine" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l’émergence d’une classe moyenne et de la société de consommation en Chine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre que la population chinoise est nombreuse et déséquilibrée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le défi du vieillissement en Chine" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les inégalités de conditions de vie en Chine" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les contrastes territoriaux en Chine" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les politiques d’aménagement du territoire pour réduire les inégalités en Chine" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que la Chine est un pays émergent en plein développement" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les inégalités de plus en plus importantes en Chine" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC - Étudier la croissance économique de la Chine et son intégration à la mondialisation à l’aide de documents" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur les inégalités territoriales de la Chine" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La Chine - des recompositions spatiales multiples" },
+  "chapitreTitre": { "S": "Des ressources et des environnements sous pression en Chine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Savoir que la Chine a des réserves importantes en charbon" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Savoir que la Chine a des réserves insuffisantes en pétrole" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Savoir que la Chine a des réserves considérables en minerais métalliques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Savoir que la Chine a des ressources en eau en apparence abondantes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les situations de stress hydrique en Chine" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Savoir que la Chine a des ressources halieutiques importantes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre que la production agricole chinoise ne permet pas l’autosuffisance" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître le niveau de pollution atmosphérique chinois" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître la pollution de l’eau et des sols en Chine" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que la population chinoise est désireuse de protéger l’environnement" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les initiatives locales en faveur de l’environnement en Chine" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les mesures politiques en faveur de l’environnement en Chine" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre que la Chine a des ressources importantes mais insuffisantes" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre que les environnements chinois sont fragilisés" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#GEO#T4#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Géographie" },
+  "themeTitre": { "S": "La Chine - des recompositions spatiales multiples" },
+  "chapitreTitre": { "S": "Les recompositions spatiales en Chine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre que la population chinoise est essentiellement urbaine" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que l’urbanisation chinoise est liée à l’exode rural" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre l’étalement des villes et la réorganisation du réseau urbain comme conséquence de l’urbanisation en Chine" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les inégalités sociales comme conséquence de l’urbanisation en Chine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les inégalités spatiales comme conséquence de l’urbanisation en Chine" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre la réduction des campagnes comme conséquence de l’urbanisation en Chine" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre que les métropoles chinoises sont intégrées à l’archipel métropolitain mondial" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le poids de Shanghai en Chine" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la concentration des habitants et des activités sur les littoraux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que le littoral chinois est une interface de puissance régionale" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre que le littoral chinois est une interface mondiale" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre l’urbanisation récente en Chine" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre que la Chine est un territoire dominé par de grandes métropoles" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre la littoralisation des espaces productifs en Chine" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Réalisation cartographique type BAC - Réaliser un croquis sur les inégalités territoriales de la Chine" } } }
+    ]
+  }
+}
+]
