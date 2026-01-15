@@ -149,15 +149,15 @@ export default function AppHome() {
           >
             <div style={{
               background: hoveredCard === "lycee" 
-                ? "linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)"
-                : "linear-gradient(135deg, #FEF9E7 0%, #FEF3C7 100%)",
+                ? "linear-gradient(135deg, #BAE6FD 0%, #7DD3FC 100%)"
+                : "linear-gradient(135deg, #E0F2FE 0%, #BAE6FD 100%)",
               padding: "2rem",
               borderRadius: "16px",
               position: "relative",
               transition: "all 0.3s ease",
               transform: hoveredCard === "lycee" ? "translateY(-4px)" : "translateY(0)",
               boxShadow: hoveredCard === "lycee"
-                ? "0 12px 24px rgba(245, 158, 11, 0.15)"
+                ? "0 12px 24px rgba(14, 165, 233, 0.15)"
                 : "0 4px 12px rgba(0, 0, 0, 0.08)",
               minHeight: "200px",
               display: "flex",
@@ -174,11 +174,11 @@ export default function AppHome() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "10px",
-                  background: "rgba(245, 158, 11, 0.15)",
+                  background: "rgba(14, 165, 233, 0.15)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  color: "#D97706"
+                  color: "#0284C7"
                 }}>
                   <LuAward size={24} />
                 </div>
@@ -212,13 +212,13 @@ export default function AppHome() {
                 height: "48px",
                 borderRadius: "12px",
                 background: hoveredCard === "lycee"
-                  ? "#D97706"
-                  : "rgba(217, 119, 6, 0.1)",
+                  ? "#0284C7"
+                  : "rgba(2, 132, 199, 0.1)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 transition: "all 0.3s ease",
-                color: hoveredCard === "lycee" ? "#fff" : "#D97706"
+                color: hoveredCard === "lycee" ? "#fff" : "#0284C7"
               }}>
                 <LuArrowUpRight size={24} />
               </div>
