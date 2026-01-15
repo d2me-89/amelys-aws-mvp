@@ -257,7 +257,7 @@ function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) 
           display: "flex",
           alignItems: "center",
           gap: "0.75rem",
-          padding: isOpen ? "0.75rem 1rem" : "0.75rem",
+          padding: "0.75rem 1rem",
           margin: "0.25rem 0.5rem",
           borderRadius: "8px",
           textDecoration: "none",
@@ -265,7 +265,7 @@ function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) 
           transition: "all 0.2s ease",
           fontSize: "0.95rem",
           background: isActive ? "rgba(255,193,7,0.25)" : "transparent",
-          justifyContent: isOpen ? "flex-start" : "center",
+          justifyContent: "flex-start", // ← TOUJOURS à gauche (plus de "center")
           position: "relative",
           fontWeight: isActive ? 600 : 400,
         }}
