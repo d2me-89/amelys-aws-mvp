@@ -424,10 +424,10 @@ export default function CollegePage() {
                 borderRadius: "50px",
                 color: selectedClass === cls.id ? "#fff" : "rgba(255,255,255,0.9)",
                 background: selectedClass === cls.id 
-                  ? "linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%)"
+                  ? "linear-gradient(135deg, #B794F6 0%, #9F7AEA 50%, #805AD5 100%)"
                   : "rgba(255,255,255,0.1)",
                 border: selectedClass === cls.id 
-                  ? "2px solid rgba(255,215,0,0.5)"
+                  ? "2px solid rgba(183,148,246,0.5)"
                   : "2px solid rgba(255,255,255,0.2)",
                 transition: "all 0.3s ease",
                 cursor: "pointer",
@@ -435,7 +435,7 @@ export default function CollegePage() {
               onMouseEnter={(e) => {
                 if (selectedClass !== cls.id) {
                   e.currentTarget.style.background = "rgba(255,255,255,0.15)";
-                  e.currentTarget.style.borderColor = "rgba(255,215,0,0.4)";
+                  e.currentTarget.style.borderColor = "rgba(183,148,246,0.4)";
                 }
               }}
               onMouseLeave={(e) => {
@@ -521,7 +521,7 @@ export default function CollegePage() {
                         left: "-50%",
                         width: "200%",
                         height: "200%",
-                        background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
+                        background: "radial-gradient(circle, rgba(183,148,246,0.15) 0%, transparent 70%)",
                         pointerEvents: "none"
                       }} />
 
@@ -537,7 +537,7 @@ export default function CollegePage() {
                         position: "relative",
                         zIndex: 1,
                         boxShadow: hoveredCard === matiere.id
-                          ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
+                          ? "0 0 0 4px rgba(183,148,246,0.5), 0 0 30px rgba(183,148,246,0.5), 0 0 50px rgba(183,148,246,0.3)"
                           : "0 4px 12px rgba(0,0,0,0.1)",
                         transition: "all 0.3s ease"
                       }}>
@@ -560,10 +560,10 @@ export default function CollegePage() {
                         padding: "0.31rem 0.82rem",
                         borderRadius: "17px",
                         background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
-                        border: "1px solid rgba(255,215,0,0.3)",
+                        border: "1px solid rgba(183,148,246,0.3)",
                         fontSize: "0.77rem",
                         fontWeight: 600,
-                        color: "#FFD700",
+                        color: "#B794F6",
                         marginBottom: "0.85rem"
                       }}>
                         {matiere.seances} séances
@@ -676,7 +676,7 @@ export default function CollegePage() {
                         left: "-50%",
                         width: "200%",
                         height: "200%",
-                        background: "radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%)",
+                        background: "radial-gradient(circle, rgba(183,148,246,0.15) 0%, transparent 70%)",
                         pointerEvents: "none"
                       }} />
 
@@ -692,7 +692,7 @@ export default function CollegePage() {
                         position: "relative",
                         zIndex: 1,
                         boxShadow: hoveredCard === epreuve.id
-                          ? "0 0 0 4px rgba(255,215,0,0.5), 0 0 30px rgba(255,215,0,0.5), 0 0 50px rgba(255,215,0,0.3)"
+                          ? "0 0 0 4px rgba(183,148,246,0.5), 0 0 30px rgba(183,148,246,0.5), 0 0 50px rgba(183,148,246,0.3)"
                           : "0 4px 12px rgba(0,0,0,0.1)",
                         transition: "all 0.3s ease"
                       }}>
@@ -715,10 +715,10 @@ export default function CollegePage() {
                         padding: "0.31rem 0.82rem",
                         borderRadius: "17px",
                         background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
-                        border: "1px solid rgba(255,215,0,0.3)",
+                        border: "1px solid rgba(183,148,246,0.3)",
                         fontSize: "0.77rem",
                         fontWeight: 600,
-                        color: "#FFD700",
+                        color: "#B794F6",
                         marginBottom: "0.85rem"
                       }}>
                         {epreuve.seances} séances
@@ -765,9 +765,9 @@ export default function CollegePage() {
           <div style={{
             textAlign: "center",
             padding: "3rem 2rem",
-            background: "rgba(255,193,7,0.1)",
+            background: "rgba(183,148,246,0.1)",
             borderRadius: "12px",
-            border: "1px solid rgba(255,193,7,0.3)",
+            border: "1px solid rgba(183,148,246,0.3)",
             marginTop: "3rem"
           }}>
             <p style={{ 
