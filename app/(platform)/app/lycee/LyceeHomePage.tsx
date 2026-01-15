@@ -619,7 +619,7 @@ export default function LyceePage() {
                   }}>
                     {/* Partie haute avec dégradé */}
                     <div style={{
-                      background: "linear-gradient(135deg, #8B7355 0%, #A0826D 50%, #B8956A 100%)",
+                      background: "linear-gradient(135deg, #FEF3C7 0%, #FDE68A 50%, #FCD34D 100%)",
                       padding: "1.7rem 1.3rem",
                       display: "flex",
                       alignItems: "center",
@@ -774,7 +774,7 @@ export default function LyceePage() {
                   }}>
                     {/* Partie haute avec dégradé */}
                     <div style={{
-                      background: "linear-gradient(135deg, #8B7355 0%, #A0826D 50%, #B8956A 100%)",
+                      background: "linear-gradient(135deg, #FEF3C7 0%, #FDE68A 50%, #FCD34D 100%)",
                       padding: "1.7rem 1.3rem",
                       display: "flex",
                       alignItems: "center",

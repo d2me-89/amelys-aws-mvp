@@ -506,7 +506,7 @@ export default function CollegePage() {
                   }}>
                     {/* Partie haute avec dégradé - RÉDUITE de 15% */}
                     <div style={{
-                      background: "linear-gradient(135deg, #8B7355 0%, #A0826D 50%, #B8956A 100%)",
+                      background: "linear-gradient(135deg, #E8E0FF 0%, #D4C5FF 50%, #C4B5FE 100%)",
                       padding: "1.7rem 1.3rem",
                       display: "flex",
                       alignItems: "center",
@@ -661,7 +661,7 @@ export default function CollegePage() {
                   }}>
                     {/* Partie haute avec dégradé - RÉDUITE de 15% */}
                     <div style={{
-                      background: "linear-gradient(135deg, #8B7355 0%, #A0826D 50%, #B8956A 100%)",
+                      background: "linear-gradient(135deg, #E8E0FF 0%, #D4C5FF 50%, #C4B5FE 100%)",
                       padding: "1.7rem 1.3rem",
                       display: "flex",
                       alignItems: "center",
