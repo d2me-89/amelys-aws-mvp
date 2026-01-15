@@ -1,0 +1,195 @@
+[
+{
+  "PK": { "S": "CHAPITRE#5E#HISTOIRE#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Chrétienté et islam (VIe-XIIIe siècles), des mondes en contact" },
+  "chapitreTitre": { "S": "Byzance et l'Europe carolingienne" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître l'Empire byzantin" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l'Empire carolingien" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le pouvoir de l'empereur et de l'Église dans les empires byzantin et carolingien" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l'Église d'Orient et l'Église d'Occident" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les empires byzantin et carolingien" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que les empires byzantin et carolingien sont des empires chrétiens" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET - Étudier des documents sur les pouvoirs de l’empereur byzantin" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET - Compléter une frise chronologique sur les grandes dates des empires byzantin et carolingien" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Répondre à une question sur les raisons de la séparation entre l’Église catholique et l’Église orthodoxe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#HISTOIRE#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Chrétienté et islam (VIe-XIIIe siècles), des mondes en contact" },
+  "chapitreTitre": { "S": "De la naissance de l'islam à la prise de Bagdad par les Mongols : pouvoirs, sociétés, cultures" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la naissance de l'islam" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les pratiques religieuses des musulmans" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le califat et l'islam politique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l'expansion et la division de l'empire musulman" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les contacts du monde musulman avec les autres civilisations" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le développement des villes du monde musulman" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre l'islam et sa naissance" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre que l'empire musulman est gouverné par des califes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre en quoi le monde musulman est une civilisation urbaine prospère" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Étudier des documents sur l’expansion du monde musulman et les points de tensions avec l’Empire byzantin et le royaume des Francs" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET - Compléter une frise chronologique sur les grandes dates de l’islam au Moyen Âge" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET - Répondre à une question sur les pratiques religieuses de l’islam" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#HISTOIRE#T2#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Société, Église et pouvoir politique dans l’occident féodal (XIe-XVe siècles)" },
+  "chapitreTitre": { "S": "L’ordre seigneurial : la formation et la domination des campagnes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre l'essor des surfaces cultivées et des populations au Moyen Âge" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre l'essor des techniques et l'amélioration des rendements au Moyen Âge" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître l'organisation des campagnes en seigneuries au Moyen Âge" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la vie des seigneurs au Moyen Âge" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la vie des paysans au Moyen Âge" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre que l'Église est un propriétaire de terres majeur dans les campagnes au Moyen Âge" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître l'influence de l'Église dans les campagnes au Moyen Âge" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre l'essor des campagnes au Moyen Âge" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la domination des seigneurs sur les campagnes" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que l'Église est au centre de la vie des campagnes au Moyen Âge" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET - Étudier des documents sur le message religieux de l’Église à ses fidèles" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET - Identifier les raisons du défrichement des forêts en France, du XIe au XIVe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET - Répondre à une question sur les pouvoirs du seigneur sur les paysans de sa seigneurie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#HISTOIRE#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Société, Église et pouvoir politique dans l’occident féodal (XIe-XVe siècles)" },
+  "chapitreTitre": { "S": "L’émergence d’une nouvelle société urbaine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la croissance spatiale et démographique des villes à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que les villes sont des carrefours commerciaux à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre l'émancipation des bourgeois face aux seigneurs à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l'autonomie des villes à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre que la société devient hiérarchisée et organisée à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre la naissance d'une culture urbaine à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre l'essor des villes à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre l'émancipation des bourgeois et l'autonomie des villes à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les nouveaux modes de vie urbains à partir du XIe siècle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Étudier des documents sur les raisons de la puissance économique de la ville de Bruges au Moyen Âge" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET - Identifier les différentes étapes de l’agrandissement de la ville de Bruges au Moyen Âge et ses aménagements progressifs" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET - Répondre à une question sur l’autonomie des villes bourgeoises vis-à-vis des seigneurs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#HISTOIRE#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Société, Église et pouvoir politique dans l’occident féodal (XIe-XVe siècles)" },
+  "chapitreTitre": { "S": "L’affirmation de l’État monarchique dans le royaume des Capétiens et des Valois" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre que le roi est un seigneur à l'autorité fragile sous les Capétiens" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l'extension du domaine royal sous les Capétiens" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la mise en place d'une administration royale sous les Capétiens" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la guerre contre l'Angleterre et les difficultés de la monarchie suite à la mort de Charles IV" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre la stabilisation du territoire national après la guerre de Cent Ans" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les premiers Capétiens et l'ordre féodal" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la guerre de Cent Ans et l'unification du royaume" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET - Compléter une frise chronologique sur les grandes dates de l’affirmation de l’État monarchique en France" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Étudier des documents sur les différents attributs des rois français et la façon dont ces derniers sont mis en valeur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Répondre à une question sur le rôle de la guerre de Cent Ans dans l’affirmation de l’État monarchique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#HISTOIRE#T3#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Transformations de l’Europe et ouverture sur le monde aux XVIe et XVIIe siècles" },
+  "chapitreTitre": { "S": "Le monde au temps de Charles Quint et Soliman le Magnifique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître l'affirmation de l'Empire ottoman" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les affrontements entre les chrétiens et l'Empire ottoman" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les grandes découvertes aux XVIe et XVIIe siècles" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la formation des premiers empires coloniaux au début du XVIe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre la première mondialisation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la Méditerranée au XVIe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître l'ouverture de l'Europe au nouveau monde au début du XVIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET - Compléter une frise chronologique sur les grandes dates du monde au temps de Charles Quint et Soliman le Magnifique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Répondre à une question sur les raisons des Européens à explorer le monde et à former de vastes empires coloniaux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Étudier des documents sur les parcours des premiers explorateurs, les pays européens concernés et leurs principaux espaces d’expansion" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#HISTOIRE#T3#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Transformations de l’Europe et ouverture sur le monde aux XVIe et XVIIe siècles" },
+  "chapitreTitre": { "S": "Humanisme, réformes et conflits religieux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître l'humanisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l'Europe de la Renaissance" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre que les XVe et XVIe siècles sont des siècles de bouleversements culturels" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les réformes protestantes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la réforme catholique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les conflits religieux au XVIe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les réformes et les conflits religieux au XVIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET - Compléter une frise chronologique sur les grandes dates de la Réforme et des conflits religieux" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET - Répondre à une question sur les caractéristiques d’une œuvre de la Renaissance" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET - Étudier des documents sur la réforme protestante" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#HISTOIRE#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "Histoire" },
+  "themeTitre": { "S": "Transformations de l’Europe et ouverture sur le monde aux XVIe et XVIIe siècles" },
+  "chapitreTitre": { "S": "Du prince de la Renaissance au roi absolu" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre que le règne de François Ier est l'affirmation de la monarchie à la Renaissance" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre que la monarchie fait face aux guerres de religion sous le règne de Henri IV" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la monarchie absolue sous le règne de Louis XIV" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Type BREVET - Compléter une frise chronologique sur les grandes dates des règnes de François Ier, Henri IV et Louis XIV" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Type BREVET - Répondre à une question sur la façon dont Henri IV parvient à mettre fin aux guerres de religion en France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Type BREVET - Étudier des documents sur les attributs du pouvoir absolu de Louis XIV" } } }
+    ]
+  }
+}
+]

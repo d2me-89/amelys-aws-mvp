@@ -1,0 +1,415 @@
+[
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "La diversité de la matière" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des métaux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des matériaux issus du vivant" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des minéraux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si un matériau est un métal à partir d'une description" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les différentes structures de la matière" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les différents usages de la matière" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "Les propriétés de la matière" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les unités de mesure de la masse" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la densité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les méthodes de tri des déchets" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du recyclage" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Convertir une masse à l'aide d'un tableau de conversion" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer si un objet est conducteur thermique à l'aide d'une expérience" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer si un objet est conducteur électrique l'aide d'une expérience" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer si un objet est magnétique l'aide d'une expérience" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer la densité d'un matériau à l'aide de sa masse volumique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer le comportement d'un matériau à l'aide de sa densité" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Convertir une masse sans tableau de conversion" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "Les états physiques de la matière" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si un matériau est à l'état solide, liquide ou gazeux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des changements d'état solide-liquide" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des changements d'état liquide-gaz" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques des changements d'état solide-gaz" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les propriétés des états solide, liquide et gazeux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer le nom d'un changement d'état de la matière à partir des états initial et final" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les températures des changements d'état de l'eau pure" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le principe de palier de changements d'état" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer le nom d'un changement d'état de la matière d'une expérience simple" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "La matière à grande échelle : Terre, planète, Univers" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une galaxie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'une étoile" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les conditions propices à la vie sur Terre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la composition du système solaire" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "Les mélanges" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un corps pur et des mélanges homogènes et hétérogènes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la miscibilité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la solubilité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'une transformation chimique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les dangers des mélanges de produits domestiques" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer si un mélange est miscible à l'aide d'une photographie" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer si un mélange est homogène ou hétérogène à l'aide d'une photographie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "La séparation des constituants d'un mélange" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la décantation" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'une filtration" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'une évaporation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le principe de traitement des eaux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Schématiser la décantation d'un mélange liquide-solide" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Schématiser la décantation d'un mélange liquide-liquide" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Schématiser une filtration" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Schématiser une évaporation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la méthode de séparation la plus adaptée des constituants d'un mélange donné" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "Les mouvements" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier trajectoire et mouvement" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si une trajectoire est rectiligne ou circulaire à l'aide d'une chronophotographie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer la vitesse moyenne d'un point avec la distance parcourue et la durée écoulée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Convertir une vitesse entre m/s et km/h" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer si un mouvement est uniforme, accéléré ou ralenti à l'aide d'une chronophotographie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "Les différentes formes de l'énergie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier les formes mécanique, thermique, électrique et lumineuse de l'énergie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier les sources d'énergie renouvelables et non renouvelables" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de l'énergie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si une énergie est mécanique, thermique, électrique ou lumineuse" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer si une source d'énergie est renouvelable ou non renouvelable" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "Les conversions et le stockage de l'énergie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les bases du stockage de l'énergie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer les formes d'énergie d'un exemple de conversion d'énergie simple" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les façons d'économiser l'énergie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Schématiser la chaîne énergétique d'un exemple de conversion d'énergie simple" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matière, mouvement, énergie, information" },
+  "chapitreTitre": { "S": "La transmission d'information par un signal" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un signal" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les éléments de la chaîne de propagation d'un signal" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des signaux sonores" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques des signaux lumineux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des signaux radio" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre comment est transportée l'information" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le principe de codage de l'information" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le fonctionnement des conversations téléphoniques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
+  "chapitreTitre": { "S": "L’unité et la diversité des êtres vivants" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une espèce" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques simples d'une cellule" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
+  "chapitreTitre": { "S": "L'histoire de la biodiversité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des espèces fossiles et des fossiles" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
+  "chapitreTitre": { "S": "L'alimentation humaine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des nutriments" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la fonction de nutrition des organes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la digestion" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la respiration" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques de la circulation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Schématiser la fonction de digestion" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Schématiser la fonction de respiration" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Schématiser la fonction de circulation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre comment des apports discontinus satisfont les besoins continus de l'organisme" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
+  "chapitreTitre": { "S": "L'utilisation des micro-organismes dans l’alimentation humaine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des micro-organismes dans l'alimentation humaine" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les techniques pour limiter la présence de micro-organismes dangereux dans l'alimentation humaine" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier l'exemple des micro-organismes dans la fabrication du pain" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier l'exemple des micro-organismes dans la fabrication du yaourt" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier l'exemple des micro-organismes dans la fabrication du fromage" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
+  "chapitreTitre": { "S": "Le développement des êtres vivants au cours de leur vie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les éléments de la reproduction sexuée des plantes à fleurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les stades de développement lors du cycle de vie des animaux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la puberté chez l'être humain" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier le cycle de vie de l'être humain" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
+  "chapitreTitre": { "S": "La production de matière et son utilisation par les êtres vivants" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des végétaux chlorophylliens" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les différents régimes alimentaires" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier producteur primaire et producteur secondaire" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'une litière et d'un décomposeur" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques de la photosynthèse" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les changements de comportement des animaux en hiver" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T3#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matériaux et objets techniques" },
+  "chapitreTitre": { "S": "Le tri et le recyclage des matériaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des grandes familles de matériaux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le tri des déchets" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les propriétés importantes des matériaux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les conséquences lors du prélèvement des matériaux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les conséquences après le prélèvement des matériaux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le devenir des déchets non recyclables" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître le devenir des déchets recyclables" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T3#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "Matériaux et objets techniques" },
+  "chapitreTitre": { "S": "Les objets techniques et leur fonctionnement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier fonction technique, fonction d'usage et fonction d'estime" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier invention et innovation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les différentes étapes de conception d'un objet technique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T4#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "La Terre, les êtres vivants dans leur environnement" },
+  "chapitreTitre": { "S": "La planète Terre, une planète active et habitée" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire la composante biologique d'un paysage à l'aide d'une photographie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire la composante géologique d'un paysage à l'aide d'une photographie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Décrire la composante humaine d'un paysage à l'aide d'une photographie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les différents phénomènes liés à l'activité interne de la Terre" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les différents phénomènes liés à l'activité externe de la Terre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les techniques de surveillance, prévention et protection des phénomènes naturels" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T4#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "La Terre, les êtres vivants dans leur environnement" },
+  "chapitreTitre": { "S": "La répartition des êtres vivants et le peuplement des milieux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes interactions entre les êtres vivants dans un écosystème" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'un écosystème" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les différentes façons de passer l'hiver chez les végétaux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les différentes façons de passer l'hiver chez les animaux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le déséquilibre dynamique causé par une espèce invasive" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#SCIENCES#T4#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Sciences" },
+  "themeTitre": { "S": "La Terre, les êtres vivants dans leur environnement" },
+  "chapitreTitre": { "S": "Les modifications de l’environnement par l’être humain" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des ressources naturelles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les conséquences négatives de l'exploitation des ressources naturelles sur l'environnement" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'une exploitation raisonnée des ressources" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du développement durable" } } }
+    ]
+  }
+}
+]

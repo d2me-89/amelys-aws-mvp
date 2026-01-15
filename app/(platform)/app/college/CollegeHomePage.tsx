@@ -569,13 +569,19 @@ export default function CollegePage() {
                         {matiere.seances} séances
                       </div>
 
-                      {/* Titre - AGRANDI de 20% */}
+                      {/* Titre - Hauteur fixe pour uniformité */}
                       <h3 style={{
                         fontSize: "1.2rem",
                         fontWeight: 700,
                         margin: "0 0 0.85rem 0",
                         color: "#fff",
-                        lineHeight: "1.3"
+                        lineHeight: "1.3",
+                        minHeight: "3.1rem",
+                        display: "-webkit-box",
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: "vertical",
+                        overflow: "hidden",
+                        textOverflow: "ellipsis"
                       }}>
                         {matiere.nom}
                       </h3>
@@ -718,13 +724,19 @@ export default function CollegePage() {
                         {epreuve.seances} séances
                       </div>
 
-                      {/* Titre - AGRANDI de 20% */}
+                      {/* Titre - Hauteur fixe pour uniformité */}
                       <h3 style={{
                         fontSize: "1.2rem",
                         fontWeight: 700,
                         margin: "0 0 0.85rem 0",
                         color: "#fff",
-                        lineHeight: "1.3"
+                        lineHeight: "1.3",
+                        minHeight: "3.1rem",
+                        display: "-webkit-box",
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: "vertical",
+                        overflow: "hidden",
+                        textOverflow: "ellipsis"
                       }}>
                         {epreuve.nom}
                       </h3>
