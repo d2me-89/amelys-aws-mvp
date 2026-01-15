@@ -10,25 +10,22 @@ type SidebarContextType = {
 const SidebarContext = createContext<SidebarContextType | undefined>(undefined);
 
 export function SidebarProvider({ children }: { children: ReactNode }) {
-  // Initialiser avec true par défaut, sera mis à jour après le montage
-  const [isOpen, setIsOpen] = useState(true);
-  const [isInitialized, setIsInitialized] = useState(false);
-
-  // Charger l'état depuis localStorage au montage
-  useEffect(() => {
-    const savedState = localStorage.getItem("sidebar-open");
-    if (savedState !== null) {
-      setIsOpen(savedState === "true");
+  // Initialiser directement depuis localStorage (côté client uniquement)
+  const [isOpen, setIsOpen] = useState(() => {
+    // Cette fonction ne s'exécute qu'une fois au montage
+    if (typeof window !== "undefined") {
+      const savedState = localStorage.getItem("sidebar-open");
+      return savedState === null ? true : savedState === "true";
     }
-    setIsInitialized(true);
-  }, []);
+    return true; // Fallback pour SSR
+  });
 
-  // Sauvegarder l'état dans localStorage à chaque changement
+  // Sauvegarder dans localStorage à chaque changement
   useEffect(() => {
-    if (isInitialized) {
+    if (typeof window !== "undefined") {
       localStorage.setItem("sidebar-open", String(isOpen));
     }
-  }, [isOpen, isInitialized]);
+  }, [isOpen]);
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
