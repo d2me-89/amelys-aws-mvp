@@ -1,0 +1,278 @@
+[
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres, calcul et résolution de problèmes" },
+  "chapitreTitre": { "S": "Les nombres entiers et décimaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître et utiliser la valeur des chiffres selon leur rang dans l'écriture d'un nombre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les liens entre les unités de numération unité, dizaine, centaine, millier, dixième, centième, millième" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître des grands nombres entiers" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître un nombre décimal" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la définition d'un pourcentage" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Associer et utiliser différentes écritures d'un nombre décimal : écriture à virgule, fraction, nombre mixte, pourcentage" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Placer sur une demi-droite graduée un point dont l'abscisse est un nombre décimal" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Repérer un nombre décimal sur une demi-droite graduée" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer deux nombres décimaux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Ordonner une liste de nombres décimaux" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Donner la valeur arrondie à l'unité, au dixième, ou au centième d'un nombre décimal" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer ou connaître la valeur arrondie de certains nombres non décimaux" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Encadrer un nombre décimal par deux nombres décimaux, intercaler un nombre décimal entre deux nombres décimaux" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Additionner et soustraire des nombres décimaux" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Multiplier un nombre entier ou un nombre décimal par 0,1, par 0,01, et par 0,001" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître le lien avec la division par 10, 100 et par 1 000" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Comprendre le sens de la multiplication de deux nombres décimaux" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Calculer le produit de deux nombres décimaux" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Contrôler les résultats à l'aide d'ordres de grandeur" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des multiplications entre des nombres décimaux" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Diviser un nombre décimal par un nombre entier non nul inférieur à 10" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des divisions décimales" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Effectuer la division euclidienne d'un nombre entier par un nombre entier inférieur à 100" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des divisions euclidiennes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres, calcul et résolution de problèmes" },
+  "chapitreTitre": { "S": "Les fractions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Relier une fraction au résultat exact de la division de son numérateur par son dénominateur" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre et connaître la définition du quotient d'un entier a par un entier b non nul" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter des égalités à trou multiplicatives" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Placer une fraction sur une demi-droite graduée dans des cas simples" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Graduer un segment de longueur donnée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Savoir que la fraction a/b peut représenter un nombre entier, un nombre décimal non entier ou un nombre non décimal" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser une multiplication pour appliquer une fraction à un nombre entier" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Établir des égalités de fractions" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer et encadrer des fractions" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Ordonner une liste de nombres écrits sous forme de fractions ou de nombres mixtes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Additionner et soustraire des fractions" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Multiplier une fraction par un nombre entier" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des fractions" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Inventer des problèmes mettant en jeu des fractions" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Comprendre le sens d'un pourcentage" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer une proportion (rapport entre une partie et le tout) et l'exprimer sous forme de pourcentage dans des cas simples" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Appliquer un pourcentage à une grandeur ou à un nombre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres, calcul et résolution de problèmes" },
+  "chapitreTitre": { "S": "Algèbre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser des modèles préalgébriques pour résoudre des problèmes algébriques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier la structure d'un motif évolutif en repérant une régularité et en identifiant une structure" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Grandeurs et mesures" },
+  "chapitreTitre": { "S": "Les longueurs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Savoir que le périmètre du disque est proportionnel à son diamètre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la formule du périmètre d'un disque" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer le périmètre d'un disque" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer des périmètres de figures composées" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Résoudre des problèmes impliquant des longueurs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Grandeurs et mesures" },
+  "chapitreTitre": { "S": "Les aires" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Effectuer des conversions d'aire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la formule de l'aire d'un carré ou d'un rectangle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer l'aire d'un carré ou d'un rectangle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Grandeurs et mesures" },
+  "chapitreTitre": { "S": "Les volumes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître l'unité centimètre cube" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comparer des volumes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer un volume" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Grandeurs et mesures" },
+  "chapitreTitre": { "S": "Le repérage dans le temps et les durées" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Effectuer des calculs sur des horaires et des durées" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Résoudre des problèmes impliquant des horaires, des durées" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Convertir des durées" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "Étude de configurations planes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître et utiliser la définition de la distance entre deux points" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître et utiliser la définition du milieu d'un segment" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les définitions d'un cercle, d'un disque, d'un rayon, d'un diamètre, d'une corde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la définition d'un cercle et celle d'un disque sous la forme d'ensembles de points" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des distances à un point" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la définition de la médiatrice d'un segment" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre et utiliser la propriété caractéristique de la médiatrice d'un segment" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Résoudre des problèmes en s'appuyant sur la propriété caractéristique de la médiatrice" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître et utiliser les angles ainsi que le lexique et les notations qui s'y rapportent : angle droit, angle plat, angle plein, angle nul, angle aigu, angle obtus, angles opposés par le sommet, angles adjacents, angles supplémentaires" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Mesurer un angle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Construire un angle de mesure donnée" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la définition de la bissectrice d'un angle saillant" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Utiliser la définition de la bissectrice d'un angle pour effectuer des constructions et résoudre des problèmes" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Construire des triangles" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître et utiliser les propriétés angulaires des triangles particuliers : triangle rectangle, triangle isocèle, triangle équilatéral" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître la valeur de la somme des mesures des angles d'un triangle" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Utiliser la somme des angles d'un triangle pour calculer des angles, effectuer des constructions et résoudre des problèmes" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Savoir que les médiatrices d'un triangle sont concourantes" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Connaître et construire le cercle circonscrit à un triangle" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Connaître la définition du symétrique d'un point par rapport à une droite" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Connaître et utiliser les propriétés de la symétrie axiale pour effectuer des constructions" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "La vision dans l'espace" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Voir dans l'espace des assemblages de cubes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T4#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Organisation et gestion de données et probabilités" },
+  "chapitreTitre": { "S": "Organisation et gestion de données" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Planifier une enquête et recueillir des données" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Réaliser des mesures et les consigner dans un tableau" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Construire un tableau simple pour présenter des données (observations, caractères)" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Faire un choix en filtrant les données d'un tableau selon un critère" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Organisation et gestion de données et probabilités" },
+  "chapitreTitre": { "S": "Les probabilités" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Savoir que la probabilité d'un évènement est un nombre compris entre 0 et 1" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer des probabilités dans des situations simples d'équiprobabilité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des résultats d'une expérience aléatoire répétée à une probabilité calculée" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T5#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "La proportionnalité" },
+  "chapitreTitre": { "S": "La proportionnalité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition de la proportionnalité entre deux grandeurs et la mettre en lien avec des expressions de la vie courante" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier si une situation relève du « modèle » de la proportionnalité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Résoudre un problème de proportionnalité en choisissant une procédure adaptée : propriété de linéarité pour la multiplication ou l'addition, retour à l'unité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Représenter une situation de proportionnalité à l'aide d'un tableau ou de notations symboliques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "S'initier à la résolution de problèmes d'échelles" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#6E#MATHS#T6#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Initiation à la pensée informatique" },
+  "chapitreTitre": { "S": "Initiation à la pensée informatique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier une instruction ou une séquence d'instructions" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Produire et exécuter une séquence d'instructions" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Répéter à la main une séquence d'instructions pour accomplir une tâche imposée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Programmer la construction d'un chemin simple" } } }
+    ]
+  }
+}
+]

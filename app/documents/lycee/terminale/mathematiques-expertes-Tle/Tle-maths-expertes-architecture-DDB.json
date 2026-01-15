@@ -1,7 +1,7 @@
 [
    {
       "PK":{
-         "S":"CHAPITRE#6E#MATHS#T1#C1"
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T1#C1"
       },
       "SK":{
          "S":"META"
@@ -10,16 +10,16 @@
          "S":"CHAPITRE"
       },
       "niveau":{
-         "S":"Sixième"
+         "S":"Terminale"
       },
       "matiere":{
-         "S":"Mathématiques"
+         "S":"Mathématiques expertes"
       },
       "themeTitre":{
-         "S":"Nombres, calculs, résolution de problèmes"
+         "S":"Nombres complexes"
       },
       "chapitreTitre":{
-         "S":"Les nombres entiers"
+         "S":"Nombres complexes : point de vue algébrique"
       },
       "exercices":{
          "L":[
@@ -29,7 +29,7 @@
                      "S":"E01"
                   },
                   "titre":{
-                     "S":"Repérer le chiffre d'un rang donné d'un nombre entier naturel"
+                     "S":"Identifier la partie réelle et la partie imaginaire d’un nombre complexe et effectuer des opérations algébriques"
                   }
                }
             },
@@ -39,7 +39,7 @@
                      "S":"E02"
                   },
                   "titre":{
-                     "S":"Identifier dividende, diviseur, quotient et reste dans une division euclidienne"
+                     "S":"Effectuer des calculs algébriques avec des nombres complexes sous forme algébrique"
                   }
                }
             },
@@ -49,7 +49,7 @@
                      "S":"E03"
                   },
                   "titre":{
-                     "S":"Connaître les caractéristiques de la division euclidienne"
+                     "S":"Utiliser la conjugaison d’un nombre complexe et ses propriétés algébriques"
                   }
                }
             },
@@ -59,7 +59,7 @@
                      "S":"E04"
                   },
                   "titre":{
-                     "S":"Convertir le nombre d'unités données d'un nombre entier naturel"
+                     "S":"Calculer l’inverse d’un nombre complexe non nul"
                   }
                }
             },
@@ -69,7 +69,7 @@
                      "S":"E05"
                   },
                   "titre":{
-                     "S":"Comparer des nombres entiers naturels"
+                     "S":"Résoudre une équation linéaire du type az = b dans ℂ"
                   }
                }
             },
@@ -79,7 +79,7 @@
                      "S":"E06"
                   },
                   "titre":{
-                     "S":"Ordonner des entiers naturels"
+                     "S":"Résoudre une équation simple faisant intervenir z et son conjugué"
                   }
                }
             },
@@ -89,7 +89,7 @@
                      "S":"E07"
                   },
                   "titre":{
-                     "S":"Connaître et utiliser la valeur des chiffres selon leur rang dans l'écriture d'un nombre"
+                     "S":"Utiliser la formule du binôme pour développer une puissance entière d’un nombre complexe"
                   }
                }
             },
@@ -99,7 +99,114 @@
                      "S":"E08"
                   },
                   "titre":{
-                     "S":"Trouver le résultat d'une division euclidienne de deux nombres entiers naturels sans reste"
+                     "S":"Démontrer des propriétés algébriques du conjugué d’un produit, d’un inverse ou d’une puissance entière"
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "PK":{
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T1#C2"
+      },
+      "SK":{
+         "S":"META"
+      },
+      "type":{
+         "S":"CHAPITRE"
+      },
+      "niveau":{
+         "S":"Terminale"
+      },
+      "matiere":{
+         "S":"Mathématiques expertes"
+      },
+      "themeTitre":{
+         "S":"Nombres complexes"
+      },
+      "chapitreTitre":{
+         "S":"Nombres complexes : point de vue géométrique"
+      },
+      "exercices":{
+         "L":[
+            {
+               "M":{
+                  "id":{
+                     "S":"E01"
+                  },
+                  "titre":{
+                     "S":"Associer à un nombre complexe son image dans le plan et déterminer l’affixe d’un point ou d’un vecteur"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E02"
+                  },
+                  "titre":{
+                     "S":"Interpréter géométriquement le module d’un nombre complexe"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E03"
+                  },
+                  "titre":{
+                     "S":"Calculer le module d’un produit, d’un inverse ou d’une puissance entière d’un nombre complexe"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E04"
+                  },
+                  "titre":{
+                     "S":"Démontrer la relation |z|² = z z̄ et en déduire des propriétés du module"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E05"
+                  },
+                  "titre":{
+                     "S":"Déterminer les arguments d’un nombre complexe non nul et les interpréter géométriquement"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E06"
+                  },
+                  "titre":{
+                     "S":"Écrire un nombre complexe sous forme trigonométrique"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E07"
+                  },
+                  "titre":{
+                     "S":"Étudier l’ensemble des nombres complexes de module 1 et montrer sa stabilité par produit et passage à l’inverse"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E08"
+                  },
+                  "titre":{
+                     "S":"Étudier une suite de nombres complexes définie par une relation de récurrence du type zₙ₊₁ = a zₙ + b"
                   }
                }
             },
@@ -109,7 +216,241 @@
                      "S":"E09"
                   },
                   "titre":{
-                     "S":"Trouver le résultat d'une division euclidienne de deux nombres entiers naturels avec reste"
+                     "S":"Mettre en œuvre l’inégalité triangulaire pour deux nombres complexes et étudier le cas d’égalité"
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "PK":{
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T1#C3"
+      },
+      "SK":{
+         "S":"META"
+      },
+      "type":{
+         "S":"CHAPITRE"
+      },
+      "niveau":{
+         "S":"Terminale"
+      },
+      "matiere":{
+         "S":"Mathématiques expertes"
+      },
+      "themeTitre":{
+         "S":"Nombres complexes"
+      },
+      "chapitreTitre":{
+         "S":"Nombres complexes et trigonométrie"
+      },
+      "exercices":{
+         "L":[
+            {
+               "M":{
+                  "id":{
+                     "S":"E01"
+                  },
+                  "titre":{
+                     "S":"Démontrer une formule d’addition trigonométrique à partir du produit scalaire"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E02"
+                  },
+                  "titre":{
+                     "S":"Utiliser les formules d’addition et de duplication pour transformer des expressions trigonométriques"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E03"
+                  },
+                  "titre":{
+                     "S":"Utiliser l’exponentielle imaginaire e^{iθ} et la relation fonctionnelle associée"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E04"
+                  },
+                  "titre":{
+                     "S":"Passer de la forme algébrique à la forme exponentielle d’un nombre complexe et inversement"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E05"
+                  },
+                  "titre":{
+                     "S":"Utiliser les formules d’Euler pour exprimer cos(θ) et sin(θ) à l’aide de l’exponentielle complexe"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E06"
+                  },
+                  "titre":{
+                     "S":"Transformer une expression trigonométrique à l’aide des formules d’Euler"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E07"
+                  },
+                  "titre":{
+                     "S":"Utiliser la formule de Moivre pour calculer des puissances d’un nombre complexe"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E08"
+                  },
+                  "titre":{
+                     "S":"Choisir une forme adaptée d’un nombre complexe pour effectuer des calculs ou résoudre un problème"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E09"
+                  },
+                  "titre":{
+                     "S":"Appliquer les formules d’Euler ou de Moivre dans un contexte de suites, d’intégration ou de calcul trigonométrique"
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "PK":{
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T1#C4"
+      },
+      "SK":{
+         "S":"META"
+      },
+      "type":{
+         "S":"CHAPITRE"
+      },
+      "niveau":{
+         "S":"Terminale"
+      },
+      "matiere":{
+         "S":"Mathématiques expertes"
+      },
+      "themeTitre":{
+         "S":"Nombres complexes"
+      },
+      "chapitreTitre":{
+         "S":"Équations polynomiales et racines complexes"
+      },
+      "exercices":{
+         "L":[
+            {
+               "M":{
+                  "id":{
+                     "S":"E01"
+                  },
+                  "titre":{
+                     "S":"Résoudre une équation polynomiale du second degré à coefficients réels et déterminer ses solutions complexes"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E02"
+                  },
+                  "titre":{
+                     "S":"Résoudre une équation du second degré à coefficients complexes"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E03"
+                  },
+                  "titre":{
+                     "S":"Factoriser l’expression z^n − a^n par z − a"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E04"
+                  },
+                  "titre":{
+                     "S":"Montrer que si P(a) = 0, alors le polynôme P est factorisable par z − a"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E05"
+                  },
+                  "titre":{
+                     "S":"Factoriser un polynôme connaissant l’une de ses racines"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E06"
+                  },
+                  "titre":{
+                     "S":"Résoudre une équation polynomiale de degré 3 à coefficients réels dont une racine est connue"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E07"
+                  },
+                  "titre":{
+                     "S":"Utiliser les formules de Viète pour déterminer les racines d’un polynôme"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E08"
+                  },
+                  "titre":{
+                     "S":"Justifier qu’un polynôme de degré n admet au plus n racines"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E09"
+                  },
+                  "titre":{
+                     "S":"Déterminer les racines carrées d’un nombre complexe et les utiliser pour résoudre une équation"
                   }
                }
             },
@@ -119,7 +460,7 @@
                      "S":"E10"
                   },
                   "titre":{
-                     "S":"Trouver le résultat d'une division euclidienne de deux nombres entiers naturels"
+                     "S":"Résoudre une équation polynomiale de degré 3 à l’aide d’une résolution par radicaux"
                   }
                }
             }
@@ -128,7 +469,7 @@
    },
    {
       "PK":{
-         "S":"CHAPITRE#6E#MATHS#T1#C2"
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T1#C5"
       },
       "SK":{
          "S":"META"
@@ -137,16 +478,16 @@
          "S":"CHAPITRE"
       },
       "niveau":{
-         "S":"Sixième"
+         "S":"Terminale"
       },
       "matiere":{
-         "S":"Mathématiques"
+         "S":"Mathématiques expertes"
       },
       "themeTitre":{
-         "S":"Nombres, calculs, résolution de problèmes"
+         "S":"Nombres complexes"
       },
       "chapitreTitre":{
-         "S":"Les nombres décimaux"
+         "S":"Utilisation des nombres complexes en géométrie plane"
       },
       "exercices":{
          "L":[
@@ -156,7 +497,7 @@
                      "S":"E01"
                   },
                   "titre":{
-                     "S":"Lire un nombre décimal d'au plus 4 décimales sur une demi-droite graduée"
+                     "S":"Interpréter géométriquement le module et l’argument du quotient de deux nombres complexes"
                   }
                }
             },
@@ -166,7 +507,7 @@
                      "S":"E02"
                   },
                   "titre":{
-                     "S":"Connaître le nom des chiffres dans un nombre décimal d'au plus 4 décimales"
+                     "S":"Utiliser les nombres complexes pour démontrer l’alignement de trois points du plan"
                   }
                }
             },
@@ -176,7 +517,7 @@
                      "S":"E03"
                   },
                   "titre":{
-                     "S":"Décomposer un nombre décimal"
+                     "S":"Utiliser les nombres complexes pour démontrer l’orthogonalité de deux droites"
                   }
                }
             },
@@ -186,7 +527,7 @@
                      "S":"E04"
                   },
                   "titre":{
-                     "S":"Encadrer un nombre décimal d'au plus 4 décimales par deux nombres entiers naturels consécutifs"
+                     "S":"Calculer des longueurs et des angles dans le plan à l’aide des nombres complexes"
                   }
                }
             },
@@ -196,7 +537,7 @@
                      "S":"E05"
                   },
                   "titre":{
-                     "S":"Associer une fraction à un pourcentage"
+                     "S":"Déterminer un ensemble de points du plan à l’aide d’une condition sur le module ou l’argument"
                   }
                }
             },
@@ -206,7 +547,7 @@
                      "S":"E06"
                   },
                   "titre":{
-                     "S":"Placer un nombre décimal d'au plus 4 décimales sur une demi-droite graduée"
+                     "S":"Décrire et représenter géométriquement l’ensemble des racines n-ièmes de l’unité"
                   }
                }
             },
@@ -216,7 +557,7 @@
                      "S":"E07"
                   },
                   "titre":{
-                     "S":"Associer les différentes écritures d'un nombre décimal d'au plus 4 décimales"
+                     "S":"Étudier les racines n-ièmes de l’unité dans les cas particuliers n = 2, 3 et 4"
                   }
                }
             },
@@ -226,7 +567,7 @@
                      "S":"E08"
                   },
                   "titre":{
-                     "S":"Comparer deux nombres décimaux d'au plus 4 décimales"
+                     "S":"Utiliser les racines de l’unité pour étudier une configuration liée à un polygone régulier"
                   }
                }
             },
@@ -236,7 +577,7 @@
                      "S":"E09"
                   },
                   "titre":{
-                     "S":"Multiplier un nombre décimal par 10, 100 ou 1 000"
+                     "S":"Déterminer les racines n-ièmes d’un nombre complexe et les représenter dans le plan"
                   }
                }
             },
@@ -246,197 +587,7 @@
                      "S":"E10"
                   },
                   "titre":{
-                     "S":"Ranger des nombres décimaux par ordre croissant ou décroissant"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E11"
-                  },
-                  "titre":{
-                     "S":"Multiplier un nombre décimal par 0,1"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E12"
-                  },
-                  "titre":{
-                     "S":"Multiplier un nombre décimal par 0,5"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E13"
-                  },
-                  "titre":{
-                     "S":"Encadrer un nombre décimal d'au plus 4 décimales au dixième près"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E14"
-                  },
-                  "titre":{
-                     "S":"Encadrer un nombre décimal d'au plus 4 décimales au centième près"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E15"
-                  },
-                  "titre":{
-                     "S":"Multiplier un nombre décimal d'au plus 4 décimales par un nombre entier"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E16"
-                  },
-                  "titre":{
-                     "S":"Encadrer un nombre décimal d'au plus 4 décimales au millième près"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E17"
-                  },
-                  "titre":{
-                     "S":"Déterminer un pourcentage à l'aide d'une quantité"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E18"
-                  },
-                  "titre":{
-                     "S":"Calculer le pourcentage d'une quantité"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E19"
-                  },
-                  "titre":{
-                     "S":"Additionner des nombres décimaux positifs dont la somme est un entier naturel"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E20"
-                  },
-                  "titre":{
-                     "S":"Additionner des nombres décimaux positifs dont la somme n'est pas un entier naturel"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E21"
-                  },
-                  "titre":{
-                     "S":"Soustraire des nombres décimaux positifs dont la différence est un entier naturel"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E22"
-                  },
-                  "titre":{
-                     "S":"Soustraire des nombres décimaux positifs dont la différence n'est pas un entier naturel"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E23"
-                  },
-                  "titre":{
-                     "S":"Diviser un nombre décimal par 10, 100 ou 1 000"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E24"
-                  },
-                  "titre":{
-                     "S":"Exprimer une proportion sous forme de pourcentage dans le cas où le dénominateur est un diviseur ou un multiple de 100"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E25"
-                  },
-                  "titre":{
-                     "S":"Appliquer un pourcentage à une grandeur ou à un nombre"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E26"
-                  },
-                  "titre":{
-                     "S":"Calculer une proportion dans le cas où le dénominateur est un diviseur ou un multiple de 100"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E27"
-                  },
-                  "titre":{
-                     "S":"Déterminer le nombre décimal d'au plus 4 décimales compris entre deux nombres décimaux"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E28"
-                  },
-                  "titre":{
-                     "S":"Multiplier un nombre décimal d'au plus 4 décimales par un autre nombre décimal"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E29"
-                  },
-                  "titre":{
-                     "S":"Étudier les troncatures et les arrondis d'un nombre décimal"
+                     "S":"Calculer la somme des racines n-ièmes de l’unité et interpréter le résultat géométriquement"
                   }
                }
             }
@@ -445,7 +596,7 @@
    },
    {
       "PK":{
-         "S":"CHAPITRE#6E#MATHS#T1#C3"
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T2#C6"
       },
       "SK":{
          "S":"META"
@@ -454,16 +605,16 @@
          "S":"CHAPITRE"
       },
       "niveau":{
-         "S":"Sixième"
+         "S":"Terminale"
       },
       "matiere":{
-         "S":"Mathématiques"
+         "S":"Mathématiques expertes"
       },
       "themeTitre":{
-         "S":"Nombres, calculs, résolution de problèmes"
+         "S":"Arithmétique"
       },
       "chapitreTitre":{
-         "S":"Les fractions"
+         "S":"Divisibilité et algorithme d’Euclide"
       },
       "exercices":{
          "L":[
@@ -473,7 +624,7 @@
                      "S":"E01"
                   },
                   "titre":{
-                     "S":"Lire une fraction sur une demi-droite graduée"
+                     "S":"Déterminer les diviseurs d’un entier et utiliser la notion de divisibilité"
                   }
                }
             },
@@ -483,7 +634,7 @@
                      "S":"E02"
                   },
                   "titre":{
-                     "S":"Placer une fraction sur un axe gradué"
+                     "S":"Effectuer une division euclidienne dans ℤ"
                   }
                }
             },
@@ -493,7 +644,7 @@
                      "S":"E03"
                   },
                   "titre":{
-                     "S":"Graduer un segment de longueur donnée"
+                     "S":"Calculer le PGCD de deux entiers à l’aide de l’algorithme d’Euclide"
                   }
                }
             },
@@ -503,7 +654,7 @@
                      "S":"E04"
                   },
                   "titre":{
-                     "S":"Simplifier une fraction"
+                     "S":"Déterminer un couple de Bézout à l’aide de l’algorithme d’Euclide étendu"
                   }
                }
             },
@@ -513,7 +664,7 @@
                      "S":"E05"
                   },
                   "titre":{
-                     "S":"Associer des fractions égales"
+                     "S":"Montrer que deux entiers sont premiers entre eux"
                   }
                }
             },
@@ -523,7 +674,7 @@
                      "S":"E06"
                   },
                   "titre":{
-                     "S":"Écrire une fraction sous forme de somme d’un entier et d’une fraction inférieure à 1"
+                     "S":"Démontrer le théorème de Bézout"
                   }
                }
             },
@@ -533,7 +684,7 @@
                      "S":"E07"
                   },
                   "titre":{
-                     "S":"Comparer une fraction à 1"
+                     "S":"Utiliser le théorème de Gauss dans un raisonnement de divisibilité"
                   }
                }
             },
@@ -543,7 +694,7 @@
                      "S":"E08"
                   },
                   "titre":{
-                     "S":"Comparer des fractions de même dénominateur"
+                     "S":"Résoudre une équation diophantienne simple"
                   }
                }
             },
@@ -553,7 +704,7 @@
                      "S":"E09"
                   },
                   "titre":{
-                     "S":"Comparer des fractions de même numérateur"
+                     "S":"Programmer l’algorithme d’Euclide pour calculer un PGCD"
                   }
                }
             },
@@ -563,167 +714,7 @@
                      "S":"E10"
                   },
                   "titre":{
-                     "S":"Encadrer une fraction par deux entiers naturels consécutifs"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E11"
-                  },
-                  "titre":{
-                     "S":"Ordonner des fractions de même dénominateur ou de même numérateur"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E12"
-                  },
-                  "titre":{
-                     "S":"Additionner des fractions de même dénominateur"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E13"
-                  },
-                  "titre":{
-                     "S":"Soustraire des fractions de même dénominateur"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E14"
-                  },
-                  "titre":{
-                     "S":"Multiplier une fraction par son dénominateur"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E15"
-                  },
-                  "titre":{
-                     "S":"Comparer deux fractions en les comparant à 1"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E16"
-                  },
-                  "titre":{
-                     "S":"Comparer des fractions à 1/2"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E17"
-                  },
-                  "titre":{
-                     "S":"Compléter des égalités à trou multiplicatives"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E18"
-                  },
-                  "titre":{
-                     "S":"Déterminer si une fraction représente un nombre entier, un nombre décimal non entier ou un nombre non décimal"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E19"
-                  },
-                  "titre":{
-                     "S":"Utiliser une multiplication pour appliquer une fraction à un nombre entier"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E20"
-                  },
-                  "titre":{
-                     "S":"Reconnaître des fractions égales"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E21"
-                  },
-                  "titre":{
-                     "S":"Compléter des fractions égales à trou"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E22"
-                  },
-                  "titre":{
-                     "S":"Calculer le produit d'un nombre entier par une fraction en utilisant (b/c) * a = b*(a/c)"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E23"
-                  },
-                  "titre":{
-                     "S":"Ordonner une liste de nombres donnés sous différentes écritures"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E24"
-                  },
-                  "titre":{
-                     "S":"Additionner des fractions de dénominateurs multiples l'un de l'autre"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E25"
-                  },
-                  "titre":{
-                     "S":"Utiliser la bonne méthode pour calculer le produit d'un nombre entier par une fraction"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E26"
-                  },
-                  "titre":{
-                     "S":"Résoudre un problème mettant en jeu des fractions"
+                     "S":"Déterminer les racines rationnelles possibles d’un polynôme à coefficients entiers"
                   }
                }
             }
@@ -732,7 +723,7 @@
    },
    {
       "PK":{
-         "S":"CHAPITRE#6E#MATHS#T1#C4"
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T2#C7"
       },
       "SK":{
          "S":"META"
@@ -741,16 +732,16 @@
          "S":"CHAPITRE"
       },
       "niveau":{
-         "S":"Sixième"
+         "S":"Terminale"
       },
       "matiere":{
-         "S":"Mathématiques"
+         "S":"Mathématiques expertes"
       },
       "themeTitre":{
-         "S":"Nombres, calculs, résolution de problèmes"
+         "S":"Arithmétique"
       },
       "chapitreTitre":{
-         "S":"Introduction à la résolution de problèmes"
+         "S":"Congruences et calculs modulo n"
       },
       "exercices":{
          "L":[
@@ -760,44 +751,7 @@
                      "S":"E01"
                   },
                   "titre":{
-                     "S":"Identifier une structure dans un motif évolutif"
-                  }
-               }
-            }
-         ]
-      }
-   },
-   {
-      "PK":{
-         "S":"CHAPITRE#6E#MATHS#T2#C5"
-      },
-      "SK":{
-         "S":"META"
-      },
-      "type":{
-         "S":"CHAPITRE"
-      },
-      "niveau":{
-         "S":"Sixième"
-      },
-      "matiere":{
-         "S":"Mathématiques"
-      },
-      "themeTitre":{
-         "S":"Grandeurs et mesures"
-      },
-      "chapitreTitre":{
-         "S":"Les longueurs, les aires et les volumes"
-      },
-      "exercices":{
-         "L":[
-            {
-               "M":{
-                  "id":{
-                     "S":"E01"
-                  },
-                  "titre":{
-                     "S":"Calculer l'aire d'un carré"
+                     "S":"Traduire une égalité arithmétique sous forme de congruence"
                   }
                }
             },
@@ -807,7 +761,7 @@
                      "S":"E02"
                   },
                   "titre":{
-                     "S":"Calculer l'aire d'un rectangle"
+                     "S":"Utiliser la compatibilité des congruences avec les opérations"
                   }
                }
             },
@@ -817,7 +771,7 @@
                      "S":"E03"
                   },
                   "titre":{
-                     "S":"Remplir la valeur de D ou R pour calculer le périmètre d'un disque"
+                     "S":"Résoudre une congruence du type ax ≡ b [n]"
                   }
                }
             },
@@ -827,7 +781,7 @@
                      "S":"E04"
                   },
                   "titre":{
-                     "S":"Calculer le périmètre d'un cercle à l'aide de la valeur approchée de pi"
+                     "S":"Déterminer l’inverse d’un entier modulo n"
                   }
                }
             },
@@ -837,7 +791,7 @@
                      "S":"E05"
                   },
                   "titre":{
-                     "S":"Effectuer des conversions de dm² en m²"
+                     "S":"Résoudre un système de congruences (lemme chinois)"
                   }
                }
             },
@@ -847,7 +801,7 @@
                      "S":"E06"
                   },
                   "titre":{
-                     "S":"Effectuer des conversions de cm² en dm²"
+                     "S":"Étudier un problème de chiffrement affine à l’aide des congruences"
                   }
                }
             },
@@ -857,7 +811,7 @@
                      "S":"E07"
                   },
                   "titre":{
-                     "S":"Effectuer des conversions de m² en dm²"
+                     "S":"Vérifier la validité d’un code (ISBN, RIB, code Insee)"
                   }
                }
             },
@@ -867,7 +821,7 @@
                      "S":"E08"
                   },
                   "titre":{
-                     "S":"Effectuer des conversions de dm² en cm²"
+                     "S":"Mettre en œuvre un algorithme de résolution de congruences"
                   }
                }
             },
@@ -877,7 +831,7 @@
                      "S":"E09"
                   },
                   "titre":{
-                     "S":"Comparer le volume de deux solides constitués d’assemblages de cubes identiques"
+                     "S":"Étudier une situation concrète modélisable par des congruences"
                   }
                }
             },
@@ -887,57 +841,7 @@
                      "S":"E10"
                   },
                   "titre":{
-                     "S":"Déterminer le volume d’un assemblage de cubes d’arête 1 cm"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E11"
-                  },
-                  "titre":{
-                     "S":"Calculer le périmètre de figures dont le contour contient des cercles ou des portions de cercles"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E12"
-                  },
-                  "titre":{
-                     "S":"Calculer le périmètre d'une portion de cercle à l'aide de la valeur approchée de pi"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E13"
-                  },
-                  "titre":{
-                     "S":"Calculer un périmètre d'une figure complexe par découpage"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E14"
-                  },
-                  "titre":{
-                     "S":"Convertir des aires"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E15"
-                  },
-                  "titre":{
-                     "S":"Étudier le périmètre d'une figure complexe"
+                     "S":"Résoudre une équation diophantienne à l’aide des congruences"
                   }
                }
             }
@@ -946,7 +850,7 @@
    },
    {
       "PK":{
-         "S":"CHAPITRE#6E#MATHS#T2#C6"
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T2#C8"
       },
       "SK":{
          "S":"META"
@@ -955,16 +859,16 @@
          "S":"CHAPITRE"
       },
       "niveau":{
-         "S":"Sixième"
+         "S":"Terminale"
       },
       "matiere":{
-         "S":"Mathématiques"
+         "S":"Mathématiques expertes"
       },
       "themeTitre":{
-         "S":"Grandeurs et mesures"
+         "S":"Arithmétique"
       },
       "chapitreTitre":{
-         "S":"Le repérage dans le temps et les durées"
+         "S":"Nombres premiers et factorisation"
       },
       "exercices":{
          "L":[
@@ -974,7 +878,7 @@
                      "S":"E01"
                   },
                   "titre":{
-                     "S":"Connaître les instruments de mesure du temps"
+                     "S":"Tester la primalité d’un entier"
                   }
                }
             },
@@ -984,7 +888,7 @@
                      "S":"E02"
                   },
                   "titre":{
-                     "S":"Déterminer un instant initial dans des situations de la vie courante"
+                     "S":"Mettre en œuvre le crible d’Ératosthène"
                   }
                }
             },
@@ -994,7 +898,7 @@
                      "S":"E03"
                   },
                   "titre":{
-                     "S":"Convertir une heure dans une unité de temps donnée nécessitant deux étapes de traitement"
+                     "S":"Décomposer un entier en produit de facteurs premiers"
                   }
                }
             },
@@ -1004,7 +908,7 @@
                      "S":"E04"
                   },
                   "titre":{
-                     "S":"Déterminer la durée écoulée entre deux heures"
+                     "S":"Démontrer l’unicité de la décomposition en facteurs premiers"
                   }
                }
             },
@@ -1014,84 +918,7 @@
                      "S":"E05"
                   },
                   "titre":{
-                     "S":"Convertir des minutes en heures et minutes"
-                  }
-               }
-            }
-         ]
-      }
-   },
-   {
-      "PK":{
-         "S":"CHAPITRE#6E#MATHS#T2#C7"
-      },
-      "SK":{
-         "S":"META"
-      },
-      "type":{
-         "S":"CHAPITRE"
-      },
-      "niveau":{
-         "S":"Sixième"
-      },
-      "matiere":{
-         "S":"Mathématiques"
-      },
-      "themeTitre":{
-         "S":"Grandeurs et mesures"
-      },
-      "chapitreTitre":{
-         "S":"La proportionnalité"
-      },
-      "exercices":{
-         "L":[
-            {
-               "M":{
-                  "id":{
-                     "S":"E01"
-                  },
-                  "titre":{
-                     "S":"Déterminer si deux grandeurs sont proportionnelles"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E02"
-                  },
-                  "titre":{
-                     "S":"Compléter un tableau de proportionnalité en additionnant les colonnes"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E03"
-                  },
-                  "titre":{
-                     "S":"Utiliser les propriétés de multiplication pour compléter un tableau de proportionnalité"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E04"
-                  },
-                  "titre":{
-                     "S":"Représenter une situation de proportionnalité à l'aide de notations symboliques"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E05"
-                  },
-                  "titre":{
-                     "S":"Utiliser une échelle"
+                     "S":"Démontrer que l’ensemble des nombres premiers est infini"
                   }
                }
             },
@@ -1101,7 +928,7 @@
                      "S":"E06"
                   },
                   "titre":{
-                     "S":"Utiliser une échelle pour déterminer une distance réelle"
+                     "S":"Étudier des nombres premiers particuliers (Mersenne, Fermat)"
                   }
                }
             },
@@ -1111,7 +938,7 @@
                      "S":"E07"
                   },
                   "titre":{
-                     "S":"Utiliser une échelle pour déterminer une longueur sur le plan"
+                     "S":"Étudier un test de primalité simple"
                   }
                }
             },
@@ -1121,7 +948,7 @@
                      "S":"E08"
                   },
                   "titre":{
-                     "S":"Passer à l'unité dans une situation de proportionnalité"
+                     "S":"Identifier un nombre de Carmichael"
                   }
                }
             },
@@ -1131,7 +958,7 @@
                      "S":"E09"
                   },
                   "titre":{
-                     "S":"Compléter un tableau de proportionnalité"
+                     "S":"Déterminer des triplets pythagoriciens"
                   }
                }
             },
@@ -1141,7 +968,7 @@
                      "S":"E10"
                   },
                   "titre":{
-                     "S":"Retrouver une échelle"
+                     "S":"Étudier les entiers somme de deux carrés"
                   }
                }
             }
@@ -1150,7 +977,7 @@
    },
    {
       "PK":{
-         "S":"CHAPITRE#6E#MATHS#T3#C8"
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T2#C9"
       },
       "SK":{
          "S":"META"
@@ -1159,16 +986,16 @@
          "S":"CHAPITRE"
       },
       "niveau":{
-         "S":"Sixième"
+         "S":"Terminale"
       },
       "matiere":{
-         "S":"Mathématiques"
+         "S":"Mathématiques expertes"
       },
       "themeTitre":{
-         "S":"Espace et géométrie"
+         "S":"Arithmétique"
       },
       "chapitreTitre":{
-         "S":"La distance, le cercle, le disque"
+         "S":"Petit théorème de Fermat et cryptographie"
       },
       "exercices":{
          "L":[
@@ -1178,7 +1005,7 @@
                      "S":"E01"
                   },
                   "titre":{
-                     "S":"Différencier cercle et disque"
+                     "S":"Énoncer et démontrer le petit théorème de Fermat"
                   }
                }
             },
@@ -1188,7 +1015,7 @@
                      "S":"E02"
                   },
                   "titre":{
-                     "S":"Identifier rayon, diamètre, corde"
+                     "S":"Utiliser le petit théorème de Fermat pour calculer une puissance modulo n"
                   }
                }
             },
@@ -1198,7 +1025,7 @@
                      "S":"E03"
                   },
                   "titre":{
-                     "S":"Identifier la médiatrice d'un segment"
+                     "S":"Résoudre une congruence exponentielle"
                   }
                }
             },
@@ -1208,7 +1035,7 @@
                      "S":"E04"
                   },
                   "titre":{
-                     "S":"Tracer la médiatrice d'un segment"
+                     "S":"Étudier un chiffrement affine ou de Vigenère"
                   }
                }
             },
@@ -1218,7 +1045,7 @@
                      "S":"E05"
                   },
                   "titre":{
-                     "S":"Identifier le milieu d'un segment"
+                     "S":"Mettre en œuvre un chiffrement RSA simplifié"
                   }
                }
             },
@@ -1228,7 +1055,7 @@
                      "S":"E06"
                   },
                   "titre":{
-                     "S":"Déterminer si un point appartient à un disque"
+                     "S":"Justifier la sécurité du système RSA"
                   }
                }
             },
@@ -1238,7 +1065,7 @@
                      "S":"E07"
                   },
                   "titre":{
-                     "S":"Comparer les longueurs d'un rayon, d'un diamètre et d'une corde"
+                     "S":"Coder et décoder un message à l’aide d’un algorithme cryptographique"
                   }
                }
             },
@@ -1248,7 +1075,7 @@
                      "S":"E08"
                   },
                   "titre":{
-                     "S":"Interpréter géométriquement des égalités et des inégalités de distances à un point"
+                     "S":"Étudier un exemple simple de code correcteur"
                   }
                }
             },
@@ -1258,124 +1085,7 @@
                      "S":"E09"
                   },
                   "titre":{
-                     "S":"Résoudre un problème mettant en jeu une distance à un point"
-                  }
-               }
-            }
-         ]
-      }
-   },
-   {
-      "PK":{
-         "S":"CHAPITRE#6E#MATHS#T3#C9"
-      },
-      "SK":{
-         "S":"META"
-      },
-      "type":{
-         "S":"CHAPITRE"
-      },
-      "niveau":{
-         "S":"Sixième"
-      },
-      "matiere":{
-         "S":"Mathématiques"
-      },
-      "themeTitre":{
-         "S":"Espace et géométrie"
-      },
-      "chapitreTitre":{
-         "S":"Les angles et les triangles"
-      },
-      "exercices":{
-         "L":[
-            {
-               "M":{
-                  "id":{
-                     "S":"E01"
-                  },
-                  "titre":{
-                     "S":"Repérer les angles dans une figure"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E02"
-                  },
-                  "titre":{
-                     "S":"Déterminer la notation d'un angle à partir d'une figure"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E03"
-                  },
-                  "titre":{
-                     "S":"Connaître les caractéristiques des triangles rectangle, isocèle et équilatéral"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E04"
-                  },
-                  "titre":{
-                     "S":"Reporter sur une figure les informations sur les angles"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E05"
-                  },
-                  "titre":{
-                     "S":"Identifier des angles opposés par le sommet"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E06"
-                  },
-                  "titre":{
-                     "S":"Connaître les différents types d'angle"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E07"
-                  },
-                  "titre":{
-                     "S":"Différencier triangle rectangle, isocèle et équilatéral"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E08"
-                  },
-                  "titre":{
-                     "S":"Déterminer les informations sur les angles à l'aide des indications sur une figure"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E09"
-                  },
-                  "titre":{
-                     "S":"Mesurer un angle au rapporteur"
+                     "S":"Mettre en œuvre un algorithme de chiffrement en Python"
                   }
                }
             },
@@ -1385,37 +1095,7 @@
                      "S":"E10"
                   },
                   "titre":{
-                     "S":"Déduire la mesure d'un angle d'un triangle à l'aide de la mesure des autres angles"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E11"
-                  },
-                  "titre":{
-                     "S":"Reconnaître des angles particuliers"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E12"
-                  },
-                  "titre":{
-                     "S":"Identifier un triangle correspondant à une description donnée"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E13"
-                  },
-                  "titre":{
-                     "S":"Déterminer si trois points sont alignés en utilisant les mesures d'angles"
+                     "S":"Résoudre un problème d’arithmétique appliquée à la cryptographie"
                   }
                }
             }
@@ -1424,7 +1104,7 @@
    },
    {
       "PK":{
-         "S":"CHAPITRE#6E#MATHS#T3#C10"
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T3#C10"
       },
       "SK":{
          "S":"META"
@@ -1433,16 +1113,16 @@
          "S":"CHAPITRE"
       },
       "niveau":{
-         "S":"Sixième"
+         "S":"Terminale"
       },
       "matiere":{
-         "S":"Mathématiques"
+         "S":"Mathématiques expertes"
       },
       "themeTitre":{
-         "S":"Espace et géométrie"
+         "S":"Graphes et matrices"
       },
       "chapitreTitre":{
-         "S":"La symétrie"
+         "S":"Introduction aux graphes"
       },
       "exercices":{
          "L":[
@@ -1452,7 +1132,7 @@
                      "S":"E01"
                   },
                   "titre":{
-                     "S":"Construire le symétrique d'une droite par rapport à une droite"
+                     "S":"Modéliser une situation concrète par un graphe"
                   }
                }
             },
@@ -1462,7 +1142,7 @@
                      "S":"E02"
                   },
                   "titre":{
-                     "S":"Compléter une figure par symétrie axiale"
+                     "S":"Identifier les sommets, arêtes, l’ordre et le degré d’un graphe"
                   }
                }
             },
@@ -1472,7 +1152,7 @@
                      "S":"E03"
                   },
                   "titre":{
-                     "S":"Déterminer le symétrique d'un point par rapport à une droite donnée"
+                     "S":"Reconnaître et décrire un graphe complet"
                   }
                }
             },
@@ -1482,7 +1162,7 @@
                      "S":"E04"
                   },
                   "titre":{
-                     "S":"Déterminer le symétrique d'un segment par rapport à une droite donnée"
+                     "S":"Déterminer des sommets adjacents et des chaînes dans un graphe"
                   }
                }
             },
@@ -1492,7 +1172,7 @@
                      "S":"E05"
                   },
                   "titre":{
-                     "S":"Construire le symétrique par rapport à une droite d'une figure donnée sur papier quadrillé"
+                     "S":"Calculer la longueur d’une chaîne entre deux sommets"
                   }
                }
             },
@@ -1502,188 +1182,7 @@
                      "S":"E06"
                   },
                   "titre":{
-                     "S":"Utiliser la conservation des longueurs dans le cas d'une symétrie axiale"
-                  }
-               }
-            }
-         ]
-      }
-   },
-   {
-      "PK":{
-         "S":"CHAPITRE#6E#MATHS#T3#C11"
-      },
-      "SK":{
-         "S":"META"
-      },
-      "type":{
-         "S":"CHAPITRE"
-      },
-      "niveau":{
-         "S":"Sixième"
-      },
-      "matiere":{
-         "S":"Mathématiques"
-      },
-      "themeTitre":{
-         "S":"Espace et géométrie"
-      },
-      "chapitreTitre":{
-         "S":"La vision dans l'espace"
-      },
-      "exercices":{
-         "L":[
-            {
-               "M":{
-                  "id":{
-                     "S":"E01"
-                  },
-                  "titre":{
-                     "S":"Identifier un assemblage de cubes en perspective cavalière à partir d'un patron de cet assemblage"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E02"
-                  },
-                  "titre":{
-                     "S":"Représenter différentes vues d'un assemblage de cubes représenté en perspective cavalière"
-                  }
-               }
-            }
-         ]
-      }
-   },
-   {
-      "PK":{
-         "S":"CHAPITRE#6E#MATHS#T4#C12"
-      },
-      "SK":{
-         "S":"META"
-      },
-      "type":{
-         "S":"CHAPITRE"
-      },
-      "niveau":{
-         "S":"Sixième"
-      },
-      "matiere":{
-         "S":"Mathématiques"
-      },
-      "themeTitre":{
-         "S":"Organisation et gestion de données, probabilités"
-      },
-      "chapitreTitre":{
-         "S":"Organisation et gestion de données"
-      },
-      "exercices":{
-         "L":[
-            {
-               "M":{
-                  "id":{
-                     "S":"E01"
-                  },
-                  "titre":{
-                     "S":"Définir une population à étudier dans le cadre d'une enquête statistique"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E02"
-                  },
-                  "titre":{
-                     "S":"Construire un tableau simple pour présenter des données (caractères)"
-                  }
-               }
-            }
-         ]
-      }
-   },
-   {
-      "PK":{
-         "S":"CHAPITRE#6E#MATHS#T4#C13"
-      },
-      "SK":{
-         "S":"META"
-      },
-      "type":{
-         "S":"CHAPITRE"
-      },
-      "niveau":{
-         "S":"Sixième"
-      },
-      "matiere":{
-         "S":"Mathématiques"
-      },
-      "themeTitre":{
-         "S":"Organisation et gestion de données, probabilités"
-      },
-      "chapitreTitre":{
-         "S":"Les probabilités"
-      },
-      "exercices":{
-         "L":[
-            {
-               "M":{
-                  "id":{
-                     "S":"E01"
-                  },
-                  "titre":{
-                     "S":"Déterminer si un événement est un événement certain"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E02"
-                  },
-                  "titre":{
-                     "S":"Déterminer si un événement est un événement impossible"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E03"
-                  },
-                  "titre":{
-                     "S":"Compter le nombre d'issues possibles"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E04"
-                  },
-                  "titre":{
-                     "S":"Estimer des probabilités de la vie courante"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E05"
-                  },
-                  "titre":{
-                     "S":"Identifier une situation d'équiprobabilité"
-                  }
-               }
-            },
-            {
-               "M":{
-                  "id":{
-                     "S":"E06"
-                  },
-                  "titre":{
-                     "S":"Calculer une probabilité dans une situation d'équiprobabilité binaire"
+                     "S":"Déterminer si un graphe est connexe"
                   }
                }
             },
@@ -1693,7 +1192,7 @@
                      "S":"E07"
                   },
                   "titre":{
-                     "S":"Calculer une probabilité dans une situation d'équiprobabilité avec une issue positive"
+                     "S":"Étudier un graphe eulérien"
                   }
                }
             },
@@ -1703,7 +1202,7 @@
                      "S":"E08"
                   },
                   "titre":{
-                     "S":"Compter le nombre d'issues réalisant un événement donné"
+                     "S":"Résoudre un problème inspiré des ponts de Königsberg"
                   }
                }
             },
@@ -1713,7 +1212,7 @@
                      "S":"E09"
                   },
                   "titre":{
-                     "S":"Calculer une probabilité dans une situation d'équiprobabilité avec plusieurs issues positives"
+                     "S":"Modéliser un réseau réel à l’aide d’un graphe"
                   }
                }
             },
@@ -1723,7 +1222,7 @@
                      "S":"E10"
                   },
                   "titre":{
-                     "S":"Calculer une probabilité dans un jeu simple amenant à une situation d'équiprobabilité"
+                     "S":"Étudier un parcours ou une marche aléatoire simple sur un graphe"
                   }
                }
             }
@@ -1732,7 +1231,7 @@
    },
    {
       "PK":{
-         "S":"CHAPITRE#6E#MATHS#T5#C14"
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T3#C11"
       },
       "SK":{
          "S":"META"
@@ -1741,16 +1240,16 @@
          "S":"CHAPITRE"
       },
       "niveau":{
-         "S":"Sixième"
+         "S":"Terminale"
       },
       "matiere":{
-         "S":"Mathématiques"
+         "S":"Mathématiques expertes"
       },
       "themeTitre":{
-         "S":"Initiation à la pensée informatique"
+         "S":"Graphes et matrices"
       },
       "chapitreTitre":{
-         "S":"Initiation à la pensée informatique"
+         "S":"Matrices : calcul et modélisation"
       },
       "exercices":{
          "L":[
@@ -1760,7 +1259,7 @@
                      "S":"E01"
                   },
                   "titre":{
-                     "S":"Répéter à la main une séquence d’instructions pour accomplir une tâche imposée"
+                     "S":"Identifier les différents types de matrices (ligne, colonne, carrée)"
                   }
                }
             },
@@ -1770,7 +1269,7 @@
                      "S":"E02"
                   },
                   "titre":{
-                     "S":"Ordonner les étapes de construction d'une figure simple"
+                     "S":"Effectuer des opérations sur des matrices"
                   }
                }
             },
@@ -1780,7 +1279,7 @@
                      "S":"E03"
                   },
                   "titre":{
-                     "S":"Ordonner des instructions pour retranscrire un parcours en une séquence d'instructions"
+                     "S":"Calculer l’inverse d’une matrice carrée"
                   }
                }
             },
@@ -1790,7 +1289,321 @@
                      "S":"E04"
                   },
                   "titre":{
-                     "S":"Rédiger un programme permettant de tracer une figure simple"
+                     "S":"Calculer les puissances d’une matrice carrée d’ordre 2 ou 3"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E05"
+                  },
+                  "titre":{
+                     "S":"Utiliser une matrice pour résoudre un système linéaire"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E06"
+                  },
+                  "titre":{
+                     "S":"Modéliser une transformation géométrique du plan par une matrice"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E07"
+                  },
+                  "titre":{
+                     "S":"Étudier une suite récurrente linéaire à l’aide du calcul matriciel"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E08"
+                  },
+                  "titre":{
+                     "S":"Étudier une suite de matrices colonnes vérifiant une relation de récurrence"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E09"
+                  },
+                  "titre":{
+                     "S":"Modéliser un problème issu d’une autre discipline par une matrice"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E10"
+                  },
+                  "titre":{
+                     "S":"Résoudre un problème combinant systèmes linéaires et matrices"
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "PK":{
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T3#C12"
+      },
+      "SK":{
+         "S":"META"
+      },
+      "type":{
+         "S":"CHAPITRE"
+      },
+      "niveau":{
+         "S":"Terminale"
+      },
+      "matiere":{
+         "S":"Mathématiques expertes"
+      },
+      "themeTitre":{
+         "S":"Graphes et matrices"
+      },
+      "chapitreTitre":{
+         "S":"Graphes et matrices d’adjacence"
+      },
+      "exercices":{
+         "L":[
+            {
+               "M":{
+                  "id":{
+                     "S":"E01"
+                  },
+                  "titre":{
+                     "S":"Associer à un graphe sa matrice d’adjacence"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E02"
+                  },
+                  "titre":{
+                     "S":"Interpréter les coefficients d’une matrice d’adjacence"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E03"
+                  },
+                  "titre":{
+                     "S":"Calculer le nombre de chemins de longueur donnée entre deux sommets"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E04"
+                  },
+                  "titre":{
+                     "S":"Démontrer l’expression du nombre de chemins à l’aide d’une puissance de matrice"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E05"
+                  },
+                  "titre":{
+                     "S":"Étudier un graphe orienté à l’aide de sa matrice d’adjacence"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E06"
+                  },
+                  "titre":{
+                     "S":"Modéliser une situation de diffusion à l’aide d’un graphe et d’une matrice"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E07"
+                  },
+                  "titre":{
+                     "S":"Étudier une marche aléatoire sur un graphe"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E08"
+                  },
+                  "titre":{
+                     "S":"Étudier le comportement asymptotique d’une marche aléatoire simple"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E09"
+                  },
+                  "titre":{
+                     "S":"Mettre en œuvre un algorithme de calcul de chemins"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E10"
+                  },
+                  "titre":{
+                     "S":"Étudier un graphe issu d’un réseau réel"
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "PK":{
+         "S":"CHAPITRE#TLE#MATHS-EXPERTES#T3#C13"
+      },
+      "SK":{
+         "S":"META"
+      },
+      "type":{
+         "S":"CHAPITRE"
+      },
+      "niveau":{
+         "S":"Terminale"
+      },
+      "matiere":{
+         "S":"Mathématiques expertes"
+      },
+      "themeTitre":{
+         "S":"Graphes et matrices"
+      },
+      "chapitreTitre":{
+         "S":"Chaînes de Markov et applications"
+      },
+      "exercices":{
+         "L":[
+            {
+               "M":{
+                  "id":{
+                     "S":"E01"
+                  },
+                  "titre":{
+                     "S":"Modéliser une situation par une chaîne de Markov à deux ou trois états"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E02"
+                  },
+                  "titre":{
+                     "S":"Associer un graphe orienté pondéré à une chaîne de Markov"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E03"
+                  },
+                  "titre":{
+                     "S":"Déterminer la matrice de transition d’une chaîne de Markov"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E04"
+                  },
+                  "titre":{
+                     "S":"Calculer la distribution après n transitions à l’aide d’une puissance de matrice"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E05"
+                  },
+                  "titre":{
+                     "S":"Interpréter le coefficient (i,j) de la matrice P^n"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E06"
+                  },
+                  "titre":{
+                     "S":"Déterminer une distribution invariante d’une chaîne de Markov"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E07"
+                  },
+                  "titre":{
+                     "S":"Étudier le comportement à long terme d’une chaîne de Markov"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E08"
+                  },
+                  "titre":{
+                     "S":"Modéliser un phénomène de diffusion de type Ehrenfest"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E09"
+                  },
+                  "titre":{
+                     "S":"Mettre en œuvre un algorithme de calcul de distributions successives"
+                  }
+               }
+            },
+            {
+               "M":{
+                  "id":{
+                     "S":"E10"
+                  },
+                  "titre":{
+                     "S":"Étudier un algorithme de classement de type PageRank"
                   }
                }
             }

@@ -5,6 +5,20 @@ import { usePathname } from "next/navigation";
 import { useState, useRef } from "react";
 import { useSidebar } from "./SidebarContext";
 
+// Import React Icons - Style Lucide (comme Claude)
+import { 
+  LuLayoutDashboard,     // Tableau de bord
+  LuGraduationCap,       // Collège
+  LuAward,               // Lycée
+  LuMessageSquare,       // AmélysAsk
+  LuTarget,              // Parcours
+  LuDownload,            // Cours téléchargeables
+  LuUsers,               // Profs en ligne
+  LuCrown,               // Freemium
+  LuUser,                // Profil
+  LuSettings             // Paramètres
+} from "react-icons/lu";
+
 export default function Sidebar() {
   const { isOpen, toggleSidebar } = useSidebar();
   const pathname = usePathname();
@@ -95,49 +109,49 @@ export default function Sidebar() {
       >
         <SidebarLink
           href="/app"
-          icon="📊"
+          icon={<LuLayoutDashboard />}
           label="Tableau de bord"
           isOpen={isOpen}
           isActive={pathname === "/app"}
         />
         <SidebarLink
           href="/app/college"
-          icon="🏫"
+          icon={<LuGraduationCap />}
           label="Collège"
           isOpen={isOpen}
           isActive={pathname.startsWith("/app/college")}
         />
         <SidebarLink
           href="/app/lycee"
-          icon="🎓"
+          icon={<LuAward />}
           label="Lycée"
           isOpen={isOpen}
           isActive={pathname.startsWith("/app/lycee")}
         />
         <SidebarLink
           href="/app/amelysask"
-          icon="🤖"
+          icon={<LuMessageSquare />}
           label="AmélysAsk"
           isOpen={isOpen}
           isActive={pathname === "/app/amelysask"}
         />
         <SidebarLink
           href="/app/parcours"
-          icon="🎯"
+          icon={<LuTarget />}
           label="Parcours"
           isOpen={isOpen}
           isActive={pathname === "/app/parcours"}
         />
         <SidebarLink
           href="/app/cours-telechargables"
-          icon="📥"
+          icon={<LuDownload />}
           label="Cours téléchargeables"
           isOpen={isOpen}
           isActive={pathname === "/app/cours-telechargables"}
         />
         <SidebarLink
           href="/app/profs-en-ligne"
-          icon="👨‍🏫"
+          icon={<LuUsers />}
           label="Profs en ligne"
           isOpen={isOpen}
           isActive={pathname === "/app/profs-en-ligne"}
@@ -151,7 +165,7 @@ export default function Sidebar() {
             paddingRight: "1rem",
             borderTop: "1px solid rgba(255,255,255,0.1)",
             paddingTop: "1rem",
-            overflow: "hidden", // Cache le texte qui dépasse en mode réduit
+            overflow: "hidden",
           }}
         >
           {isOpen && (
@@ -172,7 +186,7 @@ export default function Sidebar() {
 
         <SidebarLink
           href="/app/formules"
-          icon="💳"
+          icon={<LuCrown />}
           label="Freemium"
           isOpen={isOpen}
           isActive={pathname === "/app/formules"}
@@ -188,14 +202,14 @@ export default function Sidebar() {
       >
         <SidebarLink
           href="/app/profil"
-          icon="👤"
+          icon={<LuUser />}
           label="Profil"
           isOpen={isOpen}
           isActive={pathname === "/app/profil"}
         />
         <SidebarLink
           href="/app/parametres"
-          icon="⚙️"
+          icon={<LuSettings />}
           label="Paramètres"
           isOpen={isOpen}
           isActive={pathname === "/app/parametres"}
@@ -215,7 +229,7 @@ export default function Sidebar() {
 // Composant SidebarLink avec tooltip positionné correctement
 interface SidebarLinkProps {
   href: string;
-  icon: string;
+  icon: React.ReactNode;  // ← Changé de string à ReactNode pour React Icons
   label: string;
   isOpen: boolean;
   isActive: boolean;
@@ -266,7 +280,7 @@ function SidebarLink({ href, icon, label, isOpen, isActive }: SidebarLinkProps) 
           transition: "all 0.2s ease",
           fontSize: "0.95rem",
           background: isActive ? "rgba(255,193,7,0.25)" : "transparent",
-          justifyContent: "flex-start", // ← TOUJOURS à gauche (plus de "center")
+          justifyContent: "flex-start",
           position: "relative",
           fontWeight: isActive ? 600 : 400,
         }}
