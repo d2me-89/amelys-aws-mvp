@@ -3,7 +3,7 @@
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState } from "react";
-import { LuPlay, LuBookOpen, LuSparkles } from "react-icons/lu";
+import { LuPlay, LuBrain, LuSparkles } from "react-icons/lu";
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
@@ -14,11 +14,11 @@ export default function MathematiquesSixiemeHomePage() {
 
   return (
     <AppLayout>
-      {/* Bande blanche pour icônes et recherche (à venir) */}
+      {/* Bande pour icônes et recherche (à venir) */}
       <div style={{
-        background: "#fff",
+        background: "var(--background)",
         height: "70px",
-        borderBottom: "1px solid rgba(0,0,0,0.1)"
+        borderBottom: "1px solid rgba(255,255,255,0.1)"
       }}>
         {/* Espace réservé pour icônes et moteur de recherche */}
       </div>
@@ -38,14 +38,14 @@ export default function MathematiquesSixiemeHomePage() {
           {/* Badge Sixième */}
           <div style={{
             display: "inline-block",
-            padding: "0.5rem 1.2rem",
+            padding: "0.65rem 1.6rem",
             background: "#fff",
             borderRadius: "50px",
-            fontSize: "0.85rem",
+            fontSize: "1rem",
             fontWeight: 700,
             textTransform: "uppercase",
-            letterSpacing: "0.5px",
-            color: "#805AD5",
+            letterSpacing: "0.8px",
+            color: "#1a1a1a",
             marginBottom: "1.2rem",
             border: "2px solid rgba(255, 255, 255, 0.5)",
             boxShadow: "0 2px 8px rgba(0,0,0,0.1)"
@@ -121,7 +121,7 @@ export default function MathematiquesSixiemeHomePage() {
             margin: "1.5rem 0"
           }} />
 
-          {/* Infos : Séances */}
+          {/* Infos : Chapitres */}
           <div style={{
             display: "flex",
             alignItems: "center",
@@ -138,14 +138,14 @@ export default function MathematiquesSixiemeHomePage() {
               justifyContent: "center",
               color: "#805AD5"
             }}>
-              <LuBookOpen size={22} />
+              <LuBrain size={22} />
             </div>
             <span style={{
               fontSize: "1.05rem",
               fontWeight: 600,
               color: "#2D3748"
             }}>
-              {nombreSeances} Séances
+              {nombreSeances} Chapitres
             </span>
           </div>
 
