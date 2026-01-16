@@ -165,7 +165,7 @@ export default function MathematiquesSixiemeHomePage() {
           minWidth: "360px",
           boxShadow: "0 10px 40px rgba(0,0,0,0.15)",
           position: "absolute",
-          right: "4rem",
+          right: "6rem",
           top: "50%",
           transform: "translateY(-20%)"
         }}>
