@@ -444,7 +444,8 @@ export default function MathematiquesSixiemeHomePage() {
               alignItems: "center",
               justifyContent: "space-between",
               cursor: "pointer",
-              transition: "background 0.2s ease"
+              transition: "background 0.2s ease",
+              position: "relative"
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = "rgba(255,255,255,0.03)";
