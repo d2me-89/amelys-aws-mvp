@@ -127,7 +127,7 @@ export default function MathematiquesSixiemeHomePage() {
         {/* Conteneur centré avec largeur max */}
         <div style={{
           width: "100%",
-          maxWidth: "1400px",
+          maxWidth: "1350px",
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
@@ -306,7 +306,7 @@ export default function MathematiquesSixiemeHomePage() {
         display: "flex",
         justifyContent: "center"
       }}>
-        <div style={{ width: "100%", maxWidth: "1400px" }}>
+        <div style={{ width: "100%", maxWidth: "1350px" }}>
         {/* Section Plan du cours */}
         <div style={{
           background: "rgba(255,255,255,0.08)",
@@ -418,7 +418,7 @@ export default function MathematiquesSixiemeHomePage() {
                     <div style={{ flex: 1 }}>
                       <div style={{
                         fontSize: "1.15rem",
-                        color: "#C4B5FE",
+                        color: "#fff",
                         fontWeight: 600
                       }}>
                         Chapitre {index + 1}. {chapitre.titre}
