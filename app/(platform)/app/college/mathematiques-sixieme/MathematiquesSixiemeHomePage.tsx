@@ -127,7 +127,7 @@ export default function MathematiquesSixiemeHomePage() {
         {/* Conteneur centré avec largeur max */}
         <div style={{
           width: "100%",
-          maxWidth: "1200px",
+          maxWidth: "1000px",
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
@@ -135,23 +135,41 @@ export default function MathematiquesSixiemeHomePage() {
         }}>
         {/* Partie gauche : Niveau + Titre */}
         <div style={{ flex: 1 }}>
-          {/* Badge Sixième */}
-          <div style={{
-            display: "inline-block",
-            padding: "0.65rem 1.6rem",
-            background: "#fff",
-            borderRadius: "50px",
-            fontSize: "1rem",
-            fontWeight: 700,
-            textTransform: "uppercase",
-            letterSpacing: "0.8px",
-            color: "#1a1a1a",
-            marginBottom: "1.2rem",
-            border: "2px solid rgba(255, 255, 255, 0.5)",
-            boxShadow: "0 2px 8px rgba(0,0,0,0.1)"
-          }}>
-            Sixième
-          </div>
+          {/* Badge Sixième - cliquable */}
+          <Link
+            href="/app/college"
+            style={{
+              textDecoration: "none"
+            }}
+          >
+            <div style={{
+              display: "inline-block",
+              padding: "0.65rem 1.6rem",
+              background: "#fff",
+              borderRadius: "50px",
+              fontSize: "1rem",
+              fontWeight: 700,
+              textTransform: "uppercase",
+              letterSpacing: "0.8px",
+              color: "#1a1a1a",
+              marginBottom: "1.2rem",
+              border: "2px solid rgba(255, 255, 255, 0.5)",
+              boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+              cursor: "pointer",
+              transition: "all 0.2s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+              e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+              e.currentTarget.style.boxShadow = "0 2px 8px rgba(0,0,0,0.1)";
+            }}
+            >
+              Sixième
+            </div>
+          </Link>
 
           {/* Titre du cours */}
           <h1 style={{
@@ -288,11 +306,11 @@ export default function MathematiquesSixiemeHomePage() {
         display: "flex",
         justifyContent: "center"
       }}>
-        <div style={{ width: "100%", maxWidth: "1200px" }}>
+        <div style={{ width: "100%", maxWidth: "1000px" }}>
         {/* Section Plan du cours */}
         <div style={{
-          background: "rgba(255,255,255,0.05)",
-          border: "1px solid rgba(255,255,255,0.1)",
+          background: "rgba(255,255,255,0.08)",
+          border: "1px solid rgba(255,255,255,0.2)",
           borderRadius: "16px",
           overflow: "hidden",
           marginBottom: "1.5rem",
@@ -374,7 +392,8 @@ export default function MathematiquesSixiemeHomePage() {
                       borderRadius: "12px",
                       display: "flex",
                       alignItems: "center",
-                      justifyContent: "space-between",
+                      justifyContent: "flex-start",
+                      gap: "1rem",
                       cursor: "pointer",
                       transition: "all 0.2s ease",
                       textAlign: "left"
@@ -390,11 +409,16 @@ export default function MathematiquesSixiemeHomePage() {
                       }
                     }}
                   >
-                    {/* Gauche : Numéro + Titre */}
+                    {/* Chevron à gauche */}
+                    <div style={{ color: "rgba(255,255,255,0.5)", flexShrink: 0 }}>
+                      {openChapters[chapitre.id] ? <LuChevronUp size={20} /> : <LuChevronDown size={20} />}
+                    </div>
+
+                    {/* Contenu : Titre + Infos */}
                     <div style={{ flex: 1 }}>
                       <div style={{
-                        fontSize: "1.1rem",
-                        color: "#B794F6",
+                        fontSize: "1.15rem",
+                        color: "#C4B5FE",
                         fontWeight: 600,
                         marginBottom: "0.4rem"
                       }}>
@@ -407,11 +431,6 @@ export default function MathematiquesSixiemeHomePage() {
                       }}>
                         Cours • {chapitre.nombreExercices} exercices interactifs • Contrôle • Discussion libre
                       </div>
-                    </div>
-
-                    {/* Droite : Chevron */}
-                    <div style={{ color: "rgba(255,255,255,0.5)" }}>
-                      {openChapters[chapitre.id] ? <LuChevronUp size={20} /> : <LuChevronDown size={20} />}
                     </div>
                   </button>
 
