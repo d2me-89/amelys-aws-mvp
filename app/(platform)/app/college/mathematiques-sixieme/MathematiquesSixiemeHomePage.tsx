@@ -3,7 +3,7 @@
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState } from "react";
-import { LuPlay } from "react-icons/lu";
+import { LuPlay, LuBookOpen, LuSparkles } from "react-icons/lu";
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
@@ -14,14 +14,23 @@ export default function MathematiquesSixiemeHomePage() {
 
   return (
     <AppLayout>
+      {/* Bande blanche pour icônes et recherche (à venir) */}
+      <div style={{
+        background: "#fff",
+        height: "70px",
+        borderBottom: "1px solid rgba(0,0,0,0.1)"
+      }}>
+        {/* Espace réservé pour icônes et moteur de recherche */}
+      </div>
+
       {/* Bandeau supérieur avec dégradé violet */}
       <div style={{
         background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 50%, #6B46C1 100%)",
         padding: "3rem 4rem",
         position: "relative",
-        minHeight: "280px",
+        minHeight: "240px",
         display: "flex",
-        alignItems: "center",
+        alignItems: "flex-start",
         justifyContent: "space-between"
       }}>
         {/* Partie gauche : Niveau + Titre */}
@@ -30,15 +39,16 @@ export default function MathematiquesSixiemeHomePage() {
           <div style={{
             display: "inline-block",
             padding: "0.5rem 1.2rem",
-            background: "rgba(255, 255, 255, 0.25)",
+            background: "#fff",
             borderRadius: "50px",
             fontSize: "0.85rem",
             fontWeight: 700,
             textTransform: "uppercase",
             letterSpacing: "0.5px",
-            color: "#fff",
+            color: "#805AD5",
             marginBottom: "1.2rem",
-            border: "1px solid rgba(255, 255, 255, 0.3)"
+            border: "2px solid rgba(255, 255, 255, 0.5)",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.1)"
           }}>
             Sixième
           </div>
@@ -56,13 +66,17 @@ export default function MathematiquesSixiemeHomePage() {
           </h1>
         </div>
 
-        {/* Partie droite : Carte blanche avec CTA */}
+        {/* Partie droite : Carte blanche avec CTA - Positionnée pour chevaucher */}
         <div style={{
           background: "#fff",
           borderRadius: "16px",
-          padding: "2rem",
-          minWidth: "320px",
-          boxShadow: "0 10px 40px rgba(0,0,0,0.15)"
+          padding: "2.5rem",
+          minWidth: "360px",
+          boxShadow: "0 10px 40px rgba(0,0,0,0.15)",
+          position: "absolute",
+          right: "8rem",
+          top: "50%",
+          transform: "translateY(-20%)"
         }}>
           {/* Bouton principal */}
           <Link
@@ -76,14 +90,14 @@ export default function MathematiquesSixiemeHomePage() {
           >
             <button style={{
               width: "100%",
-              padding: "1rem 1.5rem",
+              padding: "1.2rem 1.5rem",
               background: hoveredButton
                 ? "linear-gradient(135deg, #805AD5 0%, #6B46C1 100%)"
                 : "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
               color: "#fff",
               border: "none",
               borderRadius: "12px",
-              fontSize: "1.05rem",
+              fontSize: "1.1rem",
               fontWeight: 700,
               cursor: "pointer",
               transition: "all 0.3s ease",
@@ -95,8 +109,8 @@ export default function MathematiquesSixiemeHomePage() {
               justifyContent: "center",
               gap: "0.75rem"
             }}>
-              <LuPlay size={20} />
-              Démarrer le Cours
+              <LuPlay size={22} />
+              Lancer l'IA
             </button>
           </Link>
 
@@ -111,23 +125,23 @@ export default function MathematiquesSixiemeHomePage() {
           <div style={{
             display: "flex",
             alignItems: "center",
-            gap: "0.75rem",
-            marginBottom: "1rem"
+            gap: "0.85rem",
+            marginBottom: "1.1rem"
           }}>
             <div style={{
-              width: "36px",
-              height: "36px",
+              width: "40px",
+              height: "40px",
               borderRadius: "10px",
               background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "1.2rem"
+              color: "#805AD5"
             }}>
-              📚
+              <LuBookOpen size={22} />
             </div>
             <span style={{
-              fontSize: "0.95rem",
+              fontSize: "1.05rem",
               fontWeight: 600,
               color: "#2D3748"
             }}>
@@ -135,30 +149,30 @@ export default function MathematiquesSixiemeHomePage() {
             </span>
           </div>
 
-          {/* Infos : Contenus pédagogiques */}
+          {/* Infos : Contenus interactifs */}
           <div style={{
             display: "flex",
             alignItems: "center",
-            gap: "0.75rem"
+            gap: "0.85rem"
           }}>
             <div style={{
-              width: "36px",
-              height: "36px",
+              width: "40px",
+              height: "40px",
               borderRadius: "10px",
               background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "1.2rem"
+              color: "#805AD5"
             }}>
-              📝
+              <LuSparkles size={22} />
             </div>
             <span style={{
-              fontSize: "0.95rem",
+              fontSize: "1.05rem",
               fontWeight: 600,
               color: "#2D3748"
             }}>
-              {nombreContenusPedagogiques} Contenus pédagogiques
+              {nombreContenusPedagogiques} Contenus interactifs
             </span>
           </div>
         </div>
