@@ -122,10 +122,11 @@ export default function MathematiquesSixiemeHomePage() {
         minHeight: "240px",
         display: "flex",
         alignItems: "flex-start",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+        gap: "2rem"
       }}>
         {/* Partie gauche : Niveau + Titre */}
-        <div style={{ flex: 1 }}>
+        <div style={{ flex: 1, minWidth: 0 }}>
           {/* Badge Sixième */}
           <div style={{
             display: "inline-block",
@@ -163,11 +164,11 @@ export default function MathematiquesSixiemeHomePage() {
           borderRadius: "16px",
           padding: "2.5rem",
           minWidth: "360px",
+          maxWidth: "360px",
           boxShadow: "0 10px 40px rgba(0,0,0,0.15)",
-          position: "absolute",
-          right: "8rem",
-          top: "50%",
-          transform: "translateY(-20%)"
+          flexShrink: 0,
+          alignSelf: "flex-start",
+          marginTop: "-1rem"
         }}>
           {/* Bouton principal */}
           <Link
@@ -282,8 +283,8 @@ export default function MathematiquesSixiemeHomePage() {
           borderRadius: "16px",
           overflow: "hidden",
           marginBottom: "1.5rem",
-          marginLeft: "4rem",
-          maxWidth: "900px"
+          marginLeft: "0",
+          maxWidth: "780px"
         }}>
           {/* En-tête cliquable */}
           <button
