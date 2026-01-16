@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 
@@ -44,6 +44,13 @@ export default function MathematiquesSixiemeHomePage() {
 
   return (
     <AppLayout>
+      {/* Style global pour empêcher le smooth scroll */}
+      <style jsx global>{`
+        html {
+          scroll-behavior: auto !important;
+        }
+      `}</style>
+
       {/* Bande pour icônes et recherche (à venir) */}
       <div style={{
         background: "var(--background)",
@@ -67,10 +74,10 @@ export default function MathematiquesSixiemeHomePage() {
         {/* Motifs mathématiques décoratifs en arrière-plan */}
         <div style={{
           position: "absolute",
-          top: 0,
           left: 0,
           right: 0,
           bottom: 0,
+          height: "60%",
           opacity: 0.15,
           pointerEvents: "none",
           fontSize: "4rem",
@@ -81,7 +88,7 @@ export default function MathematiquesSixiemeHomePage() {
           gap: "3rem",
           padding: "2rem",
           justifyContent: "space-around",
-          alignItems: "center",
+          alignItems: "flex-end",
           zIndex: 0
         }}>
           <span style={{ transform: "rotate(-15deg)" }}>∑</span>
@@ -471,12 +478,26 @@ export default function MathematiquesSixiemeHomePage() {
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
+              
+              // Sauvegarder la position actuelle du scroll
+              const scrollY = window.scrollY;
+              
+              // Changer l'état
               setIsPlanCoursOpen(!isPlanCoursOpen);
+              
+              // Restaurer immédiatement la position du scroll
+              requestAnimationFrame(() => {
+                window.scrollTo(0, scrollY);
+              });
             }}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
+                const scrollY = window.scrollY;
                 setIsPlanCoursOpen(!isPlanCoursOpen);
+                requestAnimationFrame(() => {
+                  window.scrollTo(0, scrollY);
+                });
               }
             }}
             style={{
