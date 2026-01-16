@@ -1,0 +1,342 @@
+[
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "Les atomes et les molécules" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer les notions d’atome et de molécule dans des situations simples" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître les atomes constituant une molécule à partir de sa formule" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Mettre en évidence la présence d’eau à l’aide du test au sulfate de cuivre anhydre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier le dioxyde de carbone grâce au test de l’eau de chaux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mémoriser les symboles et représentations des atomes les plus utilisés" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Repérer un atome dans le tableau périodique à partir de sa position" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Associer un symbole chimique à l’atome correspondant dans le tableau périodique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Lire et exploiter le numéro atomique d’un atome" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Relier le nom d’une molécule courante à sa formule chimique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Faire correspondre la formule d’une molécule simple à son modèle moléculaire" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les principaux tests chimiques permettant de reconnaître des molécules usuelles" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Mettre en évidence la présence de dioxygène à l’aide du test de la flamme" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Détecter la présence de dihydrogène grâce au test de la flamme" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier une molécule courante dans un mélange à partir des résultats de tests chimiques" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer la position d’un atome dans le tableau périodique à partir de son numéro atomique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser la composition d’un mélange contenant des molécules courantes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "La masse volumique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer une masse volumique à partir d’une masse et d’un volume" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer la masse d’un objet ou d’une substance connaissant le volume et la masse volumique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Trouver le volume à partir de la masse et de la masse volumique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques d’une mesure de volume et les unités associées" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre en œuvre la relation ρ = m/V pour relier masse, volume et masse volumique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Convertir des volumes entre unités usuelles et litres" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Exploiter des mesures expérimentales pour calculer la masse volumique d’un liquide" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer la masse volumique d’un solide à partir de mesures (masse et volume)" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Convertir des volumes en mètres cubes en mobilisant les puissances de 10" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Passer des litres aux mètres cubes (et inversement) dans des calculs de masse volumique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Prévoir si un solide flotte ou coule dans l’eau à partir de sa masse volumique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Utiliser la proportionnalité entre masse et volume pour comparer des échantillons" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Anticiper l’ordre de superposition de deux liquides non miscibles à partir de leurs masses volumiques" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BREVET — Exploiter des données de niveau marin moyen (Métropole 2023)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BREVET — Interpréter une dissolution du CO₂ dans les océans (Amérique du Sud 2022)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BREVET — Analyser un phénomène de circulation thermohaline (Asie 2021)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "L’air, un mélange particulier" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire la composition de l’air en identifiant ses principaux constituants" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître une compression ou une détente d’un gaz à partir de l’évolution du volume" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Prévoir l’évolution du volume et de la pression d’un gaz lors d’une compression ou d’une détente" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la masse d’un échantillon d’air à partir de son volume et de la masse volumique de l’air" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le volume d’un échantillon d’air à partir de sa masse et de la masse volumique de l’air" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence expérimentalement la compressibilité des gaz à l’aide de l’air" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BREVET — Exploiter une situation de compression d’air (Les pompiers, Centres étrangers 2023)" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET — Mobiliser les notions de mélange et de grandeurs physiques (Niveau marin moyen, Métropole 2023)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "Les transformations et les réactions chimiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques essentielles d’une combustion" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer réactifs et produits d’une transformation chimique à partir d’une description" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître le combustible, le comburant et la source d’énergie lors d’une combustion" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Classer des espèces chimiques en réactifs ou en produits selon une transformation donnée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Faire la différence entre une transformation chimique et un simple mélange" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Distinguer une transformation chimique d’une transformation physique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Décrire les particularités de la combustion du butane" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Écrire le bilan d’une réaction de combustion en identifiant réactifs et produits" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Associer une réaction chimique à son équation de réaction" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Interpréter une transformation chimique à partir de son équation" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Décrire les caractéristiques de la combustion du carbone" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Mettre en évidence le dioxyde de carbone à l’aide du test de l’eau de chaux" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Vérifier si une équation de réaction respecte l’équilibrage" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Équilibrer une équation de réaction chimique simple" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Mettre en œuvre la loi de conservation de la masse lors d’une transformation chimique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser expérimentalement la combustion du carbone" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier les étapes et les produits de la combustion du butane" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier les conditions et conséquences d’une combustion incomplète" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Reconnaître les risques liés à une combustion dangereuse" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BREVET — Exploiter une situation de combustion en contexte professionnel (Les pompiers, Centres étrangers 2023)" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BREVET — Mobiliser les transformations chimiques dans un contexte environnemental (Niveau marin moyen, Métropole 2023)" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BREVET — Relier activités humaines et transformations chimiques (Nouvelle-Calédonie 2022)" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Type BREVET — Analyser la qualité de l’air à partir de données chimiques (Métropole septembre 2019)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "La structure de l’Univers et du système solaire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales caractéristiques des galaxies" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Convertir des unités usuelles en unités astronomiques adaptées aux distances de l’espace" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître les différents types de corps célestes et leurs propriétés" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconstituer les grandes étapes de la formation du système solaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer des ordres de grandeur caractéristiques des distances dans l’Univers" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire l’organisation et les éléments constitutifs du système solaire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la vitesse d’un astre à partir de la distance parcourue et du temps écoulé" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer la distance parcourue par un astre connaissant sa vitesse et la durée du mouvement" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer le temps de parcours d’un astre pour une distance donnée à vitesse connue" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Mouvement et interactions" },
+  "chapitreTitre": { "S": "La vitesse d’un système en mouvement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Convertir une vitesse exprimée en mètres par seconde en kilomètres par heure" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Convertir une vitesse exprimée en kilomètres par heure en mètres par seconde" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer la vitesse moyenne d’un mouvement uniforme à partir de la distance parcourue et du temps écoulé" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la distance parcourue lors d’un mouvement uniforme connaissant la vitesse moyenne et la durée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer la durée d’un mouvement uniforme à partir de la vitesse moyenne et de la distance parcourue" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le sens de déplacement associé à une vitesse" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Décrire une trajectoire simple à partir d’une situation de mouvement" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser l’évolution de la valeur de la vitesse au cours d’un mouvement" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Distinguer une variation de vitesse due à un changement de valeur ou de direction" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire un mouvement à partir d’une chronophotographie" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier l’évolution du vecteur vitesse moyenne dans le cas d’un mouvement rectiligne" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Étudier l’évolution du vecteur vitesse moyenne dans le cas d’un mouvement circulaire" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET — Exploiter des données de vitesse dans une épreuve sportive (Épreuve olympique, Amérique du Nord 2023)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BREVET — Analyser un déplacement à partir d’un phénomène naturel (Écholocation chez les grands dauphins, Asie 2023)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BREVET — Étudier une performance sportive à partir de données de mouvement (Ultra-trail du Mont-Blanc, Asie-Pacifique 2021)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BREVET — Interpréter des vitesses dans un contexte sportif collectif (Le football, Antilles-Guyane 2019)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Mouvement et interactions" },
+  "chapitreTitre": { "S": "Le poids" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques de la pesanteur terrestre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer clairement les notions de masse et de poids" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître la force de pesanteur exercée sur un objet" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Indiquer le point d’application de la force de pesanteur sur un corps à la surface de la Terre" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer la direction de la force de pesanteur exercée sur un corps" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Préciser le sens de la force de pesanteur appliquée à un corps sur Terre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la valeur du poids d’un corps à partir de sa masse" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre en évidence expérimentalement la relation de proportionnalité entre le poids et la masse" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "L’énergie et ses conversions" },
+  "chapitreTitre": { "S": "Les lois de la tension et de l’intensité électriques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les grandeurs caractéristiques de l’intensité électrique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Représenter correctement le branchement d’un ampèremètre dans un circuit" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire et interpréter la valeur mesurée par un ampèremètre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques fondamentales de la tension électrique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer des ordres de grandeur de tensions dans des situations usuelles" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Lire la valeur d’une tension mesurée à l’aide d’un voltmètre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer l’intensité du courant dans un circuit monté en série" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer l’intensité du courant dans un circuit monté en dérivation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer la tension aux bornes de dipôles associés en série" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer la tension aux bornes de dipôles associés en dérivation" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Convertir des valeurs d’intensité électrique entre différentes unités" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Choisir l’emplacement adapté d’un ampèremètre pour mesurer une intensité donnée" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Positionner correctement les bornes V et COM d’un voltmètre lors d’une mesure" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Sélectionner le calibre approprié d’un ampèremètre selon la mesure à effectuer" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Convertir des valeurs de tension entre différentes unités" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Choisir l’emplacement adapté d’un voltmètre pour mesurer une tension donnée" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Brancher correctement les bornes mA et COM d’un ampèremètre" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Représenter le branchement d’un voltmètre dans un circuit électrique" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Choisir le calibre adapté sur un voltmètre pour effectuer une mesure fiable" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Appliquer les lois relatives à l’intensité du courant dans les circuits électriques" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Appliquer les lois relatives à la tension électrique dans les circuits" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BREVET — Exploiter des mesures électriques dans un contexte sportif (Ultra-trail du Mont-Blanc, Asie-Pacifique 2021)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "L’énergie et ses conversions" },
+  "chapitreTitre": { "S": "Les résistances électriques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les propriétés et le rôle d’une résistance électrique dans un circuit" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Lire et interpréter une mesure donnée par un ohmmètre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Tracer la caractéristique tension-intensité d’une résistance" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire les effets simples de l’effet Joule lors du passage du courant" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Convertir une valeur de résistance dans l’unité demandée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Choisir un calibre adapté sur l’ohmmètre pour réaliser une mesure fiable" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la valeur d’une résistance à partir du code couleur" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Prévoir l’évolution de l’intensité quand on ajoute une résistance en série dans un circuit" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer la résistance d’un dipôle en appliquant la loi d’Ohm" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer une tension à partir d’une résistance et d’une intensité (loi d’Ohm)" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer une intensité à partir d’une tension et d’une résistance (loi d’Ohm)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Représenter l’effet Joule comme conversion d’énergie dans un diagramme énergétique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Mettre en œuvre la loi d’Ohm pour résoudre des situations variées" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Exploiter la relation entre résistance et intensité pour comparer des circuits" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "L’énergie et ses conversions" },
+  "chapitreTitre": { "S": "Les bilans d’énergie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier l’origine d’une énergie mise en jeu dans une situation donnée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître les différentes formes d’énergie : thermique, électrique, lumineuse et chimique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire et interpréter un diagramme énergétique simple" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un diagramme énergétique à une conversion d’énergie donnée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer l’énergie consommée par un appareil à partir de sa puissance et du temps d’utilisation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer la puissance électrique d’un appareil connaissant l’énergie consommée et la durée d’utilisation" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la durée de fonctionnement d’un appareil à partir de sa puissance et de l’énergie consommée" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET — Analyser des conversions d’énergie dans un contexte professionnel (Les pompiers, Centres étrangers 2023)" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET — Exploiter un bilan énergétique dans une situation sportive (Le triathlon, Centres étrangers 2021)" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET — Interpréter des bilans énergétiques liés au réchauffement climatique (Métropole 2021)" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET — Étudier une conversion d’énergie dans le cas d’un véhicule à hydrogène (Métropole septembre 2020)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET — Mobiliser les notions d’énergie dans une activité sportive d’endurance (Ultra-trail du Mont-Blanc, Asie-Pacifique 2021)" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET — Relier bilans d’énergie et impacts des activités humaines (Nouvelle-Calédonie 2022)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Des signaux pour observer et communiquer" },
+  "chapitreTitre": { "S": "La propagation de la lumière" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Reconnaître si une onde lumineuse appartient au domaine visible ou invisible" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le modèle du rayon lumineux pour représenter une propagation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier le comportement d’un rayon lumineux dans une situation simple" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître et exploiter la valeur de la vitesse de la lumière dans le vide" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Reconnaître une situation de réflexion de la lumière" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Tracer le rayon réfléchi sur un schéma de réflexion" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter le spectre électromagnétique en associant types d’ondes et domaines" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Réaliser une visée correcte pour aligner une source, un objet et un écran" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Représenter un faisceau lumineux à partir de plusieurs rayons" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comparer la vitesse de la lumière dans différents milieux transparents" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer une distance parcourue par la lumière à partir de la vitesse et du temps" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer la durée de propagation de la lumière pour un trajet donné" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Utiliser la réflexion lumineuse pour estimer ou mesurer une distance" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer le temps écoulé entre l’émission d’un signal lumineux et la réception de son écho" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Étudier le comportement d’un faisceau lumineux lors de son interaction avec des objets" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Retrouver la vitesse de la lumière à partir d’une expérience de réflexion et de mesures" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#PHYCHIM#T4#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Des signaux pour observer et communiquer" },
+  "chapitreTitre": { "S": "La propagation du son" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales caractéristiques d’un signal sonore" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître les milieux dans lesquels un son peut se propager" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer la vitesse du son dans différents milieux à partir de données expérimentales" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer les conditions nécessaires à la propagation d’un son" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer la distance parcourue par un signal sonore connaissant sa vitesse et la durée de propagation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer la durée de transmission d’un signal sonore à partir de sa vitesse et de la distance parcourue" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser le principe de l’écho pour mesurer une distance" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Prévoir le temps écoulé entre l’émission d’un son et la réception de son écho" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer expérimentalement la vitesse du son à partir d’une situation d’écho" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser le principe et les applications d’une échographie" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET — Exploiter le principe de l’écholocation chez les grands dauphins (Asie 2023)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET — Interpréter des données de propagation des ondes dans un contexte environnemental (Niveau marin moyen, Métropole 2023)" } } }
+    ]
+  }
+}
+]

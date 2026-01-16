@@ -258,7 +258,11 @@ export default function MathematiquesSixiemeHomePage() {
         }}>
           {/* En-tête cliquable */}
           <button
-            onClick={() => setIsMathsSixiemeOpen(!isMathsSixiemeOpen)}
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              setIsMathsSixiemeOpen(!isMathsSixiemeOpen);
+            }}
             style={{
               width: "100%",
               padding: "1.2rem 1.5rem",
@@ -340,7 +344,11 @@ export default function MathematiquesSixiemeHomePage() {
         }}>
           {/* En-tête cliquable FAQ */}
           <button
-            onClick={() => setIsFAQOpen(!isFAQOpen)}
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              setIsFAQOpen(!isFAQOpen);
+            }}
             style={{
               width: "100%",
               padding: "1.2rem 1.5rem",
@@ -422,7 +430,11 @@ export default function MathematiquesSixiemeHomePage() {
         }}>
           {/* En-tête cliquable */}
           <button
-            onClick={() => setIsPlanCoursOpen(!isPlanCoursOpen)}
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              setIsPlanCoursOpen(!isPlanCoursOpen);
+            }}
             style={{
               width: "100%",
               padding: "1.2rem 1.5rem",

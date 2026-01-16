@@ -1,0 +1,335 @@
+[
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "Le modèle de l'atome" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer la composition d’un atome à partir du nombre de protons ou d’électrons" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Estimer la masse d’un atome à partir de ses constituants" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier le numéro atomique d’un atome à partir de sa composition" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer le nombre de nucléons d’un atome connaissant sa structure" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire précisément la composition d’un atome donné" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Associer les constituants de l’atome à leurs ordres de grandeur respectifs" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les différentes particules constituant un atome" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Schématiser la structure simplifiée d’un atome" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Donner une représentation symbolique complète d’un atome" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Repérer la position d’un atome dans le tableau périodique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Associer un symbole chimique à un atome à partir du tableau périodique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Lire et exploiter le numéro atomique d’un atome dans le tableau périodique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer le nombre d’atomes contenus dans une masse donnée de matière" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Placer correctement un atome dans le tableau périodique à partir de son numéro atomique" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BREVET — Exploiter des données issues d’une carotte glaciaire pour l’étude du climat (Métropole juin 2019)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BREVET — Mobiliser le modèle de l’atome dans une étude environnementale (Niveau marin moyen, Métropole 2023)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "L'évolution de l'Univers" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales caractéristiques des galaxies" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Convertir des unités usuelles en unités astronomiques adaptées aux distances de l’espace" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître les différents types de corps célestes et leurs propriétés" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconstituer chronologiquement les grandes étapes de la formation du système solaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire l’organisation et les caractéristiques du système solaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer des ordres de grandeur caractéristiques des distances et des durées dans l’Univers" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer l’origine des atomes à l’échelle cosmique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET — Exploiter des données scientifiques pour étudier un projet de voyage spatial (Voyager sur Mars, Polynésie française 2021)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "Les ions et le pH" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les propriétés des ions négatifs (anions) et positifs (cations)" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si un ion est un anion ou un cation à partir de sa charge" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer un ion monoatomique d’un ion polyatomique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Écrire la formule d’un ion monoatomique à partir de l’atome correspondant" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le nombre d’électrons gagnés ou perdus lors de la formation d’un ion" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déduire la composition d’un ion polyatomique à partir de sa formule" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Écrire la formule d’un ion polyatomique à partir de sa composition" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire l’échelle de pH et ses caractéristiques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les rôles des ions hydrogène et hydroxyde dans les solutions aqueuses" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Prévoir l’effet d’une dilution sur le pH d’une solution" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Reconnaître un ion à l’aide d’un test de présence" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer le caractère acide, basique ou neutre d’une solution à partir de son pH" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier le caractère acido-basique d’une solution à l’aide de papier pH et d’une échelle de teintes" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier l’ion prédominant dans une solution à partir de la valeur du pH" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Relier les réactions acido-basiques à leurs conséquences chimiques" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Vérifier expérimentalement si un test de présence d’ion est positif" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Analyser le caractère acido-basique de solutions du quotidien" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BREVET — Étudier les propriétés chimiques d’un savon (Le savon de Marseille, Centres étrangers 2019)" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BREVET — Analyser l’utilisation de la chaux dans l’habitat (Amérique du Sud 2019)" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BREVET — Interpréter la dissolution du dioxyde de carbone dans les océans (Amérique du Sud 2022)" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BREVET — Relier activités humaines et transformations acido-basiques (Nouvelle-Calédonie 2022)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "Les métaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier un métal courant à partir d’une photographie ou d’un objet du quotidien" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître un métal en s’appuyant sur ses propriétés communes dans une situation donnée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer une masse volumique à partir d’une masse et d’un volume" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer un volume à partir d’une masse et d’une masse volumique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer une masse à partir d’un volume et d’une masse volumique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer une masse volumique en utilisant la densité d’un matériau" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la densité d’un métal à partir de sa masse volumique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Exploiter des mesures pour déterminer masse volumique et densité d’un métal" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Convertir des unités de masse volumique pour comparer des matériaux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les caractéristiques principales de quelques métaux courants" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier un métal courant à partir d’un ensemble de caractéristiques" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Mettre en œuvre la relation ρ = m/V pour résoudre des problèmes sur les métaux" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Relier densité et masse volumique pour interpréter des données de matériaux" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer la masse d’un métal à partir de données expérimentales (mesures de volume et/ou masse)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer le volume d’un métal à partir de mesures expérimentales" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer la densité d’un métal à partir de résultats expérimentaux" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Associer un métal courant au test de reconnaissance le plus pertinent" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Prévoir le comportement d’un métal (flottabilité, position relative) à partir de sa densité" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Identifier un métal courant en exploitant conjointement sa masse volumique et sa densité" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Organisation et transformation de la matière" },
+  "chapitreTitre": { "S": "Les solutions acides et les réactions chimiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les réactifs et les produits mis en jeu lors d’une transformation chimique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Faire la différence entre une transformation chimique et un simple mélange" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer une transformation chimique d’une transformation physique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire les propriétés caractéristiques des solutions acides et basiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Associer une transformation chimique à son équation de réaction" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Interpréter une transformation chimique à partir de son équation" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Vérifier si une équation chimique est équilibrée" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Équilibrer une équation de réaction simple" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre en œuvre la loi de conservation de la masse lors d’une réaction chimique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire la réaction entre les ions hydrogène et hydroxyde" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Prévoir les transformations observées lors de la réaction entre l’acide chlorhydrique et un métal" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Écrire le bilan de la réaction chimique entre l’acide chlorhydrique et le fer" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Établir le bilan général d’une réaction entre un métal et une solution acide" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BREVET — Exploiter des données chimiques dans un contexte d’exploration spatiale (Exploration de la planète Mars, Amérique du Nord 2022)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BREVET — Relier réactions chimiques et impacts des activités humaines (Nouvelle-Calédonie 2022)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Mouvement et interactions" },
+  "chapitreTitre": { "S": "La relativité du mouvement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les idées essentielles de la relativité du mouvement à partir d’exemples simples" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le rôle et les caractéristiques d’un référentiel pour décrire un mouvement" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Convertir une vitesse exprimée en m/s en km/h" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Convertir une vitesse exprimée en km/h en m/s" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer la vitesse moyenne d’un mouvement uniforme à partir de la distance et de la durée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer la distance parcourue en mouvement uniforme connaissant la vitesse moyenne et le temps" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la durée d’un mouvement uniforme à partir de la distance parcourue et de la vitesse moyenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier le sens d’une vitesse sur un schéma ou une description de mouvement" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire une trajectoire simple (rectiligne, circulaire, curviligne) dans un référentiel donné" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire comment la vitesse évolue au cours d’un mouvement" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Différencier une variation de vitesse par changement de valeur ou par changement de direction" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Distinguer les référentiels terrestre, géocentrique et héliocentrique selon la situation étudiée" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Reconnaître un même mouvement décrit dans des référentiels différents" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Décrire un mouvement à partir d’une chronophotographie et du choix du référentiel" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer la vitesse d’un objet dans une situation combinant des mouvements simples" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser la variation du vecteur vitesse moyenne dans un mouvement rectiligne" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Analyser la variation du vecteur vitesse moyenne dans un mouvement circulaire" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Étudier une combinaison de mouvements simples en mobilisant la relativité du mouvement" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BREVET — Exploiter des données de mouvement en contexte sportif (Saut à la perche, Asie 2020)" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BREVET — Interpréter un mouvement dans différents référentiels (L’homme volant, Centres étrangers 2020)" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BREVET — Analyser une situation de chute et de vitesse (Saut en parachute, Amérique du Nord 2019)" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BREVET — Exploiter des données de mouvement et de trajectoire (Des verres correcteurs de plus en plus légers, Asie-Pacifique 2019)" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Type BREVET — Mettre en lien trajectoires, vitesses et exploration spatiale (Exploration de la planète Mars, Amérique du Nord 2022)" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Type BREVET — Mobiliser la notion de référentiel dans une problématique liée aux activités humaines (Nouvelle-Calédonie 2022)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Mouvement et interactions" },
+  "chapitreTitre": { "S": "Les forces" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’une action mécanique exercée sur un objet" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire les caractéristiques complètes d’une force (point d’application, direction, sens, valeur)" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Modéliser une action mécanique par une force représentée sur un schéma" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques de la force de pesanteur (poids)" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire les caractéristiques de la réaction normale exercée par un support" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire les caractéristiques de la tension exercée par un fil ou un câble" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Rappeler et utiliser les caractéristiques d’une force dans différentes situations" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Indiquer le point d’application de la force de pesanteur exercée sur un corps à la surface de la Terre" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la direction de la force de pesanteur appliquée à un corps sur Terre" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Préciser le sens de la force de pesanteur exercée sur un corps sur Terre" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier le point d’application de la réaction normale exercée sur un corps" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer la direction de la réaction normale exercée par un support" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Préciser le sens de la réaction normale exercée sur un corps" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Indiquer le point d’application de la tension exercée par un fil sur un corps" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer la direction de la tension exercée par un fil" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Préciser le sens de la tension exercée par un fil sur un corps" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Prévoir les effets d’une ou de plusieurs forces sur le mouvement d’un corps" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Calculer le poids d’un objet pour une intensité de pesanteur différente de celle de la Terre" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Comparer l’effet du poids d’un même objet sur différentes planètes" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BREVET — Analyser l’action des forces dans une situation météorologique (La neige, Amérique du Nord 2021)" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BREVET — Étudier les forces en jeu dans une situation de sécurité domestique (Sécurité d’une installation électrique, Amérique du Nord 2020)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Mouvement et interactions" },
+  "chapitreTitre": { "S": "La gravitation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques de la force d’interaction gravitationnelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Indiquer le point d’application de la force gravitationnelle exercée entre deux corps" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer la direction de la force gravitationnelle entre deux corps" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Préciser le sens de la force gravitationnelle exercée entre deux corps" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer la valeur d’une force d’interaction gravitationnelle s’exerçant sur un système" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Prévoir les effets d’une interaction gravitationnelle sur le mouvement d’un corps" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Représenter schématiquement l’interaction gravitationnelle entre deux corps célestes" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier l’interaction gravitationnelle entre la Terre et la Lune" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier l’interaction gravitationnelle entre la Terre et le Soleil" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET — Analyser une situation professionnelle impliquant la gravitation (Les pompiers, Centres étrangers 2023)" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET — Étudier les effets de la gravitation dans une situation de plongée (Polynésie française 2022)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET — Exploiter des données de mouvement et d’interaction gravitationnelle en contexte sportif (Épreuve olympique, Amérique du Nord 2023)" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET — Relier gravitation et phénomènes géophysiques (Niveau marin moyen, Métropole 2023)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "L’énergie et ses conversions" },
+  "chapitreTitre": { "S": "La conservation de l'énergie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les grandeurs et paramètres liés à l’énergie cinétique d’un objet en mouvement" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les paramètres influençant l’énergie potentielle de pesanteur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Relier énergie mécanique, énergie cinétique et énergie potentielle de pesanteur" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Lire et interpréter le diagramme énergétique d’un système simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Convertir des énergies entre joules (J) et électronvolts (eV)" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier la forme d’énergie en jeu (thermique, électrique, lumineuse, chimique, cinétique, potentielle)" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer l’énergie cinétique d’un corps à partir de sa masse et de sa vitesse" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer l’énergie potentielle de pesanteur d’un corps à partir de sa masse, de g et de l’altitude" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer l’énergie mécanique d’un corps en additionnant énergie cinétique et énergie potentielle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer l’énergie consommée par un appareil à partir de sa puissance et du temps d’utilisation" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer la puissance d’un appareil connaissant l’énergie consommée et la durée de fonctionnement" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer une durée d’utilisation à partir de l’énergie consommée et de la puissance" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer et utiliser la conservation de l’énergie mécanique dans une situation simple" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Construire le diagramme énergétique d’un système simple en identifiant sources, transferts et conversions" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Étudier la conservation (ou non) de l’énergie mécanique à partir de données ou d’une situation expérimentale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "L’énergie et ses conversions" },
+  "chapitreTitre": { "S": "Les dangers de l’électricité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer l’intensité du courant dans un circuit électrique monté en série" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer l’intensité du courant dans un circuit électrique monté en dérivation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer la tension aux bornes de plusieurs dipôles associés en série" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la tension aux bornes de dipôles associés en dérivation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Lire l’intensité nominale indiquée sur une lampe ou un appareil électrique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Lire la tension nominale indiquée sur une lampe ou un appareil électrique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Appliquer les lois relatives à l’intensité électrique dans un circuit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Appliquer les lois relatives à la tension électrique dans un circuit" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Distinguer une intensité adaptée d’une intensité trop élevée ou insuffisante pour un récepteur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier un récepteur en situation normale, en surtension ou en sous-tension" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser la répartition des tensions dans un circuit en série" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser la répartition des tensions dans un circuit en dérivation" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Étudier le fonctionnement d’un circuit utilisant un fruit ou un légume comme générateur" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Prévoir les conséquences d’un changement de tension d’alimentation sur un circuit" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Mesurer correctement une tension électrique à l’aide d’un voltmètre" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les risques liés à l’utilisation d’une multiprise et comprendre les dangers électriques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#PHYCHIM#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Des signaux pour observer et communiquer" },
+  "chapitreTitre": { "S": "Transporter de l’information avec un signal lumineux ou sonore" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si une onde lumineuse appartient au domaine visible à partir de sa fréquence" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décider si un signal sonore est audible en utilisant sa fréquence" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier un infrason ou un ultrason à partir de la fréquence d’une onde sonore" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier le rôle d’un signal pour transmettre une information (émetteur, récepteur, support)" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le principe d’un codage de l’information (binaire, impulsions, variations)" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire les étapes du transport d’une information par un signal lumineux ou sonore" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer simplement comment une conversation téléphonique peut être transmise et reconstituée" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les risques liés à certaines lumières (intensité, UV, laser) et les précautions" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reconnaître les risques auditifs et les facteurs aggravants (durée, intensité, distance)" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer si un signal sonore peut être dangereux à partir d’informations chiffrées" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser le principe d’une radiographie à partir des interactions entre rayonnements et matière" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Exploiter un signal (écho/sonar) pour établir une cartographie simple d’un fond marin" } } }
+    ]
+  }
+}
+]

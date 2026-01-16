@@ -1,0 +1,604 @@
+[
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#TI#CI" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Thème introductif - Introduction" },
+  "chapitreTitre": { "S": "Mesures et incertitudes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les grandeurs physiques mesurées lors d’une expérience scientifique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer une grandeur physique à son unité du Système international (SI)" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Exprimer correctement un résultat de mesure avec son unité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la valeur mesurée à partir d’un instrument gradué" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les sources d’erreurs possibles lors d’une mesure expérimentale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer la précision de deux mesures à partir de leurs valeurs numériques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Exprimer un résultat de mesure sous la forme valeur ± incertitude" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Exploiter un intervalle de confiance pour comparer un résultat expérimental à une valeur de référence" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Constitution et transformation de la matière" },
+  "chapitreTitre": { "S": "Les mélanges" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’un corps pur, d’un mélange homogène et d’un mélange hétérogène" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer corps pur et mélange à partir d’une représentation microscopique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier un corps pur d’un mélange à l’aide de données expérimentales" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier un mélange homogène ou hétérogène à partir d’une photographie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Lire correctement le volume d’un liquide dans une éprouvette graduée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer le volume d’un solide par déplacement de liquide dans une éprouvette" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Lire le volume d’un gaz à partir d’un dispositif gradué adapté" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer la masse volumique d’une solution aqueuse à celle de l’eau pure" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Choisir l’outil expérimental adapté à l’identification d’une propriété physique ou chimique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Sélectionner un test chimique pertinent pour détecter une espèce donnée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Mettre en évidence la présence d’eau à l’aide du test au sulfate de cuivre anhydre" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier la présence de dihydrogène à l’aide du test de la détonation" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Détecter la présence de dioxyde de carbone grâce au test de l’eau de chaux" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les constituants d’un mélange par chromatographie sur couche mince" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Décrire la composition de l’air à partir de données scientifiques" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer le volume d’un constituant de l’air à partir d’un volume total d’air" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer la masse d’un constituant de l’air à partir de la masse d’un échantillon d’air" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Connaître l’ordre de grandeur de la masse volumique de l’air dans les conditions usuelles" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Classer une substance entre corps pur, mélange homogène et mélange hétérogène" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer la composition massique et volumique d’un mélange" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Calculer la masse volumique d’un corps à partir de sa masse et de son volume" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Exploiter des mesures expérimentales pour déterminer une masse volumique" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Identifier une espèce chimique à partir de sa masse volumique" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Déterminer expérimentalement une température de changement d’état" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Identifier une espèce chimique à partir de sa température de changement d’état" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Reconnaître une espèce chimique à partir du résultat d’un test chimique" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Calculer la masse d’un volume donné d’air à partir de sa masse volumique" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Calculer le volume d’une masse donnée d’air" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Calculer la masse volumique d’un gaz à partir de mesures expérimentales" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Analyser la composition et les mélanges présents dans un médicament" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Étudier la préparation et la stabilité d’une vinaigrette comme mélange" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Identifier un gaz à partir de la mesure de sa masse volumique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Constitution et transformation de la matière" },
+  "chapitreTitre": { "S": "Les solutions aqueuses" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les rôles du solvant, du soluté et de la solution dans une situation donnée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier soluté et solvant à partir de la composition d’une solution" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître le soluté et le solvant en analysant un protocole expérimental" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si une solution est saturée à partir d’une description ou d’observations" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Définir et interpréter la concentration massique d’une solution" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Distinguer dissolution et dilution en identifiant ce qui change dans la solution" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Choisir la verrerie adaptée pour préparer une solution par dilution" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer un facteur de dilution à partir des concentrations ou des volumes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Estimer l’incertitude associée à une mesure de masse réalisée avec une balance" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Estimer l’incertitude liée à l’utilisation d’une verrerie jaugée ou graduée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Choisir le matériel expérimental permettant de limiter les incertitudes" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer une concentration massique à partir de solutions étalons et de mesures de masse volumique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer la concentration massique d’une solution à partir de la masse de soluté et du volume de solution" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Choisir la verrerie adaptée pour préparer une solution par dissolution" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer la masse de soluté à peser pour préparer une solution de concentration donnée" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déterminer la concentration massique d’une solution préparée par dissolution" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Calculer le volume de solution à préparer connaissant la masse de soluté disponible et la concentration visée" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Trouver une grandeur manquante entre solution mère et solution fille à partir du facteur de dilution" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Déterminer une grandeur manquante entre solution mère et solution fille sans facteur de dilution donné explicitement" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Tracer une droite d’étalonnage à partir de solutions de concentration connue" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Déterminer la concentration massique d’une solution à partir d’une échelle de teintes" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Réaliser une préparation de solution par dissolution en respectant un protocole" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Réaliser une préparation de solution par dilution en respectant un protocole" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Déterminer une concentration de solution à partir d’une mesure de conductance" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Déterminer une concentration en ions permanganate dans une solution de Dakin à l’aide d’une échelle de teintes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Constitution et transformation de la matière" },
+  "chapitreTitre": { "S": "Les constituants de la matière" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les notions d’atome, de molécule et d’ion et leurs caractéristiques essentielles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer atome, molécule et ion à partir de leurs formules ou écritures" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier un cation ou un anion à partir de la charge indiquée dans sa formule" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les éléments chimiques constituant une espèce chimique à partir de sa formule" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier protons, neutrons et électrons dans la description d’un atome" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Associer l’atome et le noyau à des ordres de grandeur adaptés" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Distinguer corps simple et corps composé à partir de formules et d’exemples" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer si deux atomes sont des isotopes à partir de leur composition" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la composition d’un atome à partir de son écriture conventionnelle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Écrire l’écriture conventionnelle d’un atome à partir du nombre de protons et de nucléons" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Estimer la masse d’un atome à partir de sa composition ou de son écriture conventionnelle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier un élément chimique à partir du résultat d’un test de flamme" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Relier la structure d’un atome à des représentations (noyau, électrons, charge)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comparer plusieurs formes d’un même élément chimique (isotopes, ions) et interpréter leurs différences" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Constitution et transformation de la matière" },
+  "chapitreTitre": { "S": "La stabilité chimique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les principes de la configuration électronique d’un atome" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les sous-couches électroniques occupées dans l’atome d’argon" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Décrire la configuration électronique complète d’un atome" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la configuration électronique d’un atome à partir de son numéro atomique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les électrons de valence d’un atome de numéro atomique inférieur à 18" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Positionner les familles chimiques dans le tableau périodique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Décrire les propriétés chimiques caractéristiques des alcalins" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire les propriétés chimiques caractéristiques des alcalino-terreux" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire les propriétés chimiques caractéristiques des halogènes" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire les propriétés chimiques caractéristiques des gaz nobles" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Relier les familles chimiques à leurs propriétés communes" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Évaluer la stabilité d’un atome à partir de son écriture conventionnelle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier le gaz noble le plus proche d’un atome donné" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Nommer les ions H+, Na+, K+, Ca2+, Mg2+, Cl− et F−" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Écrire la formule des ions H+, Na+, K+, Ca2+, Mg2+, Cl− et F− à partir de leur nom" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Décrire les propriétés des ions H+, Na+, K+, Ca2+, Mg2+, Cl− et F−" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer le nombre de liaisons covalentes possibles pour un atome" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier les règles et caractéristiques du schéma de Lewis" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Distinguer doublets liants et non liants à partir d’un schéma de Lewis" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer le nombre de doublets liants et non liants d’un atome" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Écrire le schéma de Lewis d’un atome" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Écrire le schéma de Lewis d’une molécule simple" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Justifier la stabilité d’une molécule à l’aide de son schéma de Lewis" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Placer un atome dans le tableau périodique à partir de son écriture conventionnelle" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Déterminer l’ion stable susceptible d’être formé par un atome" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Calculer la charge électrique portée par un ion" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Comparer la solidité de deux liaisons à partir de leur énergie de liaison" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Étudier la stabilité chimique de l’atome d’azote à partir de sa configuration électronique" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Comparer la stabilité chimique de deux molécules à partir de leurs liaisons" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Constitution et transformation de la matière" },
+  "chapitreTitre": { "S": "La quantité de matière" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser la constante d’Avogadro pour relier quantité de matière et nombre d’entités" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer la quantité de matière correspondant à un nombre d’entités donné" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le nombre d’entités présentes dans une quantité de matière connue" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Exploiter la relation n = N/NA et l’utiliser dans des conversions simples" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer la masse molaire d’un atome à partir de son écriture conventionnelle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer la masse molaire d’un atome en utilisant le tableau périodique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer une masse molaire atomique à partir des abondances isotopiques" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer la masse molaire d’une molécule à partir des masses molaires atomiques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la masse molaire d’une molécule à l’aide du tableau périodique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier quantité de matière, masse et masse volumique pour un échantillon" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer une masse molaire à partir de données de masse et de masse volumique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Utiliser la relation n = m/M pour relier masse, masse molaire et quantité de matière" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer la quantité de matière d’un échantillon à partir de sa masse" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer la masse correspondant à une quantité de matière donnée" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer la masse molaire d’un échantillon à partir de sa masse et de sa quantité de matière" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier la composition d’un médicament en mobilisant la quantité de matière" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Interpréter des résultats d’analyse sanguine en lien avec des quantités de matière ou des concentrations" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Constitution et transformation de la matière" },
+  "chapitreTitre": { "S": "Les transformations physiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les caractéristiques des principaux changements d’état de la matière" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Nommer un changement d’état à partir des états initial et final de la matière" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier un changement d’état à partir de représentations microscopiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer une fusion d’une dissolution à partir d’une situation expérimentale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le sens du transfert thermique lors d’un changement d’état" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les caractéristiques des transformations physiques endothermiques et exothermiques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Qualifier une transformation physique comme endothermique ou exothermique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Interpréter la notion d’énergie massique associée à un changement d’état" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Écrire l’équation symbolique correspondant à un changement d’état" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer l’énergie transférée lors d’un changement d’état à partir de la masse et de l’énergie massique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer la masse d’une espèce connaissant l’énergie échangée lors du changement d’état" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer le caractère endothermique ou exothermique d’un changement d’état à partir de données énergétiques" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser les transformations physiques mises en jeu dans une bouillotte autochauffante" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Étudier les transformations physiques de la carboglace et leurs conséquences énergétiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Constitution et transformation de la matière" },
+  "chapitreTitre": { "S": "Les transformations chimiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’une réaction chimique et les éléments qui la décrivent" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer réactifs, produits et espèces spectatrices à partir d’une équation ou d’un texte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le réactif limitant à partir de l’état final et de l’équation de réaction" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Ajuster une équation de réaction en conservant les éléments chimiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Ajuster une équation ionique en respectant la conservation de la charge électrique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Équilibrer complètement une équation de réaction en combinant conservation des éléments et des charges" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier combustible, comburant et source d’énergie lors d’une combustion" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Repérer les éléments d’une combustion à partir d’une description expérimentale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les espèces d’une combustion à partir de son équation de réaction" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire le test de mise en évidence du dioxyde de carbone lors d’une combustion" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Conclure sur la présence de CO2 à partir du résultat d’un test" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier la famille des métaux et quelques propriétés communes utiles en chimie" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les tests de présence d’ions issus de l’action d’un acide sur un métal" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier des ions formés lors de l’action d’un acide sur un métal grâce à un test" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Décrire les objectifs et caractéristiques d’une synthèse chimique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Schématiser un montage de chauffage à reflux avec réfrigérant à air" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Schématiser un montage de chauffage à reflux avec réfrigérant à eau" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier les espèces présentes après une synthèse à l’aide d’une CCM" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Choisir ou reconstituer un protocole de synthèse chimique à partir d’indices expérimentaux" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Identifier les étapes d’une réaction chimique à partir d’une description (observations, réactifs, produits)" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Qualifier une transformation chimique d’endothermique ou d’exothermique à partir d’informations énergétiques" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Établir l’équation de réaction d’une combustion connue à partir des espèces en jeu" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Établir le bilan d’une réaction entre un métal et un acide (espèces initiales et finales)" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Étudier des transformations chimiques possibles au sein d’un mélange et identifier les espèces formées" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Analyser les étapes clés et les transformations mises en jeu dans la synthèse de l’aspirine" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Étudier une synthèse d’arôme artificiel en reliant protocole, sécurité et identification du produit" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Constitution et transformation de la matière" },
+  "chapitreTitre": { "S": "Les transformations nucléaires" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les caractéristiques des isotopes d’un élément chimique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si deux atomes sont isotopes à partir de leur composition nucléaire" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier des isotopes à partir de l’écriture conventionnelle des atomes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si un isotope est stable ou radioactif à partir de données fournies" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire les caractéristiques générales de la radioactivité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer le principe d’une désintégration radioactive" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Associer un type de désintégration radioactive aux particules émises" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier le type de désintégration radioactive à partir d’une équation nucléaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter une équation de désintégration radioactive en appliquant la loi de Soddy" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Établir l’équation de désintégration radioactive d’un noyau connaissant le type de désintégration" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Décrire les caractéristiques d’une réaction de fusion nucléaire" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Écrire l’équation d’une réaction de fusion nucléaire à partir des écritures conventionnelles des noyaux" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Décrire les caractéristiques d’une réaction de fission nucléaire" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Établir l’écriture d’une réaction de fission nucléaire simple" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Distinguer une réaction de fusion d’une réaction de fission nucléaire à partir d’une situation donnée" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Compléter une équation de réaction nucléaire en appliquant les lois de conservation" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Analyser la désintégration d’un élément radioactif naturel" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Étudier une réaction de fusion nucléaire se produisant au cœur du Soleil" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Analyser une réaction de fission nucléaire mise en œuvre dans une centrale nucléaire" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T2#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Mouvement et interactions" },
+  "chapitreTitre": { "S": "La description du mouvement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir le système pertinent pour étudier un mouvement dans une situation donnée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire les caractéristiques des référentiels terrestre, géocentrique et héliocentrique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le référentiel le plus adapté à l’étude d’un système en mouvement" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier la trajectoire d’un système à partir d’une chronophotographie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Caractériser les informations perdues lorsqu’un système est modélisé par un point" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer la vitesse moyenne d’un point à partir de la distance parcourue et de la durée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la norme d’un vecteur vitesse instantanée en un point à partir de données de chronophotographie" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire la variation de vecteurs vitesse à partir d’une chronophotographie" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire un mouvement dans le référentiel terrestre en utilisant un vocabulaire adapté" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire un mouvement dans un référentiel donné (trajectoire, vitesse, sens)" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer la norme d’un vecteur directeur dans un référentiel en mouvement relatif" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Mettre en évidence l’influence du référentiel choisi sur la description d’un même mouvement" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Tracer le vecteur déplacement d’un système à partir d’une chronophotographie" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Tracer le vecteur vitesse moyenne d’un système à partir d’une chronophotographie" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Tracer le vecteur vitesse instantanée d’un système à partir d’une chronophotographie" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier le mouvement d’un véhicule en exploitant des mesures et des représentations" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier le mouvement d’un projectile en analysant sa trajectoire et l’évolution de sa vitesse" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T2#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Mouvement et interactions" },
+  "chapitreTitre": { "S": "Les forces et le principe d'inertie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les caractéristiques d’une action mécanique exercée sur un système" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier l’acteur et le receveur lors d’une interaction mécanique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer une interaction de contact d’une interaction à distance" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire une force à l’aide de sa représentation vectorielle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Représenter correctement une force par un vecteur sur un schéma" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Énoncer et exploiter la troisième loi de Newton (actions réciproques)" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Décrire les caractéristiques de la force d’interaction gravitationnelle exercée sur un système" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les caractéristiques du poids appliqué à un système" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire la réaction normale exercée par un support sur un système immobile" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire les caractéristiques de la force de tension exercée par un fil" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déduire une force à partir du principe des actions réciproques et d’une force connue" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les actions mécaniques s’exerçant sur un système et les modéliser par des forces simples" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Dresser le bilan des forces s’exerçant sur un système étudié" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Énoncer et utiliser le principe d’inertie dans une situation donnée" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Reconnaître une situation où les forces appliquées à un système se compensent" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déduire la nature du mouvement d’un système à partir du principe d’inertie" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Rappeler et utiliser les caractéristiques complètes d’une force" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Calculer la valeur d’une force d’interaction gravitationnelle s’exerçant sur un système" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Calculer la valeur du poids d’un système à partir de sa masse" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Tracer le vecteur poids appliqué à un système" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Tracer la réaction normale du support s’exerçant sur un système immobile" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Tracer la force de tension exercée par un fil sur un système" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Déduire une information sur le bilan des forces à l’aide de la contraposée du principe d’inertie" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Déterminer une force inconnue en exploitant le principe d’inertie" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Identifier la nullité ou non du bilan des forces à partir de l’évolution du mouvement" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Représenter la force d’interaction gravitationnelle exercée sur un système" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Relier la force de gravitation et le poids d’un objet dans un contexte donné" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Étudier le mouvement de la Lune en identifiant les forces qui s’exercent sur elle" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Analyser les forces s’exerçant sur un skateur lors de son mouvement" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Ondes et signaux" },
+  "chapitreTitre": { "S": "L'émission d'un son" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire comment un objet vibrant et une caisse de résonance permettent l’émission d’un son" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier l’objet vibrant et la caisse de résonance dans une situation d’émission sonore" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer la vitesse de propagation d’un son à partir d’une distance et d’un retard mesuré" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître les caractéristiques d’un signal périodique à partir d’une représentation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer la vitesse du son dans un milieu donné à celle dans l’air" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Repérer un motif élémentaire sur l’enregistrement temporel d’un signal périodique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la période d’un signal sonore périodique à partir de sa courbe temporelle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mesurer un retard entre deux signaux à l’aide d’un oscilloscope" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer une vitesse de propagation à partir de mesures réalisées à l’oscilloscope" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer la fréquence d’un signal périodique à partir de sa période" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer la période d’un signal périodique à partir de sa fréquence" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Utiliser la relation T = 1/f pour relier période et fréquence d’un signal périodique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Mettre en évidence le rôle du milieu matériel dans la propagation d’un signal sonore" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T3#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Ondes et signaux" },
+  "chapitreTitre": { "S": "La perception d'un son" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les grandeurs caractérisant l’intensité sonore et leur signification" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer l’amplitude d’un signal sonore à partir de sa représentation temporelle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire la fréquence fondamentale d’un son à partir de son spectre fréquentiel" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer une représentation temporelle et une représentation fréquentielle d’un son pur" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer les fréquences des harmoniques d’un signal périodique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les harmoniques présentes dans le spectre d’un son" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Classer un signal sonore comme infrason, son audible ou ultrason à partir de sa fréquence" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Relier hauteur et timbre d’un son à ses caractéristiques fréquentielles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer si deux sons ont la même hauteur à partir de leurs spectres" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comparer la hauteur de deux sons à partir de leurs représentations temporelles" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer un niveau d’intensité sonore à partir de l’intensité sonore" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer l’intensité sonore correspondant à un niveau d’intensité sonore donné" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Utiliser la relation reliant intensité sonore et niveau d’intensité sonore" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Lire un niveau d’intensité sonore sur une échelle graduée en décibels" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Exploiter une échelle de niveaux sonores pour comparer différentes sources" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser l’atténuation du son produite par des bouchons d’oreille en mousse" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier les sons émis par une guitare à partir de leurs représentations temporelles et fréquentielles" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déterminer si un signal sonore présente un risque pour l’audition à partir de son niveau et de sa durée d’exposition" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T3#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Ondes et signaux" },
+  "chapitreTitre": { "S": "Les spectres lumineux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser le modèle du rayon lumineux pour représenter un trajet de lumière" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire les caractéristiques de la propagation rectiligne de la lumière dans un milieu homogène" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer la vitesse de la lumière dans le vide et dans l’air à d’autres vitesses usuelles" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire les caractéristiques du spectre de la lumière visible (domaines de longueurs d’onde et couleurs)" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer la longueur d’onde d’une onde lumineuse à partir de sa période" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer la période d’une onde lumineuse à partir de sa longueur d’onde" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Décider si une lumière est monochromatique ou polychromatique à partir de son spectre" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier la couleur d’un rayonnement lumineux à partir de son spectre" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire les caractéristiques d’un spectre d’émission et ses informations" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Lire des longueurs d’onde sur un spectre de raies d’émission" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Utiliser la relation liant longueur d’onde, période et célérité d’une onde lumineuse" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Lire la longueur d’onde d’un rayonnement monochromatique à partir de son spectre" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Associer un spectre continu de corps chaud à une température en exploitant des données" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Distinguer un spectre d’émission continu d’un spectre de raies d’émission" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier un gaz grâce à son spectre de raies et à des longueurs d’onde caractéristiques" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser la lumière émise par un corps incandescent à partir de son spectre" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Caractériser la lumière émise par un laser en exploitant son spectre" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier un gaz contenu dans une ampoule fluocompacte à partir de son spectre d’émission" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T3#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Ondes et signaux" },
+  "chapitreTitre": { "S": "La réflexion et la réfraction de la lumière" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les phénomènes de réflexion et de réfraction de la lumière" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Tracer la normale à une surface au point d’incidence d’un rayon lumineux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer angle d’incidence, angle de réflexion et angle de réfraction" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Énoncer et utiliser les lois de Snell-Descartes pour la réflexion" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Énoncer et utiliser les lois de Snell-Descartes pour la réfraction" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Vérifier expérimentalement la deuxième loi de Snell-Descartes pour la réfraction" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer qualitativement la dispersion de la lumière par un prisme" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer l’indice de réfraction d’un milieu à partir de la vitesse de propagation de la lumière" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la vitesse de propagation de la lumière dans un milieu à partir de son indice" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Utiliser la relation entre indice de réfraction et célérité de la lumière" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Représenter graphiquement une situation de réflexion sur un schéma" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer l’indice de réfraction d’un milieu à partir des lois de Snell-Descartes" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer l’angle de réfraction à partir des lois de Snell-Descartes" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Représenter graphiquement une situation de réfraction de la lumière" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer l’indice de réfraction d’un milieu à partir d’une série de mesures expérimentales" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier un milieu transparent à partir de son indice de réfraction" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier la propagation d’un signal lumineux dans une fibre optique" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Analyser la déviation de la lumière lors de son passage dans un prisme" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T3#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Ondes et signaux" },
+  "chapitreTitre": { "S": "Les systèmes optiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire le modèle de la lentille mince et ses éléments caractéristiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les propriétés d’une lentille mince convergente" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître une lentille convergente ou divergente à partir d’un schéma optique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer le signe d’une distance algébrique sur un schéma optique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Écrire correctement la notation algébrique d’une distance sur l’axe optique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le foyer objet et le foyer image d’une lentille sur un schéma" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Lire la position d’une image à partir d’un schéma optique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Lire la taille d’une image à partir d’un schéma optique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Tracer un rayon caractéristique issu d’un objet réel placé avant le foyer objet" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Construire l’image d’un objet réel placé avant le foyer objet à l’aide de rayons caractéristiques" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer le grandissement à partir des tailles de l’objet et de l’image" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer le grandissement à partir des positions de l’objet et de l’image" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Utiliser le grandissement pour déterminer la position d’un objet ou d’une image" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Utiliser le grandissement pour déterminer la taille d’un objet ou d’une image" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Interpréter le signe et la valeur du grandissement pour caractériser une image" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déterminer les caractéristiques d’une lentille à partir de sa représentation sur l’axe optique" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Identifier les principaux éléments optiques de l’œil humain" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Associer les éléments optiques de l’œil à ceux d’un système optique modélisé" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Analyser la mise au point d’un appareil photo à l’aide du modèle de la lentille mince" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Étudier le phénomène d’accommodation de l’œil et son lien avec la formation des images" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T3#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Ondes et signaux" },
+  "chapitreTitre": { "S": "Les circuits électriques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire les conventions générateur et récepteur utilisées en électricité" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les principaux dipôles électriques et leurs rôles dans un circuit" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Associer un circuit réel au schéma électrique correspondant" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconstituer un circuit électrique à partir de son schéma normalisé" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le sens conventionnel du courant dans un circuit électrique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compter le nombre de mailles présentes dans un circuit électrique donné" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier la branche principale dans un circuit monté en dérivation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire les caractéristiques de l’intensité du courant électrique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Réaliser correctement le branchement d’un ampèremètre dans un circuit" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire les caractéristiques de la tension électrique aux bornes d’un dipôle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Orienter correctement une maille pour appliquer les lois électriques" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier si un circuit est monté en série ou en dérivation" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer une intensité électrique à l’aide de la loi d’unicité de l’intensité" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer une intensité électrique en appliquant la loi des nœuds" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Réaliser correctement le branchement d’un voltmètre dans un circuit" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer une tension électrique à l’aide de la loi d’unicité de la tension" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Calculer une tension électrique en appliquant la loi des mailles" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Choisir le montage électrique le plus adapté à une situation donnée" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#PHYCHIM#T3#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Physique-Chimie" },
+  "themeTitre": { "S": "Ondes et signaux" },
+  "chapitreTitre": { "S": "Les conducteurs ohmiques et les capteurs électriques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire ce que représente la caractéristique courant-tension d’un dipôle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître la caractéristique d’un conducteur ohmique parmi plusieurs courbes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Exploiter une caractéristique de dipôle pour déterminer une tension ou une intensité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la résistance d’un conducteur ohmique à partir de sa caractéristique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les fonctions et propriétés d’un capteur électrique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier grandeur d’entrée et grandeur de sortie d’un capteur dans une chaîne de mesure" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Tracer la caractéristique U=f(I) d’un dipôle à partir de mesures" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer la tension aux bornes d’un dipôle ohmique en appliquant la loi d’Ohm" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer l’intensité traversant un dipôle ohmique à partir de la tension et de la résistance" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer la résistance d’un dipôle ohmique à partir de mesures de tension et d’intensité" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Mobiliser la loi d’Ohm pour calculer U, I ou R selon les données disponibles" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer le point de fonctionnement d’un circuit à deux dipôles à partir de leurs caractéristiques" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Choisir un microcontrôleur et un capteur adaptés pour mesurer une grandeur physique" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Exploiter une courbe d’étalonnage pour convertir un signal de capteur en valeur mesurée" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer expérimentalement la valeur de la résistance d’un conducteur ohmique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier le fonctionnement d’une thermistance à partir de sa caractéristique et d’un étalonnage" } } }
+    ]
+  }
+}
+]
