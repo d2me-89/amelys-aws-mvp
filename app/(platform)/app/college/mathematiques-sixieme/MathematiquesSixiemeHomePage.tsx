@@ -415,7 +415,7 @@ export default function MathematiquesSixiemeHomePage() {
           background: "rgba(255,255,255,0.08)",
           border: "1px solid rgba(255,255,255,0.2)",
           borderRadius: "16px",
-          overflow: "hidden",
+          overflow: "visible",
           marginBottom: "1.5rem",
           marginLeft: "0",
           maxWidth: "780px"
@@ -536,7 +536,9 @@ export default function MathematiquesSixiemeHomePage() {
                       padding: "0.75rem",
                       background: "rgba(0,0,0,0.2)",
                       borderRadius: "12px",
-                      border: "1px solid rgba(159, 122, 234, 0.2)"
+                      border: "1px solid rgba(159, 122, 234, 0.2)",
+                      position: "relative",
+                      zIndex: 1
                     }}>
                       {/* 1. Cours interactif */}
                       <Link
@@ -637,13 +639,13 @@ export default function MathematiquesSixiemeHomePage() {
                             top: 0,
                             width: "420px",
                             padding: "0.75rem",
-                            background: "rgba(0,0,0,0.95)",
+                            background: "rgba(15,15,25,0.98)",
                             borderRadius: "12px",
-                            border: "1px solid rgba(159, 122, 234, 0.3)",
+                            border: "1px solid rgba(159, 122, 234, 0.4)",
                             maxHeight: "500px",
                             overflowY: "auto",
-                            boxShadow: "0 8px 24px rgba(0,0,0,0.4)",
-                            zIndex: 100
+                            boxShadow: "0 8px 24px rgba(0,0,0,0.6)",
+                            zIndex: 9999
                           }}>
                             {/* Titre du sous-menu */}
                             <div style={{
