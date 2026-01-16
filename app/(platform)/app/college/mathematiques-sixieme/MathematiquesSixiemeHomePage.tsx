@@ -61,8 +61,42 @@ export default function MathematiquesSixiemeHomePage() {
         minHeight: "240px",
         display: "flex",
         alignItems: "flex-start",
-        justifyContent: "center"
+        justifyContent: "center",
+        overflow: "hidden"
       }}>
+        {/* Motifs mathématiques décoratifs en arrière-plan */}
+        <div style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          opacity: 0.08,
+          pointerEvents: "none",
+          fontSize: "4rem",
+          color: "#fff",
+          fontWeight: 300,
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "3rem",
+          padding: "2rem",
+          justifyContent: "space-around",
+          alignItems: "center"
+        }}>
+          <span style={{ transform: "rotate(-15deg)" }}>∑</span>
+          <span style={{ transform: "rotate(12deg)" }}>π</span>
+          <span style={{ transform: "rotate(-8deg)" }}>∫</span>
+          <span style={{ transform: "rotate(20deg)" }}>√</span>
+          <span style={{ transform: "rotate(-12deg)" }}>∞</span>
+          <span style={{ transform: "rotate(15deg)" }}>÷</span>
+          <span style={{ transform: "rotate(-20deg)" }}>×</span>
+          <span style={{ transform: "rotate(10deg)" }}>²</span>
+          <span style={{ transform: "rotate(-15deg)" }}>³</span>
+          <span style={{ transform: "rotate(18deg)" }}>≈</span>
+          <span style={{ transform: "rotate(-10deg)" }}>≠</span>
+          <span style={{ transform: "rotate(8deg)" }}>°</span>
+        </div>
+
         {/* Conteneur centré avec largeur max */}
         <div style={{
           width: "100%",
