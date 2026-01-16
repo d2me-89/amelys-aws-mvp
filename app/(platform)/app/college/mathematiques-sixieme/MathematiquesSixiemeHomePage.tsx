@@ -297,7 +297,7 @@ export default function MathematiquesSixiemeHomePage() {
           overflow: "hidden",
           marginBottom: "1.5rem",
           marginLeft: "0",
-          maxWidth: "390px"
+          maxWidth: "780px"
         }}>
           {/* En-tête cliquable */}
           <button
@@ -366,7 +366,7 @@ export default function MathematiquesSixiemeHomePage() {
                     onClick={() => toggleChapter(chapitre.id)}
                     style={{
                       width: "100%",
-                      padding: "1rem 1.5rem",
+                      padding: "0.8rem 1.5rem",
                       background: openChapters[chapitre.id] 
                         ? "rgba(159, 122, 234, 0.1)" 
                         : "rgba(255,255,255,0.03)",
@@ -393,26 +393,19 @@ export default function MathematiquesSixiemeHomePage() {
                     {/* Gauche : Numéro + Titre */}
                     <div style={{ flex: 1 }}>
                       <div style={{
-                        fontSize: "0.95rem",
-                        color: "#9F7AEA",
+                        fontSize: "1.1rem",
+                        color: "#B794F6",
                         fontWeight: 600,
-                        marginBottom: "0.3rem"
+                        marginBottom: "0.4rem"
                       }}>
-                        Chapitre {index + 1} • {chapitre.theme}
+                        Chapitre {index + 1}. {chapitre.titre}
                       </div>
                       <div style={{
-                        fontSize: "1.15rem",
-                        fontWeight: 600,
-                        color: "#fff"
+                        fontSize: "0.9rem",
+                        color: "#fff",
+                        fontWeight: 400
                       }}>
-                        {chapitre.titre}
-                      </div>
-                      <div style={{
-                        fontSize: "0.95rem",
-                        color: "rgba(255,255,255,0.5)",
-                        marginTop: "0.3rem"
-                      }}>
-                        {chapitre.nombreExercices} exercices interactifs
+                        Cours • {chapitre.nombreExercices} exercices interactifs • Contrôle • Discussion libre
                       </div>
                     </div>
 
