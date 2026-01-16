@@ -14,7 +14,7 @@ export default function MathematiquesSixiemeHomePage() {
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
   const [openCompetences, setOpenCompetences] = useState<Record<string, boolean>>({});
 
-  // Extraire les donnÃ©es des chapitres du JSON
+  // Extraire les données des chapitres du JSON
   const chapitres = useMemo(() => {
     return chapitresData.map((chapitre: any, index: number) => ({
       id: `C${index + 1}`,
@@ -44,16 +44,16 @@ export default function MathematiquesSixiemeHomePage() {
 
   return (
     <AppLayout>
-      {/* Bande pour icÃ´nes et recherche (Ã  venir) */}
+      {/* Bande pour icônes et recherche (à venir) */}
       <div style={{
         background: "var(--background)",
         height: "70px",
         borderBottom: "1px solid rgba(255,255,255,0.1)"
       }}>
-        {/* Espace rÃ©servÃ© pour icÃ´nes et moteur de recherche */}
+        {/* Espace réservé pour icônes et moteur de recherche */}
       </div>
 
-      {/* Bandeau supÃ©rieur avec dÃ©gradÃ© violet */}
+      {/* Bandeau supérieur avec dégradé violet */}
       <div style={{
         background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 50%, #6B46C1 100%)",
         padding: "3rem 4rem",
@@ -63,7 +63,7 @@ export default function MathematiquesSixiemeHomePage() {
         alignItems: "flex-start",
         justifyContent: "center"
       }}>
-        {/* Conteneur centrÃ© avec largeur max */}
+        {/* Conteneur centré avec largeur max */}
         <div style={{
           width: "100%",
           maxWidth: "1350px",
@@ -74,7 +74,7 @@ export default function MathematiquesSixiemeHomePage() {
         }}>
         {/* Partie gauche : Niveau + Titre */}
         <div style={{ flex: 1 }}>
-          {/* Badge SixiÃ¨me - cliquable */}
+          {/* Badge Sixième - cliquable */}
           <Link
             href="/app/college"
             style={{
@@ -106,7 +106,7 @@ export default function MathematiquesSixiemeHomePage() {
               e.currentTarget.style.boxShadow = "0 2px 8px rgba(0,0,0,0.1)";
             }}
             >
-              SixiÃ¨me
+              Sixième
             </div>
           </Link>
 
@@ -119,11 +119,11 @@ export default function MathematiquesSixiemeHomePage() {
             lineHeight: 1.2,
             textShadow: "0 2px 10px rgba(0,0,0,0.2)"
           }}>
-            MathÃ©matiques
+            Mathématiques
           </h1>
         </div>
 
-        {/* Partie droite : Carte blanche avec CTA - PositionnÃ©e pour chevaucher */}
+        {/* Partie droite : Carte blanche avec CTA - Positionnée pour chevaucher */}
         <div style={{
           background: "#fff",
           borderRadius: "16px",
@@ -172,7 +172,7 @@ export default function MathematiquesSixiemeHomePage() {
             </button>
           </Link>
 
-          {/* SÃ©parateur */}
+          {/* Séparateur */}
           <div style={{
             height: "1px",
             background: "linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent)",
@@ -246,7 +246,7 @@ export default function MathematiquesSixiemeHomePage() {
         justifyContent: "center"
       }}>
         <div style={{ width: "100%", maxWidth: "1350px" }}>
-        {/* Section Les mathÃ©matiques en sixiÃ¨me - EN PREMIER */}
+        {/* Section Les mathématiques en sixième - EN PREMIER */}
         <div style={{
           background: "rgba(255,255,255,0.08)",
           border: "1px solid rgba(255,255,255,0.2)",
@@ -256,21 +256,12 @@ export default function MathematiquesSixiemeHomePage() {
           marginLeft: "0",
           maxWidth: "780px"
         }}>
-          {/* En-tÃªte cliquable */}
-          <div
-            role="button"
-            tabIndex={0}
+          {/* En-tête cliquable */}
+          <button
+            type="button"
             onClick={(e) => {
               e.preventDefault();
-              e.stopPropagation();
               setIsMathsSixiemeOpen(!isMathsSixiemeOpen);
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                e.stopPropagation();
-                setIsMathsSixiemeOpen(!isMathsSixiemeOpen);
-              }
             }}
             style={{
               width: "100%",
@@ -281,8 +272,7 @@ export default function MathematiquesSixiemeHomePage() {
               alignItems: "center",
               justifyContent: "space-between",
               cursor: "pointer",
-              transition: "background 0.2s ease",
-              outline: "none"
+              transition: "background 0.2s ease"
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = "rgba(255,255,255,0.03)";
@@ -291,7 +281,7 @@ export default function MathematiquesSixiemeHomePage() {
               e.currentTarget.style.background = "transparent";
             }}
           >
-            {/* Gauche : IcÃ´ne + Titre */}
+            {/* Gauche : Icône + Titre */}
             <div style={{
               display: "flex",
               alignItems: "center",
@@ -314,17 +304,17 @@ export default function MathematiquesSixiemeHomePage() {
                 fontWeight: 700,
                 color: "#fff"
               }}>
-                Les mathÃ©matiques en sixiÃ¨me
+                Les mathématiques en sixième
               </span>
             </div>
 
-            {/* Droite : IcÃ´ne chevron */}
+            {/* Droite : Icône chevron */}
             <div style={{ color: "rgba(255,255,255,0.6)" }}>
               {isMathsSixiemeOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
             </div>
-          </div>
+          </button>
 
-          {/* Contenu dÃ©roulant */}
+          {/* Contenu déroulant */}
           {isMathsSixiemeOpen && (
             <div style={{
               padding: "0 1.5rem 1.5rem 1.5rem",
@@ -336,13 +326,13 @@ export default function MathematiquesSixiemeHomePage() {
                 color: "rgba(255,255,255,0.7)",
                 fontStyle: "italic"
               }}>
-                ðŸ« Contenu "Les mathÃ©matiques en sixiÃ¨me" Ã  venir...
+                🏫 Contenu "Les mathématiques en sixième" à venir...
               </p>
             </div>
           )}
         </div>
 
-        {/* Section FAQ - EN 2ÃˆME POSITION */}
+        {/* Section FAQ - EN 2ÈME POSITION */}
         <div style={{
           background: "rgba(255,255,255,0.08)",
           border: "1px solid rgba(255,255,255,0.2)",
@@ -352,21 +342,12 @@ export default function MathematiquesSixiemeHomePage() {
           marginLeft: "0",
           maxWidth: "780px"
         }}>
-          {/* En-tÃªte cliquable FAQ */}
-          <div
-            role="button"
-            tabIndex={0}
+          {/* En-tête cliquable FAQ */}
+          <button
+            type="button"
             onClick={(e) => {
               e.preventDefault();
-              e.stopPropagation();
               setIsFAQOpen(!isFAQOpen);
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                e.stopPropagation();
-                setIsFAQOpen(!isFAQOpen);
-              }
             }}
             style={{
               width: "100%",
@@ -377,8 +358,7 @@ export default function MathematiquesSixiemeHomePage() {
               alignItems: "center",
               justifyContent: "space-between",
               cursor: "pointer",
-              transition: "background 0.2s ease",
-              outline: "none"
+              transition: "background 0.2s ease"
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = "rgba(255,255,255,0.03)";
@@ -387,7 +367,7 @@ export default function MathematiquesSixiemeHomePage() {
               e.currentTarget.style.background = "transparent";
             }}
           >
-            {/* Gauche : IcÃ´ne + Titre */}
+            {/* Gauche : Icône + Titre */}
             <div style={{
               display: "flex",
               alignItems: "center",
@@ -414,13 +394,13 @@ export default function MathematiquesSixiemeHomePage() {
               </span>
             </div>
 
-            {/* Droite : IcÃ´ne chevron */}
+            {/* Droite : Icône chevron */}
             <div style={{ color: "rgba(255,255,255,0.6)" }}>
               {isFAQOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
             </div>
-          </div>
+          </button>
 
-          {/* Contenu dÃ©roulant : FAQ */}
+          {/* Contenu déroulant : FAQ */}
           {isFAQOpen && (
             <div style={{
               padding: "0 1.5rem 1.5rem 1.5rem",
@@ -432,7 +412,7 @@ export default function MathematiquesSixiemeHomePage() {
                 color: "rgba(255,255,255,0.7)",
                 fontStyle: "italic"
               }}>
-                â“ Contenu FAQ Ã  venir...
+                ❓ Contenu FAQ à venir...
               </p>
             </div>
           )}
@@ -443,26 +423,17 @@ export default function MathematiquesSixiemeHomePage() {
           background: "rgba(255,255,255,0.08)",
           border: "1px solid rgba(255,255,255,0.2)",
           borderRadius: "16px",
-          overflow: "visible",
+          overflow: "hidden",
           marginBottom: "1.5rem",
           marginLeft: "0",
           maxWidth: "780px"
         }}>
           {/* En-tête cliquable */}
-          <div
-            role="button"
-            tabIndex={0}
+          <button
+            type="button"
             onClick={(e) => {
               e.preventDefault();
-              e.stopPropagation();
               setIsPlanCoursOpen(!isPlanCoursOpen);
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                e.stopPropagation();
-                setIsPlanCoursOpen(!isPlanCoursOpen);
-              }
             }}
             style={{
               width: "100%",
@@ -473,8 +444,7 @@ export default function MathematiquesSixiemeHomePage() {
               alignItems: "center",
               justifyContent: "space-between",
               cursor: "pointer",
-              transition: "background 0.2s ease",
-              outline: "none"
+              transition: "background 0.2s ease"
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = "rgba(255,255,255,0.03)";
@@ -483,7 +453,7 @@ export default function MathematiquesSixiemeHomePage() {
               e.currentTarget.style.background = "transparent";
             }}
           >
-            {/* Gauche : IcÃ´ne + Titre */}
+            {/* Gauche : Icône + Titre */}
             <div style={{
               display: "flex",
               alignItems: "center",
@@ -510,13 +480,13 @@ export default function MathematiquesSixiemeHomePage() {
               </span>
             </div>
 
-            {/* Droite : IcÃ´ne chevron */}
+            {/* Droite : Icône chevron */}
             <div style={{ color: "rgba(255,255,255,0.6)" }}>
               {isPlanCoursOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
             </div>
-          </div>
+          </button>
 
-          {/* Contenu dÃ©roulant : Liste des chapitres */}
+          {/* Contenu déroulant : Liste des chapitres */}
           {isPlanCoursOpen && (
             <div style={{
               padding: "0 2rem 1.5rem 2rem",
@@ -525,21 +495,8 @@ export default function MathematiquesSixiemeHomePage() {
               {chapitres.map((chapitre, index) => (
                 <div key={chapitre.id} style={{ marginTop: "1rem" }}>
                   {/* Bouton chapitre */}
-                  <div
-                    role="button"
-                    tabIndex={0}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      toggleChapter(chapitre.id);
-                    }}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        toggleChapter(chapitre.id);
-                      }
-                    }}
+                  <button
+                    onClick={() => toggleChapter(chapitre.id)}
                     style={{
                       width: "100%",
                       padding: "0.8rem 1.5rem",
@@ -554,8 +511,7 @@ export default function MathematiquesSixiemeHomePage() {
                       gap: "1rem",
                       cursor: "pointer",
                       transition: "all 0.2s ease",
-                      textAlign: "left",
-                      outline: "none"
+                      textAlign: "left"
                     }}
                     onMouseEnter={(e) => {
                       if (!openChapters[chapitre.id]) {
@@ -568,7 +524,7 @@ export default function MathematiquesSixiemeHomePage() {
                       }
                     }}
                   >
-                    {/* Chevron Ã  gauche */}
+                    {/* Chevron à gauche */}
                     <div style={{ color: "rgba(255,255,255,0.5)", flexShrink: 0 }}>
                       {openChapters[chapitre.id] ? <LuChevronUp size={20} /> : <LuChevronDown size={20} />}
                     </div>
@@ -583,7 +539,7 @@ export default function MathematiquesSixiemeHomePage() {
                         Chapitre {index + 1}. {chapitre.titre}
                       </div>
                     </div>
-                  </div>
+                  </button>
 
                   {/* Sous-menu : 5 liens */}
                   {openChapters[chapitre.id] && (
@@ -621,7 +577,7 @@ export default function MathematiquesSixiemeHomePage() {
                         </div>
                       </Link>
 
-                      {/* 2. Exercice en binÃ´me */}
+                      {/* 2. Exercice en binôme */}
                       <Link
                         href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/binome`}
                         style={{ textDecoration: "none" }}
@@ -641,12 +597,12 @@ export default function MathematiquesSixiemeHomePage() {
                         >
                           <LuUsers size={18} style={{ color: "#B794F6" }} />
                           <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
-                            Exercice en binÃ´me
+                            Exercice en binôme
                           </span>
                         </div>
                       </Link>
 
-                      {/* 3. CompÃ©tences clÃ©s (avec sous-menu dÃ©roulant) */}
+                      {/* 3. Compétences clés (avec sous-menu déroulant) */}
                       <div style={{ marginBottom: "0.4rem", position: "relative" }}>
                         <div
                           onClick={() => toggleCompetences(chapitre.id)}
@@ -674,7 +630,7 @@ export default function MathematiquesSixiemeHomePage() {
                           <div style={{ display: "flex", alignItems: "center", gap: "0.7rem" }}>
                             <LuTarget size={18} style={{ color: "#B794F6" }} />
                             <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
-                              CompÃ©tences clÃ©s
+                              Compétences clés
                             </span>
                           </div>
                           <LuChevronRight 
@@ -687,7 +643,7 @@ export default function MathematiquesSixiemeHomePage() {
                           />
                         </div>
 
-                        {/* Sous-menu des exercices - POSITIONNÃ‰ Ã€ DROITE */}
+                        {/* Sous-menu des exercices - POSITIONNÉ À DROITE */}
                         {openCompetences[chapitre.id] && (
                           <div style={{
                             position: "absolute",
@@ -767,7 +723,7 @@ export default function MathematiquesSixiemeHomePage() {
                         )}
                       </div>
 
-                      {/* 4. ContrÃ´le du chapitre */}
+                      {/* 4. Contrôle du chapitre */}
                       <Link
                         href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/controle`}
                         style={{ textDecoration: "none" }}
@@ -787,7 +743,7 @@ export default function MathematiquesSixiemeHomePage() {
                         >
                           <LuClipboardCheck size={18} style={{ color: "#B794F6" }} />
                           <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
-                            ContrÃ´le du chapitre
+                            Contrôle du chapitre
                           </span>
                         </div>
                       </Link>
