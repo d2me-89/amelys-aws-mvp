@@ -3,7 +3,7 @@
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState, useMemo } from "react";
-import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool } from "react-icons/lu";
+import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 
 export default function MathematiquesSixiemeHomePage() {
@@ -12,6 +12,7 @@ export default function MathematiquesSixiemeHomePage() {
   const [isFAQOpen, setIsFAQOpen] = useState(false);
   const [isMathsSixiemeOpen, setIsMathsSixiemeOpen] = useState(false);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
+  const [openCompetences, setOpenCompetences] = useState<Record<string, boolean>>({});
 
   // Extraire les données des chapitres du JSON
   const chapitres = useMemo(() => {
@@ -29,6 +30,13 @@ export default function MathematiquesSixiemeHomePage() {
 
   const toggleChapter = (chapterId: string) => {
     setOpenChapters(prev => ({
+      ...prev,
+      [chapterId]: !prev[chapterId]
+    }));
+  };
+
+  const toggleCompetences = (chapterId: string) => {
+    setOpenCompetences(prev => ({
       ...prev,
       [chapterId]: !prev[chapterId]
     }));
@@ -521,27 +529,193 @@ export default function MathematiquesSixiemeHomePage() {
                     </div>
                   </button>
 
-                  {/* Sous-menu : Liste des exercices (à venir) */}
+                  {/* Sous-menu : 5 liens */}
                   {openChapters[chapitre.id] && (
                     <div style={{
                       marginTop: "0.5rem",
-                      padding: "1rem 1.5rem",
+                      padding: "0.75rem",
                       background: "rgba(0,0,0,0.2)",
                       borderRadius: "12px",
-                      border: "1px solid rgba(159, 122, 234, 0.2)",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem"
+                      border: "1px solid rgba(159, 122, 234, 0.2)"
                     }}>
-                      <LuSparkles size={16} style={{ color: "rgba(159, 122, 234, 0.8)" }} />
-                      <p style={{
-                        margin: 0,
-                        fontSize: "0.9rem",
-                        color: "rgba(255,255,255,0.6)",
-                        fontStyle: "italic"
-                      }}>
-                        Liste des {chapitre.nombreExercices} exercices à venir...
-                      </p>
+                      {/* 1. Cours interactif */}
+                      <Link
+                        href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/cours`}
+                        style={{ textDecoration: "none" }}
+                      >
+                        <div style={{
+                          padding: "0.65rem 0.85rem",
+                          borderRadius: "8px",
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "0.7rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s ease",
+                          marginBottom: "0.4rem"
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)"}
+                        onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
+                        >
+                          <LuBookOpen size={18} style={{ color: "#B794F6" }} />
+                          <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                            Cours interactif
+                          </span>
+                        </div>
+                      </Link>
+
+                      {/* 2. Exercice en binôme */}
+                      <Link
+                        href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/binome`}
+                        style={{ textDecoration: "none" }}
+                      >
+                        <div style={{
+                          padding: "0.65rem 0.85rem",
+                          borderRadius: "8px",
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "0.7rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s ease",
+                          marginBottom: "0.4rem"
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)"}
+                        onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
+                        >
+                          <LuUsers size={18} style={{ color: "#B794F6" }} />
+                          <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                            Exercice en binôme
+                          </span>
+                        </div>
+                      </Link>
+
+                      {/* 3. Compétences clés (avec sous-menu déroulant) */}
+                      <div style={{ marginBottom: "0.4rem" }}>
+                        <div
+                          onClick={() => toggleCompetences(chapitre.id)}
+                          style={{
+                            padding: "0.65rem 0.85rem",
+                            borderRadius: "8px",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "space-between",
+                            cursor: "pointer",
+                            transition: "background 0.2s ease",
+                            background: openCompetences[chapitre.id] ? "rgba(159, 122, 234, 0.15)" : "transparent"
+                          }}
+                          onMouseEnter={(e) => {
+                            if (!openCompetences[chapitre.id]) {
+                              e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)";
+                            }
+                          }}
+                          onMouseLeave={(e) => {
+                            if (!openCompetences[chapitre.id]) {
+                              e.currentTarget.style.background = "transparent";
+                            }
+                          }}
+                        >
+                          <div style={{ display: "flex", alignItems: "center", gap: "0.7rem" }}>
+                            <LuTarget size={18} style={{ color: "#B794F6" }} />
+                            <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                              Compétences clés
+                            </span>
+                          </div>
+                          <LuChevronRight 
+                            size={16} 
+                            style={{ 
+                              color: "rgba(255,255,255,0.5)",
+                              transform: openCompetences[chapitre.id] ? "rotate(90deg)" : "rotate(0deg)",
+                              transition: "transform 0.2s ease"
+                            }} 
+                          />
+                        </div>
+
+                        {/* Sous-menu des exercices */}
+                        {openCompetences[chapitre.id] && (
+                          <div style={{
+                            marginTop: "0.5rem",
+                            marginLeft: "2rem",
+                            padding: "0.75rem",
+                            background: "rgba(0,0,0,0.3)",
+                            borderRadius: "8px",
+                            border: "1px solid rgba(159, 122, 234, 0.15)",
+                            maxHeight: "300px",
+                            overflowY: "auto"
+                          }}>
+                            {/* Liste des exercices du JSON */}
+                            {chapitresData[index].exercices.L.map((exercice: any, exIndex: number) => (
+                              <Link
+                                key={exIndex}
+                                href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/exercice-${exIndex + 1}`}
+                                style={{ textDecoration: "none" }}
+                              >
+                                <div style={{
+                                  padding: "0.5rem 0.75rem",
+                                  borderRadius: "6px",
+                                  marginBottom: "0.35rem",
+                                  cursor: "pointer",
+                                  transition: "background 0.2s ease"
+                                }}
+                                onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.2)"}
+                                onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
+                                >
+                                  <span style={{ fontSize: "0.85rem", color: "rgba(255,255,255,0.85)" }}>
+                                    E{(exIndex + 1).toString().padStart(2, '0')}. {exercice.M.titre.S}
+                                  </span>
+                                </div>
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+
+                      {/* 4. Contrôle du chapitre */}
+                      <Link
+                        href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/controle`}
+                        style={{ textDecoration: "none" }}
+                      >
+                        <div style={{
+                          padding: "0.65rem 0.85rem",
+                          borderRadius: "8px",
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "0.7rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s ease",
+                          marginBottom: "0.4rem"
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)"}
+                        onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
+                        >
+                          <LuClipboardCheck size={18} style={{ color: "#B794F6" }} />
+                          <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                            Contrôle du chapitre
+                          </span>
+                        </div>
+                      </Link>
+
+                      {/* 5. Session libre */}
+                      <Link
+                        href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/session-libre`}
+                        style={{ textDecoration: "none" }}
+                      >
+                        <div style={{
+                          padding: "0.65rem 0.85rem",
+                          borderRadius: "8px",
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "0.7rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s ease"
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)"}
+                        onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
+                        >
+                          <LuMessageSquare size={18} style={{ color: "#B794F6" }} />
+                          <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                            Session libre
+                          </span>
+                        </div>
+                      </Link>
                     </div>
                   )}
                 </div>
