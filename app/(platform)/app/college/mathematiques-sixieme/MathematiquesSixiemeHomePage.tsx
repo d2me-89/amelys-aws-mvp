@@ -42,29 +42,9 @@ export default function MathematiquesSixiemeHomePage() {
     }));
   };
 
-  // Fonction pour toggle sans scroll automatique
-  const handleToggleWithoutScroll = (toggleFunction: () => void) => {
-    return (e: React.MouseEvent | React.KeyboardEvent) => {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      // Capturer la position actuelle
-      const currentScrollY = window.scrollY;
-      const currentScrollX = window.scrollX;
-      
-      // Exécuter le toggle
-      toggleFunction();
-      
-      // Forcer la restauration de la position après le rendu
-      requestAnimationFrame(() => {
-        window.scrollTo(currentScrollX, currentScrollY);
-      });
-    };
-  };
-
   return (
     <AppLayout>
-      {/* Bande pour icÃ´nes et recherche (Ã  venir) */}
+      {/* Bande pour icÃ´nes et recherche (Ã  venir) */}
       <div style={{
         background: "var(--background)",
         height: "70px",
@@ -277,20 +257,11 @@ export default function MathematiquesSixiemeHomePage() {
           maxWidth: "780px"
         }}>
           {/* En-tÃªte cliquable */}
-          <div
-            role="button"
-            tabIndex={0}
+          <button
+            type="button"
             onClick={(e) => {
               e.preventDefault();
-              e.stopPropagation();
               setIsMathsSixiemeOpen(!isMathsSixiemeOpen);
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                e.stopPropagation();
-                setIsMathsSixiemeOpen(!isMathsSixiemeOpen);
-              }
             }}
             style={{
               width: "100%",
@@ -301,8 +272,7 @@ export default function MathematiquesSixiemeHomePage() {
               alignItems: "center",
               justifyContent: "space-between",
               cursor: "pointer",
-              transition: "background 0.2s ease",
-              outline: "none"
+              transition: "background 0.2s ease"
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = "rgba(255,255,255,0.03)";
@@ -342,7 +312,7 @@ export default function MathematiquesSixiemeHomePage() {
             <div style={{ color: "rgba(255,255,255,0.6)" }}>
               {isMathsSixiemeOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
             </div>
-          </div>
+          </button>
 
           {/* Contenu dÃ©roulant */}
           {isMathsSixiemeOpen && (
@@ -356,7 +326,7 @@ export default function MathematiquesSixiemeHomePage() {
                 color: "rgba(255,255,255,0.7)",
                 fontStyle: "italic"
               }}>
-                ðŸ« Contenu "Les mathÃ©matiques en sixiÃ¨me" Ã  venir...
+                ðŸ« Contenu "Les mathÃ©matiques en sixiÃ¨me" Ã  venir...
               </p>
             </div>
           )}
@@ -373,20 +343,11 @@ export default function MathematiquesSixiemeHomePage() {
           maxWidth: "780px"
         }}>
           {/* En-tÃªte cliquable FAQ */}
-          <div
-            role="button"
-            tabIndex={0}
+          <button
+            type="button"
             onClick={(e) => {
               e.preventDefault();
-              e.stopPropagation();
               setIsFAQOpen(!isFAQOpen);
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                e.stopPropagation();
-                setIsFAQOpen(!isFAQOpen);
-              }
             }}
             style={{
               width: "100%",
@@ -397,8 +358,7 @@ export default function MathematiquesSixiemeHomePage() {
               alignItems: "center",
               justifyContent: "space-between",
               cursor: "pointer",
-              transition: "background 0.2s ease",
-              outline: "none"
+              transition: "background 0.2s ease"
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = "rgba(255,255,255,0.03)";
@@ -438,7 +398,7 @@ export default function MathematiquesSixiemeHomePage() {
             <div style={{ color: "rgba(255,255,255,0.6)" }}>
               {isFAQOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
             </div>
-          </div>
+          </button>
 
           {/* Contenu dÃ©roulant : FAQ */}
           {isFAQOpen && (
@@ -452,7 +412,7 @@ export default function MathematiquesSixiemeHomePage() {
                 color: "rgba(255,255,255,0.7)",
                 fontStyle: "italic"
               }}>
-                â“ Contenu FAQ Ã  venir...
+                â“ Contenu FAQ Ã  venir...
               </p>
             </div>
           )}
@@ -468,15 +428,12 @@ export default function MathematiquesSixiemeHomePage() {
           marginLeft: "0",
           maxWidth: "780px"
         }}>
-          {/* En-tête cliquable */}
-          <div
-            role="button"
-            tabIndex={0}
-            onClick={handleToggleWithoutScroll(() => setIsPlanCoursOpen(!isPlanCoursOpen))}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                handleToggleWithoutScroll(() => setIsPlanCoursOpen(!isPlanCoursOpen))(e);
-              }
+          {/* En-tÃªte cliquable */}
+          <button
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              setIsPlanCoursOpen(!isPlanCoursOpen);
             }}
             style={{
               width: "100%",
@@ -487,8 +444,7 @@ export default function MathematiquesSixiemeHomePage() {
               alignItems: "center",
               justifyContent: "space-between",
               cursor: "pointer",
-              transition: "background 0.2s ease",
-              outline: "none"
+              transition: "background 0.2s ease"
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = "rgba(255,255,255,0.03)";
@@ -528,7 +484,7 @@ export default function MathematiquesSixiemeHomePage() {
             <div style={{ color: "rgba(255,255,255,0.6)" }}>
               {isPlanCoursOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
             </div>
-          </div>
+          </button>
 
           {/* Contenu dÃ©roulant : Liste des chapitres */}
           {isPlanCoursOpen && (
@@ -539,15 +495,8 @@ export default function MathematiquesSixiemeHomePage() {
               {chapitres.map((chapitre, index) => (
                 <div key={chapitre.id} style={{ marginTop: "1rem" }}>
                   {/* Bouton chapitre */}
-                  <div
-                    role="button"
-                    tabIndex={0}
-                    onClick={handleToggleWithoutScroll(() => toggleChapter(chapitre.id))}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        handleToggleWithoutScroll(() => toggleChapter(chapitre.id))(e);
-                      }
-                    }}
+                  <button
+                    onClick={() => toggleChapter(chapitre.id)}
                     style={{
                       width: "100%",
                       padding: "0.8rem 1.5rem",
@@ -562,8 +511,7 @@ export default function MathematiquesSixiemeHomePage() {
                       gap: "1rem",
                       cursor: "pointer",
                       transition: "all 0.2s ease",
-                      textAlign: "left",
-                      outline: "none"
+                      textAlign: "left"
                     }}
                     onMouseEnter={(e) => {
                       if (!openChapters[chapitre.id]) {
@@ -576,7 +524,7 @@ export default function MathematiquesSixiemeHomePage() {
                       }
                     }}
                   >
-                    {/* Chevron Ã  gauche */}
+                    {/* Chevron Ã  gauche */}
                     <div style={{ color: "rgba(255,255,255,0.5)", flexShrink: 0 }}>
                       {openChapters[chapitre.id] ? <LuChevronUp size={20} /> : <LuChevronDown size={20} />}
                     </div>
@@ -591,7 +539,7 @@ export default function MathematiquesSixiemeHomePage() {
                         Chapitre {index + 1}. {chapitre.titre}
                       </div>
                     </div>
-                  </div>
+                  </button>
 
                   {/* Sous-menu : 5 liens */}
                   {openChapters[chapitre.id] && (
