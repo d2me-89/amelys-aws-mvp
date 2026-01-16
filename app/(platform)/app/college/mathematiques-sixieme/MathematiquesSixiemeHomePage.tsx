@@ -3,13 +3,14 @@
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState, useMemo } from "react";
-import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp } from "react-icons/lu";
+import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
   const [isPlanCoursOpen, setIsPlanCoursOpen] = useState(false);
   const [isFAQOpen, setIsFAQOpen] = useState(false);
+  const [isMathsSixiemeOpen, setIsMathsSixiemeOpen] = useState(false);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
 
   // Extraire les données des chapitres du JSON
@@ -237,7 +238,171 @@ export default function MathematiquesSixiemeHomePage() {
         justifyContent: "center"
       }}>
         <div style={{ width: "100%", maxWidth: "1350px" }}>
-        {/* Section Plan du cours */}
+        {/* Section Les mathématiques en sixième - EN PREMIER */}
+        <div style={{
+          background: "rgba(255,255,255,0.08)",
+          border: "1px solid rgba(255,255,255,0.2)",
+          borderRadius: "16px",
+          overflow: "hidden",
+          marginBottom: "1.5rem",
+          marginLeft: "0",
+          maxWidth: "780px"
+        }}>
+          {/* En-tête cliquable */}
+          <button
+            onClick={() => setIsMathsSixiemeOpen(!isMathsSixiemeOpen)}
+            style={{
+              width: "100%",
+              padding: "1.2rem 1.5rem",
+              background: "transparent",
+              border: "none",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              cursor: "pointer",
+              transition: "background 0.2s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "rgba(255,255,255,0.03)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+            }}
+          >
+            {/* Gauche : Icône + Titre */}
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0.85rem"
+            }}>
+              <div style={{
+                width: "42px",
+                height: "42px",
+                borderRadius: "11px",
+                background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#805AD5"
+              }}>
+                <LuSchool size={22} />
+              </div>
+              <span style={{
+                fontSize: "1.25rem",
+                fontWeight: 700,
+                color: "#fff"
+              }}>
+                Les mathématiques en sixième
+              </span>
+            </div>
+
+            {/* Droite : Icône chevron */}
+            <div style={{ color: "rgba(255,255,255,0.6)" }}>
+              {isMathsSixiemeOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
+            </div>
+          </button>
+
+          {/* Contenu déroulant */}
+          {isMathsSixiemeOpen && (
+            <div style={{
+              padding: "0 1.5rem 1.5rem 1.5rem",
+              borderTop: "1px solid rgba(255,255,255,0.1)"
+            }}>
+              <p style={{
+                margin: "1.5rem 0",
+                fontSize: "0.95rem",
+                color: "rgba(255,255,255,0.7)",
+                fontStyle: "italic"
+              }}>
+                🏫 Contenu "Les mathématiques en sixième" à venir...
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* Section FAQ - EN 2ÈME POSITION */}
+        <div style={{
+          background: "rgba(255,255,255,0.08)",
+          border: "1px solid rgba(255,255,255,0.2)",
+          borderRadius: "16px",
+          overflow: "hidden",
+          marginBottom: "1.5rem",
+          marginLeft: "0",
+          maxWidth: "780px"
+        }}>
+          {/* En-tête cliquable FAQ */}
+          <button
+            onClick={() => setIsFAQOpen(!isFAQOpen)}
+            style={{
+              width: "100%",
+              padding: "1.2rem 1.5rem",
+              background: "transparent",
+              border: "none",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              cursor: "pointer",
+              transition: "background 0.2s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "rgba(255,255,255,0.03)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+            }}
+          >
+            {/* Gauche : Icône + Titre */}
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0.85rem"
+            }}>
+              <div style={{
+                width: "42px",
+                height: "42px",
+                borderRadius: "11px",
+                background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#805AD5"
+              }}>
+                <LuCircleHelp size={22} />
+              </div>
+              <span style={{
+                fontSize: "1.25rem",
+                fontWeight: 700,
+                color: "#fff"
+              }}>
+                FAQ
+              </span>
+            </div>
+
+            {/* Droite : Icône chevron */}
+            <div style={{ color: "rgba(255,255,255,0.6)" }}>
+              {isFAQOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
+            </div>
+          </button>
+
+          {/* Contenu déroulant : FAQ */}
+          {isFAQOpen && (
+            <div style={{
+              padding: "0 1.5rem 1.5rem 1.5rem",
+              borderTop: "1px solid rgba(255,255,255,0.1)"
+            }}>
+              <p style={{
+                margin: "1.5rem 0",
+                fontSize: "0.95rem",
+                color: "rgba(255,255,255,0.7)",
+                fontStyle: "italic"
+              }}>
+                ❓ Contenu FAQ à venir...
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* Section Contenu du cours (anciennement Plan du cours) */}
         <div style={{
           background: "rgba(255,255,255,0.08)",
           border: "1px solid rgba(255,255,255,0.2)",
@@ -291,7 +456,7 @@ export default function MathematiquesSixiemeHomePage() {
                 fontWeight: 700,
                 color: "#fff"
               }}>
-                Plan du cours
+                Contenu du cours
               </span>
             </div>
 
@@ -381,88 +546,6 @@ export default function MathematiquesSixiemeHomePage() {
                   )}
                 </div>
               ))}
-            </div>
-          )}
-        </div>
-
-        {/* Section FAQ */}
-        <div style={{
-          background: "rgba(255,255,255,0.08)",
-          border: "1px solid rgba(255,255,255,0.2)",
-          borderRadius: "16px",
-          overflow: "hidden",
-          marginBottom: "1.5rem",
-          marginLeft: "0",
-          maxWidth: "780px"
-        }}>
-          {/* En-tête cliquable FAQ */}
-          <button
-            onClick={() => setIsFAQOpen(!isFAQOpen)}
-            style={{
-              width: "100%",
-              padding: "1.2rem 1.5rem",
-              background: "transparent",
-              border: "none",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-              cursor: "pointer",
-              transition: "background 0.2s ease"
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.background = "rgba(255,255,255,0.03)";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.background = "transparent";
-            }}
-          >
-            {/* Gauche : Icône + Titre */}
-            <div style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "0.85rem"
-            }}>
-              <div style={{
-                width: "42px",
-                height: "42px",
-                borderRadius: "11px",
-                background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                color: "#805AD5"
-              }}>
-                <LuCircleHelp size={22} />
-              </div>
-              <span style={{
-                fontSize: "1.25rem",
-                fontWeight: 700,
-                color: "#fff"
-              }}>
-                FAQ
-              </span>
-            </div>
-
-            {/* Droite : Icône chevron */}
-            <div style={{ color: "rgba(255,255,255,0.6)" }}>
-              {isFAQOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
-            </div>
-          </button>
-
-          {/* Contenu déroulant : FAQ */}
-          {isFAQOpen && (
-            <div style={{
-              padding: "0 1.5rem 1.5rem 1.5rem",
-              borderTop: "1px solid rgba(255,255,255,0.1)"
-            }}>
-              <p style={{
-                margin: "1.5rem 0",
-                fontSize: "0.95rem",
-                color: "rgba(255,255,255,0.7)",
-                fontStyle: "italic"
-              }}>
-                ❓ Contenu FAQ à venir...
-              </p>
             </div>
           )}
         </div>
