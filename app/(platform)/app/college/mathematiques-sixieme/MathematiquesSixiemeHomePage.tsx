@@ -229,7 +229,7 @@ export default function MathematiquesSixiemeHomePage() {
 
       {/* Contenu principal : Plan du cours */}
       <div style={{
-        padding: "3rem 4rem",
+        padding: "4rem 4rem 3rem 4rem",
         maxWidth: "100%",
         margin: "0",
         display: "flex",
