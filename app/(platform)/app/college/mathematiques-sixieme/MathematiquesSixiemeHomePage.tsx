@@ -3,7 +3,7 @@
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState, useMemo } from "react";
-import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuHelpCircle } from "react-icons/lu";
+import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 
 export default function MathematiquesSixiemeHomePage() {
@@ -432,7 +432,7 @@ export default function MathematiquesSixiemeHomePage() {
                 justifyContent: "center",
                 color: "#805AD5"
               }}>
-                <LuHelpCircle size={22} />
+                <LuCircleHelp size={22} />
               </div>
               <span style={{
                 fontSize: "1.25rem",
