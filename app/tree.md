@@ -27,14 +27,30 @@
 │   │   │   │   └── sciences-brevet
 │   │   │   ├── cinquieme
 │   │   │   │   ├── anglais-5eme
+│   │   │   │   │   ├── 5eme-anglais-structure-DDB.json
+│   │   │   │   │   └── 5eme-anglais-structure-HR.json
 │   │   │   │   ├── emc-5eme
+│   │   │   │   │   ├── 6eme-emc-structure-DDB.json
+│   │   │   │   │   └── 6eme-emc-structure-HR.json
 │   │   │   │   ├── espagnol-5eme
+│   │   │   │   │   ├── 5eme-espagnol-structure-DDB.json
+│   │   │   │   │   └── 5eme-espagnol-structure-HR.json
 │   │   │   │   ├── francais-5eme
+│   │   │   │   │   ├── 5eme-français-structure-DDB.json
+│   │   │   │   │   └── 5eme-français-structure-HR.json
 │   │   │   │   ├── géographie-5eme
+│   │   │   │   │   └── 5eme-geographie-structure-HR.json
 │   │   │   │   ├── histoire-5eme
+│   │   │   │   │   ├── 5eme-histoire-structure-DDB.json
+│   │   │   │   │   └── 5eme-histoire-structure-HR.json
 │   │   │   │   ├── mathematiques-5eme
+│   │   │   │   │   └── 14-Maths-5e-attendus-eduscol_1114744.pdf
 │   │   │   │   ├── physique-chimie-5eme
+│   │   │   │   │   ├── 5eme-physique-chimie-structure-DDB.json
+│   │   │   │   │   └── 5eme-physique-chimie-structure-HR.json
 │   │   │   │   ├── svt-5eme
+│   │   │   │   │   ├── 5eme-svt-structure-DDB.json
+│   │   │   │   │   └── 5eme-svt-structure-HR.json
 │   │   │   │   └── technologie-5eme
 │   │   │   ├── quatrieme
 │   │   │   │   ├── anglais-4eme
@@ -42,34 +58,48 @@
 │   │   │   │   ├── espagnol-4eme
 │   │   │   │   ├── francais-4eme
 │   │   │   │   ├── géographie-4eme
+│   │   │   │   │   └── 4eme-geographie-structure-HR.json
 │   │   │   │   ├── histoire-4eme
+│   │   │   │   │   └── 4eme-histoire-structure-HR.json
 │   │   │   │   ├── mathematiques-4eme
+│   │   │   │   │   └── 16-Maths-4e-attendus-eduscol_1114746.pdf
 │   │   │   │   ├── physique-chimie-4eme
 │   │   │   │   ├── svt-4eme
 │   │   │   │   └── technologie-4eme
 │   │   │   ├── sixieme
 │   │   │   │   ├── anglais-6eme
-│   │   │   │   │   └── 6eme-anglais-structure-DDB.json
+│   │   │   │   │   ├── 6eme-anglais-structure-DDB.json
+│   │   │   │   │   └── 6eme-anglais-structure-HR.json
 │   │   │   │   ├── emc-6eme
-│   │   │   │   │   └── 6eme-emc-structure-DBB.json
+│   │   │   │   │   ├── 6eme-emc-structure-DBB.json
+│   │   │   │   │   └── 6eme-emc-structure-HR.json
 │   │   │   │   ├── francais-6eme
-│   │   │   │   │   └── 6eme-français-structure-DBB.json
+│   │   │   │   │   ├── 6eme-français-structure-DBB.json
+│   │   │   │   │   └── 6eme-français-structure-HR.json
 │   │   │   │   ├── géographie-6eme
-│   │   │   │   │   └── 6eme-geographie-structure-BDD.json
+│   │   │   │   │   ├── 6eme-geographie-structure-BDD.json
+│   │   │   │   │   └── 6eme-geographie-structure-HR.json
 │   │   │   │   ├── histoire-6eme
-│   │   │   │   │   └── 6eme-histoire-structure-DBB.json
+│   │   │   │   │   ├── 6eme-histoire-structure-DBB.json
+│   │   │   │   │   └── 6eme-histoire-structure-HR.json
 │   │   │   │   ├── mathematiques-6eme
-│   │   │   │   │   └── 6eme-maths-structure-DDB.json
+│   │   │   │   │   ├── 6eme-maths-architecture-DDB.json
+│   │   │   │   │   ├── 6eme-maths-architecture-HR.json
+│   │   │   │   │   └── exemples_mise_en_oeuvre_6e-maths.pdf
 │   │   │   │   └── sciences-6eme
-│   │   │   │       └── 6eme-sciences-structure-DDB.json
+│   │   │   │       ├── 6eme-sciences-structure-DDB.json
+│   │   │   │       └── 6eme-sciences-structure-HR.json
 │   │   │   └── troisieme
 │   │   │       ├── anglais-3eme
 │   │   │       ├── emc-3eme
 │   │   │       ├── espagnol-3eme
 │   │   │       ├── francais-3eme
 │   │   │       ├── géographie-3eme
+│   │   │       │   └── 3eme-geographie-structure-HR.json
 │   │   │       ├── histoire-3eme
+│   │   │       │   └── 3eme-histoire-structure-HR.json
 │   │   │       ├── mathematiques-3eme
+│   │   │       │   └── 18-Maths-3e-attendus-eduscol_1114748.pdf
 │   │   │       ├── physique-chimie-3eme
 │   │   │       ├── svt-3eme
 │   │   │       └── technologie-3eme
@@ -94,11 +124,17 @@
 │   │       │   ├── espagnol-1ere
 │   │       │   ├── francais-1ere
 │   │       │   ├── geographie-1ere
+│   │       │   │   ├── 1ere-geographie-structure-HR.json
+│   │       │   │   └── spe577_annexe2_1062939.pdf
 │   │       │   ├── hggsp-1ere
 │   │       │   ├── histoire-1ere
+│   │       │   │   └── 1ere-histoire-structure-HR.json
 │   │       │   ├── hlp-1ere
 │   │       │   ├── llce-anglais-1ere
 │   │       │   ├── mathematiques-1ere
+│   │       │   │   ├── 1ere-maths-architecture-DDB.json
+│   │       │   │   ├── 1ere-maths-architecture-HR.json
+│   │       │   │   └── spe632_annexe_1063168.pdf
 │   │       │   ├── nsi-1ere
 │   │       │   ├── physique-chimie-1ere
 │   │       │   ├── sciences-ingenieur-1ere
@@ -110,8 +146,15 @@
 │   │       │   ├── espagnol-2nde
 │   │       │   ├── francais-2nde
 │   │       │   ├── géographie-2nde
+│   │       │   │   ├── 2nde-geographie-structure-HR.json
+│   │       │   │   └── hist-geog_annexe-1_2e_bo.pdf
 │   │       │   ├── histoire-2nde
+│   │       │   │   ├── 2nde-histoire-structure-HR.json
+│   │       │   │   └── hist-geog_annexe-1_2e_bo (1).pdf
 │   │       │   ├── mathematiques-2nde
+│   │       │   │   ├── 2nde-maths-architecture-DDB.json
+│   │       │   │   ├── 2nde-maths-architecture-HR.json
+│   │       │   │   └── spe631_annexe_1062957.pdf
 │   │       │   ├── nsi-2nde
 │   │       │   ├── physique-chimie-2nde
 │   │       │   ├── sciences-ingenieur-2nde
@@ -123,12 +166,26 @@
 │   │           ├── enseignement-scientifique-Tle
 │   │           ├── espagnol-Tle
 │   │           ├── geographie-Tle
+│   │           │   ├── Tle-geographie-structure-HR.json
+│   │           │   └── spe243_annexe1_1159172.pdf
 │   │           ├── hggsp-Tle
 │   │           ├── histoire-Tle
+│   │           │   ├── Tle-histoire-structure-HR.json
+│   │           │   └── spe243_annexe1_1159172 (1).pdf
 │   │           ├── hlp-Tle
 │   │           ├── llce-anglais-Tle
 │   │           ├── mathematiques-Tle
+│   │           │   ├── Tle-maths-architecture-DDB.json
+│   │           │   ├── Tle-maths-architecture-HR.json
+│   │           │   └── spe246_annexe_1158907.pdf
 │   │           ├── mathematiques-complementaires-Tle
+│   │           │   ├── Tle-maths-complementaires-architecture-DDB.json
+│   │           │   ├── Tle-maths-complementaires-architecture-HR.json
+│   │           │   └── spe265_annexe_1159134.pdf
+│   │           ├── mathematiques-expertes-Tle
+│   │           │   ├── Tle-maths-expertes-architecture-DDB.json
+│   │           │   ├── Tle-maths-expertes-architecture-HR.json
+│   │           │   └── spe264_annexe_1158825.pdf
 │   │           ├── nsi-Tle
 │   │           ├── philosophie-Tle
 │   │           ├── physique-chimie-Tle
@@ -155,5 +212,3 @@
 │   ├── vercel.svg
 │   └── window.svg
 └── tsconfig.json
-
-121 directories, 36 files

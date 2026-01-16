@@ -9,30 +9,45 @@
   "chapitreTitre": { "S": "Les nombres entiers et décimaux" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître et utiliser la valeur des chiffres selon leur rang dans l'écriture d'un nombre" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les liens entre les unités de numération unité, dizaine, centaine, millier, dixième, centième, millième" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître des grands nombres entiers" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître un nombre décimal" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la définition d'un pourcentage" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Associer et utiliser différentes écritures d'un nombre décimal : écriture à virgule, fraction, nombre mixte, pourcentage" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Placer sur une demi-droite graduée un point dont l'abscisse est un nombre décimal" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Repérer un nombre décimal sur une demi-droite graduée" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer deux nombres décimaux" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Ordonner une liste de nombres décimaux" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Donner la valeur arrondie à l'unité, au dixième, ou au centième d'un nombre décimal" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer ou connaître la valeur arrondie de certains nombres non décimaux" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Encadrer un nombre décimal par deux nombres décimaux, intercaler un nombre décimal entre deux nombres décimaux" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Additionner et soustraire des nombres décimaux" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Multiplier un nombre entier ou un nombre décimal par 0,1, par 0,01, et par 0,001" } } },
-      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître le lien avec la division par 10, 100 et par 1 000" } } },
-      { "M": { "id": { "S": "E17" }, "titre": { "S": "Comprendre le sens de la multiplication de deux nombres décimaux" } } },
-      { "M": { "id": { "S": "E18" }, "titre": { "S": "Calculer le produit de deux nombres décimaux" } } },
-      { "M": { "id": { "S": "E19" }, "titre": { "S": "Contrôler les résultats à l'aide d'ordres de grandeur" } } },
-      { "M": { "id": { "S": "E20" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des multiplications entre des nombres décimaux" } } },
-      { "M": { "id": { "S": "E21" }, "titre": { "S": "Diviser un nombre décimal par un nombre entier non nul inférieur à 10" } } },
-      { "M": { "id": { "S": "E22" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des divisions décimales" } } },
-      { "M": { "id": { "S": "E23" }, "titre": { "S": "Effectuer la division euclidienne d'un nombre entier par un nombre entier inférieur à 100" } } },
-      { "M": { "id": { "S": "E24" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des divisions euclidiennes" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier le chiffre situé à une position donnée dans un nombre entier" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître les éléments d'une division euclidienne : dividende, diviseur, quotient, reste" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Maîtriser les propriétés de la division euclidienne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Effectuer des conversions d'unités pour les nombres entiers" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Établir une comparaison entre nombres entiers" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Classer des nombres entiers dans un ordre défini" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Maîtriser la valeur positionnelle des chiffres dans l'écriture d'un nombre" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Effectuer une division euclidienne entre deux entiers donnant un résultat exact" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Effectuer une division euclidienne entre deux entiers avec un reste non nul" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Réaliser une division euclidienne de deux nombres entiers" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier un nombre décimal jusqu'à 4 chiffres après la virgule sur un axe gradué" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Nommer correctement les chiffres composant un nombre décimal de 4 décimales maximum" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Exprimer un nombre décimal sous forme décomposée" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer les deux entiers consécutifs qui encadrent un nombre décimal de 4 décimales maximum" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Établir la correspondance entre une fraction et son expression en pourcentage" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Positionner un nombre décimal de 4 décimales maximum sur un axe gradué" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Mettre en relation les diverses représentations d'un nombre décimal de 4 décimales maximum" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Établir l'ordre de grandeur entre deux nombres décimaux de 4 décimales maximum" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Effectuer la multiplication d'un nombre décimal par 10, 100 ou 1 000" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Organiser des nombres décimaux selon un ordre croissant ou décroissant" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Réaliser la multiplication d'un nombre décimal par 0,1" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Effectuer la multiplication d'un nombre décimal par 0,5" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Déterminer l'encadrement au dixième d'un nombre décimal de 4 décimales maximum" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Déterminer l'encadrement au centième d'un nombre décimal de 4 décimales maximum" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Calculer le produit d'un nombre décimal de 4 décimales maximum par un entier" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Déterminer l'encadrement au millième d'un nombre décimal de 4 décimales maximum" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Calculer un pourcentage à partir d'une quantité donnée" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Déterminer la valeur correspondant à un pourcentage d'une quantité" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Effectuer l'addition de nombres décimaux positifs aboutissant à un entier" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Effectuer l'addition de nombres décimaux positifs aboutissant à un nombre non entier" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Réaliser la soustraction de nombres décimaux positifs aboutissant à un entier" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Réaliser la soustraction de nombres décimaux positifs aboutissant à un nombre non entier" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Effectuer la division d'un nombre décimal par 10, 100 ou 1 000" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Convertir une proportion en pourcentage lorsque le dénominateur est divisible par 100 ou multiple de 100" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Déterminer la valeur résultant de l'application d'un pourcentage" } } },
+      { "M": { "id": { "S": "E36" }, "titre": { "S": "Déterminer une proportion lorsque le dénominateur est divisible par 100 ou multiple de 100" } } },
+      { "M": { "id": { "S": "E37" }, "titre": { "S": "Identifier un nombre décimal de 4 décimales maximum situé entre deux nombres décimaux donnés" } } },
+      { "M": { "id": { "S": "E38" }, "titre": { "S": "Calculer le produit de deux nombres décimaux de 4 décimales maximum" } } },
+      { "M": { "id": { "S": "E39" }, "titre": { "S": "Analyser les troncatures et approximations d'un nombre décimal" } } }
     ]
   }
 }
@@ -47,23 +62,32 @@
   "chapitreTitre": { "S": "Les fractions" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Relier une fraction au résultat exact de la division de son numérateur par son dénominateur" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre et connaître la définition du quotient d'un entier a par un entier b non nul" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter des égalités à trou multiplicatives" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Placer une fraction sur une demi-droite graduée dans des cas simples" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Graduer un segment de longueur donnée" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Savoir que la fraction a/b peut représenter un nombre entier, un nombre décimal non entier ou un nombre non décimal" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser une multiplication pour appliquer une fraction à un nombre entier" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Établir des égalités de fractions" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer et encadrer des fractions" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Ordonner une liste de nombres écrits sous forme de fractions ou de nombres mixtes" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Additionner et soustraire des fractions" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Multiplier une fraction par un nombre entier" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Résoudre des problèmes mettant en jeu des fractions" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Inventer des problèmes mettant en jeu des fractions" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Comprendre le sens d'un pourcentage" } } },
-      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer une proportion (rapport entre une partie et le tout) et l'exprimer sous forme de pourcentage dans des cas simples" } } },
-      { "M": { "id": { "S": "E17" }, "titre": { "S": "Appliquer un pourcentage à une grandeur ou à un nombre" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier une fraction sur un axe gradué" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Positionner une fraction sur une demi-droite graduée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Créer une graduation sur un segment de longueur définie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Réduire une fraction à sa forme la plus simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier des fractions équivalentes" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décomposer une fraction en partie entière et partie fractionnaire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Établir si une fraction est supérieure, inférieure ou égale à 1" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Classer des fractions ayant le même dénominateur" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Classer des fractions ayant le même numérateur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer les deux entiers consécutifs encadrant une fraction" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Ranger des fractions de même dénominateur ou de même numérateur" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Effectuer l'addition de fractions de même dénominateur" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Effectuer la soustraction de fractions de même dénominateur" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer le produit d'une fraction par son dénominateur" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Comparer deux fractions par rapport à la valeur 1" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Comparer des fractions à la valeur 1/2" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Résoudre des égalités multiplicatives avec des fractions à compléter" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déterminer la nature d'un nombre représenté par une fraction (entier, décimal, non décimal)" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Appliquer une fraction à un nombre entier par multiplication" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Identifier des fractions de valeurs équivalentes" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Compléter des fractions équivalentes dans des égalités à trous" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Calculer le produit d'un entier par une fraction selon la formule (b/c) × a = b × (a/c)" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Classer une liste de nombres sous diverses représentations" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Additionner des fractions dont les dénominateurs sont multiples l'un de l'autre" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Choisir la méthode appropriée pour multiplier un entier par une fraction" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Résoudre des problèmes faisant intervenir des fractions" } } }
     ]
   }
 }
@@ -79,7 +103,17 @@
   "exercices": {
     "L": [
       { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser des modèles préalgébriques pour résoudre des problèmes algébriques" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier la structure d'un motif évolutif en repérant une régularité et en identifiant une structure" } } }
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier la structure d'un motif évolutif en repérant une régularité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une suite numérique à partir d'une règle donnée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire une suite de calculs à l'aide d'une expression simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire une situation en langage mathématique simple" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Associer une expression littérale à un programme de calcul" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Évaluer une expression littérale pour une valeur donnée" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier une égalité vraie ou fausse à l'aide de substitutions" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Construire un tableau de valeurs correspondant à une expression" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Reconnaître une situation de proportionnalité à partir d'une expression" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Résoudre un problème simple à l'aide d'une égalité" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Interpréter une lettre comme un nombre inconnu" } } }
     ]
   }
 }
@@ -98,7 +132,17 @@
       { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la formule du périmètre d'un disque" } } },
       { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer le périmètre d'un disque" } } },
       { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer des périmètres de figures composées" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Résoudre des problèmes impliquant des longueurs" } } }
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Résoudre des problèmes impliquant des longueurs" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier et utiliser les unités de longueur usuelles (mm, cm, dm, m, km)" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Convertir des longueurs d'une unité à une autre" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer des longueurs exprimées dans des unités différentes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Additionner et soustraire des longueurs" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Mesurer la longueur d'un segment à l'aide d'une règle graduée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Tracer un segment de longueur donnée" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Estimer une longueur avant de la mesurer" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer le périmètre d'un polygone simple" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Résoudre des problèmes de comparaison de distances" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Interpréter une situation concrète faisant intervenir des longueurs" } } }
     ]
   }
 }
@@ -115,7 +159,16 @@
     "L": [
       { "M": { "id": { "S": "E01" }, "titre": { "S": "Effectuer des conversions d'aire" } } },
       { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la formule de l'aire d'un carré ou d'un rectangle" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer l'aire d'un carré ou d'un rectangle" } } }
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer l'aire d'un carré ou d'un rectangle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les unités d'aire usuelles (cm², dm², m²)" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer des aires exprimées dans des unités différentes" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer l'aire d'une figure composée de rectangles" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer une longueur manquante à partir d'une aire connue" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Estimer l'aire d'une surface avant le calcul" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Résoudre des problèmes faisant intervenir des aires" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer l'aire d'une surface représentée sur un quadrillage" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comparer l'aire de deux figures de formes différentes" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Interpréter une situation concrète mettant en jeu des aires" } } }
     ]
   }
 }
@@ -132,7 +185,16 @@
     "L": [
       { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître l'unité centimètre cube" } } },
       { "M": { "id": { "S": "E02" }, "titre": { "S": "Comparer des volumes" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer un volume" } } }
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer un volume" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les unités de volume usuelles (cm³, dm³, m³, L)" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Effectuer des conversions entre unités de volume" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Associer un volume à un assemblage de cubes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer le volume d'un pavé droit à l'aide d'un comptage de cubes" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser la formule du volume d'un pavé droit" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer une dimension manquante à partir d'un volume connu" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comparer des capacités exprimées en litres et en centimètres cubes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Estimer un volume avant le calcul" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Résoudre des problèmes concrets faisant intervenir des volumes" } } }
     ]
   }
 }
@@ -148,8 +210,17 @@
   "exercices": {
     "L": [
       { "M": { "id": { "S": "E01" }, "titre": { "S": "Effectuer des calculs sur des horaires et des durées" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Résoudre des problèmes impliquant des horaires, des durées" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Convertir des durées" } } }
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Résoudre des problèmes impliquant des horaires et des durées" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Convertir des durées" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Lire et interpréter une heure sur une horloge analogique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Lire et interpréter une heure sur une horloge numérique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Exprimer une durée en heures et minutes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer une durée entre deux instants donnés" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Additionner et soustraire des durées" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer des durées exprimées sous des formes différentes" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Convertir des durées en minutes ou en secondes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Organiser une chronologie simple à partir d'événements" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Résoudre des situations concrètes faisant intervenir le temps et les durées" } } }
     ]
   }
 }
@@ -199,7 +270,14 @@
   "chapitreTitre": { "S": "La vision dans l'espace" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Voir dans l'espace des assemblages de cubes" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Voir dans l'espace des assemblages de cubes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le nombre de cubes visibles dans un assemblage" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le nombre total de cubes composant un solide" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer deux assemblages de cubes selon leur volume" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Associer une vue en perspective à un assemblage de cubes" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Reconnaître une vue de face, de dessus ou de côté d'un solide" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Construire un assemblage de cubes à partir de vues données" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Résoudre des problèmes de représentation de solides par des assemblages de cubes" } } }
     ]
   }
 }
@@ -216,8 +294,11 @@
     "L": [
       { "M": { "id": { "S": "E01" }, "titre": { "S": "Planifier une enquête et recueillir des données" } } },
       { "M": { "id": { "S": "E02" }, "titre": { "S": "Réaliser des mesures et les consigner dans un tableau" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Construire un tableau simple pour présenter des données (observations, caractères)" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Faire un choix en filtrant les données d'un tableau selon un critère" } } }
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Construire un tableau simple pour présenter des données" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Faire un choix en filtrant les données d'un tableau selon un critère" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Lire et interpréter un tableau de données simples" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer des données à partir d'un tableau" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Résoudre une situation concrète à partir de données organisées" } } }
     ]
   }
 }
@@ -232,9 +313,16 @@
   "chapitreTitre": { "S": "Les probabilités" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Savoir que la probabilité d'un évènement est un nombre compris entre 0 et 1" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer des probabilités dans des situations simples d'équiprobabilité" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des résultats d'une expérience aléatoire répétée à une probabilité calculée" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si un événement est un événement certain" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si un événement est un événement impossible" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Dénombrer les issues possibles d'une expérience aléatoire" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Évaluer des probabilités dans des situations quotidiennes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier une situation d'équiprobabilité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité binaire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité avec une issue positive" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Dénombrer les issues correspondant à un événement spécifique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité avec plusieurs issues positives" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer une probabilité dans un jeu simple amenant à une situation d'équiprobabilité" } } }
     ]
   }
 }
@@ -249,11 +337,18 @@
   "chapitreTitre": { "S": "La proportionnalité" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition de la proportionnalité entre deux grandeurs et la mettre en lien avec des expressions de la vie courante" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier si une situation relève du « modèle » de la proportionnalité" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Résoudre un problème de proportionnalité en choisissant une procédure adaptée : propriété de linéarité pour la multiplication ou l'addition, retour à l'unité" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Représenter une situation de proportionnalité à l'aide d'un tableau ou de notations symboliques" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "S'initier à la résolution de problèmes d'échelles" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition de la proportionnalité entre deux grandeurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier si une situation relève de la proportionnalité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Résoudre un problème de proportionnalité par retour à l'unité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Représenter une situation de proportionnalité à l'aide d'un tableau" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "S'initier à la résolution de problèmes d'échelles" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter un tableau de proportionnalité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser un coefficient de proportionnalité simple" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer deux situations de proportionnalité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Résoudre un problème de proportionnalité par une multiplication" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Résoudre un problème de proportionnalité par une addition" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Interpréter une situation concrète de proportionnalité" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Résoudre des problèmes variés mettant en jeu la proportionnalité" } } }
     ]
   }
 }
@@ -271,7 +366,13 @@
       { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier une instruction ou une séquence d'instructions" } } },
       { "M": { "id": { "S": "E02" }, "titre": { "S": "Produire et exécuter une séquence d'instructions" } } },
       { "M": { "id": { "S": "E03" }, "titre": { "S": "Répéter à la main une séquence d'instructions pour accomplir une tâche imposée" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Programmer la construction d'un chemin simple" } } }
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Programmer la construction d'un chemin simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier une erreur dans une séquence d'instructions" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter une séquence d'instructions incomplète" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire un déplacement sur quadrillage en instructions simples" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Exécuter un programme simple avec des répétitions" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire un algorithme simple en langage courant" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Résoudre une situation problème à l'aide d'un programme simple" } } }
     ]
   }
 }
