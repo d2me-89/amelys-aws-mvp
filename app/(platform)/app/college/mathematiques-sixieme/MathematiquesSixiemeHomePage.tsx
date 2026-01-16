@@ -277,6 +277,7 @@ export default function MathematiquesSixiemeHomePage() {
             </span>
           </div>
         </div>
+        </div>
       </div>
 
       {/* Contenu principal : Plan du cours */}
