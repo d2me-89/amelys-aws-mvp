@@ -3,12 +3,13 @@
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState, useMemo } from "react";
-import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp } from "react-icons/lu";
+import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuHelpCircle } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
   const [isPlanCoursOpen, setIsPlanCoursOpen] = useState(false);
+  const [isFAQOpen, setIsFAQOpen] = useState(false);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
 
   // Extraire les données des chapitres du JSON
@@ -251,7 +252,7 @@ export default function MathematiquesSixiemeHomePage() {
             onClick={() => setIsPlanCoursOpen(!isPlanCoursOpen)}
             style={{
               width: "100%",
-              padding: "1.5rem 2rem",
+              padding: "1.2rem 1.5rem",
               background: "transparent",
               border: "none",
               display: "flex",
@@ -271,22 +272,22 @@ export default function MathematiquesSixiemeHomePage() {
             <div style={{
               display: "flex",
               alignItems: "center",
-              gap: "1rem"
+              gap: "0.85rem"
             }}>
               <div style={{
-                width: "48px",
-                height: "48px",
-                borderRadius: "12px",
+                width: "42px",
+                height: "42px",
+                borderRadius: "11px",
                 background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 color: "#805AD5"
               }}>
-                <LuCalculator size={24} />
+                <LuCalculator size={22} />
               </div>
               <span style={{
-                fontSize: "1.4rem",
+                fontSize: "1.25rem",
                 fontWeight: 700,
                 color: "#fff"
               }}>
@@ -380,6 +381,88 @@ export default function MathematiquesSixiemeHomePage() {
                   )}
                 </div>
               ))}
+            </div>
+          )}
+        </div>
+
+        {/* Section FAQ */}
+        <div style={{
+          background: "rgba(255,255,255,0.08)",
+          border: "1px solid rgba(255,255,255,0.2)",
+          borderRadius: "16px",
+          overflow: "hidden",
+          marginBottom: "1.5rem",
+          marginLeft: "0",
+          maxWidth: "780px"
+        }}>
+          {/* En-tête cliquable FAQ */}
+          <button
+            onClick={() => setIsFAQOpen(!isFAQOpen)}
+            style={{
+              width: "100%",
+              padding: "1.2rem 1.5rem",
+              background: "transparent",
+              border: "none",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              cursor: "pointer",
+              transition: "background 0.2s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "rgba(255,255,255,0.03)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+            }}
+          >
+            {/* Gauche : Icône + Titre */}
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0.85rem"
+            }}>
+              <div style={{
+                width: "42px",
+                height: "42px",
+                borderRadius: "11px",
+                background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#805AD5"
+              }}>
+                <LuHelpCircle size={22} />
+              </div>
+              <span style={{
+                fontSize: "1.25rem",
+                fontWeight: 700,
+                color: "#fff"
+              }}>
+                FAQ
+              </span>
+            </div>
+
+            {/* Droite : Icône chevron */}
+            <div style={{ color: "rgba(255,255,255,0.6)" }}>
+              {isFAQOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
+            </div>
+          </button>
+
+          {/* Contenu déroulant : FAQ */}
+          {isFAQOpen && (
+            <div style={{
+              padding: "0 1.5rem 1.5rem 1.5rem",
+              borderTop: "1px solid rgba(255,255,255,0.1)"
+            }}>
+              <p style={{
+                margin: "1.5rem 0",
+                fontSize: "0.95rem",
+                color: "rgba(255,255,255,0.7)",
+                fontStyle: "italic"
+              }}>
+                ❓ Contenu FAQ à venir...
+              </p>
             </div>
           )}
         </div>
