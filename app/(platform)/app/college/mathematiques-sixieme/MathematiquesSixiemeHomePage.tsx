@@ -3,14 +3,105 @@
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
 import { useState } from "react";
-import { LuPlay, LuBrain, LuSparkles } from "react-icons/lu";
+import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp } from "react-icons/lu";
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
+  const [isPlanCoursOpen, setIsPlanCoursOpen] = useState(false);
+  const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
 
   // Données du cours
   const nombreSeances = 13;
-  const nombreContenusPedagogiques = 196; // Total des exercices dans le JSON
+  const nombreContenusPedagogiques = 196;
+
+  // Données des chapitres (extraites du JSON)
+  const chapitres = [
+    {
+      id: "C1",
+      theme: "Nombres, calcul et résolution de problèmes",
+      titre: "Les nombres entiers et décimaux",
+      nombreExercices: 39
+    },
+    {
+      id: "C2",
+      theme: "Nombres, calcul et résolution de problèmes",
+      titre: "Les fractions",
+      nombreExercices: 26
+    },
+    {
+      id: "C3",
+      theme: "Nombres, calcul et résolution de problèmes",
+      titre: "Algèbre",
+      nombreExercices: 12
+    },
+    {
+      id: "C4",
+      theme: "Grandeurs et mesures",
+      titre: "Les longueurs",
+      nombreExercices: 15
+    },
+    {
+      id: "C5",
+      theme: "Grandeurs et mesures",
+      titre: "Les aires",
+      nombreExercices: 12
+    },
+    {
+      id: "C6",
+      theme: "Grandeurs et mesures",
+      titre: "Les volumes",
+      nombreExercices: 12
+    },
+    {
+      id: "C7",
+      theme: "Grandeurs et mesures",
+      titre: "Le repérage dans le temps et les durées",
+      nombreExercices: 12
+    },
+    {
+      id: "C8",
+      theme: "Espace et géométrie",
+      titre: "Étude de configurations planes",
+      nombreExercices: 21
+    },
+    {
+      id: "C9",
+      theme: "Espace et géométrie",
+      titre: "La vision dans l'espace",
+      nombreExercices: 8
+    },
+    {
+      id: "C10",
+      theme: "Organisation et gestion de données et probabilités",
+      titre: "Organisation et gestion de données",
+      nombreExercices: 7
+    },
+    {
+      id: "C11",
+      theme: "Organisation et gestion de données et probabilités",
+      titre: "Les probabilités",
+      nombreExercices: 10
+    },
+    {
+      id: "C12",
+      theme: "La proportionnalité",
+      titre: "La proportionnalité",
+      nombreExercices: 12
+    },
+    {
+      id: "C13",
+      theme: "Initiation à la pensée informatique",
+      titre: "Initiation à la pensée informatique",
+      nombreExercices: 10
+    }
+  ];
+
+  const toggleChapter = (chapterId: string) => {
+    setOpenChapters(prev => ({
+      ...prev,
+      [chapterId]: !prev[chapterId]
+    }));
+  };
 
   return (
     <AppLayout>
@@ -178,18 +269,171 @@ export default function MathematiquesSixiemeHomePage() {
         </div>
       </div>
 
-      {/* Reste du contenu (à venir) */}
+      {/* Contenu principal : Plan du cours */}
       <div style={{
         padding: "3rem 4rem",
-        maxWidth: "1400px"
+        maxWidth: "1200px",
+        margin: "0 auto"
       }}>
-        <p style={{
-          fontSize: "1.1rem",
-          opacity: 0.7,
-          textAlign: "center"
+        {/* Section Plan du cours */}
+        <div style={{
+          background: "rgba(255,255,255,0.05)",
+          border: "1px solid rgba(255,255,255,0.1)",
+          borderRadius: "16px",
+          overflow: "hidden",
+          marginBottom: "1.5rem"
         }}>
-          📊 Contenu du cours à venir...
-        </p>
+          {/* En-tête cliquable */}
+          <button
+            onClick={() => setIsPlanCoursOpen(!isPlanCoursOpen)}
+            style={{
+              width: "100%",
+              padding: "1.5rem 2rem",
+              background: "transparent",
+              border: "none",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              cursor: "pointer",
+              transition: "background 0.2s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "rgba(255,255,255,0.03)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+            }}
+          >
+            {/* Gauche : Icône + Titre */}
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1rem"
+            }}>
+              <div style={{
+                width: "48px",
+                height: "48px",
+                borderRadius: "12px",
+                background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#805AD5"
+              }}>
+                <LuCalculator size={24} />
+              </div>
+              <span style={{
+                fontSize: "1.2rem",
+                fontWeight: 700,
+                color: "#fff"
+              }}>
+                Plan du cours
+              </span>
+            </div>
+
+            {/* Droite : Icône chevron */}
+            <div style={{ color: "rgba(255,255,255,0.6)" }}>
+              {isPlanCoursOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
+            </div>
+          </button>
+
+          {/* Contenu déroulant : Liste des chapitres */}
+          {isPlanCoursOpen && (
+            <div style={{
+              padding: "0 2rem 1.5rem 2rem",
+              borderTop: "1px solid rgba(255,255,255,0.1)"
+            }}>
+              {chapitres.map((chapitre, index) => (
+                <div key={chapitre.id} style={{ marginTop: "1rem" }}>
+                  {/* Bouton chapitre */}
+                  <button
+                    onClick={() => toggleChapter(chapitre.id)}
+                    style={{
+                      width: "100%",
+                      padding: "1rem 1.5rem",
+                      background: openChapters[chapitre.id] 
+                        ? "rgba(159, 122, 234, 0.1)" 
+                        : "rgba(255,255,255,0.03)",
+                      border: "1px solid rgba(255,255,255,0.1)",
+                      borderRadius: "12px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      cursor: "pointer",
+                      transition: "all 0.2s ease",
+                      textAlign: "left"
+                    }}
+                    onMouseEnter={(e) => {
+                      if (!openChapters[chapitre.id]) {
+                        e.currentTarget.style.background = "rgba(255,255,255,0.05)";
+                      }
+                    }}
+                    onMouseLeave={(e) => {
+                      if (!openChapters[chapitre.id]) {
+                        e.currentTarget.style.background = "rgba(255,255,255,0.03)";
+                      }
+                    }}
+                  >
+                    {/* Gauche : Numéro + Titre */}
+                    <div style={{ flex: 1 }}>
+                      <div style={{
+                        fontSize: "0.85rem",
+                        color: "#9F7AEA",
+                        fontWeight: 600,
+                        marginBottom: "0.3rem"
+                      }}>
+                        Chapitre {index + 1} • {chapitre.theme}
+                      </div>
+                      <div style={{
+                        fontSize: "1.05rem",
+                        fontWeight: 600,
+                        color: "#fff"
+                      }}>
+                        {chapitre.titre}
+                      </div>
+                      <div style={{
+                        fontSize: "0.85rem",
+                        color: "rgba(255,255,255,0.5)",
+                        marginTop: "0.3rem"
+                      }}>
+                        {chapitre.nombreExercices} exercices interactifs
+                      </div>
+                    </div>
+
+                    {/* Droite : Chevron */}
+                    <div style={{ color: "rgba(255,255,255,0.5)" }}>
+                      {openChapters[chapitre.id] ? <LuChevronUp size={20} /> : <LuChevronDown size={20} />}
+                    </div>
+                  </button>
+
+                  {/* Sous-menu : Liste des exercices (à venir) */}
+                  {openChapters[chapitre.id] && (
+                    <div style={{
+                      marginTop: "0.5rem",
+                      padding: "1rem 1.5rem",
+                      background: "rgba(0,0,0,0.2)",
+                      borderRadius: "12px",
+                      border: "1px solid rgba(159, 122, 234, 0.2)",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.5rem"
+                    }}>
+                      <LuSparkles size={16} style={{ color: "rgba(159, 122, 234, 0.8)" }} />
+                      <p style={{
+                        margin: 0,
+                        fontSize: "0.9rem",
+                        color: "rgba(255,255,255,0.6)",
+                        fontStyle: "italic"
+                      }}>
+                        Liste des {chapitre.nombreExercices} exercices à venir...
+                      </p>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
     </AppLayout>
   );
