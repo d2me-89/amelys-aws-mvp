@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
-import { useState, useMemo, useRef } from "react";
+import { useState, useMemo } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 
@@ -13,8 +13,6 @@ export default function MathematiquesSixiemeHomePage() {
   const [isMathsSixiemeOpen, setIsMathsSixiemeOpen] = useState(false);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
   const [openCompetences, setOpenCompetences] = useState<Record<string, boolean>>({});
-  
-  const contenuCoursButtonRef = useRef<HTMLButtonElement>(null);
 
   // Extraire les données des chapitres du JSON
   const chapitres = useMemo(() => {
@@ -433,13 +431,11 @@ export default function MathematiquesSixiemeHomePage() {
           {/* En-tête cliquable */}
           <button
             type="button"
-            ref={contenuCoursButtonRef}
+            onMouseDown={(e) => {
+              e.preventDefault();
+            }}
             onClick={(e) => {
               e.preventDefault();
-              // Retirer le focus du bouton AVANT la fermeture pour éviter le scroll
-              if (contenuCoursButtonRef.current) {
-                contenuCoursButtonRef.current.blur();
-              }
               setIsPlanCoursOpen(!isPlanCoursOpen);
             }}
             style={{
