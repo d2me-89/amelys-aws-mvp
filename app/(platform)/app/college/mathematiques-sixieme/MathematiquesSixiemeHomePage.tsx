@@ -2,99 +2,28 @@
 
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp } from "react-icons/lu";
+import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
   const [isPlanCoursOpen, setIsPlanCoursOpen] = useState(false);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
 
-  // Données du cours
-  const nombreSeances = 13;
-  const nombreContenusPedagogiques = 196;
+  // Extraire les données des chapitres du JSON
+  const chapitres = useMemo(() => {
+    return chapitresData.map((chapitre: any, index: number) => ({
+      id: `C${index + 1}`,
+      theme: chapitre.themeTitre.S,
+      titre: chapitre.chapitreTitre.S,
+      nombreExercices: chapitre.exercices.L.length
+    }));
+  }, []);
 
-  // Données des chapitres (extraites du JSON)
-  const chapitres = [
-    {
-      id: "C1",
-      theme: "Nombres, calcul et résolution de problèmes",
-      titre: "Les nombres entiers et décimaux",
-      nombreExercices: 39
-    },
-    {
-      id: "C2",
-      theme: "Nombres, calcul et résolution de problèmes",
-      titre: "Les fractions",
-      nombreExercices: 26
-    },
-    {
-      id: "C3",
-      theme: "Nombres, calcul et résolution de problèmes",
-      titre: "Algèbre",
-      nombreExercices: 12
-    },
-    {
-      id: "C4",
-      theme: "Grandeurs et mesures",
-      titre: "Les longueurs",
-      nombreExercices: 15
-    },
-    {
-      id: "C5",
-      theme: "Grandeurs et mesures",
-      titre: "Les aires",
-      nombreExercices: 12
-    },
-    {
-      id: "C6",
-      theme: "Grandeurs et mesures",
-      titre: "Les volumes",
-      nombreExercices: 12
-    },
-    {
-      id: "C7",
-      theme: "Grandeurs et mesures",
-      titre: "Le repérage dans le temps et les durées",
-      nombreExercices: 12
-    },
-    {
-      id: "C8",
-      theme: "Espace et géométrie",
-      titre: "Étude de configurations planes",
-      nombreExercices: 21
-    },
-    {
-      id: "C9",
-      theme: "Espace et géométrie",
-      titre: "La vision dans l'espace",
-      nombreExercices: 8
-    },
-    {
-      id: "C10",
-      theme: "Organisation et gestion de données et probabilités",
-      titre: "Organisation et gestion de données",
-      nombreExercices: 7
-    },
-    {
-      id: "C11",
-      theme: "Organisation et gestion de données et probabilités",
-      titre: "Les probabilités",
-      nombreExercices: 10
-    },
-    {
-      id: "C12",
-      theme: "La proportionnalité",
-      titre: "La proportionnalité",
-      nombreExercices: 12
-    },
-    {
-      id: "C13",
-      theme: "Initiation à la pensée informatique",
-      titre: "Initiation à la pensée informatique",
-      nombreExercices: 10
-    }
-  ];
+  // Calculer les totaux dynamiquement
+  const nombreSeances = chapitres.length;
+  const nombreContenusPedagogiques = chapitres.reduce((total: number, ch: any) => total + ch.nombreExercices, 0);
 
   const toggleChapter = (chapterId: string) => {
     setOpenChapters(prev => ({
