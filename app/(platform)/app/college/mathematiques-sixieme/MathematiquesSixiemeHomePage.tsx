@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
-import { useSidebar } from "@/app/components/SidebarContext";
 import { useState } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp } from "react-icons/lu";
 
@@ -10,7 +9,6 @@ export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
   const [isPlanCoursOpen, setIsPlanCoursOpen] = useState(false);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
-  const { isOpen } = useSidebar();
 
   // Données du cours
   const nombreSeances = 13;
@@ -165,11 +163,12 @@ export default function MathematiquesSixiemeHomePage() {
           borderRadius: "16px",
           padding: "2.5rem",
           minWidth: "360px",
+          maxWidth: "360px",
           boxShadow: "0 10px 40px rgba(0,0,0,0.15)",
-          position: "fixed",
-          right: "10%",
-          top: "140px",
-          transition: "right 0.3s ease"
+          position: "absolute",
+          right: "8%",
+          top: "50%",
+          transform: "translateY(-20%)"
         }}>
           {/* Bouton principal */}
           <Link
