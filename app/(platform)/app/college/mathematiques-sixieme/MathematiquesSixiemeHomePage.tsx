@@ -444,8 +444,7 @@ export default function MathematiquesSixiemeHomePage() {
               alignItems: "center",
               justifyContent: "space-between",
               cursor: "pointer",
-              transition: "background 0.2s ease",
-              position: "relative"
+              transition: "background 0.2s ease"
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = "rgba(255,255,255,0.03)";
@@ -498,6 +497,7 @@ export default function MathematiquesSixiemeHomePage() {
                   {/* Bouton chapitre */}
                   <button
                     onClick={() => toggleChapter(chapitre.id)}
+                    tabIndex={-1}
                     style={{
                       width: "100%",
                       padding: "0.8rem 1.5rem",
