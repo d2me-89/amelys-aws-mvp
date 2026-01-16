@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
-import { useState, useMemo, useRef, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 
@@ -44,13 +44,6 @@ export default function MathematiquesSixiemeHomePage() {
 
   return (
     <AppLayout>
-      {/* Style global pour empêcher le smooth scroll */}
-      <style jsx global>{`
-        html {
-          scroll-behavior: auto !important;
-        }
-      `}</style>
-
       {/* Bande pour icônes et recherche (à venir) */}
       <div style={{
         background: "var(--background)",
@@ -74,11 +67,11 @@ export default function MathematiquesSixiemeHomePage() {
         {/* Motifs mathématiques décoratifs en arrière-plan */}
         <div style={{
           position: "absolute",
+          top: 0,
           left: 0,
           right: 0,
           bottom: 0,
-          height: "60%",
-          opacity: 0.15,
+          opacity: 0.08,
           pointerEvents: "none",
           fontSize: "4rem",
           color: "#fff",
@@ -88,8 +81,7 @@ export default function MathematiquesSixiemeHomePage() {
           gap: "3rem",
           padding: "2rem",
           justifyContent: "space-around",
-          alignItems: "flex-end",
-          zIndex: 0
+          alignItems: "center"
         }}>
           <span style={{ transform: "rotate(-15deg)" }}>∑</span>
           <span style={{ transform: "rotate(12deg)" }}>π</span>
@@ -112,8 +104,7 @@ export default function MathematiquesSixiemeHomePage() {
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
-          position: "relative",
-          zIndex: 1
+          position: "relative"
         }}>
         {/* Partie gauche : Niveau + Titre */}
         <div style={{ flex: 1 }}>
@@ -472,33 +463,11 @@ export default function MathematiquesSixiemeHomePage() {
           maxWidth: "780px"
         }}>
           {/* En-tête cliquable */}
-          <div
-            role="button"
-            tabIndex={0}
+          <button
+            type="button"
             onClick={(e) => {
               e.preventDefault();
-              e.stopPropagation();
-              
-              // Sauvegarder la position actuelle du scroll
-              const scrollY = window.scrollY;
-              
-              // Changer l'état
               setIsPlanCoursOpen(!isPlanCoursOpen);
-              
-              // Restaurer immédiatement la position du scroll
-              requestAnimationFrame(() => {
-                window.scrollTo(0, scrollY);
-              });
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                const scrollY = window.scrollY;
-                setIsPlanCoursOpen(!isPlanCoursOpen);
-                requestAnimationFrame(() => {
-                  window.scrollTo(0, scrollY);
-                });
-              }
             }}
             style={{
               width: "100%",
@@ -549,7 +518,7 @@ export default function MathematiquesSixiemeHomePage() {
             <div style={{ color: "rgba(255,255,255,0.6)" }}>
               {isPlanCoursOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
             </div>
-          </div>
+          </button>
 
           {/* Contenu déroulant : Liste des chapitres */}
           {isPlanCoursOpen && (
