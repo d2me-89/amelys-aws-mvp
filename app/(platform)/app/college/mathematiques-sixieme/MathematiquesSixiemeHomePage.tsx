@@ -589,7 +589,7 @@ export default function MathematiquesSixiemeHomePage() {
                       </Link>
 
                       {/* 3. Compétences clés (avec sous-menu déroulant) */}
-                      <div style={{ marginBottom: "0.4rem" }}>
+                      <div style={{ marginBottom: "0.4rem", position: "relative" }}>
                         <div
                           onClick={() => toggleCompetences(chapitre.id)}
                           style={{
@@ -629,18 +629,34 @@ export default function MathematiquesSixiemeHomePage() {
                           />
                         </div>
 
-                        {/* Sous-menu des exercices */}
+                        {/* Sous-menu des exercices - POSITIONNÉ À DROITE */}
                         {openCompetences[chapitre.id] && (
                           <div style={{
-                            marginTop: "0.5rem",
-                            marginLeft: "2rem",
+                            position: "absolute",
+                            left: "105%",
+                            top: 0,
+                            width: "420px",
                             padding: "0.75rem",
-                            background: "rgba(0,0,0,0.3)",
-                            borderRadius: "8px",
-                            border: "1px solid rgba(159, 122, 234, 0.15)",
-                            maxHeight: "300px",
-                            overflowY: "auto"
+                            background: "rgba(0,0,0,0.95)",
+                            borderRadius: "12px",
+                            border: "1px solid rgba(159, 122, 234, 0.3)",
+                            maxHeight: "500px",
+                            overflowY: "auto",
+                            boxShadow: "0 8px 24px rgba(0,0,0,0.4)",
+                            zIndex: 100
                           }}>
+                            {/* Titre du sous-menu */}
+                            <div style={{
+                              fontSize: "1rem",
+                              fontWeight: 600,
+                              color: "#B794F6",
+                              marginBottom: "0.75rem",
+                              paddingBottom: "0.5rem",
+                              borderBottom: "1px solid rgba(159, 122, 234, 0.2)"
+                            }}>
+                              {chapitre.nombreExercices} exercices
+                            </div>
+
                             {/* Liste des exercices du JSON */}
                             {chapitresData[index].exercices.L.map((exercice: any, exIndex: number) => (
                               <Link
@@ -649,18 +665,39 @@ export default function MathematiquesSixiemeHomePage() {
                                 style={{ textDecoration: "none" }}
                               >
                                 <div style={{
-                                  padding: "0.5rem 0.75rem",
-                                  borderRadius: "6px",
-                                  marginBottom: "0.35rem",
+                                  padding: "0.65rem 0.85rem",
+                                  borderRadius: "8px",
+                                  marginBottom: "0.4rem",
                                   cursor: "pointer",
-                                  transition: "background 0.2s ease"
+                                  transition: "background 0.2s ease",
+                                  border: "1px solid transparent"
                                 }}
-                                onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.2)"}
-                                onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
+                                onMouseEnter={(e) => {
+                                  e.currentTarget.style.background = "rgba(159, 122, 234, 0.2)";
+                                  e.currentTarget.style.borderColor = "rgba(159, 122, 234, 0.4)";
+                                }}
+                                onMouseLeave={(e) => {
+                                  e.currentTarget.style.background = "transparent";
+                                  e.currentTarget.style.borderColor = "transparent";
+                                }}
                                 >
-                                  <span style={{ fontSize: "0.85rem", color: "rgba(255,255,255,0.85)" }}>
-                                    E{(exIndex + 1).toString().padStart(2, '0')}. {exercice.M.titre.S}
-                                  </span>
+                                  <div style={{ display: "flex", gap: "0.5rem" }}>
+                                    <span style={{ 
+                                      fontSize: "0.95rem", 
+                                      color: "#B794F6",
+                                      fontWeight: 600,
+                                      minWidth: "35px"
+                                    }}>
+                                      E{(exIndex + 1).toString().padStart(2, '0')}.
+                                    </span>
+                                    <span style={{ 
+                                      fontSize: "0.95rem", 
+                                      color: "#fff",
+                                      lineHeight: "1.4"
+                                    }}>
+                                      {exercice.M.titre.S}
+                                    </span>
+                                  </div>
                                 </div>
                               </Link>
                             ))}
