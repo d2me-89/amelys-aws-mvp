@@ -127,7 +127,7 @@ export default function MathematiquesSixiemeHomePage() {
         {/* Conteneur centré avec largeur max */}
         <div style={{
           width: "100%",
-          maxWidth: "1000px",
+          maxWidth: "1400px",
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
@@ -306,7 +306,7 @@ export default function MathematiquesSixiemeHomePage() {
         display: "flex",
         justifyContent: "center"
       }}>
-        <div style={{ width: "100%", maxWidth: "1000px" }}>
+        <div style={{ width: "100%", maxWidth: "1400px" }}>
         {/* Section Plan du cours */}
         <div style={{
           background: "rgba(255,255,255,0.08)",
@@ -414,22 +414,14 @@ export default function MathematiquesSixiemeHomePage() {
                       {openChapters[chapitre.id] ? <LuChevronUp size={20} /> : <LuChevronDown size={20} />}
                     </div>
 
-                    {/* Contenu : Titre + Infos */}
+                    {/* Titre du chapitre uniquement */}
                     <div style={{ flex: 1 }}>
                       <div style={{
                         fontSize: "1.15rem",
                         color: "#C4B5FE",
-                        fontWeight: 600,
-                        marginBottom: "0.4rem"
+                        fontWeight: 600
                       }}>
                         Chapitre {index + 1}. {chapitre.titre}
-                      </div>
-                      <div style={{
-                        fontSize: "0.9rem",
-                        color: "#fff",
-                        fontWeight: 400
-                      }}>
-                        Cours • {chapitre.nombreExercices} exercices interactifs • Contrôle • Discussion libre
                       </div>
                     </div>
                   </button>
