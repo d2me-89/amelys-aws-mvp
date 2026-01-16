@@ -272,8 +272,8 @@ export default function MathematiquesSixiemeHomePage() {
       {/* Contenu principal : Plan du cours */}
       <div style={{
         padding: "3rem 4rem",
-        maxWidth: "1200px",
-        margin: "0 auto"
+        maxWidth: "100%",
+        margin: "0"
       }}>
         {/* Section Plan du cours */}
         <div style={{
@@ -281,7 +281,9 @@ export default function MathematiquesSixiemeHomePage() {
           border: "1px solid rgba(255,255,255,0.1)",
           borderRadius: "16px",
           overflow: "hidden",
-          marginBottom: "1.5rem"
+          marginBottom: "1.5rem",
+          marginLeft: "4rem",
+          maxWidth: "900px"
         }}>
           {/* En-tête cliquable */}
           <button
@@ -323,7 +325,7 @@ export default function MathematiquesSixiemeHomePage() {
                 <LuCalculator size={24} />
               </div>
               <span style={{
-                fontSize: "1.2rem",
+                fontSize: "1.4rem",
                 fontWeight: 700,
                 color: "#fff"
               }}>
@@ -377,7 +379,7 @@ export default function MathematiquesSixiemeHomePage() {
                     {/* Gauche : Numéro + Titre */}
                     <div style={{ flex: 1 }}>
                       <div style={{
-                        fontSize: "0.85rem",
+                        fontSize: "0.95rem",
                         color: "#9F7AEA",
                         fontWeight: 600,
                         marginBottom: "0.3rem"
@@ -385,14 +387,14 @@ export default function MathematiquesSixiemeHomePage() {
                         Chapitre {index + 1} • {chapitre.theme}
                       </div>
                       <div style={{
-                        fontSize: "1.05rem",
+                        fontSize: "1.15rem",
                         fontWeight: 600,
                         color: "#fff"
                       }}>
                         {chapitre.titre}
                       </div>
                       <div style={{
-                        fontSize: "0.85rem",
+                        fontSize: "0.95rem",
                         color: "rgba(255,255,255,0.5)",
                         marginTop: "0.3rem"
                       }}>
