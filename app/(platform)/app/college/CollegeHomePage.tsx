@@ -29,8 +29,8 @@ export default function CollegePage() {
       id: "mathematiques",
       nom: "Mathématiques 6ème",
       emoji: "📐",
-      seances: 12,
-      path: "/app/college/sixieme/matieres/mathematiques"
+      seances: 13,
+      path: "/app/college/mathematiques-sixieme"
     },
     {
       id: "francais",
