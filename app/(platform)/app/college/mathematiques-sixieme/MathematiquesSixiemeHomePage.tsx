@@ -71,7 +71,7 @@ export default function MathematiquesSixiemeHomePage() {
           left: 0,
           right: 0,
           bottom: 0,
-          opacity: 0.08,
+          opacity: 0.15,
           pointerEvents: "none",
           fontSize: "4rem",
           color: "#fff",
@@ -81,7 +81,8 @@ export default function MathematiquesSixiemeHomePage() {
           gap: "3rem",
           padding: "2rem",
           justifyContent: "space-around",
-          alignItems: "center"
+          alignItems: "center",
+          zIndex: 0
         }}>
           <span style={{ transform: "rotate(-15deg)" }}>∑</span>
           <span style={{ transform: "rotate(12deg)" }}>π</span>
@@ -104,7 +105,8 @@ export default function MathematiquesSixiemeHomePage() {
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
-          position: "relative"
+          position: "relative",
+          zIndex: 1
         }}>
         {/* Partie gauche : Niveau + Titre */}
         <div style={{ flex: 1 }}>
@@ -463,11 +465,19 @@ export default function MathematiquesSixiemeHomePage() {
           maxWidth: "780px"
         }}>
           {/* En-tête cliquable */}
-          <button
-            type="button"
+          <div
+            role="button"
+            tabIndex={0}
             onClick={(e) => {
               e.preventDefault();
+              e.stopPropagation();
               setIsPlanCoursOpen(!isPlanCoursOpen);
+            }}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                setIsPlanCoursOpen(!isPlanCoursOpen);
+              }
             }}
             style={{
               width: "100%",
@@ -518,7 +528,7 @@ export default function MathematiquesSixiemeHomePage() {
             <div style={{ color: "rgba(255,255,255,0.6)" }}>
               {isPlanCoursOpen ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
             </div>
-          </button>
+          </div>
 
           {/* Contenu déroulant : Liste des chapitres */}
           {isPlanCoursOpen && (
