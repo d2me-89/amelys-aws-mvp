@@ -638,71 +638,75 @@ export default function MathematiquesSixiemeHomePage() {
                             left: "105%",
                             top: 0,
                             width: "420px",
-                            padding: "0.75rem",
                             background: "rgba(15,15,25,0.98)",
                             borderRadius: "12px",
                             border: "1px solid rgba(159, 122, 234, 0.4)",
-                            maxHeight: "500px",
-                            overflowY: "auto",
                             boxShadow: "0 8px 24px rgba(0,0,0,0.6)",
-                            zIndex: 9999
+                            zIndex: 9999,
+                            overflow: "hidden"
                           }}>
-                            {/* Titre du sous-menu */}
+                            {/* Titre du sous-menu - FIXE */}
                             <div style={{
                               fontSize: "1rem",
                               fontWeight: 600,
                               color: "#B794F6",
-                              marginBottom: "0.75rem",
-                              paddingBottom: "0.5rem",
-                              borderBottom: "1px solid rgba(159, 122, 234, 0.2)"
+                              padding: "0.75rem 0.75rem 0.5rem 0.75rem",
+                              borderBottom: "1px solid rgba(159, 122, 234, 0.2)",
+                              background: "rgba(15,15,25,0.98)"
                             }}>
                               {chapitre.nombreExercices} exercices
                             </div>
 
-                            {/* Liste des exercices du JSON */}
-                            {chapitresData[index].exercices.L.map((exercice: any, exIndex: number) => (
-                              <Link
-                                key={exIndex}
-                                href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/exercice-${exIndex + 1}`}
-                                style={{ textDecoration: "none" }}
-                              >
-                                <div style={{
-                                  padding: "0.65rem 0.85rem",
-                                  borderRadius: "8px",
-                                  marginBottom: "0.4rem",
-                                  cursor: "pointer",
-                                  transition: "background 0.2s ease",
-                                  border: "1px solid transparent"
-                                }}
-                                onMouseEnter={(e) => {
-                                  e.currentTarget.style.background = "rgba(159, 122, 234, 0.2)";
-                                  e.currentTarget.style.borderColor = "rgba(159, 122, 234, 0.4)";
-                                }}
-                                onMouseLeave={(e) => {
-                                  e.currentTarget.style.background = "transparent";
-                                  e.currentTarget.style.borderColor = "transparent";
-                                }}
+                            {/* Liste des exercices - SCROLLABLE */}
+                            <div style={{
+                              maxHeight: "450px",
+                              overflowY: "auto",
+                              padding: "0.75rem"
+                            }}>
+                              {chapitresData[index].exercices.L.map((exercice: any, exIndex: number) => (
+                                <Link
+                                  key={exIndex}
+                                  href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}/exercice-${exIndex + 1}`}
+                                  style={{ textDecoration: "none" }}
                                 >
-                                  <div style={{ display: "flex", gap: "0.5rem" }}>
-                                    <span style={{ 
-                                      fontSize: "0.95rem", 
-                                      color: "#B794F6",
-                                      fontWeight: 600,
-                                      minWidth: "35px"
-                                    }}>
-                                      E{(exIndex + 1).toString().padStart(2, '0')}.
-                                    </span>
-                                    <span style={{ 
-                                      fontSize: "0.95rem", 
-                                      color: "#fff",
-                                      lineHeight: "1.4"
-                                    }}>
-                                      {exercice.M.titre.S}
-                                    </span>
+                                  <div style={{
+                                    padding: "0.65rem 0.85rem",
+                                    borderRadius: "8px",
+                                    marginBottom: "0.4rem",
+                                    cursor: "pointer",
+                                    transition: "background 0.2s ease",
+                                    border: "1px solid transparent"
+                                  }}
+                                  onMouseEnter={(e) => {
+                                    e.currentTarget.style.background = "rgba(159, 122, 234, 0.2)";
+                                    e.currentTarget.style.borderColor = "rgba(159, 122, 234, 0.4)";
+                                  }}
+                                  onMouseLeave={(e) => {
+                                    e.currentTarget.style.background = "transparent";
+                                    e.currentTarget.style.borderColor = "transparent";
+                                  }}
+                                  >
+                                    <div style={{ display: "flex", gap: "0.5rem" }}>
+                                      <span style={{ 
+                                        fontSize: "0.95rem", 
+                                        color: "#B794F6",
+                                        fontWeight: 600,
+                                        minWidth: "35px"
+                                      }}>
+                                        E{(exIndex + 1).toString().padStart(2, '0')}.
+                                      </span>
+                                      <span style={{ 
+                                        fontSize: "0.95rem", 
+                                        color: "#fff",
+                                        lineHeight: "1.4"
+                                      }}>
+                                        {exercice.M.titre.S}
+                                      </span>
+                                    </div>
                                   </div>
-                                </div>
-                              </Link>
-                            ))}
+                                </Link>
+                              ))}
+                            </div>
                           </div>
                         )}
                       </div>
