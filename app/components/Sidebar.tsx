@@ -53,6 +53,7 @@ export default function Sidebar() {
         }}
       >
         {/* Amélys - Ã  gauche, disparaît en mode réduit */}
+        {/* Amélys - à gauche, disparaît en mode réduit */}
         {isOpen && (
           <Link 
             href="/app"
@@ -63,8 +64,7 @@ export default function Sidebar() {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               whiteSpace: "nowrap",
-            }}
-                        textDecoration: "none",
+              textDecoration: "none",
               cursor: "pointer",
               transition: "opacity 0.2s ease"
             }}
