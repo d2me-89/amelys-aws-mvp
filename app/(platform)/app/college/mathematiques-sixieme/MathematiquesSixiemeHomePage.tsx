@@ -647,7 +647,7 @@ export default function MathematiquesSixiemeHomePage() {
               }}>
                 {/* 1. Cours interactif */}
                 <Link
-                  href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}-cours`}
+                  href={`/app/college/mathematiques-sixieme/chapitre${index + 1}-cours`}
                   style={{ textDecoration: "none" }}
                 >
                   <div style={{
@@ -673,7 +673,7 @@ export default function MathematiquesSixiemeHomePage() {
 
                 {/* 2. Exercice en binôme */}
                 <Link
-                  href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}-binome`}
+                  href={`/app/college/mathematiques-sixieme/chapitre${index + 1}-binome`}
                   style={{ textDecoration: "none" }}
                 >
                   <div style={{
@@ -772,7 +772,7 @@ export default function MathematiquesSixiemeHomePage() {
                         {chapitresData[index].exercices.L.map((exercice: any, exIndex: number) => (
                           <Link
                             key={exIndex}
-                            href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}-exercice-${exIndex + 1}`}
+                            href={`/app/college/mathematiques-sixieme/chapitre${index + 1}-exercice${exIndex + 1}`}
                             style={{ textDecoration: "none" }}
                           >
                             <div style={{
@@ -819,7 +819,7 @@ export default function MathematiquesSixiemeHomePage() {
 
                 {/* 4. Contrôle du chapitre */}
                 <Link
-                  href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}-controle`}
+                  href={`/app/college/mathematiques-sixieme/chapitre${index + 1}-controle`}
                   style={{ textDecoration: "none" }}
                 >
                   <div style={{
@@ -844,7 +844,7 @@ export default function MathematiquesSixiemeHomePage() {
 
                 {/* 5. Session libre */}
                 <Link
-                  href={`/app/college/mathematiques-sixieme/chapitre-${index + 1}-session-libre`}
+                  href={`/app/college/mathematiques-sixieme/chapitre${index + 1}-session-libre`}
                   style={{ textDecoration: "none" }}
                 >
                   <div style={{
