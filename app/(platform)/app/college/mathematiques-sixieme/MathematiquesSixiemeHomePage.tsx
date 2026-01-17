@@ -10,6 +10,7 @@ import faqExerciceBinomeRaw from "@/app/documents/faq/faq-exercice-en-binome.jso
 import faqCompetencesClesRaw from "@/app/documents/faq/faq-competences-cles.json";
 import faqControleEvalueRaw from "@/app/documents/faq/faq-controle-evalue.json";
 import faqSessionLibreRaw from "@/app/documents/faq/faq-session-libre.json";
+import mathsSixiemeIntroRaw from "@/app/documents/college/sixieme/mathematiques-6eme/maths-sixieme-introduction.json";
 
 // Type pour les sections FAQ
 type FAQSection = {
@@ -29,6 +30,7 @@ const faqExerciceBinomeData = faqExerciceBinomeRaw as unknown as FAQData;
 const faqCompetencesClesData = faqCompetencesClesRaw as unknown as FAQData;
 const faqControleEvalueData = faqControleEvalueRaw as unknown as FAQData;
 const faqSessionLibreData = faqSessionLibreRaw as unknown as FAQData;
+const mathsSixiemeIntroData = mathsSixiemeIntroRaw as unknown as FAQData;
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
@@ -347,14 +349,36 @@ export default function MathematiquesSixiemeHomePage() {
               padding: "0 1.5rem 1.5rem 1.5rem",
               borderTop: "1px solid rgba(255,255,255,0.1)"
             }}>
-              <p style={{
-                margin: "1.5rem 0",
-                fontSize: "0.95rem",
-                color: "rgba(255,255,255,0.7)",
-                fontStyle: "italic"
+              <div style={{
+                padding: "1rem 1.5rem",
+                background: "rgba(0,0,0,0.2)",
+                borderRadius: "8px",
+                marginTop: "1rem"
               }}>
-                🏫 Contenu "Les mathématiques en sixième" à venir...
-              </p>
+                {mathsSixiemeIntroData.sections.map((section, index) => (
+                  <div key={index} style={{ marginBottom: index < mathsSixiemeIntroData.sections.length - 1 ? "1.5rem" : "0" }}>
+                    <h3 style={{
+                      fontSize: "1.1rem",
+                      fontWeight: 700,
+                      color: "#B794F6",
+                      marginBottom: "0.5rem"
+                    }}>
+                      {section.titre}
+                    </h3>
+                    
+                    {section.type === "paragraphe" && typeof section.contenu === "string" && (
+                      <p style={{
+                        fontSize: "0.95rem",
+                        color: "rgba(255,255,255,0.85)",
+                        lineHeight: "1.6",
+                        margin: 0
+                      }}>
+                        {section.contenu}
+                      </p>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           )}
         </div>

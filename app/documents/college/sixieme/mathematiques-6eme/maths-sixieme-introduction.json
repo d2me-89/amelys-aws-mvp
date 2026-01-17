@@ -1,0 +1,20 @@
+{
+  "titre": "Les mathématiques en sixième et l'IA",
+  "sections": [
+    {
+      "titre": "Une nouvelle aventure",
+      "contenu": "Entrer en sixième, c'est découvrir de nouvelles matières, un nouveau rythme, et parfois se sentir un peu perdu face aux maths.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Amélys, ton compagnon IA",
+      "contenu": "C'est exactement pour ça qu'Amélys existe ! Cette intelligence artificielle pédagogique a été conçue pour t'accompagner tout au long de ton année : elle décompose chaque notion complexe en étapes simples, te propose des exercices adaptés à ton niveau, corrige tes erreurs avec bienveillance et célèbre tes progrès.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Un accompagnement personnalisé",
+      "contenu": "Que tu sois à l'aise avec les chiffres ou que les maths te semblent compliquées, Amélys s'adapte à toi, respecte ton rythme, et te donne toutes les clés pour réussir brillamment ta sixième.",
+      "type": "paragraphe"
+    }
+  ]
+}
