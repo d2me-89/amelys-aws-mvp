@@ -52,9 +52,10 @@ export default function Sidebar() {
           minHeight: "70px",
         }}
       >
-        {/* Amélys - à gauche, disparaît en mode réduit */}
+        {/* Amélys - Ã  gauche, disparaît en mode réduit */}
         {isOpen && (
-          <div
+          <Link 
+            href="/app"
             style={{
               fontWeight: 700,
               fontSize: "1.3rem",
@@ -63,12 +64,18 @@ export default function Sidebar() {
               WebkitTextFillColor: "transparent",
               whiteSpace: "nowrap",
             }}
+                        textDecoration: "none",
+              cursor: "pointer",
+              transition: "opacity 0.2s ease"
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.opacity = "0.8"}
+            onMouseLeave={(e) => e.currentTarget.style.opacity = "1"}
           >
             Amélys
-          </div>
+          </Link>
         )}
 
-        {/* Bouton ☰ - à droite en mode étendu, centré en mode réduit */}
+        {/* Bouton ☰ - Ã  droite en mode étendu, centré en mode réduit */}
         <button
           onClick={toggleSidebar}
           style={{
@@ -229,7 +236,7 @@ export default function Sidebar() {
 // Composant SidebarLink avec tooltip positionné correctement
 interface SidebarLinkProps {
   href: string;
-  icon: React.ReactNode;  // ← Changé de string à ReactNode pour React Icons
+  icon: React.ReactNode;  // ← Changé de string Ã  ReactNode pour React Icons
   label: string;
   isOpen: boolean;
   isActive: boolean;
