@@ -5,6 +5,7 @@ import AppLayout from "@/app/components/AppLayout";
 import { useState, useMemo } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
+import faqCoursInteractifData from "@/app/documents/faq/cours-interactif.json";
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
@@ -466,101 +467,62 @@ export default function MathematiquesSixiemeHomePage() {
                     borderRadius: "8px",
                     marginTop: "0.5rem"
                   }}>
-                    {/* Qu'est-ce que c'est ? */}
-                    <div style={{ marginBottom: "1.5rem" }}>
-                      <h3 style={{
-                        fontSize: "1.1rem",
-                        fontWeight: 700,
-                        color: "#B794F6",
-                        marginBottom: "0.5rem"
-                      }}>
-                        Qu'est-ce que c'est ?
-                      </h3>
-                      <p style={{
-                        fontSize: "0.95rem",
-                        color: "rgba(255,255,255,0.85)",
-                        lineHeight: "1.6",
-                        margin: 0
-                      }}>
-                        Un cours interactif et personnalisé sur un chapitre complet, animé par un professeur virtuel bienveillant.
-                      </p>
-                    </div>
-
-                    {/* Comment ça marche ? */}
-                    <div style={{ marginBottom: "1.5rem" }}>
-                      <h3 style={{
-                        fontSize: "1.1rem",
-                        fontWeight: 700,
-                        color: "#B794F6",
-                        marginBottom: "0.5rem"
-                      }}>
-                        Comment ça marche ?
-                      </h3>
-                      <ol style={{
-                        fontSize: "0.95rem",
-                        color: "rgba(255,255,255,0.85)",
-                        lineHeight: "1.6",
-                        margin: 0,
-                        paddingLeft: "1.5rem"
-                      }}>
-                        <li style={{ marginBottom: "0.5rem" }}>
-                          Tu choisis le format : cours express (10-15 min), moyen (30-40 min), ou très long (1h30-2h)
-                        </li>
-                        <li style={{ marginBottom: "0.5rem" }}>
-                          Le professeur s'adapte : il explique, pose des questions, vérifie ta compréhension tout au long
-                        </li>
-                        <li>
-                          Tu termines par un QCM de 10 questions pour valider tes acquis
-                        </li>
-                      </ol>
-                    </div>
-
-                    {/* Comment valider "Complet" ? */}
-                    <div style={{ marginBottom: "1.5rem" }}>
-                      <h3 style={{
-                        fontSize: "1.1rem",
-                        fontWeight: 700,
-                        color: "#B794F6",
-                        marginBottom: "0.5rem"
-                      }}>
-                        Comment valider "Complet" ?
-                      </h3>
-                      <ul style={{
-                        fontSize: "0.95rem",
-                        color: "rgba(255,255,255,0.85)",
-                        lineHeight: "1.6",
-                        margin: 0,
-                        paddingLeft: "1.5rem",
-                        listStyle: "disc"
-                      }}>
-                        <li style={{ marginBottom: "0.5rem" }}>
-                          Avoir suivi un cours moyen ou long (le cours express ne suffit pas)
-                        </li>
-                        <li>
-                          Obtenir au moins 6/10 au QCM final
-                        </li>
-                      </ul>
-                    </div>
-
-                    {/* Pourquoi choisir ce mode ? */}
-                    <div>
-                      <h3 style={{
-                        fontSize: "1.1rem",
-                        fontWeight: 700,
-                        color: "#B794F6",
-                        marginBottom: "0.5rem"
-                      }}>
-                        Pourquoi choisir ce mode ?
-                      </h3>
-                      <p style={{
-                        fontSize: "0.95rem",
-                        color: "rgba(255,255,255,0.85)",
-                        lineHeight: "1.6",
-                        margin: 0
-                      }}>
-                        Pour apprendre ou réviser un chapitre de A à Z, à ton rythme, avec des explications claires et des exemples concrets. C'est comme avoir un prof particulier qui prend le temps de tout t'expliquer !
-                      </p>
-                    </div>
+                    {faqCoursInteractifData.sections.map((section: any, index: number) => (
+                      <div key={index} style={{ marginBottom: index < faqCoursInteractifData.sections.length - 1 ? "1.5rem" : "0" }}>
+                        <h3 style={{
+                          fontSize: "1.1rem",
+                          fontWeight: 700,
+                          color: "#B794F6",
+                          marginBottom: "0.5rem"
+                        }}>
+                          {section.titre}
+                        </h3>
+                        
+                        {section.type === "paragraphe" && (
+                          <p style={{
+                            fontSize: "0.95rem",
+                            color: "rgba(255,255,255,0.85)",
+                            lineHeight: "1.6",
+                            margin: 0
+                          }}>
+                            {section.contenu}
+                          </p>
+                        )}
+                        
+                        {section.type === "liste-ordonnee" && Array.isArray(section.contenu) && (
+                          <ol style={{
+                            fontSize: "0.95rem",
+                            color: "rgba(255,255,255,0.85)",
+                            lineHeight: "1.6",
+                            margin: 0,
+                            paddingLeft: "1.5rem"
+                          }}>
+                            {section.contenu.map((item, idx) => (
+                              <li key={idx} style={{ marginBottom: idx < section.contenu.length - 1 ? "0.5rem" : "0" }}>
+                                {item}
+                              </li>
+                            ))}
+                          </ol>
+                        )}
+                        
+                        {section.type === "liste-puces" && Array.isArray(section.contenu) && (
+                          <ul style={{
+                            fontSize: "0.95rem",
+                            color: "rgba(255,255,255,0.85)",
+                            lineHeight: "1.6",
+                            margin: 0,
+                            paddingLeft: "1.5rem",
+                            listStyle: "disc"
+                          }}>
+                            {section.contenu.map((item, idx) => (
+                              <li key={idx} style={{ marginBottom: idx < section.contenu.length - 1 ? "0.5rem" : "0" }}>
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    ))}
                   </div>
                 )}
               </div>
