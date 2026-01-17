@@ -21,7 +21,7 @@ import {
   LuCopy,
   LuThumbsUp,
   LuThumbsDown,
-  LuMoreHorizontal
+  LuMoreVertical
 } from "react-icons/lu";
 
 export default function MathematiquesSixiemeChapitre1CoursPage() {
@@ -635,7 +635,7 @@ function MessageBubble({ message }: MessageBubbleProps) {
             <ActionButton icon={<LuRefreshCw size={14} />} />
             <ActionButton icon={<LuThumbsUp size={14} />} />
             <ActionButton icon={<LuThumbsDown size={14} />} />
-            <ActionButton icon={<LuMoreHorizontal size={14} />} />
+            <ActionButton icon={<LuMoreVertical size={14} />} />
           </div>
         )}
       </div>
