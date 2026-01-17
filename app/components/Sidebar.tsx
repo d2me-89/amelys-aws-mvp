@@ -122,6 +122,13 @@ export default function Sidebar() {
           isActive={pathname === "/app"}
         />
         <SidebarLink
+          href="/app/amelysask"
+          icon={<LuMessageSquare />}
+          label="Primaire"
+          isOpen={isOpen}
+          isActive={pathname === "/app/primaire"}
+        />
+        <SidebarLink
           href="/app/college"
           icon={<LuGraduationCap />}
           label="Collège"
@@ -136,25 +143,25 @@ export default function Sidebar() {
           isActive={pathname.startsWith("/app/lycee")}
         />
         <SidebarLink
-          href="/app/amelysask"
+          href="/app/cpge"
           icon={<LuMessageSquare />}
-          label="AmélysAsk"
+          label="CPGE"
           isOpen={isOpen}
-          isActive={pathname === "/app/amelysask"}
+          isActive={pathname === "/app/cpge"}
         />
         <SidebarLink
-          href="/app/parcours"
+          href="/app/droit"
           icon={<LuTarget />}
-          label="Parcours"
+          label="Droit"
           isOpen={isOpen}
-          isActive={pathname === "/app/parcours"}
+          isActive={pathname === "/app/droit"}
         />
         <SidebarLink
-          href="/app/cours-telechargables"
+          href="/app/economie-gestion"
           icon={<LuDownload />}
-          label="Cours téléchargeables"
+          label="Economie-gestion"
           isOpen={isOpen}
-          isActive={pathname === "/app/cours-telechargables"}
+          isActive={pathname === "/app/economie-gestion"}
         />
         <SidebarLink
           href="/app/profs-en-ligne"

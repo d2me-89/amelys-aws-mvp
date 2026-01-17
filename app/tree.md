@@ -8,6 +8,247 @@
 │   │       │   ├── CollegeHomePage.tsx
 │   │       │   ├── mathematiques-sixieme
 │   │       │   │   ├── MathematiquesSixiemeHomePage.tsx
+│   │       │   │   ├── chapitre1-binome
+│   │       │   │   ├── chapitre1-controle
+│   │       │   │   ├── chapitre1-cours
+│   │       │   │   │   ├── MathematiquesSixiemeChapitre1CoursPage.tsx
+│   │       │   │   │   └── page.tsx
+│   │       │   │   ├── chapitre1-exercice1
+│   │       │   │   ├── chapitre1-session-libre
+│   │       │   │   ├── chapitre10-binome
+│   │       │   │   ├── chapitre10-controle
+│   │       │   │   ├── chapitre10-cours
+│   │       │   │   ├── chapitre10-exercice1
+│   │       │   │   ├── chapitre10-exercice2
+│   │       │   │   ├── chapitre10-exercice3
+│   │       │   │   ├── chapitre10-exercice4
+│   │       │   │   ├── chapitre10-exercice5
+│   │       │   │   ├── chapitre10-exercice6
+│   │       │   │   ├── chapitre10-exercice7
+│   │       │   │   ├── chapitre10-exercice8
+│   │       │   │   ├── chapitre10-session-libre
+│   │       │   │   ├── chapitre11-binome
+│   │       │   │   ├── chapitre11-controle
+│   │       │   │   ├── chapitre11-cours
+│   │       │   │   ├── chapitre11-exercice1
+│   │       │   │   ├── chapitre11-exercice2
+│   │       │   │   ├── chapitre11-exercice3
+│   │       │   │   ├── chapitre11-exercice4
+│   │       │   │   ├── chapitre11-exercice5
+│   │       │   │   ├── chapitre11-exercice6
+│   │       │   │   ├── chapitre11-exercice7
+│   │       │   │   ├── chapitre11-session-libre
+│   │       │   │   ├── chapitre12-binome
+│   │       │   │   ├── chapitre12-controle
+│   │       │   │   ├── chapitre12-cours
+│   │       │   │   ├── chapitre12-exercice1
+│   │       │   │   ├── chapitre12-exercice10
+│   │       │   │   ├── chapitre12-exercice2
+│   │       │   │   ├── chapitre12-exercice3
+│   │       │   │   ├── chapitre12-exercice4
+│   │       │   │   ├── chapitre12-exercice5
+│   │       │   │   ├── chapitre12-exercice6
+│   │       │   │   ├── chapitre12-exercice7
+│   │       │   │   ├── chapitre12-exercice8
+│   │       │   │   ├── chapitre12-exercice9
+│   │       │   │   ├── chapitre12-session-libre
+│   │       │   │   ├── chapitre13-binome
+│   │       │   │   ├── chapitre13-controle
+│   │       │   │   ├── chapitre13-cours
+│   │       │   │   ├── chapitre13-exercice1
+│   │       │   │   ├── chapitre13-exercice10
+│   │       │   │   ├── chapitre13-exercice11
+│   │       │   │   ├── chapitre13-exercice12
+│   │       │   │   ├── chapitre13-exercice2
+│   │       │   │   ├── chapitre13-exercice3
+│   │       │   │   ├── chapitre13-exercice4
+│   │       │   │   ├── chapitre13-exercice5
+│   │       │   │   ├── chapitre13-exercice6
+│   │       │   │   ├── chapitre13-exercice7
+│   │       │   │   ├── chapitre13-exercice8
+│   │       │   │   ├── chapitre13-exercice9
+│   │       │   │   ├── chapitre13-session-libre
+│   │       │   │   ├── chapitre2-binome
+│   │       │   │   ├── chapitre2-controle
+│   │       │   │   ├── chapitre2-cours
+│   │       │   │   ├── chapitre2-exercice1
+│   │       │   │   ├── chapitre2-exercice10
+│   │       │   │   ├── chapitre2-exercice11
+│   │       │   │   ├── chapitre2-exercice12
+│   │       │   │   ├── chapitre2-exercice13
+│   │       │   │   ├── chapitre2-exercice14
+│   │       │   │   ├── chapitre2-exercice15
+│   │       │   │   ├── chapitre2-exercice16
+│   │       │   │   ├── chapitre2-exercice17
+│   │       │   │   ├── chapitre2-exercice18
+│   │       │   │   ├── chapitre2-exercice19
+│   │       │   │   ├── chapitre2-exercice2
+│   │       │   │   ├── chapitre2-exercice20
+│   │       │   │   ├── chapitre2-exercice21
+│   │       │   │   ├── chapitre2-exercice22
+│   │       │   │   ├── chapitre2-exercice23
+│   │       │   │   ├── chapitre2-exercice24
+│   │       │   │   ├── chapitre2-exercice25
+│   │       │   │   ├── chapitre2-exercice26
+│   │       │   │   ├── chapitre2-exercice27
+│   │       │   │   ├── chapitre2-exercice28
+│   │       │   │   ├── chapitre2-exercice29
+│   │       │   │   ├── chapitre2-exercice3
+│   │       │   │   ├── chapitre2-exercice30
+│   │       │   │   ├── chapitre2-exercice31
+│   │       │   │   ├── chapitre2-exercice32
+│   │       │   │   ├── chapitre2-exercice33
+│   │       │   │   ├── chapitre2-exercice34
+│   │       │   │   ├── chapitre2-exercice35
+│   │       │   │   ├── chapitre2-exercice36
+│   │       │   │   ├── chapitre2-exercice37
+│   │       │   │   ├── chapitre2-exercice38
+│   │       │   │   ├── chapitre2-exercice39
+│   │       │   │   ├── chapitre2-exercice4
+│   │       │   │   ├── chapitre2-exercice5
+│   │       │   │   ├── chapitre2-exercice6
+│   │       │   │   ├── chapitre2-exercice7
+│   │       │   │   ├── chapitre2-exercice8
+│   │       │   │   ├── chapitre2-exercice9
+│   │       │   │   ├── chapitre2-session-libre
+│   │       │   │   ├── chapitre3-binome
+│   │       │   │   ├── chapitre3-controle
+│   │       │   │   ├── chapitre3-cours
+│   │       │   │   ├── chapitre3-exercice1
+│   │       │   │   ├── chapitre3-exercice10
+│   │       │   │   ├── chapitre3-exercice11
+│   │       │   │   ├── chapitre3-exercice12
+│   │       │   │   ├── chapitre3-exercice13
+│   │       │   │   ├── chapitre3-exercice14
+│   │       │   │   ├── chapitre3-exercice15
+│   │       │   │   ├── chapitre3-exercice16
+│   │       │   │   ├── chapitre3-exercice17
+│   │       │   │   ├── chapitre3-exercice18
+│   │       │   │   ├── chapitre3-exercice19
+│   │       │   │   ├── chapitre3-exercice2
+│   │       │   │   ├── chapitre3-exercice20
+│   │       │   │   ├── chapitre3-exercice21
+│   │       │   │   ├── chapitre3-exercice22
+│   │       │   │   ├── chapitre3-exercice23
+│   │       │   │   ├── chapitre3-exercice24
+│   │       │   │   ├── chapitre3-exercice25
+│   │       │   │   ├── chapitre3-exercice26
+│   │       │   │   ├── chapitre3-exercice3
+│   │       │   │   ├── chapitre3-exercice4
+│   │       │   │   ├── chapitre3-exercice5
+│   │       │   │   ├── chapitre3-exercice6
+│   │       │   │   ├── chapitre3-exercice7
+│   │       │   │   ├── chapitre3-exercice8
+│   │       │   │   ├── chapitre3-exercice9
+│   │       │   │   ├── chapitre3-session-libre
+│   │       │   │   ├── chapitre4-binome
+│   │       │   │   ├── chapitre4-controle
+│   │       │   │   ├── chapitre4-cours
+│   │       │   │   ├── chapitre4-exercice1
+│   │       │   │   ├── chapitre4-exercice10
+│   │       │   │   ├── chapitre4-exercice11
+│   │       │   │   ├── chapitre4-exercice12
+│   │       │   │   ├── chapitre4-exercice2
+│   │       │   │   ├── chapitre4-exercice3
+│   │       │   │   ├── chapitre4-exercice4
+│   │       │   │   ├── chapitre4-exercice5
+│   │       │   │   ├── chapitre4-exercice6
+│   │       │   │   ├── chapitre4-exercice7
+│   │       │   │   ├── chapitre4-exercice8
+│   │       │   │   ├── chapitre4-exercice9
+│   │       │   │   ├── chapitre4-session-libre
+│   │       │   │   ├── chapitre5-binome
+│   │       │   │   ├── chapitre5-controle
+│   │       │   │   ├── chapitre5-cours
+│   │       │   │   ├── chapitre5-exercice1
+│   │       │   │   ├── chapitre5-exercice10
+│   │       │   │   ├── chapitre5-exercice11
+│   │       │   │   ├── chapitre5-exercice12
+│   │       │   │   ├── chapitre5-exercice13
+│   │       │   │   ├── chapitre5-exercice14
+│   │       │   │   ├── chapitre5-exercice15
+│   │       │   │   ├── chapitre5-exercice2
+│   │       │   │   ├── chapitre5-exercice3
+│   │       │   │   ├── chapitre5-exercice4
+│   │       │   │   ├── chapitre5-exercice5
+│   │       │   │   ├── chapitre5-exercice6
+│   │       │   │   ├── chapitre5-exercice7
+│   │       │   │   ├── chapitre5-exercice8
+│   │       │   │   ├── chapitre5-exercice9
+│   │       │   │   ├── chapitre5-session-libre
+│   │       │   │   ├── chapitre6-binome
+│   │       │   │   ├── chapitre6-controle
+│   │       │   │   ├── chapitre6-cours
+│   │       │   │   ├── chapitre6-exercice1
+│   │       │   │   ├── chapitre6-exercice10
+│   │       │   │   ├── chapitre6-exercice11
+│   │       │   │   ├── chapitre6-exercice12
+│   │       │   │   ├── chapitre6-exercice2
+│   │       │   │   ├── chapitre6-exercice3
+│   │       │   │   ├── chapitre6-exercice4
+│   │       │   │   ├── chapitre6-exercice5
+│   │       │   │   ├── chapitre6-exercice6
+│   │       │   │   ├── chapitre6-exercice7
+│   │       │   │   ├── chapitre6-exercice8
+│   │       │   │   ├── chapitre6-exercice9
+│   │       │   │   ├── chapitre6-session-libre
+│   │       │   │   ├── chapitre7-binome
+│   │       │   │   ├── chapitre7-controle
+│   │       │   │   ├── chapitre7-cours
+│   │       │   │   ├── chapitre7-exercice1
+│   │       │   │   ├── chapitre7-exercice10
+│   │       │   │   ├── chapitre7-exercice11
+│   │       │   │   ├── chapitre7-exercice12
+│   │       │   │   ├── chapitre7-exercice2
+│   │       │   │   ├── chapitre7-exercice3
+│   │       │   │   ├── chapitre7-exercice4
+│   │       │   │   ├── chapitre7-exercice5
+│   │       │   │   ├── chapitre7-exercice6
+│   │       │   │   ├── chapitre7-exercice7
+│   │       │   │   ├── chapitre7-exercice8
+│   │       │   │   ├── chapitre7-exercice9
+│   │       │   │   ├── chapitre7-session-libre
+│   │       │   │   ├── chapitre8-binome
+│   │       │   │   ├── chapitre8-controle
+│   │       │   │   ├── chapitre8-cours
+│   │       │   │   ├── chapitre8-exercice1
+│   │       │   │   ├── chapitre8-exercice10
+│   │       │   │   ├── chapitre8-exercice11
+│   │       │   │   ├── chapitre8-exercice12
+│   │       │   │   ├── chapitre8-exercice2
+│   │       │   │   ├── chapitre8-exercice3
+│   │       │   │   ├── chapitre8-exercice4
+│   │       │   │   ├── chapitre8-exercice5
+│   │       │   │   ├── chapitre8-exercice6
+│   │       │   │   ├── chapitre8-exercice7
+│   │       │   │   ├── chapitre8-exercice8
+│   │       │   │   ├── chapitre8-exercice9
+│   │       │   │   ├── chapitre8-session-libre
+│   │       │   │   ├── chapitre9-binome
+│   │       │   │   ├── chapitre9-controle
+│   │       │   │   ├── chapitre9-cours
+│   │       │   │   ├── chapitre9-exercice1
+│   │       │   │   ├── chapitre9-exercice10
+│   │       │   │   ├── chapitre9-exercice11
+│   │       │   │   ├── chapitre9-exercice12
+│   │       │   │   ├── chapitre9-exercice13
+│   │       │   │   ├── chapitre9-exercice14
+│   │       │   │   ├── chapitre9-exercice15
+│   │       │   │   ├── chapitre9-exercice16
+│   │       │   │   ├── chapitre9-exercice17
+│   │       │   │   ├── chapitre9-exercice18
+│   │       │   │   ├── chapitre9-exercice19
+│   │       │   │   ├── chapitre9-exercice2
+│   │       │   │   ├── chapitre9-exercice20
+│   │       │   │   ├── chapitre9-exercice21
+│   │       │   │   ├── chapitre9-exercice3
+│   │       │   │   ├── chapitre9-exercice4
+│   │       │   │   ├── chapitre9-exercice5
+│   │       │   │   ├── chapitre9-exercice6
+│   │       │   │   ├── chapitre9-exercice7
+│   │       │   │   ├── chapitre9-exercice8
+│   │       │   │   ├── chapitre9-exercice9
+│   │       │   │   ├── chapitre9-session-libre
 │   │       │   │   └── page.tsx
 │   │       │   └── page.tsx
 │   │       ├── lycee
@@ -15,6 +256,8 @@
 │   │       │   └── page.tsx
 │   │       └── page.tsx
 │   ├── INSTALLATION-SIDEBAR.md
+│   ├── college
+│   │   └── mathematiques-sixieme
 │   ├── components
 │   │   ├── AppLayout.tsx
 │   │   ├── Sidebar.tsx
@@ -221,7 +464,9 @@
 │   ├── page.tsx
 │   ├── ping
 │   │   └── page.tsx
-│   └── tree.md
+│   ├── tree.md
+│   └── utils
+│       └── structure-dossier-matiere-exemple.sh
 ├── eslint.config.mjs
 ├── next-env.d.ts
 ├── next.config.ts
@@ -236,4 +481,4 @@
 │   └── window.svg
 └── tsconfig.json
 
-123 directories, 114 files
+365 directories, 117 files

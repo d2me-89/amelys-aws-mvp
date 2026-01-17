@@ -1,0 +1,305 @@
+[
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "La planète Terre, l’environnement et l’action humaine" },
+  "chapitreTitre": { "S": "La dynamique de la Terre et ses conséquences" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier un modèle scientifique et une théorie scientifique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'une plaque lithosphérique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'une dorsale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'une fosse océanique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques d'une collision entre deux plaques lithosphériques" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la notion de risque géologique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître le modèle de Wegener" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître le modèle de la tectonique des plaques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Schématiser le volcanisme et les séismes dans une zone de dorsale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Schématiser le volcanisme et les séismes dans une zone de fosse océanique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Schématiser les séismes dans une zone de collision entre deux plaques lithosphériques" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Différencier l'aléa et l'enjeu dans une situation de risque géologique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître la structure interne de la Terre" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Expliquer le volcanisme et les séismes dans une zone de dorsale" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer le volcanisme et les séismes dans une zone de fosse océanique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BREVET – Asie 2023 : Le Chili, une région sismique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "La planète Terre, l’environnement et l’action humaine" },
+  "chapitreTitre": { "S": "Les changements climatiques et l'être humain" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'effet de serre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la notion de risque climatique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les principaux risques climatiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les conséquences du dérèglement climatique actuel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier l'aléa et l'enjeu dans une situation de risque climatique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Schématiser l'effet des gaz à effet de serre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les causes du dérèglement climatique actuel" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BREVET – EAU 2023 : Les phénomènes El Niño" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Nouvelle-Calédonie 2022 : Le blanchiment des coraux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BREVET – Amérique du Sud 2022 : L'évolution de la population de pins en France" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – EAU 2022 : Le gobemouche noir" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "La planète Terre, l’environnement et l’action humaine" },
+  "chapitreTitre": { "S": "La prévision et la prévention des risques planétaires" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la géodynamique externe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier la prévision et la prédiction des risques" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la géodynamique interne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier l'aléa et l'enjeu dans une situation de risque géodynamique externe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier l'aléa et l'enjeu dans une situation de risque géodynamique interne" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Type BREVET – Amérique du Nord 2022 : Le risque de tsunami" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "La planète Terre, l’environnement et l’action humaine" },
+  "chapitreTitre": { "S": "Les ressources naturelles des écosystèmes et les activités humaines" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des ressources naturelles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de l'effet de serre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'un écosystème" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les sources de la pollution de l'air" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les risques de la pollution de l'air" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les sources de la pollution des eaux" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les conséquences négatives de l'exploitation des ressources naturelles sur l'environnement" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les mécanismes de la pollution de l'air" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre les mécanismes de la pollution de l'eau" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les causes de l'extinction des espèces animales" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET – Nouvelle-Calédonie 2023 : Surpêche et comportement responsable" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Le vivant et son évolution" },
+  "chapitreTitre": { "S": "La nutrition des êtres vivants" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différents régimes alimentaires" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des nutriments" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des végétaux chlorophylliens" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'un organisme hétérotrophe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques de la photosynthèse" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques d'un stomate" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Schématiser une racine" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier la sève brute et la sève élaborée" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître l'adaptation des systèmes digestifs en fonction du régime alimentaire" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les caractéristiques du système circulatoire d'un organisme" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Schématiser le système circulatoire des insectes" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Schématiser le système circulatoire clos chez les vertébrés" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre les besoins des plantes pour fabriquer leur matière" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les caractéristiques d'une symbiose" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Schématiser le transport et le rôle de la sève chez les végétaux" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier la nutrition chez un végétal" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BREVET – Amérique du Nord 2023 : La plante chlorophylienne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Le vivant et son évolution" },
+  "chapitreTitre": { "S": "La dynamique des populations" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la reproduction asexuée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la dynamique des populations d'espèces animales et végétales" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'un phénotype" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le mécanisme de la fécondation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre la transmission du patrimoine génétique au cours de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les facteurs de survie d'une population d'espèces animales et végétales" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les facteurs de reproduction d'une population d'espèces animales et végétales" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Le vivant et son évolution" },
+  "chapitreTitre": { "S": "La diversité génétique des individus" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'ADN" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des gènes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'un chromosome" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'un caryotype" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques d'un organisme génétiquement modifié" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Observer des chromosomes au microscope" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier un allèle dominant et un allèle récessif" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les caractéristiques simples de la méiose" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître le mécanisme de la fécondation" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la copie à l'identique de l'information génétique lors de la division cellulaire" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les caractéristiques simples de la mitose" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les événements pouvant modifier la dynamique des populations" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BREVET – Métropole septembre 2023 : La phénylcétonurie" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BREVET – Métropole 2023 : L’idotée et la reproduction d’une algue rouge" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Le vivant et son évolution" },
+  "chapitreTitre": { "S": "Les classifications et les facteurs influençant l’évolution" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une mutation génétique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer le phénomène de la sélection naturelle de façon simplifiée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Type BREVET – Amérique du Nord 2024 : Reconstitution d'oiseaux-éléphants de Madagascar" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Type BREVET – Asie 2022 : La coccinelle asiatique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Le corps humain et la santé" },
+  "chapitreTitre": { "S": "Les perturbations du système nerveux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un neurone" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les activités ou les stimuli influençant positivement le développement du système nerveux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les activités ou les stimuli influençant négativement le développement du système nerveux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Schématiser le système nerveux central et le système nerveux périphérique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques du seuil de déclenchement du système nerveux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l'effet des addictions sur le système nerveux" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les mesures pour prendre soin de son système nerveux" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer le fonctionnement du système nerveux" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Le corps humain et la santé" },
+  "chapitreTitre": { "S": "L'alimentation humaine et la santé" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des besoins nutritionnels" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du glucose" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la pyramide nutritionnelle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le principe d'équilibre alimentaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les risques d'un déséquilibre alimentaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l'intolérance au lactose" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le diabète" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier l'intolérance au lactose à l'aide de documents" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BREVET – Polynésie 2023 : Culture de micro-organisme pour l’alimentation humaine" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Le corps humain et la santé" },
+  "chapitreTitre": { "S": "Le monde microbien et la santé" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du système immunitaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier contamination et infection" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'un antigène" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la phagocytose" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques d'un anticorps" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques de la mémoire immunitaire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier asepsie et antisepsie" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques d'un leucocyte" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Schématiser les étapes de la phagocytose" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer la réponse spécifique des lymphocytes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Schématiser la réponse immunitaire non spécifique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Schématiser la réponse immunitaire spécifique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#SVT#T3#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Le corps humain et la santé" },
+  "chapitreTitre": { "S": "Des comportements responsables vis-à-vis de la sexualité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une hormone" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'une hormone sexuelle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la fécondation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques des infections sexuellement transmissibles" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques de la contraception" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques de l'infertilité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la production des cellules reproductrices" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Schématiser le principe de l'action des hormones dans le fonctionnement reproducteur" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Schématiser les étapes de la fécondation à la formation de la cellule-œuf" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Schématiser les étapes de l'ovulation à la nidation" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les échanges à travers le placenta" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les principaux modes de contraception" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les méthodes d'aide à la conception" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les caractéristiques de la FIVETE" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les caractéristiques de l'identité sexuelle" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les caractéristiques de l'orientation sexuelle" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BREVET – Métropole septembre 2022 : La prévention des infections sexuellement transmissibles" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BREVET – Polynésie 2022 : Le fonctionnement hormonal" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BREVET – Métropole 2022 : Le sexe des tortues marines" } } }
+    ]
+  }
+}
+]
