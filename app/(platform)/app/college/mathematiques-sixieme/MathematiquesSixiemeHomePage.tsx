@@ -5,7 +5,17 @@ import AppLayout from "@/app/components/AppLayout";
 import { useState, useMemo } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
-import faqCoursInteractifData from "@/app/documents/faq/cours-interactif.json";
+import faqData from "@/app/documents/faq/cours-interactif.json";
+
+// Typage pour les données FAQ
+const faqCoursInteractifData = faqData as {
+  titre: string;
+  sections: Array<{
+    titre: string;
+    contenu: string | string[];
+    type: string;
+  }>;
+};
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
@@ -466,7 +476,7 @@ export default function MathematiquesSixiemeHomePage() {
                     borderRadius: "8px",
                     marginTop: "0.5rem"
                   }}>
-                    {faqCoursInteractifData.sections.map((section: any, index: number) => (
+                    {faqCoursInteractifData.sections.map((section, index) => (
                       <div key={index} style={{ marginBottom: index < faqCoursInteractifData.sections.length - 1 ? "1.5rem" : "0" }}>
                         <h3 style={{
                           fontSize: "1.1rem",
