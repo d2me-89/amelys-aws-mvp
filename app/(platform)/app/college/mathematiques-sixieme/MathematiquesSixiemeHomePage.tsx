@@ -431,9 +431,6 @@ export default function MathematiquesSixiemeHomePage() {
           {/* En-tête cliquable */}
           <button
             type="button"
-            onMouseDown={(e) => {
-              e.preventDefault();
-            }}
             onClick={(e) => {
               e.preventDefault();
               setIsPlanCoursOpen(!isPlanCoursOpen);
@@ -499,6 +496,7 @@ export default function MathematiquesSixiemeHomePage() {
                 <div key={chapitre.id} style={{ marginTop: "1rem" }}>
                   {/* Bouton chapitre */}
                   <button
+                    onMouseDown={(e) => e.preventDefault()}
                     onClick={() => toggleChapter(chapitre.id)}
                     style={{
                       width: "100%",
