@@ -1,0 +1,35 @@
+{
+  "titre": "Compétences clés",
+  "sections": [
+    {
+      "titre": "Qu'est-ce que c'est ?",
+      "contenu": "Une session ciblée pour travailler et valider une seule compétence précise du chapitre à travers des exercices adaptés en temps réel.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Comment ça marche ?",
+      "contenu": [
+        "L'IA évalue ton niveau de départ avec un exercice diagnostic",
+        "Elle adapte la difficulté selon tes réponses : plus facile si tu bloques, plus difficile si tu réussis",
+        "Tu fais plusieurs exercices variés (calcul, analyse de texte, situations concrètes, justifications...)",
+        "L'IA accumule des preuves de ta maîtrise avant de décider"
+      ],
+      "type": "liste-ordonnee"
+    },
+    {
+      "titre": "Comment valider \"Complet\" ?",
+      "contenu": [
+        "Réussir plusieurs exercices variés sur la compétence",
+        "Obtenir au moins deux réussites consécutives sans aide",
+        "Ne faire aucune erreur fondamentale de compréhension",
+        "Être capable d'expliquer simplement sa méthode"
+      ],
+      "type": "liste-puces"
+    },
+    {
+      "titre": "Pourquoi choisir ce mode ?",
+      "contenu": "Pour cibler et maîtriser solidement une compétence spécifique plutôt que de survoler tout le chapitre. C'est un entraînement personnalisé sur un point précis jusqu'à une maîtrise réelle.",
+      "type": "paragraphe"
+    }
+  ]
+}

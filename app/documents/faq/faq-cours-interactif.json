@@ -1,0 +1,34 @@
+{
+  "titre": "Cours interactif",
+  "sections": [
+    {
+      "titre": "Qu'est-ce que c'est ?",
+      "contenu": "Un cours interactif et personnalisé sur un chapitre complet, animé par un professeur virtuel bienveillant.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Comment ça marche ?",
+      "contenu": [
+        "Tu choisis le format : cours express (10-15 min), moyen (30-40 min), ou très long (1h30-2h)",
+        "Le professeur s'adapte : il explique, pose des questions, vérifie ta compréhension tout au long",
+        "Tu termines par un QCM de 10 questions pour valider tes acquis"
+      ],
+      "type": "liste-ordonnee"
+    },
+    {
+      "titre": "Comment valider \"Complet\" ?",
+      "contenu": [
+        "Avoir suivi un cours moyen ou long (le cours express ne suffit pas)",
+        "Obtenir au moins 6/10 au QCM final"
+      ],
+      "type": "liste-puces"
+    },
+    {
+      "titre": "Pourquoi choisir ce mode ?",
+      "contenu": "Pour apprendre ou réviser un chapitre de A à Z, à ton rythme, avec des explications claires et des exemples concrets. C'est comme avoir un prof particulier qui prend le temps de tout t'expliquer !",
+      "type": "paragraphe"
+    }
+  ]
+}
+
+

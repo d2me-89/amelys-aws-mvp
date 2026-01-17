@@ -1,0 +1,461 @@
+[
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Les calculs numériques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer le signe d'un produit de deux nombres décimaux relatifs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer le signe d'un quotient de deux nombres décimaux relatifs" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le signe d'un quotient de nombres décimaux relatifs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer l'ordre des opérations à effectuer pour une association d'additions, de produits et de quotients de nombres décimaux relatifs" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le signe d'une association de produits et de quotients de nombres décimaux relatifs" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Ordonner les touches à taper pour calculer une association d'additions, de produits et de quotients de nombres décimaux relatifs" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer une association d'additions, de produits et de quotients de nombres décimaux relatifs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Les nombres rationnels" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si un nombre est rationnel" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Trouver le plus petit dénominateur commun entre deux fractions" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Multiplier des fractions" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier opposé et inverse" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer l'inverse de fractions" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier la multiplication équivalente à une division de deux nombres rationnels" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Diviser par des fractions" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre une fraction à un dénominateur donné" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer des fractions de dénominateurs différents" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Ordonner des fractions de dénominateurs différents" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comparer des nombres rationnels" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Ordonner des nombres rationnels" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Encadrer un nombre rationnel par deux nombres entiers relatifs consécutifs" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Additionner des nombres rationnels" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Soustraire des nombres rationnels" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Traduire un enchaînement d'opérations de nombres rationnels à l'aide d'une expression avec des parenthèses" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Évaluer l'ordre de grandeur d'un enchaînement d'opérations de nombres rationnels" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déduire le résultat d'un enchaînement d'opérations de nombres rationnels grâce à son ordre de grandeur" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Calculer un enchaînement d'opérations de nombres rationnels" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Les nombres premiers et la divisibilité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un nombre premier" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier un nombre premier inférieur à 100" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Décomposer un nombre entier naturel en produit de facteurs premiers inférieurs à 100" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Simplifier une fraction à l'aide de la décomposition en produits de facteurs premiers inférieurs à 100" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Résoudre un problème de répartition à l'aide des multiples et des diviseurs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Les puissances d’un nombre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Associer une puissance de dix d'exposant positif à sa valeur" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer une puissance de dix d'exposant négatif à sa valeur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Associer un préfixe de nano à giga à la puissance de dix correspondante" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des puissances de 10" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Multiplier des puissances de 10" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Diviser des puissances de 10" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Encadrer un nombre en écriture scientifique par deux puissances de 10 successives" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer des nombres positifs en écriture scientifique de même puissance de 10" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer des nombres positifs en écriture scientifique de puissances de 10 différentes" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Associer à des objets des ordres de grandeur en écriture scientifique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer une puissance d'exposant strictement positif" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Réécrire un produit à l'aide d'une puissance d'exposant strictement positif" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comparer des nombres positifs en écriture scientifique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Le calcul littéral" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier expression littérale développée et expression littérale factorisée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Réduire une expression littérale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Ordonner une expression littérale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Soustraire une expression littérale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Développer une expression factorisée à l'aide d'une simple distributivité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Développer et réduire une expression" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Factoriser une expression simple sans terme constant à l'aide d'une simple distributivité" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Factoriser une expression simple avec terme constant à l'aide d'une simple distributivité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire un programme de calcul en expression littérale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Les équations" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Reconnaître une équation" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Tester si un nombre est solution d'une équation du premier degré avec second membre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer si une équation est une équation du premier degré" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si une équation est une identité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre un problème en équation du premier degré à l'aide d'une inconnue" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Tester si un nombre est solution d'une équation du premier degré sans second membre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Résoudre une équation du premier degré du type ax=b" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Résoudre une équation du premier degré du type ax+b=0" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Résoudre une équation du premier degré du type ax+b=c" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Résoudre une équation du premier degré du type ax+b=cx+d" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide d'une équation du premier degré" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Résoudre un problème concret à l'aide d'une équation du premier degré" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Organisation et gestion de données" },
+  "chapitreTitre": { "S": "Les statistiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des séries statistiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer les effectifs d'une série de données donnée en effectif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer les effectifs d'une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la moyenne d'une série statistique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le centre d'une classe d'une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer l'effectif total d'une série de données donnée en effectif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter l'effectif cumulé croissant d'une série de données donnée en effectif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer l'effectif total d'une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter l'effectif cumulé croissant d'une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer une fréquence dans une série de données donnée en effectif" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer une fréquence dans une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer la moyenne pondérée d'une série de données donnée en effectif représentée dans un tableau" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer la moyenne pondérée d'une série de données donnée en classe représentée dans un tableau" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer la médiane d'une série de données de petit effectif total impair" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer la médiane d'une série de données de petit effectif total pair" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer la médiane d'une série de données en classe" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Interpréter la médiane d'une série de données" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Calculer l'angle correspondant à une fréquence" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Tracer un diagramme en bâtons ou en barres à l'aide d'une série de données" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Tracer un histogramme à l'aide d'une série de données" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Organisation et gestion de données" },
+  "chapitreTitre": { "S": "Les probabilités" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si un événement est un événement élémentaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si deux événements sont des événements contraires" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer si un événement est un événement certain" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si un événement est un événement impossible" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compter le nombre d'issues possibles" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le vocabulaire simple des probabilités" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Estimer des probabilités de la vie courante" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier une situation d'équiprobabilité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité binaire" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité avec une issue positive" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Compter le nombre d'issues réalisant un événement donné" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer les issues possibles d'une réunion d'événements" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer si deux événements sont incompatibles" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité avec plusieurs issues positives" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer une probabilité dans un jeu simple amenant à une situation d'équiprobabilité" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer la probabilité d'une réunion d'événements dans une situation d'équiprobabilité avec plusieurs issues positives" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T2#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Organisation et gestion de données" },
+  "chapitreTitre": { "S": "La proportionnalité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si deux grandeurs sont proportionnelles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter un tableau de proportionnalité en additionnant les colonnes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser les propriétés de multiplication pour compléter un tableau de proportionnalité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer un coefficient de proportionnalité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser une échelle pour déterminer une distance réelle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser une échelle pour déterminer une longueur sur le plan" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Passer à l'unité dans une situation de proportionnalité" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser le produit en croix pour résoudre une situation de proportionnalité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter un tableau de proportionnalité" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier une situation de proportionnalité sur un graphique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Partager une quantité en deux parts selon un ratio donné" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Partager une quantité en trois parts selon un ratio donné" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Associer fraction, proportion et pourcentage d'une même quantité" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer la proportion d'une quantité" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer une proportion à partir de quantités données" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer le pourcentage d'une quantité" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer un pourcentage à l'aide d'une quantité" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Utiliser les pourcentages dans une situation de hausse" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Utiliser les pourcentages dans une situation de baisse" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Retrouver une échelle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Grandeurs et mesures" },
+  "chapitreTitre": { "S": "Les grandeurs composées" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les principales grandeurs quotients" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer l'aire d'une figure usuelle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer le volume d'un cube" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer le volume d'un parallélépipède rectangle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer le volume d'un prisme droit" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer le volume d'un cylindre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer le volume d'une pyramide à base rectangulaire" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer le volume d'une pyramide à base triangulaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer le volume d'un cône" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier une formule liant deux grandeurs dans une situation de proportionnalité" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer une des grandeurs d'une formule liant deux grandeurs dans une situation de proportionnalité" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Lire une valeur sur l'axe des abscisses d'un graphique représentant la dépendance de deux grandeurs" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Lire une valeur sur l'axe des ordonnées d'un graphique représentant la dépendance de deux grandeurs" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Interpréter une valeur sur l'axe des abscisses d'un graphique représentant la dépendance de deux grandeurs" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Convertir l'unité du numérateur pour une grandeur composée" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Convertir l'unité du dénominateur pour une grandeur composée" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Convertir une vitesse de m/s à km/h" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Convertir une vitesse de km/h à m/s" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Convertir un débit de L/min en m^3/s" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Convertir un débit de m^3/s en L/min" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Grandeurs et mesures" },
+  "chapitreTitre": { "S": "La proportionnalité en géométrie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer le rapport d'agrandissement ou de réduction" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer une longueur à l'aide d'un rapport d'agrandissement" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer une longueur à l'aide d'un rapport de réduction" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer une aire à l'aide d'un rapport d'agrandissement" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer une aire à l'aide d'un rapport de réduction" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer un volume à l'aide d'un rapport d'agrandissement" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer un volume à l'aide d'un rapport de réduction" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Construire la réduction d'une figure" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T4#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "La translation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Construire la translation d'une droite" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les droites parallèles de la translation d'une figure à l'aide des propriétés de conservation de la translation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer une longueur dans la translation d'une figure à l'aide des propriétés de conservation de la translation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer une aire dans la translation d'une figure à l'aide des propriétés de conservation de la translation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T4#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "La représentation dans l'espace" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Donner l'abscisse d'un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Donner l'ordonnée d'un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Donner l'altitude d'un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Représenter un cône en perspective cavalière" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Lire les coordonnées d'un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Placer un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Représenter une pyramide en perspective cavalière" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier un patron de pyramide" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier un patron de cône" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T4#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "Les cas d'égalité des triangles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des triangles isométriques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si des triangles sont isométriques" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer la mesure d'une longueur à l'aide d'un triangle isométrique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la mesure d'un angle à l'aide d'un triangle isométrique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T4#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "Le théorème de Pythagore et sa réciproque" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier hypoténuse, côté adjacent et côté opposé" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le carré des entiers jusqu'à 12" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la racine carrée des carrés d'entiers jusqu'à 12" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le théorème de Pythagore" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer l'égalité du théorème de Pythagore pour un triangle rectangle donné" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Encadrer la racine carrée d'un nombre positif entre deux entiers" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Donner une valeur approchée de la racine carrée d'un nombre positif à l'aide de la calculatrice" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer la longueur de l'hypoténuse dans un triangle rectangle à l'aide du théorème de Pythagore" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer si un triangle est rectangle à l'aide du théorème de Pythagore" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer la longueur d'un côté autre que l'hypoténuse dans un triangle rectangle à l'aide du théorème de Pythagore" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Démontrer qu'un triangle est rectangle à l'aide de la réciproque du théorème de Pythagore" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide du théorème de Pythagore" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T4#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "Le théorème de Thalès et sa réciproque" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le théorème de Thalès" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Établir l'égalité du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer une longueur au numérateur de l'égalité du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer une longueur au dénominateur de l'égalité du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Démontrer que deux droites sont parallèles à l'aide de la réciproque du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide du théorème de Thalès" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T4#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "Le cosinus" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier hypoténuse, côté adjacent et côté opposé" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer la fonction inverse du cosinus avec une calculatrice" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer le cosinus d'un angle de triangle rectangle à l'aide de la longueur des côtés" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Utiliser le cosinus dans un triangle rectangle pour calculer la longueur d'un côté" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser le cosinus dans un triangle rectangle pour calculer la mesure d'un angle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide du cosinus" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#MATHS#T5#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Algorithmique et programmation" },
+  "chapitreTitre": { "S": "Algorithmique et programmation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques simples d'un algorithme et d'un programme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les bases de Scratch" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le type d'instruction d'un bloc Scratch" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les variables dans une instruction Scratch" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer l'effet d'une instruction Scratch" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer l'effet d'une instruction conditionnelle sur Scratch" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer l'effet d'une boucle itérative sur Scratch" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Ordonner des instructions pour réaliser un programme Scratch simple" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter un programme Scratch simple à l'aide d'une instruction" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Écrire une séquence d'instructions avec une instruction conditionnelle sur Scratch" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer l'effet d'un programme Scratch simple" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer l'effet d'un programme Scratch simple avec une instruction conditionnelle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer l'effet d'un programme Scratch simple avec une boucle itérative" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer la figure tracée par un programme Scratch" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Corriger un programme Scratch erroné connaissant son but" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Écrire une séquence d'instructions avec une boucle « Répéter ... fois » sur Scratch" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Intégrer une variable dans un programme Scratch de construction géométrique" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier l'effet d'un programme Scratch avec une instruction conditionnelle et une boucle itérative" } } }
+    ]
+  }
+}
+]

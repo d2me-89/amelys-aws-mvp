@@ -1,0 +1,34 @@
+{
+  "titre": "Contrôle évalué",
+  "sections": [
+    {
+      "titre": "Qu'est-ce que c'est ?",
+      "contenu": "Un contrôle de fin de chapitre, sérieux et représentatif, réalisé dans des conditions proches de la classe, avec une note sur 20 et une correction détaillée.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Comment ça marche ?",
+      "contenu": [
+        "Choisir le niveau de difficulté : facile (applications directes), moyen (niveau standard) ou difficile (raisonnement poussé)",
+        "L'IA présente le sujet complet correspondant à environ une heure de travail",
+        "Réaliser le contrôle seul, sans aucune aide pendant l'épreuve",
+        "L'IA corrige le travail et attribue une note avec rigueur et bienveillance"
+      ],
+      "type": "liste-ordonnee"
+    },
+    {
+      "titre": "Comment valider \"Complet\" ?",
+      "contenu": [
+        "Contrôle facile : obtenir au moins 14 sur 20",
+        "Contrôle moyen : obtenir au moins 12 sur 20",
+        "Contrôle difficile : obtenir au moins 10 sur 20"
+      ],
+      "type": "liste-puces"
+    },
+    {
+      "titre": "Pourquoi choisir ce mode ?",
+      "contenu": "Pour s'évaluer réellement et vérifier la maîtrise du chapitre dans des conditions d'examen. Ce mode permet une épreuve exigeante, accompagnée d'une correction personnalisée et pédagogique favorisant la progression.",
+      "type": "paragraphe"
+    }
+  ]
+}

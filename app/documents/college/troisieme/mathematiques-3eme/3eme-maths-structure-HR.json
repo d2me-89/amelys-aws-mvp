@@ -1,0 +1,551 @@
+[
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Les différentes écritures d'un nombre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer l'ordre des opérations à effectuer pour une association d'additions, de produits et de quotients de nombres décimaux relatifs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer écriture décimale, écriture fractionnaire et écriture scientifique équivalentes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Encadrer un nombre en écriture scientifique par deux puissances de 10 successives" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer une association d'additions, de produits et de quotients de nombres décimaux relatifs" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer des nombres positifs en écriture scientifique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "La divisibilité et les nombres premiers" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si un nombre est un multiple de 2, 3, 4, 5 ou 9" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'un nombre premier" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier un nombre premier inférieur à 144" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer les diviseurs simples d'un nombre" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser les critères de divisibilité par 2, 3, 5, 9 et 10" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décomposer un nombre entier naturel en produit de facteurs premiers inférieurs à 144" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer les diviseurs communs de deux entiers relatifs" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer le plus grand diviseur commun de deux entiers relatifs" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reconnaître des fractions égales à l'aide de la décomposition en produits de facteurs premiers inférieurs à 144" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer la fraction irréductible correspondant à une fraction donnée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Résoudre un problème de répartition à l'aide des multiples et des diviseurs" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET - Centres étrangers 2024, Deux circuits d'entraînement" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET - Métropole 2024, Un club de natation" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BREVET - Centres étrangers 2023, Un jeu concours" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Les puissances et la racine carrée" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Multiplier des fractions" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier opposé et inverse" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer l'inverse de fractions" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier la multiplication équivalente à une division de deux nombres rationnels" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Diviser par des fractions" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer la valeur d'une puissance entière naturelle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les règles de calcul sur les puissances" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Simplifier un produit de puissances" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître le carré des entiers jusqu'à 12" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître la racine carrée des carrés d'entiers jusqu'à 12" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer une puissance d'exposant strictement négatif" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Réécrire un produit à l'aide d'une puissance d'exposant strictement négatif" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer une puissance d'exposant strictement positif" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Réécrire un produit à l'aide d'une puissance d'exposant strictement positif" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Simplifier un quotient de puissances" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Simplifier une association de produit et de quotient de puissances" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Calculer une opération de puissances avec des fractions" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Encadrer la racine carrée d'un nombre positif entre deux entiers" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Donner une valeur approchée de la racine carrée d'un nombre positif à l'aide de la calculatrice" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer les solutions d'une équation sqrt(x) = a" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Le calcul des sommes algébriques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier expression littérale développée et expression littérale factorisée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Réduire une expression littérale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Ordonner une expression littérale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Soustraire une expression littérale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Additionner deux sommes algébriques avec plusieurs variables" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Soustraire deux sommes algébriques avec plusieurs variables" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Réduire une somme algébrique avec plusieurs variables" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "La distributivité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Développer une expression factorisée à l'aide d'une simple distributivité" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Développer et réduire une expression" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Factoriser une expression simple sans terme constant à l'aide d'une simple distributivité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Factoriser une expression simple avec terme constant à l'aide d'une simple distributivité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire un programme de calcul en expression littérale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Développer et réduire une expression factorisée à l'aide d'une double distributivité" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Nombres et calculs" },
+  "chapitreTitre": { "S": "Les équations" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une équation" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître une équation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Tester si un nombre est solution d'une équation du premier degré avec second membre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si une équation est une équation du premier degré" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer si une équation est une identité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Factoriser une équation du second degré sans coefficient constant en équation produit avec terme nul" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Factoriser une équation du second degré avec coefficient constant en équation produit avec terme nul" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Modéliser un problème en une équation du second degré se ramenant à un produit de facteurs nuls" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre un problème en équation du premier degré à l'aide d'une inconnue" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Résoudre une équation du premier degré du type ax=b" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Résoudre une équation du premier degré du type ax+b=0" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Résoudre une équation du premier degré du type ax+b=c" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Résoudre un produit de facteurs nuls" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer les solutions d'une équation x^2 = a" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Résoudre une équation du premier degré du type ax+b=cx+d" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Résoudre une équation du second degré se ramenant à un produit de facteurs nuls" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide d'une équation du premier degré" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Résoudre un problème concret à l'aide d'une équation du premier degré" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Résoudre un problème se ramenant à une équation du second degré se ramenant à un produit de facteurs nuls" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BREVET - Amérique du Nord 2024, Programme de calcul et équations" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BREVET - Polynésie 2023, Résolution d'une équation à l'aide d'un programme de calcul" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BREVET - Centres étrangers 2023, Comparaison de deux programmes de calcul" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Organisation et gestion de données" },
+  "chapitreTitre": { "S": "Les statistiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des séries statistiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer les effectifs d'une série de données donnée en effectif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer les effectifs d'une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la moyenne d'une série statistique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le centre d'une classe d'une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer l'effectif total d'une série de données donnée en effectif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter l'effectif cumulé croissant d'une série de données donnée en effectif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer l'effectif total d'une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter l'effectif cumulé croissant d'une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer une fréquence dans une série de données donnée en effectif" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer une fréquence dans une série de données donnée en classe" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer la moyenne pondérée d'une série de données donnée en effectif représentée dans un tableau" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer la moyenne pondérée d'une série de données donnée en classe représentée dans un tableau" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer la médiane d'une série de données de petit effectif total impair" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer la médiane d'une série de données de petit effectif total pair" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer la médiane d'une série de données en classe" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Calculer la médiane à partir des effectifs ou des fréquences cumulés croissants" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Interpréter la médiane d'une série de données" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Déterminer l'étendue d'une série de données en effectif" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer l'étendue d'une série de données en classe" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Calculer l'angle correspondant à une fréquence" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Tracer un diagramme en bâtons ou en barres à l'aide d'une série de données" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Tracer un histogramme à l'aide d'une série de données" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Type BREVET - Asie 2023, Une vente de glaces" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Type BREVET - Polynésie 2024, Coûts prévisionnel et réel des jeux olympiques" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Type BREVET - Amérique du Nord 2023, Visites sur un site touristique" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Type BREVET - Métropole 2023, Le chiffre d'affaires d'un opticien" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Organisation et gestion de données" },
+  "chapitreTitre": { "S": "Les probabilités" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si un événement est un événement élémentaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si deux événements sont des événements contraires" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer si un événement est un événement certain" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si un événement est un événement impossible" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compter le nombre d'issues possibles" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le vocabulaire simple des probabilités" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Estimer des probabilités de la vie courante" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier une situation d'équiprobabilité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité binaire" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité avec une issue positive" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Compter le nombre d'issues réalisant un événement donné" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer les issues possibles d'une réunion d'événements" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer si deux événements sont incompatibles" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer une probabilité pour une expérience à deux épreuves avec plusieurs issues positives" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer une probabilité dans une situation d'équiprobabilité avec plusieurs issues positives" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer une probabilité dans un jeu simple amenant à une situation d'équiprobabilité" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Calculer la probabilité d'une réunion d'événements dans une situation d'équiprobabilité avec plusieurs issues positives" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BREVET - Centres étrangers 2023, Un jeu concours" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BREVET - Polynésie 2024, Tirages de boules numérotées" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BREVET - Métropole 2024, La roulette du casino" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BREVET - Polynésie 2023, Comparaison des gains de deux jeux" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T2#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Organisation et gestion de données" },
+  "chapitreTitre": { "S": "Les fonctions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques simples d'une fonction" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la notation des fonctions" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer l'image d'un point par une fonction simple à l'aide d'un tableau de valeurs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer l'antécédent d'un point par une fonction simple à l'aide d'un tableau de valeurs lorsque l'antécédent est unique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques d'une fonction linéaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer si un point appartient à la courbe représentative d'une fonction linéaire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer le coefficient directeur d'une fonction linéaire à partir d'un tableau de valeurs" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques simples d'une fonction affine" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer si un point appartient à la courbe représentative d'une fonction affine" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer si une fonction est une fonction affine à l'aide de son expression" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer les antécédents d'un nombre par une fonction donnée à l'aide de sa représentation graphique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer l'image d'un point par une fonction simple à l'aide d'une représentation graphique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer l'antécédent d'un point par une fonction simple à l'aide d'une représentation graphique lorsque l'antécédent est unique" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer le tableau de valeurs d'une fonction simple à partir de son expression" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer le tableau de valeurs d'une fonction simple à partir de sa représentation graphique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déterminer l'allure d'une courbe représentative à partir du tableau de valeurs de la fonction simple correspondante" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer le coefficient directeur d'une fonction linéaire à partir de son expression" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déterminer le coefficient directeur d'une fonction linéaire à partir de sa représentation graphique" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Calculer l'image d'un nombre par une fonction linéaire" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Calculer l'antécédent d'un nombre par une fonction linéaire" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Tracer la courbe représentative d'une fonction linéaire à partir de son expression" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Déterminer le coefficient directeur d'une fonction affine à l'aide de son expression" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Déterminer l'ordonnée à l'origine d'une fonction affine à l'aide de son expression" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Lire le coefficient directeur d'une fonction affine sur sa courbe représentative" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Déterminer graphiquement l'ordonnée à l'origine de la courbe représentative d'une fonction affine" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Calculer l'image d'un nombre par une fonction affine" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Calculer l'antécédent d'un nombre par une fonction affine" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Tracer la courbe représentative d'une fonction affine à partir de son expression" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Étudier une situation de hausse de prix à l'aide d'une fonction linéaire" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Étudier une situation de baisse de prix à l'aide d'une fonction linéaire" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Étudier une situation modélisée par une fonction affine de coefficient directeur positif" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Étudier une situation modélisée par une fonction affine de coefficient directeur négatif" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Type BREVET - Métropole 2023, Comparaison de deux programmes de calcul" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Type BREVET - Amérique du Nord 2024, Le prix des places de cinéma" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Type BREVET - Centres étrangers 2024, Programme de calcul et fonctions" } } },
+      { "M": { "id": { "S": "E36" }, "titre": { "S": "Type BREVET - Asie 2024, Comparatif des prix d'une agence de location de voiture" } } },
+      { "M": { "id": { "S": "E37" }, "titre": { "S": "Type BREVET - Polynésie 2024, Etude de deux fonctions" } } },
+      { "M": { "id": { "S": "E38" }, "titre": { "S": "Type BREVET - Métropole 2024, Deux fonctions dans un même programme de calcul" } } },
+      { "M": { "id": { "S": "E39" }, "titre": { "S": "Type BREVET - Centres étrangers 2023, Les tarifs de location de bateaux électriques" } } },
+      { "M": { "id": { "S": "E40" }, "titre": { "S": "Type BREVET - Asie 2023, Recherche d'antécédents à l'aide d'un programme de calcul" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Grandeurs et mesures" },
+  "chapitreTitre": { "S": "Les volumes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer l'aire d'une figure usuelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer l'aire d'une sphère" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer le volume d'un cube" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer le volume d'un parallélépipède rectangle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer le volume d'un prisme droit" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer le volume d'un cylindre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer le volume d'une pyramide à base rectangulaire" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer le volume d'une pyramide à base triangulaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer le volume d'un cône" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer le volume d'une boule" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BREVET - Centres étrangers 2024, Le chapeau de Leo" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BREVET - Métropole 2024, Un club de natation" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BREVET - Asie 2023, Une vente de glaces" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Grandeurs et mesures" },
+  "chapitreTitre": { "S": "Les grandeurs mesurables" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les principales grandeurs quotients" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Convertir des volumes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Convertir une contenance dans une unité donnée en litres" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier une formule liant deux grandeurs dans une situation de proportionnalité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer une des grandeurs d'une formule liant deux grandeurs dans une situation de proportionnalité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Lire une valeur sur l'axe des abscisses d'un graphique représentant la dépendance de deux grandeurs" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Lire une valeur sur l'axe des ordonnées d'un graphique représentant la dépendance de deux grandeurs" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Interpréter une valeur sur l'axe des abscisses d'un graphique représentant la dépendance de deux grandeurs" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Convertir des volumes en contenances" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Convertir une vitesse de m/s à km/h" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Convertir une vitesse de km/h à m/s" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Convertir un débit de L/min en m^3/s" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Convertir un débit de m^3/s en L/min" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Convertir l'unité du numérateur pour une grandeur composée" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Convertir l'unité du dénominateur pour une grandeur composée" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Convertir un volume dans une unité donnée en litres ou en mètres cubes" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BREVET - Amérique du Nord 2023, Construction d'un hippodrome" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BREVET - Polynésie 2023, Une séance de karting" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T4#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "La rotation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier sens horaire et sens anti-horaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer le sens d'une rotation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer une longueur dans la rotation d'une figure à l'aide des propriétés de conservation de la rotation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer une aire dans la rotation d'une figure à l'aide des propriétés de conservation de la rotation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T4#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "Les triangles semblables" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer si deux triangles sont semblables à l'aide de leur représentation graphique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer une longueur de triangle à partir des longueurs de triangles semblables" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer si deux triangles sont semblables à l'aide de leurs mesures" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la mesure d'un angle de triangle à partir des mesures des angles d'un triangle semblable" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le rapport de proportionnalité entre deux triangles semblables à partir de la longueur de leurs côtés" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T4#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "L'homothétie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'homothétie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si une transformation du plan est une homothétie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Construire l'image d'un point par une homothétie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer une longueur dans l'homothétie d'une figure à l'aide des propriétés de conservation de l'homothétie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer un angle dans l'homothétie d'une figure à l'aide des propriétés de conservation de l'homothétie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer une aire dans l'homothétie d'une figure à l'aide des propriétés de conservation de l'homothétie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T4#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "La représentation dans l’espace" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des méridiens et des parallèles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer la latitude d'un point à la surface de la Terre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer la longitude d'un point à la surface de la Terre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si l'arête d'un solide est visible" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer si la face d'un solide est visible" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Représenter un pavé droit en perspective cavalière" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Représenter un cylindre en perspective cavalière" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Représenter un cône en perspective cavalière" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Donner l'abscisse d'un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Donner l'ordonnée d'un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Donner l'altitude d'un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer la position d'une ville sur le globe terrestre" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier le patron d'un pavé droit" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier le patron d'un cylindre" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Représenter une pyramide en perspective cavalière" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier un patron de pyramide" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Identifier un patron de cône" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Lire les coordonnées d'un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Placer un point dans un repère de l'espace" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer la figure formée par une coupe de solide usuel" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BREVET - Centres étrangers 2024, Le chapeau de Leo" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T4#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "Le théorème de Thalès et sa réciproque" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le théorème de Thalès" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Établir l'égalité du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître une situation où l'on peut appliquer le théorème de Thalès dans la configuration des triangles papillons" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Établir l'égalité du théorème de Thalès dans la configuration des triangles papillons" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer une longueur au numérateur de l'égalité du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Démontrer que deux droites ne sont pas parallèles à l'aide du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer une longueur au numérateur de l'égalité du théorème de Thalès dans la configuration des triangles papillons" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer une longueur au dénominateur de l'égalité du théorème de Thalès dans la configuration des triangles papillons" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer le rapport d'homothétie de deux triangles dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer le rapport d'homothétie de deux triangles dans la configuration des triangles papillons" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer une longueur au dénominateur de l'égalité du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Démontrer que deux droites sont parallèles à l'aide de la réciproque du théorème de Thalès dans la configuration des triangles emboîtés" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Démontrer que deux droites ne sont pas parallèles à l'aide du théorème de Thalès dans la configuration des triangles papillons" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Démontrer que deux droites sont parallèles à l'aide de la réciproque du théorème de Thalès dans la configuration des triangles papillons" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer une longueur dans un triangle à l'aide du théorème de Thalès" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déterminer si deux droites sont parallèles à l'aide du théorème de Thalès" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide du théorème de Thalès" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BREVET - Amérique du Nord 2024, Programme de calcul et construction de triangles" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T4#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Espace et géométrie" },
+  "chapitreTitre": { "S": "La trigonométrie dans le triangle rectangle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier hypoténuse, côté adjacent et côté opposé" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer la fonction inverse du cosinus avec une calculatrice" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer un sinus avec une calculatrice" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la fonction inverse du sinus avec une calculatrice" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer une tangente avec une calculatrice" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer la fonction inverse de la tangente avec une calculatrice" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer le cosinus d'un angle de triangle rectangle à l'aide de la longueur des côtés" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer le sinus d'un angle de triangle rectangle à l'aide de la longueur des côtés" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer la tangente d'un angle de triangle rectangle à l'aide de la longueur des côtés" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Utiliser le cosinus dans un triangle rectangle pour calculer la longueur d'un côté" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Utiliser le cosinus dans un triangle rectangle pour calculer la mesure d'un angle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Utiliser le sinus dans un triangle rectangle pour calculer la longueur d'un côté" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Utiliser le sinus dans un triangle rectangle pour calculer la mesure d'un angle" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Utiliser la tangente dans un triangle rectangle pour calculer la longueur d'un côté" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Utiliser la tangente dans un triangle rectangle pour calculer la mesure d'un angle" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Utiliser les relations de trigonométrie dans un triangle rectangle pour calculer la longueur d'un côté" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Utiliser les relations de trigonométrie dans un triangle rectangle pour calculer la mesure d'un angle" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide du cosinus" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide du sinus" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide de la tangente" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Résoudre un problème de géométrie à l'aide d'une combinaison de cosinus, sinus et tangente" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#MATHS#T5#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "Mathématiques" },
+  "themeTitre": { "S": "Algorithmique et programmation" },
+  "chapitreTitre": { "S": "Algorithmique et programmation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques simples d'un algorithme et d'un programme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les bases de Scratch" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le type d'instruction d'un bloc Scratch" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les variables dans une instruction Scratch" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer l'effet d'une instruction Scratch" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer l'effet d'une instruction conditionnelle sur Scratch" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer l'effet d'une boucle itérative sur Scratch" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Ordonner des instructions pour réaliser un programme Scratch simple" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter un programme Scratch simple à l'aide d'une instruction" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Écrire une séquence d'instructions avec une instruction conditionnelle sur Scratch" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Programmer une boucle conditionnelle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer l'effet d'un programme Scratch simple" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer l'effet d'un programme Scratch simple avec une instruction conditionnelle" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer l'effet d'un programme Scratch simple avec une boucle itérative" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer la figure tracée par un programme Scratch" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Corriger un programme Scratch erroné connaissant son but" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Écrire une séquence d'instructions avec une boucle « Répéter ... fois » sur Scratch" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Intégrer une variable dans un programme Scratch de construction géométrique" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Identifier l'effet d'un programme Scratch avec une instruction conditionnelle et une boucle itérative" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BREVET - Métropole 2023, Construction d'un escalier" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BREVET - Amérique du Nord 2024, Programme de calcul et construction de triangles" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BREVET - Amérique du Nord 2024, Programme de calcul et équations" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Type BREVET - Polynésie 2023, Résolution d'une équation à l'aide d'un programme de calcul" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Type BREVET - Asie 2024, Construction d'une figure à l'aide d'un script" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Type BREVET - Amérique du Nord 2023, Construction d'une fleur" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Type BREVET - Centres étrangers 2023, Comparaison de deux programmes de calcul" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Type BREVET - Asie 2023, Construction d'une frise à l'aide d'un programme de calcul" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Type BREVET - Centres étrangers 2024, Programme de calcul et fonctions" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Type BREVET - Métropole 2024, Deux fonctions dans un même programme de calcul" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Type BREVET - Asie 2023, Recherche d'antécédents à l'aide d'un programme de calcul" } } }
+    ]
+  }
+}
+]

@@ -1,0 +1,43 @@
+{
+  "titre": "Session libre",
+  "sections": [
+    {
+      "titre": "Qu'est-ce que c'est ?",
+      "contenu": "Un espace d'accompagnement totalement ouvert et personnalisé où l'élève choisit librement ce qu'il souhaite travailler sur le chapitre.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Comment ça marche ?",
+      "contenu": [
+        "L'élève décide du contenu de la session : poser une question, demander un exercice, faire corriger un devoir ou demander une explication",
+        "L'IA s'adapte en temps réel à la demande formulée",
+        "Aucun format imposé : la session est dirigée par l'élève",
+        "L'IA guide et accompagne sans jamais faire à la place de l'élève"
+      ],
+      "type": "liste-ordonnee"
+    },
+    {
+      "titre": "Que peux-tu demander ?",
+      "contenu": [
+        "Explication d'une notion mal comprise",
+        "Reformulation du cours avec d'autres mots",
+        "Création ou résolution d'un exercice spécifique",
+        "Correction d'un devoir personnel",
+        "Aide méthodologique",
+        "Préparation à une évaluation",
+        "Vérification de réponses déjà rédigées"
+      ],
+      "type": "liste-puces"
+    },
+    {
+      "titre": "Validation \"Complet\" ?",
+      "contenu": "La validation est laissée à la discrétion de l'élève. C'est lui qui décide s'il se sent prêt à valider \"Complet\" après la session. L'IA ne juge pas, elle accompagne.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Pourquoi choisir ce mode ?",
+      "contenu": "Pour obtenir une aide ciblée exactement sur les besoins de l'élève, sans contrainte de format. Ce mode offre un accompagnement souple, comparable à un professeur disponible à tout moment.",
+      "type": "paragraphe"
+    }
+  ]
+}

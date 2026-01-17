@@ -454,7 +454,7 @@ export default function MathematiquesSixiemeHomePage() {
                 >
                   <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
                     <LuBookOpen size={20} style={{ color: "#B794F6" }} />
-                    <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 600 }}>
+                    <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 500 }}>
                       Cours interactif
                     </span>
                   </div>
@@ -487,7 +487,7 @@ export default function MathematiquesSixiemeHomePage() {
                           {section.titre}
                         </h3>
                         
-                        {section.type === "paragraphe" && (
+                        {section.type === "paragraphe" && typeof section.contenu === "string" && (
                           <p style={{
                             fontSize: "0.95rem",
                             color: "rgba(255,255,255,0.85)",
@@ -507,7 +507,7 @@ export default function MathematiquesSixiemeHomePage() {
                             paddingLeft: "1.5rem"
                           }}>
                             {section.contenu.map((item, idx) => (
-                              <li key={idx} style={{ marginBottom: idx < section.contenu.length - 1 ? "0.5rem" : "0" }}>
+                              <li key={idx} style={{ marginBottom: idx < (section.contenu as string[]).length - 1 ? "0.5rem" : "0" }}>
                                 {item}
                               </li>
                             ))}
@@ -524,7 +524,7 @@ export default function MathematiquesSixiemeHomePage() {
                             listStyle: "disc"
                           }}>
                             {section.contenu.map((item, idx) => (
-                              <li key={idx} style={{ marginBottom: idx < section.contenu.length - 1 ? "0.5rem" : "0" }}>
+                              <li key={idx} style={{ marginBottom: idx < (section.contenu as string[]).length - 1 ? "0.5rem" : "0" }}>
                                 {item}
                               </li>
                             ))}

@@ -1,0 +1,34 @@
+{
+  "titre": "Exercice en binôme",
+  "sections": [
+    {
+      "titre": "Qu'est-ce que c'est ?",
+      "contenu": "Une séance de travail en duo avec l'IA pour résoudre ensemble un grand exercice représentatif du chapitre.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Comment ça marche ?",
+      "contenu": [
+        "L'IA présente un exercice fondamental qui mobilise les notions essentielles du chapitre",
+        "Tu réfléchis et proposes : l'IA te guide, questionne, reformule, mais ne fait jamais à ta place",
+        "Vous avancez pas à pas : une étape à la fois, avec corrections douces et encouragements constants",
+        "Tu comprends la méthode pour pouvoir refaire seul un exercice similaire"
+      ],
+      "type": "liste-ordonnee"
+    },
+    {
+      "titre": "Comment valider \"Complet\" ?",
+      "contenu": [
+        "Avoir traité l'exercice entièrement ensemble, sans partie ignorée",
+        "Avoir compris toutes les étapes importantes, pas seulement exécuté",
+        "Être capable d'expliquer la démarche et de dire comment refaire seul"
+      ],
+      "type": "liste-puces"
+    },
+    {
+      "titre": "Pourquoi choisir ce mode ?",
+      "contenu": "Pour apprendre à raisonner sur un vrai exercice, pas seulement obtenir une réponse. C'est comme travailler avec un binôme qui t'aide à structurer ta réflexion sans jamais te laisser bloqué !",
+      "type": "paragraphe"
+    }
+  ]
+}
