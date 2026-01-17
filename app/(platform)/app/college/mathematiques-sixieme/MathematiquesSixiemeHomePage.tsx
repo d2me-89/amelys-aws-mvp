@@ -69,13 +69,6 @@ export default function MathematiquesSixiemeHomePage() {
     }));
   };
 
-  const toggleCoursInteractif = (chapterId: string) => {
-    setOpenCoursInteractif(prev => ({
-      ...prev,
-      [chapterId]: !prev[chapterId]
-    }));
-  };
-
   return (
     <AppLayout>
       {/* Bande pour icônes et recherche (à venir) */}
