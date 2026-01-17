@@ -25,7 +25,10 @@ export default function MathematiquesSixiemeHomePage() {
 
   // Calculer les totaux dynamiquement
   const nombreSeances = chapitres.length;
-  const nombreContenusPedagogiques = chapitres.reduce((total: number, ch: any) => total + ch.nombreExercices, 0);
+  // Chaque chapitre a 4 contenus fixes (cours + binôme + contrôle + session) + nombre variable d'exercices
+  const nombreContenusPedagogiques = chapitres.reduce((total: number, ch: any) => {
+    return total + 4 + ch.nombreExercices; // 4 contenus fixes + exercices de compétences
+  }, 0);
 
   const toggleChapter = (chapterId: string) => {
     setOpenChapters(prev => ({
@@ -423,7 +426,7 @@ export default function MathematiquesSixiemeHomePage() {
           alignItems: "center",
           justifyContent: "space-between",
           marginBottom: "1.5rem",
-          marginTop: "2rem",
+          marginTop: "3rem",
           maxWidth: "780px"
         }}>
           <h2 style={{
@@ -519,25 +522,25 @@ export default function MathematiquesSixiemeHomePage() {
               <div style={{
                 display: "flex",
                 alignItems: "center",
-                gap: "0.85rem"
+                gap: "1rem"
               }}>
                 {/* Icône avec le numéro du chapitre */}
                 <div style={{
-                  width: "42px",
-                  height: "42px",
-                  borderRadius: "11px",
+                  width: "48px",
+                  height: "48px",
+                  borderRadius: "12px",
                   background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   color: "#805AD5",
-                  fontSize: "1.3rem",
+                  fontSize: "1.5rem",
                   fontWeight: 700
                 }}>
                   {index + 1}
                 </div>
                 <span style={{
-                  fontSize: "1.25rem",
+                  fontSize: "1.35rem",
                   fontWeight: 700,
                   color: "#fff"
                 }}>
@@ -547,7 +550,7 @@ export default function MathematiquesSixiemeHomePage() {
 
               {/* Droite : Icône chevron */}
               <div style={{ color: "rgba(255,255,255,0.6)" }}>
-                {openChapters[chapitre.id] ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
+                {openChapters[chapitre.id] ? <LuChevronUp size={26} /> : <LuChevronDown size={26} />}
               </div>
             </button>
 
@@ -563,11 +566,11 @@ export default function MathematiquesSixiemeHomePage() {
                   style={{ textDecoration: "none" }}
                 >
                   <div style={{
-                    padding: "0.65rem 0.85rem",
+                    padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     display: "flex",
                     alignItems: "center",
-                    gap: "0.7rem",
+                    gap: "0.85rem",
                     cursor: "pointer",
                     transition: "background 0.2s ease",
                     marginTop: "1rem",
@@ -576,8 +579,8 @@ export default function MathematiquesSixiemeHomePage() {
                   onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)"}
                   onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
                   >
-                    <LuBookOpen size={18} style={{ color: "#B794F6" }} />
-                    <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                    <LuBookOpen size={20} style={{ color: "#B794F6" }} />
+                    <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 500 }}>
                       Cours interactif
                     </span>
                   </div>
@@ -589,11 +592,11 @@ export default function MathematiquesSixiemeHomePage() {
                   style={{ textDecoration: "none" }}
                 >
                   <div style={{
-                    padding: "0.65rem 0.85rem",
+                    padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     display: "flex",
                     alignItems: "center",
-                    gap: "0.7rem",
+                    gap: "0.85rem",
                     cursor: "pointer",
                     transition: "background 0.2s ease",
                     marginBottom: "0.4rem"
@@ -601,8 +604,8 @@ export default function MathematiquesSixiemeHomePage() {
                   onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)"}
                   onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
                   >
-                    <LuUsers size={18} style={{ color: "#B794F6" }} />
-                    <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                    <LuUsers size={20} style={{ color: "#B794F6" }} />
+                    <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 500 }}>
                       Exercice en binôme
                     </span>
                   </div>
@@ -613,7 +616,7 @@ export default function MathematiquesSixiemeHomePage() {
                   <div
                     onClick={() => toggleCompetences(chapitre.id)}
                     style={{
-                      padding: "0.65rem 0.85rem",
+                      padding: "0.75rem 1rem",
                       borderRadius: "8px",
                       display: "flex",
                       alignItems: "center",
@@ -633,14 +636,14 @@ export default function MathematiquesSixiemeHomePage() {
                       }
                     }}
                   >
-                    <div style={{ display: "flex", alignItems: "center", gap: "0.7rem" }}>
-                      <LuTarget size={18} style={{ color: "#B794F6" }} />
-                      <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
+                      <LuTarget size={20} style={{ color: "#B794F6" }} />
+                      <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 500 }}>
                         Compétences clés
                       </span>
                     </div>
                     <LuChevronRight 
-                      size={16} 
+                      size={18} 
                       style={{ 
                         color: "rgba(255,255,255,0.5)",
                         transform: openCompetences[chapitre.id] ? "rotate(90deg)" : "rotate(0deg)",
@@ -735,11 +738,11 @@ export default function MathematiquesSixiemeHomePage() {
                   style={{ textDecoration: "none" }}
                 >
                   <div style={{
-                    padding: "0.65rem 0.85rem",
+                    padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     display: "flex",
                     alignItems: "center",
-                    gap: "0.7rem",
+                    gap: "0.85rem",
                     cursor: "pointer",
                     transition: "background 0.2s ease",
                     marginBottom: "0.4rem"
@@ -747,8 +750,8 @@ export default function MathematiquesSixiemeHomePage() {
                   onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)"}
                   onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
                   >
-                    <LuClipboardCheck size={18} style={{ color: "#B794F6" }} />
-                    <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                    <LuClipboardCheck size={20} style={{ color: "#B794F6" }} />
+                    <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 500 }}>
                       Contrôle du chapitre
                     </span>
                   </div>
@@ -760,19 +763,19 @@ export default function MathematiquesSixiemeHomePage() {
                   style={{ textDecoration: "none" }}
                 >
                   <div style={{
-                    padding: "0.65rem 0.85rem",
+                    padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     display: "flex",
                     alignItems: "center",
-                    gap: "0.7rem",
+                    gap: "0.85rem",
                     cursor: "pointer",
                     transition: "background 0.2s ease"
                   }}
                   onMouseEnter={(e) => e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)"}
                   onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
                   >
-                    <LuMessageSquare size={18} style={{ color: "#B794F6" }} />
-                    <span style={{ fontSize: "0.95rem", color: "#fff", fontWeight: 500 }}>
+                    <LuMessageSquare size={20} style={{ color: "#B794F6" }} />
+                    <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 500 }}>
                       Session libre
                     </span>
                   </div>
