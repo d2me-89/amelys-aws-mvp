@@ -63,37 +63,8 @@ export default function MathematiquesSixiemeHomePage() {
         minHeight: "240px",
         display: "flex",
         alignItems: "flex-start",
-        justifyContent: "center",
-        overflow: "hidden"
+        justifyContent: "center"
       }}>
-        {/* Motifs mathématiques décoratifs en arrière-plan */}
-        <div style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          opacity: 0.12,
-          fontSize: "2.5rem",
-          color: "#fff",
-          fontFamily: "Georgia, serif",
-          fontStyle: "italic",
-          pointerEvents: "none",
-          overflow: "hidden"
-        }}>
-          {/* Formules mathématiques dispersées */}
-          <div style={{ position: "absolute", top: "20%", left: "5%", transform: "rotate(-8deg)" }}>π</div>
-          <div style={{ position: "absolute", top: "65%", left: "8%", fontSize: "1.8rem" }}>∫</div>
-          <div style={{ position: "absolute", top: "15%", left: "85%", fontSize: "2rem" }}>∑</div>
-          <div style={{ position: "absolute", top: "70%", left: "88%", transform: "rotate(12deg)" }}>√</div>
-          <div style={{ position: "absolute", top: "40%", left: "3%", fontSize: "1.5rem", transform: "rotate(-15deg)" }}>∞</div>
-          <div style={{ position: "absolute", top: "80%", left: "92%", fontSize: "2.2rem" }}>θ</div>
-          <div style={{ position: "absolute", top: "25%", left: "15%", fontSize: "1.6rem" }}>α</div>
-          <div style={{ position: "absolute", top: "55%", left: "93%", fontSize: "1.7rem", transform: "rotate(8deg)" }}>β</div>
-          <div style={{ position: "absolute", top: "10%", left: "92%", fontSize: "1.9rem" }}>≈</div>
-          <div style={{ position: "absolute", top: "75%", left: "12%", fontSize: "2.1rem", transform: "rotate(-5deg)" }}>Δ</div>
-        </div>
-        
         {/* Conteneur centré avec largeur max */}
         <div style={{
           width: "100%",
