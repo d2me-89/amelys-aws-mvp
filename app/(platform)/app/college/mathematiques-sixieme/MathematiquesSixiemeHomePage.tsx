@@ -14,7 +14,6 @@ export default function MathematiquesSixiemeHomePage() {
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
   const [openCompetences, setOpenCompetences] = useState<Record<string, boolean>>({});
   const [openCoursInteractif, setOpenCoursInteractif] = useState<Record<string, boolean>>({});
-  const [openCoursInteractif, setOpenCoursInteractif] = useState<Record<string, boolean>>({});
 
   // Extraire les données des chapitres du JSON
   const chapitres = useMemo(() => {
