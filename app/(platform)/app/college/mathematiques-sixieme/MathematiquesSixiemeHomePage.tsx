@@ -417,6 +417,68 @@ export default function MathematiquesSixiemeHomePage() {
           )}
         </div>
 
+        {/* Titre "Contenu du cours" avec bouton Tout afficher/cacher */}
+        <div style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          marginBottom: "1.5rem",
+          marginTop: "2rem",
+          maxWidth: "780px"
+        }}>
+          <h2 style={{
+            fontSize: "1.8rem",
+            fontWeight: 700,
+            color: "#fff",
+            margin: 0
+          }}>
+            Contenu du cours
+          </h2>
+
+          <button
+            onClick={() => {
+              const allOpen = Object.keys(openChapters).length === chapitres.length && 
+                             Object.values(openChapters).every(v => v === true);
+              
+              if (allOpen) {
+                // Tout fermer
+                setOpenChapters({});
+              } else {
+                // Tout ouvrir
+                const newState: Record<string, boolean> = {};
+                chapitres.forEach(ch => {
+                  newState[ch.id] = true;
+                });
+                setOpenChapters(newState);
+              }
+            }}
+            style={{
+              padding: "0.6rem 1.2rem",
+              background: "rgba(159, 122, 234, 0.2)",
+              border: "1px solid rgba(159, 122, 234, 0.4)",
+              borderRadius: "8px",
+              color: "#B794F6",
+              fontSize: "0.9rem",
+              fontWeight: 600,
+              cursor: "pointer",
+              transition: "all 0.2s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "rgba(159, 122, 234, 0.3)";
+              e.currentTarget.style.borderColor = "rgba(159, 122, 234, 0.6)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "rgba(159, 122, 234, 0.2)";
+              e.currentTarget.style.borderColor = "rgba(159, 122, 234, 0.4)";
+            }}
+          >
+            {Object.keys(openChapters).length === chapitres.length && 
+             Object.values(openChapters).every(v => v === true)
+              ? "Tout cacher"
+              : "Tout afficher"}
+          </button>
+        </div>
+
         {/* 13 menus de chapitres indépendants */}
         {chapitres.map((chapitre, index) => (
           <div key={chapitre.id} style={{
