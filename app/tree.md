@@ -6,8 +6,10 @@
 │   │       ├── AppHomePage.tsx
 │   │       ├── college
 │   │       │   ├── CollegeHomePage.tsx
-│   │       │   ├── page.tsx
-│   │       │   └── sixieme
+│   │       │   ├── mathematiques-sixieme
+│   │       │   │   ├── MathematiquesSixiemeHomePage.tsx
+│   │       │   │   └── page.tsx
+│   │       │   └── page.tsx
 │   │       ├── lycee
 │   │       │   ├── LyceeHomePage.tsx
 │   │       │   └── page.tsx
@@ -37,14 +39,16 @@
 │   │   │   │   │   └── 5eme-espagnol-structure-HR.json
 │   │   │   │   ├── francais-5eme
 │   │   │   │   │   ├── 5eme-français-structure-DDB.json
-│   │   │   │   │   └── 5eme-français-structure-HR.json
+│   │   │   │   │   ├── 5eme-français-structure-HR.json
+│   │   │   │   │   └── ensel283_annexe13_1120329.pdf
 │   │   │   │   ├── géographie-5eme
 │   │   │   │   │   └── 5eme-geographie-structure-HR.json
 │   │   │   │   ├── histoire-5eme
 │   │   │   │   │   ├── 5eme-histoire-structure-DDB.json
 │   │   │   │   │   └── 5eme-histoire-structure-HR.json
 │   │   │   │   ├── mathematiques-5eme
-│   │   │   │   │   └── 14-Maths-5e-attendus-eduscol_1114744.pdf
+│   │   │   │   │   ├── 14-Maths-5e-attendus-eduscol_1114744.pdf
+│   │   │   │   │   └── 5eme-maths-structure-HR.json
 │   │   │   │   ├── physique-chimie-5eme
 │   │   │   │   │   ├── 5eme-physique-chimie-structure-DDB.json
 │   │   │   │   │   └── 5eme-physique-chimie-structure-HR.json
@@ -57,13 +61,16 @@
 │   │   │   │   ├── emc-4eme
 │   │   │   │   ├── espagnol-4eme
 │   │   │   │   ├── francais-4eme
+│   │   │   │   │   └── ensel283_annexe15_1120333.pdf
 │   │   │   │   ├── géographie-4eme
 │   │   │   │   │   └── 4eme-geographie-structure-HR.json
 │   │   │   │   ├── histoire-4eme
 │   │   │   │   │   └── 4eme-histoire-structure-HR.json
 │   │   │   │   ├── mathematiques-4eme
-│   │   │   │   │   └── 16-Maths-4e-attendus-eduscol_1114746.pdf
+│   │   │   │   │   ├── 16-Maths-4e-attendus-eduscol_1114746.pdf
+│   │   │   │   │   └── 4eme-maths-structure-HR.json
 │   │   │   │   ├── physique-chimie-4eme
+│   │   │   │   │   └── 4eme-physique-chimie-structure-HR.json
 │   │   │   │   ├── svt-4eme
 │   │   │   │   └── technologie-4eme
 │   │   │   ├── sixieme
@@ -75,7 +82,8 @@
 │   │   │   │   │   └── 6eme-emc-structure-HR.json
 │   │   │   │   ├── francais-6eme
 │   │   │   │   │   ├── 6eme-français-structure-DBB.json
-│   │   │   │   │   └── 6eme-français-structure-HR.json
+│   │   │   │   │   ├── 6eme-français-structure-HR.json
+│   │   │   │   │   └── ensel283_annexe11_1120325 (1).pdf
 │   │   │   │   ├── géographie-6eme
 │   │   │   │   │   ├── 6eme-geographie-structure-BDD.json
 │   │   │   │   │   └── 6eme-geographie-structure-HR.json
@@ -83,9 +91,12 @@
 │   │   │   │   │   ├── 6eme-histoire-structure-DBB.json
 │   │   │   │   │   └── 6eme-histoire-structure-HR.json
 │   │   │   │   ├── mathematiques-6eme
+│   │   │   │   │   ├── 12-Maths-6e-attendus-eduscol_1114742.pdf
+│   │   │   │   │   ├── 4eme-maths-architecture-DDB.pdf
 │   │   │   │   │   ├── 6eme-maths-architecture-DDB.json
 │   │   │   │   │   ├── 6eme-maths-architecture-HR.json
-│   │   │   │   │   └── exemples_mise_en_oeuvre_6e-maths.pdf
+│   │   │   │   │   ├── exemples_mise_en_oeuvre_6e-maths.pdf
+│   │   │   │   │   └── maths-sixieme-introduction.json
 │   │   │   │   └── sciences-6eme
 │   │   │   │       ├── 6eme-sciences-structure-DDB.json
 │   │   │   │       └── 6eme-sciences-structure-HR.json
@@ -94,15 +105,24 @@
 │   │   │       ├── emc-3eme
 │   │   │       ├── espagnol-3eme
 │   │   │       ├── francais-3eme
+│   │   │       │   └── ensel283_annexe17_1120339.pdf
 │   │   │       ├── géographie-3eme
 │   │   │       │   └── 3eme-geographie-structure-HR.json
 │   │   │       ├── histoire-3eme
 │   │   │       │   └── 3eme-histoire-structure-HR.json
 │   │   │       ├── mathematiques-3eme
-│   │   │       │   └── 18-Maths-3e-attendus-eduscol_1114748.pdf
+│   │   │       │   ├── 18-Maths-3e-attendus-eduscol_1114748.pdf
+│   │   │       │   └── 3eme-maths-structure-HR.json
 │   │   │       ├── physique-chimie-3eme
+│   │   │       │   └── 3eme-physique-chimie-structure-HR.json
 │   │   │       ├── svt-3eme
 │   │   │       └── technologie-3eme
+│   │   ├── faq
+│   │   │   ├── faq-competences-cles.json
+│   │   │   ├── faq-controle-evalue.json
+│   │   │   ├── faq-cours-interactif.json
+│   │   │   ├── faq-exercice-en-binome.json
+│   │   │   └── faq-session-libre.json
 │   │   └── lycee
 │   │       ├── baccalaureat
 │   │       │   ├── francais-Tle
@@ -137,6 +157,7 @@
 │   │       │   │   └── spe632_annexe_1063168.pdf
 │   │       │   ├── nsi-1ere
 │   │       │   ├── physique-chimie-1ere
+│   │       │   │   └── 1ere-physique-chimie-structure-HR.json
 │   │       │   ├── sciences-ingenieur-1ere
 │   │       │   ├── ses-1ere
 │   │       │   └── svt-1ere
@@ -157,6 +178,7 @@
 │   │       │   │   └── spe631_annexe_1062957.pdf
 │   │       │   ├── nsi-2nde
 │   │       │   ├── physique-chimie-2nde
+│   │       │   │   └── 2nde-physique-chimie-structure-HR.json
 │   │       │   ├── sciences-ingenieur-2nde
 │   │       │   ├── ses-2nde
 │   │       │   └── svt-2nde
@@ -189,6 +211,7 @@
 │   │           ├── nsi-Tle
 │   │           ├── philosophie-Tle
 │   │           ├── physique-chimie-Tle
+│   │           │   └── Tle-physique-chimie-structure-HR.json
 │   │           ├── sciences-ingenieur-Tle
 │   │           ├── ses-Tle
 │   │           └── svt-Tle
@@ -212,3 +235,5 @@
 │   ├── vercel.svg
 │   └── window.svg
 └── tsconfig.json
+
+123 directories, 114 files

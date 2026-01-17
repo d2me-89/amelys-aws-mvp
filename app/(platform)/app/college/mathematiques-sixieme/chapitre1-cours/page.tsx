@@ -1,0 +1,3 @@
+import MathematiquesSixiemeChapitre1CoursPage from "./MathematiquesSixiemeChapitre1CoursPage";
+
+export default MathematiquesSixiemeChapitre1CoursPage;
