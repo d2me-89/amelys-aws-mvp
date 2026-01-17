@@ -159,7 +159,7 @@ export default function Sidebar() {
         <SidebarLink
           href="/app/economie-gestion"
           icon={<LuDownload />}
-          label="Economie-gestion"
+          label="Economie/Gestion"
           isOpen={isOpen}
           isActive={pathname === "/app/economie-gestion"}
         />
