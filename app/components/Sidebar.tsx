@@ -68,8 +68,8 @@ export default function Sidebar() {
               cursor: "pointer",
               transition: "opacity 0.2s ease"
             }}
-            onMouseEnter={(e) => e.currentTarget.style.opacity = "0.8"}
-            onMouseLeave={(e) => e.currentTarget.style.opacity = "1"}
+            onMouseEnter={(e) => e.currentTarget.style.filter = "brightness(1.3)"}
+            onMouseLeave={(e) => e.currentTarget.style.filter = "brightness(1)"}
           >
             Amélys
           </Link>
