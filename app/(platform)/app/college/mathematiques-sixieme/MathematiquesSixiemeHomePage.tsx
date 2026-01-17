@@ -299,7 +299,7 @@ export default function MathematiquesSixiemeHomePage() {
                 justifyContent: "center",
                 color: "#805AD5"
               }}>
-                <LuSchool size={22} />
+                <LuCalculator size={22} />
               </div>
               <span style={{
                 fontSize: "1.25rem",
@@ -426,7 +426,7 @@ export default function MathematiquesSixiemeHomePage() {
           alignItems: "center",
           justifyContent: "space-between",
           marginBottom: "1.5rem",
-          marginTop: "3rem",
+          marginTop: "3.5rem",
           maxWidth: "780px"
         }}>
           <h2 style={{
@@ -522,25 +522,25 @@ export default function MathematiquesSixiemeHomePage() {
               <div style={{
                 display: "flex",
                 alignItems: "center",
-                gap: "1rem"
+                gap: "0.85rem"
               }}>
                 {/* Icône avec le numéro du chapitre */}
                 <div style={{
-                  width: "48px",
-                  height: "48px",
-                  borderRadius: "12px",
+                  width: "42px",
+                  height: "42px",
+                  borderRadius: "11px",
                   background: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   color: "#805AD5",
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   fontWeight: 700
                 }}>
                   {index + 1}
                 </div>
                 <span style={{
-                  fontSize: "1.35rem",
+                  fontSize: "1.25rem",
                   fontWeight: 700,
                   color: "#fff"
                 }}>
@@ -550,7 +550,7 @@ export default function MathematiquesSixiemeHomePage() {
 
               {/* Droite : Icône chevron */}
               <div style={{ color: "rgba(255,255,255,0.6)" }}>
-                {openChapters[chapitre.id] ? <LuChevronUp size={26} /> : <LuChevronDown size={26} />}
+                {openChapters[chapitre.id] ? <LuChevronUp size={24} /> : <LuChevronDown size={24} />}
               </div>
             </button>
 
