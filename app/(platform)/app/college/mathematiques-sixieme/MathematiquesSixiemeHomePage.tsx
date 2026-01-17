@@ -12,6 +12,8 @@ export default function MathematiquesSixiemeHomePage() {
   const [isMathsSixiemeOpen, setIsMathsSixiemeOpen] = useState(false);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
   const [openCompetences, setOpenCompetences] = useState<Record<string, boolean>>({});
+  const [openCoursInteractif, setOpenCoursInteractif] = useState<Record<string, boolean>>({});
+  const [openCoursInteractif, setOpenCoursInteractif] = useState<Record<string, boolean>>({});
 
   // Extraire les données des chapitres du JSON
   const chapitres = useMemo(() => {
@@ -39,6 +41,13 @@ export default function MathematiquesSixiemeHomePage() {
 
   const toggleCompetences = (chapterId: string) => {
     setOpenCompetences(prev => ({
+      ...prev,
+      [chapterId]: !prev[chapterId]
+    }));
+  };
+
+  const toggleCoursInteractif = (chapterId: string) => {
+    setOpenCoursInteractif(prev => ({
       ...prev,
       [chapterId]: !prev[chapterId]
     }));
@@ -408,14 +417,153 @@ export default function MathematiquesSixiemeHomePage() {
               padding: "0 1.5rem 1.5rem 1.5rem",
               borderTop: "1px solid rgba(255,255,255,0.1)"
             }}>
-              <p style={{
-                margin: "1.5rem 0",
-                fontSize: "0.95rem",
-                color: "rgba(255,255,255,0.7)",
-                fontStyle: "italic"
-              }}>
-                ❓ Contenu FAQ à venir...
-              </p>
+              {/* Menu déroulant Cours interactif */}
+              <div style={{ marginTop: "1rem" }}>
+                <div
+                  onClick={() => setOpenCoursInteractif(prev => ({ ...prev, 'faq': !prev['faq'] }))}
+                  style={{
+                    padding: "0.75rem 1rem",
+                    borderRadius: "8px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    cursor: "pointer",
+                    transition: "background 0.2s ease",
+                    background: openCoursInteractif['faq'] ? "rgba(159, 122, 234, 0.15)" : "transparent"
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!openCoursInteractif['faq']) {
+                      e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)";
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!openCoursInteractif['faq']) {
+                      e.currentTarget.style.background = "transparent";
+                    }
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
+                    <LuBookOpen size={20} style={{ color: "#B794F6" }} />
+                    <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 600 }}>
+                      Cours interactif
+                    </span>
+                  </div>
+                  <LuChevronRight 
+                    size={18} 
+                    style={{ 
+                      color: "rgba(255,255,255,0.5)",
+                      transform: openCoursInteractif['faq'] ? "rotate(90deg)" : "rotate(0deg)",
+                      transition: "transform 0.2s ease"
+                    }} 
+                  />
+                </div>
+
+                {/* Contenu du cours interactif */}
+                {openCoursInteractif['faq'] && (
+                  <div style={{
+                    padding: "1rem 1.5rem",
+                    background: "rgba(0,0,0,0.2)",
+                    borderRadius: "8px",
+                    marginTop: "0.5rem"
+                  }}>
+                    {/* Qu'est-ce que c'est ? */}
+                    <div style={{ marginBottom: "1.5rem" }}>
+                      <h3 style={{
+                        fontSize: "1.1rem",
+                        fontWeight: 700,
+                        color: "#B794F6",
+                        marginBottom: "0.5rem"
+                      }}>
+                        Qu'est-ce que c'est ?
+                      </h3>
+                      <p style={{
+                        fontSize: "0.95rem",
+                        color: "rgba(255,255,255,0.85)",
+                        lineHeight: "1.6",
+                        margin: 0
+                      }}>
+                        Un cours interactif et personnalisé sur un chapitre complet, animé par un professeur virtuel bienveillant.
+                      </p>
+                    </div>
+
+                    {/* Comment ça marche ? */}
+                    <div style={{ marginBottom: "1.5rem" }}>
+                      <h3 style={{
+                        fontSize: "1.1rem",
+                        fontWeight: 700,
+                        color: "#B794F6",
+                        marginBottom: "0.5rem"
+                      }}>
+                        Comment ça marche ?
+                      </h3>
+                      <ol style={{
+                        fontSize: "0.95rem",
+                        color: "rgba(255,255,255,0.85)",
+                        lineHeight: "1.6",
+                        margin: 0,
+                        paddingLeft: "1.5rem"
+                      }}>
+                        <li style={{ marginBottom: "0.5rem" }}>
+                          Tu choisis le format : cours express (10-15 min), moyen (30-40 min), ou très long (1h30-2h)
+                        </li>
+                        <li style={{ marginBottom: "0.5rem" }}>
+                          Le professeur s'adapte : il explique, pose des questions, vérifie ta compréhension tout au long
+                        </li>
+                        <li>
+                          Tu termines par un QCM de 10 questions pour valider tes acquis
+                        </li>
+                      </ol>
+                    </div>
+
+                    {/* Comment valider "Complet" ? */}
+                    <div style={{ marginBottom: "1.5rem" }}>
+                      <h3 style={{
+                        fontSize: "1.1rem",
+                        fontWeight: 700,
+                        color: "#B794F6",
+                        marginBottom: "0.5rem"
+                      }}>
+                        Comment valider "Complet" ?
+                      </h3>
+                      <ul style={{
+                        fontSize: "0.95rem",
+                        color: "rgba(255,255,255,0.85)",
+                        lineHeight: "1.6",
+                        margin: 0,
+                        paddingLeft: "1.5rem",
+                        listStyle: "disc"
+                      }}>
+                        <li style={{ marginBottom: "0.5rem" }}>
+                          Avoir suivi un cours moyen ou long (le cours express ne suffit pas)
+                        </li>
+                        <li>
+                          Obtenir au moins 6/10 au QCM final
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Pourquoi choisir ce mode ? */}
+                    <div>
+                      <h3 style={{
+                        fontSize: "1.1rem",
+                        fontWeight: 700,
+                        color: "#B794F6",
+                        marginBottom: "0.5rem"
+                      }}>
+                        Pourquoi choisir ce mode ?
+                      </h3>
+                      <p style={{
+                        fontSize: "0.95rem",
+                        color: "rgba(255,255,255,0.85)",
+                        lineHeight: "1.6",
+                        margin: 0
+                      }}>
+                        Pour apprendre ou réviser un chapitre de A à Z, à ton rythme, avec des explications claires et des exemples concrets. C'est comme avoir un prof particulier qui prend le temps de tout t'expliquer !
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           )}
         </div>
