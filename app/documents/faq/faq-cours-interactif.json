@@ -13,7 +13,7 @@
         "Le professeur s'adapte : il explique, pose des questions, vérifie ta compréhension tout au long",
         "Tu termines par un QCM de 10 questions pour valider tes acquis"
       ],
-      "type": "liste-ordonnee"
+      "type": "liste-puces"
     },
     {
       "titre": "Comment valider \"Complet\" ?",
