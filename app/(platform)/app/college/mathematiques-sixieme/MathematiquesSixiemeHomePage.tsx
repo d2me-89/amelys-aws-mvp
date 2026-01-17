@@ -5,17 +5,30 @@ import AppLayout from "@/app/components/AppLayout";
 import { useState, useMemo } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
-import faqDataRaw from "@/app/documents/faq/faq-cours-interactif.json";
+import faqCoursInteractifRaw from "@/app/documents/faq/faq-cours-interactif.json";
+import faqExerciceBinomeRaw from "@/app/documents/faq/faq-exercice-en-binome.json";
+import faqCompetencesClesRaw from "@/app/documents/faq/faq-competences-cles.json";
+import faqControleEvalueRaw from "@/app/documents/faq/faq-controle-evalue.json";
+import faqSessionLibreRaw from "@/app/documents/faq/faq-session-libre.json";
+
+// Type pour les sections FAQ
+type FAQSection = {
+  titre: string;
+  contenu: string | string[];
+  type: string;
+};
+
+type FAQData = {
+  titre: string;
+  sections: FAQSection[];
+};
 
 // Typage pour les données FAQ
-const faqCoursInteractifData = faqDataRaw as unknown as {
-  titre: string;
-  sections: Array<{
-    titre: string;
-    contenu: string | string[];
-    type: string;
-  }>;
-};
+const faqCoursInteractifData = faqCoursInteractifRaw as unknown as FAQData;
+const faqExerciceBinomeData = faqExerciceBinomeRaw as unknown as FAQData;
+const faqCompetencesClesData = faqCompetencesClesRaw as unknown as FAQData;
+const faqControleEvalueData = faqControleEvalueRaw as unknown as FAQData;
+const faqSessionLibreData = faqSessionLibreRaw as unknown as FAQData;
 
 export default function MathematiquesSixiemeHomePage() {
   const [hoveredButton, setHoveredButton] = useState(false);
@@ -23,7 +36,7 @@ export default function MathematiquesSixiemeHomePage() {
   const [isMathsSixiemeOpen, setIsMathsSixiemeOpen] = useState(false);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
   const [openCompetences, setOpenCompetences] = useState<Record<string, boolean>>({});
-  const [openCoursInteractif, setOpenCoursInteractif] = useState<Record<string, boolean>>({});
+  const [openFAQMenus, setOpenFAQMenus] = useState<Record<string, boolean>>({});
 
   // Extraire les données des chapitres du JSON
   const chapitres = useMemo(() => {
@@ -428,113 +441,49 @@ export default function MathematiquesSixiemeHomePage() {
               borderTop: "1px solid rgba(255,255,255,0.1)"
             }}>
               {/* Menu déroulant Cours interactif */}
-              <div style={{ marginTop: "1rem" }}>
-                <div
-                  onClick={() => setOpenCoursInteractif(prev => ({ ...prev, 'faq': !prev['faq'] }))}
-                  style={{
-                    padding: "0.75rem 1rem",
-                    borderRadius: "8px",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    cursor: "pointer",
-                    transition: "background 0.2s ease",
-                    background: openCoursInteractif['faq'] ? "rgba(159, 122, 234, 0.15)" : "transparent"
-                  }}
-                  onMouseEnter={(e) => {
-                    if (!openCoursInteractif['faq']) {
-                      e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)";
-                    }
-                  }}
-                  onMouseLeave={(e) => {
-                    if (!openCoursInteractif['faq']) {
-                      e.currentTarget.style.background = "transparent";
-                    }
-                  }}
-                >
-                  <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
-                    <LuBookOpen size={20} style={{ color: "#B794F6" }} />
-                    <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 500 }}>
-                      Cours interactif
-                    </span>
-                  </div>
-                  <LuChevronRight 
-                    size={18} 
-                    style={{ 
-                      color: "rgba(255,255,255,0.5)",
-                      transform: openCoursInteractif['faq'] ? "rotate(90deg)" : "rotate(0deg)",
-                      transition: "transform 0.2s ease"
-                    }} 
-                  />
-                </div>
+              <FAQMenuItem
+                id="cours-interactif"
+                icon={<LuBookOpen size={20} style={{ color: "#B794F6" }} />}
+                data={faqCoursInteractifData}
+                isOpen={openFAQMenus['cours-interactif'] || false}
+                onToggle={() => setOpenFAQMenus(prev => ({ ...prev, 'cours-interactif': !prev['cours-interactif'] }))}
+              />
 
-                {/* Contenu du cours interactif */}
-                {openCoursInteractif['faq'] && (
-                  <div style={{
-                    padding: "1rem 1.5rem",
-                    background: "rgba(0,0,0,0.2)",
-                    borderRadius: "8px",
-                    marginTop: "0.5rem"
-                  }}>
-                    {faqCoursInteractifData.sections.map((section, index) => (
-                      <div key={index} style={{ marginBottom: index < faqCoursInteractifData.sections.length - 1 ? "1.5rem" : "0" }}>
-                        <h3 style={{
-                          fontSize: "1.1rem",
-                          fontWeight: 700,
-                          color: "#B794F6",
-                          marginBottom: "0.5rem"
-                        }}>
-                          {section.titre}
-                        </h3>
-                        
-                        {section.type === "paragraphe" && typeof section.contenu === "string" && (
-                          <p style={{
-                            fontSize: "0.95rem",
-                            color: "rgba(255,255,255,0.85)",
-                            lineHeight: "1.6",
-                            margin: 0
-                          }}>
-                            {section.contenu}
-                          </p>
-                        )}
-                        
-                        {section.type === "liste-ordonnee" && Array.isArray(section.contenu) && (
-                          <ol style={{
-                            fontSize: "0.95rem",
-                            color: "rgba(255,255,255,0.85)",
-                            lineHeight: "1.6",
-                            margin: 0,
-                            paddingLeft: "1.5rem"
-                          }}>
-                            {section.contenu.map((item, idx) => (
-                              <li key={idx} style={{ marginBottom: idx < (section.contenu as string[]).length - 1 ? "0.5rem" : "0" }}>
-                                {item}
-                              </li>
-                            ))}
-                          </ol>
-                        )}
-                        
-                        {section.type === "liste-puces" && Array.isArray(section.contenu) && (
-                          <ul style={{
-                            fontSize: "0.95rem",
-                            color: "rgba(255,255,255,0.85)",
-                            lineHeight: "1.6",
-                            margin: 0,
-                            paddingLeft: "1.5rem",
-                            listStyle: "disc"
-                          }}>
-                            {section.contenu.map((item, idx) => (
-                              <li key={idx} style={{ marginBottom: idx < (section.contenu as string[]).length - 1 ? "0.5rem" : "0" }}>
-                                {item}
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
+              {/* Menu déroulant Exercice en binôme */}
+              <FAQMenuItem
+                id="exercice-binome"
+                icon={<LuUsers size={20} style={{ color: "#B794F6" }} />}
+                data={faqExerciceBinomeData}
+                isOpen={openFAQMenus['exercice-binome'] || false}
+                onToggle={() => setOpenFAQMenus(prev => ({ ...prev, 'exercice-binome': !prev['exercice-binome'] }))}
+              />
+
+              {/* Menu déroulant Compétences clés */}
+              <FAQMenuItem
+                id="competences-cles"
+                icon={<LuTarget size={20} style={{ color: "#B794F6" }} />}
+                data={faqCompetencesClesData}
+                isOpen={openFAQMenus['competences-cles'] || false}
+                onToggle={() => setOpenFAQMenus(prev => ({ ...prev, 'competences-cles': !prev['competences-cles'] }))}
+              />
+
+              {/* Menu déroulant Contrôle évalué */}
+              <FAQMenuItem
+                id="controle-evalue"
+                icon={<LuClipboardCheck size={20} style={{ color: "#B794F6" }} />}
+                data={faqControleEvalueData}
+                isOpen={openFAQMenus['controle-evalue'] || false}
+                onToggle={() => setOpenFAQMenus(prev => ({ ...prev, 'controle-evalue': !prev['controle-evalue'] }))}
+              />
+
+              {/* Menu déroulant Session libre */}
+              <FAQMenuItem
+                id="session-libre"
+                icon={<LuMessageSquare size={20} style={{ color: "#B794F6" }} />}
+                data={faqSessionLibreData}
+                isOpen={openFAQMenus['session-libre'] || false}
+                onToggle={() => setOpenFAQMenus(prev => ({ ...prev, 'session-libre': !prev['session-libre'] }))}
+              />
             </div>
           )}
         </div>
@@ -906,5 +855,126 @@ export default function MathematiquesSixiemeHomePage() {
         </div>
       </div>
     </AppLayout>
+  );
+}
+
+// Composant réutilisable pour les menus FAQ
+interface FAQMenuItemProps {
+  id: string;
+  icon: React.ReactNode;
+  data: FAQData;
+  isOpen: boolean;
+  onToggle: () => void;
+}
+
+function FAQMenuItem({ id, icon, data, isOpen, onToggle }: FAQMenuItemProps) {
+  return (
+    <div style={{ marginTop: "1rem" }}>
+      <div
+        onClick={onToggle}
+        style={{
+          padding: "0.75rem 1rem",
+          borderRadius: "8px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          cursor: "pointer",
+          transition: "background 0.2s ease",
+          background: isOpen ? "rgba(159, 122, 234, 0.15)" : "transparent"
+        }}
+        onMouseEnter={(e) => {
+          if (!isOpen) {
+            e.currentTarget.style.background = "rgba(159, 122, 234, 0.15)";
+          }
+        }}
+        onMouseLeave={(e) => {
+          if (!isOpen) {
+            e.currentTarget.style.background = "transparent";
+          }
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
+          {icon}
+          <span style={{ fontSize: "1.05rem", color: "#fff", fontWeight: 500 }}>
+            {data.titre}
+          </span>
+        </div>
+        <LuChevronRight 
+          size={18} 
+          style={{ 
+            color: "rgba(255,255,255,0.5)",
+            transform: isOpen ? "rotate(90deg)" : "rotate(0deg)",
+            transition: "transform 0.2s ease"
+          }} 
+        />
+      </div>
+
+      {/* Contenu déroulant */}
+      {isOpen && (
+        <div style={{
+          padding: "1rem 1.5rem",
+          background: "rgba(0,0,0,0.2)",
+          borderRadius: "8px",
+          marginTop: "0.5rem"
+        }}>
+          {data.sections.map((section, index) => (
+            <div key={index} style={{ marginBottom: index < data.sections.length - 1 ? "1.5rem" : "0" }}>
+              <h3 style={{
+                fontSize: "1.1rem",
+                fontWeight: 700,
+                color: "#B794F6",
+                marginBottom: "0.5rem"
+              }}>
+                {section.titre}
+              </h3>
+              
+              {section.type === "paragraphe" && typeof section.contenu === "string" && (
+                <p style={{
+                  fontSize: "0.95rem",
+                  color: "rgba(255,255,255,0.85)",
+                  lineHeight: "1.6",
+                  margin: 0
+                }}>
+                  {section.contenu}
+                </p>
+              )}
+              
+              {section.type === "liste-ordonnee" && Array.isArray(section.contenu) && (
+                <ol style={{
+                  fontSize: "0.95rem",
+                  color: "rgba(255,255,255,0.85)",
+                  lineHeight: "1.6",
+                  margin: 0,
+                  paddingLeft: "1.5rem"
+                }}>
+                  {section.contenu.map((item, idx) => (
+                    <li key={idx} style={{ marginBottom: idx < section.contenu.length - 1 ? "0.5rem" : "0" }}>
+                      {item}
+                    </li>
+                  ))}
+                </ol>
+              )}
+              
+              {section.type === "liste-puces" && Array.isArray(section.contenu) && (
+                <ul style={{
+                  fontSize: "0.95rem",
+                  color: "rgba(255,255,255,0.85)",
+                  lineHeight: "1.6",
+                  margin: 0,
+                  paddingLeft: "1.5rem",
+                  listStyle: "disc"
+                }}>
+                  {section.contenu.map((item, idx) => (
+                    <li key={idx} style={{ marginBottom: idx < section.contenu.length - 1 ? "0.5rem" : "0" }}>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
   );
 }

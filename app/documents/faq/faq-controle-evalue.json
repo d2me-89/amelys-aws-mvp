@@ -14,7 +14,7 @@
         "Réaliser le contrôle seul, sans aucune aide pendant l'épreuve",
         "L'IA corrige le travail et attribue une note avec rigueur et bienveillance"
       ],
-      "type": "liste-ordonnee"
+      "type": "liste-puces"
     },
     {
       "titre": "Comment valider \"Complet\" ?",

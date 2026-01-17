@@ -14,7 +14,7 @@
         "Tu fais plusieurs exercices variés (calcul, analyse de texte, situations concrètes, justifications...)",
         "L'IA accumule des preuves de ta maîtrise avant de décider"
       ],
-      "type": "liste-ordonnee"
+      "type": "liste-puces"
     },
     {
       "titre": "Comment valider \"Complet\" ?",

@@ -14,7 +14,7 @@
         "Vous avancez pas à pas : une étape à la fois, avec corrections douces et encouragements constants",
         "Tu comprends la méthode pour pouvoir refaire seul un exercice similaire"
       ],
-      "type": "liste-ordonnee"
+      "type": "liste-puces"
     },
     {
       "titre": "Comment valider \"Complet\" ?",

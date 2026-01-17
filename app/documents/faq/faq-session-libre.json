@@ -14,7 +14,7 @@
         "Aucun format imposé : la session est dirigée par l'élève",
         "L'IA guide et accompagne sans jamais faire à la place de l'élève"
       ],
-      "type": "liste-ordonnee"
+      "type": "liste-puces"
     },
     {
       "titre": "Que peux-tu demander ?",
