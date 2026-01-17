@@ -5,7 +5,7 @@ import AppLayout from "@/app/components/AppLayout";
 import { useState, useMemo } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
-import faqDataRaw from "@/app/documents/faq/cours-interactif.json";
+import faqDataRaw from "@/app/documents/faq/faq-cours-interactif.json";
 
 // Typage pour les données FAQ
 const faqCoursInteractifData = faqDataRaw as unknown as {
