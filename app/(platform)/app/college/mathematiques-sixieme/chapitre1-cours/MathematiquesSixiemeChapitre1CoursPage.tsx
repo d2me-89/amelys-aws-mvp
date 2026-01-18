@@ -1,9 +1,4 @@
-// Scroll vers le dernier message utilisateur quand il est ajouté
-  useEffect(() => {
-    if (lastUserMessageRef.current) {
-      setTimeout(() => {
-        lastUserMessageRef.current?.scrollIntoView({
-          behavior: "use client";
+"use client";
 
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import AppLayout from "@/app/components/AppLayout";
@@ -44,8 +39,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const headerMenuRef = useRef<HTMLDivElement>(null);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const lastUserMessageRef = useRef<HTMLDivElement>(null);
-  const lastAssistantMessageRef = useRef<HTMLDivElement>(null);
-  const lastAssistantMessageRef = useRef<HTMLDivElement>(null);
 
   // Scroll vers le dernier message utilisateur quand il est ajouté
   useEffect(() => {
@@ -56,18 +49,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           block: 'start'
         });
       }, 50);
-    }
-  }, [messages]);
-
-  // Scroll vers le message de l'IA quand il apparaît (si long message utilisateur)
-  useEffect(() => {
-    if (lastAssistantMessageRef.current) {
-      setTimeout(() => {
-        lastAssistantMessageRef.current?.scrollIntoView({
-          behavior: 'smooth',
-          block: 'end' // Afficher la fin du message IA
-        });
-      }, 100);
     }
   }, [messages]);
 
@@ -287,14 +268,12 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 {messages.map((msg, index) => {
                   const isLastUserMessage = msg.role === 'user' && 
                     index === messages.findLastIndex(m => m.role === 'user');
-                  const isLastAssistantMessage = msg.role === 'assistant' && 
-                    index === messages.findLastIndex(m => m.role === 'assistant');
                   
                   return (
                     <MessageBubble 
                       key={msg.id} 
                       message={msg}
-                      ref={isLastUserMessage ? lastUserMessageRef : (isLastAssistantMessage ? lastAssistantMessageRef : undefined)}
+                      ref={isLastUserMessage ? lastUserMessageRef : undefined}
                       isLatestAssistant={msg.isLatestAssistant}
                     />
                   );
