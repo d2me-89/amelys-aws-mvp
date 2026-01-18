@@ -34,11 +34,16 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    messagesEndRef.current?.scrollIntoView({ 
+      behavior: "smooth",
+      block: "start" // Aligne le message en haut de la zone visible
+    });
   };
 
   useEffect(() => {
-    scrollToBottom();
+    if (messages.length > 0) {
+      scrollToBottom();
+    }
   }, [messages]);
 
   // Fermer le menu header quand on clique à l'extérieur
@@ -306,7 +311,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               <div style={{
                 display: "flex",
                 gap: "0.5rem",
-                marginBottom: "0.75rem",
+                marginBottom: "1.25rem",
                 position: "relative"
               }}>
                 {/* Bouton Réflexion approfondie */}
