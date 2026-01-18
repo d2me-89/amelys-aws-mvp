@@ -250,7 +250,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                   color: "#fff",
                   margin: 0
                 }}>
-                  Chapitre 1 : Les nombres entiers et décimaux
+                  Chapitre 1. Les nombres entiers et décimaux - Cours interactif
                 </h2>
                 <p style={{
                   fontSize: "1rem",
@@ -327,11 +327,12 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             borderTop: "1px solid rgba(255,255,255,0.1)",
-            padding: "0.25rem 1.5rem",
+            padding: "0.75rem 1.5rem",
             background: "var(--background)",
           }}>
             <div style={{
               maxWidth: "800px",
+              maxHeight: "150px"
               margin: "0 auto",
               position: "relative"
             }}>
