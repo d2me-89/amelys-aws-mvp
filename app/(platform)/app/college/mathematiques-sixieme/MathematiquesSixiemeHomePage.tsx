@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import AppLayout from "@/app/components/AppLayout";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import { LuPlay, LuBrain, LuSparkles, LuCalculator, LuChevronDown, LuChevronUp, LuCircleHelp, LuSchool, LuBookOpen, LuUsers, LuTarget, LuClipboardCheck, LuMessageSquare, LuChevronRight } from "react-icons/lu";
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 import faqCoursInteractifRaw from "@/app/documents/faq/faq-cours-interactif.json";
@@ -39,6 +39,34 @@ export default function MathematiquesSixiemeHomePage() {
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
   const [openCompetences, setOpenCompetences] = useState<Record<string, boolean>>({});
   const [openFAQMenus, setOpenFAQMenus] = useState<Record<string, boolean>>({});
+  
+  // Ref pour détecter les clics en dehors des menus compétences
+  const competencesRefs = useRef<Record<string, HTMLDivElement | null>>({});
+
+  // Effet pour fermer les menus quand on clique à l'extérieur
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      // Pour chaque menu ouvert, vérifier si le clic est à l'extérieur
+      Object.keys(openCompetences).forEach((chapitreId) => {
+        if (openCompetences[chapitreId] && competencesRefs.current[chapitreId]) {
+          const menuElement = competencesRefs.current[chapitreId];
+          if (menuElement && !menuElement.contains(event.target as Node)) {
+            setOpenCompetences(prev => ({ ...prev, [chapitreId]: false }));
+          }
+        }
+      });
+    };
+
+    // Ajouter l'écouteur si au moins un menu est ouvert
+    const hasOpenMenu = Object.values(openCompetences).some(isOpen => isOpen);
+    if (hasOpenMenu) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [openCompetences]);
 
   // Extraire les données des chapitres du JSON
   const chapitres = useMemo(() => {
@@ -167,7 +195,7 @@ export default function MathematiquesSixiemeHomePage() {
         }}>
           {/* Bouton principal */}
           <Link
-            href="/app/college/mathematiques-sixieme/chapitre1-cours"
+            href="/app/college/mathematiques-sixieme/premier-cours"
             style={{
               textDecoration: "none",
               display: "block"
@@ -697,7 +725,10 @@ export default function MathematiquesSixiemeHomePage() {
                 </Link>
 
                 {/* 3. Compétences clés (avec sous-menu déroulant) */}
-                <div style={{ marginBottom: "0.4rem", position: "relative" }}>
+                <div 
+                  ref={(el) => (competencesRefs.current[chapitre.id] = el)}
+                  style={{ marginBottom: "0.4rem", position: "relative" }}
+                >
                   <div
                     onClick={() => toggleCompetences(chapitre.id)}
                     style={{
