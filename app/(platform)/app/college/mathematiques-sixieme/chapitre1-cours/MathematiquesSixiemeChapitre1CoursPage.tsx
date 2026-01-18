@@ -43,10 +43,13 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   // Scroll vers le dernier message utilisateur quand il est ajouté
   useEffect(() => {
     if (lastUserMessageRef.current) {
-      lastUserMessageRef.current.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
+      // Petit délai pour laisser le DOM se mettre à jour avec le minHeight
+      setTimeout(() => {
+        lastUserMessageRef.current?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }, 50);
     }
   }, [messages]);
 
@@ -91,15 +94,13 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     // Simuler une réponse de l'assistant
     setIsTyping(true);
     
-    // Retirer le minHeight du message utilisateur dès que l'IA commence à répondre
+    // Retirer le minHeight du message utilisateur quand l'IA répond
     setTimeout(() => {
       setMessages(prev => prev.map(msg => ({
         ...msg,
         isLatestUser: false
       })));
-    }, 100);
-    
-    setTimeout(() => {
+      
       setIsTyping(false);
       setMessages(prev => [...prev, { 
         id: Date.now(),
@@ -216,15 +217,17 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </div>
           </header>
 
-          {/* Zone de messages avec scroll */}
+          {          /* Zone de messages avec scroll */}
           <div 
             ref={chatContainerRef}
             style={{
               flex: 1,
               overflowY: "auto",
+              overflowX: "hidden",
               display: "flex",
               justifyContent: "center",
-              padding: "2rem 1rem"
+              padding: "2rem 1rem",
+              scrollBehavior: "smooth"
             }}>
             <div style={{
               width: "100%",
