@@ -306,7 +306,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               <div style={{
                 display: "flex",
                 gap: "0.5rem",
-                marginBottom: "0.075rem",
+                marginBottom: "0.5rem",
                 position: "relative"
               }}>
                 {/* Bouton Réflexion approfondie */}
@@ -332,7 +332,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                   ? "1px solid #9F7AEA"
                   : "1px solid rgba(255,255,255,0.15)",
                 borderRadius: "12px",
-                padding: "0.5rem 0.75rem",
+                padding: "0.75rem 0.75rem",
                 boxShadow: isInputFocused 
                   ? "0 0 0 3px rgba(159, 122, 234, 0.2)"
                   : "none",
