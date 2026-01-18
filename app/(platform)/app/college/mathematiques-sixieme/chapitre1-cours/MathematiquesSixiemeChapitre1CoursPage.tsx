@@ -327,7 +327,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             borderTop: "1px solid rgba(255,255,255,0.1)",
-            padding: "1.75rem 1.5rem",
+            padding: "1.70rem 1.5rem",
             background: "var(--background)",
           }}>
             <div style={{
@@ -417,7 +417,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           </div>
         </div>
 
-        {/* Barre latérale droite (Artifacts) }
+        {/* Barre latérale droite (Artifacts) */}
         {isSidebarOpen && (
           <div style={{
             width: "400px",
