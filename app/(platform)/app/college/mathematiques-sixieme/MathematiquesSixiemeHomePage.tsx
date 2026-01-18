@@ -726,7 +726,7 @@ export default function MathematiquesSixiemeHomePage() {
 
                 {/* 3. Compétences clés (avec sous-menu déroulant) */}
                 <div 
-                  ref={(el) => (competencesRefs.current[chapitre.id] = el)}
+                  ref={(el) => { competencesRefs.current[chapitre.id] = el; }}
                   style={{ marginBottom: "0.4rem", position: "relative" }}
                 >
                   <div
@@ -1025,4 +1025,4 @@ function FAQMenuItem({ id, icon, data, isOpen, onToggle }: FAQMenuItemProps) {
       )}
     </div>
   );
-}
+}}
