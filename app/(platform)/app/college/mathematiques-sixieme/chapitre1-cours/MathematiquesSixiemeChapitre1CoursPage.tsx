@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import AppLayout from "@/app/components/AppLayout";
 import { 
   LuSend, 
@@ -35,10 +35,16 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
   const scrollToLastMessage = () => {
-    lastMessageRef.current?.scrollIntoView({ 
-      behavior: "smooth",
-      block: "start" // Aligne le dernier message en haut de la zone visible
-    });
+    if (lastMessageRef.current) {
+      // Petite temporisation pour s'assurer que le DOM est à jour
+      setTimeout(() => {
+        lastMessageRef.current?.scrollIntoView({ 
+          behavior: "smooth",
+          block: "start",
+          inline: "nearest"
+        });
+      }, 50);
+    }
   };
 
   useEffect(() => {
@@ -239,12 +245,11 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             ) : (
               <>
                 {messages.map((msg, idx) => (
-                  <div 
-                    key={idx}
+                  <MessageBubble 
+                    key={idx} 
+                    message={msg}
                     ref={idx === messages.length - 1 ? lastMessageRef : null}
-                  >
-                    <MessageBubble message={msg} />
-                  </div>
+                  />
                 ))}
                 
                 {isTyping && (
@@ -426,18 +431,20 @@ interface MessageBubbleProps {
   message: { role: 'user' | 'assistant', content: string };
 }
 
-function MessageBubble({ message }: MessageBubbleProps) {
-  const isUser = message.role === 'user';
-  const [showActions, setShowActions] = useState(false);
+const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
+  ({ message }, ref) => {
+    const isUser = message.role === 'user';
+    const [showActions, setShowActions] = useState(false);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(message.content);
-  };
+    const handleCopy = () => {
+      navigator.clipboard.writeText(message.content);
+    };
 
-  return (
-    <div
-      onMouseEnter={() => setShowActions(true)}
-      onMouseLeave={() => setShowActions(false)}
+    return (
+      <div
+        ref={ref}
+        onMouseEnter={() => setShowActions(true)}
+        onMouseLeave={() => setShowActions(false)}
       style={{
         display: "flex",
         gap: "1rem",
@@ -502,7 +509,9 @@ function MessageBubble({ message }: MessageBubbleProps) {
       </div>
     </div>
   );
-}
+});
+
+MessageBubble.displayName = 'MessageBubble';
 
 // Composant ActionButton
 function ActionButton({ icon, onClick }: { icon: React.ReactNode; onClick?: () => void }) {
