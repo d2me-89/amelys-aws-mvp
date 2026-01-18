@@ -383,7 +383,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     fontSize: "1.125rem",
                     resize: "none",
                     outline: "none",
-                    minHeight: "24px",
+                    minHeight: "48px",
                     maxHeight: "150px",
                     fontFamily: "inherit",
                     lineHeight: "1.5"
