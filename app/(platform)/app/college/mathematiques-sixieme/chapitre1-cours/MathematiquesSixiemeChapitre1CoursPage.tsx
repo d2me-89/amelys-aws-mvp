@@ -17,7 +17,6 @@ import {
   LuStar,
   LuCheck,
   LuRefreshCw,
-  LuPanelRight,
   LuCopy,
   LuThumbsUp,
   LuThumbsDown,
@@ -30,7 +29,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
@@ -92,10 +90,9 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       }}>
         {/* Zone principale de conversation */}
         <div style={{ 
-          flex: isSidebarOpen ? "1" : "1",
+          flex: 1,
           display: "flex",
-          flexDirection: "column",
-          transition: "all 0.3s ease"
+          flexDirection: "column"
         }}>
           {/* Header fixe */}
           <header style={{
@@ -114,7 +111,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             >
               <h1 style={{
                 fontSize: "1.125rem",
-                fontWeight: 300,
+                fontWeight: 600,
                 margin: 0,
                 color: "#fff"
               }}>
@@ -183,35 +180,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 </div>
               )}
             </div>
-
-            {/* Droite : Bouton sidebar */}
-            <button
-              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                padding: "0.5rem 1rem",
-                background: "transparent",
-                border: "1px solid rgba(255,255,255,0.2)",
-                borderRadius: "8px",
-                color: "#fff",
-                fontSize: "0.85rem",
-                cursor: "pointer",
-                transition: "all 0.2s ease"
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                e.currentTarget.style.borderColor = "rgba(255,255,255,0.3)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.background = "transparent";
-                e.currentTarget.style.borderColor = "rgba(255,255,255,0.2)";
-              }}
-            >
-              <LuPanelRight size={18} />
-              {isSidebarOpen ? "Fermer" : "Ouvrir"} la barre latérale
-            </button>
           </header>
 
           {/* Zone de messages */}
@@ -250,7 +218,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                   color: "#fff",
                   margin: 0
                 }}>
-                  Chapitre 1. Les nombres entiers et décimaux - Cours interactif
+                  Chapitre 1 : Les nombres entiers et décimaux
                 </h2>
                 <p style={{
                   fontSize: "1rem",
@@ -327,8 +295,8 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             borderTop: "1px solid rgba(255,255,255,0.1)",
-            padding: "0.75rem 1.5rem",
-            background: "var(--background)",
+            padding: "0.125rem 1.5rem",
+            background: "var(--background)"
           }}>
             <div style={{
               maxWidth: "800px",
@@ -339,7 +307,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               <div style={{
                 display: "flex",
                 gap: "0.5rem",
-                marginBottom: "0.5rem",
+                marginBottom: "0.075rem",
                 position: "relative"
               }}>
                 {/* Bouton Réflexion approfondie */}
@@ -363,7 +331,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 background: "rgba(255,255,255,0.05)",
                 border: "1px solid rgba(255,255,255,0.15)",
                 borderRadius: "12px",
-                padding: "0.75rem 1rem"
+                padding: "0.2rem 1rem"
               }}>
                 <textarea
                   value={inputValue}
@@ -383,7 +351,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     fontSize: "1.125rem",
                     resize: "none",
                     outline: "none",
-                    minHeight: "36px",
+                    minHeight: "24px",
                     maxHeight: "150px",
                     fontFamily: "inherit",
                     lineHeight: "1.5"
@@ -416,34 +384,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </div>
           </div>
         </div>
-
-        {/* Barre latérale droite (Artifacts) */}
-        {isSidebarOpen && (
-          <div style={{
-            width: "400px",
-            borderLeft: "1px solid rgba(255,255,255,0.1)",
-            background: "rgba(0,0,0,0.2)",
-            padding: "1.5rem",
-            overflowY: "auto"
-          }}>
-            <h3 style={{
-              fontSize: "1rem",
-              fontWeight: 600,
-              color: "#fff",
-              marginBottom: "1rem"
-            }}>
-              Artifacts
-            </h3>
-            <p style={{
-              fontSize: "0.9rem",
-              color: "rgba(255,255,255,0.6)",
-              lineHeight: "1.6"
-            }}>
-              Les contenus générés apparaîtront ici...
-            </p>
-          </div>
-        )}
-      </div>*/
+      </div>
 
       {/* Animation typing dots */}
       <style jsx global>{`
