@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import AppLayout from "@/app/components/AppLayout";
 import { 
   LuSend, 
@@ -25,23 +25,33 @@ import {
 } from "react-icons/lu";
 
 export default function MathematiquesSixiemeChapitre1CoursPage() {
-  const [messages, setMessages] = useState<Array<{role: 'user' | 'assistant', content: string}>>([]);
+  const [messages, setMessages] = useState<Array<{id: number, role: 'user' | 'assistant', content: string}>>([]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
+  const [shouldScrollToUser, setShouldScrollToUser] = useState(false);
+  
   const headerMenuRef = useRef<HTMLDivElement>(null);
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const userMessageRefs = useRef<Map<number, HTMLDivElement>>(new Map());
+  const lastUserMessageId = useRef<number | null>(null);
 
-  // Scroll en haut à chaque nouveau message utilisateur
-  const scrollToTop = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+  // Scroll pour placer le message utilisateur en haut de la vue
+  useEffect(() => {
+    if (shouldScrollToUser && lastUserMessageId.current !== null) {
+      const messageElement = userMessageRefs.current.get(lastUserMessageId.current);
+      if (messageElement) {
+        // Délai pour laisser le DOM se mettre à jour
+        requestAnimationFrame(() => {
+          messageElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        });
+      }
+      setShouldScrollToUser(false);
     }
-  };
+  }, [shouldScrollToUser, messages]);
 
   // Fermer le menu header quand on clique à l'extérieur
   useEffect(() => {
@@ -60,27 +70,42 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     };
   }, [showHeaderMenu]);
 
+  // Callback pour stocker les refs des messages
+  const setMessageRef = useCallback((id: number, element: HTMLDivElement | null) => {
+    if (element) {
+      userMessageRefs.current.set(id, element);
+    } else {
+      userMessageRefs.current.delete(id);
+    }
+  }, []);
+
   const handleSend = () => {
     if (!inputValue.trim()) return;
     
     const userMessage = inputValue;
+    const messageId = Date.now();
     setInputValue("");
     
-    // Ajouter le message AU DÉBUT du tableau (pas à la fin)
-    setMessages(prev => [{ role: 'user', content: userMessage }, ...prev]);
+    // Stocker l'ID du message pour le scroll
+    lastUserMessageId.current = messageId;
     
-    // Scroll en haut après ajout
-    setTimeout(() => scrollToTop(), 50);
+    // Ajouter le message utilisateur
+    setMessages(prev => [...prev, { id: messageId, role: 'user', content: userMessage }]);
+    
+    // Déclencher le scroll APRÈS que le message soit ajouté
+    setTimeout(() => {
+      setShouldScrollToUser(true);
+    }, 10);
     
     // Simuler une réponse de l'assistant
     setIsTyping(true);
     setTimeout(() => {
       setIsTyping(false);
-      // Réponse aussi AU DÉBUT
-      setMessages(prev => [{ 
+      setMessages(prev => [...prev, { 
+        id: Date.now(),
         role: 'assistant', 
         content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?" 
-      }, ...prev]);
+      }]);
     }, 1500);
   };
 
@@ -191,9 +216,8 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </div>
           </header>
 
-          {/* Zone de messages */}
+          {/* Zone de messages avec scroll */}
           <div 
-            ref={scrollContainerRef}
             style={{
               flex: 1,
               overflowY: "auto",
@@ -243,7 +267,16 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               </div>
             ) : (
               <>
-                {/* Indicateur de frappe EN HAUT */}
+                {/* Messages dans l'ordre chronologique (haut = ancien, bas = récent) */}
+                {messages.map((msg) => (
+                  <MessageBubble 
+                    key={msg.id} 
+                    message={msg}
+                    ref={msg.role === 'user' ? (el) => setMessageRef(msg.id, el) : undefined}
+                  />
+                ))}
+                
+                {/* Indicateur de frappe */}
                 {isTyping && (
                   <div style={{
                     display: "flex",
@@ -294,14 +327,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     </div>
                   </div>
                 )}
-                
-                {/* Messages : le plus récent est en index 0, donc affiché en premier (en haut) */}
-                {messages.map((msg, idx) => (
-                  <MessageBubble 
-                    key={idx} 
-                    message={msg}
-                  />
-                ))}
               </>
             )}
             </div>
@@ -325,10 +350,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 marginBottom: "1.25rem",
                 position: "relative"
               }}>
-                {/* Bouton Réflexion approfondie */}
                 <ToolButton icon={<LuBrain size={18} />} tooltip="Réflexion approfondie" />
-
-                {/* Boutons d'actions - 7 icônes alignées */}
                 <ToolButton icon={<LuPaperclip size={18} />} tooltip="Ajouter fichiers" />
                 <ToolButton icon={<LuCamera size={18} />} tooltip="Ajouter photos" />
                 <ToolButton icon={<LuFolderPlus size={18} />} tooltip="Ajouter au Projet" />
@@ -428,7 +450,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
 
 // Composant MessageBubble
 interface MessageBubbleProps {
-  message: { role: 'user' | 'assistant', content: string };
+  message: { id: number, role: 'user' | 'assistant', content: string };
 }
 
 const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
@@ -451,7 +473,8 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
           maxWidth: "800px",
           marginLeft: isUser ? "auto" : "0",
           flexDirection: isUser ? "row-reverse" : "row",
-          position: "relative"
+          position: "relative",
+          scrollMarginTop: "20px" // Espace en haut lors du scroll
         }}
       >
         {/* Avatar */}
