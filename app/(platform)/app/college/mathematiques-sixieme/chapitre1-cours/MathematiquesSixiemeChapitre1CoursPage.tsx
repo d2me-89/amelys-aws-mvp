@@ -36,21 +36,32 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
   const scrollToLastMessage = () => {
+    // Double vérification avec logs
+    console.log('Scroll déclenché');
+    
     setTimeout(() => {
-      if (lastMessageRef.current && scrollContainerRef.current) {
+      if (scrollContainerRef.current && lastMessageRef.current) {
         const container = scrollContainerRef.current;
         const message = lastMessageRef.current;
         
-        // Calculer la position du message par rapport au conteneur
-        const messageTop = message.offsetTop;
+        console.log('Container:', container);
+        console.log('Message:', message);
         
-        // Scroll pour placer le message à 80px du haut (comme Claude)
-        container.scrollTo({
-          top: messageTop - 80,
-          behavior: 'smooth'
+        // Position absolue du message
+        const messageTop = message.offsetTop;
+        console.log('Message top:', messageTop);
+        
+        // SCROLL DIRECT - le message à 80px du haut
+        container.scrollTop = messageTop - 80;
+        
+        console.log('Scroll effectué vers:', messageTop - 80);
+      } else {
+        console.log('Refs manquantes:', {
+          container: !!scrollContainerRef.current,
+          message: !!lastMessageRef.current
         });
       }
-    }, 50);
+    }, 150);
   };
 
   useEffect(() => {
@@ -82,6 +93,11 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     // Ajouter le message utilisateur
     setMessages(prev => [...prev, { role: 'user', content: inputValue }]);
     setInputValue("");
+    
+    // FORCER le scroll immédiatement
+    setTimeout(() => {
+      scrollToLastMessage();
+    }, 100);
     
     // Simuler une réponse de l'assistant
     setIsTyping(true);
