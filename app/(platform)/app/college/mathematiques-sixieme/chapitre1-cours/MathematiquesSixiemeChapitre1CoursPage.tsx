@@ -294,7 +294,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     </div>
                   </div>
                 )}
-                <div ref={messagesEndRef} />
               </>
             )}
             </div>
