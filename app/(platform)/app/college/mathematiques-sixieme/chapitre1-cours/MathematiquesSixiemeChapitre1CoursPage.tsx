@@ -332,7 +332,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           }}>
             <div style={{
               maxWidth: "800px",
-              maxHeight: "150px"
               margin: "0 auto",
               position: "relative"
             }}>
