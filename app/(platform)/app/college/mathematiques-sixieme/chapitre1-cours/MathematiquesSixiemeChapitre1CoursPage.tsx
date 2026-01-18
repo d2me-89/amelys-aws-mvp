@@ -31,7 +31,18 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const lastUserMessageRef = useRef<HTMLDivElement>(null);
   const headerMenuRef = useRef<HTMLDivElement>(null);
+
+  // Scroller vers le dernier message utilisateur dès qu'il est ajouté
+  useEffect(() => {
+    if (lastUserMessageRef.current) {
+      lastUserMessageRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  }, [messages]);
 
   // Fermer le menu header quand on clique à l'extérieur
   useEffect(() => {
@@ -237,12 +248,21 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               </div>
             ) : (
               <>
-                {messages.map((msg, idx) => (
-                  <MessageBubble 
-                    key={idx} 
-                    message={msg}
-                  />
-                ))}
+                {messages.map((msg, idx) => {
+                  // Le dernier message utilisateur reçoit la ref
+                  const isLastUserMessage = msg.role === 'user' && 
+                    idx === messages.map((m, i) => ({ msg: m, idx: i }))
+                      .filter(item => item.msg.role === 'user')
+                      .pop()?.idx;
+                  
+                  return (
+                    <MessageBubble 
+                      key={idx} 
+                      message={msg}
+                      ref={isLastUserMessage ? lastUserMessageRef : null}
+                    />
+                  );
+                })}
                 
                 {isTyping && (
                   <div style={{
