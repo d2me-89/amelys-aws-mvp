@@ -195,7 +195,7 @@ export default function MathematiquesSixiemeHomePage() {
         }}>
           {/* Bouton principal */}
           <Link
-            href="/app/college/mathematiques-sixieme/premier-cours"
+            href="/app/college/mathematiques-sixieme/chapitre1-cours"
             style={{
               textDecoration: "none",
               display: "block"

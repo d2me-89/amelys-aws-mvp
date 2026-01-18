@@ -327,7 +327,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             borderTop: "1px solid rgba(255,255,255,0.1)",
-            padding: "0.25rem 1.5rem",
+            padding: "0.75rem 1.5rem",
             background: "var(--background)"
           }}>
             <div style={{
@@ -339,7 +339,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               <div style={{
                 display: "flex",
                 gap: "0.5rem",
-                marginBottom: "0.15rem",
+                marginBottom: "0.5rem",
                 position: "relative"
               }}>
                 {/* Bouton Réflexion approfondie */}
@@ -363,7 +363,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 background: "rgba(255,255,255,0.05)",
                 border: "1px solid rgba(255,255,255,0.15)",
                 borderRadius: "12px",
-                padding: "0.4rem 1rem"
+                padding: "0.75rem 1rem"
               }}>
                 <textarea
                   value={inputValue}
