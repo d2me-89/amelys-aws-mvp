@@ -29,6 +29,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
+  const [isInputFocused, setIsInputFocused] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
@@ -97,7 +98,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Header fixe */}
           <header style={{
             height: "60px",
-            borderBottom: "1px solid rgba(255,255,255,0.1)",
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
@@ -294,7 +294,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
 
           {/* Input en bas */}
           <div style={{
-            borderTop: "1px solid rgba(255,255,255,0.1)",
             padding: "0.125rem 1.5rem",
             background: "var(--background)"
           }}>
@@ -329,13 +328,21 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 gap: "0.75rem",
                 alignItems: "flex-end",
                 background: "rgba(255,255,255,0.05)",
-                border: "1px solid rgba(255,255,255,0.15)",
+                border: isInputFocused 
+                  ? "1px solid #9F7AEA"
+                  : "1px solid rgba(255,255,255,0.15)",
                 borderRadius: "12px",
-                padding: "0.2rem 1rem"
+                padding: "0.5rem 0.75rem",
+                boxShadow: isInputFocused 
+                  ? "0 0 0 3px rgba(159, 122, 234, 0.2)"
+                  : "none",
+                transition: "all 0.2s ease"
               }}>
                 <textarea
                   value={inputValue}
                   onChange={(e) => setInputValue(e.target.value)}
+                  onFocus={() => setIsInputFocused(true)}
+                  onBlur={() => setIsInputFocused(false)}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' && !e.shiftKey) {
                       e.preventDefault();
@@ -351,7 +358,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     fontSize: "1.125rem",
                     resize: "none",
                     outline: "none",
-                    minHeight: "24px",
+                    minHeight: "20px",
                     maxHeight: "150px",
                     fontFamily: "inherit",
                     lineHeight: "1.5"
