@@ -327,7 +327,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             borderTop: "1px solid rgba(255,255,255,0.1)",
-            padding: "0.75rem 1.5rem",
+            padding: "1.75rem 1.5rem",
             background: "var(--background)",
           }}>
             <div style={{
@@ -417,7 +417,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           </div>
         </div>
 
-        {/* Barre latérale droite (Artifacts) */}
+        {/* Barre latérale droite (Artifacts) }
         {isSidebarOpen && (
           <div style={{
             width: "400px",
@@ -430,7 +430,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               fontSize: "1rem",
               fontWeight: 600,
               color: "#fff",
-              marginBottom: "0.2rem"
+              marginBottom: "1rem"
             }}>
               Artifacts
             </h3>
@@ -443,7 +443,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </p>
           </div>
         )}
-      </div>
+      </div>*/
 
       {/* Animation typing dots */}
       <style jsx global>{`
