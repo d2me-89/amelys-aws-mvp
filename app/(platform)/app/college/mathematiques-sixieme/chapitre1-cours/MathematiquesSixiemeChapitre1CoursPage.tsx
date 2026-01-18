@@ -32,23 +32,25 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [isInputFocused, setIsInputFocused] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const lastMessageRef = useRef<HTMLDivElement>(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
   const scrollToLastMessage = () => {
-    if (lastMessageRef.current) {
-      setTimeout(() => {
-        const messageElement = lastMessageRef.current;
-        const scrollContainer = messageElement?.closest('[style*="overflowY"]') as HTMLElement;
+    setTimeout(() => {
+      if (lastMessageRef.current && scrollContainerRef.current) {
+        const container = scrollContainerRef.current;
+        const message = lastMessageRef.current;
         
-        if (messageElement && scrollContainer) {
-          const offsetTop = messageElement.offsetTop;
-          scrollContainer.scrollTo({
-            top: offsetTop - 80, // 80px de marge en haut pour bien voir le message
-            behavior: 'smooth'
-          });
-        }
-      }, 100);
-    }
+        // Calculer la position du message par rapport au conteneur
+        const messageTop = message.offsetTop;
+        
+        // Scroll pour placer le message à 80px du haut (comme Claude)
+        container.scrollTo({
+          top: messageTop - 80,
+          behavior: 'smooth'
+        });
+      }
+    }, 50);
   };
 
   useEffect(() => {
@@ -199,13 +201,15 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           </header>
 
           {/* Zone de messages */}
-          <div style={{
-            flex: 1,
-            overflowY: "auto",
-            display: "flex",
-            justifyContent: "center",
-            padding: "2rem 1rem"
-          }}>
+          <div 
+            ref={scrollContainerRef}
+            style={{
+              flex: 1,
+              overflowY: "auto",
+              display: "flex",
+              justifyContent: "center",
+              padding: "2rem 1rem"
+            }}>
             <div style={{
               width: "100%",
               maxWidth: "800px",
