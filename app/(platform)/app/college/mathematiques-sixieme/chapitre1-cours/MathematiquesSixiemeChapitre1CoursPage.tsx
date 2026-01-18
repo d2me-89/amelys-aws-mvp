@@ -285,7 +285,8 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     display: "flex",
                     gap: "1rem",
                     maxWidth: "800px",
-                    minHeight: "calc(100vh - 250px)"
+                    minHeight: "calc(100vh - 250px)",
+                    alignItems: "flex-start" // Aligner en haut
                   }}>
                     <div style={{
                       width: "32px",
