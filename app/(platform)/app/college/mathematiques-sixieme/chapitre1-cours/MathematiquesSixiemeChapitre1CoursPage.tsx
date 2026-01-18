@@ -36,32 +36,12 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
   const scrollToLastMessage = () => {
-    // Double vérification avec logs
-    console.log('Scroll déclenché');
-    
     setTimeout(() => {
-      if (scrollContainerRef.current && lastMessageRef.current) {
-        const container = scrollContainerRef.current;
-        const message = lastMessageRef.current;
-        
-        console.log('Container:', container);
-        console.log('Message:', message);
-        
-        // Position absolue du message
-        const messageTop = message.offsetTop;
-        console.log('Message top:', messageTop);
-        
-        // SCROLL DIRECT - le message à 80px du haut
-        container.scrollTop = messageTop - 80;
-        
-        console.log('Scroll effectué vers:', messageTop - 80);
-      } else {
-        console.log('Refs manquantes:', {
-          container: !!scrollContainerRef.current,
-          message: !!lastMessageRef.current
-        });
-      }
-    }, 150);
+      lastMessageRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }, 100);
   };
 
   useEffect(() => {
@@ -268,13 +248,14 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               </div>
             ) : (
               <>
-                {messages.map((msg, idx) => (
-                  <MessageBubble 
-                    key={idx} 
-                    message={msg}
-                    ref={idx === messages.length - 1 ? lastMessageRef : null}
-                  />
-                ))}
+                {messages.map((msg, idx) => {
+                  const isLast = idx === messages.length - 1;
+                  return (
+                    <div key={idx} ref={isLast ? lastMessageRef : null}>
+                      <MessageBubble message={msg} />
+                    </div>
+                  );
+                })}
                 
                 {isTyping && (
                   <div style={{
