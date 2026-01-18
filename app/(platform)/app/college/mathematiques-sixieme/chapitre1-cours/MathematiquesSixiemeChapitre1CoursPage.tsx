@@ -90,6 +90,15 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     
     // Simuler une réponse de l'assistant
     setIsTyping(true);
+    
+    // Retirer le minHeight du message utilisateur dès que l'IA commence à répondre
+    setTimeout(() => {
+      setMessages(prev => prev.map(msg => ({
+        ...msg,
+        isLatestUser: false
+      })));
+    }, 100);
+    
     setTimeout(() => {
       setIsTyping(false);
       setMessages(prev => [...prev, { 
