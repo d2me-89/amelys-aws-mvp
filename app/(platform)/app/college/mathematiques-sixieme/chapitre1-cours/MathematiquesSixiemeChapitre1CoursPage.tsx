@@ -327,8 +327,11 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             borderTop: "1px solid rgba(255,255,255,0.1)",
-            padding: "1.5rem 1.5rem",
-            background: "var(--background)"
+            padding: "0.75rem 1.5rem",
+            background: "var(--background)",
+            position: "sticky",
+            bottom: 0,
+            zIndex: 20
           }}>
             <div style={{
               maxWidth: "800px",
