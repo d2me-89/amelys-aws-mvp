@@ -29,7 +29,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     id: number, 
     role: 'user' | 'assistant', 
     content: string,
-    isLatestAssistant?: boolean // Pour suivre le dernier message assistant
+    isLatestAssistant?: boolean
   }>>([]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -39,6 +39,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const headerMenuRef = useRef<HTMLDivElement>(null);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const lastUserMessageRef = useRef<HTMLDivElement>(null);
+  const lastAssistantMessageRef = useRef<HTMLDivElement>(null);
 
   // Scroll vers le dernier message utilisateur quand il est ajouté
   useEffect(() => {
@@ -49,6 +50,18 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           block: 'start'
         });
       }, 50);
+    }
+  }, [messages]);
+
+  // Scroll vers le message de l'IA quand il apparaît
+  useEffect(() => {
+    if (lastAssistantMessageRef.current) {
+      setTimeout(() => {
+        lastAssistantMessageRef.current?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'end'
+        });
+      }, 100);
     }
   }, [messages]);
 
@@ -98,7 +111,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
         id: Date.now(),
         role: 'assistant', 
         content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?",
-        isLatestAssistant: true // Le dernier message assistant aura le minHeight
+        isLatestAssistant: true
       }]);
     }, 1500);
   };
@@ -210,7 +223,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </div>
           </header>
 
-          {          /* Zone de messages avec scroll */}
+          {/* Zone de messages avec scroll */}
           <div 
             ref={chatContainerRef}
             style={{
@@ -268,12 +281,14 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 {messages.map((msg, index) => {
                   const isLastUserMessage = msg.role === 'user' && 
                     index === messages.findLastIndex(m => m.role === 'user');
+                  const isLastAssistantMessage = msg.role === 'assistant' && 
+                    index === messages.findLastIndex(m => m.role === 'assistant');
                   
                   return (
                     <MessageBubble 
                       key={msg.id} 
                       message={msg}
-                      ref={isLastUserMessage ? lastUserMessageRef : undefined}
+                      ref={isLastUserMessage ? lastUserMessageRef : (isLastAssistantMessage ? lastAssistantMessageRef : undefined)}
                       isLatestAssistant={msg.isLatestAssistant}
                     />
                   );
@@ -286,7 +301,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     gap: "1rem",
                     maxWidth: "800px",
                     minHeight: "calc(100vh - 250px)",
-                    alignItems: "flex-start" // Aligner en haut
+                    alignItems: "flex-start"
                   }}>
                     <div style={{
                       width: "32px",
@@ -486,8 +501,8 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
           flexDirection: isUser ? "row-reverse" : "row",
           position: "relative",
           scrollMarginTop: "20px",
-          // TECHNIQUE CLÉ : minHeight sur le dernier message ASSISTANT
-          minHeight: message.isLatestAssistant ? "calc(100vh - 250px)" : "auto"
+          minHeight: message.isLatestAssistant ? "calc(100vh - 250px)" : "auto",
+          alignItems: "flex-start"
         }}
       >
         {/* Avatar */}
