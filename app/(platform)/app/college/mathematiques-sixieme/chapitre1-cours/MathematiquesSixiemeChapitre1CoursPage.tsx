@@ -683,9 +683,19 @@ function MessageBubble({ message }: MessageBubbleProps) {
       </div>
     </div>
   );
+}            <ActionButton icon={<LuCopy size={14} />} />
+            <ActionButton icon={<LuRefreshCw size={14} />} />
+            <ActionButton icon={<LuThumbsUp size={14} />} />
+            <ActionButton icon={<LuThumbsDown size={14} />} />
+            <ActionButton icon={<LuEllipsis size={14} />} />
+          </div>
+        )}
+      </div>
+    </div>
+  );
 }
 
-// Composant ActionButton pour les actions au hover
+// Composant ActionButton
 function ActionButton({ icon }: { icon: React.ReactNode }) {
   return (
     <button style={{
