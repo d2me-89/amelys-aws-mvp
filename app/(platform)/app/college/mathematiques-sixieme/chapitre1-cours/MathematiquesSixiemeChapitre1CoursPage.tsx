@@ -30,28 +30,45 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [isTyping, setIsTyping] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
-  const [shouldScrollToUser, setShouldScrollToUser] = useState(false);
   
   const headerMenuRef = useRef<HTMLDivElement>(null);
-  const userMessageRefs = useRef<Map<number, HTMLDivElement>>(new Map());
-  const lastUserMessageId = useRef<number | null>(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const messageRefsMap = useRef<Map<number, HTMLDivElement>>(new Map());
+  const pendingScrollToId = useRef<number | null>(null);
 
-  // Scroll pour placer le message utilisateur en haut de la vue
-  useEffect(() => {
-    if (shouldScrollToUser && lastUserMessageId.current !== null) {
-      const messageElement = userMessageRefs.current.get(lastUserMessageId.current);
-      if (messageElement) {
-        // Délai pour laisser le DOM se mettre à jour
-        requestAnimationFrame(() => {
-          messageElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-        });
-      }
-      setShouldScrollToUser(false);
+  // Fonction de scroll qui place le message en haut de la zone visible
+  const scrollToMessage = useCallback((messageId: number) => {
+    const container = scrollContainerRef.current;
+    const messageEl = messageRefsMap.current.get(messageId);
+    
+    if (container && messageEl) {
+      // Calculer la position du message par rapport au conteneur
+      const containerRect = container.getBoundingClientRect();
+      const messageRect = messageEl.getBoundingClientRect();
+      
+      // Position actuelle du scroll + position relative du message - petit offset
+      const scrollTarget = container.scrollTop + (messageRect.top - containerRect.top) - 20;
+      
+      container.scrollTo({
+        top: scrollTarget,
+        behavior: 'smooth'
+      });
     }
-  }, [shouldScrollToUser, messages]);
+  }, []);
+
+  // Effet pour scroller après le rendu du nouveau message
+  useEffect(() => {
+    if (pendingScrollToId.current !== null) {
+      // Attendre que le DOM soit mis à jour
+      const timeoutId = setTimeout(() => {
+        if (pendingScrollToId.current !== null) {
+          scrollToMessage(pendingScrollToId.current);
+          pendingScrollToId.current = null;
+        }
+      }, 50);
+      return () => clearTimeout(timeoutId);
+    }
+  }, [messages, scrollToMessage]);
 
   // Fermer le menu header quand on clique à l'extérieur
   useEffect(() => {
@@ -70,12 +87,12 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     };
   }, [showHeaderMenu]);
 
-  // Callback pour stocker les refs des messages
-  const setMessageRef = useCallback((id: number, element: HTMLDivElement | null) => {
+  // Callback pour enregistrer les refs des messages
+  const registerMessageRef = useCallback((id: number, element: HTMLDivElement | null) => {
     if (element) {
-      userMessageRefs.current.set(id, element);
+      messageRefsMap.current.set(id, element);
     } else {
-      userMessageRefs.current.delete(id);
+      messageRefsMap.current.delete(id);
     }
   }, []);
 
@@ -86,16 +103,11 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     const messageId = Date.now();
     setInputValue("");
     
-    // Stocker l'ID du message pour le scroll
-    lastUserMessageId.current = messageId;
+    // Marquer ce message pour le scroll
+    pendingScrollToId.current = messageId;
     
     // Ajouter le message utilisateur
     setMessages(prev => [...prev, { id: messageId, role: 'user', content: userMessage }]);
-    
-    // Déclencher le scroll APRÈS que le message soit ajouté
-    setTimeout(() => {
-      setShouldScrollToUser(true);
-    }, 10);
     
     // Simuler une réponse de l'assistant
     setIsTyping(true);
@@ -216,8 +228,9 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </div>
           </header>
 
-          {/* Zone de messages avec scroll */}
+          {/* Zone de messages avec scroll - REF ICI */}
           <div 
+            ref={scrollContainerRef}
             style={{
               flex: 1,
               overflowY: "auto",
@@ -267,12 +280,12 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               </div>
             ) : (
               <>
-                {/* Messages dans l'ordre chronologique (haut = ancien, bas = récent) */}
+                {/* Messages dans l'ordre chronologique */}
                 {messages.map((msg) => (
                   <MessageBubble 
                     key={msg.id} 
                     message={msg}
-                    ref={msg.role === 'user' ? (el) => setMessageRef(msg.id, el) : undefined}
+                    onRef={(el) => registerMessageRef(msg.id, el)}
                   />
                 ))}
                 
@@ -448,94 +461,103 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   );
 }
 
-// Composant MessageBubble
+// Composant MessageBubble - utilise onRef au lieu de forwardRef
 interface MessageBubbleProps {
   message: { id: number, role: 'user' | 'assistant', content: string };
+  onRef?: (el: HTMLDivElement | null) => void;
 }
 
-const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
-  ({ message }, ref) => {
-    const isUser = message.role === 'user';
-    const [showActions, setShowActions] = useState(false);
+function MessageBubble({ message, onRef }: MessageBubbleProps) {
+  const isUser = message.role === 'user';
+  const [showActions, setShowActions] = useState(false);
+  const divRef = useRef<HTMLDivElement>(null);
 
-    const handleCopy = () => {
-      navigator.clipboard.writeText(message.content);
+  // Appeler onRef quand le composant monte/démonte
+  useEffect(() => {
+    if (onRef) {
+      onRef(divRef.current);
+    }
+    return () => {
+      if (onRef) {
+        onRef(null);
+      }
     };
+  }, [onRef]);
 
-    return (
-      <div
-        ref={ref}
-        onMouseEnter={() => setShowActions(true)}
-        onMouseLeave={() => setShowActions(false)}
-        style={{
+  const handleCopy = () => {
+    navigator.clipboard.writeText(message.content);
+  };
+
+  return (
+    <div
+      ref={divRef}
+      onMouseEnter={() => setShowActions(true)}
+      onMouseLeave={() => setShowActions(false)}
+      style={{
+        display: "flex",
+        gap: "1rem",
+        maxWidth: "800px",
+        marginLeft: isUser ? "auto" : "0",
+        flexDirection: isUser ? "row-reverse" : "row",
+        position: "relative"
+      }}
+    >
+      {/* Avatar */}
+      {!isUser && (
+        <div style={{
+          width: "32px",
+          height: "32px",
+          borderRadius: "50%",
+          background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
           display: "flex",
-          gap: "1rem",
-          maxWidth: "800px",
-          marginLeft: isUser ? "auto" : "0",
-          flexDirection: isUser ? "row-reverse" : "row",
-          position: "relative",
-          scrollMarginTop: "20px" // Espace en haut lors du scroll
-        }}
-      >
-        {/* Avatar */}
+          alignItems: "center",
+          justifyContent: "center",
+          flexShrink: 0,
+          color: "#fff"
+        }}>
+          <LuBot size={20} />
+        </div>
+      )}
+
+      <div style={{ flex: 1, position: "relative" }}>
+        {/* Bulle de message */}
+        <div style={{
+          background: isUser 
+            ? "#2f2f2f"
+            : "rgba(255,255,255,0.05)",
+          padding: "1rem 1.25rem",
+          borderRadius: "12px",
+          color: "#fff",
+          lineHeight: "1.6",
+          fontSize: "1.125rem"
+        }}>
+          {message.content}
+        </div>
+
+        {/* Actions (hover) */}
         {!isUser && (
           <div style={{
-            width: "32px",
-            height: "32px",
-            borderRadius: "50%",
-            background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
+            position: "absolute",
+            top: "100%",
+            left: 0,
+            marginTop: "0.5rem",
             display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            flexShrink: 0,
-            color: "#fff"
+            gap: "0.5rem",
+            opacity: showActions ? 1 : 0,
+            visibility: showActions ? "visible" : "hidden",
+            transition: "opacity 0.2s ease, visibility 0.2s ease"
           }}>
-            <LuBot size={20} />
+            <ActionButton icon={<LuCopy size={14} />} onClick={handleCopy} />
+            <ActionButton icon={<LuRefreshCw size={14} />} onClick={() => {}} />
+            <ActionButton icon={<LuThumbsUp size={14} />} onClick={() => {}} />
+            <ActionButton icon={<LuThumbsDown size={14} />} onClick={() => {}} />
+            <ActionButton icon={<LuEllipsis size={14} />} onClick={() => {}} />
           </div>
         )}
-
-        <div style={{ flex: 1, position: "relative" }}>
-          {/* Bulle de message */}
-          <div style={{
-            background: isUser 
-              ? "#2f2f2f"
-              : "rgba(255,255,255,0.05)",
-            padding: "1rem 1.25rem",
-            borderRadius: "12px",
-            color: "#fff",
-            lineHeight: "1.6",
-            fontSize: "1.125rem"
-          }}>
-            {message.content}
-          </div>
-
-          {/* Actions (hover) */}
-          {!isUser && (
-            <div style={{
-              position: "absolute",
-              top: "100%",
-              left: 0,
-              marginTop: "0.5rem",
-              display: "flex",
-              gap: "0.5rem",
-              opacity: showActions ? 1 : 0,
-              visibility: showActions ? "visible" : "hidden",
-              transition: "opacity 0.2s ease, visibility 0.2s ease"
-            }}>
-              <ActionButton icon={<LuCopy size={14} />} onClick={handleCopy} />
-              <ActionButton icon={<LuRefreshCw size={14} />} onClick={() => {}} />
-              <ActionButton icon={<LuThumbsUp size={14} />} onClick={() => {}} />
-              <ActionButton icon={<LuThumbsDown size={14} />} onClick={() => {}} />
-              <ActionButton icon={<LuEllipsis size={14} />} onClick={() => {}} />
-            </div>
-          )}
-        </div>
       </div>
-    );
-  }
-);
-
-MessageBubble.displayName = 'MessageBubble';
+    </div>
+  );
+}
 
 // Composant ActionButton
 function ActionButton({ icon, onClick }: { icon: React.ReactNode; onClick?: () => void }) {
