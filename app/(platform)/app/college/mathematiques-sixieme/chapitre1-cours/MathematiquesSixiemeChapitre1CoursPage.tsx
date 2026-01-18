@@ -36,14 +36,18 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
 
   const scrollToLastMessage = () => {
     if (lastMessageRef.current) {
-      // Petite temporisation pour s'assurer que le DOM est à jour
       setTimeout(() => {
-        lastMessageRef.current?.scrollIntoView({ 
-          behavior: "smooth",
-          block: "start",
-          inline: "nearest"
-        });
-      }, 50);
+        const messageElement = lastMessageRef.current;
+        const scrollContainer = messageElement?.closest('[style*="overflowY"]') as HTMLElement;
+        
+        if (messageElement && scrollContainer) {
+          const offsetTop = messageElement.offsetTop;
+          scrollContainer.scrollTo({
+            top: offsetTop - 80, // 80px de marge en haut pour bien voir le message
+            behavior: 'smooth'
+          });
+        }
+      }, 100);
     }
   };
 
