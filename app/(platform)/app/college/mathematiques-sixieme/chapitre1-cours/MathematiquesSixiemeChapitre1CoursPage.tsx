@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import AppLayout from "@/app/components/AppLayout";
 import { 
   LuSend, 
@@ -25,22 +25,30 @@ import {
 } from "react-icons/lu";
 
 export default function MathematiquesSixiemeChapitre1CoursPage() {
-  const [messages, setMessages] = useState<Array<{role: 'user' | 'assistant', content: string, isDraft?: boolean}>>([]);
+  const [messages, setMessages] = useState<Array<{
+    id: number, 
+    role: 'user' | 'assistant', 
+    content: string,
+    isLatestAssistant?: boolean // Pour suivre le dernier message assistant
+  }>>([]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
-  const lastUserMessageRef = useRef<HTMLDivElement>(null);
+  
   const headerMenuRef = useRef<HTMLDivElement>(null);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
+  const lastUserMessageRef = useRef<HTMLDivElement>(null);
 
-  // Scroller vers le dernier message utilisateur dès qu'il est ajouté
+  // Scroll vers le dernier message utilisateur quand il est ajouté
   useEffect(() => {
     if (lastUserMessageRef.current) {
-      lastUserMessageRef.current.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
+      setTimeout(() => {
+        lastUserMessageRef.current?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }, 50);
     }
   }, [messages]);
 
@@ -64,29 +72,34 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const handleSend = () => {
     if (!inputValue.trim()) return;
     
-    // Ajouter le message utilisateur ET un draft assistant
-    setMessages(prev => [
-      ...prev,
-      { role: 'user', content: inputValue },
-      { role: 'assistant', content: '', isDraft: true } // Draft vide avec minHeight
-    ]);
+    const userMessage = inputValue;
+    const messageId = Date.now();
     setInputValue("");
+    
+    // Retirer le flag isLatestAssistant des anciens messages
+    setMessages(prev => prev.map(msg => ({
+      ...msg,
+      isLatestAssistant: false
+    })));
+    
+    // Ajouter le message utilisateur
+    setMessages(prev => [...prev, { 
+      id: messageId, 
+      role: 'user', 
+      content: userMessage
+    }]);
     
     // Simuler une réponse de l'assistant
     setIsTyping(true);
+    
     setTimeout(() => {
       setIsTyping(false);
-      
-      // Remplacer le draft par le vrai message
-      setMessages(prev => {
-        const newMessages = [...prev];
-        newMessages[newMessages.length - 1] = {
-          role: 'assistant',
-          content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?",
-          isDraft: false
-        };
-        return newMessages;
-      });
+      setMessages(prev => [...prev, { 
+        id: Date.now(),
+        role: 'assistant', 
+        content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?",
+        isLatestAssistant: true // Le dernier message assistant aura le minHeight
+      }]);
     }, 1500);
   };
 
@@ -116,7 +129,8 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             alignItems: "center",
             justifyContent: "space-between",
             padding: "0 1.5rem",
-            background: "var(--background)"
+            background: "var(--background)",
+            flexShrink: 0
           }}>
             {/* Gauche : Titre + Menu déroulant */}
             <div 
@@ -196,15 +210,17 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </div>
           </header>
 
-          {/* Zone de messages */}
+          {          /* Zone de messages avec scroll */}
           <div 
-            ref={scrollContainerRef}
+            ref={chatContainerRef}
             style={{
               flex: 1,
               overflowY: "auto",
+              overflowX: "hidden",
               display: "flex",
               justifyContent: "center",
-              padding: "2rem 1rem"
+              padding: "2rem 1rem",
+              scrollBehavior: "smooth"
             }}>
             <div style={{
               width: "100%",
@@ -248,27 +264,29 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               </div>
             ) : (
               <>
-                {messages.map((msg, idx) => {
-                  // Le dernier message utilisateur reçoit la ref
+                {/* Messages dans l'ordre chronologique */}
+                {messages.map((msg, index) => {
                   const isLastUserMessage = msg.role === 'user' && 
-                    idx === messages.map((m, i) => ({ msg: m, idx: i }))
-                      .filter(item => item.msg.role === 'user')
-                      .pop()?.idx;
+                    index === messages.findLastIndex(m => m.role === 'user');
                   
                   return (
                     <MessageBubble 
-                      key={idx} 
+                      key={msg.id} 
                       message={msg}
-                      ref={isLastUserMessage ? lastUserMessageRef : null}
+                      ref={isLastUserMessage ? lastUserMessageRef : undefined}
+                      isLatestAssistant={msg.isLatestAssistant}
                     />
                   );
                 })}
                 
+                {/* Indicateur de frappe avec minHeight */}
                 {isTyping && (
                   <div style={{
                     display: "flex",
                     gap: "1rem",
-                    maxWidth: "800px"
+                    maxWidth: "800px",
+                    minHeight: "calc(100vh - 250px)",
+                    alignItems: "flex-start" // Aligner en haut
                   }}>
                     <div style={{
                       width: "32px",
@@ -322,7 +340,8 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             padding: "0.125rem 1.5rem",
-            background: "var(--background)"
+            background: "var(--background)",
+            flexShrink: 0
           }}>
             <div style={{
               maxWidth: "800px",
@@ -336,10 +355,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 marginBottom: "1.25rem",
                 position: "relative"
               }}>
-                {/* Bouton Réflexion approfondie */}
                 <ToolButton icon={<LuBrain size={18} />} tooltip="Réflexion approfondie" />
-
-                {/* Boutons d'actions - 7 icônes alignées */}
                 <ToolButton icon={<LuPaperclip size={18} />} tooltip="Ajouter fichiers" />
                 <ToolButton icon={<LuCamera size={18} />} tooltip="Ajouter photos" />
                 <ToolButton icon={<LuFolderPlus size={18} />} tooltip="Ajouter au Projet" />
@@ -439,7 +455,13 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
 
 // Composant MessageBubble
 interface MessageBubbleProps {
-  message: { role: 'user' | 'assistant', content: string, isDraft?: boolean };
+  message: { 
+    id: number, 
+    role: 'user' | 'assistant', 
+    content: string,
+    isLatestAssistant?: boolean 
+  };
+  isLatestAssistant?: boolean;
 }
 
 const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
@@ -456,72 +478,71 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
         ref={ref}
         onMouseEnter={() => setShowActions(true)}
         onMouseLeave={() => setShowActions(false)}
-      style={{
-        display: "flex",
-        gap: "1rem",
-        maxWidth: "800px",
-        marginLeft: isUser ? "auto" : "0",
-        flexDirection: isUser ? "row-reverse" : "row",
-        position: "relative",
-        minHeight: message.isDraft ? "calc(100vh - 250px)" : undefined
-      }}
-    >
-      {/* Avatar */}
-      {!isUser && (
-        <div style={{
-          width: "32px",
-          height: "32px",
-          borderRadius: "50%",
-          background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
+        style={{
           display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexShrink: 0,
-          color: "#fff"
-        }}>
-          <LuBot size={20} />
-        </div>
-      )}
-
-      <div style={{ flex: 1, position: "relative" }}>
-        {/* Bulle de message */}
-        <div style={{
-          background: isUser 
-            ? "#2f2f2f"
-            : "rgba(255,255,255,0.05)",
-          padding: "1rem 1.25rem",
-          borderRadius: "12px",
-          color: "#fff",
-          lineHeight: "1.6",
-          fontSize: "1.125rem"
-        }}>
-          {message.content}
-        </div>
-
-        {/* Actions (hover) - POSITION ABSOLUTE pour ne pas décaler le contenu */}
+          gap: "1rem",
+          maxWidth: "800px",
+          marginLeft: isUser ? "auto" : "0",
+          flexDirection: isUser ? "row-reverse" : "row",
+          position: "relative",
+          scrollMarginTop: "20px",
+          // TECHNIQUE CLÉ : minHeight sur le dernier message ASSISTANT
+          minHeight: message.isLatestAssistant ? "calc(100vh - 250px)" : "auto"
+        }}
+      >
+        {/* Avatar */}
         {!isUser && (
           <div style={{
-            position: "absolute",
-            top: "100%",
-            left: 0,
-            marginTop: "0.5rem",
+            width: "32px",
+            height: "32px",
+            borderRadius: "50%",
+            background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
             display: "flex",
-            gap: "0.5rem",
-            opacity: showActions ? 1 : 0,
-            visibility: showActions ? "visible" : "hidden",
-            transition: "opacity 0.2s ease, visibility 0.2s ease"
+            alignItems: "center",
+            justifyContent: "center",
+            flexShrink: 0,
+            color: "#fff"
           }}>
-            <ActionButton icon={<LuCopy size={14} />} onClick={handleCopy} />
-            <ActionButton icon={<LuRefreshCw size={14} />} onClick={() => {}} />
-            <ActionButton icon={<LuThumbsUp size={14} />} onClick={() => {}} />
-            <ActionButton icon={<LuThumbsDown size={14} />} onClick={() => {}} />
-            <ActionButton icon={<LuEllipsis size={14} />} onClick={() => {}} />
+            <LuBot size={20} />
           </div>
         )}
+
+        <div style={{ flex: 1, position: "relative", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+          {/* Bulle de message */}
+          <div style={{
+            background: isUser 
+              ? "#2f2f2f"
+              : "rgba(255,255,255,0.05)",
+            padding: "1rem 1.25rem",
+            borderRadius: "12px",
+            color: "#fff",
+            lineHeight: "1.6",
+            fontSize: "1.125rem"
+          }}>
+            {message.content}
+          </div>
+
+          {/* Actions (hover) - directement après le message */}
+          {!isUser && (
+            <div style={{
+              display: "flex",
+              gap: "0.5rem",
+              opacity: showActions ? 1 : 0,
+              visibility: showActions ? "visible" : "hidden",
+              transition: "opacity 0.2s ease, visibility 0.2s ease"
+            }}>
+              <ActionButton icon={<LuCopy size={14} />} onClick={handleCopy} />
+              <ActionButton icon={<LuRefreshCw size={14} />} onClick={() => {}} />
+              <ActionButton icon={<LuThumbsUp size={14} />} onClick={() => {}} />
+              <ActionButton icon={<LuThumbsDown size={14} />} onClick={() => {}} />
+              <ActionButton icon={<LuEllipsis size={14} />} onClick={() => {}} />
+            </div>
+          )}
+        </div>
       </div>
-    </div>
-  );
-});
+    );
+  }
+);
 
 MessageBubble.displayName = 'MessageBubble';
 
