@@ -327,7 +327,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             borderTop: "1px solid rgba(255,255,255,0.1)",
-            padding: "0.75rem 1.5rem",
+            padding: "1.5rem 1.5rem",
             background: "var(--background)"
           }}>
             <div style={{
@@ -383,7 +383,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     fontSize: "1.125rem",
                     resize: "none",
                     outline: "none",
-                    minHeight: "48px",
+                    minHeight: "36px",
                     maxHeight: "150px",
                     fontFamily: "inherit",
                     lineHeight: "1.5"
