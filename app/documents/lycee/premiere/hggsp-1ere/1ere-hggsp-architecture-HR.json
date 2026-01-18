@@ -1,0 +1,499 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T0#C0" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Introduction" },
+  "chapitreTitre": { "S": "Introduction" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les objectifs et les enjeux de l’enseignement de l’Histoire-géographie, géopolitique et sciences politiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer histoire, géographie, géopolitique et sciences politiques à partir de situations concrètes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Repérer les différentes échelles spatiales et temporelles mobilisées en HGGSP" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la notion de puissance et ses différentes formes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser un document simple mobilisant plusieurs disciplines de l’HGGSP" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les principaux acteurs des relations internationales" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Employer le vocabulaire fondamental de l’HGGSP dans un contexte donné" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les attentes méthodologiques et les types d’exercices en HGGSP" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Comprendre un régime politique : la démocratie" },
+  "chapitreTitre": { "S": "Introduction : la démocratie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la démocratie à partir de ses principes fondamentaux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les origines historiques de la démocratie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer démocratie directe et démocratie représentative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître les valeurs et les libertés fondamentales associées à la démocratie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les institutions caractéristiques d’un régime démocratique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle du suffrage universel dans les régimes démocratiques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le rôle des citoyens dans le fonctionnement démocratique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer la démocratie à d’autres formes de régimes politiques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les forces et les limites des régimes démocratiques contemporains" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Employer le vocabulaire politique spécifique à la démocratie dans un contexte donné" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Comprendre un régime politique : la démocratie" },
+  "chapitreTitre": { "S": "Penser la démocratie : directe ou représentative" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les principes de la démocratie directe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Définir les principes de la démocratie représentative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer les modalités de participation citoyenne dans les démocraties directe et représentative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser des exemples historiques ou contemporains de démocratie directe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les avantages et les limites de la démocratie représentative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les débats contemporains autour de la participation citoyenne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mobiliser le vocabulaire politique pour argumenter sur les formes de démocratie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Comprendre un régime politique : la démocratie" },
+  "chapitreTitre": { "S": "Avancées et reculs des démocraties" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions d’avancée et de recul démocratique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les facteurs favorisant la consolidation démocratique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les causes de la fragilisation ou du recul des démocraties" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser des exemples historiques ou contemporains d’évolutions démocratiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le rôle des crises politiques, économiques ou sociales dans l’évolution des démocraties" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer des trajectoires démocratiques dans différents États" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Argumenter à partir de documents sur l’état des démocraties dans le monde" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Comprendre un régime politique : la démocratie" },
+  "chapitreTitre": { "S": "L’Union européenne et la démocratie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter les fondements démocratiques de l’Union européenne" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les principales institutions de l’Union européenne et leur rôle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le fonctionnement démocratique du Parlement européen" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les modalités de participation citoyenne au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les critiques et les limites démocratiques de l’Union européenne" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer la démocratie au niveau national et au niveau européen" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un document relatif à un débat démocratique au sein de l’Union européenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mobiliser le vocabulaire institutionnel et politique de l’Union européenne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Analyser les dynamiques des puissances internationales" },
+  "chapitreTitre": { "S": "Introduction : la puissance" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de puissance en relations internationales" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les critères permettant de mesurer la puissance d’un État" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer puissance, influence et autorité sur la scène internationale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les différentes formes de puissance : hard power, soft power et smart power" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rôle des facteurs économiques dans la puissance internationale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle des facteurs militaires dans la puissance internationale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser le rôle des facteurs culturels et idéologiques dans la puissance" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les acteurs étatiques et non étatiques de la puissance" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier un exemple de stratégie de puissance à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comparer les stratégies de puissance de plusieurs États" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Mobiliser le vocabulaire géopolitique lié à la notion de puissance" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Analyser les dynamiques des puissances internationales" },
+  "chapitreTitre": { "S": "Essor et déclin des puissances : un regard historique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions d’essor et de déclin des puissances" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les facteurs historiques de la montée en puissance d’un État" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les causes du déclin d’une puissance" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser des exemples historiques d’essor de grandes puissances" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser des exemples historiques de déclin de grandes puissances" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer les trajectoires historiques de différentes puissances" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre l’impact des innovations économiques, techniques et militaires sur la puissance" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier le rôle des empires et des États-nations dans l’histoire des puissances" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser des documents historiques relatifs aux dynamiques de puissance" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Construire une argumentation historique sur l’évolution des puissances" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Mobiliser le vocabulaire historique et géopolitique lié à l’étude des puissances" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Analyser les dynamiques des puissances internationales" },
+  "chapitreTitre": { "S": "Formes indirectes de la puissance : une approche géopolitique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les formes indirectes de la puissance en géopolitique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la notion de soft power et ses mécanismes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier le rôle de la culture et des médias dans l’influence internationale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser l’usage de l’aide économique et humanitaire comme outil de puissance" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier l’influence diplomatique et normative des États et des organisations internationales" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le rôle des entreprises multinationales dans les formes indirectes de puissance" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser des exemples contemporains de stratégies de puissance indirecte" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer les formes directes et indirectes de la puissance" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mobiliser le vocabulaire géopolitique pour expliquer les stratégies de puissance indirecte" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Analyser les dynamiques des puissances internationales" },
+  "chapitreTitre": { "S": "La puissance des États-Unis aujourd’hui" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter les fondements historiques de la puissance des États-Unis" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les atouts économiques de la puissance américaine" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser la puissance militaire et stratégique des États-Unis" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le rôle du soft power américain à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier l’influence diplomatique des États-Unis dans les relations internationales" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle des entreprises et des innovations technologiques américaines dans la puissance" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les limites et les contestations de la puissance américaine" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer la puissance des États-Unis à celle d’autres grandes puissances" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser un document géopolitique relatif à la puissance américaine" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Mobiliser le vocabulaire géopolitique pour caractériser la puissance des États-Unis aujourd’hui" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Étudier les divisions politiques du monde : les frontières" },
+  "chapitreTitre": { "S": "Introduction : une frontière" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de frontière en géographie et en géopolitique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer frontière, limite et territoire" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les différents types de frontières dans le monde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les fonctions politiques, économiques et symboliques des frontières" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rôle des frontières dans l’organisation des États" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les acteurs impliqués dans la définition et la gestion des frontières" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les notions de frontière ouverte et de frontière fermée" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier des exemples de frontières naturelles et artificielles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser un document cartographique représentant une frontière" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre le rôle des frontières dans les mobilités humaines" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les enjeux économiques liés aux frontières" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser les frontières comme sources de tensions ou de coopérations" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comparer la perception des frontières selon les acteurs et les contextes" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Mobiliser le vocabulaire géographique et géopolitique lié aux frontières" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Étudier les divisions politiques du monde : les frontières" },
+  "chapitreTitre": { "S": "Tracer des frontières, approche géopolitique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre les processus de tracé des frontières dans l’histoire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les acteurs impliqués dans la délimitation des frontières" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer frontières héritées, négociées et imposées" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser le rôle des conflits et des traités dans le tracé des frontières" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier des exemples de tracés frontaliers issus de la colonisation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les enjeux géopolitiques liés à la contestation des frontières" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser un document cartographique ou géopolitique relatif à un tracé frontalier" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer différentes situations de tracé des frontières dans le monde" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mobiliser le vocabulaire géopolitique pour expliquer les enjeux du tracé des frontières" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Étudier les divisions politiques du monde : les frontières" },
+  "chapitreTitre": { "S": "Les frontières en débat" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales controverses contemporaines autour des frontières" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre les enjeux politiques et sécuritaires des frontières contestées" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le rôle des frontières dans les débats sur les migrations" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier des exemples de frontières en tension ou en recomposition" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer les discours des différents acteurs sur les frontières" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser un document argumentatif relatif aux frontières" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mobiliser le vocabulaire géopolitique pour débattre des enjeux frontaliers" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T3#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Étudier les divisions politiques du monde : les frontières" },
+  "chapitreTitre": { "S": "Les frontières internes et externes de l’Union européenne" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions de frontières internes et de frontières externes de l’Union européenne" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les États membres de l’Union européenne et leurs frontières" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le fonctionnement de l’espace Schengen" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les effets de la libre circulation sur les frontières internes de l’Union européenne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les enjeux de contrôle et de sécurité aux frontières externes de l’Union européenne" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Étudier le rôle des institutions européennes dans la gestion des frontières" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les enjeux migratoires liés aux frontières de l’Union européenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer les politiques de contrôle des frontières internes et externes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier un document cartographique relatif aux frontières de l’Union européenne" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les débats politiques autour du renforcement ou de l’ouverture des frontières européennes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre l’impact des crises sur le fonctionnement des frontières de l’Union européenne" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Mobiliser le vocabulaire géopolitique et institutionnel lié aux frontières de l’Union européenne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T4#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "S’informer : un regard critique sur les sources et modes de communication" },
+  "chapitreTitre": { "S": "Introduction : l’information" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion d’information et la distinguer de l’opinion" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les différentes sources d’information" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer information, communication et propagande" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les étapes de la production de l’information" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les acteurs de la production et de la diffusion de l’information" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle des médias dans les sociétés contemporaines" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la notion de liberté de la presse" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les contraintes économiques, politiques ou techniques pesant sur l’information" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser un document médiatique simple" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre l’impact du numérique sur la circulation de l’information" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les risques de manipulation ou de désinformation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Distinguer faits, rumeurs et fausses informations" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Mobiliser le vocabulaire critique lié à l’étude de l’information" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Quiz : vérifier les connaissances essentielles sur l’information" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T4#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "S’informer : un regard critique sur les sources et modes de communication" },
+  "chapitreTitre": { "S": "Les grandes révolutions techniques de l’information" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales révolutions techniques de l’information dans l’histoire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre l’impact de l’imprimerie sur la diffusion de l’information" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le rôle des médias audiovisuels dans la transformation de l’information" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les effets d’Internet et du numérique sur les modes d’information" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer les ruptures et continuités entre les différentes révolutions de l’information" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser des documents illustrant une révolution technique de l’information" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mobiliser le vocabulaire historique et critique lié aux révolutions de l’information" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T4#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "S’informer : un regard critique sur les sources et modes de communication" },
+  "chapitreTitre": { "S": "Liberté ou contrôle de l’information : un débat politique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions de liberté de l’information et de contrôle de l’information" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les cadres juridiques de la liberté de la presse" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les formes de censure et de contrôle de l’information" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le rôle des États dans la régulation de l’information" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier le rôle des médias et des plateformes numériques dans le contrôle ou la diffusion de l’information" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser des exemples contemporains de débats sur la liberté de l’information" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer les situations de liberté de l’information dans différents États" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser un document juridique ou médiatique relatif à la liberté de l’information" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Construire une argumentation sur les enjeux politiques de la liberté de l’information" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Mobiliser le vocabulaire politique et critique lié aux débats sur l’information" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T4#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "S’informer : un regard critique sur les sources et modes de communication" },
+  "chapitreTitre": { "S": "L’information à l’heure d’Internet" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les spécificités de l’information à l’ère d’Internet" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les nouveaux acteurs de l’information en ligne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le fonctionnement des réseaux sociaux dans la diffusion de l’information" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser le rôle des algorithmes dans la hiérarchisation de l’information" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les mécanismes de viralité de l’information sur Internet" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les phénomènes de bulles informationnelles et de chambres d’écho" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les enjeux économiques de l’information en ligne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les risques de désinformation et de manipulation sur Internet" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier le rôle du fact-checking à l’ère numérique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser un document ou une publication issue d’Internet" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comparer l’information en ligne et l’information issue des médias traditionnels" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Mobiliser le vocabulaire critique lié à l’information numérique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T5#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Analyser les relations entre États et religions" },
+  "chapitreTitre": { "S": "Introduction : les relations entre États et religions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions de religion, d’État et de pouvoir politique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les grandes religions dans le monde et leurs aires de diffusion" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer sphère religieuse et sphère politique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les différentes formes de relations entre États et religions" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les modèles de laïcité et de religions d’État" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle historique des religions dans la construction des États" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre l’influence des religions sur les normes, les lois et les sociétés" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les acteurs religieux dans la vie politique et sociale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser des situations de coopération entre États et religions" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser des situations de tensions ou de conflits liés au fait religieux" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre les enjeux contemporains des relations entre États et religions" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Étudier un document relatif aux relations entre pouvoir politique et religieux" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comparer les relations entre États et religions dans différents pays" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Mobiliser le vocabulaire géopolitique et religieux lié au thème" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Quiz : vérifier les connaissances essentielles sur les relations entre États et religions" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T5#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Analyser les relations entre États et religions" },
+  "chapitreTitre": { "S": "Les liens traditionnels entre pouvoir et religion" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les formes traditionnelles de liens entre pouvoir politique et religion" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le rôle de la religion dans la légitimation du pouvoir politique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la notion de pouvoir sacralisé dans les sociétés traditionnelles" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser des exemples historiques de relations étroites entre État et religion" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier le rôle des autorités religieuses dans l’exercice du pouvoir" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer différents modèles traditionnels de relations entre pouvoir et religion" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les héritages contemporains de ces liens traditionnels" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser un document historique relatif aux liens entre pouvoir et religion" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mobiliser le vocabulaire historique et politique lié aux relations traditionnelles entre pouvoir et religion" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T5#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Analyser les relations entre États et religions" },
+  "chapitreTitre": { "S": "États et religions : une inégale sécularisation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de sécularisation" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer sécularisation, laïcisation et laïcité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les facteurs historiques et culturels de la sécularisation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer les degrés de sécularisation dans différents États" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les relations entre pouvoir politique et religions dans des États peu sécularisés" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les enjeux contemporains liés à l’inégale sécularisation des États" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un document relatif aux relations entre sécularisation et pouvoir politique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mobiliser le vocabulaire politique et religieux lié à la sécularisation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HGGSP#T5#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Histoire-géographie, géopolitique et sciences politiques" },
+  "themeTitre": { "S": "Analyser les relations entre États et religions" },
+  "chapitreTitre": { "S": "État et religions en Inde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Présenter la diversité religieuse de l’Inde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre le principe de laïcité inscrit dans la Constitution indienne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les relations entre l’État indien et les différentes religions" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier le rôle du nationalisme hindou dans la vie politique indienne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier des exemples de tensions ou de conflits religieux en Inde" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mobiliser le vocabulaire politique et religieux pour analyser la situation indienne" } } }
+    ]
+  }
+}
+]

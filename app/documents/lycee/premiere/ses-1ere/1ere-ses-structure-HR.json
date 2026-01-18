@@ -1,0 +1,651 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences économiques" },
+  "chapitreTitre": { "S": "Comment un marché concurrentiel fonctionne-t-il ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’un marché" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques des trois principaux marchés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques d’une institution marchande" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques d’un marché concurrentiel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les caractéristiques de la concurrence pure et parfaite" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les principes de la loi de l’offre et de la demande" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les notions de prix et de quantité d’équilibre" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier la notion de gain à l’échange pour le producteur" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les notions de surplus" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer le type d’un exemple de marché" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les fonctions des institutions marchandes à partir d’un document" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer le degré de concurrence d’un marché" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer si un marché relève de la concurrence pure et parfaite" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer graphiquement le prix et la quantité d’équilibre" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier les principaux déterminants de l’offre" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les principaux déterminants de la demande" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Analyser l’évolution de l’offre dans une situation donnée" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Analyser l’évolution de la demande dans une situation donnée" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Analyser l’évolution conjointe de l’offre et de la demande" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Analyser l’effet d’une taxe ou d’une subvention pour le consommateur" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Analyser l’effet d’une taxe ou d’une subvention pour le producteur" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Analyser l’effet global d’une taxe ou d’une subvention sur le marché" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Identifier les modifications de l’offre et de la demande liées à une taxe" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Déterminer la situation de maximisation du profit" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Déterminer le surplus du producteur à l’équilibre" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Déterminer le surplus total à l’équilibre" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Déterminer le surplus perdu en situation de déséquilibre" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Analyser l’effet d’un prix plancher" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Analyser l’effet d’un prix plafond" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Expliquer les caractéristiques des trois principaux marchés" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Expliquer le rôle des principales institutions marchandes" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Expliquer le fonctionnement d’un marché concurrentiel" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle des droits de propriété" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les limites de l’échange marchand" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le modèle de la concurrence pure et parfaite" } } },
+      { "M": { "id": { "S": "E36" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le fonctionnement de l’offre et de la demande" } } },
+      { "M": { "id": { "S": "E37" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le prix et la quantité d’équilibre" } } },
+      { "M": { "id": { "S": "E38" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les déterminants de l’offre" } } },
+      { "M": { "id": { "S": "E39" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les déterminants de la demande" } } },
+      { "M": { "id": { "S": "E40" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le gain à l’échange et les surplus" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences économiques" },
+  "chapitreTitre": { "S": "Comment les marchés imparfaitement concurrentiels fonctionnent-ils ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques du monopole" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier monopole naturel, monopole institutionnel et monopole d’innovation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques de l’oligopole" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques de la concurrence monopolistique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier concurrence horizontale et concurrence verticale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le dilemme du prisonnier appliqué à des entreprises en oligopole" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les caractéristiques d’un abus de position dominante" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier l’existence d’une barrière à l’entrée sur un marché" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer le nombre d’offreurs dans une situation de concurrence imparfaite" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier une entente dans une situation de concurrence imparfaite" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer le type de monopole dans une situation donnée" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les différentes formes de concurrence imparfaite" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Qualifier la nature d’une situation de concurrence imparfaite" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Schématiser la différence entre concurrence pure et parfaite et monopole" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier un abus de position dominante dans une pratique donnée" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Décrire une situation de concurrence imparfaite" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les sources de pouvoir de marché" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer pourquoi le monopole est faiseur de prix" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer l’intérêt des ententes en oligopole" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les stratégies en concurrence imparfaite" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer la régulation de la concurrence" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer l’effet des politiques de concurrence sur le surplus du consommateur" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un marché en situation de monopole" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un cas de concentration en concurrence imparfaite" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un cas d’entente en oligopole" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un cas d’abus de position dominante" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une opération de fusions-acquisitions" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences économiques" },
+  "chapitreTitre": { "S": "Quelles sont les principales défaillances du marché ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques des externalités" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques des biens collectifs" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques des biens communs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques de l’asymétrie d’information" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les caractéristiques de l’aléa moral" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les caractéristiques de la sélection adverse" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Qualifier une externalité comme positive ou négative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier une externalité dans une activité économique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Qualifier un bien comme privé, de club, collectif ou commun" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un marché défaillant en présence d’externalités" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une situation d’aléa moral" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une situation de sélection adverse" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une stratégie de lutte contre l’asymétrie d’information par un agent économique" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une intervention étatique face aux asymétries d’information" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer pourquoi les externalités entraînent une défaillance de marché" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les enjeux liés aux biens collectifs et communs" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer la défaillance de marché liée aux biens collectifs et communs" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les formes d’asymétrie d’information" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer pourquoi la sélection adverse peut empêcher l’équilibre du marché" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les stratégies des agents économiques face aux asymétries d’information" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer l’intervention des pouvoirs publics face aux défaillances de marché" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences économiques" },
+  "chapitreTitre": { "S": "Comment les agents économiques se financent-ils ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier la notion de besoin de financement" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier la notion de capacité de financement" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques du taux d’intérêt" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques de l’épargne d’un ménage" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les caractéristiques de l’excédent brut d’exploitation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les caractéristiques de l’épargne d’une entreprise" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les caractéristiques de l’autofinancement des entreprises" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les caractéristiques du financement externe indirect des entreprises" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier la notion d’action" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier la notion d’obligation" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les caractéristiques d’un marché financier" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les caractéristiques du financement externe direct des entreprises" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier les caractéristiques du solde budgétaire de l’État" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les caractéristiques d’une politique de relance" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier les caractéristiques d’un effet d’éviction" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer en quoi consiste le financement" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le fonctionnement du marché des fonds prêtables" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer la répartition du revenu des ménages" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer l’autofinancement des entreprises" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le financement externe des entreprises" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les modes de financement des entreprises" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le financement du déficit budgétaire" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Bac - Mobilisation des connaissances : analyser les conséquences d’une hausse des dépenses publiques" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un exemple de financement d’une entreprise" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un exemple de politique de relance" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences économiques" },
+  "chapitreTitre": { "S": "Qu'est-ce que la monnaie et comment est-elle créée ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier monnaie fiduciaire et monnaie scripturale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier banque centrale et banque commerciale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques de la masse monétaire" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques du marché monétaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les caractéristiques d’une politique monétaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les formes traditionnelles de la monnaie" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les fonctions de la monnaie" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser un bilan simplifié d’une entreprise" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser un bilan simplifié d’une banque" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les effets d’un excès de monnaie" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les effets d’une pénurie de monnaie" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une forme traditionnelle de monnaie" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser l’évolution des monnaies fiduciaire et scripturale" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un crédit bancaire" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les fonctions et les formes de la monnaie" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle du crédit bancaire dans la création monétaire" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les limites de la création monétaire par les banques commerciales" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle de la banque centrale dans la création monétaire" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Bac - Mobilisation des connaissances : analyser une politique monétaire menée par la banque centrale" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les effets des interventions de la banque centrale sur les prix et l’activité économique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences sociales" },
+  "chapitreTitre": { "S": "Comment la socialisation contribue-t-elle à expliquer les différences de comportement des individus ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier norme et valeur" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques de la socialisation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques des rôles sociaux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques d’un processus d’intériorisation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier socialisation primaire et socialisation secondaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les caractéristiques de la socialisation différenciée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les caractéristiques des différents statuts sociaux" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les caractéristiques de la socialisation professionnelle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les caractéristiques de la socialisation conjugale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les caractéristiques de la socialisation politique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les caractéristiques d’une trajectoire improbable de socialisation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les instances de socialisation" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer le rôle de la famille et de l’école dans la socialisation" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier une situation de reproduction sociale à partir d’exemples simples" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer le rôle de la reproduction sociale dans les inégalités" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier une socialisation genrée à partir d’exemples simples" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Exploiter un tableau statistique simple sur la socialisation différenciée" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Exploiter un tableau statistique simple sur la socialisation genrée" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Identifier une socialisation influencée par les configurations familiales à partir d’exemples simples" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Exploiter un tableau statistique simple sur la socialisation et les configurations familiales" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le processus de socialisation" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer l’effet des configurations familiales sur la socialisation des jeunes" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle de la socialisation dans les différences entre les individus" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Bac - Mobilisation des connaissances : analyser un exemple de socialisation secondaire" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le processus de socialisation secondaire" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle de la pluralité des influences socialisatrices dans des trajectoires improbables" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une trajectoire improbable de socialisation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences sociales" },
+  "chapitreTitre": { "S": "Comment se construisent et évoluent les liens sociaux ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’un groupe social" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier groupes primaire et groupes secondaire" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques d’un lien social" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier liens sociaux forts et liens sociaux faibles" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les critères de construction des Professions et Catégories Socioprofessionnelles" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les caractéristiques des catégories socioprofessionnelles" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les caractéristiques de la cohésion sociale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les caractéristiques de l’intégration sociale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Différencier solidarité mécanique et solidarité organique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les caractéristiques de la division sociale du travail" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les formes de sociabilité en ligne" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les caractéristiques de l’exclusion sociale" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier les caractéristiques de la désaffiliation" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les caractéristiques de l’individualisme" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier les caractéristiques des inégalités sociales" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les caractéristiques de la ségrégation" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Qualifier un groupe social comme primaire ou secondaire" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier les différents types de liens sociaux" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Qualifier le type d’un lien social" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Qualifier un lien social comme fort ou faible" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Identifier la catégorie socioprofessionnelle d’un individu" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Qualifier une forme de solidarité à partir d’un exemple" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer la diversité des liens sociaux" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle des sociabilités numériques dans le lien social" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer l’évolution des formes de solidarité" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le processus d’individualisation" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les facteurs d’affaiblissement des liens sociaux" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un groupe social en ligne" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser l’effet d’une mutation économique sur le lien social" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser l’effet d’une mutation sociale sur le lien social" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser l’impact des inégalités et de la ségrégation sur le lien social" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences sociales" },
+  "chapitreTitre": { "S": "Quels sont les processus sociaux qui contribuent à la déviance ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier la notion de contrôle social" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier normes sociales et normes juridiques" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier contrôle social formel et contrôle social informel" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques de la déviance en sociologie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les caractéristiques de l’anomie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les caractéristiques d’une carrière déviante" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les caractéristiques de l’étiquetage" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les caractéristiques de la stigmatisation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les caractéristiques de la délinquance en sociologie" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les caractéristiques du chiffre noir de la délinquance" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Qualifier une norme comme sociale ou juridique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier des éléments de contrôle social dans une situation" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer la diversité des formes de contrôle social" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer la diversité des déviances selon les sociétés et les groupes sociaux" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer la déviance comme produit de processus sociaux" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Bac - Mobilisation des connaissances : distinguer déviance et délinquance" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les difficultés de mesure de la délinquance" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une déviance différente selon les sociétés" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un processus de déviance" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une enquête de victimation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences politiques" },
+  "chapitreTitre": { "S": "Comment se forme et s'exprime l'opinion publique ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques de l’opinion publique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques de l’opinion publique contemporaine" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques d’un sondage d’opinion" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principes d’un échantillon représentatif et les méthodes d’échantillonnage" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier la notion et le rôle de la marge d’erreur" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier la notion de démocratie d’opinion" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les limites et les critiques des sondages d’opinion" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier l’effet bandwagon" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier l’effet underdog" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer l’émergence de l’opinion publique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le lien entre opinion publique et démocratie" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les débats sur l’interprétation des sondages par l’opinion publique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer comment les sondages d’opinion contribuent à forger l’opinion publique" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les effets des sondages sur la démocratie et la vie politique" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un sondage d’opinion" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un sondage d’opinion faisant l’objet de critiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sciences politiques" },
+  "chapitreTitre": { "S": "Voter : une affaire individuelle ou collective ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques du suffrage universel" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques de la participation électorale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques de l’abstention électorale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier abstention systématique et abstention intermittente" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer un taux d’abstention à une élection" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier la notion de sentiment de compétence politique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les caractéristiques de l’abstentionnisme politique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier la notion d’identification partisane" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les caractéristiques du vote sur enjeux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les caractéristiques de la volatilité électorale" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer un taux d’inscription sur les listes électorales" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Interpréter un taux d’inscription sur les listes électorales" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer un taux de participation électorale" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Interpréter un taux de participation électorale" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Interpréter un taux d’abstention électorale" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les facteurs structurels de l’abstentionnisme" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Identifier les facteurs conjoncturels de l’abstentionnisme" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier les variables lourdes du comportement électoral" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Identifier les principes du modèle de Columbia" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Identifier les principes du paradigme de Michigan" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Calculer un indice de volatilité électorale" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un tableau statistique électoral" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser les résultats d’une élection" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les facteurs de la participation électorale" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le caractère individuel et collectif du vote" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les formes de volatilité électorale" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le lien entre volatilité électorale et recomposition des variables sociales" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le lien entre volatilité électorale et déclin de l’identification politique" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le lien entre volatilité électorale et poids des variables contextuelles" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Regards croisés" },
+  "chapitreTitre": { "S": "Comment l'assurance et la protection sociale contribuent-elles à la gestion des risques dans les sociétés développées ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques des risques sociaux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier la notion de mutualisation des risques" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques de la protection sociale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier assurance et assistance" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les principaux types de risques sociaux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les facteurs d’exposition aux risques sociaux" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les individus et institutions privées intervenant dans la gestion des risques" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les bénéfices de la solidarité sociale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les effets négatifs du partage des risques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un facteur d’exposition à un risque social" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Bac - Raisonnement sur dossier : comparer l’exposition et l’attitude face au risque selon des individus" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une situation de protection sociale" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer la diversité des expositions et des attitudes face au risque" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle des individus et des institutions privées dans la gestion des risques" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle de la protection sociale dans la couverture solidaire des risques" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle des pouvoirs publics dans la gestion collective des risques" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le rôle des principales institutions de gestion des risques" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les principes de la gestion collective des risques" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer les effets positifs et négatifs du partage des risques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T4#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Regards croisés" },
+  "chapitreTitre": { "S": "Comment les entreprises sont-elles organisées et gouvernées ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’une entreprise" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier les catégories d’entreprises" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier les secteurs d’activité des entreprises" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques de la hiérarchie d’entreprise" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les principaux rôles au sein de la direction de l’entreprise" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier gouvernance centralisée et gouvernance décentralisée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les formes de relations sociales au sein de l’entreprise" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les caractéristiques d’un syndicat" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les étapes du cycle de vie d’une entreprise" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les différents statuts d’entrepreneur" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les principaux rôles au sein de l’entreprise" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser le cycle de vie d’une entreprise" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser un organigramme d’entreprise" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Bac - Raisonnement sur dossier : analyser une situation de conflit en entreprise" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le cycle de vie d’une entreprise" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le fonctionnement de la gouvernance d’entreprise" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer pourquoi l’entreprise est un lieu de relations sociales entre parties prenantes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment lire un tableau statistique à double entrée ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier la population statistique et les variables étudiées dans un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser une répartition croisée à partir d’un tableau statistique à double entrée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer et interpréter une proportion conditionnelle à partir d’un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des comportements sociaux ou économiques à l’aide d’un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mobiliser un tableau statistique à double entrée pour construire une argumentation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment analyser un diagramme de répartition ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier la population statistique et la variable représentée dans un diagramme de répartition" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la structure d’une distribution à partir d’un diagramme de répartition" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Mettre en évidence des inégalités ou des contrastes à partir d’un diagramme de répartition" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer deux diagrammes de répartition portant sur une même population" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter un diagramme de répartition pour étayer une analyse économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer des moyennes et des médianes ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer une moyenne à partir d’une distribution en effectifs ou en fréquences" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer une médiane à partir d’une distribution cumulative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser l’influence de valeurs extrêmes sur la moyenne et la médiane" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des groupes sociaux à l’aide de moyennes et de médianes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mobiliser moyenne et médiane pour interpréter une inégalité économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un taux de variation ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un taux de variation à partir d’une série chronologique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Interpréter un taux de variation positif ou négatif dans un contexte économique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des évolutions à l’aide de taux de variation successifs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer d’un taux de variation à une valeur finale ou initiale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mobiliser le taux de variation pour analyser une transformation économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un taux de variation cumulé ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un taux de variation cumulé à partir d’une série de taux successifs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Passer d’une évolution cumulée à un coefficient multiplicateur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer une évolution cumulée et une évolution moyenne sur une période donnée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Interpréter un taux de variation cumulé dans une analyse économique ou sociale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mobiliser un taux de variation cumulé pour analyser une dynamique de long terme" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un indice simple ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier l’année de base et la valeur de référence d’un indice simple dans un document statistique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un indice simple à partir de données économiques ou sociales comparées dans le temps" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Interpréter l’évolution d’un phénomène à partir d’une série d’indices simples" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des dynamiques économiques ou sociales à l’aide d’indices simples" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mobiliser un indice simple pour argumenter sur une évolution économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un coefficient multiplicateur ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer un coefficient multiplicateur à partir d’une évolution chiffrée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comparer plusieurs évolutions à l’aide de coefficients multiplicateurs" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Mobiliser un coefficient multiplicateur pour reconstituer une valeur initiale ou finale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Articuler coefficient multiplicateur et taux de variation dans une analyse économique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser un coefficient multiplicateur pour analyser une dynamique économique ou sociale de moyen terme" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un pourcentage de répartition ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer des pourcentages de répartition à partir d’effectifs croisés" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser une structure de répartition pour caractériser des inégalités" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des répartitions entre plusieurs groupes sociaux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer d’une répartition en pourcentages à des effectifs estimés" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mobiliser des pourcentages de répartition pour interpréter un document statistique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment lire et interpréter valeur nominale et valeur réelle ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier valeur nominale et valeur réelle dans un document économique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Corriger une valeur nominale de l’inflation pour obtenir une valeur réelle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Interpréter l’évolution d’un revenu en valeur nominale et en valeur réelle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des évolutions économiques en distinguant valeur nominale et valeur réelle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mobiliser la distinction valeur nominale / valeur réelle pour analyser le pouvoir d’achat" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#SES#T5#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment représenter graphiquement des fonctions simples et les interpréter ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Construire la représentation graphique d’une fonction simple à partir d’un tableau de valeurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le sens de variation d’une fonction à partir de sa représentation graphique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire graphiquement une image et un antécédent dans un graphique de fonction" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Interpréter graphiquement une relation de dépendance entre deux variables économiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mobiliser un graphique de fonction pour analyser une situation économique ou sociale" } } }
+    ]
+  }
+}
+]

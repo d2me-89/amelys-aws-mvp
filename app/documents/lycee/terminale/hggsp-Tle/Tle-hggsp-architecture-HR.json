@@ -1,0 +1,588 @@
+[
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "De nouveaux espaces de conquête" },
+  "chapitreTitre": { "S": "Introduction : océan et espace, quelles spécificités ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques physiques et juridiques des espaces océaniques et extra-atmosphériques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Définir les notions de haute mer, de ZEE et d’espace extra-atmosphérique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer les contraintes techniques et humaines liées à l’exploration des océans et de l’espace" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principaux acteurs publics et privés impliqués dans la conquête de l’océan et de l’espace" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les enjeux économiques liés à l’exploitation des ressources maritimes et spatiales" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les enjeux stratégiques et militaires de ces nouveaux espaces" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les risques environnementaux liés à l’intensification des activités humaines dans l’océan et l’espace" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser le rôle du droit international dans l’encadrement des usages de l’océan et de l’espace" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Montrer en quoi l’océan et l’espace constituent de nouveaux champs de rivalités géopolitiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "De nouveaux espaces de conquête" },
+  "chapitreTitre": { "S": "Conquêtes, affirmations de puissance et rivalités" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les grandes étapes historiques de la conquête des océans et de l’espace" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les motivations politiques et stratégiques des États dans la conquête de ces espaces" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment la maîtrise technologique participe à l’affirmation de la puissance" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principales puissances impliquées dans les rivalités maritimes et spatiales" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer les stratégies de conquête et de contrôle mises en œuvre par différents États" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle des acteurs privés dans l’intensification des rivalités de puissance" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mettre en évidence les enjeux militaires liés à la militarisation des océans et de l’espace" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les zones de tensions et de conflits liées à la conquête de ces nouveaux espaces" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser les rivalités de puissance à partir d’un exemple précis d’espace maritime ou spatial" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Montrer comment les conquêtes des océans et de l’espace redéfinissent les rapports de force internationaux" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Discuter les limites et les risques liés à la compétition entre puissances dans ces espaces" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi océans et espace sont devenus des enjeux majeurs de puissance" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "De nouveaux espaces de conquête" },
+  "chapitreTitre": { "S": "Enjeux diplomatiques et coopérations" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principaux cadres diplomatiques encadrant les activités dans les espaces maritimes et spatiaux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Définir le rôle des organisations internationales dans la régulation de ces nouveaux espaces" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les objectifs diplomatiques poursuivis par les États dans l’océan et l’espace" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les formes de coopération scientifique, technique et militaire entre États" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer coopération et concurrence dans la gouvernance des espaces maritimes et spatiaux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle des accords multilatéraux dans la prévention des conflits" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Montrer comment la diplomatie scientifique contribue aux coopérations internationales" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les limites et les fragilités des coopérations internationales actuelles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser un exemple précis de coopération internationale dans l’océan ou l’espace" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Montrer comment les enjeux diplomatiques influencent l’accès et l’usage de ces espaces" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Rédiger une réponse argumentée sur le rôle des coopérations dans la gestion des nouveaux espaces de conquête" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "De nouveaux espaces de conquête" },
+  "chapitreTitre": { "S": "La Chine : à la conquête de l’espace, des mers et des océans" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les objectifs stratégiques de la Chine dans la conquête de l’espace et des espaces maritimes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les moyens technologiques et industriels mobilisés par la Chine pour affirmer sa puissance" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment la conquête spatiale participe au rayonnement international de la Chine" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les enjeux géopolitiques liés à la présence chinoise en mer de Chine méridionale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les réactions et les stratégies des autres puissances face aux ambitions chinoises" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les liens entre puissance maritime, spatiale et affirmation géopolitique chinoise" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Discuter les limites, contraintes et contestations de la stratégie chinoise" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi la Chine est devenue un acteur majeur des nouveaux espaces de conquête" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Faire la guerre, faire la paix : formes de conflits et modes de résolution" },
+  "chapitreTitre": { "S": "Introduction : formes de conflits et tentatives de paix dans le monde actuel" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les différentes formes de conflits armés dans le monde contemporain" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Définir les notions de guerre interétatique, guerre civile et conflit asymétrique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les causes politiques, économiques et territoriales des conflits actuels" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principaux acteurs impliqués dans les conflits contemporains" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Montrer comment les conflits évoluent dans leurs formes et leurs modes de conduite" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les différents moyens de résolution des conflits et de construction de la paix" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser le rôle des organisations internationales dans la prévention et la gestion des conflits" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre en évidence les limites et les échecs des tentatives de paix dans le monde actuel" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Rédiger une réponse argumentée montrant la complexité des conflits et des processus de paix contemporains" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Faire la guerre, faire la paix : formes de conflits et modes de résolution" },
+  "chapitreTitre": { "S": "La dimension politique de la guerre : des conflits interétatiques aux enjeux transnationaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques des guerres interétatiques classiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les logiques politiques à l’origine des conflits armés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Définir la notion de conflit transnational et en identifier les acteurs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer comment la mondialisation transforme la nature des conflits" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rôle des acteurs non étatiques dans les guerres contemporaines" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer conflits interétatiques et conflits transnationaux dans leurs objectifs et leurs modes d’action" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les enjeux politiques liés à la lutte contre le terrorisme" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Montrer comment les conflits transnationaux remettent en cause la souveraineté des États" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser un exemple de conflit illustrant la dimension politique et transnationale de la guerre" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger une réponse argumentée sur l’évolution politique des conflits armés contemporains" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Faire la guerre, faire la paix : formes de conflits et modes de résolution" },
+  "chapitreTitre": { "S": "Le défi de la construction de la paix" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de construction de la paix et en identifier les objectifs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les différents acteurs impliqués dans les processus de paix" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les étapes d’un processus de paix, de la cessation des combats à la réconciliation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer le rôle des négociations, des accords de paix et de la médiation internationale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les actions de maintien et de consolidation de la paix menées par les organisations internationales" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les obstacles politiques, sociaux et économiques à une paix durable" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple de processus de paix pour en montrer les réussites et les limites" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant pourquoi la construction de la paix constitue un défi majeur dans le monde contemporain" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Faire la guerre, faire la paix : formes de conflits et modes de résolution" },
+  "chapitreTitre": { "S": "Le Moyen-Orient : conflits régionaux et tentatives de paix impliquant des acteurs internationaux (étatiques et non étatiques)" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principaux foyers de conflits au Moyen-Orient" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les causes historiques, politiques et religieuses des conflits moyen-orientaux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les acteurs étatiques et non étatiques impliqués dans les conflits de la région" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer comment les puissances internationales interviennent dans les conflits du Moyen-Orient" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les enjeux géopolitiques régionaux et internationaux liés au Moyen-Orient" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Étudier les principales tentatives de paix menées dans la région et leurs résultats" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mettre en évidence les obstacles à une paix durable au Moyen-Orient" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi le Moyen-Orient illustre la complexité des conflits et des processus de paix contemporains" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Histoire et mémoires" },
+  "chapitreTitre": { "S": "Introduction : histoire et mémoire, histoire et justice" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions d’histoire et de mémoire et en montrer les différences" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les acteurs individuels et collectifs porteurs de mémoires" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les usages politiques et sociaux de la mémoire" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer le rôle de l’historien face aux mémoires" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les conflits de mémoires et leurs enjeux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle de l’État dans la reconnaissance ou la construction des mémoires" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Définir la notion de justice et ses liens avec l’histoire" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les formes de justice liées aux crimes du passé (tribunaux, commissions, réparations)" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser le rôle des procès et des juridictions internationales dans la reconnaissance des crimes historiques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Montrer comment histoire et justice participent à la construction d’une mémoire collective" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Mettre en évidence les limites et les débats autour de la judiciarisation de l’histoire" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Rédiger une réponse argumentée sur les relations entre histoire, mémoire et justice" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Histoire et mémoires" },
+  "chapitreTitre": { "S": "Histoire et mémoires des conflits" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principaux conflits contemporains ayant donné lieu à des mémoires multiples" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la diversité des mémoires produites par un même conflit" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment les mémoires de guerre évoluent au fil du temps" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les acteurs qui participent à la construction et à la transmission des mémoires de conflits" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rôle de l’historien dans l’étude et la mise à distance des mémoires conflictuelles" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Montrer comment les mémoires de conflits peuvent être instrumentalisées à des fins politiques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple précis de conflit pour en comparer les mémoires et le travail historique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant les tensions entre histoire et mémoires des conflits" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Histoire et mémoires" },
+  "chapitreTitre": { "S": "Histoire, mémoire et justice" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les liens entre histoire, mémoire et justice" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les différentes formes de justice mobilisées face aux crimes du passé" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le rôle des tribunaux nationaux et internationaux dans le jugement des crimes historiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer comment les procès contribuent à la reconnaissance officielle des crimes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rôle des commissions vérité et réconciliation dans la construction de la mémoire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les débats et controverses autour de la judiciarisation de l’histoire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple de processus judiciaire pour en montrer les apports et les limites" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant les enjeux de la justice face aux mémoires du passé" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T3#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Histoire et mémoires" },
+  "chapitreTitre": { "S": "L’histoire et les mémoires du génocide des Juifs et des Tsiganes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de génocide et rappeler le contexte historique de la Seconde Guerre mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les populations juives et tsiganes visées par les politiques d’extermination nazies" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les mécanismes idéologiques, politiques et administratifs du génocide" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les différentes formes de violences et de persécutions subies par les victimes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Montrer le rôle des acteurs nazis et des administrations collaboratrices dans la mise en œuvre du génocide" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le travail des historiens dans l’étude et la compréhension du génocide" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les premières formes de témoignages et de mémoires des survivants après 1945" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer la construction des mémoires du génocide des Juifs et de celui des Tsiganes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser le rôle des procès et de la justice internationale dans la reconnaissance du génocide" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Montrer comment les États participent à la reconnaissance et à la transmission de ces mémoires" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les enjeux mémoriels contemporains liés au génocide des Juifs et des Tsiganes" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Mettre en évidence les débats, les oublis et les tensions autour de ces mémoires" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Rédiger une réponse argumentée montrant l’importance du travail historique et mémoriel sur les génocides" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T4#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Identifier, protéger et valoriser le patrimoine : enjeux géopolitiques" },
+  "chapitreTitre": { "S": "Introduction : identifier, protéger et valoriser le patrimoine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de patrimoine et en identifier les différentes formes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer patrimoine matériel, immatériel, naturel et culturel" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les acteurs impliqués dans la reconnaissance et la protection du patrimoine" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les enjeux culturels, économiques et politiques liés au patrimoine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Montrer comment le patrimoine participe à la construction des identités" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les menaces pesant sur le patrimoine dans le monde contemporain" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser le rôle des organisations internationales dans la protection du patrimoine" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre en évidence les tensions entre protection et valorisation du patrimoine" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Rédiger une réponse argumentée montrant pourquoi le patrimoine constitue un enjeu géopolitique majeur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T4#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Identifier, protéger et valoriser le patrimoine : enjeux géopolitiques" },
+  "chapitreTitre": { "S": "Usages sociaux et politiques du patrimoine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les usages sociaux du patrimoine dans les sociétés contemporaines" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le rôle du patrimoine dans la construction des identités collectives" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment le patrimoine peut être mobilisé à des fins politiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les stratégies étatiques de valorisation du patrimoine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les enjeux mémoriels et idéologiques liés à certains patrimoines" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les conflits et controverses autour de l’usage du patrimoine" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple précis d’usage social ou politique du patrimoine" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi le patrimoine est un enjeu social et politique majeur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T4#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Identifier, protéger et valoriser le patrimoine : enjeux géopolitiques" },
+  "chapitreTitre": { "S": "Patrimoine, la préservation entre tensions et concurrences" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales menaces pesant sur le patrimoine à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les tensions entre protection du patrimoine et développement économique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment la concurrence entre territoires influence les politiques patrimoniales" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les rivalités géopolitiques liées à la reconnaissance et à la valorisation du patrimoine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rôle des organisations internationales dans la régulation des concurrences patrimoniales" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les inégalités entre États face à la préservation du patrimoine" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple de tension ou de concurrence autour d’un patrimoine spécifique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi la préservation du patrimoine est un enjeu de tensions et de concurrences" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T4#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Identifier, protéger et valoriser le patrimoine : enjeux géopolitiques" },
+  "chapitreTitre": { "S": "Patrimoine, la préservation entre tensions et concurrences" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales menaces pesant sur le patrimoine à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les tensions entre protection du patrimoine et développement économique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment la concurrence entre territoires influence les politiques patrimoniales" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les rivalités géopolitiques liées à la reconnaissance et à la valorisation du patrimoine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rôle des organisations internationales dans la régulation des concurrences patrimoniales" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les inégalités entre États face à la préservation du patrimoine" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple de tension ou de concurrence autour d’un patrimoine spécifique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi la préservation du patrimoine est un enjeu de tensions et de concurrences" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T4#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "Identifier, protéger et valoriser le patrimoine : enjeux géopolitiques" },
+  "chapitreTitre": { "S": "La France et le patrimoine, des actions majeures de valorisation et de protection" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales formes de patrimoine présentes sur le territoire français" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le rôle de l’État français dans la protection et la valorisation du patrimoine" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les acteurs institutionnels et locaux impliqués dans les politiques patrimoniales en France" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer comment la législation française encadre la protection du patrimoine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rôle du patrimoine dans l’attractivité culturelle et touristique de la France" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les politiques de valorisation du patrimoine matériel et immatériel en France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les enjeux économiques liés à la mise en valeur du patrimoine français" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Montrer comment la France utilise le patrimoine comme outil de rayonnement international" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les menaces et les défis contemporains pesant sur le patrimoine en France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les tensions entre protection du patrimoine et aménagement du territoire" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier un exemple précis de politique de protection ou de valorisation du patrimoine en France" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi la France constitue un acteur majeur de la protection et de la valorisation du patrimoine" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T5#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "L’environnement, entre exploitation et protection : un enjeu planétaire" },
+  "chapitreTitre": { "S": "Introduction : qu’est-ce que l’environnement ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion d’environnement et en identifier les principales composantes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer environnement naturel, anthropisé et socio-environnemental" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les interactions entre sociétés humaines et environnement" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser l’évolution historique des rapports entre les sociétés et leur environnement" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les principales ressources naturelles et leurs modes d’exploitation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les impacts environnementaux des activités humaines à différentes échelles" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Définir les notions de développement durable et de transition écologique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les principaux enjeux environnementaux contemporains à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser les inégalités environnementales entre territoires et sociétés" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les acteurs impliqués dans la gestion et la protection de l’environnement" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Mettre en évidence les tensions entre exploitation économique et protection de l’environnement" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Rédiger une réponse argumentée montrant pourquoi l’environnement est devenu un enjeu planétaire majeur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T5#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "L’environnement, entre exploitation et protection : un enjeu planétaire" },
+  "chapitreTitre": { "S": "Exploiter, préserver et protéger" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales formes d’exploitation des ressources naturelles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les enjeux économiques liés à l’exploitation des ressources" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les impacts environnementaux de l’exploitation des ressources à différentes échelles" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Définir les notions de préservation et de protection de l’environnement" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les politiques publiques mises en œuvre pour protéger l’environnement" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le rôle des acteurs internationaux dans la protection de l’environnement" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer les logiques d’exploitation, de préservation et de protection de l’environnement" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre en évidence les conflits d’usage liés aux ressources naturelles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier un exemple précis de tension entre exploitation économique et protection environnementale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger une réponse argumentée montrant la difficulté à concilier exploitation et protection de l’environnement" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T5#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "L’environnement, entre exploitation et protection : un enjeu planétaire" },
+  "chapitreTitre": { "S": "Le changement climatique : approches historique et géopolitique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de changement climatique et en identifier les causes principales" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser l’évolution historique des connaissances scientifiques sur le climat" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les responsabilités différenciées des sociétés humaines dans le changement climatique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les impacts environnementaux, économiques et sociaux du changement climatique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les territoires et les populations les plus vulnérables face au changement climatique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Définir les notions d’atténuation et d’adaptation au changement climatique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les enjeux géopolitiques liés aux politiques climatiques internationales" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les acteurs impliqués dans la gouvernance mondiale du climat" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre en évidence les tensions et les inégalités Nord-Sud face au changement climatique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Étudier un exemple de politique climatique ou de négociation internationale" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Rédiger une réponse argumentée montrant pourquoi le changement climatique est un enjeu géopolitique majeur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T5#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "L’environnement, entre exploitation et protection : un enjeu planétaire" },
+  "chapitreTitre": { "S": "Les États-Unis et la question environnementale : tensions et contrastes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principaux enjeux environnementaux auxquels sont confrontés les États-Unis" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la diversité des politiques environnementales à l’échelle fédérale et des États fédérés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment les intérêts économiques influencent les choix environnementaux aux États-Unis" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les acteurs publics, privés et citoyens impliqués dans la question environnementale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les tensions politiques et idéologiques autour des enjeux environnementaux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Montrer les contrastes territoriaux face aux politiques de protection de l’environnement" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple précis de politique ou de conflit environnemental aux États-Unis" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi les États-Unis illustrent les tensions entre exploitation et protection de l’environnement" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T6#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "L’enjeu de la connaissance" },
+  "chapitreTitre": { "S": "Introduction : l'enjeu de la connaissance" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de connaissance et en identifier les différentes formes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer savoirs scientifiques, techniques, empiriques et informationnels" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le rôle de la connaissance dans le développement des sociétés" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les acteurs de la production et de la diffusion des connaissances" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Montrer comment la connaissance devient un facteur de puissance" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les inégalités d’accès à la connaissance à l’échelle mondiale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les enjeux politiques, économiques et culturels liés à la maîtrise de la connaissance" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre en évidence les risques et limites liés à la circulation des connaissances et des informations" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Rédiger une réponse argumentée montrant pourquoi la connaissance constitue un enjeu stratégique majeur dans le monde contemporain" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T6#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "L’enjeu de la connaissance" },
+  "chapitreTitre": { "S": "Produire et diffuser des connaissances" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principaux lieux et acteurs de production des connaissances" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le rôle des universités, des centres de recherche et des entreprises dans la production scientifique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Montrer comment l’innovation scientifique et technologique contribue à la puissance des États" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les modes de diffusion des connaissances à l’ère du numérique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les enjeux économiques et politiques liés à la diffusion des connaissances" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les inégalités d’accès à la production et à la diffusion des savoirs" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple précis de stratégie nationale ou internationale de production et de diffusion des connaissances" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi produire et diffuser des connaissances constitue un enjeu géopolitique majeur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T6#C23" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "L’enjeu de la connaissance" },
+  "chapitreTitre": { "S": "La connaissance, enjeu politique et géopolitique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les liens entre production de connaissances et pouvoir politique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser comment la maîtrise de la connaissance renforce la puissance des États" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les rivalités internationales liées à la recherche scientifique et technologique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer le rôle stratégique de la connaissance dans les domaines militaire, économique et numérique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les enjeux géopolitiques liés au contrôle de l’information et des données" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence les inégalités et les dépendances liées à l’accès aux connaissances" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier un exemple de stratégie nationale ou internationale fondée sur la maîtrise de la connaissance" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi la connaissance constitue un enjeu politique et géopolitique majeur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#HGSP#T6#C24" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Histoire-Géographie, Géopolitique et Sciences politiques" },
+  "themeTitre": { "S": "L’enjeu de la connaissance" },
+  "chapitreTitre": { "S": "Le cyberespace : conflictualité et coopération entre les acteurs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de cyberespace et en identifier les principales caractéristiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les acteurs étatiques et non étatiques présents dans le cyberespace" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les formes de conflictualité propres au cyberespace" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Montrer comment le cyberespace est devenu un nouveau champ de rivalités géopolitiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les enjeux de cybersécurité pour les États et les entreprises" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle du cyberespace dans les stratégies de puissance et de défense" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les formes de coopération internationale dans le cyberespace" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser les limites et les difficultés de la régulation internationale du cyberespace" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier un exemple précis de cyberconflit ou de coopération numérique internationale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger une réponse argumentée montrant en quoi le cyberespace est à la fois un espace de conflictualité et de coopération" } } }
+    ]
+  }
+}
+]

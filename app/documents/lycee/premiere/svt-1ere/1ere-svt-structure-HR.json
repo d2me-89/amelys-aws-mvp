@@ -1,456 +1,486 @@
 [
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T1#C1" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T1#C1" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "La Terre, la vie et l'expression du vivant" },
-  "chapitreTitre": { "S": "L'organisme pluricellulaire, un ensemble de cellules spécialisées" },
+  "chapitreTitre": { "S": "Les divisions cellulaires des eucaryotes" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une cellule" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître une cellule" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les ordres de grandeur de la taille des molécules, cellules, tissus, organes et organismes" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier un organisme unicellulaire et un organisme pluricellulaire" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques d'une matrice extracellulaire" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques d'un tissu" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier molécule, cellule, tissu, organe et organisme" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier cellule procaryote et cellule eucaryote" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Différencier cellule eucaryote animale et cellule eucaryote végétale" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître la spécialisation cellulaire" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les caractéristiques de l'ADN" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les caractéristiques des gènes" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer la taille d’une cellule à partir d’une photographie de microscopie optique ou électronique" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Associer les organites d'une cellule à leur fonction cellulaire" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Schématiser une cellule procaryote" } } },
-      { "M": { "id": { "S": "E16" }, "titre": { "S": "Légender une observation microscopique de cellule procaryote" } } },
-      { "M": { "id": { "S": "E17" }, "titre": { "S": "Schématiser une cellule eucaryote animale" } } },
-      { "M": { "id": { "S": "E18" }, "titre": { "S": "Légender une observation microscopique de cellule eucaryote animale" } } },
-      { "M": { "id": { "S": "E19" }, "titre": { "S": "Schématiser une cellule eucaryote végétale" } } },
-      { "M": { "id": { "S": "E20" }, "titre": { "S": "Légender une observation microscopique de cellule eucaryote végétale" } } },
-      { "M": { "id": { "S": "E21" }, "titre": { "S": "Légender un schéma de cellule" } } },
-      { "M": { "id": { "S": "E22" }, "titre": { "S": "Schématiser la molécule d’ADN" } } },
-      { "M": { "id": { "S": "E23" }, "titre": { "S": "Légender un schéma de molécule d’ADN" } } },
-      { "M": { "id": { "S": "E24" }, "titre": { "S": "Compléter un brin d'ADN à l'aide du brin complémentaire" } } },
-      { "M": { "id": { "S": "E25" }, "titre": { "S": "Légender une observation microscopique de cellule" } } },
-      { "M": { "id": { "S": "E26" }, "titre": { "S": "Expliquer la spécialisation cellulaire" } } },
-      { "M": { "id": { "S": "E27" }, "titre": { "S": "Connaître le lien entre spécialisation cellulaire et expression de l'ADN" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la phase S du cycle cellulaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les étapes de la mitose" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Schématiser la prophase mitotique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Schématiser la métaphase mitotique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Schématiser l'anaphase mitotique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Schématiser la télophase mitotique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Associer la quantité d'ADN d'une cellule à chaque phase du cycle cellulaire" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Associer l'aspect de l'ADN d'une cellule à chaque phase du cycle cellulaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Différencier cellule haploïde et cellule diploïde" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire les chromosomes décrits par une formule chromosomique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer la formule chromosomique à partir d'une description de l'ensemble des chromosomes" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Schématiser la prophase I" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Schématiser la métaphase I" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Schématiser l'anaphase I" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Schématiser la télophase I" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Associer la quantité d'ADN d'une cellule à chaque phase de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Associer l'aspect de l'ADN d'une cellule à chaque phase de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Connaître les phases du cycle cellulaire" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Schématiser la phase S du cycle cellulaire" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Connaître les caractéristiques de la mitose" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Schématiser les étapes de la mitose" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Représenter l'évolution de la quantité d'ADN par cellule au cours du cycle cellulaire" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Représenter l'évolution de l'aspect de l'ADN au cours du cycle cellulaire" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Schématiser les phases de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Connaître les caractéristiques de la méiose" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Connaître les étapes de la méiose I" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Schématiser les étapes de la méiose I" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Connaître les étapes de la méiose II" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Schématiser la prophase II" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Schématiser la métaphase II" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Schématiser l'anaphase II" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Schématiser la télophase II" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Schématiser les étapes de la méiose II" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Représenter l'évolution de la quantité d'ADN par cellule au cours de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Représenter l'évolution de l'aspect de l'ADN au cours de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E36" }, "titre": { "S": "Déterminer la phase d'une mitose à l'aide de l'observation microscopique d'une cellule eucaryote en division" } } },
+      { "M": { "id": { "S": "E37" }, "titre": { "S": "Déterminer la phase d'une mitose à l'aide d'une représentation du taux d'ADN" } } },
+      { "M": { "id": { "S": "E38" }, "titre": { "S": "Déterminer la phase d'une méiose à l'aide d'un caryotype" } } },
+      { "M": { "id": { "S": "E39" }, "titre": { "S": "Déterminer la phase d'une méiose à l'aide d'une représentation du taux d'ADN" } } },
+      { "M": { "id": { "S": "E40" }, "titre": { "S": "Établir un schéma bilan du cycle cellulaire" } } },
+      { "M": { "id": { "S": "E41" }, "titre": { "S": "Établir un schéma bilan de la reproduction sexuée" } } },
+      { "M": { "id": { "S": "E42" }, "titre": { "S": "Type BAC : Expliquer le rôle de la mitose dans le cycle cellulaire" } } },
+      { "M": { "id": { "S": "E43" }, "titre": { "S": "Type BAC : Expliquer le rôle de la méiose dans le cycle cellulaire" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T1#C2" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T1#C2" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "La Terre, la vie et l'expression du vivant" },
-  "chapitreTitre": { "S": "Le métabolisme des cellules" },
+  "chapitreTitre": { "S": "La réplication de l'ADN" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la respiration cellulaire" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la photosynthèse" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier hétérotrophie et autotrophie" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du métabolisme" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques d'une voie métabolique" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le rôle des enzymes dans le métabolisme" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter le schéma de la respiration cellulaire" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Compléter un schéma de la photosynthèse" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter un schéma du flux de matière et d'énergie par photosynthèse et respiration cellulaire au sein de la biosphère" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître le rôle des organites dans le métabolisme" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer les voies métaboliques activées à l'aide des variations de quantité des espèces chimiques concernées" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer la respiration cellulaire" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Étudier la photosynthèse au sein d'un organisme à l'aide de documents" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Questions sur documents type bac : Étudier la respiration cellulaire au sein d'un organisme à l'aide de documents" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Questions sur documents type bac : Décrire le métabolisme d'un organisme à l'aide de documents" } } },
-      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BAC : Expliquer la photosynthèse" } } },
-      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC : Expliquer le fonctionnement du métabolisme d'un organisme" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la réplication de l'ADN" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Schématiser la molécule d’ADN" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter un brin d'ADN à l'aide du brin complémentaire" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Illustrer le principe de réplication semi-conservative" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Schématiser l'initiation de la réplication de l'ADN" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Ordonner les étapes du mécanisme de réplication de l'ADN" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Schématiser l'œil de réplication lors de la réplication de l'ADN" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Légender une observation microscopique de l'œil de réplication lors de la réplication de l'ADN" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer la longueur totale d’une molécule d’ADN dans un chromosome" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Compléter des brins d'ADN néosynthétisés à partir des brins anciens selon le principe de réplication" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer s'il y a eu une mutation lors d'une réplication de l'ADN à l'aide des brins finaux" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer la vitesse et la durée de la réplication chez un eucaryote" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer la durée d'une étape de PCR" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer le nombre de copies obtenues après un cycle de PCR" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Bac – Raisonnement sur documents : Étudier le mécanisme de réplication semi-conservatif à l'aide de documents" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Bac – Raisonnement sur documents : Étudier une réaction de PCR à l'aide de documents" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T1#C3" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T1#C3" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "La Terre, la vie et l'expression du vivant" },
-  "chapitreTitre": { "S": "Les échelles de la biodiversité" },
+  "chapitreTitre": { "S": "Mutations de l’ADN et variabilité génétique" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition de la biodiversité" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier les échelles de la biodiversité" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'un écosystème" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la définition d'une espèce" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier un allèle et un gène" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire les individus d'une espèce à l'aide de documents" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la proportion d’individus d’un phénotype donné dans une population" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire les variations des proportions d'individus d'un phénotype donné" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BAC : Expliquer l'apparition de la diversité des individus d'une espèce" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'ADN polymérase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les étapes de réparation de l'ADN par les enzymes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les trois natures de mutations ponctuelles" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'un allèle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les possibles erreurs d'appariement" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les principaux agents mutagènes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les possibles mutations ponctuelles" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Schématiser la réparation de l'ADN par les enzymes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la nature d'un exemple de mutation ponctuelle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Bac – Raisonnement sur documents : Étudier l'effet d'un agent mutagène à l'aide de documents" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Bac – Raisonnement sur documents : Expliquer la source des mutations pouvant modifier l'ADN" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC : Expliquer la réparation de l'ADN par les enzymes" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC : Expliquer les conséquences des mutations" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T1#C4" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T1#C4" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "La Terre, la vie et l'expression du vivant" },
-  "chapitreTitre": { "S": "L'évolution de la biodiversité au cours du temps" },
+  "chapitreTitre": { "S": "L’histoire humaine lue dans son génome" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une crise biologique" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer une crise biologique à l'aide de l'évolution de la biodiversité au cours du temps" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les causes de la crise Crétacé-Paléocène" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les conséquences de la crise Crétacé-Paléocène" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les causes de la crise biologique actuelle" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les conséquences de la crise biologique actuelle" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BAC : Décrire la crise Crétacé-Paléocène" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BAC : Décrire la crise biologique actuelle" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Questions sur documents type bac : Étudier une crise biologique à l'aide de documents" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du génome" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer le nombre de générations humaines successives en mille, dix mille et cent mille ans" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le nombre théorique d’ancêtres d'un individu en mille, dix mille et cent mille ans" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Questions sur documents type bac : Étudier des documents montrant comment a été déterminée la première séquence du génome humain" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Type BAC : Expliquer l'impact des relations de parenté sur le génome" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Type BAC : Expliquer l'influence de la sélection naturelle sur le génome humain" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T1#C5" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T1#C5" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "La Terre, la vie et l'expression du vivant" },
-  "chapitreTitre": { "S": "Les causes de l’évolution de la biodiversité au cours du temps" },
+  "chapitreTitre": { "S": "L’expression du patrimoine génétique" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le principe de la sélection naturelle" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le principe de la dérive génétique" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Réaliser des calculs statistiques sur une population soumise à une évolution génétique" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le principe de la spéciation" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Questions sur documents type bac : Étudier une situation de sélection naturelle à l'aide de documents" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Questions sur documents type bac : Expliquer l'évolution d'une espèce à l'aide des théories de l'évolution" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BAC : Expliquer la sélection naturelle" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BAC : Expliquer la dérive génétique" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BAC : Expliquer la spéciation" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du génotype" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du phénotype" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la transcription" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de l'ARN pré-messager" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques de l'ARN messager" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques de l'initiation de la traduction" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques de l'élongation de la traduction" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques de la terminaison de la traduction" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les caractéristiques de la traduction" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les caractéristiques de l'épissage alternatif" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer l'acide aminé codé par un codon" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comparer le nombre de combinaisons possibles de séquences de n nucléotides avec le nombre de combinaisons possibles de séquences de n acides aminés" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Schématiser une situation de transcription" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les phases de la traduction" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Schématiser l'initiation de la traduction" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Schématiser l'élongation de la traduction" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Schématiser la terminaison de la traduction" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Calculer le nombre de combinaisons possibles de séquences de n nucléotides lorsque n grandit" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Calculer le nombre de combinaisons possibles de séquences de n acides aminés lorsque n grandit" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer le brin d'ARN pré-messager dans une situation de transcription" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BAC : Expliquer l'expression du patrimoine génétique du génotype au phénotype" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T1#C6" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T1#C6" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "La Terre, la vie et l'expression du vivant" },
-  "chapitreTitre": { "S": "Communication intraspécifique et sélection sexuelle" },
+  "chapitreTitre": { "S": "Les enzymes, des biomolécules aux propriétés catalytiques" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la communication animale" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les fonctions de la communication animale" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les voies de la communication animale" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la sélection sexuelle" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les modalités de communication lors de la sélection sexuelle" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer la fonction d'un exemple de communication intraspécifique à l'aide de documents" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la voie de communication d'un exemple de communication intraspécifique à l'aide de documents" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BAC : Expliquer le principe de la sélection sexuelle" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le rôle des enzymes dans le métabolisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'une catalyse" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le mode d'action des enzymes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Schématiser le cycle catalytique d'une enzyme" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la spécificité de substrat des enzymes" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la spécificité d'action des enzymes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la vitesse initiale d'une réaction enzymatique à l'aide de la tangente en t0" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BAC : Expliquer le rôle des enzymes dans la différenciation cellulaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Questions sur documents type bac : Étudier l’interaction enzyme-substrat en comparant les vitesses initiales des réactions en faisant varier la concentration en substrat ou en enzyme" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T2#C7" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T1#C7" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "La Terre, la vie et l'expression du vivant" },
+  "chapitreTitre": { "S": "La structure du globe terrestre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la croûte terrestre et sa bimodalité" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la croûte continentale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'un séisme et des ondes sismiques formées" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du Moho" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des zones d'ombre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques de la LVZ" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques du gradient géothermique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Légender une observation microscopique de basalte" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Schématiser un basalte" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Légender une observation microscopique de gabbro" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Schématiser un gabbro" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Légender une observation microscopique de granite" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Schématiser un granite" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Schématiser la naissance et la propagation des ondes sismiques" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Légender les couches de la structure du globe terrestre" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les mécanismes de transfert d'énergie thermique" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître les anomalies par rapport au modèle PREM" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Questions sur documents type bac : Analyser des courbes d’augmentation de la température en fonction de la profondeur" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Questions sur documents type bac : Montrer l’existence d’hétérogénéités thermiques dans le manteau à partir de données de tomographies sismiques" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BAC : Expliquer l'apport des études thermiques à la connaissance de la structure de la Terre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "La Terre, la vie et l'expression du vivant" },
+  "chapitreTitre": { "S": "La dynamique de la lithosphère" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une plaque lithosphérique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le principe de l'étude des anomalies magnétiques" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le lien entre alignement volcanique et plaques lithosphériques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la géodésie spatiale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques de la tectonique des plaques" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques d'une dorsale océanique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier dorsale lente et dorsale rapide" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques de la subduction" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les techniques de datation des sédiments océaniques et du plancher basaltique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Schématiser le principe de la tectonique des plaques" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître la composition de la lithosphère océanique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les phases de la production de roches magmatiques" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Schématiser la dynamique en zone de divergence" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Schématiser le phénomène de subsidence thermique" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Schématiser la dynamique en zone de convergence" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître l'influence de la subduction dans la tectonique des plaques" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître les conséquences d'une collision continentale" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Questions sur documents type bac : Étudier des données magnétiques ou sédimentaires permettant d’établir la divergence de part et d’autre d'une dorsale" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BAC : Expliquer l'hydratation et le métamorphisme en zone de divergence" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BAC : Expliquer la dynamique en zone de divergence" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BAC : Expliquer le métamorphisme de subduction" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BAC : Expliquer la dynamique en zone de convergence" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T2#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "Enjeux contemporains de la planète" },
-  "chapitreTitre": { "S": "L’érosion, processus et conséquences" },
+  "chapitreTitre": { "S": "Les écosystèmes : des interactions dynamiques entre les êtres vivants et entre eux et leur milieu" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'altération des roches par l'eau" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer la nature de la roche et sa résistance à l’altération" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Associer l’intensité de l’altération à l’importance du relief et aux conditions climatiques" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de l'érosion des roches" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les marqueurs de la vitesse d'aplanissement d'une montagne" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les facteurs impliqués dans l'altération des roches" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Schématiser l’action de l'eau sur les roches" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier le facteur d'altération des roches dans une situation donnée" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier le facteur de transport des particules rocheuses dans une situation donnée" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer le comportement d'une particule détritique à l'aide d'un graphique reliant la vitesse du courant et la taille des particules" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer le phénomène d'érosion" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer le parcours d’une particule détritique de sa roche-mère à son lieu de dépôt" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC : Expliquer les conséquences de l'action de l'eau sur les reliefs" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Questions sur documents type bac : Étudier une situation d'altération des roches à l'aide de documents" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Questions sur documents type bac : Étudier une situation d'érosion des roches à l'aide de documents" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un écosystème" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des interactions interspécifiques" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'un cycle biogéochimique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les flux principaux de matière et d'énergie au sein d'un écosystème" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Schématiser le cycle du carbone" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Questions sur documents type bac : Représenter les flux de matière et d'énergie au sein d'un écosystème à l'aide de documents" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BAC : Expliquer les flux dans les cycles biogéochimiques" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BAC : Expliquer la dynamique des écosystèmes" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T2#C8" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T2#C10" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "Enjeux contemporains de la planète" },
-  "chapitreTitre": { "S": "Sédimentation et milieux de sédimentation" },
+  "chapitreTitre": { "S": "L’humanité et les écosystèmes : les services écosystémiques et leur gestion" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des différentes catégories de roches sédimentaires détritiques" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'un milieu de sédimentation" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les facteurs influant sur la nature de la roche sédimentaire formée" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du phénomène de subsidence" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques du phénomène de diagénèse" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier conglomérat, grès et argile à l'aide de photographies" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier conglomérat, grès et argile à l'aide d'observations microscopiques" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître le processus de formation des roches sédimentaires" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Légender un schéma sur la sédimentation et la subsidence" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Légender un schéma de diagénèse" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Légender un schéma bilan sur la formation des roches sédimentaires" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer le processus de sédimentation" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC : Expliquer le phénomène de subsidence" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC : Expliquer le phénomène de diagénèse" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC : Expliquer l'influence des particules détritiques et du milieu de sédimentation sur la nature de la roche formée" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du commensalisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du parasitisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les services écosystémiques rendus par les écosystèmes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la nature d'une interaction entre l'être humain et une autre espèce" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Questions sur documents type bac : Étudier un exemple de parasitisme à l'aide de documents" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Questions sur documents type bac : Représenter un réseau d’interactions de l’espèce humaine avec un écosystème à l'aide de documents" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BAC : Expliquer les interactions de l'être humain avec la biocénose" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Type BAC : Expliquer les impacts négatifs de l'être humain sur les écosystèmes" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T2#C9" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T3#C11" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
-  "matiere": { "S": "SVT" },
-  "themeTitre": { "S": "Enjeux contemporains de la planète" },
-  "chapitreTitre": { "S": "Érosion et activité humaine" },
-  "exercices": {
-    "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les matériaux issus de l'érosion et de la sédimentation" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la notion de risque géologique" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les activités humaines favorisant l'érosion" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier l'aléa et l'enjeu dans une situation de risque géologique" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les activités humaines réduisant le risque lié à l'érosion" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer l'impact de l'homme sur le phénomène d'érosion" } } }
-    ]
-  }
-}
-,
-{
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T2#C10" },
-  "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
-  "matiere": { "S": "SVT" },
-  "themeTitre": { "S": "Enjeux contemporains de la planète" },
-  "chapitreTitre": { "S": "Structure et fonctionnement des agrosystèmes" },
-  "exercices": {
-    "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un agrosystème" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la biomasse" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier rendement agricole et rendement écologique" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les différents modèles d'agrosystèmes" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les facteurs déterminant l'organisation d'un agrosystème" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les éléments constitutifs d'un agrosystème à l'aide de documents" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les interactions entre les éléments d'un agrosystème à l'aide de documents" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les entrées et les sorties d'un agrosystème à l'aide de documents" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer un rendement agricole à l'aide d'une base de données" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer un rendement écologique à l'aide d'une base de données" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer le modèle d'un agrosystème à l'aide de documents" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC : Expliquer l'importance et le fonctionnement des agrosystèmes" } } }
-    ]
-  }
-}
-,
-{
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T2#C11" },
-  "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
-  "matiere": { "S": "SVT" },
-  "themeTitre": { "S": "Enjeux contemporains de la planète" },
-  "chapitreTitre": { "S": "Caractéristiques des sols et production de biomasse" },
-  "exercices": {
-    "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les couches constitutives d'un sol" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la biomasse" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier matière minérale et matière organique" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'un réseau trophique" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques du cycle de la matière" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les étapes de la formation d'un sol" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Lire et interpréter un réseau trophique" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer l'organisation et la composition d'un sol" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer le mécanisme du recyclage de la matière dans un sol" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BAC : Expliquer la formation d'un sol" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BAC : Expliquer l'importance des éléments minéraux du sol dans la production de biomasse" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC : Expliquer le rôle des sols dans la biosphère" } } }
-    ]
-  }
-}
-,
-{
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T2#C12" },
-  "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
-  "matiere": { "S": "SVT" },
-  "themeTitre": { "S": "Enjeux contemporains de la planète" },
-  "chapitreTitre": { "S": "Vers une gestion durable des agrosystèmes" },
-  "exercices": {
-    "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les raisons du développement de l'agriculture intensive" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les impacts environnementaux de l'agriculture intensive" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les différents modèles de l'agriculture durable" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les impacts environnementaux d'un agrosystème à l'aide de documents" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer les causes et les conséquences de l’agriculture intensive" } } }
-    ]
-  }
-}
-,
-{
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T3#C13" },
-  "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "Corps humain et santé" },
-  "chapitreTitre": { "S": "Corps humain : de la fécondation à la puberté" },
+  "chapitreTitre": { "S": "Mutations et santé" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractères sexuels féminins" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractères sexuels masculins" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la structure et le mode de fonctionnement de l'appareil génital féminin" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la structure et le mode de fonctionnement de l'appareil génital masculin" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques du gène SRY" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier les caractères sexuels secondaires féminins" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier les caractères sexuels secondaires masculins" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques des hormones sexuelles" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les différents types de follicules" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Différencier les types de follicules sur un schéma" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Différencier les types de follicules sur une observation microscopique" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Légender un schéma de l'appareil génital féminin" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Légender un schéma de l'appareil génital masculin" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Légender un schéma de l'appareil génital indifférencié" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Schématiser la différenciation de l'appareil génital" } } },
-      { "M": { "id": { "S": "E16" }, "titre": { "S": "Schématiser le follicule de De Graaf" } } },
-      { "M": { "id": { "S": "E17" }, "titre": { "S": "Légender une coupe d'ovaire observée au microscope" } } },
-      { "M": { "id": { "S": "E18" }, "titre": { "S": "Schématiser la production d'ovocytes" } } },
-      { "M": { "id": { "S": "E19" }, "titre": { "S": "Schématiser un tube séminifère" } } },
-      { "M": { "id": { "S": "E20" }, "titre": { "S": "Légender une coupe de tube séminifère observée au microscope" } } },
-      { "M": { "id": { "S": "E21" }, "titre": { "S": "Schématiser la production de spermatozoïdes" } } },
-      { "M": { "id": { "S": "E22" }, "titre": { "S": "Type BAC : Expliquer la différenciation de l’appareil génital" } } },
-      { "M": { "id": { "S": "E23" }, "titre": { "S": "Type BAC : Expliquer le processus de production d'ovocytes" } } },
-      { "M": { "id": { "S": "E24" }, "titre": { "S": "Type BAC : Expliquer le processus de production de spermatozoïdes" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les origines des mutations" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'une maladie monogénique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la transmission selon le mode autosomique récessif" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la transmission selon le mode autosomique dominant" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques du risque génétique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques de la thérapie génique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Lire un arbre généalogique en génétique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Établir un arbre généalogique en génétique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BAC : Expliquer l'existence des maladies génétiques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Type BAC : Expliquer les modes de transmission d'une maladie monogénique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Questions sur documents type bac : Étudier une maladie se transmettant selon le mode autosomique récessif" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Questions sur documents type bac : Étudier une maladie se transmettant selon le mode autosomique dominant" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T3#C14" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T3#C12" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "Corps humain et santé" },
-  "chapitreTitre": { "S": "Cerveau, plaisir, sexualité" },
+  "chapitreTitre": { "S": "Patrimoine génétique et santé" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier identité sexuelle et orientation sexuelle" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Schématiser le système de récompense et de plaisir" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer la relation biologique entre le cerveau et le plaisir sexuel" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'hyperglycémie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du diabète de type II" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'une étude épidémiologique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Schématiser l'action du diabète de type II" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les facteurs environnementaux favorisant le diabète de type II" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les actions permettant de limiter le développement du diabète de type II" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Questions sur documents type bac : Étudier une étude épidémiologique sur le diabète de type II" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T3#C15" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T3#C13" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "Corps humain et santé" },
-  "chapitreTitre": { "S": "Hormones et procréation humaine" },
+  "chapitreTitre": { "S": "Altérations du génome et cancérisation" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une neurohormone" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'une hormone exogène" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de la contraception hormonale masculine" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier les actions de l'hypothalamus, de l'hypophyse et des hormones hypophysaires chez la femme" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier contraception et contragestion" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques des différents modes de contraception" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier les actions de l'hypothalamus, de l'hypophyse et des hormones hypophysaires chez l'homme" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Schématiser le contrôle du fonctionnement testiculaire chez l'homme" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Schématiser le contrôle du fonctionnement ovarien chez la femme" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les causes d'infertilité" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les traitements contre l'infertilité" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Type BAC : Expliquer le fonctionnement de la contraception hormonale masculine" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Type BAC : Expliquer l'action du complexe hypothalamo-hypophysaire sur les gonades féminines" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC : Expliquer le fonctionnement de la contraception hormonale féminine" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC : Expliquer l'assistance médicale à la procréation" } } },
-      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BAC : Expliquer le principe de la fécondation in vitro" } } },
-      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC : Expliquer le rôle des molécules exogènes sur la fonction reproductrice" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un cancer" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du génome" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'une cellule cancéreuse" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'un agent mutagène" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les étapes du processus de cancérisation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Schématiser les étapes du processus de cancérisation" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître l'origine de la cancérisation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les causes de la cancérisation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les mesures de prévention contre les cancers" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les traitements contre les cancers" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Type BAC : Expliquer les conséquences d'un cancer" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Questions sur documents type bac : Étudier les facteurs de cancérisation à l'aide de documents" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T3#C16" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T3#C14" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "Corps humain et santé" },
-  "chapitreTitre": { "S": "Agents pathogènes et maladies vectorielles" },
+  "chapitreTitre": { "S": "Variation génétique bactérienne et résistance aux antibiotiques" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier agent pathogène et hôte" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'une bactérie" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'un virus" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'une cellule eucaryote" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques d'un vecteur biologique" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques des éléments constitutifs d'une maladie" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier les micro-organismes à l'origine des maladies infectieuses" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier épidémie et pandémie" } } },
-      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les caractéristiques d'une endémie" } } },
-      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les caractéristiques des mesures de prophylaxie" } } },
-      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les caractéristiques d'un vaccin" } } },
-      { "M": { "id": { "S": "E12" }, "titre": { "S": "Schématiser le cycle de développement d'un virus" } } },
-      { "M": { "id": { "S": "E13" }, "titre": { "S": "Schématiser le cycle évolutif de Plasmodium falciparum" } } },
-      { "M": { "id": { "S": "E14" }, "titre": { "S": "Différencier les moyens de transmission directe et indirecte" } } },
-      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les mesures de prophylaxie contre le VIH" } } },
-      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les mesures de prophylaxie contre le paludisme" } } },
-      { "M": { "id": { "S": "E17" }, "titre": { "S": "Comprendre la découverte d'une maladie à l'aide de documents" } } },
-      { "M": { "id": { "S": "E18" }, "titre": { "S": "Étudier la dengue à l'aide de documents" } } },
-      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BAC : Expliquer le cycle de développement d'un virus" } } },
-      { "M": { "id": { "S": "E20" }, "titre": { "S": "Type BAC : Expliquer le cycle évolutif d'un parasite" } } },
-      { "M": { "id": { "S": "E21" }, "titre": { "S": "Type BAC : Expliquer la propagation des maladies infectieuses" } } },
-      { "M": { "id": { "S": "E22" }, "titre": { "S": "Questions sur documents type bac : Étudier l'influence du changement climatique sur la distribution géographique des pathogènes à l'aide de documents" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une bactérie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'un antibiotique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de l'antibiorésistance" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le principe d'un antibiogramme" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Schématiser une bactérie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les causes de l'augmentation de l'antibiorésistance" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les résultats d'un antibiogramme" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Questions sur documents type bac : Étudier un protocole expérimental permettant de montrer la sensibilité ou la résistance de micro-organismes à différents antibiotiques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BAC : Expliquer comment lutter contre l'augmentation de l'antibiorésistance" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#2NDE#SVT#T3#C17" },
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T3#C15" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Seconde" },
+  "niveau": { "S": "Première" },
   "matiere": { "S": "SVT" },
   "themeTitre": { "S": "Corps humain et santé" },
-  "chapitreTitre": { "S": "Microbiote humain et santé" },
+  "chapitreTitre": { "S": "L’immunité innée" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un microbiote" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier les micro-organismes constitutifs d'un microbiote" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les facteurs d'évolution du microbiote" } } },
-      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les conséquences d'un dérèglement du microbiote" } } },
-      { "M": { "id": { "S": "E05" }, "titre": { "S": "Type BAC : Expliquer le rôle du microbiote intestinal dans la digestion" } } },
-      { "M": { "id": { "S": "E06" }, "titre": { "S": "Type BAC : Expliquer le rôle du microbiote intestinal dans l'immunité" } } },
-      { "M": { "id": { "S": "E07" }, "titre": { "S": "Type BAC : Expliquer les conséquences possibles du déséquilibre du microbiote" } } },
-      { "M": { "id": { "S": "E08" }, "titre": { "S": "Questions sur documents type bac : Étudier l'implication du microbiote dans une pathologie à l'aide de documents" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les barrières naturelles du corps humain" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les cellules de l'immunité innée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les organes de l'immunité innée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les symptômes de la réaction inflammatoire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le fonctionnement des cellules sentinelles dans la réaction inflammatoire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Schématiser la phagocytose" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Questions sur documents type bac : Étudier les cellules et les molécules impliquées dans la réaction inflammatoire aiguë à l'aide de documents" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Questions sur documents type bac : Étudier les effets de médicaments antalgiques et anti-inflammatoires à l'aide de documents" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BAC : Expliquer le déroulement de la réaction inflammatoire" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T3#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Corps humain et santé" },
+  "chapitreTitre": { "S": "L’immunité adaptative" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des cellules présentatrices de l'antigène" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du complexe majeur d'histocompatibilité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des lymphocytes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques des anticorps" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des lymphocytes T CD4" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques des lymphocytes B" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques des lymphocytes T CD8" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques du VIH" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Schématiser la présentation d'un antigène par un macrophage" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les ordres de grandeur de la diversité des récepteurs membranaires" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Schématiser un anticorps" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Schématiser la maturation des lymphocytes B" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les phases d'intervention des lymphocytes T CD4" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les phases d'intervention des lymphocytes B" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les phases d'intervention des lymphocytes T CD8" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Schématiser le cycle du VIH" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Type BAC : Expliquer la diversité des récepteurs membranaires" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Type BAC : Expliquer l'intervention des lymphocytes T CD8" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Type BAC : Expliquer le déroulement de la réponse immunitaire adaptative" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Questions sur documents type bac : Étudier une expérience mettant en évidence les anticorps lors de la réaction immunitaire" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Questions sur documents type bac : Étudier le rôle des cellules et des molécules intervenant dans l'immunité adaptative à l'aide de documents" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Questions sur documents type bac : Étudier une expérience caractérisant la spécificité des molécules intervenant dans l'immunité adaptative" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1ERE#SVT#T3#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "SVT" },
+  "themeTitre": { "S": "Corps humain et santé" },
+  "chapitreTitre": { "S": "L’utilisation de l’immunité adaptative en santé humaine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la mémoire immunitaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques d'un vaccin" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de l'adjuvant d'un vaccin" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la couverture vaccinale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques d'un porteur sain" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques de l'immunothérapie" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques des anticorps monoclonaux" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Compléter un schéma de l'évolution temporelle de la quantité d'anticorps" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BAC : Expliquer le fonctionnement des vaccins thérapeutiques contre des cancers" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Questions sur documents type bac : Étudier l'obtention d'anticorps monoclonaux à l'aide de documents" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Questions sur documents type bac : Étudier l'utilisation d'anticorps monoclonaux dans le traitement de cancers à l'aide de documents" } } }
     ]
   }
 }

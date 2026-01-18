@@ -1,0 +1,435 @@
+[
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "L'art" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître l'étymologie du mot art" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier art et technique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la notion de permanence des œuvres d'art" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l'unicité de l'œuvre d'art" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre la reproductibilité de l'œuvre d'art" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier le beau et l'agréable" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la construction sociale de la notion de beauté" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier l'artiste et l'artisan" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre le génie de l'artiste" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre la remise en question du mythe du génie de l'artiste" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître la définition de l'art" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre la singularité de l'œuvre d'art et les principes du beau" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre le statut de l'artiste" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "Le bonheur" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre la difficulté de définir le bonheur" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier le désir et le bonheur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le caractère illimité du désir" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre que le désir mène à la souffrance" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre l'impossibilité d'atteindre le bonheur par la satisfaction de tous les désirs" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la notion de bonheur épicurien" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître la notion de bonheur stoïcien" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le désir comme force de l'homme" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la joie comme affirmation du bonheur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre le bonheur comme tentative de satisfaire tous les désirs" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les conceptions antiques du bonheur" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre le désir comme force de l'homme et l'affirmation de la joie menant au bonheur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La conscience" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier la conscience psychologique et la conscience morale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l'expérience du cogito" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre en quoi les différentes représentations de soi sont unies par la conscience" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les critiques de la conscience de soi" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre l'intentionnalité de la conscience de soi" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l'importance du rapport à autrui pour la conscience de soi" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre l'influence de la société sur la conscience de soi" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre la conscience morale comme instinct" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre l'universalité de la conscience morale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître la notion de conscience de soi" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la relation entre conscience de soi et le monde extérieur" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la notion de conscience morale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "Le devoir" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier devoir moral et devoir juridique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la diversité des sources du devoir" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre comment l'usage de la raison mène au respect du devoir moral" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l'importance de la bonne volonté pour le devoir moral" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les trois formulations de l'impératif catégorique de Kant" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l'importance du résultat dans le respect du devoir moral" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les autres raisons de respecter le devoir moral" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la philosophie utilitariste" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre que le devoir moral permet d'agir contre la banalité du mal" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que le devoir moral permet de se libérer des déterminismes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître la notion de devoir" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les caractéristiques de la morale kantienne" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les critiques de la morale kantienne" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre que le devoir moral permet d'agir contre la banalité du mal et de se libérer des déterminismes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "L'État" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la notion de société naturelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l'idée de contrat social" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre en quoi la vie sociale constitue un paradoxe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre en quoi l'État peut apparaître comme une forme d'oppression de la société" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la notion de totalitarisme" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la notion de société ouverte et de libéralisme" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les sociétés rejetant l'État" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la société avant la création de l'État" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les rapports complexes entre société et État" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "L'inconscient" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les perceptions échappant au sujet" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier pensées conscientes et inconscientes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les modes d'existence des pensées inconscientes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre en quoi l'invention de la psychanalyse constitue une révolution" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la structure de l'appareil psychique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les manifestations de l'inconscient" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre l'appropriation par le sujet de son inconscient" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les critiques portant sur le caractère scientifique du concept d'inconscient" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre les critiques portant sur le caractère moral du concept d'inconscient" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les marques de l'inconscient" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître le concept d'inconscient freudien" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les critiques du concept d'inconscient" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La justice" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre l'approche hobbesienne de la justice" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la justice comme recherche de l'ordre idéal" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la vision marxienne de la révolution" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le principe de désobéissance aux lois injustes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le positivisme juridique de Kelsen" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre la vision pascalienne de la justice" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la vision nietzschéenne de la justice" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la critique du système pénal par Michel Foucault" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les notions d'égalité et d'équité" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre le lien entre égalité et justice" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre l'apport de la notion d'équité" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître la notion de libéralisme" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre le libéralisme égalitaire de John Rawls" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Comprendre le besoin de justice comme la nécessité d'un ordre social" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Comprendre les liens entre justice et droit" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Comprendre les principes au fondement de la justice" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "Le langage" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition du langage" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les différences entre les signes du langage et les signaux animaux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le langage comme expression de la raison de l'homme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le langage comme support de la pensée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la notion d'ineffable" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les actes de langage" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les conséquences de la maîtrise du langage" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre en quoi le langage peut être un marqueur social" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre en quoi le langage peut être un outil de domination" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que le langage est le propre de l'homme" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre le rôle du langage dans l'élaboration de la pensée humaine" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre le pouvoir du langage" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La liberté" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition de la liberté humaine" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre les obstacles à l'idée de liberté" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la pensée de Spinoza sur la liberté" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la notion d'acte gratuit" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la notion de libre arbitre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la notion d'acte libre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître la notion de liberté politique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la notion de responsabilité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître la notion d'indépendance" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître la notion d'autonomie" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la liberté humaine et ses limites" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les moyens par lesquels l'homme exerce sa liberté individuelle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les moyens par lesquels l'homme exerce sa liberté en société" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La nature" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes définitions de la nature" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre l'étude scientifique et rationnelle de la nature" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la perception de la finalité de la nature" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l'impact des limites de la compréhension humaine de la nature sur sa perception" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre la notion d'épistémè classique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre en quoi la nature peut être conçue comme ordonnée ou comme obéissant à des lois" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la nature humaine comme une tentative de remontée vers les origines" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre la double redéfinition des concepts de nature et de finalité chez Kant" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre l'art comme moyen de rendre compte de la nature" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre comment rendre rationnellement compte de la nature" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la compréhension humaine de la nature" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre la possibilité d'un accès humain à la nature en tant que telle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La raison" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes définitions de la raison" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comparer la raison humaine à celle des autres animaux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les failles et les limites de la raison humaine" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la nécessité d'une méthode pour chercher la vérité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le rôle du doute comme élément central de la méthode pour chercher la vérité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre comment le versant moral de la raison guide l'action humaine" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la destruction du raisonnable par le rationnel" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre que la raison est une valeur à interroger, réinterroger et dépasser" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la raison comme orgueil de l'être humain" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre l'importance d'un apprentissage de la raison" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la raison comme ce qui est raisonnable" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La religion" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition de la religion" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du fait religieux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les différentes positions sur le fait religieux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier foi et raison" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre en quoi foi et raison expriment une même exigence" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre en quoi la raison peut éclairer la religion" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre que la religion peut donner du sens à la mort" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre que la religion peut permettre la création d'un lien social" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre que la religion peut offrir une réponse à la dureté de la vie" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître le rapport de l'homme à la religion" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les liens entre foi et raison" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les raisons de l'universalité de la religion" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La science" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier science et opinion" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de l'empirisme logique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des paradigmes scientifiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la notion de réfutabilité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques du raisonnement par induction" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques de la théorie et de l'expérience" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre en quoi l'objet de la science est de connaître et d'agir sur le réel" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre en quoi l'objet de la science est de décrire le réel" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre en quoi l'objet de la science est de créer des modèles et des instruments" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre les limites de la science" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les caractéristiques générales de la science" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les caractéristiques du raisonnement par induction, de la théorie et de l'expérience" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre l'ambition scientifique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La technique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition de la technique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la création de l'objet technique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre en quoi la technique permet de maîtriser l'environnement" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la foi dans le progrès technique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre en quoi le progrès technique peut être un projet narcissique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les dangers humains du règne technique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les dangers politiques du règne technique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre que la technique est une activité proprement humaine" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la remise en cause du progrès technique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "Le temps" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes représentations du temps" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier le temps objectif et le temps subjectif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la notion de durée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la conscience de la mort" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre la crainte de la mort" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître la nature du temps" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre l'irréversibilité du temps comme rapport de l'homme à son existence" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "Le travail" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la définition du travail" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre l'évolution historique et sociale du travail" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre en quoi le travail permet à l'homme de se former d'un point de vue moral" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre en quoi le travail permet à l'homme de se former à vivre avec les autres" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le travail comme moyen d'accéder à la liberté" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le travail comme un possible obstacle à la liberté" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre les effets du travail sur l'homme" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les liens entre travail et liberté" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#PHILO#T1#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Philosophie" },
+  "themeTitre": { "S": "Les grandes questions philosophiques" },
+  "chapitreTitre": { "S": "La vérité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes définitions de la vérité" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la notion de scepticisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le mythe de la caverne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier le sophiste et le philosophe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre les normes du vrai" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le mensonge comme faute morale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la réévaluation de la condamnation morale du mensonge" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le dépassement de la valeur vérité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre comment accéder à la vérité" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Différencier le discours vrai et la vérité comme effet de langage" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre la question du mensonge" } } }
+    ]
+  }
+}
+]

@@ -1,0 +1,439 @@
+[
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Thème introductif" },
+  "chapitreTitre": { "S": "Comment les économistes, les sociologues et les politistes raisonnent-ils et travaillent-ils ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les étapes de la démarche des sciences sociales" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Caractériser les concepts fondamentaux de l’économie, de la sociologie et des sciences politiques" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer statistique économétrique, statistique sociale et sondage" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier corrélation positive et corrélation négative" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Distinguer corrélation et causalité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier hypothèse et expérience dans une démarche scientifique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer démarche qualitative et démarche quantitative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Distinguer notion, concept, modèle et théorie" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les grandes questions des sciences sociales" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer le rôle de la modélisation en économie" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer le rôle des enquêtes qualitatives en sociologie" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer le rôle des enquêtes quantitatives en sciences politiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T2#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Science économique" },
+  "chapitreTitre": { "S": "Comment crée-t-on des richesses et comment les mesure-t-on ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier bien et service" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier bien durable et bien non durable" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier l’utilité d’un bien ou d’un service" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Caractériser les formes de production" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier production marchande et production non marchande" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier entreprise, administration publique et association" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier entreprise privée et entreprise publique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Lire le poids relatif des différents secteurs" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Lire un pourcentage de répartition entre types d’entreprises" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comparer des combinaisons productives" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer un coût marginal de production" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les apports du progrès technique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Différencier les types d’innovations" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Différencier valeur ajoutée et profit brut" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer la répartition du profit brut" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les grandes évolutions de la croissance mondiale" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Expliquer les limites du produit intérieur brut" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Caractériser les biens" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Caractériser les services" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Caractériser les organisations productives" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Identifier les statuts juridiques d’une entreprise" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Déterminer les consommations intermédiaires" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Différencier facteur travail et facteur capital" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Différencier facteurs substituables et complémentaires" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Différencier coût fixe et coût variable" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Calculer un coût de production" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Déterminer une combinaison productive" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Calculer un coût moyen de production" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Calculer la productivité" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Calculer le chiffre d’affaires" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Calculer la valeur ajoutée" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Calculer la répartition de la valeur ajoutée" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Définir le produit intérieur brut" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Calculer le taux de variation du PIB" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Comparer entreprise, administration publique et association à partir de documents" } } },
+      { "M": { "id": { "S": "E36" }, "titre": { "S": "Comparer entreprise privée et entreprise publique" } } },
+      { "M": { "id": { "S": "E37" }, "titre": { "S": "Interpréter le poids relatif des secteurs" } } },
+      { "M": { "id": { "S": "E38" }, "titre": { "S": "Interpréter la répartition entre types d’entreprises" } } },
+      { "M": { "id": { "S": "E39" }, "titre": { "S": "Décrire un bien ou un service" } } },
+      { "M": { "id": { "S": "E40" }, "titre": { "S": "Analyser l’optimisation d’une production" } } },
+      { "M": { "id": { "S": "E41" }, "titre": { "S": "Expliquer le rôle des innovations et du progrès technique" } } },
+      { "M": { "id": { "S": "E42" }, "titre": { "S": "Expliquer les limites du progrès technique" } } },
+      { "M": { "id": { "S": "E43" }, "titre": { "S": "Expliquer les limites écologiques de la croissance" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T2#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Science économique" },
+  "chapitreTitre": { "S": "Comment se forment les prix sur un marché ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’un marché" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier marché réel et marché virtuel" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les facteurs de variation de la demande" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Représenter graphiquement une variation de la demande" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les facteurs de variation de l’offre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Représenter graphiquement une variation de l’offre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer la concurrence entre les marchés" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier marché au comptant et marché à terme" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Distinguer l’offre et la demande sur un marché" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les biens substituables à un bien donné" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer le type d’un bien ou d’un service" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer une variation graphique de la demande" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer une variation graphique de l’offre" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Décrire l’effet d’une taxe sur un marché" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Décrire l’effet d’une subvention sur un marché" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer un indice boursier" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Expliquer le rôle du marché dans l’allocation des ressources" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Analyser les facteurs de variation de l’offre et de la demande dans une situation donnée" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Expliquer le processus de variation de l’offre et de la demande" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Expliquer les limites du modèle de l’offre et de la demande" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Représenter graphiquement l’effet d’une taxe" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Représenter graphiquement l’effet d’une subvention" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T3#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sociologie et science politique" },
+  "chapitreTitre": { "S": "Comment devenons-nous des acteurs sociaux ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier norme et valeur" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques de la socialisation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Caractériser un processus d’intériorisation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier socialisation primaire et socialisation secondaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les agents de la socialisation primaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier socialisation familiale et socialisation scolaire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier socialisation scolaire verticale et socialisation scolaire horizontale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les agents de la socialisation secondaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Caractériser les différents statuts sociaux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Caractériser la socialisation différenciée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Différencier imitation, interaction et inculcation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les caractéristiques d’un groupe de pairs" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier l’agent d’une socialisation à partir d’une situation" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Associer rôle social et identité sociale" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Analyser un tableau statistique complexe sur la répartition des tâches ou des métiers" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Expliquer le rôle de la famille et de l’école dans la socialisation" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Expliquer le rôle des médias dans la socialisation" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier une socialisation genrée à partir d’exemples simples" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Exploiter un tableau statistique simple sur la socialisation différenciée" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Identifier une situation de reproduction sociale à partir d’exemples simples" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Exploiter un tableau statistique simple sur la socialisation genrée" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Expliquer le rôle de la reproduction sociale dans les inégalités" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Analyser un tableau statistique complexe sur les comportements culturels" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Analyser un tableau statistique complexe sur le niveau d’éducation" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Analyser un tableau statistique complexe sur les loisirs" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Bac - Mobilisation des connaissances : expliquer le processus de socialisation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T3#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Sociologie et science politique" },
+  "chapitreTitre": { "S": "Comment s’organise la vie politique ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier pouvoir exécutif, pouvoir législatif et pouvoir judiciaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les monopoles de l’État" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier les régimes démocratiques" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les principes majeurs d’un régime démocratique représentatif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Caractériser le rôle et les fonctions d’une Constitution" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire l’organisation d’un vote" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les acteurs de la formation de l’opinion politique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Lire un sondage d’opinion" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Interpréter un sondage d’opinion" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Caractériser le pouvoir politique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les caractéristiques d’une république" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Associer les institutions de la Ve République à leur rôle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Différencier les modes de scrutin" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les différentes formes d’engagement politique" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer le rôle des partis politiques" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Expliquer le rôle des institutions politiques" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Analyser le rôle des médias dans la politisation des citoyens" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Expliquer les différentes formes de l’engagement politique" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Analyser les causes et les enjeux de l’abstentionnisme" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Interpréter les résultats d’un vote ou d’une élection" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T4#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Regards croisés" },
+  "chapitreTitre": { "S": "Quelles relations entre le diplôme, l’emploi et le salaire ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier population active, population non active, population employée et population au chômage" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un taux d’emploi" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire un taux d’emploi dans un tableau statistique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier emploi salarié et emploi indépendant" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les caractéristiques d’un emploi précaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer un taux de chômage" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Lire un taux de chômage dans un tableau statistique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer les transformations de l’emploi" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Définir le capital humain" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer un salaire moyen à partir d’une série statistique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer un salaire médian à partir d’une série statistique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Interpréter un taux de chômage dans un tableau statistique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer le lien entre niveau de qualification et niveau d’emploi" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les principaux facteurs déterminant le niveau de rémunération" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer la corrélation entre qualification et rémunération" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Interpréter un tableau statistique sur la relation entre diplôme et salaire" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier l’impact de l’accroissement du niveau des diplômes" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Interpréter un taux d’emploi dans un tableau statistique" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Expliquer les différents types d’emplois" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Expliquer les sources et les méthodes de mesure du chômage" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Interpréter un tableau statistique sur la relation entre diplôme et emploi" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Expliquer les avantages et les inconvénients de la fixation d’un salaire minimum" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment lire un tableau statistique à double entrée ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les variables et les modalités d’un tableau statistique à double entrée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Lire une valeur statistique dans un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer et interpréter une proportion à partir d’un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des distributions statistiques à l’aide d’un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter un tableau statistique à double entrée pour répondre à une question économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment analyser un diagramme de répartition ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les variables et les modalités représentées dans un diagramme de répartition" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Lire et interpréter une proportion dans un diagramme de répartition" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des parts relatives à partir d’un diagramme de répartition" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Repérer les catégories majoritaires et minoritaires dans un diagramme de répartition" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter un diagramme de répartition pour répondre à une question économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer des moyennes et des médianes ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer une moyenne simple à partir d’une série statistique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer une moyenne pondérée à partir d’une série statistique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer la médiane d’une série statistique ordonnée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer moyenne et médiane pour analyser une distribution" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter moyenne et médiane dans un contexte économique ou social" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un taux de variation ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un taux de variation à partir de deux valeurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Exprimer un taux de variation en pourcentage" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Interpréter le signe et la valeur d’un taux de variation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des évolutions à l’aide de taux de variation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser un taux de variation pour analyser une évolution économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un taux de variation cumulé ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un taux de variation cumulé sur deux périodes successives" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un taux de variation cumulé sur plusieurs périodes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer taux de variation simple et taux de variation cumulé" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Interpréter un taux de variation cumulé dans un contexte économique ou social" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer des évolutions à l’aide de taux de variation cumulés" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un indice simple ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un indice simple à partir d’une valeur de référence" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Interpréter la valeur d’un indice simple" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des évolutions à l’aide d’indices simples" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconstituer une valeur à partir d’un indice simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser un indice simple pour analyser une évolution économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un indice simple ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier l’année de base et la valeur de référence d’un indice simple" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un indice simple à partir de données brutes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Passer d’une valeur indicielle à une valeur réelle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser une évolution à partir d’une série d’indices simples" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter un indice simple dans un contexte économique ou social" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un indice synthétique ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les composantes d’un indice synthétique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un indice synthétique à partir de plusieurs indices simples" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le rôle des pondérations dans un indice synthétique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Interpréter la variation d’un indice synthétique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser un indice synthétique pour analyser une évolution économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un coefficient multiplicateur ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un coefficient multiplicateur à partir de deux valeurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Passer d’un taux de variation à un coefficient multiplicateur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Passer d’un coefficient multiplicateur à un taux de variation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Utiliser un coefficient multiplicateur pour calculer une valeur finale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter un coefficient multiplicateur dans un contexte économique ou social" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment calculer un pourcentage de répartition ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un pourcentage de répartition à partir d’effectifs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Vérifier la cohérence d’une répartition en pourcentages" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire et interpréter un pourcentage de répartition dans un tableau ou un graphique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des répartitions à l’aide de pourcentages" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser un pourcentage de répartition pour analyser une situation économique ou sociale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#SES#T5#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "SES" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Comment lire et interpréter des séries chronologiques ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les variables et la période d’une série chronologique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Décrire l’évolution d’une série chronologique sur une période donnée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Repérer une tendance générale dans une série chronologique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer des évolutions à partir de séries chronologiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter une série chronologique pour analyser une évolution économique ou sociale" } } }
+    ]
+  }
+}
+]

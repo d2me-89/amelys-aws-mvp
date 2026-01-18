@@ -1,0 +1,629 @@
+[
+{
+  "PK": { "S": "CHAPITRE#SES#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques" },
+  "themeTitre": { "S": "Croissance économique" },
+  "chapitreTitre": { "S": "Quelles sont les sources et les défis de la croissance économique ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier PIB nominal et PIB réel" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des phases de la croissance" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier croissances effective et potentielle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques des chocs" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier les facteurs travail et capital" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques des investissements" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques du rendement décroissant" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques des différents types d'innovation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les caractéristiques des différents capitaux de la théorie des capitaux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer un produit intérieur brut" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer le coefficient multiplicateur d'une évolution du produit intérieur brut" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer un taux de croissance global à l'aide des coefficients multiplicateurs" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer un taux de croissance moyen à l'aide d'un taux de croissance global" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer le PIB par habitant d'un pays donné" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier une phase de la croissance sur un graphique de l'évolution de la croissance dans le temps" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître la théorie des cycles" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer si un choc est d'offre ou de demande" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déterminer si un choc d'offre est positif ou négatif" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Déterminer si un choc de demande est positif ou négatif" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer le type d'un choc" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Calculer la productivité du travail" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Calculer la productivité du capital" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Déterminer le niveau de production à l'aide d'une représentation graphique" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Connaître la notion de croissance exogène" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Connaître les limites écologiques de la croissance" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Connaître les principales mesures des inégalités" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Expliquer les sources de la croissance (Type BAC)" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Expliquer le rôle des institutions sur la croissance (Type BAC)" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Expliquer la proposition de la croissance inclusive pour répondre aux inégalités (Type BAC)" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Expliquer le concept de soutenabilité (Type BAC)" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Étudier un tableau comparatif de PIB (Type BAC)" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Étudier une courbe de l'évolution de la croissance économique (Type BAC)" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Expliquer pourquoi la croissance est endogène (Type BAC)" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Évaluer l'efficacité d'une combinaison productive (Type BAC)" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Proposer une solution d'augmentation de production (Type BAC)" } } },
+      { "M": { "id": { "S": "E36" }, "titre": { "S": "Étudier un tableau comparatif sur la croissance et la productivité globale des facteurs (Type BAC)" } } },
+      { "M": { "id": { "S": "E37" }, "titre": { "S": "Étudier les inégalités entre deux pays à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E38" }, "titre": { "S": "Étudier les inégalités au sein d'un pays à l'aide de documents (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques" },
+  "themeTitre": { "S": "Commerce international et mondialisation" },
+  "chapitreTitre": { "S": "Quels sont les fondements du commerce international et de l'internationalisation de la production ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les étapes de la mondialisation des échanges" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques du libre-échange" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques du cycle de vie d'un produit" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la différenciation des produits" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des effets d'échelle et d'agglomération" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques du protectionnisme" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer un taux d'ouverture à l'aide des valeurs des importations et des exportations" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître l'évolution de la nature des échanges" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître la Division internationale du processus productif et l'internationalisation de la chaîne de valeur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Schématiser un exemple d'internationalisation de chaîne de valeur" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les facteurs de la mondialisation des échanges" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les avantages du libre-échange" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les inconvénients du libre-échange" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Expliquer l'internationalisation de la chaîne de valeur (Type BAC)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer le rôle des dotations factorielles et technologiques dans les échanges commerciaux et la spécialisation internationale (Type BAC)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Expliquer le commerce entre pays comparables à l'aide de la différenciation des produits, de la qualité des produits, et de la fragmentation de la chaîne de valeur (Type BAC)" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Expliquer le lien entre productivité des firmes et compétitivité d'un pays (Type BAC)" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Expliquer le débat existant entre libre-échange et protectionnisme (Type BAC)" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Expliquer les effets induits par le commerce international sur les gains moyens en termes de baisse de prix (Type BAC)" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Expliquer les effets induits par le commerce international sur la réduction des inégalités entre pays (Type BAC)" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Expliquer les effets induits par le commerce international sur l'accroissement des inégalités de revenus au sein de chaque pays (Type BAC)" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Étudier l'internationalisation d'une chaîne de valeur à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Étudier une spécialisation internationale à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Étudier le rôle des dotations factorielles et technologiques dans la spécialisation internationale à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Étudier un exemple de commerce intra-branche mettant en jeu les nouvelles théories du commerce international (Type BAC)" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Étudier les avantages et les inconvénients du libre-échange à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Étudier les avantages et les inconvénients du protectionnisme à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Étudier un graphique de corrélation des effets induits par le commerce international (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques" },
+  "themeTitre": { "S": "Emploi et chômage" },
+  "chapitreTitre": { "S": "Comment lutter contre le chômage ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier population active, population non active, population employée et population au chômage" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un taux de chômage" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire le taux de chômage dans un tableau statistique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques d'un emploi précaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les deux principaux indicateurs de mesure du chômage" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer un taux d'emploi" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Lire le taux d'emploi dans un tableau statistique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier emploi salarié et emploi indépendant" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les caractéristiques du halo du chômage" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les caractéristiques du chômage structurel" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les caractéristiques de l'asymétrie d'information sur le salaire d'efficience" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les caractéristiques de la flexibilité du marché du travail" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître les politiques de lutte contre le chômage classique" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les politiques de flexibilisation du marché du travail" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer les transformations de l'emploi" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déterminer le statut d'un individu à l'aide de sa situation" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître les politiques de relance contre le chômage conjoncturel" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Connaître les politiques de formation des chômeurs" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Interpréter un taux de chômage dans un tableau statistique" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Expliquer les sources de mesure du chômage (Type BAC)" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Interpréter un taux d'emploi dans un tableau statistique (Type BAC)" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Expliquer les différents types d'emplois (Type BAC)" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Expliquer le lien entre chômage et sous-emploi (Type BAC)" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Expliquer quels indicateurs sont utilisés pour mesurer le chômage (Type BAC)" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Expliquer les effets des institutions sur le chômage structurel (Type BAC)" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Expliquer en quoi les asymétries d'information sont des sources du chômage structurel (Type BAC)" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Expliquer en quoi les problèmes d'appariements sont des sources du chômage structurel (Type BAC)" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Expliquer les sources du chômage structurel (Type BAC)" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Expliquer les effets des fluctuations de l’activité économique sur le chômage conjoncturel (Type BAC)" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Expliquer les politiques mises en oeuvre pour lutter contre le chômage (Type BAC)" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Déterminer le type d'une politique de lutte contre le chômage décrite dans un document (Type BAC)" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Étudier l'effet d'une politique de lutte contre le chômage (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques" },
+  "themeTitre": { "S": "Crises financières et régulation" },
+  "chapitreTitre": { "S": "Comment expliquer les crises financières et réguler le système financier ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'une crise financière" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la spéculation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques d'une bulle spéculative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de l'aléa moral" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des effets de richesse négatifs d'une crise financière" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques du collatéral" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques de la contraction du crédit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques des réglementations prudentielles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les principales caractéristiques de la crise financière des années 1930" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les principales caractéristiques de la crise financière de 2008" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les principaux canaux de transmission d'une crise financière à l'économie réelle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer les phénomènes de panique bancaire et de faillites bancaires en chaîne (Type BAC)" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer l'aléa moral des banques en situation de crise financière (Type BAC)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Expliquer les principaux canaux de transmission d'une crise financière à l'économie réelle (Type BAC)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer les principaux instruments de régulation du système bancaire et financier qui permettent de réduire l’aléa moral des banques (Type BAC)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier un exemple de bulle spéculative à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier les effets de richesse négatifs d'une crise financière à l'aide d'un document (Type BAC)" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Étudier la baisse du prix du collatéral et les ventes forcées lors d'une crise financière à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Étudier la contraction du crédit lors d'une crise économique à l'aide d'un document (Type BAC)" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Étudier une nouvelle piste de régulation du système bancaire et financier (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques" },
+  "themeTitre": { "S": "Politiques économiques européennes" },
+  "chapitreTitre": { "S": "Quelles politiques économiques dans le cadre européen ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les étapes de la construction de l'Union européenne" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les institutions au sein de l'Union européenne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les modalités de décision au sein de l'Union européenne" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du marché unique européen" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques de la zone euro" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques du partage de compétences dans l'Union européenne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques de la politique de libre concurrence dans l'Union européenne" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les caractéristiques de la politique budgétaire européenne" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les caractéristiques de la politique monétaire européenne" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les caractéristiques de l'encadrement budgétaire des pays membres" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer les effets du marché unique sur la croissance (Type BAC)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer les objectifs, les modalités et les limites de la politique européenne de la concurrence (Type BAC)" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer comment la politique monétaire et la politique budgétaire agissent sur la conjoncture (Type BAC)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Expliquer les difficultés soulevées par la différence de gestion entre la politique monétaire et la politique budgétaire au niveau européen (Type BAC)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Étudier une situation de problème de coordination (Type BAC)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier une situation de choc asymétrique (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Sociologie et sciences politiques" },
+  "chapitreTitre": { "S": "Comment est structurée la société française actuelle ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la stratification sociale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des catégories socioprofessionnelles" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les facteurs de structuration et de hiérarchisation de l'espace social" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer la notion de salarisation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer la notion de tertiarisation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer la féminisation des emplois depuis la seconde moitié du XXe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer l'élévation du niveau de qualification depuis la seconde moitié du XXe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la théorie des classes sociales de Marx" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître la théorie de stratification sociale de Weber" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer l'évolution des distances inter et intraclasses durant les Trente Glorieuses" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer les conséquences de la multiplication des facteurs d'individualisation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer l'articulation entre rapports sociaux de classe et de genre" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer quels sont les facteurs de structuration et de hiérarchisation de l'espace social (Type BAC)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Expliquer les principales évolutions de la structure socioprofessionnelle en France depuis la seconde moitié du XXe siècle (Type BAC)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer pourquoi la pertinence d’une approche en termes de classes sociales pour rendre compte de la société française fait l’objet de débats théoriques et statistiques (Type BAC)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier une situation mettant en jeu des facteurs de structuration et de hiérarchisation de l'espace social (Type BAC)" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier l'évolution temporelle de la structure socioprofessionnelle en France depuis la seconde moitié du XXe siècle à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Discuter de la pertinence d'une approche en termes de classes sociales pour rendre compte de la société française à l'aide de documents statistiques (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Sociologie et sciences politiques" },
+  "chapitreTitre": { "S": "Quelle est l'action de l'école sur les destins individuels et sur l'évolution de la société ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier socialisation familiale et socialisation scolaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître l'évolution du droit à l'éducation en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier massification scolaire et démocratisation scolaire en France" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la notion d'égalité des chances" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les dispositifs mis en place pour l'égalité des chances" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les étapes de la démocratisation scolaire en France" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les principaux indicateurs mesurant l'accès à l'école et à l'enseignement supérieur" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les facteurs d'inégalités de réussite scolaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer pourquoi dans les sociétés démocratiques l’école transmet des savoirs et vise à favoriser l’égalité des chances (Type BAC)" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer l'évolution de l'accès à l'école et à l'enseignement supérieur depuis les années 1950 (Type BAC)" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer les conséquences sociales des inégalités scolaires (Type BAC)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer quels facteurs d'inégalités peuvent influer sur la réussite scolaire (Type BAC)" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Étudier un dispositif pour l'égalité des chances (Type BAC)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Étudier l'évolution du taux de scolarisation depuis les années 1950 à l'aide d'un document (Type BAC)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Étudier l'évolution du taux d'accès à un diplôme depuis les années 1950 à l'aide d'un document (Type BAC)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier l'évolution du taux d'accès à un type de formation depuis les années 1960 à l'aide d'un document (Type BAC)" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier l'évolution des principaux indicateurs mesurant l'accès à l'école et à l'enseignement supérieur depuis les années 1950 à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Étudier l'influence des facteurs sociaux sur les inégalités scolaires (Type BAC)" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Étudier l'influence du capital culturel sur les inégalités scolaires (Type BAC)" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Étudier l'influence des stratégies familiales sur les inégalités scolaires (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Sociologie et sciences politiques" },
+  "chapitreTitre": { "S": "Quels sont les facteurs et les caractéristiques contemporaines de la mobilité sociale ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier mobilités géographique, sociale, professionnelle et intergénérationnelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier mobilités horizontale et verticale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les principes de construction des tables de mobilités" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Lire une table de recrutement" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Lire une table de destinée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier mobilité observée, mobilité structurelle et fluidité sociale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la mobilité décrivant une situation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les déterminants de la mobilité sociale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reconnaître une situation de mobilité ascendante sur une table de destinée" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Reconnaître une situation de reproduction sociale sur une table de destinée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Reconnaître une situation de déclassement sur une table de destinée" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Reconnaître une situation de mobilité ascendante sur une table de recrutement" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Reconnaître une situation de reproduction sociale sur une table de recrutement" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Reconnaître une situation de déclassement sur une table de recrutement" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer les intérêts et les limites des tables de mobilité comme instrument de mesure (Type BAC)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Expliquer pourquoi la mobilité observée comporte une composante structurelle (Type BAC)" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Expliquer que la mobilité peut aussi se mesurer de manière relative indépendamment des différences de structure entre origine et position sociales (Type BAC)" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Expliquer pourquoi une société plus mobile n’est pas nécessairement une société plus fluide (Type BAC)" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Expliquer comment l’évolution de la structure socioprofessionnelle, les niveaux de formation et les ressources et configurations familiales contribuent à expliquer la mobilité sociale (Type BAC)" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Étudier une table de destinée (Type BAC)" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Étudier une table de recrutement (Type BAC)" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Étudier la fluidité sociale à l'aide d'odds ratio (Type BAC)" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Étudier les spécificités de la mobilité sociale des hommes et des femmes à l'aide de tables de mobilité (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T2#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Sociologie et sciences politiques" },
+  "chapitreTitre": { "S": "Quelles sont les mutations du travail et de l'emploi ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier travail, activité, statut d'emploi et chômage" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de l'organisation du travail" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques de l'organisation taylorienne du travail" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques des organisations post-tayloriennes du travail" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des nouvelles formes d'organisation du travail" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les principaux descripteurs de la qualité des emplois" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les raisons pour lesquelles le travail est un élément central de l'intégration sociale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer pourquoi les évolutions des formes d’emploi rendent plus incertaines les frontières entre emploi, chômage et inactivité (Type BAC)" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer les effets positifs et négatifs de l’évolution des formes de l’organisation du travail sur les conditions de travail (Type BAC)" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer comment le numérique brouille les frontières du travail, transforme les relations d’emploi et accroît les risques de polarisation des emplois (Type BAC)" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer pourquoi le travail est source d’intégration sociale (Type BAC)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer pourquoi certaines évolutions de l’emploi affaiblissent le pouvoir intégrateur de l'emploi (Type BAC)" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Étudier l'évolution de l'organisation du travail à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Étudier l'évolution de la qualité des emplois à l'aide de documents (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T2#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Sociologie et sciences politiques" },
+  "chapitreTitre": { "S": "Comment expliquer l'engagement politique dans les sociétés démocratiques ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l'approche psychosociale individuelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les objets de l'engagement politique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les formes conventionnelles d'engagement politique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les formes non conventionnelles d'engagement politique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître le paradoxe de l'action collective" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les variables lourdes déterminant l'engagement politique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les mutations des objets de l'engagement politique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les mutations des acteurs de l'engagement politique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les mutations du répertoire des acteurs de l'engagement politique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer les formes que peut prendre l’engagement politique (Type BAC)" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer pourquoi les individus s'engagent malgré le paradoxe de l’action collective (Type BAC)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer en quoi l’engagement politique dépend de variables sociodémographiques (Type BAC)" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer la diversité et les transformations des objets de l’action collective, des acteurs et de leurs répertoires (Type BAC)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Étudier le lien entre variables sociodémographiques et engagement politique à l'aide de documents (Type BAC)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Étudier un sondage sur les raisons du vote (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Regards croisés" },
+  "chapitreTitre": { "S": "Quelles inégalités sont compatibles avec les différentes conceptions de la justice sociale ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des inégalités économiques et sociales" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de la justice sociale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier justice commutative et justice distributive" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la protection sociale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des services publics et collectifs" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les formes des inégalités économiques et sociales" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître le caractère cumulatif des inégalités" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître les grandes tendances d’évolution des inégalités économiques depuis le début du XXe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les indicateurs de richesse" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les indicateurs de disparités de richesse" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Lire un rapport inter-quantile de la répartition des revenus et des salaires" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Lire une courbe de Lorenz" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Lire l'évolution du top 1 pourcent" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Lire une corrélation de revenu parents-enfants" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les différentes conceptions de justice sociale" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les formes d'égalité" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître les politiques de répartition des richesses" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Connaître les politiques de redistribution des richesses" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Connaître les actions des pouvoirs publics en matière de justice sociale" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Connaître les contraintes budgétaires de l'intervention de l'État en termes de justice sociale" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Connaître les contraintes fiscales de l'intervention de l'État en termes de justice sociale" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Connaître les sources d'inefficacité de l'action des pouvoirs publics en matière de justice sociale" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Connaître les effets pervers de l'action des pouvoirs publics en matière de justice sociale" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Expliquer en quoi les inégalités économiques et sociales présentent un caractère multiforme et cumulatif (Type BAC)" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Expliquer en quoi les différentes formes d’égalité permettent de définir ce qui est considéré comme juste selon différentes conceptions de la justice sociale (Type BAC)" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Expliquer en quoi l’action des pouvoirs publics en matière de justice sociale s’exerce sous contrainte de financement et fait l’objet de débats en termes d’efficacité, de légitimité et de risques d'effets pervers (Type BAC)" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Analyser un rapport inter-quantile de la répartition des revenus (Type BAC)" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Analyser une courbe de Lorenz (Type BAC)" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Analyser l'évolution du top 1 pourcent (Type BAC)" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Analyser une corrélation de revenus parents-enfants (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T3#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Regards croisés" },
+  "chapitreTitre": { "S": "Quelle action publique pour l'environnement ?" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d'un bien commun" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les étapes de la naissance du développement durable" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les enjeux environnementaux de la préservation de la biodiversité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les principaux acteurs des questions environnementales" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les différentes politiques environnementales" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les réglementations pour lutter contre le changement climatique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les taxations pour lutter contre le changement climatique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître le marché des quotas d'émission" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les subventions à l'innovation verte" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les moyens des politiques climatiques" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer en quoi les acteurs des questions environnementales entretiennent des relations de coopération et de conflit (Type BAC)" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer en quoi l’action publique pour l’environnement s'articule à différentes échelles (Type BAC)" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer en quoi les instruments dont disposent les pouvoirs publics pour faire face aux externalités négatives sur l'environnement ont des avantages et des limites (Type BAC)" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Expliquer en quoi la mise en œuvre d'instruments dont disposent les pouvoirs publics pour faire face aux externalités négatives sur l'environnement peuvent se heurter à des dysfonctionnements de l’action publique (Type BAC)" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer en quoi, en présence de biens communs, les négociations et accords internationaux liés à la préservation de l’environnement sont contraints par des stratégies de passager clandestin et les inégalités de développement entre pays (Type BAC)" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier des actions d'acteurs des questions environnementales à l'aide de documents (Type BAC)" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Proportion, pourcentage de répartition" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer une proportion à partir d'une population totale et d'un sous-ensemble" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un pourcentage de répartition et vérifier la cohérence du résultat" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des pourcentages de répartition entre plusieurs catégories" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer d'un effectif à un pourcentage de répartition et inversement" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter une répartition exprimée en proportions et en pourcentages dans un tableau statistique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Moyenne arithmétique simple et pondérée" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer une moyenne arithmétique simple à partir d'une série de valeurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer une moyenne pondérée à partir de valeurs et de leurs pondérations" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir entre moyenne simple et moyenne pondérée selon la situation étudiée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Interpréter une moyenne dans un contexte économique ou social" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Vérifier la cohérence d'une moyenne calculée à partir d'un tableau statistique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Écarts et rapports interquantiles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un écart interquantile à partir des valeurs de quantiles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un rapport interquantile et en interpréter la signification" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des distributions à l'aide des écarts et rapports interquantiles" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir l'indicateur pertinent (écart ou rapport interquantile) selon l'objectif d'analyse" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter des écarts et rapports interquantiles à partir d'un tableau ou d'un graphique statistique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Taux de variation, coefficient multiplicateur et indice simple" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un taux de variation entre deux valeurs successives" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un coefficient multiplicateur à partir d’un taux de variation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Passer d’un coefficient multiplicateur à un taux de variation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer un indice simple à partir d’une valeur de base 100" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer des évolutions à l’aide de taux de variation, coefficients multiplicateurs et indices simples" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Corrélation et causalité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier une corrélation positive, négative ou nulle à partir d’un nuage de points" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer corrélation et lien de causalité dans une situation économique ou sociale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Repérer une causalité inverse ou une variable cachée dans une relation observée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Formuler des hypothèses explicatives à partir d’une corrélation statistique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter un graphique ou un tableau mettant en évidence une corrélation sans conclure hâtivement à une causalité" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Lecture de tableaux à double entrée" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Lire et interpréter une information située à l’intersection de deux variables dans un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer une proportion ou un pourcentage à partir d’un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer des distributions en lignes ou en colonnes dans un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier la variable pertinente selon le sens de lecture d’un tableau à double entrée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter un tableau à double entrée pour mettre en évidence des écarts ou des régularités statistiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Taux de croissance moyen" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer un taux de croissance moyen sur une période à partir de valeurs initiale et finale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer un taux de croissance moyen à partir d’une série de taux de variation annuels" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer un taux de croissance global et un taux de croissance moyen sur une même période" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Interpréter un taux de croissance moyen dans un contexte économique ou social" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Vérifier la cohérence d’un taux de croissance moyen à l’aide d’un coefficient multiplicateur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Médiane, écart-type" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer la médiane d’une série statistique ordonnée ou non ordonnée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comparer moyenne et médiane pour analyser la distribution d’une série statistique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer un écart-type à partir d’une série de données" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Interpréter un écart-type pour apprécier la dispersion d’une série statistique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer deux distributions à l’aide de la médiane et de l’écart-type" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Représentations graphiques : courbes de Lorenz, histogrammes, diagrammes de répartition, représentation des séries chronologiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Lire et interpréter une courbe de Lorenz pour analyser le niveau d’inégalités d’une distribution" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Construire et interpréter un histogramme à partir d’une série statistique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire et analyser un diagramme de répartition (en barres ou circulaire)" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir la représentation graphique la plus pertinente selon la nature des données" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter l’évolution d’une variable économique ou sociale à l’aide d’une série chronologique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#SES#T4#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Sciences économiques et sociales" },
+  "themeTitre": { "S": "Savoirs-faire" },
+  "chapitreTitre": { "S": "Représentation graphique de fonctions simples (offre, demande, coût) et interprétation de leurs pentes et de leurs déplacements" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Tracer une courbe d’offre ou de demande à partir d’un tableau de valeurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Interpréter la pente d’une courbe d’offre, de demande ou de coût" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier un déplacement de la courbe de demande ou d’offre à la suite d’un choc exogène" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer un déplacement de courbe d’un mouvement le long de la courbe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les effets d’un déplacement des courbes d’offre ou de demande sur l’équilibre de marché" } } }
+    ]
+  }
+}
+]

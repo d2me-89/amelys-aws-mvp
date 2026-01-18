@@ -315,6 +315,7 @@
 │   │   │   │   ├── physique-chimie-4eme
 │   │   │   │   │   └── 4eme-physique-chimie-structure-HR.json
 │   │   │   │   ├── svt-4eme
+│   │   │   │   │   └── 4eme-svt-structure-HR.json
 │   │   │   │   └── technologie-4eme
 │   │   │   ├── sixieme
 │   │   │   │   ├── anglais-6eme
@@ -359,6 +360,7 @@
 │   │   │       ├── physique-chimie-3eme
 │   │   │       │   └── 3eme-physique-chimie-structure-HR.json
 │   │   │       ├── svt-3eme
+│   │   │       │   └── 3eme-svt-structure-HR.json
 │   │   │       └── technologie-3eme
 │   │   ├── faq
 │   │   │   ├── faq-competences-cles.json
@@ -384,15 +386,18 @@
 │   │       │   ├── anglais-1ere
 │   │       │   ├── emc-1ere
 │   │       │   ├── enseignement-scientifique-1ere
+│   │       │   │   └── 1ere-enseignement-scientifique-architecture-HR.json
 │   │       │   ├── espagnol-1ere
 │   │       │   ├── francais-1ere
 │   │       │   ├── geographie-1ere
 │   │       │   │   ├── 1ere-geographie-structure-HR.json
 │   │       │   │   └── spe577_annexe2_1062939.pdf
 │   │       │   ├── hggsp-1ere
+│   │       │   │   └── 1ere-hggsp-architecture-HR.json
 │   │       │   ├── histoire-1ere
 │   │       │   │   └── 1ere-histoire-structure-HR.json
 │   │       │   ├── hlp-1ere
+│   │       │   │   └── 1ere-hlp-architecture-HR.json
 │   │       │   ├── llce-anglais-1ere
 │   │       │   ├── mathematiques-1ere
 │   │       │   │   ├── 1ere-maths-architecture-DDB.json
@@ -403,7 +408,9 @@
 │   │       │   │   └── 1ere-physique-chimie-structure-HR.json
 │   │       │   ├── sciences-ingenieur-1ere
 │   │       │   ├── ses-1ere
+│   │       │   │   └── 1ere-ses-structure-HR.json
 │   │       │   └── svt-1ere
+│   │       │       └── 1ere-svt-structure-HR.json
 │   │       ├── seconde
 │   │       │   ├── anglais-2nde
 │   │       │   ├── emc-2nde
@@ -424,20 +431,25 @@
 │   │       │   │   └── 2nde-physique-chimie-structure-HR.json
 │   │       │   ├── sciences-ingenieur-2nde
 │   │       │   ├── ses-2nde
+│   │       │   │   └── 2nde-ses-structure-HR.json
 │   │       │   └── svt-2nde
+│   │       │       └── 2nde-svt-structure-HR.json
 │   │       └── terminale
 │   │           ├── anglais-Tle
 │   │           ├── emc-Tle
 │   │           ├── enseignement-scientifique-Tle
+│   │           │   └── Tle-enseignement-scientifique-architecture-HR.json
 │   │           ├── espagnol-Tle
 │   │           ├── geographie-Tle
 │   │           │   ├── Tle-geographie-structure-HR.json
 │   │           │   └── spe243_annexe1_1159172.pdf
 │   │           ├── hggsp-Tle
+│   │           │   └── Tle-hggsp-architecture-HR.json
 │   │           ├── histoire-Tle
 │   │           │   ├── Tle-histoire-structure-HR.json
 │   │           │   └── spe243_annexe1_1159172 (1).pdf
 │   │           ├── hlp-Tle
+│   │           │   └── Tle-hlp-architecture-HR.json
 │   │           ├── llce-anglais-Tle
 │   │           ├── mathematiques-Tle
 │   │           │   ├── Tle-maths-architecture-DDB.json
@@ -453,11 +465,14 @@
 │   │           │   └── spe264_annexe_1158825.pdf
 │   │           ├── nsi-Tle
 │   │           ├── philosophie-Tle
+│   │           │   └── Tle-philosophie-architecture-HR.json
 │   │           ├── physique-chimie-Tle
 │   │           │   └── Tle-physique-chimie-structure-HR.json
 │   │           ├── sciences-ingenieur-Tle
 │   │           ├── ses-Tle
+│   │           │   └── Tlre-ses-structure-HR.json
 │   │           └── svt-Tle
+│   │               └── Tle-svt-structure-HR.json
 │   ├── favicon.ico
 │   ├── globals.css
 │   ├── layout.tsx
@@ -481,4 +496,4 @@
 │   └── window.svg
 └── tsconfig.json
 
-365 directories, 117 files
+365 directories, 132 files

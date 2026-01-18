@@ -1,0 +1,158 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1E#HLP#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Les pouvoirs de la parole" },
+  "chapitreTitre": { "S": "L’art de la parole" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser les fonctions de la parole dans une situation de communication" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les intentions d’un orateur dans un discours" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer convaincre, persuader et émouvoir dans une prise de parole" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Repérer les procédés oratoires visant à influencer un auditoire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser l’efficacité argumentative d’un extrait de discours" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les marques de subjectivité dans un texte argumentatif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier le rôle de l’ethos, du pathos et du logos dans un discours" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer deux prises de parole portant sur un même sujet" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser la mise en scène de la parole dans un texte littéraire" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Évaluer les effets produits par le choix du vocabulaire et des figures de style" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Réécrire un passage afin de renforcer son pouvoir de persuasion" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Construire un court discours argumentatif selon une intention donnée" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Porter un regard critique sur l’usage de la parole dans un débat contemporain" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HLP#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Les pouvoirs de la parole" },
+  "chapitreTitre": { "S": "L’autorité de la parole" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les sources de l’autorité d’un locuteur dans une situation de communication" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer autorité, pouvoir et contrainte dans un acte de parole" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le rôle du statut social et institutionnel dans l’autorité de la parole" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier l’ethos comme fondement de l’autorité discursive" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les procédés linguistiques qui renforcent l’autorité d’un discours" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser un discours d’autorité dans un contexte politique, juridique ou religieux" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer deux discours présentant des degrés d’autorité différents" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre en évidence les limites et les contestations de l’autorité de la parole" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier la mise en scène de l’autorité dans un texte littéraire" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Évaluer les effets de l’autorité discursive sur un auditoire" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Rédiger un court texte argumentatif mobilisant une parole d’autorité" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Porter un regard critique sur l’usage contemporain de l’autorité de la parole" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HLP#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Les pouvoirs de la parole" },
+  "chapitreTitre": { "S": "Les séductions de la parole" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les procédés de séduction dans un discours" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le rôle de l’émotion dans la séduction par la parole" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer séduction, persuasion et manipulation dans un texte argumentatif" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier l’usage des figures de style au service de la séduction" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser la mise en scène de la parole séduisante dans un texte littéraire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer deux discours reposant sur des stratégies de séduction différentes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les risques et limites de la parole séduisante" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Réécrire un passage en renforçant ou en atténuant sa dimension séduisante" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Construire un court discours visant à séduire un auditoire donné" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Porter un regard critique sur les usages contemporains de la séduction par la parole" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HLP#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Les représentations du monde" },
+  "chapitreTitre": { "S": "Découverte du monde et rencontres des cultures" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les enjeux de la découverte du monde dans des textes littéraires et philosophiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le regard porté sur l’Autre dans un récit de voyage" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer observation, description et interprétation dans un texte de découverte" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier les procédés de représentation de cultures étrangères" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les stéréotypes et préjugés dans un texte de rencontre culturelle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser la tension entre fascination et rejet dans le discours sur l’Autre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer deux regards portés sur une même culture" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier la portée critique d’un texte mettant en scène la rencontre des cultures" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser la construction d’une vision du monde à travers le récit de voyage" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les enjeux éthiques et politiques de la découverte du monde" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Mettre en relation textes littéraires et philosophiques sur la diversité culturelle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Réécrire un extrait en modifiant le point de vue culturel adopté" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Rédiger un texte argumentatif sur les enjeux de la rencontre des cultures" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Porter un regard critique sur la représentation contemporaine des cultures" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HLP#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Les représentations du monde" },
+  "chapitreTitre": { "S": "Décrire, figurer, imaginer" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les fonctions de la description dans un texte littéraire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les procédés de figuration du réel dans un texte ou une œuvre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer description réaliste et description imaginaire" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier le rôle de l’imagination dans la représentation du monde" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les figures de style au service de la représentation" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser l’articulation entre description et narration" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer deux descriptions d’un même lieu ou objet" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier la portée symbolique d’une description" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre en relation texte littéraire et œuvre artistique autour de la représentation du monde" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Réécrire un passage descriptif en modifiant l’effet produit" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Produire une description mobilisant imagination et procédés stylistiques" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Porter un regard critique sur les modes de représentation du monde" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#HLP#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Les représentations du monde" },
+  "chapitreTitre": { "S": "L’homme et l’animal" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les différentes représentations de l’animal dans des textes littéraires et philosophiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la frontière entre l’homme et l’animal dans un texte argumentatif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier les fonctions symboliques de la figure animale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer humanisation et animalisation dans les procédés de représentation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser un débat philosophique sur la condition animale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer deux visions opposées du rapport entre l’homme et l’animal" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier le rôle de l’animal dans la critique des comportements humains" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les enjeux éthiques liés aux relations entre l’homme et l’animal" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre en relation texte littéraire et réflexion philosophique sur l’animalité" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Réécrire un texte en modifiant le point de vue sur l’animal" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Rédiger un court texte argumentatif sur le statut moral de l’animal" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Porter un regard critique sur les représentations contemporaines de l’animal" } } }
+    ]
+  }
+}
+]

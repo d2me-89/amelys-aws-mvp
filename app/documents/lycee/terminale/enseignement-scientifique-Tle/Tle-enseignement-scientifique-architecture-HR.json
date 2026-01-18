@@ -1,0 +1,381 @@
+[
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Science, climat et société" },
+  "chapitreTitre": { "S": "L’atmosphère terrestre et la vie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques du diagramme d’état de l’eau" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques et le rôle de la couche d’ozone" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les grandes caractéristiques du cycle du carbone" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Décrire l’évolution de la composition de l’atmosphère terrestre au cours du temps" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer l’état physique de l’eau à partir de sa température, de sa pression et du diagramme d’état" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les grandes étapes de l’apparition du dioxygène sur Terre" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Ajuster une équation de réaction chimique d’oxydation du fer par le dioxygène" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Schématiser les principaux flux du dioxygène entre les réservoirs terrestres" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Schématiser les mécanismes de formation de l’ozone à partir du dioxygène" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer la production de dioxygène atmosphérique à partir d’indices géologiques" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer la formation et le rôle protecteur de la couche d’ozone" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer le fonctionnement du cycle du carbone et ses enjeux climatiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Science, climat et société" },
+  "chapitreTitre": { "S": "La complexité du système climatique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de climat et ses échelles spatiales et temporelles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer climatologie et météorologie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques des principaux gaz à effet de serre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques et le rôle de l’albédo dans le système climatique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les caractéristiques du permafrost et son rôle climatique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer si une donnée relève de la climatologie ou de la météorologie" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les indicateurs des variations climatiques passées" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les indicateurs des variations climatiques actuelles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Évaluer l’influence d’un gaz à effet de serre à partir de son spectre d’absorption des ondes électromagnétiques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Schématiser le forçage radiatif et ses effets sur le bilan énergétique terrestre" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les principaux facteurs d’amplification du réchauffement climatique" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Schématiser la boucle d’amplification du réchauffement climatique liée à la diminution de l’albédo terrestre" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Schématiser la boucle d’amplification du réchauffement climatique liée à la fonte du permafrost" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Schématiser la boucle d’amplification du réchauffement climatique liée à l’augmentation de la vapeur d’eau atmosphérique" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier les facteurs de stabilisation du réchauffement climatique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Étudier l’évolution de la température sur un temps court à partir de représentations graphiques" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Interpréter une expérience illustrant l’impact différencié de la fonte des glaces continentales et des glaces de mer" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Estimer la variation du volume des océans associée à une variation de température donnée" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Science, climat et société" },
+  "chapitreTitre": { "S": "Le climat du futur" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les mécanismes de fonctionnement des sous-systèmes impliqués dans la modélisation de la température moyenne terrestre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer le principe général de la modélisation climatique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer le principe de validation d’un modèle climatique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier le rôle du GIEC dans l’étude et la synthèse des connaissances climatiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les principales prédictions issues des modèles climatiques concernant l’évolution future du climat" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Science, climat et société" },
+  "chapitreTitre": { "S": "Énergie, choix de développement et futur climatique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques des énergies primaires" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si une source d’énergie est renouvelable ou non renouvelable" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer une énergie de stock d’une énergie de flux" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Convertir une énergie exprimée en tonne équivalent pétrole (tep) en joules à l’aide d’un facteur de conversion" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Convertir une énergie exprimée en kWh en joules à l’aide d’un facteur de conversion" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer des ordres de grandeur d’énergie et de puissance" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier combustible, comburant et source d’énergie dans une combustion" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier la forme générale d’une équation de combustion" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire la notion d’énergie massique et son intérêt pour comparer des combustibles" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les caractéristiques des aérosols et leurs effets possibles sur le climat et la qualité de l’air" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Définir l’empreinte carbone et identifier ce qu’elle mesure" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Distinguer aléa, enjeu et risque dans une situation donnée" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer l’énergie libérée lors de la combustion d’une masse donnée de combustible" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer la quantité de matière de dioxyde de carbone produite par unité d’énergie dégagée pour différents combustibles" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer la masse de dioxyde de carbone produite par unité d’énergie dégagée à partir d’une équation de combustion et d’une énergie massique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les conséquences de la pollution de l’air sur la santé" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Décrire les grandes étapes du cycle de vie d’un objet" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier des leviers et solutions pour réduire l’empreinte carbone" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Analyser une mesure d’adaptation face au changement climatique à partir de documents" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Le futur des énergies" },
+  "chapitreTitre": { "S": "Deux siècles d’énergie électrique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques et le principe de fonctionnement d’un alternateur" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les phénomènes influençant le rendement d’un alternateur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Convertir l’énergie d’un photon entre différentes unités" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Lire l’énergie de l’état fondamental d’un atome à partir de son diagramme d’énergie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les niveaux d’énergie possibles d’un atome à partir de son diagramme d’énergie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer la variation d’énergie d’un atome entre deux états à partir d’un diagramme d’énergie" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer l’énergie d’un photon absorbé par un atome" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer l’énergie d’un photon émis par un atome" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les caractéristiques d’un matériau semi-conducteur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Légender un schéma représentant un alternateur" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Schématiser la chaîne énergétique associée à un alternateur" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer le rendement d’un alternateur à partir des puissances mécanique absorbée et électrique produite" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier la nature d’un matériau (conducteur, isolant ou semi-conducteur) à partir de son diagramme de bandes" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Évaluer l’aptitude d’un semi-conducteur à la conversion photovoltaïque à partir de son spectre d’absorption et du spectre solaire" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Schématiser la chaîne énergétique d’une cellule photovoltaïque" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer le rendement d’une cellule photovoltaïque à partir des puissances lumineuse absorbée et électrique produite" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Tracer la caractéristique intensité-tension i(u) d’une cellule photovoltaïque" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déterminer la puissance maximale délivrée par une cellule photovoltaïque à partir de sa caractéristique" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Déterminer la résistance d’utilisation permettant de maximiser la puissance délivrée par une cellule photovoltaïque" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Le futur des énergies" },
+  "chapitreTitre": { "S": "Les atouts de l’électricité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’une chaîne énergétique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Réaliser la chaîne énergétique d’un système simple de conversion d’énergie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques du rendement énergétique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques et le rôle d’une batterie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Réaliser la chaîne énergétique d’un système comportant plusieurs conversions d’énergie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer le rendement d’un système simple de conversion d’énergie à partir des puissances utile et absorbée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer le rendement global d’un système comportant plusieurs conversions d’énergie" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les principaux dispositifs de conversion directe de l’énergie mécanique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les principaux dispositifs de conversion indirecte de l’énergie mécanique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les principaux dispositifs de conversion de l’énergie chimique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Décrire le principe de fonctionnement d’une pile alcaline" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Décrire le principe de fonctionnement d’une pile à hydrogène" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier l’impact environnemental des dispositifs de conversion d’énergie" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les principaux dispositifs de stockage de l’énergie chimique" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Schématiser la chaîne énergétique associée à une batterie" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les principaux dispositifs de stockage de l’énergie mécanique" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Identifier les principaux dispositifs de stockage de l’énergie électromagnétique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Le futur des énergies" },
+  "chapitreTitre": { "S": "Optimisation du transport de l’énergie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire l’organisation générale des réseaux électriques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le phénomène d’effet Joule et ses conséquences" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Calculer une puissance dissipée par effet Joule" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer une résistance à partir d’une puissance dissipée par effet Joule" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer une intensité de courant à partir d’une puissance dissipée par effet Joule" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les contraintes d’un réseau de distribution électrique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer l’énergie dissipée par effet Joule dans un conducteur sur une durée donnée" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Réaliser le schéma d’un circuit électrique modélisant une ligne à haute tension" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer l’intensité électrique circulant dans une ligne à haute tension" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer la puissance dissipée par effet Joule dans une ligne à haute tension" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Modéliser un réseau de distribution électrique simple par un graphe orienté" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer la fonction à minimiser pour un réseau électrique modélisé par un graphe orienté" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire mathématiquement les contraintes d’un réseau de distribution représenté par un graphe orienté" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer l’intensité minimisant les pertes par effet Joule dans un réseau de distribution électrique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Le futur des énergies" },
+  "chapitreTitre": { "S": "Choix énergétiques et impacts sur les sociétés" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les impacts positifs et négatifs de l’exploitation des énergies fossiles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les impacts positifs et négatifs de l’exploitation de l’énergie nucléaire" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les impacts positifs et négatifs de l’exploitation des énergies renouvelables" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Évaluer la disponibilité des ressources énergétiques dans une situation donnée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser la gestion des risques associée à un choix énergétique dans une situation donnée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les conséquences économiques et sociales d’un choix énergétique dans une situation donnée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les principales innovations technologiques liées aux solutions énergétiques" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser la composition et les enjeux d’un mix énergétique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Une histoire du vivant" },
+  "chapitreTitre": { "S": "La biodiversité et son évolution" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principes et objectifs d’un échantillonnage" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le principe et les limites de la méthode capture-marquage-recapture" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les hypothèses et le cadre du modèle de Hardy-Weinberg" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les effets des principales forces évolutives sur les populations" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les cinq causes majeures de la réduction de la biodiversité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier des solutions et leviers pour la préservation de la biodiversité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la richesse spécifique d’un échantillon" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer les abondances relatives des taxons d’un échantillon" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Estimer l’effectif d’une population à partir de résultats d’échantillonnage" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Estimer l’effectif d’un taxon à partir de résultats d’échantillonnage" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Estimer une abondance par la méthode capture-marquage-recapture" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Quantifier l’effectif d’une population à partir de données de capture-marquage-recapture" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer un intervalle de confiance au niveau de confiance de 95 % pour une estimation" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Établir les relations entre probabilités génotypiques de deux générations successives dans le modèle de Hardy-Weinberg" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier les conditions nécessaires à l’équilibre de Hardy-Weinberg" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Évaluer l’impact d’une fragmentation sur la surface disponible pour une espèce à l’aide d’un modèle géométrique simple" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Démontrer la constance des probabilités génotypiques à partir de la deuxième génération dans le modèle de Hardy-Weinberg" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Étudier un phénomène de dérive génétique consécutif à une fragmentation des populations" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Une histoire du vivant" },
+  "chapitreTitre": { "S": "L’évolution comme grille de lecture du monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principes fondamentaux de la théorie de l’évolution" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Relier diversité génétique, sélection naturelle et adaptation des populations" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Interpréter des caractères biologiques comme le résultat de contraintes évolutives" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser un exemple d’évolution observable à partir de données scientifiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer l’évolution de résistances biologiques à partir de pressions de sélection" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser le raisonnement évolutif pour interpréter des phénomènes actuels" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Argumenter sur l’apport du cadre évolutif pour comprendre le monde vivant" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T3#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Une histoire du vivant" },
+  "chapitreTitre": { "S": "L’évolution humaine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier ce qu’est une innovation évolutive et son rôle dans l’évolution des espèces" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Lire et interpréter une matrice de comparaison de caractères morpho-anatomiques" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier la lignée humaine et les caractères communs aux espèces qui la composent" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Établir des liens de parenté à partir de matrices de caractères morpho-anatomiques issues d’innovations évolutives" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le degré de parenté entre espèces de primates à partir de données de ressemblance génétique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les caractères génétiques spécifiques du genre Homo" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les caractères non génétiques spécifiques du genre Homo" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Construire un arbre phylogénétique d’espèces fossiles à partir de l’étude de caractères" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T3#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Une histoire du vivant" },
+  "chapitreTitre": { "S": "Les modèles démographiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer le taux d’accroissement naturel d’une population" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer variation absolue et taux de variation dans un contexte démographique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier le vocabulaire et les notations usuelles des suites" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques d’une suite arithmétique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Reconnaître une suite arithmétique à partir de son expression explicite" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Reconnaître une suite arithmétique à partir de sa relation de récurrence" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier une suite arithmétique à partir de sa représentation graphique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Reconnaître une suite arithmétique à partir d’une description en langage naturel" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer si une suite est arithmétique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer les premiers termes d’une suite arithmétique définie par récurrence" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer la raison et le premier terme d’une suite arithmétique à partir de son expression explicite" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les caractéristiques d’une suite géométrique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Reconnaître une suite géométrique à partir de son expression explicite" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Reconnaître une suite géométrique à partir de sa relation de récurrence" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier une suite géométrique à partir de sa représentation graphique" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Reconnaître une suite géométrique à partir d’une description en langage naturel" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer si une suite est géométrique" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Calculer les premiers termes d’une suite géométrique définie par récurrence" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Déterminer la raison et le premier terme d’une suite géométrique à partir de son expression explicite" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Identifier la notion de temps de doublement d’une population et ses conditions d’utilisation" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Identifier les caractéristiques d’un modèle linéaire en démographie" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Déterminer le premier terme et la raison d’une suite arithmétique" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Déterminer le terme général d’une suite arithmétique à partir du premier terme et de la raison" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Déterminer le terme général d’une suite arithmétique définie par récurrence" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Identifier les caractéristiques d’un modèle exponentiel en démographie" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Déterminer le premier terme et la raison d’une suite géométrique" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Déterminer le terme général d’une suite géométrique à partir du premier terme et de la raison" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Déterminer le terme général d’une suite géométrique définie par récurrence" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Calculer l’effectif final d’une population à partir de l’effectif initial, du taux de natalité et du taux de mortalité" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Déterminer le temps de doublement d’une population en croissance exponentielle à l’aide d’une calculatrice" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Déterminer le temps de doublement d’une population en croissance exponentielle à l’aide d’un tableur" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Déterminer le temps de doublement d’une population en croissance exponentielle à partir d’une représentation graphique" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Identifier le modèle de Malthus et ses hypothèses" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Prédire l’effectif d’une population au bout de n années à l’aide du modèle de Malthus" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Interpréter un nuage de points traduisant l’évolution linéaire d’un effectif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#ES#T3#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Une histoire du vivant" },
+  "chapitreTitre": { "S": "L’intelligence artificielle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques et le rôle de la machine de Turing" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques fondamentales d’un algorithme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer si un ordinateur est programmable et identifier l’acteur de la programmation dans une situation de la vie courante" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir le type d’une variable en fonction d’une situation donnée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer si un fichier est exécutable sous un système d’exploitation donné" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer les ordres de grandeur de la taille de fichiers image, son et vidéo" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Proposer un jeu de données d’entrée permettant de tester un programme simple" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les caractéristiques générales de l’apprentissage automatique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les différentes phases d’un processus d’apprentissage machine" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier le principe de la régression en apprentissage automatique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les grandes étapes historiques du développement de l’intelligence artificielle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer le type d’une variable utilisée dans un programme ou un algorithme" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer la taille en octets d’une page de texte ASCII non compressée" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Corriger un algorithme simple comportant une erreur" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Corriger un programme simple comportant une erreur" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Identifier les caractéristiques et les limites de l’intelligence artificielle" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Identifier le principe de la classification en apprentissage automatique" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier le principe de l’inférence bayésienne et ses applications" } } }
+    ]
+  }
+}
+]

@@ -1,0 +1,571 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Constitution et transformations de la matière dans l’Univers" },
+  "chapitreTitre": { "S": "Les éléments chimiques dans l’Univers" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer atome, molécule et ion à partir de leur formule chimique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les constituants de l’atome et leurs propriétés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Relier les éléments chimiques aux grandes structures de l’Univers auxquelles ils sont majoritairement associés" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître une situation de fusion ou de fission nucléaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Écrire l’équation d’une réaction de fusion nucléaire à partir de l’écriture conventionnelle des noyaux" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Établir l’équation d’une réaction de fission nucléaire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une équation de désintégration radioactive en appliquant la loi de conservation de Soddy" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer si deux noyaux sont isotopes à partir de leur composition" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Différencier isotope stable et isotope radioactif" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Associer un type de désintégration radioactive aux particules émises" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier le type de désintégration radioactive à partir d’une équation nucléaire" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer la composition d’un atome à partir de son écriture conventionnelle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Écrire la notation conventionnelle d’un atome à partir de sa composition nucléaire" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Représenter graphiquement l’abondance des éléments chimiques à partir d’un texte descriptif" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Établir l’équation de désintégration d’un noyau à partir du type de transformation radioactive" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer le nombre de noyaux radioactifs restants après une demi-vie" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer le nombre de noyaux restants après plusieurs demi-vies successives" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Estimer la durée nécessaire pour atteindre une proportion donnée de noyaux restants" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Déterminer la demi-vie d’un isotope à partir d’un graphique de décroissance radioactive" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Identifier un noyau à partir de sa chaîne de désintégration" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Analyser un graphique représentant l’abondance des éléments chimiques dans une entité astronomique" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Exploiter une loi de décroissance radioactive pour réaliser une datation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Constitution et transformations de la matière dans l’Univers" },
+  "chapitreTitre": { "S": "Des édifices ordonnés : les cristaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer solide cristallin et solide amorphe à partir de leur organisation atomique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier un solide cristallin à partir d’une photographie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier un réseau cubique simple et un réseau cubique à faces centrées" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer le nombre de mailles auxquelles appartient une sphère dans un réseau cristallin" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer la contribution d’une sphère à une maille cristalline" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer une distance caractéristique d’une maille à l’aide du modèle des sphères dures" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer le volume occupé dans une maille à partir du modèle des sphères dures" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer la masse molaire d’un atome à partir de son écriture conventionnelle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer la masse molaire d’une molécule à partir des masses molaires atomiques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier la structure amorphe ou cristalline d’une roche à ses conditions de refroidissement" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Distinguer les notions de maille, cristal, minéral et roche" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier un solide cristallin à partir d’une représentation microscopique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Représenter un réseau cubique simple en perspective cavalière" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Représenter un réseau cubique à faces centrées en perspective cavalière" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer la multiplicité d’une maille dans un réseau cubique simple" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer la multiplicité d’une maille dans un réseau cubique à faces centrées" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer la compacité d’une maille de réseau cubique simple" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déterminer la compacité d’une maille de réseau cubique à faces centrées" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Calculer la masse d’une maille cristalline" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer la masse volumique d’un solide cristallin à réseau cubique simple" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Déterminer la masse volumique d’un solide cristallin à réseau cubique à faces centrées" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Constitution et transformations de la matière dans l’Univers" },
+  "chapitreTitre": { "S": "Une structure complexe : la cellule" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques structurales et fonctionnelles de la membrane plasmique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer les pôles hydrophile et hydrophobe des lipides membranaires" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Décrire les caractéristiques générales d’une cellule" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître une cellule à partir d’une observation ou d’un document iconographique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer les ordres de grandeur des tailles des molécules, cellules, tissus, organes et organismes" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Distinguer les niveaux d’organisation : molécule, cellule, tissu, organe et organisme" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier cellule procaryote et cellule eucaryote" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier cellule eucaryote animale et cellule eucaryote végétale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer la taille réelle d’une cellule à partir d’une image de microscopie optique ou électronique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Présenter les grandes étapes de l’histoire de la théorie cellulaire" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Schématiser la membrane plasmique à partir de molécules dont les zones hydrophile et hydrophobe sont identifiées" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Légender un schéma de cellule eucaryote" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser des documents historiques relatifs à l’élaboration de la théorie cellulaire" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Légender une observation microscopique de cellule" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Le Soleil, notre source d’énergie" },
+  "chapitreTitre": { "S": "Le rayonnement solaire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Convertir des unités de température" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer la longueur d’onde du maximum d’émission à la couleur d’une étoile" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire la longueur d’onde correspondant au maximum d’émission sur le spectre de rayonnement d’une étoile" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la variation de masse du Soleil associée à l’énergie rayonnée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer l’énergie libérée lors d’une fusion nucléaire à partir de la variation de masse" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser la loi de Wien pour déterminer la température d’une source à partir de sa couleur" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la longueur d’onde correspondant au maximum d’émission d’une source" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier le domaine de longueurs d’onde du rayonnement émis par une source" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Exploiter la relation entre puissance solaire reçue par la Terre et énergie du rayonnement solaire" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier la puissance reçue par une surface à partir d’un schéma de situation" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer des températures moyennes à partir de données temporelles" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser des données de température à l’aide de représentations graphiques" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Comparer des distributions temporelles de températures" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Le Soleil, notre source d’énergie" },
+  "chapitreTitre": { "S": "Le bilan radiatif terrestre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer les phénomènes d’absorption, de diffusion et de transmission de la lumière" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques de l’albédo terrestre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les caractéristiques et le rôle de l’effet de serre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la proportion de la puissance solaire émise atteignant la Terre à partir d’un schéma" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer un albédo à partir des puissances reçue et réfléchie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer la puissance réfléchie à l’aide de l’albédo et de la puissance reçue" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer une puissance reçue à partir de l’albédo et de la puissance réfléchie" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Représenter sur un schéma les différents rayonnements reçus et émis par la surface terrestre" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Commenter la courbe d’absorption de l’atmosphère terrestre en fonction de la longueur d’onde" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Réaliser un bilan radiatif terrestre à partir de données fournies" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer l’influence des différents facteurs du bilan radiatif sur la température moyenne de la Terre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Le Soleil, notre source d’énergie" },
+  "chapitreTitre": { "S": "Une conversion naturelle de l’énergie solaire : la photosynthèse" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier la répartition de l’énergie solaire incidente parvenant aux feuilles" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Représenter sur un schéma les différents échanges d’énergie au niveau d’une feuille" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Décrire les principales étapes du processus de fossilisation de la matière organique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter et interpréter un schéma fonctionnel de la photosynthèse" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre en évidence l’importance planétaire de la photosynthèse" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser un spectre d’absorption photosynthétique d’un végétal" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer les spectres d’absorption et d’action photosynthétique d’un végétal" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier la photosynthèse au sein d’un organisme à partir de documents scientifiques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Type BAC : expliquer le processus de la photosynthèse et son rôle énergétique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Le Soleil, notre source d’énergie" },
+  "chapitreTitre": { "S": "Le bilan thermique du corps humain" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les différents mécanismes de perte de chaleur du corps humain" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les différentes sources de gain de chaleur du corps humain" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer les notions de thermolyse et de thermogenèse" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Représenter sur un schéma qualitatif les échanges d’énergie entre l’organisme et le milieu extérieur" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer les conditions d’équilibre entre thermolyse et thermogenèse" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Exploiter des données quantitatives sur l’apport énergétique des aliments dans un bilan d’énergie lié à une activité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer les apports énergétiques du corps humain selon différentes sources d’énergie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T3#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "La Terre, un astre singulier" },
+  "chapitreTitre": { "S": "La forme de la Terre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les principales caractéristiques géométriques de la Terre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer parallèles et méridiens sur un globe ou une carte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier longitude et latitude et les interpréter" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Calculer la distance entre deux points de même longitude" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer la distance entre deux points de même latitude" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Choisir une triangulation adaptée à une situation de mesure" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la distance entre deux points de latitudes et longitudes différentes" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer des distances en utilisant les coordonnées géographiques (latitude, longitude)" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer un angle dans une triangulation à partir de mesures fournies" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer une longueur dans une triangulation à partir de données géométriques" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer la longueur d’un méridien à la manière d’Ératosthène" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Calculer la longueur d’un méridien à l’aide d’une triangulation" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer le rayon terrestre à partir d’une triangulation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T3#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "La Terre, un astre singulier" },
+  "chapitreTitre": { "S": "L’histoire de l’âge de la Terre" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Ordonner dans le temps les principales méthodes de datation utilisées pour estimer l’âge de la Terre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Estimer l’âge d’un amas de sédiments à partir d’une vitesse de sédimentation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Modéliser une datation de la Terre à partir du refroidissement d’une sphère" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Lire la période de demi-vie sur un graphique de décroissance radioactive" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer l’âge d’un échantillon à partir des proportions d’atomes père et d’atomes fils" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les limites et les conditions de validité d’une datation radioactive" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Expliquer le principe d’une datation fondée sur la sédimentation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer le principe d’une datation fondée sur le refroidissement des corps" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T3#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "La Terre, un astre singulier" },
+  "chapitreTitre": { "S": "La Terre dans l’Univers" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer les modèles géocentrique et héliocentrique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Représenter le mouvement de la Terre dans le référentiel héliocentrique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Représenter le mouvement de la Lune dans le référentiel géocentrique" } } },
+      { "M": { "id": { "id":"E04" }, "titre": { "S": "Interpréter l’aspect de la Lune en fonction de la position relative de la Terre, de la Lune et du Soleil" } } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier et situer les planètes du système solaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser des documents historiques mettant en évidence les arguments en faveur de la théorie héliocentrique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T4#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Son et musique, porteurs d’information" },
+  "chapitreTitre": { "S": "Le son, phénomène vibratoire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les conditions d’émission d’un son par un objet vibrant et une caisse de résonance" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer un son pur d’un son composé à partir d’un spectre en fréquence" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer un son pur d’un son composé à partir d’une représentation temporelle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Repérer le motif élémentaire d’un signal sonore périodique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer la période d’un signal sonore sinusoïdal à partir de sa représentation temporelle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Lire la fréquence fondamentale sur un spectre en fréquence d’un son" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les harmoniques présentes dans un son composé" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer la fréquence d’une harmonique à partir de la fréquence fondamentale" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Associer une représentation temporelle et une représentation fréquentielle d’un son pur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier les caractéristiques physiques d’un son à la hauteur et au timbre perçus" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Lire graphiquement la période d’une onde périodique sur un oscilloscope" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer graphiquement la fréquence d’une onde périodique à partir de sa représentation temporelle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer graphiquement la fréquence d’une onde périodique à l’aide d’un oscilloscope" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Utiliser la relation liant période et fréquence d’un signal périodique" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer un niveau sonore à partir d’une intensité sonore" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Calculer une intensité sonore à partir d’un niveau sonore" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer si un signal sonore présente un risque pour l’audition" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Expliquer l’influence des caractéristiques d’une corde sur le son émis par un instrument à cordes" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Expliquer l’influence de la colonne d’air sur le son émis par un instrument à vent" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T4#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Son et musique, porteurs d’information" },
+  "chapitreTitre": { "S": "La musique ou l’art de faire entendre les nombres" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer l’intervalle musical entre deux sons à partir de leurs fréquences" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer si un son est l’octave d’un autre à partir de leurs fréquences" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer si un son correspond à la quinte d’un autre à partir de leurs fréquences" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les caractéristiques des gammes classique, de Pythagore et tempérée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Calculer la fréquence correspondant à l’octave d’un son donné" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer la fréquence correspondant à la quinte d’un son donné" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer les fréquences des notes d’une gamme classique à partir de la fréquence de la note fondamentale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer les fréquences des notes d’une gamme de Pythagore" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer les fréquences des notes d’une gamme tempérée à partir de la fréquence de la note fondamentale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T4#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Son et musique, porteurs d’information" },
+  "chapitreTitre": { "S": "Le son, une information à coder" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer un signal sonore analogique d’un signal sonore numérique à partir de leur représentation temporelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Lire la période d’échantillonnage sur la représentation temporelle d’un signal numérique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Associer un nombre décimal à son écriture binaire correspondante" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer la valeur quantifiée d’un signal numérique à un instant donné" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier la résolution d’un signal numérique à partir de sa représentation temporelle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Évaluer la fidélité d’une numérisation à partir d’une représentation temporelle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer la durée d’un fichier audio à partir de sa fréquence d’échantillonnage, de sa résolution et de sa taille" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer la fréquence d’échantillonnage d’un fichier audio à partir de sa taille, de sa résolution et de sa durée" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer la résolution d’échantillonnage d’un fichier audio à partir de sa taille, de sa fréquence d’échantillonnage et de sa durée" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Représenter un signal numérique à partir d’un signal analogique et d’une période d’échantillonnage donnée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les principales étapes de la numérisation d’un signal sonore" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Représenter un signal numérique à partir d’un signal analogique, d’une résolution et d’une période d’échantillonnage données" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer un débit binaire à partir des caractéristiques d’un fichier audio" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer la taille d’un fichier audio à partir de son débit binaire et de sa durée" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Calculer un taux de compression d’un fichier audio" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser les pertes de qualité sonore liées à la compression d’un fichier audio" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T4#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Son et musique, porteurs d’information" },
+  "chapitreTitre": { "S": "Entendre la musique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer oreille externe, oreille moyenne et oreille interne" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques d’un son audible par l’être humain" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les aires cérébrales impliquées dans le traitement des messages nerveux auditifs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter un schéma fonctionnel de l’organisation de l’oreille" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire les étapes de la transmission du son jusqu’à la perception" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Relier la structure des cellules ciliées à la perception des sons" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier la structure des cellules ciliées à la fragilité du système auditif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Évaluer la dangerosité d’un son à partir d’une courbe d’égal sensation auditive" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Interpréter des données d’imagerie cérébrale relatives au traitement de l’information sonore" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T5#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Les phénomènes d’évolution" },
+  "chapitreTitre": { "S": "La croissance linéaire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier le mode de génération d’une suite" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître une suite arithmétique à partir de son expression explicite" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître une suite arithmétique à partir de sa relation de récurrence" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier une suite arithmétique à partir de sa représentation graphique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Reconnaître une suite arithmétique à partir d’une description en langage naturel" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer si une suite est arithmétique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer les premiers termes d’une suite arithmétique définie par récurrence" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer la raison et le premier terme d’une suite arithmétique à partir de son expression explicite" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les caractéristiques d’une fonction affine" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Déterminer si une fonction est affine à partir de son expression" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Associer une expression algébrique à la courbe représentative d’une fonction affine" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer le premier terme et la raison d’une suite arithmétique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Calculer la raison et le premier terme d’une suite arithmétique modélisant un phénomène discret à croissance linéaire" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer le terme général d’une suite arithmétique à partir du premier terme et de la raison" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer le terme général d’une suite arithmétique définie par récurrence" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déterminer le terme général d’une suite arithmétique définie par un algorithme" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer le sens de variation d’une suite arithmétique à partir de sa raison" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déterminer le coefficient directeur d’une fonction affine à partir de son expression" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Déterminer l’ordonnée à l’origine d’une fonction affine à partir de son expression" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Lire graphiquement le coefficient directeur d’une fonction affine" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Déterminer graphiquement l’ordonnée à l’origine d’une fonction affine" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Déterminer la monotonie d’une fonction affine à partir de son expression" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Associer l’expression d’une fonction affine à son tableau de variation" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Déterminer le sens d’évolution d’un phénomène continu à croissance linéaire" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Modéliser un phénomène discret à croissance linéaire à l’aide d’une suite arithmétique" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Déterminer le sens d’évolution d’un phénomène discret à croissance linéaire" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Déterminer graphiquement un seuil d’un phénomène discret à croissance linéaire" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Déterminer algébriquement un seuil d’un phénomène discret à croissance linéaire" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Reconnaître et modéliser un phénomène continu à croissance linéaire à l’aide d’une fonction affine" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Déterminer graphiquement un seuil d’un phénomène continu à croissance linéaire" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Déterminer algébriquement un seuil d’un phénomène continu à croissance linéaire" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Écrire un algorithme permettant de calculer un terme d’une suite arithmétique" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Déterminer la fonction génératrice associée à une suite arithmétique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T5#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Les phénomènes d’évolution" },
+  "chapitreTitre": { "S": "La croissance exponentielle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Reconnaître une suite géométrique à partir de son expression explicite" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître une suite géométrique à partir de sa relation de récurrence" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier une suite géométrique à partir de sa représentation graphique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître une suite géométrique à partir d’une description en langage naturel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer si une suite est géométrique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer les premiers termes d’une suite géométrique définie par récurrence" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la raison et le premier terme d’une suite géométrique à partir de son expression explicite" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser les propriétés algébriques des fonctions exponentielles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer le sens de variation d’une fonction exponentielle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Représenter graphiquement une fonction exponentielle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer un taux d’évolution moyen" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Reconnaître un phénomène discret relevant d’un modèle de croissance exponentielle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer le premier terme et la raison d’une suite géométrique" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Calculer la raison et le premier terme d’une suite géométrique modélisant un phénomène discret à croissance exponentielle" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Déterminer le terme général d’une suite géométrique à partir du premier terme et de la raison" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Déterminer le terme général d’une suite géométrique définie par récurrence" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Déterminer le terme général d’une suite géométrique définie par un algorithme" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Déterminer le sens de variation d’une suite géométrique à partir de sa raison" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Représenter et exploiter graphiquement les termes d’une suite géométrique" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Reconnaître un phénomène continu relevant d’un modèle de croissance exponentielle" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Comparer et ranger des nombres de la forme a^x" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Déterminer graphiquement un seuil d’un phénomène continu à croissance exponentielle" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Déterminer par le calcul un seuil d’un phénomène continu à croissance exponentielle" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Déterminer graphiquement un seuil d’un phénomène discret à croissance exponentielle" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Déterminer par le calcul un seuil d’un phénomène discret à croissance exponentielle" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Déterminer un seuil d’un phénomène discret à croissance exponentielle à l’aide d’un programme Python" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Déterminer un seuil d’un phénomène continu à croissance exponentielle à l’aide d’un programme Python" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Étudier une suite géométrique définie par récurrence" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Étudier une suite géométrique définie par un algorithme de calcul" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Modéliser une situation réelle à l’aide d’une suite géométrique" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Écrire un algorithme permettant de calculer un terme d’une suite géométrique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T5#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Les phénomènes d’évolution" },
+  "chapitreTitre": { "S": "La variation instantanée" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques et le sens d’un nombre dérivé" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer le taux de variation d’une fonction entre deux points donnés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer graphiquement le nombre dérivé en un point à partir de la tangente à la courbe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Retrouver graphiquement l’équation de la tangente en un point" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Construire la tangente à la courbe d’une fonction en un point" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Interpréter un nombre dérivé dans un contexte de variation instantanée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Interpréter un nombre dérivé dans un contexte chimique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Interpréter un nombre dérivé dans un contexte économique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Interpréter un nombre dérivé dans un contexte physique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T5#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Les phénomènes d’évolution" },
+  "chapitreTitre": { "S": "La variation globale" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la formule de dérivation d’une fonction affine" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Dériver une fonction affine" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la formule de dérivation de la fonction carré" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la formule de dérivation de la fonction cube" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Dériver une fonction polynôme de degré inférieur ou égal à 3" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Construire la tangente à la courbe d’une fonction polynôme de degré inférieur ou égal à 3 en un point" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer l’équation réduite de la tangente à la courbe d’une fonction polynôme de degré inférieur ou égal à 3 en un point" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier les variations d’une fonction polynôme de degré inférieur ou égal à 3 à l’aide de sa dérivée" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Dresser le tableau de variations d’une fonction polynôme de degré inférieur ou égal à 3" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Résoudre un problème d’optimisation à l’aide d’une fonction polynôme de degré inférieur ou égal à 3" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T6#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Les autres notions mathématiques" },
+  "chapitreTitre": { "S": "L’analyse de l’information chiffrée" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Donner la signification de la valeur d’une case dans un tableau croisé d’effectifs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Construire un diagramme en barres à partir de données" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Interpréter un diagramme en barres" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Construire un diagramme circulaire à partir de données" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter un diagramme circulaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Construire un nuage de points à partir d’un tableau de données" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Interpréter un nuage de points" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser un tableur pour organiser et exploiter des données présentées sous forme de tableau" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#ES#T6#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Enseignement scientifique" },
+  "themeTitre": { "S": "Les autres notions mathématiques" },
+  "chapitreTitre": { "S": "Les phénomènes aléatoires" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer une fréquence marginale à partir d’un tableau croisé d’effectifs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Calculer une fréquence conditionnelle à partir d’un tableau croisé d’effectifs" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier et utiliser la définition d’une probabilité conditionnelle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer un tableau croisé d’effectifs en arbre pondéré" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Interpréter la signification d’une branche dans un arbre pondéré" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Lire une probabilité sur un arbre pondéré" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Distinguer faux positif, faux négatif, vrai positif et vrai négatif" } } },
+
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Calculer une probabilité conditionnelle à l’aide d’un tableau croisé d’effectifs" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer une probabilité à l’aide d’un arbre pondéré en appliquant la règle du produit" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer une probabilité à l’aide d’un arbre pondéré en appliquant la règle de la somme" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Déterminer si deux événements sont indépendants à partir d’un tableau croisé d’effectifs" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Représenter une succession de deux épreuves dépendantes à l’aide d’un tableau croisé d’effectifs" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Compléter un tableau croisé d’effectifs correspondant à une situation donnée" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer si deux événements sont indépendants à l’aide d’un arbre pondéré" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Compléter un arbre pondéré correspondant à une situation donnée" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Représenter une succession de deux épreuves indépendantes à l’aide d’un arbre pondéré" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Représenter une succession de deux épreuves dépendantes à l’aide d’un arbre pondéré" } } },
+
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Étudier une succession de deux épreuves indépendantes à l’aide d’un tableau croisé d’effectifs" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Étudier une succession de deux épreuves indépendantes à l’aide d’un arbre pondéré" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Étudier une succession de deux épreuves dépendantes à l’aide d’un arbre pondéré" } } }
+    ]
+  }
+}
+]

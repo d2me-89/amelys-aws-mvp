@@ -1,0 +1,165 @@
+[
+{
+  "PK": { "S": "CHAPITRE#TE#HLP#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "La recherche de soi" },
+  "chapitreTitre": { "S": "Éducation, transmission et émancipation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les finalités de l’éducation dans un texte littéraire ou philosophique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer instruction, éducation et formation dans différents contextes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser le rôle de la transmission dans la construction de l’individu" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier les tensions entre tradition et émancipation dans un texte argumentatif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les figures de l’autorité éducative dans des œuvres littéraires" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser une critique philosophique des modèles éducatifs" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer deux conceptions de l’éducation et de l’émancipation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier le rôle du savoir dans le processus d’autonomie individuelle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser la place de l’école dans la formation de l’esprit critique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les enjeux sociaux et politiques de la transmission des savoirs" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Mettre en relation un texte littéraire et une réflexion philosophique sur l’éducation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Réécrire un passage en modifiant la perspective éducative adoptée" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Rédiger un texte argumentatif sur l’éducation comme voie d’émancipation" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Porter un regard critique sur les modèles éducatifs contemporains" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#HLP#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "La recherche de soi" },
+  "chapitreTitre": { "S": "Les expressions de la sensibilité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les différentes formes d’expression de la sensibilité dans un texte" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le rôle des émotions dans la construction de l’identité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer sensibilité, sentiment et émotion dans un texte littéraire ou philosophique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier les procédés stylistiques de l’expression de la sensibilité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser la mise en scène de la sensibilité dans une œuvre artistique ou littéraire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer deux formes d’expression de la sensibilité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier les tensions entre sensibilité et raison dans un texte argumentatif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les enjeux philosophiques liés à l’expression de la sensibilité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre en relation un texte littéraire et une réflexion philosophique sur la sensibilité" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Réécrire un passage en modifiant l’expression de la sensibilité" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Produire un texte exprimant une sensibilité personnelle argumentée" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Porter un regard critique sur les formes contemporaines d’expression de la sensibilité" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#HLP#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "La recherche de soi" },
+  "chapitreTitre": { "S": "Les métamorphoses du moi" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les formes de transformation du moi dans un texte littéraire ou philosophique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les causes et les enjeux des métamorphoses du moi" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier le rapport entre identité, changement et continuité du moi" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser la mise en scène narrative de la transformation de soi" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Distinguer métamorphose physique, psychologique et symbolique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer deux représentations de la transformation du moi" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier le rôle de l’expérience et du temps dans la construction du moi" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les enjeux philosophiques de la notion d’identité personnelle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre en relation texte littéraire et réflexion philosophique sur le moi" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Réécrire un passage en modifiant la représentation du moi" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Rédiger un texte argumentatif sur la transformation de l’identité" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Porter un regard critique sur les métamorphoses contemporaines du moi" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#HLP#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Expériences contemporaines" },
+  "chapitreTitre": { "S": "Création, continuités et ruptures" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les enjeux de la création artistique et intellectuelle contemporaine" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la notion de rupture dans une œuvre ou un texte contemporain" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer continuité et innovation dans une démarche créative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier le rapport à la tradition dans une œuvre moderne ou contemporaine" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les procédés de réécriture et de détournement" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer deux œuvres illustrant des rapports différents à la rupture" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier les enjeux esthétiques et culturels de la création contemporaine" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les formes de contestation dans les pratiques artistiques modernes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre en relation une œuvre contemporaine avec un héritage antérieur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser le rôle du contexte historique et social dans les ruptures créatives" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier la réception critique d’une œuvre marquée par la rupture" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Réécrire ou transformer une œuvre en jouant sur continuité et rupture" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Rédiger un texte argumentatif sur la notion de création" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Porter un regard critique sur les évolutions contemporaines de la création" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#HLP#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Expériences contemporaines" },
+  "chapitreTitre": { "S": "Histoire et violence" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les formes de violence représentées dans des textes historiques, littéraires ou philosophiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les liens entre histoire, pouvoir et violence" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer violence physique, symbolique et institutionnelle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier la mise en récit de la violence dans un texte ou une œuvre" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser la justification ou la dénonciation de la violence dans un discours" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer deux représentations de la violence historique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier les effets de la violence sur les individus et les sociétés" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les enjeux éthiques et philosophiques liés à la violence" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre en relation un événement historique et sa représentation littéraire ou artistique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser le rôle de la mémoire dans la représentation de la violence historique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier la fonction critique de la représentation de la violence" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Rédiger un texte argumentatif sur les rapports entre histoire et violence" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Porter un regard critique sur les formes contemporaines de violence historique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#HLP#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Humanités, littérature et philosophie" },
+  "themeTitre": { "S": "Expériences contemporaines" },
+  "chapitreTitre": { "S": "L’humain et ses limites" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les différentes limites de l’humain évoquées dans des textes littéraires ou philosophiques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser la notion de limite physique dans la représentation de l’humain" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier les limites psychologiques et morales de l’être humain" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer limites naturelles et limites socialement construites" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le rapport entre dépassement de soi et conscience des limites" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Étudier les représentations du progrès face aux limites humaines" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer deux visions opposées du rapport de l’humain à ses limites" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les enjeux éthiques liés au franchissement des limites humaines" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser les figures littéraires ou mythiques du dépassement des limites" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Mettre en relation un texte littéraire et une réflexion philosophique sur la finitude humaine" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier la place de la technique et des sciences dans la question des limites humaines" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser les discours contemporains sur l’augmentation ou la transformation de l’humain" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Réécrire un passage en modifiant la représentation des limites humaines" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Rédiger un texte argumentatif sur les limites de l’humain dans le monde contemporain" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Porter un regard critique sur les enjeux actuels liés aux limites de l’humain" } } }
+    ]
+  }
+}
+]
