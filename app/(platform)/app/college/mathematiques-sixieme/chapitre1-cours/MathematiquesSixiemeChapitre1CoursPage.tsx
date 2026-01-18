@@ -114,7 +114,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             >
               <h1 style={{
                 fontSize: "1.125rem",
-                fontWeight: 600,
+                fontWeight: 300,
                 margin: 0,
                 color: "#fff"
               }}>
@@ -329,9 +329,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             borderTop: "1px solid rgba(255,255,255,0.1)",
             padding: "0.75rem 1.5rem",
             background: "var(--background)",
-            position: "sticky",
-            bottom: 0,
-            zIndex: 20
           }}>
             <div style={{
               maxWidth: "800px",
