@@ -31,18 +31,19 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const lastMessageRef = useRef<HTMLDivElement>(null);
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ 
+  const scrollToLastMessage = () => {
+    lastMessageRef.current?.scrollIntoView({ 
       behavior: "smooth",
-      block: "start" // Aligne le message en haut de la zone visible
+      block: "start" // Aligne le dernier message en haut de la zone visible
     });
   };
 
   useEffect(() => {
     if (messages.length > 0) {
-      scrollToBottom();
+      scrollToLastMessage();
     }
   }, [messages]);
 
@@ -238,7 +239,12 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             ) : (
               <>
                 {messages.map((msg, idx) => (
-                  <MessageBubble key={idx} message={msg} />
+                  <div 
+                    key={idx}
+                    ref={idx === messages.length - 1 ? lastMessageRef : null}
+                  >
+                    <MessageBubble message={msg} />
+                  </div>
                 ))}
                 
                 {isTyping && (
