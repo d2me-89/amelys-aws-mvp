@@ -1025,4 +1025,4 @@ function FAQMenuItem({ id, icon, data, isOpen, onToggle }: FAQMenuItemProps) {
       )}
     </div>
   );
-}}
+}
