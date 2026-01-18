@@ -35,14 +35,21 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
-  // Fonction de scroll corrigée
+  // Fonction de scroll - place le message en HAUT de la zone visible
   const scrollToLastMessage = () => {
-    // Utiliser requestAnimationFrame pour s'assurer que le DOM est à jour
     requestAnimationFrame(() => {
-      if (lastMessageRef.current) {
-        lastMessageRef.current.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start' // Place le message en haut de la zone visible
+      if (lastMessageRef.current && scrollContainerRef.current) {
+        const container = scrollContainerRef.current;
+        const message = lastMessageRef.current;
+        
+        // Calculer la position pour mettre le message en haut
+        const messageTop = message.getBoundingClientRect().top;
+        const containerTop = container.getBoundingClientRect().top;
+        const offset = messageTop - containerTop + container.scrollTop - 20;
+        
+        container.scrollTo({
+          top: offset,
+          behavior: 'smooth'
         });
       }
     });
