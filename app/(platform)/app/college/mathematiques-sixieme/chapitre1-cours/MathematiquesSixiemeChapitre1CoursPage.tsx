@@ -35,18 +35,27 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const headerMenuRef = useRef<HTMLDivElement>(null);
 
+  // Fonction de scroll corrigée
   const scrollToLastMessage = () => {
-    setTimeout(() => {
-      lastMessageRef.current?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
-    }, 100);
+    // Utiliser requestAnimationFrame pour s'assurer que le DOM est à jour
+    requestAnimationFrame(() => {
+      if (lastMessageRef.current) {
+        lastMessageRef.current.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start' // Place le message en haut de la zone visible
+        });
+      }
+    });
   };
 
+  // Scroll uniquement quand les messages changent
   useEffect(() => {
     if (messages.length > 0) {
-      scrollToLastMessage();
+      // Petit délai pour laisser le DOM se mettre à jour
+      const timeoutId = setTimeout(() => {
+        scrollToLastMessage();
+      }, 50);
+      return () => clearTimeout(timeoutId);
     }
   }, [messages]);
 
@@ -71,13 +80,9 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     if (!inputValue.trim()) return;
     
     // Ajouter le message utilisateur
-    setMessages(prev => [...prev, { role: 'user', content: inputValue }]);
+    const userMessage = inputValue;
     setInputValue("");
-    
-    // FORCER le scroll immédiatement
-    setTimeout(() => {
-      scrollToLastMessage();
-    }, 100);
+    setMessages(prev => [...prev, { role: 'user', content: userMessage }]);
     
     // Simuler une réponse de l'assistant
     setIsTyping(true);
@@ -116,7 +121,8 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             alignItems: "center",
             justifyContent: "space-between",
             padding: "0 1.5rem",
-            background: "var(--background)"
+            background: "var(--background)",
+            flexShrink: 0 // Empêche le header de se réduire
           }}>
             {/* Gauche : Titre + Menu déroulant */}
             <div 
@@ -248,14 +254,13 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               </div>
             ) : (
               <>
-                {messages.map((msg, idx) => {
-                  const isLast = idx === messages.length - 1;
-                  return (
-                    <div key={idx} ref={isLast ? lastMessageRef : null}>
-                      <MessageBubble message={msg} />
-                    </div>
-                  );
-                })}
+                {messages.map((msg, idx) => (
+                  <MessageBubble 
+                    key={idx} 
+                    message={msg}
+                    ref={idx === messages.length - 1 ? lastMessageRef : null}
+                  />
+                ))}
                 
                 {isTyping && (
                   <div style={{
@@ -316,7 +321,8 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             padding: "0.125rem 1.5rem",
-            background: "var(--background)"
+            background: "var(--background)",
+            flexShrink: 0 // Empêche l'input de se réduire
           }}>
             <div style={{
               maxWidth: "800px",
@@ -456,7 +462,8 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
         maxWidth: "800px",
         marginLeft: isUser ? "auto" : "0",
         flexDirection: isUser ? "row-reverse" : "row",
-        position: "relative"
+        position: "relative",
+        scrollMarginTop: "80px" // Ajoute un offset lors du scroll
       }}
     >
       {/* Avatar */}
