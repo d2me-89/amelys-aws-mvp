@@ -29,7 +29,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     id: number, 
     role: 'user' | 'assistant', 
     content: string,
-    isLatestAssistant?: boolean // Pour suivre le dernier message assistant
+    isLatestUser?: boolean // Pour suivre le dernier message utilisateur
   }>>([]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -74,17 +74,18 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     const messageId = Date.now();
     setInputValue("");
     
-    // Retirer le flag isLatestAssistant des anciens messages
+    // Retirer le flag isLatestUser des anciens messages
     setMessages(prev => prev.map(msg => ({
       ...msg,
-      isLatestAssistant: false
+      isLatestUser: false
     })));
     
     // Ajouter le message utilisateur
     setMessages(prev => [...prev, { 
       id: messageId, 
       role: 'user', 
-      content: userMessage 
+      content: userMessage,
+      isLatestUser: true // Marquer comme dernier message utilisateur
     }]);
     
     // Simuler une réponse de l'assistant
@@ -94,8 +95,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       setMessages(prev => [...prev, { 
         id: Date.now(),
         role: 'assistant', 
-        content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?",
-        isLatestAssistant: true // Marquer comme dernier message assistant
+        content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?"
       }]);
     }, 1500);
   };
@@ -269,18 +269,17 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                       key={msg.id} 
                       message={msg}
                       ref={isLastUserMessage ? lastUserMessageRef : undefined}
-                      isLatestAssistant={msg.isLatestAssistant}
+                      isLatestUser={msg.isLatestUser}
                     />
                   );
                 })}
                 
-                {/* Indicateur de frappe avec minHeight */}
+                {/* Indicateur de frappe SANS minHeight */}
                 {isTyping && (
                   <div style={{
                     display: "flex",
                     gap: "1rem",
-                    maxWidth: "800px",
-                    minHeight: "calc(100vh - 250px)" // TECHNIQUE CLÉ : pousse tout vers le haut
+                    maxWidth: "800px"
                   }}>
                     <div style={{
                       width: "32px",
@@ -453,8 +452,9 @@ interface MessageBubbleProps {
     id: number, 
     role: 'user' | 'assistant', 
     content: string,
-    isLatestAssistant?: boolean 
+    isLatestUser?: boolean 
   };
+  isLatestUser?: boolean;
 }
 
 const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
@@ -479,8 +479,8 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
           flexDirection: isUser ? "row-reverse" : "row",
           position: "relative",
           scrollMarginTop: "20px",
-          // TECHNIQUE CLÉ : minHeight uniquement pour le dernier message assistant
-          minHeight: message.isLatestAssistant ? "calc(100vh - 250px)" : "auto"
+          // TECHNIQUE CLÉ : minHeight uniquement pour le dernier message UTILISATEUR
+          minHeight: message.isLatestUser ? "calc(100vh - 250px)" : "auto"
         }}
       >
         {/* Avatar */}
