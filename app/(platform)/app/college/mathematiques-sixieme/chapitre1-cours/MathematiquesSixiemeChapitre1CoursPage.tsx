@@ -507,7 +507,7 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
           </div>
         )}
 
-        <div style={{ flex: 1, position: "relative" }}>
+        <div style={{ flex: 1, position: "relative", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           {/* Bulle de message */}
           <div style={{
             background: isUser 
@@ -522,13 +522,9 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
             {message.content}
           </div>
 
-          {/* Actions (hover) */}
+          {/* Actions (hover) - directement après le message */}
           {!isUser && (
             <div style={{
-              position: "absolute",
-              top: "100%",
-              left: 0,
-              marginTop: "0.5rem",
               display: "flex",
               gap: "0.5rem",
               opacity: showActions ? 1 : 0,
