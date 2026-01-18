@@ -29,23 +29,20 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     id: number, 
     role: 'user' | 'assistant', 
     content: string,
-    isLatestUser?: boolean // Pour suivre le dernier message utilisateur
+    isLatestAssistant?: boolean // Pour suivre le dernier message assistant
   }>>([]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
-  const [preventScroll, setPreventScroll] = useState(false); // Empêcher le scroll auto
   
   const headerMenuRef = useRef<HTMLDivElement>(null);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const lastUserMessageRef = useRef<HTMLDivElement>(null);
-  const scrollPositionRef = useRef<number>(0);
 
   // Scroll vers le dernier message utilisateur quand il est ajouté
   useEffect(() => {
-    if (lastUserMessageRef.current && !preventScroll) {
-      // Petit délai pour laisser le DOM se mettre à jour avec le minHeight
+    if (lastUserMessageRef.current) {
       setTimeout(() => {
         lastUserMessageRef.current?.scrollIntoView({
           behavior: 'smooth',
@@ -53,14 +50,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
         });
       }, 50);
     }
-  }, [messages, preventScroll]);
-
-  // Maintenir la position de scroll quand un message assistant est ajouté
-  useEffect(() => {
-    if (preventScroll && chatContainerRef.current) {
-      chatContainerRef.current.scrollTop = scrollPositionRef.current;
-    }
-  }, [messages, preventScroll]);
+  }, [messages]);
 
   // Fermer le menu header quand on clique à l'extérieur
   useEffect(() => {
@@ -86,50 +76,30 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     const messageId = Date.now();
     setInputValue("");
     
-    // Retirer le flag isLatestUser des anciens messages
+    // Retirer le flag isLatestAssistant des anciens messages
     setMessages(prev => prev.map(msg => ({
       ...msg,
-      isLatestUser: false
+      isLatestAssistant: false
     })));
     
     // Ajouter le message utilisateur
     setMessages(prev => [...prev, { 
       id: messageId, 
       role: 'user', 
-      content: userMessage,
-      isLatestUser: true // Marquer comme dernier message utilisateur
+      content: userMessage
     }]);
-    
-    setPreventScroll(false); // Permettre le scroll pour le message utilisateur
     
     // Simuler une réponse de l'assistant
     setIsTyping(true);
     
-    // Retirer le minHeight du message utilisateur quand l'IA répond
     setTimeout(() => {
-      // Sauvegarder la position actuelle du scroll
-      if (chatContainerRef.current) {
-        scrollPositionRef.current = chatContainerRef.current.scrollTop;
-      }
-      
-      setPreventScroll(true); // Empêcher le scroll auto pour le message assistant
-      
-      setMessages(prev => prev.map(msg => ({
-        ...msg,
-        isLatestUser: false
-      })));
-      
       setIsTyping(false);
       setMessages(prev => [...prev, { 
         id: Date.now(),
         role: 'assistant', 
-        content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?"
+        content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?",
+        isLatestAssistant: true // Le dernier message assistant aura le minHeight
       }]);
-      
-      // Remettre preventScroll à false après l'ajout du message
-      setTimeout(() => {
-        setPreventScroll(false);
-      }, 100);
     }, 1500);
   };
 
@@ -304,17 +274,18 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                       key={msg.id} 
                       message={msg}
                       ref={isLastUserMessage ? lastUserMessageRef : undefined}
-                      isLatestUser={msg.isLatestUser}
+                      isLatestAssistant={msg.isLatestAssistant}
                     />
                   );
                 })}
                 
-                {/* Indicateur de frappe SANS minHeight */}
+                {/* Indicateur de frappe avec minHeight */}
                 {isTyping && (
                   <div style={{
                     display: "flex",
                     gap: "1rem",
-                    maxWidth: "800px"
+                    maxWidth: "800px",
+                    minHeight: "calc(100vh - 250px)"
                   }}>
                     <div style={{
                       width: "32px",
@@ -487,9 +458,9 @@ interface MessageBubbleProps {
     id: number, 
     role: 'user' | 'assistant', 
     content: string,
-    isLatestUser?: boolean 
+    isLatestAssistant?: boolean 
   };
-  isLatestUser?: boolean;
+  isLatestAssistant?: boolean;
 }
 
 const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
@@ -514,8 +485,8 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
           flexDirection: isUser ? "row-reverse" : "row",
           position: "relative",
           scrollMarginTop: "20px",
-          // TECHNIQUE CLÉ : minHeight uniquement pour le dernier message UTILISATEUR
-          minHeight: message.isLatestUser ? "calc(100vh - 250px)" : "auto"
+          // TECHNIQUE CLÉ : minHeight sur le dernier message ASSISTANT
+          minHeight: message.isLatestAssistant ? "calc(100vh - 250px)" : "auto"
         }}
       >
         {/* Avatar */}
