@@ -218,11 +218,17 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           <div style={{
             flex: 1,
             overflowY: "auto",
-            padding: "2rem 1rem",
             display: "flex",
-            flexDirection: "column",
-            gap: "1.5rem"
+            justifyContent: "center",
+            padding: "2rem 1rem"
           }}>
+            <div style={{
+              width: "100%",
+              maxWidth: "800px",
+              display: "flex",
+              flexDirection: "column",
+              gap: "1.5rem"
+            }}>
             {messages.length === 0 ? (
               <div style={{
                 display: "flex",
@@ -315,6 +321,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 <div ref={messagesEndRef} />
               </>
             )}
+            </div>
           </div>
 
           {/* Input en bas */}
@@ -336,251 +343,16 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 position: "relative"
               }}>
                 {/* Bouton Réflexion approfondie */}
-                <div style={{ position: "relative" }}>
-                  <button
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      width: "36px",
-                      height: "36px",
-                      background: "rgba(255,255,255,0.05)",
-                      border: "1px solid rgba(255,255,255,0.15)",
-                      borderRadius: "8px",
-                      color: "#fff",
-                      cursor: "pointer",
-                      transition: "all 0.2s ease",
-                      position: "relative"
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-                      e.currentTarget.style.borderColor = "#9F7AEA";
-                      const tooltip = e.currentTarget.nextElementSibling as HTMLElement;
-                      if (tooltip) tooltip.style.opacity = "1";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                      e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                      const tooltip = e.currentTarget.nextElementSibling as HTMLElement;
-                      if (tooltip) tooltip.style.opacity = "0";
-                    }}
-                  >
-                    <LuBrain size={18} />
-                  </button>
-                  
-                  {/* Tooltip */}
-                  <div style={{
-                    position: "absolute",
-                    bottom: "100%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                    marginBottom: "0.5rem",
-                    padding: "0.5rem 0.75rem",
-                    background: "rgba(30, 30, 35, 0.98)",
-                    border: "1px solid rgba(255,255,255,0.15)",
-                    borderRadius: "6px",
-                    color: "#fff",
-                    fontSize: "0.8rem",
-                    whiteSpace: "nowrap",
-                    opacity: 0,
-                    pointerEvents: "none",
-                    transition: "opacity 0.2s ease",
-                    zIndex: 1001
-                  }}>
-                    Réflexion approfondie
-                  </div>
-                </div>
+                <ToolButton icon={<LuBrain size={18} />} tooltip="Réflexion approfondie" />
 
-                {/* Boutons d'actions - 8 icônes alignées */}
-                <button
-                  title="Ajouter fichiers"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    width: "36px",
-                    height: "36px",
-                    background: "rgba(255,255,255,0.05)",
-                    border: "1px solid rgba(255,255,255,0.15)",
-                    borderRadius: "8px",
-                    color: "#fff",
-                    cursor: "pointer",
-                    transition: "all 0.2s ease",
-                    position: "relative"
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-                    e.currentTarget.style.borderColor = "#9F7AEA";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                    e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                  }}
-                >
-                  <LuPaperclip size={18} />
-                </button>
-
-                <button
-                  title="Ajouter photos"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    width: "36px",
-                    height: "36px",
-                    background: "rgba(255,255,255,0.05)",
-                    border: "1px solid rgba(255,255,255,0.15)",
-                    borderRadius: "8px",
-                    color: "#fff",
-                    cursor: "pointer",
-                    transition: "all 0.2s ease"
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-                    e.currentTarget.style.borderColor = "#9F7AEA";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                    e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                  }}
-                >
-                  <LuCamera size={18} />
-                </button>
-
-                <button
-                  title="Ajouter au Projet"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    width: "36px",
-                    height: "36px",
-                    background: "rgba(255,255,255,0.05)",
-                    border: "1px solid rgba(255,255,255,0.15)",
-                    borderRadius: "8px",
-                    color: "#fff",
-                    cursor: "pointer",
-                    transition: "all 0.2s ease"
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-                    e.currentTarget.style.borderColor = "#9F7AEA";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                    e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                  }}
-                >
-                  <LuFolderPlus size={18} />
-                </button>
-
-                <button
-                  title="Recherche"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    width: "36px",
-                    height: "36px",
-                    background: "rgba(255,255,255,0.05)",
-                    border: "1px solid rgba(255,255,255,0.15)",
-                    borderRadius: "8px",
-                    color: "#fff",
-                    cursor: "pointer",
-                    transition: "all 0.2s ease"
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-                    e.currentTarget.style.borderColor = "#9F7AEA";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                    e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                  }}
-                >
-                  <LuSearch size={18} />
-                </button>
-
-                <button
-                  title="Recherche Web"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    width: "36px",
-                    height: "36px",
-                    background: "rgba(255,255,255,0.05)",
-                    border: "1px solid rgba(255,255,255,0.15)",
-                    borderRadius: "8px",
-                    color: "#fff",
-                    cursor: "pointer",
-                    transition: "all 0.2s ease"
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-                    e.currentTarget.style.borderColor = "#9F7AEA";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                    e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                  }}
-                >
-                  <LuGlobe size={18} />
-                </button>
-
-                <button
-                  title="Utiliser style"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    width: "36px",
-                    height: "36px",
-                    background: "rgba(255,255,255,0.05)",
-                    border: "1px solid rgba(255,255,255,0.15)",
-                    borderRadius: "8px",
-                    color: "#fff",
-                    cursor: "pointer",
-                    transition: "all 0.2s ease"
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-                    e.currentTarget.style.borderColor = "#9F7AEA";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                    e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                  }}
-                >
-                  <LuPenTool size={18} />
-                </button>
-
-                <button
-                  title="Ajouter connecteurs"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    width: "36px",
-                    height: "36px",
-                    background: "rgba(255,255,255,0.05)",
-                    border: "1px solid rgba(255,255,255,0.15)",
-                    borderRadius: "8px",
-                    color: "#fff",
-                    cursor: "pointer",
-                    transition: "all 0.2s ease"
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-                    e.currentTarget.style.borderColor = "#9F7AEA";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-                    e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                  }}
-                >
-                  <LuPlug size={18} />
-                </button>
+                {/* Boutons d'actions - 7 icônes alignées */}
+                <ToolButton icon={<LuPaperclip size={18} />} tooltip="Ajouter fichiers" />
+                <ToolButton icon={<LuCamera size={18} />} tooltip="Ajouter photos" />
+                <ToolButton icon={<LuFolderPlus size={18} />} tooltip="Ajouter au Projet" />
+                <ToolButton icon={<LuSearch size={18} />} tooltip="Recherche" />
+                <ToolButton icon={<LuGlobe size={18} />} tooltip="Recherche Web" />
+                <ToolButton icon={<LuPenTool size={18} />} tooltip="Utiliser style" />
+                <ToolButton icon={<LuPlug size={18} />} tooltip="Ajouter connecteurs" />
               </div>
 
               {/* Zone de saisie */}
@@ -611,8 +383,8 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     fontSize: "0.95rem",
                     resize: "none",
                     outline: "none",
-                    minHeight: "52px",
-                    maxHeight: "200px",
+                    minHeight: "24px",
+                    maxHeight: "150px",
                     fontFamily: "inherit",
                     lineHeight: "1.5"
                   }}
@@ -737,7 +509,7 @@ function MessageBubble({ message }: MessageBubbleProps) {
         {/* Bulle de message */}
         <div style={{
           background: isUser 
-            ? "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)" 
+            ? "#2f2f2f"
             : "rgba(255,255,255,0.05)",
           padding: "1rem 1.25rem",
           borderRadius: "12px",
@@ -802,5 +574,64 @@ function ActionButton({ icon, onClick }: { icon: React.ReactNode; onClick?: () =
     >
       {icon}
     </button>
+  );
+}
+
+// Composant ToolButton avec tooltip
+function ToolButton({ icon, tooltip }: { icon: React.ReactNode; tooltip: string }) {
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  return (
+    <div style={{ position: "relative" }}>
+      <button
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
+          e.currentTarget.style.borderColor = "#9F7AEA";
+          setShowTooltip(true);
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = "rgba(255,255,255,0.05)";
+          e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
+          setShowTooltip(false);
+        }}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          width: "36px",
+          height: "36px",
+          background: "rgba(255,255,255,0.05)",
+          border: "1px solid rgba(255,255,255,0.15)",
+          borderRadius: "8px",
+          color: "#fff",
+          cursor: "pointer",
+          transition: "all 0.2s ease"
+        }}
+      >
+        {icon}
+      </button>
+      
+      {/* Tooltip */}
+      <div style={{
+        position: "absolute",
+        bottom: "100%",
+        left: "50%",
+        transform: "translateX(-50%)",
+        marginBottom: "0.5rem",
+        padding: "0.5rem 0.75rem",
+        background: "rgba(30, 30, 35, 0.98)",
+        border: "1px solid rgba(255,255,255,0.15)",
+        borderRadius: "6px",
+        color: "#fff",
+        fontSize: "0.8rem",
+        whiteSpace: "nowrap",
+        opacity: showTooltip ? 1 : 0,
+        pointerEvents: "none",
+        transition: "opacity 0.2s ease",
+        zIndex: 1001
+      }}>
+        {tooltip}
+      </div>
+    </div>
   );
 }
