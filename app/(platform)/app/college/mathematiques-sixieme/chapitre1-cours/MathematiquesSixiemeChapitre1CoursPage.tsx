@@ -230,103 +230,109 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           <div style={{
             flex: 1,
             overflowY: "auto",
-            padding: "2rem 1rem",
             display: "flex",
-            flexDirection: "column",
-            gap: "1.5rem"
+            justifyContent: "center"
           }}>
-            {messages.length === 0 ? (
-              <div style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                height: "100%",
-                gap: "1rem"
-              }}>
+            <div style={{
+              width: "100%",
+              maxWidth: "800px",
+              padding: "2rem 1rem"
+            }}>
+              {messages.length === 0 ? (
                 <div style={{
-                  fontSize: "3rem",
-                  marginBottom: "1rem"
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  minHeight: "400px",
+                  gap: "1rem"
                 }}>
-                  📐
-                </div>
-                <h2 style={{
-                  fontSize: "1.5rem",
-                  fontWeight: 600,
-                  color: "#fff",
-                  margin: 0
-                }}>
-                  Chapitre 1 : Les nombres entiers et décimaux
-                </h2>
-                <p style={{
-                  fontSize: "1rem",
-                  color: "rgba(255,255,255,0.7)",
-                  maxWidth: "500px",
-                  textAlign: "center",
-                  lineHeight: "1.6"
-                }}>
-                  Commence ton cours interactif avec Amélys. Pose tes questions, demande des explications, et progresse à ton rythme !
-                </p>
-              </div>
-            ) : (
-              <>
-                {messages.map((msg, idx) => (
-                  <MessageBubble key={idx} message={msg} />
-                ))}
-                
-                {isTyping && (
                   <div style={{
-                    display: "flex",
-                    gap: "1rem",
-                    maxWidth: "800px"
+                    fontSize: "3rem",
+                    marginBottom: "1rem"
                   }}>
-                    <div style={{
-                      width: "32px",
-                      height: "32px",
-                      borderRadius: "50%",
-                      background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      flexShrink: 0,
-                      fontSize: "1.2rem"
-                    }}>
-                      🤖
-                    </div>
-                    <div style={{
-                      background: "rgba(255,255,255,0.05)",
-                      padding: "1rem 1.25rem",
-                      borderRadius: "12px",
-                      display: "flex",
-                      gap: "0.3rem"
-                    }}>
-                      <span className="typing-dot" style={{ 
-                        width: "8px", 
-                        height: "8px", 
-                        borderRadius: "50%", 
-                        background: "#9F7AEA",
-                        animation: "typing 1.4s infinite"
-                      }} />
-                      <span className="typing-dot" style={{ 
-                        width: "8px", 
-                        height: "8px", 
-                        borderRadius: "50%", 
-                        background: "#9F7AEA",
-                        animation: "typing 1.4s infinite 0.2s"
-                      }} />
-                      <span className="typing-dot" style={{ 
-                        width: "8px", 
-                        height: "8px", 
-                        borderRadius: "50%", 
-                        background: "#9F7AEA",
-                        animation: "typing 1.4s infinite 0.4s"
-                      }} />
-                    </div>
+                    📐
                   </div>
-                )}
-                <div ref={messagesEndRef} />
-              </>
-            )}
+                  <h2 style={{
+                    fontSize: "1.5rem",
+                    fontWeight: 600,
+                    color: "#fff",
+                    margin: 0
+                  }}>
+                    Chapitre 1 : Les nombres entiers et décimaux
+                  </h2>
+                  <p style={{
+                    fontSize: "1rem",
+                    color: "rgba(255,255,255,0.7)",
+                    maxWidth: "500px",
+                    textAlign: "center",
+                    lineHeight: "1.6"
+                  }}>
+                    Commence ton cours interactif avec Amélys. Pose tes questions, demande des explications, et progresse à ton rythme !
+                  </p>
+                </div>
+              ) : (
+                <div style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "2rem"
+                }}>
+                  {messages.map((msg, idx) => (
+                    <MessageBubble key={idx} message={msg} />
+                  ))}
+                  
+                  {isTyping && (
+                    <div style={{
+                      display: "flex",
+                      gap: "1rem",
+                      alignItems: "flex-start"
+                    }}>
+                      <div style={{
+                        width: "30px",
+                        height: "30px",
+                        borderRadius: "50%",
+                        background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                        fontSize: "0.9rem"
+                      }}>
+                        🤖
+                      </div>
+                      <div style={{
+                        display: "flex",
+                        gap: "0.3rem",
+                        paddingTop: "0.5rem"
+                      }}>
+                        <span className="typing-dot" style={{ 
+                          width: "8px", 
+                          height: "8px", 
+                          borderRadius: "50%", 
+                          background: "#9F7AEA",
+                          animation: "typing 1.4s infinite"
+                        }} />
+                        <span className="typing-dot" style={{ 
+                          width: "8px", 
+                          height: "8px", 
+                          borderRadius: "50%", 
+                          background: "#9F7AEA",
+                          animation: "typing 1.4s infinite 0.2s"
+                        }} />
+                        <span className="typing-dot" style={{ 
+                          width: "8px", 
+                          height: "8px", 
+                          borderRadius: "50%", 
+                          background: "#9F7AEA",
+                          animation: "typing 1.4s infinite 0.4s"
+                        }} />
+                      </div>
+                    </div>
+                  )}
+                  <div ref={messagesEndRef} />
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Input en bas */}
@@ -599,60 +605,85 @@ function MessageBubble({ message }: MessageBubbleProps) {
   const isUser = message.role === 'user';
   const [showActions, setShowActions] = useState(false);
 
+  if (isUser) {
+    // Message utilisateur : bulle noire à droite
+    return (
+      <div style={{
+        display: "flex",
+        justifyContent: "flex-end",
+        marginBottom: "0.5rem"
+      }}>
+        <div style={{
+          background: "#2f2f2f",
+          padding: "0.75rem 1rem",
+          borderRadius: "18px",
+          maxWidth: "80%",
+          color: "#ececec",
+          fontSize: "0.95rem",
+          lineHeight: "1.5"
+        }}>
+          {message.content}
+        </div>
+      </div>
+    );
+  }
+
+  // Message assistant : pas de bulle, juste texte avec avatar
   return (
     <div
       onMouseEnter={() => setShowActions(true)}
       onMouseLeave={() => setShowActions(false)}
       style={{
         display: "flex",
-        gap: "1rem",
-        maxWidth: "800px",
-        marginLeft: isUser ? "auto" : "0",
-        flexDirection: isUser ? "row-reverse" : "row"
+        gap: "0.75rem",
+        alignItems: "flex-start"
       }}
     >
-      {/* Avatar */}
-      {!isUser && (
-        <div style={{
-          width: "32px",
-          height: "32px",
-          borderRadius: "50%",
-          background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexShrink: 0,
-          fontSize: "1.2rem"
-        }}>
-          🤖
-        </div>
-      )}
+      {/* Avatar Amélys */}
+      <div style={{
+        width: "30px",
+        height: "30px",
+        borderRadius: "50%",
+        background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexShrink: 0,
+        fontSize: "0.9rem"
+      }}>
+        🤖
+      </div>
 
-      <div style={{ flex: 1 }}>
-        {/* Bulle de message */}
+      <div style={{ flex: 1, minWidth: 0 }}>
+        {/* Texte sans bulle */}
         <div style={{
-          background: isUser 
-            ? "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)" 
-            : "rgba(255,255,255,0.05)",
-          padding: "1rem 1.25rem",
-          borderRadius: "12px",
-          color: "#fff",
-          lineHeight: "1.6",
+          color: "rgba(255,255,255,0.9)",
+          lineHeight: "1.7",
           fontSize: "0.95rem"
         }}>
           {message.content}
         </div>
 
         {/* Actions (hover) */}
-        {showActions && !isUser && (
+        {showActions && (
           <div style={{
             display: "flex",
             gap: "0.5rem",
-            marginTop: "0.5rem",
+            marginTop: "0.75rem",
             opacity: showActions ? 1 : 0,
             transition: "opacity 0.2s ease"
           }}>
             <ActionButton icon={<LuCopy size={14} />} />
+            <ActionButton icon={<LuRefreshCw size={14} />} />
+            <ActionButton icon={<LuThumbsUp size={14} />} />
+            <ActionButton icon={<LuThumbsDown size={14} />} />
+            <ActionButton icon={<LuEllipsis size={14} />} />
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}            <ActionButton icon={<LuCopy size={14} />} />
             <ActionButton icon={<LuRefreshCw size={14} />} />
             <ActionButton icon={<LuThumbsUp size={14} />} />
             <ActionButton icon={<LuThumbsDown size={14} />} />
