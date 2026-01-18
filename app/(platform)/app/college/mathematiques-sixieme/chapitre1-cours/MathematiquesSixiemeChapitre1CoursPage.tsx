@@ -47,7 +47,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       setTimeout(() => {
         lastUserMessageRef.current?.scrollIntoView({
           behavior: 'smooth',
-          block: 'start'
+          block: 'end' // ← BAS du message utilisateur
         });
       }, 50);
     }
@@ -59,7 +59,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       setTimeout(() => {
         lastAssistantMessageRef.current?.scrollIntoView({
           behavior: 'smooth',
-          block: 'end'
+          block: 'start' // ← HAUT du message IA (pour le voir dès le début)
         });
       }, 100);
     }
