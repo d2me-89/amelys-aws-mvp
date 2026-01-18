@@ -195,7 +195,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               maxWidth: "800px",
               display: "flex",
               flexDirection: "column",
-              gap: "1.5rem"
+              gap: "3rem"
             }}>
             {messages.length === 0 ? (
               <div style={{
@@ -306,7 +306,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               <div style={{
                 display: "flex",
                 gap: "0.5rem",
-                marginBottom: "0.5rem",
+                marginBottom: "0.75rem",
                 position: "relative"
               }}>
                 {/* Bouton Réflexion approfondie */}
