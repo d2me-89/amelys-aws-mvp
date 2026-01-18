@@ -32,6 +32,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const headerMenuRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -40,6 +41,23 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  // Fermer le menu header quand on clique à l'extérieur
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (headerMenuRef.current && !headerMenuRef.current.contains(event.target as Node)) {
+        setShowHeaderMenu(false);
+      }
+    };
+
+    if (showHeaderMenu) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showHeaderMenu]);
 
   const handleSend = () => {
     if (!inputValue.trim()) return;
@@ -102,7 +120,10 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             background: "var(--background)"
           }}>
             {/* Gauche : Titre + Menu déroulant */}
-            <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", position: "relative" }}>
+            <div 
+              ref={headerMenuRef}
+              style={{ display: "flex", alignItems: "center", gap: "0.5rem", position: "relative" }}
+            >
               <h1 style={{
                 fontSize: "1rem",
                 fontWeight: 600,
@@ -135,7 +156,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 <div style={{
                   position: "absolute",
                   top: "100%",
-                  left: 0,
+                  right: 0,
                   marginTop: "0.5rem",
                   background: "rgba(30, 30, 35, 0.98)",
                   border: "1px solid rgba(255,255,255,0.15)",
