@@ -113,7 +113,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               style={{ display: "flex", alignItems: "center", gap: "0.5rem", position: "relative" }}
             >
               <h1 style={{
-                fontSize: "1rem",
+                fontSize: "1.125rem",
                 fontWeight: 600,
                 margin: 0,
                 color: "#fff"
@@ -327,7 +327,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           {/* Input en bas */}
           <div style={{
             borderTop: "1px solid rgba(255,255,255,0.1)",
-            padding: "1.5rem",
+            padding: "0.75rem 1.5rem",
             background: "var(--background)"
           }}>
             <div style={{
@@ -339,7 +339,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               <div style={{
                 display: "flex",
                 gap: "0.5rem",
-                marginBottom: "0.75rem",
+                marginBottom: "0.5rem",
                 position: "relative"
               }}>
                 {/* Bouton Réflexion approfondie */}
@@ -380,7 +380,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     background: "transparent",
                     border: "none",
                     color: "#fff",
-                    fontSize: "0.95rem",
+                    fontSize: "1.125rem",
                     resize: "none",
                     outline: "none",
                     minHeight: "24px",
@@ -515,7 +515,7 @@ function MessageBubble({ message }: MessageBubbleProps) {
           borderRadius: "12px",
           color: "#fff",
           lineHeight: "1.6",
-          fontSize: "1rem"
+          fontSize: "1.125rem"
         }}>
           {message.content}
         </div>
