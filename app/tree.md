@@ -1,7 +1,4 @@
-.
-├── README.md
-├── app
-│   ├── (platform)
+atform)
 │   │   └── app
 │   │       ├── AppHomePage.tsx
 │   │       ├── college
@@ -256,8 +253,6 @@
 │   │       │   └── page.tsx
 │   │       └── page.tsx
 │   ├── INSTALLATION-SIDEBAR.md
-│   ├── college
-│   │   └── mathematiques-sixieme
 │   ├── components
 │   │   ├── AppLayout.tsx
 │   │   ├── Sidebar.tsx
@@ -304,6 +299,7 @@
 │   │   │   │   ├── emc-4eme
 │   │   │   │   ├── espagnol-4eme
 │   │   │   │   ├── francais-4eme
+│   │   │   │   │   ├── 4eme-français-structure-HR.json
 │   │   │   │   │   └── ensel283_annexe15_1120333.pdf
 │   │   │   │   ├── géographie-4eme
 │   │   │   │   │   └── 4eme-geographie-structure-HR.json
@@ -349,6 +345,7 @@
 │   │   │       ├── emc-3eme
 │   │   │       ├── espagnol-3eme
 │   │   │       ├── francais-3eme
+│   │   │       │   ├── 3eme-français-structure-HR.json
 │   │   │       │   └── ensel283_annexe17_1120339.pdf
 │   │   │       ├── géographie-3eme
 │   │   │       │   └── 3eme-geographie-structure-HR.json
@@ -389,6 +386,7 @@
 │   │       │   │   └── 1ere-enseignement-scientifique-architecture-HR.json
 │   │       │   ├── espagnol-1ere
 │   │       │   ├── francais-1ere
+│   │       │   │   └── Tle-français-structure-HR.json
 │   │       │   ├── geographie-1ere
 │   │       │   │   ├── 1ere-geographie-structure-HR.json
 │   │       │   │   └── spe577_annexe2_1062939.pdf
@@ -416,6 +414,7 @@
 │   │       │   ├── emc-2nde
 │   │       │   ├── espagnol-2nde
 │   │       │   ├── francais-2nde
+│   │       │   │   └── 2nde-français-structure-HR.json
 │   │       │   ├── géographie-2nde
 │   │       │   │   ├── 2nde-geographie-structure-HR.json
 │   │       │   │   └── hist-geog_annexe-1_2e_bo.pdf
@@ -496,4 +495,5 @@
 │   └── window.svg
 └── tsconfig.json
 
-365 directories, 132 files
+363 directories, 136 files
+    ~/De/amelys-

@@ -1,0 +1,1166 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La poésie du XIXe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "L’histoire de la poésie du XIXe siècle au XXIe siècle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les auteurs de la poésie du XIXe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les mouvements littéraires de la poésie du XIXe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires de la poésie du XIXe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les auteurs de la poésie du XXe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les mouvements littéraires de la poésie du XXe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires de la poésie du XXe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître la poésie du XIXe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître la poésie du XXe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Associer un auteur de la poésie du XIXe au XXIe siècle à son siècle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La poésie du XIXe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "Les formes poétiques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la ballade" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques de l’ode" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques du rondeau" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du sonnet" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des formes poétiques libres" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques des différentes formes poétiques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier le schéma des rimes" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Reconnaître le refrain d’un poème" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reconnaître les différentes formes poétiques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Donner la forme poétique d’un poème" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier une ballade" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Étudier une ode" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Étudier un rondeau" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Étudier un sonnet" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Étudier une forme poétique libre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La poésie du XIXe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "Les caractéristiques du texte poétique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compter les syllabes d’un vers avec un -e" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Différencier diérèse et synérèse" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compter les syllabes lorsqu’il y a une diphtongue" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compter les syllabes dans un vers" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Nommer un vers" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Placer la césure dans un vers" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier la versification d’un poème du XIXe siècle au XXIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Différencier assonance et allitération" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les sonorités dans un poème du XIXe siècle au XXIe siècle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Connaître les caractéristiques des discordances dans un poème" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Donner le type d’une strophe" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier la qualité d’une rime" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier la disposition des rimes" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier le genre d’une rime" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Repérer une assonance dans un poème" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Repérer une allitération dans un poème" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Reconnaître un rejet" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Reconnaître un enjambement" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Reconnaître un contre-rejet" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Analyser des rimes dans un poème du XIXe siècle au XXIe siècle" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Reconnaître les discordances dans un poème du XIXe siècle au XXIe siècle" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Étudier les caractéristiques d’un poème" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Type BAC – Victor Hugo, « Crépuscule »" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Type BAC – Hélène Cadou, « Déjà je ne trouve plus ton visage »" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Type BAC – Ronsard, « Madrigal »" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Type BAC – Victor Hugo, « Ultima verba »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La poésie du XIXe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "Cahier de Douai d’Arthur Rimbaud" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – Les Cahiers de Douai : uniquement une révolution poétique ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – La création poétique est-elle un acte d’émancipation dans le Cahier de Douai ?" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La poésie du XIXe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "La Rage de l’expression de Francis Ponge" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – La Rage de l’expression, un recueil inachevé ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Une ouverture des « trappes intérieures, un voyage dans l’épaisseur des choses »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La poésie du XIXe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "Mes Forêts d’Hélène Dorion" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – Mes Forêts est-il à lire comme un journal intime ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Mes Forêts, un rapprochement entre le poète et le monde ?" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La littérature d’idées du XVIe siècle au XVIIIe siècle" },
+  "chapitreTitre": { "S": "L’histoire de la littérature d’idées du XVIe siècle au XVIIIe siècle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les auteurs de la littérature d’idées et la presse du XVIe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les mouvements de la littérature d’idées et la presse du XVIe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des mouvements de la littérature d’idées et la presse du XVIe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l’histoire de la littérature d’idées du XVIe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les auteurs de la littérature d’idées et la presse du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les mouvements de la littérature d’idées et la presse du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques des mouvements de la littérature d’idées et la presse du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître l’histoire de la littérature d’idées du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les auteurs de la littérature d’idées et la presse du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les mouvements de la littérature d’idées et la presse du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les caractéristiques des mouvements de la littérature d’idées et la presse du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître l’histoire de la littérature d’idées du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Associer un auteur de la littérature d’idées du XVIe siècle au XVIIIe siècle à son siècle" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Associer un mouvement littéraire de la littérature d’idées du XVIe siècle au XVIIIe siècle à son siècle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La littérature d’idées du XVIe siècle au XVIIIe siècle" },
+  "chapitreTitre": { "S": "Les genres et formes de l’argumentation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer argumentation directe et indirecte" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des formes directes de l’argumentation" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des formes indirectes de l’argumentation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Donner la situation d’énonciation d’un texte argumentatif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer si une argumentation est directe ou indirecte" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier la forme d’un texte argumentatif direct" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier la forme d’un texte argumentatif indirect" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier un texte d’argumentation directe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier un texte d’argumentation indirecte" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T2#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La littérature d’idées du XVIe siècle au XVIIIe siècle" },
+  "chapitreTitre": { "S": "Les caractéristiques du texte argumentatif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Relever les éléments indiquant une thèse dans un texte" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des différents raisonnements" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier la nature d’un raisonnement du XVIe siècle au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer les arguments soutenant une thèse" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer les exemples illustrant un argument" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Étudier les registres littéraires d’un texte argumentatif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques des différentes démarches d’argumentation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer le thème d’un texte" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Déterminer la thèse d’un texte" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier un type d’argument du XVIe siècle au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les marques de subjectivité dans un texte argumentatif" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer la visée d’un texte du XVIe siècle au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser l’utilisation des connecteurs dans un texte argumentatif" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Étudier un discours argumentatif du XVIe siècle au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Type BAC – Fénelon, *Les Aventures de Télémaque*" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Type BAC – La Fontaine, « Le Gland et la Citrouille »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T2#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La littérature d’idées du XVIe siècle au XVIIIe siècle" },
+  "chapitreTitre": { "S": "Discours de la servitude volontaire de La Boétie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – La servitude est-elle volontaire selon La Boétie ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Les mécanismes de la domination politique dans le Discours" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Type BAC – La liberté peut-elle être reconquise par les peuples ?" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T2#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La littérature d’idées du XVIe siècle au XVIIIe siècle" },
+  "chapitreTitre": { "S": "Entretiens sur la pluralité des mondes de Fontenelle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – Vulgariser le savoir scientifique : un enjeu majeur des Entretiens ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Le dialogue comme forme argumentative chez Fontenelle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Type BAC – Les Entretiens participent-ils à la diffusion de l’esprit des Lumières ?" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T2#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "La littérature d’idées du XVIe siècle au XVIIIe siècle" },
+  "chapitreTitre": { "S": "Lettres d’une Péruvienne de Françoise de Graffigny" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – Le regard étranger comme outil de critique sociale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Une réflexion sur la condition féminine au XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Type BAC – La forme épistolaire au service de l’argumentation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T3#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le roman et le récit du Moyen Âge au XXIe siècle" },
+  "chapitreTitre": { "S": "L’histoire du roman et du récit du Moyen Âge au XXIe siècle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les auteurs de roman et de récit du Moyen Âge" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les mouvements littéraires du roman et du récit du Moyen Âge" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du roman et du récit du Moyen Âge" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les auteurs de roman et de récit du XVIe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les mouvements littéraires du roman et du récit du XVIe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du roman et du récit du XVIe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les auteurs de roman et de récit du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les mouvements littéraires du roman et du récit du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du roman et du récit du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les auteurs de roman et de récit du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les mouvements littéraires du roman et du récit du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du roman et du récit du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Connaître l’histoire du récit du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les auteurs de roman et de récit du XIXe siècle" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier les mouvements littéraires du roman et du récit du XIXe siècle" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du roman et du récit du XIXe siècle" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Connaître l’histoire du récit du XIXe siècle" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Identifier les auteurs de roman et de récit du XXe siècle" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Identifier les mouvements littéraires du roman et du récit du XXe siècle" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du roman et du récit du XXe siècle" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Connaître l’histoire du récit du XXe siècle" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Connaître le roman et le récit du Moyen Âge" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Connaître le roman et le récit du XVIe siècle" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Connaître le roman et le récit du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Associer un auteur de roman ou de récit du Moyen Âge au XXIe siècle à son siècle" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Associer un mouvement littéraire du roman et du récit du Moyen Âge au XXIe siècle à son siècle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T3#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le roman et le récit du Moyen Âge au XXIe siècle" },
+  "chapitreTitre": { "S": "Les genres narratifs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des genres narratifs relevant de la fiction" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier une caractéristique d’un genre narratif dans un récit relevant de la fiction" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le genre narratif d’un récit relevant de la fiction" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques des sous-genres du roman" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le sous-genre narratif d’un récit relevant de la fiction" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques des genres narratifs relevant du biographique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier une caractéristique d’un genre narratif dans un récit relevant du biographique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer le genre narratif d’un récit relevant du biographique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier un extrait de roman" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Étudier un extrait de nouvelle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier un extrait de conte" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Étudier un extrait d’autobiographie" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Étudier un extrait de récit biographique non autobiographique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T3#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le roman et le récit du Moyen Âge au XXIe siècle" },
+  "chapitreTitre": { "S": "Les caractéristiques du récit" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier le narrateur et le destinataire dans un texte" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les marqueurs de la focalisation dans un texte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques du discours direct" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques du discours indirect" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques du discours indirect libre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les caractéristiques du discours narrativisé" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques des discours rapportés" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les discours rapportés dans un texte" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier une situation initiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier un élément perturbateur" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier une péripétie" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier un élément de résolution" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier une situation finale" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Connaître les caractéristiques des procédés donnant du rythme au récit" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Identifier un procédé donnant du rythme au récit dans un texte" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Analyser un procédé donnant du rythme au récit dans un texte" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Étudier le rythme d’un texte" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Différencier récit linéaire et récit non linéaire" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Rétablir la chronologie des événements dans un texte" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Déterminer le statut du narrateur dans un texte" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Déterminer la focalisation dominante d’un texte" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Identifier le type de discours d’un extrait de texte" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Étudier les discours rapportés dans un texte narratif" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Connaître les étapes du schéma narratif" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Donner les étapes du schéma narratif d’un récit" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Différencier le temps de l’intrigue et le temps de la narration" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Connaître les caractéristiques des procédés influant sur l’ordre du récit" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Identifier une analepse ou une prolepse dans un texte" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Étudier la narration et la focalisation dans un texte" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Étudier la temporalité dans un récit" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Type BAC – Victor Hugo, Les Misérables (2014)" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Type BAC – Alexandre Dumas, Les Trois Mousquetaires" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Type BAC – Jean Giono, Un roi sans divertissement" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Type BAC – Stendhal, La Chartreuse de Parme" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Type BAC – Albert Camus, « Noces à Tipasa »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T3#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le roman et le récit du Moyen Âge au XXIe siècle" },
+  "chapitreTitre": { "S": "Manon Lescaut de l’Abbé Prévost" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – Les personnages en marge de la société, une provocation ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Le plaisir ressenti à la lecture de Manon Lescaut ne vient-il que de la passion amoureuse ?" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T3#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le roman et le récit du Moyen Âge au XXIe siècle" },
+  "chapitreTitre": { "S": "La Peau de chagrin de Balzac" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – L’intensité de vie des personnages de La Peau de chagrin" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T3#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le roman et le récit du Moyen Âge au XXIe siècle" },
+  "chapitreTitre": { "S": "Sido suivi de Les Vrilles de la vigne de Colette" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – La célébration du monde comme moyen de guérir les maux intérieurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – L’éloge de la nature dans Sido et Les Vrilles de la vigne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T4#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le théâtre du XVIIe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "L’histoire du théâtre du XVIIe siècle au XXIe siècle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les auteurs du théâtre du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les mouvements littéraires du théâtre du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du théâtre du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître l’histoire du théâtre du XVIIe siècle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les auteurs du théâtre du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les mouvements littéraires du théâtre du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du théâtre du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Connaître l’histoire du théâtre du XVIIIe siècle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les auteurs du théâtre du XIXe siècle" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les mouvements littéraires du théâtre du XIXe siècle" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du théâtre du XIXe siècle" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître l’histoire du théâtre du XIXe siècle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier les auteurs du théâtre du XXe siècle" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier les mouvements littéraires du théâtre du XXe siècle" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Connaître les caractéristiques des mouvements littéraires du théâtre du XXe siècle" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître l’histoire du théâtre du XXe siècle" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Associer un auteur du théâtre du XVIIe siècle au XXIe siècle à son siècle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T4#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le théâtre du XVIIe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "Les genres théâtraux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la tragédie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier une caractéristique d’un sous-genre de la tragédie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer le sous-genre d’une tragédie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les caractéristiques de la comédie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques du drame" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier une caractéristique d’un sous-genre du drame" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier le sous-genre d’une pièce" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer le sous-genre d’une comédie" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier le genre d’une pièce" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Étudier un extrait de tragédie" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier un extrait de comédie" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Étudier un extrait de drame" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T4#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le théâtre du XVIIe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "Les caractéristiques du texte théâtral" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des étapes d’une pièce de théâtre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier l’étape d’une pièce de théâtre représentée dans un extrait" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des didascalies" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer si des didascalies sont internes ou externes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des différents types de répliques" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le personnage qui subit et le personnage qui domine dans un échange" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer le but d’un personnage dans un échange dans une pièce de théâtre" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer si les répliques d’un échange sont enchaînées par continuité ou par rupture" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier une fonction du langage à partir d’une réplique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Exploiter les informations contenues dans des didascalies externes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Exploiter les informations contenues dans des didascalies internes" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer le type d’une réplique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Interpréter la répartition de la parole dans une scène théâtrale" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Type BAC – Jean Giraudoux, *Électre*" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T4#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le théâtre du XVIIe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "Le Menteur de Corneille" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – Dans Le Menteur, dans quelle mesure la comédie met-elle en scène tous les enjeux du mensonge ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Peut-on percevoir le mensonge comme une qualité dans Le Menteur de Corneille ?" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T4#C23" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le théâtre du XVIIe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "On ne badine pas avec l’amour d’Alfred de Musset" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – La parole est-elle seulement mise au service du cœur dans « On ne badine pas avec l’amour » ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Dans « On ne badine pas avec l’amour », peut-on dissocier les jeux du cœur et le jeu de la parole ?" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T4#C24" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Le théâtre du XVIIe siècle au XXIe siècle" },
+  "chapitreTitre": { "S": "Pour un oui ou pour un non de Nathalie Sarraute" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Type BAC – Dans quelle mesure les dramaturges utilisent-ils la dispute pour faire passer un message au spectateur ?" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Type BAC – Quels sont les enjeux de la dispute dans « Pour un oui ou pour un non » ?" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T5#C25" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les outils d’analyse d’un texte littéraire" },
+  "chapitreTitre": { "S": "Les figures de style" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des figures de style d’insistance et d’amplification" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Nommer une figure de style d’insistance et d’amplification donnée dans un texte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Repérer une figure d’insistance et d’amplification dans un texte" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Interpréter une figure d’insistance et d’amplification" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les caractéristiques des figures de style de répétition" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Nommer une figure de style de répétition donnée dans un texte" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Repérer une figure de répétition dans un texte" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Interpréter une figure de répétition" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Connaître les caractéristiques des figures de style d’atténuation" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Repérer une figure d’atténuation dans un texte" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Interpréter une figure d’atténuation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Connaître les caractéristiques des figures de style d’analogie et de substitution" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Nommer une figure de style d’analogie et de substitution donnée dans un texte" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Repérer une figure d’analogie et de substitution dans un texte" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Interpréter une figure d’analogie et de substitution" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Connaître les caractéristiques des figures de style de construction" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Nommer une figure de style de construction donnée dans un texte" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Repérer une figure de construction dans un texte" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Interpréter une figure de construction" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Connaître les caractéristiques des figures de style d’opposition" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Nommer une figure de style d’opposition donnée dans un texte" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Repérer une figure d’opposition dans un texte" } } },
+      { "M": { "id": { "S": "E23" }, "titre": { "S": "Interpréter une figure d’opposition" } } },
+      { "M": { "id": { "S": "E24" }, "titre": { "S": "Connaître les caractéristiques des figures de style de diction" } } },
+      { "M": { "id": { "S": "E25" }, "titre": { "S": "Nommer une figure de style de diction donnée dans un texte" } } },
+      { "M": { "id": { "S": "E26" }, "titre": { "S": "Repérer une figure de style de diction dans un texte" } } },
+      { "M": { "id": { "S": "E27" }, "titre": { "S": "Interpréter une figure de style de diction" } } },
+      { "M": { "id": { "S": "E28" }, "titre": { "S": "Connaître les caractéristiques des figures de style" } } },
+      { "M": { "id": { "S": "E29" }, "titre": { "S": "Nommer une figure de style donnée dans un texte" } } },
+      { "M": { "id": { "S": "E30" }, "titre": { "S": "Repérer une figure de style dans un texte" } } },
+      { "M": { "id": { "S": "E31" }, "titre": { "S": "Interpréter une figure de style dans un texte" } } },
+      { "M": { "id": { "S": "E32" }, "titre": { "S": "Identifier les figures de style servant le thème du texte" } } },
+      { "M": { "id": { "S": "E33" }, "titre": { "S": "Étudier les figures de style dans un poème" } } },
+      { "M": { "id": { "S": "E34" }, "titre": { "S": "Étudier les figures de style dans un extrait de théâtre" } } },
+      { "M": { "id": { "S": "E35" }, "titre": { "S": "Étudier les figures de style dans un extrait de récit" } } },
+      { "M": { "id": { "S": "E36" }, "titre": { "S": "Étudier les figures de style dans un texte argumentatif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T5#C26" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les outils d’analyse d’un texte littéraire" },
+  "chapitreTitre": { "S": "L’énonciation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de l’énonciation" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les marqueurs d’un élément de situation d’énonciation dans un texte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier l’énonciateur et le destinataire dans un texte" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier la situation d’énonciation d’un texte" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Repérer les marqueurs du discours dans un texte" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Repérer les marqueurs du récit dans un texte" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier discours et récit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier la situation d’énonciation dans un texte poétique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Étudier la situation d’énonciation dans un récit" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Étudier la situation d’énonciation dans un texte argumentatif" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Étudier la situation d’énonciation d’un texte théâtral" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Repérer les marques de modalisation dans un discours" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Interpréter les marques de modalisation dans un discours" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Déterminer le degré de certitude d’un discours" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T5#C27" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les outils d’analyse d’un texte littéraire" },
+  "chapitreTitre": { "S": "Les fonctions du langage" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Relever les marqueurs de la fonction du langage dans un texte" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer la visée d’une fonction du langage d’un texte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les caractéristiques des fonctions du langage" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier la fonction du langage dans un texte" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T5#C28" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les outils d’analyse d’un texte littéraire" },
+  "chapitreTitre": { "S": "Les registres et les tonalités" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des registres littéraires" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer un procédé littéraire au registre qu’il représente" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Relever les marqueurs d’un registre littéraire dans un texte" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier le registre dominant dans un texte" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier le ou les registres littéraires d’un texte" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Étudier les registres littéraires d’un texte poétique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier les registres littéraires d’un récit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Étudier les registres littéraires d’un texte théâtral" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C29" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "Les accords" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier adjectifs qualificatifs invariable et variable" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les règles de conjugaison d’un participe passé" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier la règle s’appliquant dans une phrase avec un participe passé conjugué" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Accorder un participe passé avec l’auxiliaire « être »" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Accorder un participe passé avec l’auxiliaire « avoir »" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier verbes essentiellement pronominaux et occasionnellement pronominaux" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier verbes occasionnellement pronominaux se composant avec un COD et un COI" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Accorder un participe passé avec un verbe pronominal" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Accorder un adjectif qualificatif dans un texte" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Accorder un verbe à un sujet" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Transposer une phrase avec un verbe pronominal au passé composé" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Accorder un participe passé" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C30" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "Les classes et les fonctions grammaticales" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier mot variable et mot invariable" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer les mots d’une classe grammaticale donnée dans un texte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier les classes de verbes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier les classes de déterminants" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Différencier les classes de pronoms" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier les classes de mots invariables" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Différencier les classes de mots" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier la classe grammaticale d’un mot ou d’un groupe de mots" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier la fonction grammaticale d’un mot ou d’un groupe de mots" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C31" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "Le verbe : emplois et valeurs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les valeurs des différents temps" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les règles de concordance des temps" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer la valeur d’un verbe dans une situation de concordance des temps" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier le temps et le mode d’un verbe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier la valeur d’un verbe à un temps de l’indicatif" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier la valeur d’un verbe à un temps du subjonctif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier la valeur d’un verbe" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Maîtriser la concordance des temps dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Maîtriser la concordance des temps" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C32" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "Les relations au sein de la phrase complexe" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Repérer les verbes dans une phrase complexe" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les caractéristiques des différentes propositions dans la phrase complexe" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier le lien entre propositions dans une phrase complexe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Repérer les propositions dans une phrase complexe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Donner la nature du lien entre deux propositions" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier propositions juxtaposées, coordonnées et subordonnées" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier la nature d’une proposition subordonnée" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C33" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "Les propositions subordonnées relatives" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des propositions subordonnées relatives" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier l’antécédent et le pronom relatif d’une proposition subordonnée relative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier une proposition subordonnée relative dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier proposition subordonnée relative adjective et substantive" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier la valeur d’une proposition subordonnée relative adjective" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier la valeur d’une proposition subordonnée relative substantive" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier la valeur d’une proposition subordonnée relative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier la fonction d’une proposition subordonnée relative adjective" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier la fonction d’une proposition subordonnée relative substantive" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier la fonction d’une proposition subordonnée relative" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C34" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "Les propositions subordonnées complétives" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des propositions subordonnées complétives" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le mot introductif d’une proposition subordonnée complétive conjonctive" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier les types de propositions subordonnées complétives" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la fonction d’une proposition subordonnée complétive interrogative indirecte" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier une proposition subordonnée complétive conjonctive dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier une proposition subordonnée complétive interrogative indirecte dans une phrase" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier une proposition subordonnée complétive infinitive dans une phrase" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier une proposition subordonnée complétive dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier le mot introduisant une proposition subordonnée complétive" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier la fonction d’une proposition subordonnée complétive conjonctive" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier la fonction d’une proposition subordonnée complétive infinitive introduite ou non par « de »" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier la fonction d’une proposition subordonnée complétive" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C35" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "Les propositions subordonnées conjonctives circonstancielles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques d’une proposition subordonnée conjonctive circonstancielle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le mot introductif d’une proposition subordonnée conjonctive circonstancielle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier une proposition subordonnée conjonctive circonstancielle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier propositions subordonnées conjonctives circonstancielles de cause et de conséquence" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Déterminer le type d’une subordonnée conjonctive circonstancielle simple" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Déterminer la temporalité d’une proposition subordonnée conjonctive circonstancielle de temps" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Déterminer la valeur d’une subordonnée conjonctive circonstancielle d’hypothèse ou de condition" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Déterminer le type d’une proposition subordonnée conjonctive circonstancielle complexe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier une proposition subordonnée participiale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Différencier proposition subordonnée conjonctive circonstancielle et proposition infinitive participale" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C36" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "L’interrogation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des interrogations" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les différents mots interrogatifs et leur nature" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer interrogation totale et interrogation partielle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Différencier interrogation directe et interrogation indirecte" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Reformuler une interrogation directe en interrogation indirecte" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le but d’une interrogation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C37" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "L’expression de la négation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l’expression de la négation" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer des antonymes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier la marque de la négation dans une phrase avec une négation lexicale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les différents moyens d’exprimer la négation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier la marque de la négation dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Différencier négation lexicale et négation syntaxique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Distinguer négation totale et négation partielle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier le type de négation" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T6#C38" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "L’étude de la langue" },
+  "chapitreTitre": { "S": "Les connecteurs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des connecteurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer la nature d’un connecteur" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier les types de connecteurs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les connecteurs dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les connecteurs dans un texte" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Nommer les connecteurs dans un texte" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser l’utilisation des connecteurs dans un récit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser l’utilisation des connecteurs dans un poème" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser l’utilisation des connecteurs dans un texte argumentatif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C40" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "L’humanisme" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l’humanisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs de l’humanisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes fondamentaux de l’humanisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte humaniste à ses idées principales" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte humaniste" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C41" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "La Pléiade" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de la Pléiade" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les principaux poètes de la Pléiade" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes majeurs de la poésie de la Pléiade" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un poème de la Pléiade à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de poésie de la Pléiade" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C42" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le baroque" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du baroque" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les thèmes majeurs du baroque" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les procédés stylistiques du baroque" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte baroque à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte baroque" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C43" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le classicisme" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du classicisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs du classicisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes et valeurs du classicisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte classique à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte classique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C44" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Les Lumières" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques des Lumières" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs des Lumières" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes et combats des Lumières" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte des Lumières à ses idées principales" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte des Lumières" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C45" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le romantisme" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du romantisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs du romantisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes et motifs du romantisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte romantique à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte romantique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C46" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le réalisme" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du réalisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs du réalisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes et procédés du réalisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte réaliste à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte réaliste" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C47" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le naturalisme" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du naturalisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs du naturalisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes et procédés du naturalisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte naturaliste à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte naturaliste" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C48" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le Parnasse" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du Parnasse" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les poètes majeurs du Parnasse" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les principes esthétiques du Parnasse" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un poème parnassien à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de poésie parnassienne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C49" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le symbolisme" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du symbolisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les poètes majeurs du symbolisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes et procédés du symbolisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un poème symboliste à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de poésie symboliste" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C50" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le surréalisme" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du surréalisme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs du surréalisme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes et procédés du surréalisme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte surréaliste à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte surréaliste" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C51" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "L’absurde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques de l’absurde" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs de l’absurde" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les thèmes et procédés de l’absurde" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un texte de l’absurde à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte de l’absurde" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#FRANCAIS#T7#C52" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Les mouvements littéraires" },
+  "chapitreTitre": { "S": "Le nouveau roman" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les caractéristiques du nouveau roman" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les auteurs majeurs du nouveau roman" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les ruptures narratives du nouveau roman" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Associer un extrait du nouveau roman à ses caractéristiques" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier un extrait de texte du nouveau roman" } } }
+    ]
+  }
+}
+]
