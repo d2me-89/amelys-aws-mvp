@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, useEffect, useCallback } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import AppLayout from "@/app/components/AppLayout";
 import { 
   LuSend, 
@@ -24,23 +24,27 @@ import {
   LuBot
 } from "react-icons/lu";
 
+// 🔧 CONFIGURATION DE L'API
+const API_URL = "https://1l0w2ryk9c.execute-api.eu-west-1.amazonaws.com/prod/chat";
+
 export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [messages, setMessages] = useState<Array<{
     id: number, 
     role: 'user' | 'assistant', 
     content: string,
-    isLatestAssistant?: boolean // Pour suivre le dernier message assistant
+    isLatestAssistant?: boolean
   }>>([]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   
   const headerMenuRef = useRef<HTMLDivElement>(null);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const lastUserMessageRef = useRef<HTMLDivElement>(null);
 
-  // Scroll vers le dernier message utilisateur quand il est ajouté
+  // Scroll vers le dernier message utilisateur
   useEffect(() => {
     if (lastUserMessageRef.current) {
       setTimeout(() => {
@@ -69,12 +73,14 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     };
   }, [showHeaderMenu]);
 
-  const handleSend = () => {
+  // 🚀 FONCTION PRINCIPALE : APPEL À L'API
+  const handleSend = async () => {
     if (!inputValue.trim()) return;
     
     const userMessage = inputValue;
     const messageId = Date.now();
     setInputValue("");
+    setError(null);
     
     // Retirer le flag isLatestAssistant des anciens messages
     setMessages(prev => prev.map(msg => ({
@@ -89,18 +95,59 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       content: userMessage
     }]);
     
-    // Simuler une réponse de l'assistant
+    // Indicateur de chargement
     setIsTyping(true);
     
-    setTimeout(() => {
+    try {
+      // 🔥 APPEL À L'API GATEWAY
+      const response = await fetch(API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: userMessage
+        })
+      });
+
+      // Vérifier si la réponse est OK
+      if (!response.ok) {
+        throw new Error(`Erreur API: ${response.status} ${response.statusText}`);
+      }
+
+      // Parser la réponse JSON
+      const data = await response.json();
+      
+      // Vérifier si l'API a retourné une erreur
+      if (!data.success) {
+        throw new Error(data.error || "Erreur inconnue de l'API");
+      }
+
+      // Ajouter la réponse de Claude aux messages
       setIsTyping(false);
       setMessages(prev => [...prev, { 
         id: Date.now(),
         role: 'assistant', 
-        content: "Je suis Amélys, ton assistant d'apprentissage en mathématiques. Comment puis-je t'aider avec ce chapitre sur les nombres entiers et décimaux ?",
-        isLatestAssistant: true // Le dernier message assistant aura le minHeight
+        content: data.message,
+        isLatestAssistant: true
       }]);
-    }, 1500);
+
+    } catch (err) {
+      // Gestion des erreurs
+      setIsTyping(false);
+      const errorMessage = err instanceof Error ? err.message : "Erreur de connexion";
+      setError(errorMessage);
+      
+      // Afficher un message d'erreur à l'utilisateur
+      setMessages(prev => [...prev, { 
+        id: Date.now(),
+        role: 'assistant', 
+        content: `❌ Désolé, une erreur s'est produite : ${errorMessage}. Veuillez réessayer.`,
+        isLatestAssistant: true
+      }]);
+      
+      console.error("Erreur lors de l'appel à l'API:", err);
+    }
   };
 
   const headerMenuItems = [
@@ -210,7 +257,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </div>
           </header>
 
-          {          /* Zone de messages avec scroll */}
+          {/* Zone de messages avec scroll */}
           <div 
             ref={chatContainerRef}
             style={{
@@ -286,7 +333,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     gap: "1rem",
                     maxWidth: "800px",
                     minHeight: "calc(100vh - 250px)",
-                    alignItems: "flex-start" // Aligner en haut
+                    alignItems: "flex-start"
                   }}>
                     <div style={{
                       width: "32px",
@@ -348,6 +395,21 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               margin: "0 auto",
               position: "relative"
             }}>
+              {/* Affichage des erreurs */}
+              {error && (
+                <div style={{
+                  padding: "0.75rem 1rem",
+                  marginBottom: "0.5rem",
+                  background: "rgba(239, 68, 68, 0.1)",
+                  border: "1px solid rgba(239, 68, 68, 0.3)",
+                  borderRadius: "8px",
+                  color: "#FCA5A5",
+                  fontSize: "0.9rem"
+                }}>
+                  ⚠️ {error}
+                </div>
+              )}
+
               {/* Barre d'outils au-dessus de l'input */}
               <div style={{
                 display: "flex",
@@ -393,6 +455,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     }
                   }}
                   placeholder="Message Amélys..."
+                  disabled={isTyping}
                   style={{
                     flex: 1,
                     background: "transparent",
@@ -409,23 +472,23 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 />
                 <button
                   onClick={handleSend}
-                  disabled={!inputValue.trim()}
+                  disabled={!inputValue.trim() || isTyping}
                   style={{
                     width: "36px",
                     height: "36px",
                     borderRadius: "8px",
-                    background: inputValue.trim() 
+                    background: (inputValue.trim() && !isTyping)
                       ? "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)"
                       : "rgba(255,255,255,0.1)",
                     border: "none",
                     color: "#fff",
-                    cursor: inputValue.trim() ? "pointer" : "not-allowed",
+                    cursor: (inputValue.trim() && !isTyping) ? "pointer" : "not-allowed",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     transition: "all 0.2s ease",
                     flexShrink: 0,
-                    opacity: inputValue.trim() ? 1 : 0.5
+                    opacity: (inputValue.trim() && !isTyping) ? 1 : 0.5
                   }}
                 >
                   <LuSend size={18} />
@@ -486,7 +549,6 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
           flexDirection: isUser ? "row-reverse" : "row",
           position: "relative",
           scrollMarginTop: "20px",
-          // TECHNIQUE CLÉ : minHeight sur le dernier message ASSISTANT
           minHeight: message.isLatestAssistant ? "calc(100vh - 250px)" : "auto"
         }}
       >
@@ -522,7 +584,7 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
             {message.content}
           </div>
 
-          {/* Actions (hover) - directement après le message */}
+          {/* Actions (hover) */}
           {!isUser && (
             <div style={{
               display: "flex",
