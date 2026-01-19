@@ -5,7 +5,6 @@ import AppLayout from "@/app/components/AppLayout";
 import { 
   LuSend, 
   LuBrain, 
-  LuPlus, 
   LuPaperclip, 
   LuCamera, 
   LuFolderPlus, 
@@ -73,7 +72,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     };
   }, [showHeaderMenu]);
 
-  // 🚀 FONCTION PRINCIPALE : APPEL À L'API
+  // 🚀 FONCTION PRINCIPALE : APPEL À L'API AVEC HISTORIQUE
   const handleSend = async () => {
     if (!inputValue.trim()) return;
     
@@ -88,7 +87,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       isLatestAssistant: false
     })));
     
-    // Ajouter le message utilisateur
+    // Ajouter le message utilisateur à l'affichage
     setMessages(prev => [...prev, { 
       id: messageId, 
       role: 'user', 
@@ -99,14 +98,26 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     setIsTyping(true);
     
     try {
-      // 🔥 APPEL À L'API GATEWAY
+      // 🔥 CONSTRUIRE L'HISTORIQUE COMPLET DE LA CONVERSATION
+      const conversationHistory = [
+        ...messages.map(msg => ({
+          role: msg.role,
+          content: msg.content
+        })),
+        {
+          role: 'user',
+          content: userMessage
+        }
+      ];
+      
+      // 🔥 APPEL À L'API GATEWAY AVEC TOUT L'HISTORIQUE
       const response = await fetch(API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          message: userMessage
+          messages: conversationHistory  // ← Envoie tout l'historique
         })
       });
 
