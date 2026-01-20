@@ -58,9 +58,9 @@ async function sendMessage(conversationId: string, message: string) {
   return response.json();
 }
 
-// ============================================
+// =============================================
 // 🎨 COMPOSANT PRINCIPAL
-// ============================================
+// =============================================
 
 export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [conversationId, setConversationId] = useState<string | null>(null);
