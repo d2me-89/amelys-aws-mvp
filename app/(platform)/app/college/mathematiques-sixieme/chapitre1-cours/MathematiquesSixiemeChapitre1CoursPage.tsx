@@ -164,18 +164,12 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       
       setConversationId(response.conversationId);
       
-      // Ajouter le message initial de l'utilisateur
-      setMessages([
-        {
-          id: 'init',
-          role: 'user',
-          content: 'Bonjour ! Je suis prêt à commencer.',
-        }
-      ]);
+      // Ajouter UNIQUEMENT le message de l'assistant (pas le message utilisateur initial)
+      setMessages([]);
 
       // Ajouter un message vide pour l'assistant qui va être streamé
       const assistantMsgId = 'welcome';
-      setMessages(prev => [...prev, {
+      setMessages([{
         id: assistantMsgId,
         role: 'assistant',
         content: '',
