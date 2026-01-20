@@ -7,6 +7,7 @@
 │   │       ├── college
 │   │       │   ├── CollegeHomePage.tsx
 │   │       │   ├── mathematiques-sixieme
+│   │       │   │   ├── ARCHIVEMathematiquesSixiemeChapitre1CoursPage.tsx
 │   │       │   │   ├── MathematiquesSixiemeHomePage.tsx
 │   │       │   │   ├── chapitre1-binome
 │   │       │   │   ├── chapitre1-controle
@@ -272,7 +273,7 @@
 │   │   │   │   ├── anglais-5eme
 │   │   │   │   │   └── 5eme-anglais-structure-HR.json
 │   │   │   │   ├── emc-5eme
-│   │   │   │   │   └── 6eme-emc-structure-HR.json
+│   │   │   │   │   └── 5eme-emc-structure-HR.json
 │   │   │   │   ├── espagnol-5eme
 │   │   │   │   │   └── 5eme-espagnol-structure-HR.json
 │   │   │   │   ├── francais-5eme
@@ -294,6 +295,7 @@
 │   │   │   │   ├── anglais-4eme
 │   │   │   │   │   └── 4eme-anglais-structure-HR.json
 │   │   │   │   ├── emc-4eme
+│   │   │   │   │   └── 4eme-emc-structure-HR.json
 │   │   │   │   ├── espagnol-4eme
 │   │   │   │   │   └── 4eme-espagnol-structure-HR.json
 │   │   │   │   ├── francais-4eme
@@ -333,7 +335,9 @@
 │   │   │   │       └── 6eme-sciences-structure-HR.json
 │   │   │   └── troisieme
 │   │   │       ├── anglais-3eme
+│   │   │       │   └── 3eme-anglais-structure-HR.json
 │   │   │       ├── emc-3eme
+│   │   │       │   └── 3eme-emc-structure-HR.json
 │   │   │       ├── espagnol-3eme
 │   │   │       │   └── 3eme-espagnol-structure-HR.json
 │   │   │       ├── francais-3eme
@@ -373,7 +377,9 @@
 │   │       │   └── svt-Tle
 │   │       ├── premiere
 │   │       │   ├── anglais-1ere
+│   │       │   │   └── 1ere-anglais-structure-HR.json
 │   │       │   ├── emc-1ere
+│   │       │   │   └── 1ere-emc-structure-HR.json
 │   │       │   ├── enseignement-scientifique-1ere
 │   │       │   │   └── 1ere-enseignement-scientifique-architecture-HR.json
 │   │       │   ├── espagnol-1ere
@@ -390,21 +396,28 @@
 │   │       │   ├── hlp-1ere
 │   │       │   │   └── 1ere-hlp-architecture-HR.json
 │   │       │   ├── llce-anglais-1ere
+│   │       │   │   └── 1ere-llce-anglais-structure-HR.json
 │   │       │   ├── mathematiques-1ere
 │   │       │   │   ├── 1ere-maths-architecture-DDB.json
 │   │       │   │   ├── 1ere-maths-architecture-HR.json
 │   │       │   │   └── spe632_annexe_1063168.pdf
 │   │       │   ├── nsi-1ere
+│   │       │   │   ├── 1ere-nsi-structure-HR.json
+│   │       │   │   └── spe633_annexe_1063268.pdf
 │   │       │   ├── physique-chimie-1ere
 │   │       │   │   └── 1ere-physique-chimie-structure-HR.json
 │   │       │   ├── sciences-ingenieur-1ere
+│   │       │   │   ├── 1ere-sciences-ingenieur-structure-HR.json
+│   │       │   │   └── spe640_annexe_1063436 (1).pdf
 │   │       │   ├── ses-1ere
 │   │       │   │   └── 1ere-ses-structure-HR.json
 │   │       │   └── svt-1ere
 │   │       │       └── 1ere-svt-structure-HR.json
 │   │       ├── seconde
 │   │       │   ├── anglais-2nde
+│   │       │   │   └── 2nde-anglais-structure-HR.json
 │   │       │   ├── emc-2nde
+│   │       │   │   └── 2nde-emc-structure-HR.json
 │   │       │   ├── espagnol-2nde
 │   │       │   │   └── 2nde-espagnol-structure-HR.json
 │   │       │   ├── francais-2nde
@@ -419,17 +432,23 @@
 │   │       │   │   ├── 2nde-maths-architecture-DDB.json
 │   │       │   │   ├── 2nde-maths-architecture-HR.json
 │   │       │   │   └── spe631_annexe_1062957.pdf
-│   │       │   ├── nsi-2nde
 │   │       │   ├── physique-chimie-2nde
 │   │       │   │   └── 2nde-physique-chimie-structure-HR.json
 │   │       │   ├── sciences-ingenieur-2nde
+│   │       │   │   ├── 2nde-sciences-ingenieur-structure-HR.json
+│   │       │   │   └── spe570_annexe_1062531.pdf
 │   │       │   ├── ses-2nde
 │   │       │   │   └── 2nde-ses-structure-HR.json
+│   │       │   ├── snt-2nde
+│   │       │   │   ├── 2nde-snt-structure-HR.json
+│   │       │   │   └── spe641_annexe_1063085.pdf
 │   │       │   └── svt-2nde
 │   │       │       └── 2nde-svt-structure-HR.json
 │   │       └── terminale
 │   │           ├── anglais-Tle
+│   │           │   └── Tle-anglais-structure-HR.json
 │   │           ├── emc-Tle
+│   │           │   └── Tle-emc-structure-HR.json
 │   │           ├── enseignement-scientifique-Tle
 │   │           │   └── Tle-enseignement-scientifique-architecture-HR.json
 │   │           ├── espagnol-Tle
@@ -445,24 +464,28 @@
 │   │           ├── hlp-Tle
 │   │           │   └── Tle-hlp-architecture-HR.json
 │   │           ├── llce-anglais-Tle
+│   │           │   └── Tle-llce-anglais-structure-HR.json
 │   │           ├── mathematiques-Tle
 │   │           │   ├── Tle-maths-architecture-DDB.json
 │   │           │   ├── Tle-maths-architecture-HR.json
 │   │           │   └── spe246_annexe_1158907.pdf
 │   │           ├── mathematiques-complementaires-Tle
-│   │           │   ├── Tle-maths-complementaires-architecture-DDB.json
 │   │           │   ├── Tle-maths-complementaires-architecture-HR.json
 │   │           │   └── spe265_annexe_1159134.pdf
 │   │           ├── mathematiques-expertes-Tle
-│   │           │   ├── Tle-maths-expertes-architecture-DDB.json
 │   │           │   ├── Tle-maths-expertes-architecture-HR.json
 │   │           │   └── spe264_annexe_1158825.pdf
 │   │           ├── nsi-Tle
+│   │           │   ├── Tle-nsi-structure-HR.json
+│   │           │   └── spe247_annexe_1158933.pdf
 │   │           ├── philosophie-Tle
 │   │           │   └── Tle-philosophie-architecture-HR.json
 │   │           ├── physique-chimie-Tle
 │   │           │   └── Tle-physique-chimie-structure-HR.json
 │   │           ├── sciences-ingenieur-Tle
+│   │           │   ├── Tle-sciences-ingenieur-structure-HR.json
+│   │           │   ├── spe269_annexe_1159036.pdf
+│   │           │   └── spe640_annexe_1063436.pdf
 │   │           ├── ses-Tle
 │   │           │   └── Tlre-ses-structure-HR.json
 │   │           └── svt-Tle
@@ -471,6 +494,7 @@
 │   ├── globals.css
 │   ├── layout.tsx
 │   └── page.tsx
+├── env.local
 ├── eslint.config.mjs
 ├── next-env.d.ts
 ├── next.config.ts
@@ -489,9 +513,8 @@
 ├── tree.md
 ├── tsconfig.json
 └── utils
-    ├── amelys-chat-handler.py
     ├── lambda-start-cours-conversation.py
     ├── lambda_send_message.py
     └── structure-dossier-matiere-exemple.sh
 
-363 directories, 132 files
+363 directories, 155 files
