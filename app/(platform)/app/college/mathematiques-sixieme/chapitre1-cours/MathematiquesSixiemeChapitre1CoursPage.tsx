@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import AppLayout from "@/app/components/AppLayout";
+import ReactMarkdown from 'react-markdown';
 import { 
   LuSend, 
   LuChevronDown,
@@ -731,18 +732,83 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
 
         <div style={{ flex: 1, position: "relative", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           {/* Bulle */}
-          <div style={{
-            background: isUser 
-              ? "#2f2f2f"
-              : "rgba(255,255,255,0.05)",
-            padding: "1rem 1.25rem",
-            borderRadius: "12px",
-            color: "#fff",
-            lineHeight: "1.6",
-            fontSize: "1.125rem",
-            whiteSpace: "pre-wrap"
-          }}>
-            {message.content}
+          <div 
+            className="message-content"
+            style={{
+              background: isUser 
+                ? "#2f2f2f"
+                : "rgba(255,255,255,0.05)",
+              padding: "1rem 1.25rem",
+              borderRadius: "12px",
+              color: "#fff",
+              lineHeight: "1.6",
+              fontSize: "1.125rem"
+            }}>
+            {isUser ? (
+              <div style={{ whiteSpace: "pre-wrap" }}>{message.content}</div>
+            ) : (
+              <ReactMarkdown
+                components={{
+                  // Titres
+                  h1: ({node, ...props}) => <h1 style={{ fontSize: '1.5rem', fontWeight: 700, marginTop: '1rem', marginBottom: '0.5rem' }} {...props} />,
+                  h2: ({node, ...props}) => <h2 style={{ fontSize: '1.35rem', fontWeight: 700, marginTop: '1rem', marginBottom: '0.5rem' }} {...props} />,
+                  h3: ({node, ...props}) => <h3 style={{ fontSize: '1.25rem', fontWeight: 600, marginTop: '0.75rem', marginBottom: '0.5rem' }} {...props} />,
+                  h4: ({node, ...props}) => <h4 style={{ fontSize: '1.15rem', fontWeight: 600, marginTop: '0.75rem', marginBottom: '0.5rem' }} {...props} />,
+                  
+                  // Gras et italique
+                  strong: ({node, ...props}) => <strong style={{ fontWeight: 700, color: '#fff' }} {...props} />,
+                  em: ({node, ...props}) => <em style={{ fontStyle: 'italic', color: 'rgba(255,255,255,0.9)' }} {...props} />,
+                  
+                  // Listes
+                  ul: ({node, ...props}) => <ul style={{ marginLeft: '1.5rem', marginTop: '0.5rem', marginBottom: '0.5rem' }} {...props} />,
+                  ol: ({node, ...props}) => <ol style={{ marginLeft: '1.5rem', marginTop: '0.5rem', marginBottom: '0.5rem' }} {...props} />,
+                  li: ({node, ...props}) => <li style={{ marginBottom: '0.25rem' }} {...props} />,
+                  
+                  // Paragraphes
+                  p: ({node, ...props}) => <p style={{ marginBottom: '0.75rem' }} {...props} />,
+                  
+                  // Code
+                  code: ({node, inline, ...props}: any) => 
+                    inline ? (
+                      <code style={{ 
+                        background: 'rgba(159, 122, 234, 0.2)', 
+                        padding: '0.15rem 0.4rem', 
+                        borderRadius: '4px',
+                        fontSize: '0.95em',
+                        fontFamily: 'monospace'
+                      }} {...props} />
+                    ) : (
+                      <code style={{ 
+                        display: 'block',
+                        background: 'rgba(0,0,0,0.3)', 
+                        padding: '1rem', 
+                        borderRadius: '8px',
+                        fontSize: '0.95em',
+                        fontFamily: 'monospace',
+                        overflowX: 'auto',
+                        marginTop: '0.5rem',
+                        marginBottom: '0.5rem'
+                      }} {...props} />
+                    ),
+                  
+                  // Séparateurs
+                  hr: ({node, ...props}) => <hr style={{ border: 'none', borderTop: '1px solid rgba(255,255,255,0.2)', margin: '1rem 0' }} {...props} />,
+                  
+                  // Blockquotes
+                  blockquote: ({node, ...props}) => (
+                    <blockquote style={{ 
+                      borderLeft: '3px solid #9F7AEA', 
+                      paddingLeft: '1rem', 
+                      marginLeft: 0,
+                      fontStyle: 'italic',
+                      color: 'rgba(255,255,255,0.8)'
+                    }} {...props} />
+                  )
+                }}
+              >
+                {message.content}
+              </ReactMarkdown>
+            )}
           </div>
 
           {/* Actions */}
