@@ -1,10 +1,9 @@
 [
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T1#C1" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE01" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "La longue histoire de l’humanité et des migrations" },
   "chapitreTitre": { "S": "Les débuts de l'humanité" },
   "exercices": {
@@ -26,11 +25,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T1#C2" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE02" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "La longue histoire de l’humanité et des migrations" },
   "chapitreTitre": { "S": "La « révolution » néolithique" },
   "exercices": {
@@ -51,11 +49,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T1#C3" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE03" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "La longue histoire de l’humanité et des migrations" },
   "chapitreTitre": { "S": "Premiers États, premières écritures" },
   "exercices": {
@@ -78,11 +75,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T2#C4" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE04" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "Récits fondateurs, croyances et citoyenneté dans la Méditerranée antique au Ier millénaire av. J.-C." },
   "chapitreTitre": { "S": "Le monde des cités grecques" },
   "exercices": {
@@ -106,11 +102,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T2#C5" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE05" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "Récits fondateurs, croyances et citoyenneté dans la Méditerranée antique au Ier millénaire av. J.-C." },
   "chapitreTitre": { "S": "Rome, du mythe à l’histoire" },
   "exercices": {
@@ -129,11 +124,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T2#C6" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE06" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "Récits fondateurs, croyances et citoyenneté dans la Méditerranée antique au Ier millénaire av. J.-C." },
   "chapitreTitre": { "S": "La naissance du monothéisme juif dans un monde polythéiste" },
   "exercices": {
@@ -156,11 +150,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T3#C7" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE07" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "L'Empire romain dans le monde antique" },
   "chapitreTitre": { "S": "Conquêtes, paix romaine et romanisation" },
   "exercices": {
@@ -182,11 +175,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T3#C8" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE08" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "L'Empire romain dans le monde antique" },
   "chapitreTitre": { "S": "Des chrétiens dans l'Empire romain" },
   "exercices": {
@@ -206,11 +198,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#HISTOIRE#T3#C9" },
+  "PK": { "S": "#SIXIEME#HISTOIRE#CHAPITRE09" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Histoire" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "histoire" },
   "themeTitre": { "S": "L'Empire romain dans le monde antique" },
   "chapitreTitre": { "S": "Les relations de l’Empire romain avec les autres mondes anciens : l’ancienne route de la soie et la Chine des Han" },
   "exercices": {

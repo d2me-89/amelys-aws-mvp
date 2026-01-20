@@ -1,6 +1,6 @@
 [
 {
-  "PK": { "S": "CHAPITRE#5E#GEO#T1#C1" },
+  "PK": { "S": "CHAPITRE#5E#GEOGRAPHIE#T1#C1" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
   "niveau": { "S": "Cinquième" },
@@ -24,7 +24,7 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#5E#GEO#T1#C2" },
+  "PK": { "S": "CHAPITRE#5E#GEOGRAPHIE#T1#C2" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
   "niveau": { "S": "Cinquième" },
@@ -48,7 +48,7 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#5E#GEO#T2#C3" },
+  "PK": { "S": "CHAPITRE#5E#GEOGRAPHIE#T2#C3" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
   "niveau": { "S": "Cinquième" },
@@ -73,7 +73,7 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#5E#GEO#T2#C4" },
+  "PK": { "S": "CHAPITRE#5E#GEOGRAPHIE#T2#C4" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
   "niveau": { "S": "Cinquième" },
@@ -98,7 +98,7 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#5E#GEO#T3#C5" },
+  "PK": { "S": "CHAPITRE#5E#GEOGRAPHIE#T3#C5" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
   "niveau": { "S": "Cinquième" },
@@ -122,7 +122,7 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#5E#GEO#T3#C6" },
+  "PK": { "S": "CHAPITRE#5E#GEOGRAPHIE#T3#C6" },
   "SK": { "S": "META" },
   "type": { "S": "CHAPITRE" },
   "niveau": { "S": "Cinquième" },

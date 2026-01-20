@@ -1,10 +1,9 @@
 [
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T1#C1" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE01" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Nombres, calcul et résolution de problèmes" },
   "chapitreTitre": { "S": "Les nombres entiers et décimaux" },
   "exercices": {
@@ -53,11 +52,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T1#C2" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE02" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Nombres, calcul et résolution de problèmes" },
   "chapitreTitre": { "S": "Les fractions" },
   "exercices": {
@@ -93,11 +91,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T1#C3" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE03" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Nombres, calcul et résolution de problèmes" },
   "chapitreTitre": { "S": "Algèbre" },
   "exercices": {
@@ -119,11 +116,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T2#C4" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE04" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Grandeurs et mesures" },
   "chapitreTitre": { "S": "Les longueurs" },
   "exercices": {
@@ -148,11 +144,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T2#C5" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE05" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Grandeurs et mesures" },
   "chapitreTitre": { "S": "Les aires" },
   "exercices": {
@@ -174,11 +169,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T2#C6" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE06" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Grandeurs et mesures" },
   "chapitreTitre": { "S": "Les volumes" },
   "exercices": {
@@ -200,11 +194,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T2#C7" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE07" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Grandeurs et mesures" },
   "chapitreTitre": { "S": "Le repérage dans le temps et les durées" },
   "exercices": {
@@ -226,11 +219,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T3#C8" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE08" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Espace et géométrie" },
   "chapitreTitre": { "S": "Étude de configurations planes" },
   "exercices": {
@@ -261,11 +253,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T3#C9" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE09" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Espace et géométrie" },
   "chapitreTitre": { "S": "La vision dans l'espace" },
   "exercices": {
@@ -283,11 +274,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T4#C10" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE10" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Organisation et gestion de données et probabilités" },
   "chapitreTitre": { "S": "Organisation et gestion de données" },
   "exercices": {
@@ -304,11 +294,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T4#C11" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE11" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "Organisation et gestion de données et probabilités" },
   "chapitreTitre": { "S": "Les probabilités" },
   "exercices": {
@@ -328,11 +317,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T5#C12" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE12" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
   "themeTitre": { "S": "La proportionnalité" },
   "chapitreTitre": { "S": "La proportionnalité" },
   "exercices": {
@@ -354,12 +342,11 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#MATHS#T6#C13" },
+  "PK": { "S": "SIXIEME#MATHEMATIQUES#CHAPITRE13" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Mathématiques" },
-  "themeTitre": { "S": "Initiation à la pensée informatique" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "mathematiques" },
+  "themeTitre": { "S": "Introduction à l'informatique" },
   "chapitreTitre": { "S": "Initiation à la pensée informatique" },
   "exercices": {
     "L": [

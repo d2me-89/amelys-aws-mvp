@@ -1,0 +1,868 @@
+[
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les différences de l'alphabet et l'accentuation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compter le nombre de lettres d'un mot" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier la syllabe tonique d'un mot" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier la syllabe tonique d'un mot au pluriel" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les types de phrases et la ponctuation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Mettre les mots dans l'ordre pour former une phrase exclamative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Mettre les mots dans l'ordre pour former une phrase affirmative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Mettre les mots dans l'ordre pour former une phrase interrogative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Mettre les mots dans l'ordre pour former une phrase négative" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter avec le mot interrogatif correct" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Former des phrases exclamatives à partir de phrases affirmatives" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Formuler des questions à partir des réponses données" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Transformer une interrogation directe en interrogation indirecte" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Passer d'une phrase affirmative à une phrase négative" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Mettre la ponctuation correcte dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les nombres et les adjectifs ordinaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les adjectifs cardinaux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les adjectifs ordinaux" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase avec l'adjectif cardinal manquant" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase avec l'adjectif ordinal manquant" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Écrire en toutes lettres un nombre dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Écrire en toutes lettres un adjectif ordinal dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "La date et l'heure" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les jours et les mois" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter la date avec la préposition, l'article ou la conjonction" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter l'heure avec « es » ou « son »" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Écrire l'heure en lettres" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Écrire l'heure en chiffres" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Écrire les dates en lettres" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Écrire les dates en chiffres" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les prépositions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec « a » ou « en »" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec « por » ou « para »" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Passer d'une phrase avec mouvement à une phrase sans mouvement" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les noms et les articles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier le nom et l'article dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les articles définis et indéfinis" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase par un article défini" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase par un article indéfini" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter une phrase par un article contracté" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître le pluriel des noms réguliers" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître le pluriel des noms irréguliers" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Changer le genre d'une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Changer le nombre d'une phrase" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français une phrase comportant un groupe nominal" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en espagnol une phrase comportant un groupe nominal" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en français une phrase comportant l'article « lo »" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en espagnol une phrase en utilisant l'article « lo »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les pronoms personnels, l'enclise et le vouvoiement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les pronoms personnels" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase par le pronom personnel qui convient" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Mettre une phrase comportant un pronom personnel dans l'ordre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase par « usted », « ustedes », « le » ou « les »" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Changer la personne d'une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Passer du vouvoiement au tutoiement" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Passer du vouvoiement singulier au vouvoiement pluriel" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Reformuler une phrase en utilisant l'enclise" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les adjectifs et les pronoms indéfinis" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les adjectifs et les pronoms indéfinis" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec un pronom indéfini" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase avec un adjectif indéfini" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Accorder l'adjectif et le pronom indéfini" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Changer le nombre d'une phrase comportant un adjectif ou un pronom indéfini" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les pronoms relatifs et les pronoms interrogatifs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec un pronom interrogatif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Accorder le pronom relatif dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Accorder le pronom interrogatif dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer d'une phrase affirmative à une phrase interrogative" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Changer le nombre d'une phrase comportant un pronom relatif" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Changer le genre et le nombre d'une phrase interrogative" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les adjectifs qualificatifs, les comparatifs et les superlatifs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Mettre une phrase comportant des adjectifs, comparatifs et superlatifs dans l'ordre" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Accorder l'adjectif dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser un superlatif dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Utiliser un superlatif en -isimo dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Transformer une phrase en utilisant un superlatif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les adjectifs et les pronoms possessifs et démonstratifs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les adjectifs et pronoms possessifs dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les adjectifs et pronoms démonstratifs dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les pronoms et adjectifs possessifs" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase avec l'adjectif possessif qui convient" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter une phrase avec le pronom possessif qui convient" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter une phrase avec l'adjectif démonstratif qui convient" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une phrase avec le pronom démonstratif qui convient" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Transformer une phrase en utilisant un pronom possessif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les adverbes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Reconnaître les adverbes dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Former un adverbe en -mente" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les adverbes de manière" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les adverbes de lieu" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les adverbes de temps" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les adverbes de quantité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une phrase avec l'adverbe qui convient" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre une phrase comportant un adverbe dans l'ordre" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Donner le contraire d'une phrase comportant un adverbe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Le présent de l'indicatif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la conjugaison du présent de l'indicatif des verbes réguliers" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la conjugaison du présent de l'indicatif des verbes irréguliers" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer un verbe au présent de l'indicatif dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir la bonne orthographe pour un verbe irrégulier au présent de l'indicatif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Changer la personne dans une phrase au présent de l'indicatif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Le présent du subjonctif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la conjugaison du présent du subjonctif des verbes réguliers" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la conjugaison du présent du subjonctif des verbes irréguliers" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer un verbe au présent du subjonctif dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir la bonne orthographe pour un verbe irrégulier au présent du subjonctif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser le présent de l'indicatif ou du subjonctif dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Changer la personne dans une phrase au présent du subjonctif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les temps du passé" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la conjugaison du passé composé des verbes réguliers" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la conjugaison du passé composé des verbes irréguliers" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la conjugaison du passé simple des verbes réguliers" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître la conjugaison du passé simple des verbes irréguliers" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître la conjugaison de l'imparfait" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Conjuguer un verbe au passé composé dans une phrase" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Conjuguer un verbe au passé simple dans une phrase" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Conjuguer un verbe à l'imparfait dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Choisir la bonne orthographe pour un verbe irrégulier au passé simple" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Choisir entre passé simple et passé composé" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Choisir entre passé simple et imparfait" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Mettre une phrase à l'imparfait" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Mettre une phrase au passé simple" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Mettre une phrase au passé composé" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Changer la personne d'une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Le futur et le futur proche" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la conjugaison du futur des verbes réguliers" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître la conjugaison du futur des verbes irréguliers" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître la conjugaison du futur proche" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Conjuguer un verbe au futur dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Conjuguer un verbe au futur proche dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Choisir la bonne orthographe pour un verbe irrégulier au futur" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Passer du futur proche au futur dans une phrase" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Passer du futur au futur proche dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Changer la personne d'une phrase au futur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Le gérondif et les expressions associées" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le gérondif des verbes" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec le gérondif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir l'expression appropriée avec le gérondif" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer une phrase en utilisant le gérondif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Changer la personne d'une phrase avec du gérondif" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français une phrase avec du gérondif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en espagnol une phrase avec du gérondif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Ser et Estar" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer « ser » dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer « estar » dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir entre « ser » et « estar » dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en français une phrase comportant « ser » et « estar »" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en espagnol une phrase comportant « ser » et « estar »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Gustar et les verbes à tournure affective" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec le verbe « gustar »" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec une tournure affective" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Mettre les mots dans l'ordre pour former une phrase avec une tournure affective" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les tournures affectives" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Changer le temps d'une phrase avec une tournure affective" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Changer la personne d'une phrase avec une tournure affective" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Passer d'une phrase affirmative à une phrase négative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français une phrase comportant une tournure affective" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en espagnol une phrase en utilisant une tournure affective" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "L'expression de l'habitude et de la répétition" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Exprimer l'habitude dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Exprimer la répétition avec « volver » dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Transformer une phrase pour exprimer l'habitude" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer une phrase pour exprimer la répétition" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les obligations personnelle et impersonnelle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Exprimer l'obligation personnelle dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Exprimer l'obligation impersonnelle dans une phrase" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T1#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Maîtrise de la langue" },
+  "chapitreTitre": { "S": "Les mots de liaison" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir le bon mot de liaison dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les mots de liaison" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Se présenter" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire des nationalités" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire du physique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Traduire en espagnol une phrase pour se présenter" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "La famille et la maison" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de la famille" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire de la maison" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Les relations avec les amis" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire des relations" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Les couleurs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les couleurs" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase sur les couleurs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Le temps et les saisons" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les jours" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les mois" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Le monde scolaire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec les différents lieux d'un établissement scolaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les matières" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Le monde professionnel" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les métiers" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les qualités professionnelles" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "La ville et la campagne" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de la ville" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire de la campagne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Le corps et les vêtements" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les parties du corps" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire du physique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Les sports et les loisirs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire du sport" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire des loisirs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Les vacances et les voyages" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire des vacances" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire du voyage" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "L'espagnol dans le monde" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase sur les pays hispaniques" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les langues régionales" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "L'Espagne" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la géographie espagnole" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter des phrases sur l'organisation politique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "L'Amérique latine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les noms de pays latinos et leur capitale" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les habitants d'Amérique latine" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Quelques villes importantes d'Espagne et d'Amérique latine" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de la ville" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le nom de grandes villes hispaniques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#FRANCAIS#T2#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Français" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Les paysages et monuments célèbres" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire des paysages" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire des monuments" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Le mode de vie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de la vie quotidienne" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "La gastronomie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de la nourriture" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les spécialités gastronomiques hispaniques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Les fêtes, célébrations et rites" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de la fête" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Relier les célébrations hispaniques à leur pays" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Contes et légendes du monde hispanique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire du conte et de la légende" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les contes et les légendes populaires" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "L'action humanitaire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de la solidarité" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "L'environnement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de l'environnement" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire de l'écologie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C23" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Les sciences et la science-fiction" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire des sciences" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le vocabulaire de la science-fiction" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C24" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Les médias" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire des médias" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C25" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Quelques personnalités du monde hispanique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître des personnalités hispaniques historiques" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#ESPAGNOL#T2#C26" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "Civilisation" },
+  "chapitreTitre": { "S": "Quelques œuvres d'art célèbres" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le vocabulaire de l'art" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître des œuvres d'art hispaniques" } } }
+    ]
+  }
+}
+]

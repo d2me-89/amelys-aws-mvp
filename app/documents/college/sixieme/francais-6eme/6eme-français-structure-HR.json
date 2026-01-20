@@ -1,10 +1,9 @@
 [
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C1" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE01" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "La nature d'un mot" },
   "exercices": {
@@ -28,11 +27,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C2" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE02" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "La fonction grammaticale d'un mot" },
   "exercices": {
@@ -45,11 +43,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C3" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE03" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Les déterminants" },
   "exercices": {
@@ -75,11 +72,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C4" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE04" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "L'adjectif qualificatif" },
   "exercices": {
@@ -96,11 +92,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C5" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE05" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Le groupe nominal" },
   "exercices": {
@@ -119,11 +114,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C6" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE06" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Les pronoms" },
   "exercices": {
@@ -143,11 +137,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C7" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE07" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Le verbe" },
   "exercices": {
@@ -165,11 +158,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C8" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE08" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Les adverbes" },
   "exercices": {
@@ -184,11 +176,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C9" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE09" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Les prépositions" },
   "exercices": {
@@ -206,11 +197,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C10" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE10" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Le sujet" },
   "exercices": {
@@ -227,11 +217,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C11" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE11" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "L'attribut du sujet" },
   "exercices": {
@@ -252,11 +241,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C12" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE12" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Le COD et le COI" },
   "exercices": {
@@ -280,11 +268,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C13" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE13" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Le complément du nom" },
   "exercices": {
@@ -300,11 +287,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C14" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE14" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Les compléments circonstanciels" },
   "exercices": {
@@ -328,11 +314,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C15" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE15" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "La phrase simple" },
   "exercices": {
@@ -343,11 +328,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C16" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE16" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Les conjonctions de coordination" },
   "exercices": {
@@ -360,11 +344,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C17" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE17" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "La phrase complexe" },
   "exercices": {
@@ -382,11 +365,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T1#C18" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE18" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Grammaire" },
   "chapitreTitre": { "S": "Les connecteurs spatiotemporels" },
   "exercices": {
@@ -403,11 +385,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C19" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE19" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Conjugaison" },
   "chapitreTitre": { "S": "Le présent de l’indicatif" },
   "exercices": {
@@ -429,11 +410,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C20" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE20" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Conjugaison" },
   "chapitreTitre": { "S": "L’imparfait de l’indicatif" },
   "exercices": {
@@ -463,11 +443,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C21" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE21" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Conjugaison" },
   "chapitreTitre": { "S": "Le passé simple" },
   "exercices": {
@@ -497,11 +476,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C22" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE22" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Conjugaison" },
   "chapitreTitre": { "S": "Le futur simple" },
   "exercices": {
@@ -531,11 +509,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C23" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE23" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Conjugaison" },
   "chapitreTitre": { "S": "Les temps composés : le passé composé et le plus-que-parfait" },
   "exercices": {
@@ -555,11 +532,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C24" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE24" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Conjugaison" },
   "chapitreTitre": { "S": "Le conditionnel présent" },
   "exercices": {
@@ -584,11 +560,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T2#C25" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE25" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Conjugaison" },
   "chapitreTitre": { "S": "L’impératif présent" },
   "exercices": {
@@ -620,11 +595,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C26" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE26" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Orthographe et vocabulaire" },
   "chapitreTitre": { "S": "Les accords dans le groupe nominal" },
   "exercices": {
@@ -638,11 +612,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C27" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE27" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Orthographe et vocabulaire" },
   "chapitreTitre": { "S": "Les accords de l'adjectif qualificatif" },
   "exercices": {
@@ -662,11 +635,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C28" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE28" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Orthographe et vocabulaire" },
   "chapitreTitre": { "S": "L'accord du participe passé" },
   "exercices": {
@@ -679,11 +651,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C29" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE29" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Orthographe et vocabulaire" },
   "chapitreTitre": { "S": "La formation et l'étymologie des mots" },
   "exercices": {
@@ -703,11 +674,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C30" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE30" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Orthographe et vocabulaire" },
   "chapitreTitre": { "S": "Les synonymes et les antonymes" },
   "exercices": {
@@ -722,11 +692,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C31" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE31" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Orthographe et vocabulaire" },
   "chapitreTitre": { "S": "La polysémie et les homonymes" },
   "exercices": {
@@ -741,11 +710,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C32" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE32" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Orthographe et vocabulaire" },
   "chapitreTitre": { "S": "Les familles de mots et le champ lexical" },
   "exercices": {
@@ -763,11 +731,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T3#C33" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE33" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Orthographe et vocabulaire" },
   "chapitreTitre": { "S": "Les homophones" },
   "exercices": {
@@ -802,11 +769,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C34" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE34" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Culture littéraire" },
   "chapitreTitre": { "S": "Créer, recréer le monde : récit des origines" },
   "exercices": {
@@ -819,11 +785,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C35" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE35" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Culture littéraire" },
   "chapitreTitre": { "S": "Chanter et enchanter le monde : mots et merveilles" },
   "exercices": {
@@ -836,11 +801,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C36" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE36" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Culture littéraire" },
   "chapitreTitre": { "S": "Se masquer, jouer, déjouer : ruses en action" },
   "exercices": {
@@ -853,11 +817,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C37" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE37" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Culture littéraire" },
   "chapitreTitre": { "S": "Partir à l'aventure" },
   "exercices": {
@@ -870,11 +833,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T4#C38" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE38" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Culture littéraire" },
   "chapitreTitre": { "S": "Rencontrer des monstres : expérience de l’autre, expérience de soi" },
   "exercices": {
@@ -887,11 +849,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C39" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE39" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Étude de textes et d'images" },
   "chapitreTitre": { "S": "Les différents types de textes" },
   "exercices": {
@@ -910,11 +871,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C40" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE40" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Étude de textes et d'images" },
   "chapitreTitre": { "S": "L'auteur, le narrateur et le personnage" },
   "exercices": {
@@ -930,11 +890,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C41" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE41" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Étude de textes et d'images" },
   "chapitreTitre": { "S": "Les figures de style" },
   "exercices": {
@@ -955,11 +914,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C42" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE42" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Étude de textes et d'images" },
   "chapitreTitre": { "S": "Les genres littéraires" },
   "exercices": {
@@ -986,11 +944,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C43" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE43" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Étude de textes et d'images" },
   "chapitreTitre": { "S": "Les registres littéraires" },
   "exercices": {
@@ -1009,11 +966,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#FRANCAIS#T5#C44" },
+  "PK": { "S": "SIXIEME#FRANCAIS#CHAPITRE44" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Français" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "francais" },
   "themeTitre": { "S": "Étude de textes et d'images" },
   "chapitreTitre": { "S": "L'analyse de l'image" },
   "exercices": {

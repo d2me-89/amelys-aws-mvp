@@ -1,10 +1,9 @@
 [
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C1" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE01" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "La diversité de la matière" },
   "exercices": {
@@ -20,11 +19,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C2" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE02" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "Les propriétés de la matière" },
   "exercices": {
@@ -45,11 +43,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C3" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE03" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "Les états physiques de la matière" },
   "exercices": {
@@ -68,11 +65,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C4" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE04" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "La matière à grande échelle : Terre, planète, Univers" },
   "exercices": {
@@ -86,11 +82,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C5" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE05" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "Les mélanges" },
   "exercices": {
@@ -107,11 +102,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C6" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE06" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "La séparation des constituants d'un mélange" },
   "exercices": {
@@ -130,11 +124,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C7" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE07" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "Les mouvements" },
   "exercices": {
@@ -149,11 +142,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C8" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE08" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "Les différentes formes de l'énergie" },
   "exercices": {
@@ -168,11 +160,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C9" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE09" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "Les conversions et le stockage de l'énergie" },
   "exercices": {
@@ -186,11 +177,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T1#C10" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE10" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matière, mouvement, énergie, information" },
   "chapitreTitre": { "S": "La transmission d'information par un signal" },
   "exercices": {
@@ -208,11 +198,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C11" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE11" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
   "chapitreTitre": { "S": "L’unité et la diversité des êtres vivants" },
   "exercices": {
@@ -224,11 +213,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C12" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE12" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
   "chapitreTitre": { "S": "L'histoire de la biodiversité" },
   "exercices": {
@@ -239,11 +227,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C13" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE13" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
   "chapitreTitre": { "S": "L'alimentation humaine" },
   "exercices": {
@@ -262,11 +249,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C14" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE14" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
   "chapitreTitre": { "S": "L'utilisation des micro-organismes dans l’alimentation humaine" },
   "exercices": {
@@ -281,11 +267,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C15" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE15" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
   "chapitreTitre": { "S": "Le développement des êtres vivants au cours de leur vie" },
   "exercices": {
@@ -299,11 +284,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T2#C16" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE16" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Le vivant, sa diversité et les fonctions qui le caractérisent" },
   "chapitreTitre": { "S": "La production de matière et son utilisation par les êtres vivants" },
   "exercices": {
@@ -319,11 +303,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T3#C17" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE17" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matériaux et objets techniques" },
   "chapitreTitre": { "S": "Le tri et le recyclage des matériaux" },
   "exercices": {
@@ -340,11 +323,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T3#C18" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE18" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "Matériaux et objets techniques" },
   "chapitreTitre": { "S": "Les objets techniques et leur fonctionnement" },
   "exercices": {
@@ -357,11 +339,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T4#C19" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE19" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "La Terre, les êtres vivants dans leur environnement" },
   "chapitreTitre": { "S": "La planète Terre, une planète active et habitée" },
   "exercices": {
@@ -377,11 +358,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T4#C20" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE20" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "La Terre, les êtres vivants dans leur environnement" },
   "chapitreTitre": { "S": "La répartition des êtres vivants et le peuplement des milieux" },
   "exercices": {
@@ -396,11 +376,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#SCIENCES#T4#C21" },
+  "PK": { "S": "SIXIEME#SCIENCES#CHAPITRE21" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Sciences" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "sciences" },
   "themeTitre": { "S": "La Terre, les êtres vivants dans leur environnement" },
   "chapitreTitre": { "S": "Les modifications de l’environnement par l’être humain" },
   "exercices": {

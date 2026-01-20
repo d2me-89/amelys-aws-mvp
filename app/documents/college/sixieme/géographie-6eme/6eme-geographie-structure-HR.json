@@ -1,10 +1,9 @@
 [
 {
-  "PK": { "S": "CHAPITRE#6E#GEOGRAPHIE#T1#C1" },
+  "PK": { "S": "SIXIEME#GEOGRAPHIE#CHAPITRE01" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Géographie" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "geographie" },
   "themeTitre": { "S": "Habiter une métropole" },
   "chapitreTitre": { "S": "Les métropoles et leurs habitants" },
   "exercices": {
@@ -24,11 +23,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#GEOGRAPHIE#T1#C2" },
+  "PK": { "S": "SIXIEME#GEOGRAPHIE#CHAPITRE02" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Géographie" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "geographie" },
   "themeTitre": { "S": "Habiter une métropole" },
   "chapitreTitre": { "S": "La ville de demain" },
   "exercices": {
@@ -49,11 +47,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#GEOGRAPHIE#T2#C3" },
+  "PK": { "S": "SIXIEME#GEOGRAPHIE#CHAPITRE03" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Géographie" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "geographie" },
   "themeTitre": { "S": "Habiter un espace de faible densité" },
   "chapitreTitre": { "S": "Habiter un espace avec des contraintes naturelles et une grande biodiversité" },
   "exercices": {
@@ -74,11 +71,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#GEOGRAPHIE#T2#C4" },
+  "PK": { "S": "SIXIEME#GEOGRAPHIE#CHAPITRE04" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Géographie" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "geographie" },
   "themeTitre": { "S": "Habiter un espace de faible densité" },
   "chapitreTitre": { "S": "Habiter un espace de faible densité à vocation agricole" },
   "exercices": {
@@ -100,11 +96,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#GEOGRAPHIE#T3#C5" },
+  "PK": { "S": "SIXIEME#GEOGRAPHIE#CHAPITRE05" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Géographie" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "geographie" },
   "themeTitre": { "S": "Habiter les littoraux" },
   "chapitreTitre": { "S": "Littoral industrialo-portuaire, littoral touristique" },
   "exercices": {
@@ -126,11 +121,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#GEOGRAPHIE#T4#C6" },
+  "PK": { "S": "SIXIEME#GEOGRAPHIE#CHAPITRE06" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Géographie" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "geographie" },
   "themeTitre": { "S": "Le monde habité" },
   "chapitreTitre": { "S": "La répartition de la population mondiale et ses dynamiques" },
   "exercices": {
@@ -150,11 +144,10 @@
 }
 ,
 {
-  "PK": { "S": "CHAPITRE#6E#GEOGRAPHIE#T4#C7" },
+  "PK": { "S": "SIXIEME#GEOGRAPHIE#CHAPITRE07" },
   "SK": { "S": "META" },
-  "type": { "S": "CHAPITRE" },
-  "niveau": { "S": "Sixième" },
-  "matiere": { "S": "Géographie" },
+  "niveau": { "S": "sixieme" },
+  "matiere": { "S": "geographie" },
   "themeTitre": { "S": "Le monde habité" },
   "chapitreTitre": { "S": "La variété des formes d’occupation spatiale dans le monde" },
   "exercices": {

@@ -1,0 +1,474 @@
+[
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses structures" },
+  "chapitreTitre": { "S": "Les noms et les articles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier le nom et l’article dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer les articles définis et indéfinis" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase par un article défini approprié" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase par un article indéfini approprié" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Employer correctement les articles contractés" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Former le pluriel des noms réguliers" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Former le pluriel des noms irréguliers" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Modifier le genre d’une phrase en respectant les accords" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Modifier le nombre d’une phrase en respectant les accords" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français une phrase comportant un groupe nominal" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en espagnol une phrase comportant un groupe nominal" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en français une phrase contenant l’article espagnol « lo »" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en espagnol une phrase en utilisant l’article « lo »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses structures" },
+  "chapitreTitre": { "S": "Les pronoms et l’enclise" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec le pronom personnel approprié" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase en choisissant un pronom indéfini" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase avec un pronom interrogatif adapté" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter un texte en utilisant les pronoms qui conviennent" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Réécrire une phrase en utilisant une construction avec enclise" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Modifier le genre et le nombre d’une phrase contenant des pronoms" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en français une phrase comportant des pronoms" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en espagnol une phrase comportant des pronoms" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Le vouvoiement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase par « Usted » ou « Ustedes » selon le contexte" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase de vouvoiement avec les pronoms appropriés" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer un verbe dans un contexte de vouvoiement" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer un vouvoiement singulier en vouvoiement pluriel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Passer du tutoiement au vouvoiement en respectant les accords" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français une phrase employant le vouvoiement" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en espagnol une phrase employant le vouvoiement" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les prépositions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase en choisissant entre « a » et « en »" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase en choisissant entre « por » et « para »" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase avec « de », « desde » ou « hasta » selon le sens" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase avec « con », « sin » ou « hacia »" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en français une phrase comportant des prépositions" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en espagnol une phrase comportant des prépositions" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les adjectifs qualificatifs, les comparatifs et les superlatifs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Accorder correctement l’adjectif qualificatif dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Employer un superlatif pour exprimer un degré extrême" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser un superlatif en « -ísimo » dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer une phrase en utilisant un superlatif approprié" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les adverbes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les adverbes dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Former un adverbe à partir d’un adjectif en « -mente »" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître et utiliser les adverbes de manière" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître et utiliser les adverbes de lieu" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Reconnaître et utiliser les adverbes de temps" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Reconnaître et utiliser les adverbes de quantité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une phrase avec l’adverbe approprié" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Remettre dans l’ordre une phrase contenant un adverbe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français une phrase comportant des adverbes" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en espagnol une phrase comportant des adverbes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les suffixes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser un suffixe pour former un diminutif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase en ajoutant le suffixe manquant" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Renforcer ou nuancer le sens d’une phrase à l’aide d’un suffixe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en français une phrase comportant des mots construits avec un suffixe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en espagnol une phrase comportant des mots construits avec un suffixe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Rappel des temps et des modes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer un verbe au présent de l’indicatif dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer un verbe au présent du subjonctif dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer un verbe au passé composé dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Conjuguer un verbe au passé simple dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Conjuguer un verbe à l’imparfait dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Conjuguer un verbe au futur dans une phrase" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une phrase en utilisant le gérondif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Conjuguer correctement un verbe irrégulier dans une phrase" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Compléter un texte avec les verbes correctement conjugués" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Modifier la personne des verbes conjugués dans une phrase ou un texte" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en français un texte comportant des verbes conjugués" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en espagnol un texte comportant des verbes conjugués" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Le conditionnel et l’impératif" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer un verbe régulier au conditionnel présent" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer un verbe irrégulier au conditionnel présent" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Employer le conditionnel présent pour conjuguer un verbe dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir la forme correcte d’un conditionnel irrégulier dans une phrase" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Conjuguer un verbe à l’impératif affirmatif dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Conjuguer un verbe à l’impératif négatif dans une phrase" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transformer une phrase à l’impératif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Modifier la personne d’une phrase au conditionnel présent" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français une phrase au conditionnel présent" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en espagnol une phrase au conditionnel présent" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en français une phrase à l’impératif" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en espagnol une phrase à l’impératif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les aspects de l’action" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Employer une forme progressive pour exprimer une action en cours" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer correctement un semi-auxiliaire dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Exprimer la répétition et l’habitude dans une phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter un texte avec le vocabulaire de la temporalité de l’action" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Transformer une phrase en utilisant le gérondif" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Transformer une phrase pour exprimer l’habitude" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en français une phrase utilisant le gérondif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en espagnol une phrase utilisant le gérondif" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français une phrase contenant des semi-auxiliaires" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français une phrase décrivant le déroulement de l’action" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en espagnol une phrase décrivant le déroulement de l’action" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Le discours indirect" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer un verbe dans une phrase au discours indirect" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir la forme verbale correcte pour respecter la concordance des temps" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Modifier la personne d’une phrase au discours indirect" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en français une phrase respectant la concordance des temps" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en espagnol une phrase respectant la concordance des temps" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français une phrase au discours indirect" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en espagnol une phrase au discours indirect" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les verbes de demande" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître et maîtriser la conjugaison du verbe « preguntar »" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Employer le verbe « preguntar » dans une phrase correcte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître et maîtriser la conjugaison du verbe « pedir »" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Employer le verbe « pedir » dans une phrase correcte" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser une construction du type « pedir + subjonctif » dans une phrase" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Choisir entre « pedir » et « preguntar » selon le sens de la phrase" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transformer une phrase de demande en discours indirect" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français une phrase contenant le verbe « preguntar »" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en espagnol une phrase en utilisant le verbe « preguntar »" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français une phrase comportant la structure « pedir + subjonctif »" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en espagnol une phrase comportant la structure « pedir + subjonctif »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les subordonnées circonstancielles" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier une proposition subordonnée dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Déterminer la valeur d’une proposition subordonnée circonstancielle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer correctement le verbe dans une proposition subordonnée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir la préposition ou la locution appropriée dans une subordonnée de temps" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Choisir la préposition appropriée dans une proposition subordonnée circonstancielle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français une phrase comportant des propositions subordonnées" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en espagnol une phrase comportant des propositions subordonnées" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Ser et estar" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer le verbe « ser » dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer le verbe « estar » dans une phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir entre « ser » et « estar » selon le sens de la phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter un texte en utilisant correctement « ser » et « estar »" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en français une phrase contenant « ser » et « estar »" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en espagnol une phrase contenant « ser » et « estar »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Gustar et les verbes à tournure affective" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase en utilisant correctement le verbe « gustar »" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec une tournure affective appropriée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Remettre les mots dans l’ordre pour former une phrase avec une tournure affective" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier et connaître les principales tournures affectives" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Modifier le temps d’une phrase utilisant une tournure affective" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Modifier la personne d’une phrase utilisant une tournure affective" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transformer une phrase affirmative en phrase négative avec une tournure affective" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français une phrase comportant une tournure affective" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en espagnol une phrase en utilisant une tournure affective" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les obligations personnelle et impersonnelle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir le mode verbal approprié après une obligation personnelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Employer une obligation personnelle dans une phrase correcte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir le mode verbal approprié après une obligation impersonnelle" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Modifier la personne dans une phrase exprimant une obligation personnelle" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "La négation et la tournure restrictive « no… sino »" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir entre « sino », « sino que » et « pero » dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Traduire en français une phrase contenant une traduction de « mais »" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Traduire en espagnol une phrase contenant « mais »" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en français une phrase utilisant la tournure « no… sino »" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en espagnol une phrase utilisant la tournure « no… sino »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "L’expression de la conjecture et de l’hypothèse" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer un verbe pour formuler une conjecture" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer un verbe pour exprimer une hypothèse" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir le mot ou l’expression appropriée pour formuler une hypothèse" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer une hypothèse en affirmation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en français une phrase exprimant une conjecture" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français une phrase exprimant une hypothèse" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les équivalents de « on »" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer le verbe pour exprimer un équivalent de « on »" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir l’équivalent approprié de « on » selon le contexte" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Traduire en français une phrase comportant un équivalent de « on »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les équivalents de « il y a »" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Employer le verbe « haber » pour exprimer l’existence dans une phrase" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Employer le verbe « hacer » pour exprimer une indication temporelle ou météorologique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir entre « haber » et « hacer » selon le sens de la phrase" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en français une phrase comportant un équivalent de « il y a »" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en espagnol une phrase en utilisant un équivalent de « il y a »" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les équivalents de « devenir »" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Conjuguer un verbe pour exprimer un changement essentiel" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Conjuguer un verbe pour exprimer un changement passager" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir le verbe approprié pour exprimer une idée de changement" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Transformer une phrase afin d’exprimer un changement" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en français une phrase exprimant un changement essentiel" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en espagnol une phrase exprimant un changement essentiel" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en français une phrase exprimant un changement passager" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en espagnol une phrase exprimant un changement passager" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ESP#T1#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Espagnol" },
+  "themeTitre": { "S": "La langue et ses usages" },
+  "chapitreTitre": { "S": "Les articulations logiques du discours" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir les conjonctions de coordination appropriées dans un texte" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir le mot de liaison adapté au sens de la phrase" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Traduire en français une phrase comportant des conjonctions de coordination" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en espagnol une phrase comportant des conjonctions de coordination" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en français un texte utilisant des mots de liaison" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en espagnol un texte utilisant des mots de liaison" } } }
+    ]
+  }
+}
+]

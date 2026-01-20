@@ -1,9 +1,10 @@
 [
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE01" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C1" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les nombres" },
   "exercices": {
@@ -25,10 +26,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE02" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C2" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "La date et l'heure" },
   "exercices": {
@@ -50,10 +52,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE03" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C3" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les noms" },
   "exercices": {
@@ -76,10 +79,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE04" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C4" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les articles" },
   "exercices": {
@@ -102,10 +106,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE05" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C5" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les quantifieurs" },
   "exercices": {
@@ -126,10 +131,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE06" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C6" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les pronoms personnels et réfléchis" },
   "exercices": {
@@ -151,10 +157,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE07" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C7" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les possessifs" },
   "exercices": {
@@ -176,10 +183,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE08" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C8" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Le génitif" },
   "exercices": {
@@ -200,10 +208,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE09" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C9" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les démonstratifs" },
   "exercices": {
@@ -223,10 +232,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE10" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C10" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les adjectifs qualificatifs" },
   "exercices": {
@@ -249,10 +259,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE11" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C11" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Le comparatif et le superlatif" },
   "exercices": {
@@ -274,10 +285,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE12" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C12" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les prépositions de lieu et de temps" },
   "exercices": {
@@ -298,10 +310,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE13" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C13" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "La conjugaison de « be »" },
   "exercices": {
@@ -323,10 +336,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE14" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C14" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "La conjugaison de « have »" },
   "exercices": {
@@ -348,10 +362,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE15" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C15" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Le présent simple" },
   "exercices": {
@@ -373,10 +388,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE16" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C16" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Le présent en « be-ing »" },
   "exercices": {
@@ -399,10 +415,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE17" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C17" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Le prétérit simple et le prétérit « be-ing »" },
   "exercices": {
@@ -433,10 +450,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE18" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C18" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les verbes irréguliers au prétérit" },
   "exercices": {
@@ -457,10 +475,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE19" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C19" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les auxiliaires modaux" },
   "exercices": {
@@ -482,10 +501,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE20" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C20" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Le futur" },
   "exercices": {
@@ -509,10 +529,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE21" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C21" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "L'impératif" },
   "exercices": {
@@ -533,10 +554,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE22" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C22" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les pronoms relatifs" },
   "exercices": {
@@ -555,10 +577,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE23" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C23" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les adverbes" },
   "exercices": {
@@ -580,10 +603,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE24" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C24" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les mots de liaison" },
   "exercices": {
@@ -603,10 +627,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE25" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C25" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "La forme et les mots interrogatifs" },
   "exercices": {
@@ -629,10 +654,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE26" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C26" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "Les question tags" },
   "exercices": {
@@ -655,10 +681,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE27" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T1#C27" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Maîtrise de la langue" },
   "chapitreTitre": { "S": "La forme exclamative" },
   "exercices": {
@@ -680,10 +707,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE28" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C28" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Se présenter" },
   "exercices": {
@@ -698,10 +726,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE29" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C29" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "La famille et la maison" },
   "exercices": {
@@ -717,10 +746,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE30" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C30" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "L'école" },
   "exercices": {
@@ -736,10 +766,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE31" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C31" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Les habitudes alimentaires" },
   "exercices": {
@@ -754,10 +785,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE32" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C32" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Le corps et les vêtements" },
   "exercices": {
@@ -773,10 +805,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE33" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C33" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Les animaux familiers" },
   "exercices": {
@@ -792,10 +825,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE34" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C34" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Sports et loisirs" },
   "exercices": {
@@ -811,10 +845,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE35" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C35" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Les métiers" },
   "exercices": {
@@ -829,10 +864,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE36" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C36" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "L'habitat et la ville" },
   "exercices": {
@@ -848,10 +884,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE37" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C37" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Le Royaume-Uni" },
   "exercices": {
@@ -867,10 +904,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE38" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C38" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "L'Irlande" },
   "exercices": {
@@ -886,10 +924,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE39" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C39" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "L'Amérique du Nord" },
   "exercices": {
@@ -908,10 +947,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE40" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C40" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "L'Australie" },
   "exercices": {
@@ -927,10 +967,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE41" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C41" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Le continent indien" },
   "exercices": {
@@ -946,10 +987,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE42" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C42" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "L'Afrique anglophone" },
   "exercices": {
@@ -965,10 +1007,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE43" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C43" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "La vie sociale et les habitants" },
   "exercices": {
@@ -980,10 +1023,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE44" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C44" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Les monuments et les paysages célèbres" },
   "exercices": {
@@ -995,10 +1039,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE45" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C45" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "La faune et la flore" },
   "exercices": {
@@ -1013,10 +1058,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE46" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C46" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Quelques personnages célèbres" },
   "exercices": {
@@ -1030,10 +1076,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE47" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C47" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Quelques livres célèbres" },
   "exercices": {
@@ -1046,10 +1093,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE48" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C48" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Quelques films célèbres" },
   "exercices": {
@@ -1062,10 +1110,11 @@
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ANGLAIS#CHAPITRE49" },
+  "PK": { "S": "CHAPITRE#6E#ANGLAIS#T2#C49" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "anglais" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "Anglais" },
   "themeTitre": { "S": "Civilisation" },
   "chapitreTitre": { "S": "Quelques musiques célèbres" },
   "exercices": {
