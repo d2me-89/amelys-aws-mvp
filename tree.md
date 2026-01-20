@@ -1,4 +1,7 @@
-atform)
+.
+├── README.md
+├── app
+│   ├── (platform)
 │   │   └── app
 │   │       ├── AppHomePage.tsx
 │   │       ├── college
@@ -267,37 +270,32 @@ atform)
 │   │   │   │   └── sciences-brevet
 │   │   │   ├── cinquieme
 │   │   │   │   ├── anglais-5eme
-│   │   │   │   │   ├── 5eme-anglais-structure-DDB.json
 │   │   │   │   │   └── 5eme-anglais-structure-HR.json
 │   │   │   │   ├── emc-5eme
-│   │   │   │   │   ├── 6eme-emc-structure-DDB.json
 │   │   │   │   │   └── 6eme-emc-structure-HR.json
 │   │   │   │   ├── espagnol-5eme
-│   │   │   │   │   ├── 5eme-espagnol-structure-DDB.json
 │   │   │   │   │   └── 5eme-espagnol-structure-HR.json
 │   │   │   │   ├── francais-5eme
-│   │   │   │   │   ├── 5eme-français-structure-DDB.json
 │   │   │   │   │   ├── 5eme-français-structure-HR.json
 │   │   │   │   │   └── ensel283_annexe13_1120329.pdf
 │   │   │   │   ├── géographie-5eme
 │   │   │   │   │   └── 5eme-geographie-structure-HR.json
 │   │   │   │   ├── histoire-5eme
-│   │   │   │   │   ├── 5eme-histoire-structure-DDB.json
 │   │   │   │   │   └── 5eme-histoire-structure-HR.json
 │   │   │   │   ├── mathematiques-5eme
 │   │   │   │   │   ├── 14-Maths-5e-attendus-eduscol_1114744.pdf
 │   │   │   │   │   └── 5eme-maths-structure-HR.json
 │   │   │   │   ├── physique-chimie-5eme
-│   │   │   │   │   ├── 5eme-physique-chimie-structure-DDB.json
 │   │   │   │   │   └── 5eme-physique-chimie-structure-HR.json
 │   │   │   │   ├── svt-5eme
-│   │   │   │   │   ├── 5eme-svt-structure-DDB.json
 │   │   │   │   │   └── 5eme-svt-structure-HR.json
 │   │   │   │   └── technologie-5eme
 │   │   │   ├── quatrieme
 │   │   │   │   ├── anglais-4eme
+│   │   │   │   │   └── 4eme-anglais-structure-HR.json
 │   │   │   │   ├── emc-4eme
 │   │   │   │   ├── espagnol-4eme
+│   │   │   │   │   └── 4eme-espagnol-structure-HR.json
 │   │   │   │   ├── francais-4eme
 │   │   │   │   │   ├── 4eme-français-structure-HR.json
 │   │   │   │   │   └── ensel283_annexe15_1120333.pdf
@@ -315,25 +313,18 @@ atform)
 │   │   │   │   └── technologie-4eme
 │   │   │   ├── sixieme
 │   │   │   │   ├── anglais-6eme
-│   │   │   │   │   ├── 6eme-anglais-structure-DDB.json
 │   │   │   │   │   └── 6eme-anglais-structure-HR.json
 │   │   │   │   ├── emc-6eme
-│   │   │   │   │   ├── 6eme-emc-structure-DBB.json
 │   │   │   │   │   └── 6eme-emc-structure-HR.json
 │   │   │   │   ├── francais-6eme
-│   │   │   │   │   ├── 6eme-français-structure-DBB.json
 │   │   │   │   │   ├── 6eme-français-structure-HR.json
 │   │   │   │   │   └── ensel283_annexe11_1120325 (1).pdf
 │   │   │   │   ├── géographie-6eme
-│   │   │   │   │   ├── 6eme-geographie-structure-BDD.json
 │   │   │   │   │   └── 6eme-geographie-structure-HR.json
 │   │   │   │   ├── histoire-6eme
-│   │   │   │   │   ├── 6eme-histoire-structure-DBB.json
 │   │   │   │   │   └── 6eme-histoire-structure-HR.json
 │   │   │   │   ├── mathematiques-6eme
 │   │   │   │   │   ├── 12-Maths-6e-attendus-eduscol_1114742.pdf
-│   │   │   │   │   ├── 4eme-maths-architecture-DDB.pdf
-│   │   │   │   │   ├── 6eme-maths-architecture-DDB.json
 │   │   │   │   │   ├── 6eme-maths-architecture-HR.json
 │   │   │   │   │   ├── exemples_mise_en_oeuvre_6e-maths.pdf
 │   │   │   │   │   └── maths-sixieme-introduction.json
@@ -344,6 +335,7 @@ atform)
 │   │   │       ├── anglais-3eme
 │   │   │       ├── emc-3eme
 │   │   │       ├── espagnol-3eme
+│   │   │       │   └── 3eme-espagnol-structure-HR.json
 │   │   │       ├── francais-3eme
 │   │   │       │   ├── 3eme-français-structure-HR.json
 │   │   │       │   └── ensel283_annexe17_1120339.pdf
@@ -385,6 +377,7 @@ atform)
 │   │       │   ├── enseignement-scientifique-1ere
 │   │       │   │   └── 1ere-enseignement-scientifique-architecture-HR.json
 │   │       │   ├── espagnol-1ere
+│   │       │   │   └── 1ere-espagnol-structure-HR.json
 │   │       │   ├── francais-1ere
 │   │       │   │   └── Tle-français-structure-HR.json
 │   │       │   ├── geographie-1ere
@@ -413,6 +406,7 @@ atform)
 │   │       │   ├── anglais-2nde
 │   │       │   ├── emc-2nde
 │   │       │   ├── espagnol-2nde
+│   │       │   │   └── 2nde-espagnol-structure-HR.json
 │   │       │   ├── francais-2nde
 │   │       │   │   └── 2nde-français-structure-HR.json
 │   │       │   ├── géographie-2nde
@@ -439,6 +433,7 @@ atform)
 │   │           ├── enseignement-scientifique-Tle
 │   │           │   └── Tle-enseignement-scientifique-architecture-HR.json
 │   │           ├── espagnol-Tle
+│   │           │   └── Tle-espagnol-structure-HR.json
 │   │           ├── geographie-Tle
 │   │           │   ├── Tle-geographie-structure-HR.json
 │   │           │   └── spe243_annexe1_1159172.pdf
@@ -475,25 +470,28 @@ atform)
 │   ├── favicon.ico
 │   ├── globals.css
 │   ├── layout.tsx
-│   ├── page.tsx
-│   ├── ping
-│   │   └── page.tsx
-│   ├── tree.md
-│   └── utils
-│       └── structure-dossier-matiere-exemple.sh
+│   └── page.tsx
 ├── eslint.config.mjs
 ├── next-env.d.ts
 ├── next.config.ts
 ├── package-lock.json
 ├── package.json
 ├── postcss.config.mjs
+├── prompts
+│   ├── prompt-cours-COMPLET-v1.json
+│   └── prompt-cours.pdf
 ├── public
 │   ├── file.svg
 │   ├── globe.svg
 │   ├── next.svg
 │   ├── vercel.svg
 │   └── window.svg
-└── tsconfig.json
+├── tree.md
+├── tsconfig.json
+└── utils
+    ├── amelys-chat-handler.py
+    ├── lambda-start-cours-conversation.py
+    ├── lambda_send_message.py
+    └── structure-dossier-matiere-exemple.sh
 
-363 directories, 136 files
-    ~/De/amelys-
+363 directories, 132 files
