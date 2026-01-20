@@ -67,13 +67,15 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     id: string, 
     role: 'user' | 'assistant', 
     content: string,
-    isLatestAssistant?: boolean
+    isLatestAssistant?: boolean,
+    isStreaming?: boolean  // Pour savoir si le message est en cours de streaming
   }>>([]);
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [streamingMessageId, setStreamingMessageId] = useState<string | null>(null);
   
   const headerMenuRef = useRef<HTMLDivElement>(null);
   const chatContainerRef = useRef<HTMLDivElement>(null);
@@ -109,6 +111,40 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   }, [showHeaderMenu]);
 
   // ============================================
+  // 🌊 FONCTION DE STREAMING (AFFICHAGE PROGRESSIF)
+  // ============================================
+
+  const streamText = (fullText: string, messageId: string) => {
+    const words = fullText.split(' ');
+    let currentIndex = 0;
+
+    const intervalId = setInterval(() => {
+      if (currentIndex < words.length) {
+        const displayText = words.slice(0, currentIndex + 1).join(' ');
+        
+        setMessages(prev => prev.map(msg => 
+          msg.id === messageId 
+            ? { ...msg, content: displayText, isStreaming: true }
+            : msg
+        ));
+        
+        currentIndex++;
+      } else {
+        // Streaming terminé
+        setMessages(prev => prev.map(msg => 
+          msg.id === messageId 
+            ? { ...msg, isStreaming: false }
+            : msg
+        ));
+        setStreamingMessageId(null);
+        clearInterval(intervalId);
+      }
+    }, 30); // Vitesse : 30ms par mot (ajustable)
+
+    return intervalId;
+  };
+
+  // ============================================
   // 🚀 DÉMARRER LE COURS (APPEL API RÉEL)
   // ============================================
 
@@ -127,20 +163,31 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       
       setConversationId(response.conversationId);
       
-      // Ajouter les messages initiaux
+      // Ajouter le message initial de l'utilisateur
       setMessages([
         {
           id: 'init',
           role: 'user',
           content: 'Bonjour ! Je suis prêt à commencer.',
-        },
-        {
-          id: 'welcome',
-          role: 'assistant',
-          content: response.message,
-          isLatestAssistant: true
         }
       ]);
+
+      // Ajouter un message vide pour l'assistant qui va être streamé
+      const assistantMsgId = 'welcome';
+      setMessages(prev => [...prev, {
+        id: assistantMsgId,
+        role: 'assistant',
+        content: '',
+        isLatestAssistant: true,
+        isStreaming: true
+      }]);
+
+      setStreamingMessageId(assistantMsgId);
+      
+      // Démarrer le streaming du texte
+      setTimeout(() => {
+        streamText(response.message, assistantMsgId);
+      }, 300); // Petit délai avant de commencer
       
     } catch (err) {
       console.error('[START] Erreur:', err);
@@ -183,13 +230,23 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       
       console.log('[SEND] Réponse reçue:', response.messageId);
       
-      // Ajouter la réponse de l'assistant
+      // Ajouter un message vide pour l'assistant qui va être streamé
+      const assistantMsgId = response.messageId;
       setMessages(prev => [...prev, { 
-        id: response.messageId,
+        id: assistantMsgId,
         role: 'assistant', 
-        content: response.message,
-        isLatestAssistant: true
+        content: '',
+        isLatestAssistant: true,
+        isStreaming: true
       }]);
+
+      setStreamingMessageId(assistantMsgId);
+      setIsLoading(false);
+      
+      // Démarrer le streaming du texte
+      setTimeout(() => {
+        streamText(response.message, assistantMsgId);
+      }, 300);
       
     } catch (err) {
       console.error('[SEND] Erreur:', err);
@@ -197,7 +254,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       
       // Retirer le message utilisateur en cas d'erreur
       setMessages(prev => prev.filter(m => m.id !== userMsgId));
-    } finally {
       setIsLoading(false);
     }
   };
@@ -440,7 +496,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                   ))}
 
                   {/* Indicateur de chargement */}
-                  {isLoading && (
+                  {isLoading && !streamingMessageId && (
                     <div style={{
                       display: "flex",
                       gap: "1rem",
@@ -528,7 +584,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                     }
                   }}
                   placeholder="Message Amélys..."
-                  disabled={isLoading}
+                  disabled={isLoading || !!streamingMessageId}
                   style={{
                     flex: 1,
                     background: "transparent",
@@ -545,26 +601,26 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 />
                 <button
                   onClick={handleSend}
-                  disabled={!inputValue.trim() || isLoading}
+                  disabled={!inputValue.trim() || isLoading || !!streamingMessageId}
                   style={{
                     width: "36px",
                     height: "36px",
                     borderRadius: "8px",
-                    background: (inputValue.trim() && !isLoading)
+                    background: (inputValue.trim() && !isLoading && !streamingMessageId)
                       ? "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)"
                       : "rgba(255,255,255,0.1)",
                     border: "none",
                     color: "#fff",
-                    cursor: (inputValue.trim() && !isLoading) ? "pointer" : "not-allowed",
+                    cursor: (inputValue.trim() && !isLoading && !streamingMessageId) ? "pointer" : "not-allowed",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     transition: "all 0.2s ease",
                     flexShrink: 0,
-                    opacity: (inputValue.trim() && !isLoading) ? 1 : 0.5
+                    opacity: (inputValue.trim() && !isLoading && !streamingMessageId) ? 1 : 0.5
                   }}
                 >
-                  {isLoading ? (
+                  {isLoading || streamingMessageId ? (
                     <LuRefreshCw size={18} style={{ animation: "spin 1s linear infinite" }} />
                   ) : (
                     <LuSend size={18} />
