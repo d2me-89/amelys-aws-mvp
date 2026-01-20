@@ -58,9 +58,26 @@ async function sendMessage(conversationId: string, message: string) {
   return response.json();
 }
 
-// =============================================
+async function getConversation(conversationId: string, userId: string) {
+  const response = await fetch(
+    `${API_URL}/conversation/${conversationId}?userId=${userId}`,
+    {
+      method: 'GET',
+      headers: { 'Content-Type': 'application/json' },
+    }
+  );
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new Error(error.error || 'Erreur lors de la récupération de la conversation');
+  }
+
+  return response.json();
+}
+
+// ============================================
 // 🎨 COMPOSANT PRINCIPAL
-// =============================================
+// ============================================
 
 export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [conversationId, setConversationId] = useState<string | null>(null);
@@ -77,10 +94,78 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const [isInputFocused, setIsInputFocused] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [streamingMessageId, setStreamingMessageId] = useState<string | null>(null);
+  const [isLoadingConversation, setIsLoadingConversation] = useState(true); // Chargement initial
   
   const headerMenuRef = useRef<HTMLDivElement>(null);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const lastUserMessageRef = useRef<HTMLDivElement>(null);
+
+  // ============================================
+  // 💾 CHARGER LA CONVERSATION AU DÉMARRAGE
+  // ============================================
+
+  useEffect(() => {
+    const loadExistingConversation = async () => {
+      const savedConversationId = localStorage.getItem('amelys_conversation_chapitre1');
+      
+      if (!savedConversationId) {
+        setIsLoadingConversation(false);
+        return;
+      }
+
+      console.log('[LOAD] Tentative de chargement:', savedConversationId);
+
+      try {
+        // Récupérer le userId (temporairement stocké aussi dans localStorage)
+        const savedUserId = localStorage.getItem('amelys_userId');
+        
+        if (!savedUserId) {
+          console.log('[LOAD] Pas de userId sauvegardé');
+          localStorage.removeItem('amelys_conversation_chapitre1');
+          setIsLoadingConversation(false);
+          return;
+        }
+
+        // Appeler Lambda 3 pour récupérer la conversation
+        const response = await getConversation(savedConversationId, savedUserId);
+        
+        if (response.success && response.conversation) {
+          const conv = response.conversation;
+          
+          console.log('[LOAD] Conversation chargée:', conv.messageCount, 'messages');
+          
+          setConversationId(conv.conversationId);
+          
+          // Convertir les messages au format attendu
+          const loadedMessages = conv.messages.map((msg: any) => ({
+            id: msg.id,
+            role: msg.role,
+            content: msg.content,
+            isLatestAssistant: false,
+            isStreaming: false
+          }));
+
+          // Marquer le dernier message assistant
+          for (let i = loadedMessages.length - 1; i >= 0; i--) {
+            if (loadedMessages[i].role === 'assistant') {
+              loadedMessages[i].isLatestAssistant = true;
+              break;
+            }
+          }
+
+          setMessages(loadedMessages);
+        }
+        
+      } catch (err) {
+        console.error('[LOAD] Erreur:', err);
+        localStorage.removeItem('amelys_conversation_chapitre1');
+      } finally {
+        setIsLoadingConversation(false);
+      }
+    };
+
+    loadExistingConversation();
+  }, []);
 
   // Scroll vers le dernier message
   useEffect(() => {
@@ -163,6 +248,14 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       console.log('[START] Cours démarré:', response.conversationId);
       
       setConversationId(response.conversationId);
+      
+      // 💾 SAUVEGARDER dans localStorage
+      localStorage.setItem('amelys_conversation_chapitre1', response.conversationId);
+      localStorage.setItem('amelys_userId', userId);
+      console.log('[SAVE] Conversation sauvegardée dans localStorage');
+      
+      // 💾 SAUVEGARDER DANS LOCALSTORAGE
+      localStorage.setItem('amelys_conversation_chapitre1', response.conversationId);
       
       // Ajouter UNIQUEMENT le message de l'assistant (pas le message utilisateur initial)
       setMessages([]);
@@ -256,7 +349,17 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const headerMenuItems = [
     { icon: <LuStar size={16} />, label: "Ajouter aux favoris" },
     { icon: <LuCheck size={16} />, label: "Marquer comme complet" },
-    { icon: <LuRefreshCw size={16} />, label: "Régénérer conversation" }
+    { 
+      icon: <LuRefreshCw size={16} />, 
+      label: "Nouvelle conversation",
+      onClick: () => {
+        // Effacer la conversation actuelle
+        localStorage.removeItem('amelys_conversation_chapitre1');
+        setConversationId(null);
+        setMessages([]);
+        setShowHeaderMenu(false);
+      }
+    }
   ];
 
   return (
@@ -331,7 +434,13 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                   {headerMenuItems.map((item, idx) => (
                     <button
                       key={idx}
-                      onClick={() => setShowHeaderMenu(false)}
+                      onClick={() => {
+                        if (item.onClick) {
+                          item.onClick();
+                        } else {
+                          setShowHeaderMenu(false);
+                        }
+                      }}
                       style={{
                         width: "100%",
                         display: "flex",
@@ -381,102 +490,126 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               {/* ============================================ */}
               {/* 🎯 ÉCRAN DE DÉMARRAGE */}
               {/* ============================================ */}
-              {messages.length === 0 ? (
-                <div style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  height: "100%",
-                  gap: "1.5rem"
-                }}>
+              {messages.length === 0 && !conversationId ? (
+                // Loader pendant le chargement initial
+                isLoadingConversation ? (
                   <div style={{
-                    fontSize: "3rem",
-                    marginBottom: "1rem"
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    height: "100%",
+                    gap: "1rem"
                   }}>
-                    📐
+                    <LuRefreshCw size={48} style={{ 
+                      color: "#9F7AEA",
+                      animation: "spin 1s linear infinite" 
+                    }} />
+                    <p style={{
+                      fontSize: "1rem",
+                      color: "rgba(255,255,255,0.6)"
+                    }}>
+                      Chargement...
+                    </p>
                   </div>
-                  <h2 style={{
-                    fontSize: "1.5rem",
-                    fontWeight: 600,
-                    color: "#fff",
-                    margin: 0
+                ) : (
+                  // Écran de démarrage
+                  <div style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    height: "100%",
+                    gap: "1.5rem"
                   }}>
-                    Chapitre 1 : Les nombres entiers et décimaux
-                  </h2>
-                  <p style={{
-                    fontSize: "1rem",
-                    color: "rgba(255,255,255,0.6)",
-                    textAlign: "center",
-                    maxWidth: "600px",
-                    lineHeight: "1.6",
-                    margin: 0
-                  }}>
-                    Bienvenue dans ce cours interactif ! Amélys va t'accompagner pas à pas 
-                    pour maîtriser les nombres entiers et décimaux.
-                  </p>
-
-                  {/* ============================================ */}
-                  {/* 🚀 BOUTON COMMENCER LE COURS */}
-                  {/* ============================================ */}
-                  <button
-                    onClick={handleStartCourse}
-                    disabled={isLoading}
-                    style={{
-                      marginTop: "1rem",
-                      padding: "1rem 2rem",
-                      fontSize: "1.125rem",
+                    <div style={{
+                      fontSize: "3rem",
+                      marginBottom: "1rem"
+                    }}>
+                      📐
+                    </div>
+                    <h2 style={{
+                      fontSize: "1.5rem",
                       fontWeight: 600,
                       color: "#fff",
-                      background: isLoading 
-                        ? "rgba(159, 122, 234, 0.5)" 
-                        : "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
-                      border: "none",
-                      borderRadius: "12px",
-                      cursor: isLoading ? "not-allowed" : "pointer",
-                      transition: "all 0.2s ease",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem",
-                      boxShadow: "0 4px 12px rgba(159, 122, 234, 0.3)"
-                    }}
-                    onMouseEnter={(e) => {
-                      if (!isLoading) {
-                        e.currentTarget.style.transform = "translateY(-2px)";
-                        e.currentTarget.style.boxShadow = "0 6px 16px rgba(159, 122, 234, 0.4)";
-                      }
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "translateY(0)";
-                      e.currentTarget.style.boxShadow = "0 4px 12px rgba(159, 122, 234, 0.3)";
-                    }}
-                  >
-                    {isLoading ? (
-                      <>
-                        <LuRefreshCw size={20} style={{ animation: "spin 1s linear infinite" }} />
-                        Démarrage en cours...
-                      </>
-                    ) : (
-                      "Commencer le cours"
-                    )}
-                  </button>
-
-                  {/* Affichage des erreurs */}
-                  {error && (
-                    <div style={{
-                      padding: "1rem",
-                      background: "rgba(239, 68, 68, 0.1)",
-                      border: "1px solid rgba(239, 68, 68, 0.3)",
-                      borderRadius: "8px",
-                      color: "#FCA5A5",
-                      fontSize: "0.9rem",
-                      maxWidth: "600px",
-                      textAlign: "center"
+                      margin: 0
                     }}>
-                      ⚠️ {error}
-                    </div>
-                  )}
-                </div>
+                      Chapitre 1 : Les nombres entiers et décimaux
+                    </h2>
+                    <p style={{
+                      fontSize: "1rem",
+                      color: "rgba(255,255,255,0.6)",
+                      textAlign: "center",
+                      maxWidth: "600px",
+                      lineHeight: "1.6",
+                      margin: 0
+                    }}>
+                      Bienvenue dans ce cours interactif ! Amélys va t'accompagner pas à pas 
+                      pour maîtriser les nombres entiers et décimaux.
+                    </p>
+
+                    {/* ============================================ */}
+                    {/* 🚀 BOUTON COMMENCER LE COURS */}
+                    {/* ============================================ */}
+                    <button
+                      onClick={handleStartCourse}
+                      disabled={isLoading}
+                      style={{
+                        marginTop: "1rem",
+                        padding: "1rem 2rem",
+                        fontSize: "1.125rem",
+                        fontWeight: 600,
+                        color: "#fff",
+                        background: isLoading 
+                          ? "rgba(159, 122, 234, 0.5)" 
+                          : "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
+                        border: "none",
+                        borderRadius: "12px",
+                        cursor: isLoading ? "not-allowed" : "pointer",
+                        transition: "all 0.2s ease",
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.5rem",
+                        boxShadow: "0 4px 12px rgba(159, 122, 234, 0.3)"
+                      }}
+                      onMouseEnter={(e) => {
+                        if (!isLoading) {
+                          e.currentTarget.style.transform = "translateY(-2px)";
+                          e.currentTarget.style.boxShadow = "0 6px 16px rgba(159, 122, 234, 0.4)";
+                        }
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = "translateY(0)";
+                        e.currentTarget.style.boxShadow = "0 4px 12px rgba(159, 122, 234, 0.3)";
+                      }}
+                    >
+                      {isLoading ? (
+                        <>
+                          <LuRefreshCw size={20} style={{ animation: "spin 1s linear infinite" }} />
+                          Démarrage en cours...
+                        </>
+                      ) : (
+                        "Commencer le cours"
+                      )}
+                    </button>
+
+                    {/* Affichage des erreurs */}
+                    {error && (
+                      <div style={{
+                        padding: "1rem",
+                        background: "rgba(239, 68, 68, 0.1)",
+                        border: "1px solid rgba(239, 68, 68, 0.3)",
+                        borderRadius: "8px",
+                        color: "#FCA5A5",
+                        fontSize: "0.9rem",
+                        maxWidth: "600px",
+                        textAlign: "center"
+                      }}>
+                        ⚠️ {error}
+                      </div>
+                    )}
+                  </div>
+                )
               ) : (
                 /* ============================================ */
                 /* 💬 MESSAGES */
