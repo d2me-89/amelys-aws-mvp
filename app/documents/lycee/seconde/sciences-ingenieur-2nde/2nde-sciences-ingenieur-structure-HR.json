@@ -1,0 +1,175 @@
+[
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SI#T1#C1" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Démarche scientifique et défis technologiques" },
+    "chapitreTitre": { "S": "Relever un défi : analyser un besoin et formuler une problématique" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire un défi technologique à partir d’un produit : besoin, utilisateurs et contexte" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les contraintes socio-économiques et environnementales d’un défi" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Formuler une problématique scientifique testable à partir d’un besoin" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Lister des exigences mesurables (performances attendues) pour un système" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Distinguer fonctions de service et fonctions techniques sur un produit simple" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Repérer les champs technologiques mobilisés : information, énergie, matériaux/structures" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Choisir des grandeurs physiques pertinentes à observer pour répondre à la problématique" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Proposer des hypothèses explicatives et les relier à des mesures possibles" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Construire un plan d’investigation : étapes, ressources, risques, calendrier" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Sélectionner des ressources documentaires fiables et justifier leur choix" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les principaux acteurs (utilisateur, concepteur, mainteneur) et leurs attentes" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Établir une liste de critères d’évaluation d’une solution (qualité, coût, impact)" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Déterminer les éléments du système à instrumenter pour collecter des données" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Rédiger une fiche-problème : objectif, contraintes, hypothèses, variables mesurées" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Présenter oralement le défi et défendre la problématique choisie (argumentation)" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SI#T1#C2" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Démarche scientifique et défis technologiques" },
+    "chapitreTitre": { "S": "Travailler en équipe : organisation et conduite d’un défi" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir des rôles dans une équipe (coordination, mesures, modélisation, synthèse)" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Construire un planning simple avec jalons et livrables" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir des outils numériques pour collaborer (partage, version, dossier projet)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Mettre en place une méthode de prise de notes et de décisions (compte rendu court)" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Rédiger une consigne de sécurité pour une expérimentation en laboratoire/fablab" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier risques matériels et humains et proposer des mesures de prévention" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Organiser l’archivage des productions (données, schémas, photos, résultats)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Préparer un point d’étape : avancement, difficultés, décisions, actions" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Évaluer la contribution de chacun : critères simples, auto-évaluation, co-évaluation" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Gérer un désaccord technique : comparer arguments, décider, tracer la décision" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Définir une procédure de validation : tests attendus et preuves à produire" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Construire une grille de critères pour choisir entre deux options techniques" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Mettre en forme une synthèse d’équipe destinée à la classe (plan + visuels)" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Préparer une restitution ouverte à un public extérieur (parents/professionnels)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Analyser a posteriori la conduite du défi : ce qui a marché, ce qui est à améliorer" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SI#T1#C3" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Démarche scientifique et défis technologiques" },
+    "chapitreTitre": { "S": "Mettre au point un protocole expérimental et mesurer" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Transformer une hypothèse en protocole : variables, conditions, mesures" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les grandeurs physiques à mesurer et choisir l’appareil adapté" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Élaborer une procédure de mesure reproductible (nombre d’essais, conditions)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Définir un plan de relevés : pas d’échantillonnage, durée, fréquence" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Réaliser un montage d’acquisition simple assistée par ordinateur" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Collecter des données, les organiser et repérer valeurs aberrantes" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Estimer la précision d’une mesure et discuter l’incertitude" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer théorie/modèle et résultats : calculer et interpréter un écart" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Adapter un protocole après un premier essai (amélioration itérative)" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Utiliser un tableur pour nettoyer les données (unités, formats, conversions)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Tracer une courbe pertinente et choisir axes, unités, légende" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Interpréter un graphe : tendance, seuil, saturation, valeurs atypiques" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Justifier un choix technologique à partir d’un résultat expérimental" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Rédiger un compte rendu d’expérience : objectif, protocole, résultats, conclusion" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Présenter une conclusion structurée en citant les preuves expérimentales" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SI#T1#C4" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Démarche scientifique et défis technologiques" },
+    "chapitreTitre": { "S": "Modéliser, simuler et confronter un modèle aux mesures" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les entrées/sorties d’un système et proposer une représentation simple" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir des hypothèses de modélisation et expliciter leurs limites" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser un modèle fourni pour simuler le comportement d’un système" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer simulation et expérimentation : repérer des écarts et proposer des causes" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Ajuster un paramètre du modèle pour améliorer la concordance avec les mesures" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Construire un tableau de résultats simulation/mesures et le commenter" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Exploiter une maquette numérique 3D en lecture : repérer pièces et fonctions" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier des contraintes de structure (efforts, rigidité) sur un exemple guidé" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Relier une solution technique à un principe scientifique (loi fondamentale) sur un cas simple" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Choisir les grandeurs à suivre dans une simulation (variables d’état, sorties)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Mettre en forme un résultat de simulation en graphique et l’interpréter" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Décrire l’impact d’un changement de paramètre sur le comportement du système" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Argumenter le choix d’une solution à partir d’une comparaison multi-critères (mesure + modèle)" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Rédiger une note de synthèse : modèle choisi, résultats, limites, recommandations" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Présenter un bilan : ce que l’on valide, ce que l’on ne peut pas conclure, et pourquoi" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SI#T1#C5" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Démarche scientifique et défis technologiques" },
+    "chapitreTitre": { "S": "Réaliser un support d’expérimentation : maquette, prototype et instrumentation" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir un niveau de concrétisation : maquette ou prototype selon l’objectif" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les éléments existants réutilisables pour construire un support expérimental" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Proposer une modification simple d’un composant pour permettre la mesure" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Concevoir un montage d’instrumentation : emplacement capteur, fixation, sécurité" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre en œuvre une chaîne d’acquisition : capteur, conditionnement, enregistrement" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Vérifier le bon fonctionnement d’un capteur par une procédure de test simple" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Décrire une chaîne d’énergie d’un système et repérer conversion/stockage/régulation" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Réaliser une expérimentation sur l’efficacité énergétique et interpréter les résultats" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier matériaux/structures impliqués et discuter l’impact environnemental" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Construire un support d’essai simple pour comparer deux solutions techniques" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Mettre en place une procédure d’étalonnage simplifiée (zéro, référence)" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Documenter la réalisation : schéma, liste de composants, consignes d’usage" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Décrire le fonctionnement du support expérimental et les limites de la mesure" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Proposer une amélioration de support pour réduire les incertitudes" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Présenter le support expérimental à l’oral : choix, montage, sécurité, résultats attendus" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SI#T1#C6" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Démarche scientifique et défis technologiques" },
+    "chapitreTitre": { "S": "Communiquer et argumenter : rendre compte d’une démarche et de résultats" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Construire une carte mentale pour structurer l’analyse d’un système" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Réaliser un schéma fonctionnel simple pour expliquer un fonctionnement" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Produire un croquis annoté d’un montage expérimental" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Mettre en forme un tableau de mesures et choisir une représentation graphique adaptée" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Rédiger une conclusion scientifique en distinguant observation, interprétation et preuve" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Construire un argumentaire : thèse, preuves, limites, réponse à la problématique" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Présenter un résultat et répondre à des questions (justifier choix et hypothèses)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Comparer deux solutions techniques et défendre un choix à partir de critères" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Réaliser une diapositive de synthèse : message principal + figure lisible" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger une note de synthèse courte (1 page) sur un défi et ses résultats" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Produire un poster scientifique : problématique, protocole, résultats, conclusion" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Présenter un protocole en insistant sur sécurité, précision et reproductibilité" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer un écart modèle/mesure et proposer une piste d’amélioration" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Préparer une restitution collective : répartition de parole, timing, supports" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Auto-évaluer sa présentation : clarté, preuves, vocabulaire, gestion des questions" } } }
+      ]
+    }
+  }
+]

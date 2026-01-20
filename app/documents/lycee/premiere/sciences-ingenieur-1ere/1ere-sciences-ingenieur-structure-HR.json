@@ -1,0 +1,146 @@
+[
+  {
+    "PK": { "S": "CHAPITRE#1ERE#SI#T1#C1" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Innover : rompre avec l’existant et imaginer une solution originale" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer innovation de rupture et innovation incrémentale sur des exemples d’objets techniques" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Réaliser une mini-recherche : retracer l’histoire d’une innovation liée à une thématique du programme" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier ce qui, dans un produit, relève des usages, des contraintes et des performances attendues" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Construire une carte heuristique pour explorer des pistes de solutions autour d’un besoin" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre en œuvre un brainstorming : produire, trier et regrouper des idées selon des critères" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser une méthode d’analogies pour générer une solution originale (transfert d’un autre domaine)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Proposer un détournement d’usage : décrire le principe, l’intérêt et les limites" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger un scénario d’usage : contexte, acteur, objectifs, contraintes, parcours d’action" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Décrire une « expérience utilisateur » attendue et repérer les points de friction possibles" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les principes de base d’ergonomie applicables à une interface (lisibilité, feedback, erreurs)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Proposer un design d’interface (croquis) et justifier les choix (navigation, hiérarchie visuelle)" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Comparer deux idées de solution : établir une grille simple avantages/inconvénients" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Établir un mini-cahier des charges d’innovation : fonctions, critères, niveaux attendus" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Présenter à l’oral une idée innovante avec un argumentaire structuré (besoin → solution → preuves)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Réaliser une synthèse : solution proposée + usage + contraintes + critères de performance" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#SI#T1#C2" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Analyser : organisation d’un produit, énergie, protocoles et écarts de performance" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser un besoin et formaliser des exigences et critères associés (niveau Première)" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer fonctions de service et fonctions techniques à partir d’un produit support" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Construire un diagramme fonctionnel simple (approche ingénierie-système)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Établir un cas d’utilisation : acteurs, interactions, limites du système" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire l’organisation matérielle d’un produit : sous-systèmes et échanges (énergie/info)" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier grandeurs physiques mobilisées (mécanique/électrique/thermique) sur un fonctionnement" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer une puissance instantanée comme produit effort × flux sur un exemple chiffré" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre en évidence rendements et pertes sur une chaîne d’énergie simplifiée" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Repérer échanges d’énergie sur un schéma structurel et commenter les conversions" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser des supports de communication : filaire vs sans fil (avantages/contraintes)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer protocole, trame et encapsulation sur un scénario de transmission" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Comparer deux protocoles sur leurs objectifs : fiabilité, débit, portée, énergie" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Quantifier un écart de performance absolu et relatif entre attendu/mesuré/simulé" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Exploiter des données : tableaux, graphiques, moyenne, écart-type (lecture et interprétation)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Discuter erreurs et précision : identifier causes possibles d’écarts (mesure vs simulation)" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#SI#T1#C3" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Modéliser et résoudre : hypothèses, chaînes de puissance, mécanique, circuits et information" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Proposer des hypothèses simplificatrices pour un modèle et justifier leur intérêt/limites" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir une modélisation plane adaptée à une situation mécanique simple" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier grandeurs d’effort et grandeurs de flux dans une transmission de puissance" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Relier énergie et puissance (instantanée et moyenne) sur un cas guidé" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Associer des modèles élémentaires à une chaîne de puissance (sources, interrupteur parfait, conversion/stockage)" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire un comportement séquentiel en structures algorithmiques (variables, boucles, conditions)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Construire un diagramme d’états-transitions à partir d’un cahier des charges simple" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Modéliser graphiquement un circuit électrique élémentaire et identifier ses grandeurs" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Utiliser un schéma cinématique pour décrire un mécanisme (liaisons et mouvements)" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Construire un graphe de liaisons et des actions mécaniques sur un assemblage" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier trajectoires et types de mouvement sur un système (translation/rotation) et argumenter" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Déterminer positions, vitesses et accélérations (forme vectorielle) sur un exemple guidé" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Appliquer les lois de Kirchhoff sur un circuit simple pour déterminer tension/courant" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Caractériser des échanges d’informations : nature du signal/donnée, protocole, trame, débit" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Comparer débit maximal et débit utile sur un scénario d’échange de données" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#SI#T1#C4" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Expérimenter et simuler : mesure, sécurité, acquisition et communication" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir une gamme d’appareils de mesure adaptée à un ordre de grandeur attendu" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer un capteur à une grandeur physique et préciser unité, étendue et précision" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Prévoir l’ordre de grandeur d’une mesure avant manipulation (estimation argumentée)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier des erreurs de mesure possibles (zéro, étalonnage, bruit, lecture, montage)" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Appliquer une règle de raccordement d’un appareil de mesure sur un montage simple" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Conduire des essais en toute sécurité à partir d’un protocole fourni (check-list sécurité)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Rédiger une procédure de mesure reproductible (nombre d’essais, conditions, relevés)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Organiser des données de mesure en tableau et repérer valeurs aberrantes" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Tracer un graphique pertinent et justifier le choix des axes et échelles" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Interpréter un résultat expérimental : tendance, seuil, saturation, dispersion" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Relever les grandeurs caractéristiques d’un protocole de communication (signal, trame, débit)" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Comparer débit maximal et débit utile à partir d’un échange découpé en trames" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Vérifier la cohérence d’un protocole simple : identification d’en-tête, données, contrôle" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Rédiger un compte rendu d’essais : objectif, protocole, résultats, limites" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Conclure : relier mesures et critères de performance (valider/infirmer une hypothèse)" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#SI#T1#C5" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Communiquer : traiter l’information, collaborer et adapter le message" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Rendre compte de résultats avec un tableau et justifier les choix de présentation" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Construire un graphique lisible (titre, légende, unités) et en faire une lecture commentée" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Créer une diapositive de synthèse : message unique + visuel de preuve" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Organiser une carte mentale pour structurer une restitution de projet" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Collecter et extraire des données pertinentes depuis des sources (ENT, internet, dossiers techniques)" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer deux sources d’information et justifier celle jugée la plus fiable" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Synthétiser des informations : résumer sans perdre les éléments utiles à la décision technique" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Produire un tutoriel (texte + captures) pour expliquer une procédure technique" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Réaliser un court montage audio/vidéo pour présenter un résultat ou une procédure" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Mettre en place un espace partagé de fichiers (arborescence, règles de nommage)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Collaborer sur une plateforme : répartir tâches, suivre versions, gérer conflits simples" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Trouver un tiers expert : formuler une question technique claire et exploitable" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Adapter sa communication au public visé : sélectionner le niveau de détail et le vocabulaire" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Scénariser un document selon le public (plan, preuves, conclusion, limites)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Préparer une restitution courte : répartir la parole, gérer le temps, répondre aux questions" } } }
+      ]
+    }
+  }
+]

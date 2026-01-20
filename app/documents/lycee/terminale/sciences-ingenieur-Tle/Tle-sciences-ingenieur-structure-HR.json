@@ -1,0 +1,146 @@
+[
+  {
+    "PK": { "S": "CHAPITRE#TALE#SI#T1#C1" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Créer des produits innovants (items Terminale)" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Mettre en œuvre une démarche globale de conception (approche design) et expliciter apports et limites" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Construire un cahier des charges fonctionnel complet : critères, niveaux, tolérances, contraintes" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Définir un usage cible et rédiger un scénario d’usage terminal (contexte, parcours, contraintes)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier une rupture technologique applicable et justifier une évolution d’un produit existant" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Décomposer un produit « matériel + numérique » : fonctions, IHM, réseau, logiciel embarqué" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Représenter une solution avec un outil numérique graphique et produire une vue exploitable (schéma/maquette)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer plusieurs concepts par une matrice multicritère et conclure (choix argumenté)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les ressources nécessaires au prototypage (capteurs, actionneurs, énergie, matériaux, code)" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Planifier le projet Terminale (48 h) : jalons, livrables, risques, stratégie de validation" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Proposer une architecture fonctionnelle (blocs) reliant information/énergie/matière" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Identifier les exigences de durabilité (design responsable) et les traduire en critères mesurables" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Matérialiser une solution : choisir et justifier des outils de prototypage rapide adaptés" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Évaluer une partie de la solution innovante par essais/simulations et conclure sur l’atteinte d’un critère" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Concevoir une IHM simple (spécification + maquette) et l’intégrer à une logique de service" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Rédiger une synthèse de conception : besoin → solution → preuves → limites → pistes d’amélioration" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#SI#T1#C2" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Analyser les produits existants pour appréhender leur complexité (items Terminale)" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Analyser une architecture système : frontières, sous-systèmes, interfaces, flux (énergie/information)" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier et caractériser un élément d’une chaîne d’énergie (source, conversion, transmission, action)" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Estimer rendement et pertes sur une chaîne d’énergie complète et interpréter les impacts" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier capteurs/actionneurs et relier signaux mesurés à la décision de commande" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Décrire un objet connecté : données échangées, service rendu, contraintes de sécurité et d’énergie" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire une architecture de réseau de communication (nœuds, liaisons, protocoles, adressage)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer filaire/sans fil selon portée, débit, énergie, robustesse, sécurité" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Caractériser une transmission par trames : surcouches, en-tête, données utiles, contrôle" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Relier modulation/démodulation à une transmission de signaux sur un exemple simple" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Calculer débit utile vs débit maximal sur un échange découpé en trames" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser une structure/enveloppe : identifier charges permanentes et charges d’exploitation" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Construire un bilan d’exigences/performances d’un produit existant et repérer les écarts" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Quantifier les écarts de performance : mesure vs simulation vs spécification (absolu/relatif)" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Analyser erreurs et précision des mesures expérimentales et proposer une amélioration du protocole" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Produire une note d’analyse : architecture + points critiques + recommandations de conception" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#SI#T1#C3" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Modéliser les produits pour prévoir leurs performances (items Terminale)" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir un niveau de modèle (0D/1D/2D) et justifier les hypothèses associées" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier entrées/sorties/perturbations d’un système et construire un modèle de comportement" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Modéliser un système asservi : consigne, grandeur de sortie, erreur, perturbation" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier un modèle d’ordre 0, 1 ou 2 (gain pur, intégrateur, 1er ordre, 2e ordre) sur un cas" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Relier paramètres du modèle et performances temporelles (rapidité, dépassement, précision) sur un exemple" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en œuvre une simulation numérique et extraire des indicateurs de performance" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer deux jeux de paramètres et conclure sur l’influence d’un réglage" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser une méthode de résolution analytique ou numérique pour obtenir une grandeur d’intérêt" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Construire un modèle multi-physique simple (couplage énergie/info ou méca/élec) et l’exploiter" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire une situation mécanique : forces extérieures, actions, équations et inconnues" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Appliquer une condition géométrique sur un système en rotation (centre de gravité sur axe) et discuter stabilité" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Mettre en correspondance modèle numérique et architecture matérielle (capteurs, actionneurs, calcul)" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Écrire/modifier un programme simple (langage informatique) pour traiter une donnée de simulation" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Réaliser une analyse critique : validité du modèle, domaine d’usage, sensibilité aux paramètres" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Préparer une justification de modèle : hypothèses → équations → simulation → indicateurs → limites" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#SI#T1#C4" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "Valider les performances par expérimentations et simulations numériques (items Terminale)" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Construire un protocole de validation : critères, mesures, conditions, répétabilité" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir capteurs et chaînes d’acquisition : gamme, précision, fréquence d’échantillonnage" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Mettre en œuvre une acquisition et produire un jeu de données exploitable (nettoyage, unités, formats)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Évaluer la précision et discuter l’incertitude de mesure (sources, biais, dispersion)" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer mesures et simulation : calculer un écart et conclure (acceptation/refus)" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Optimiser un modèle numérique à partir des mesures : recalage de paramètres" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Mettre en place une validation croisée : plusieurs scénarios d’essais (robustesse)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Évaluer une partie de la solution innovante (prototype) sur un critère prioritaire du CdCF" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Tester une fonction d’IHM/commande : décrire cas nominal, erreurs, et comportements attendus" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Valider une communication entre objets : paramètres de configuration d’un réseau (adressage, canal, sécurité)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Mesurer un débit utile sur un réseau configuré et conclure sur l’adéquation au service" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser un échec de validation : identifier causes probables et plan de correction" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Rédiger un protocole de sécurité d’essai et l’appliquer (risques électriques/mécaniques/thermiques)" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Construire un dossier de preuves : tableaux, graphes, captures, commentaires et conclusion" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Préparer une conclusion de validation : performance atteinte/non atteinte + marges + recommandations" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#SI#T1#C5" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Sciences de l’ingénieur" },
+    "themeTitre": { "S": "Produits, jumeau numérique et démarche d’ingénieur" },
+    "chapitreTitre": { "S": "S’informer, produire de l’information et communiquer (items Terminale)" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Produire des diagrammes fonctionnels, schémas et croquis pour expliquer une solution technique" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Construire une carte mentale pour organiser informations, décisions et preuves d’un projet" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Rédiger un commentaire de programme : rôle, entrées/sorties, hypothèses, tests" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter un jumeau numérique : ce qu’il représente, ce qu’il prédit, et ses limites" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Organiser un dossier projet : arborescence, nommage, versioning et traçabilité" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Produire un tableau de décision multicritère et défendre un choix en argumentant" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Synthétiser des résultats de simulation/mesure en graphiques lisibles et interprétables" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une note interdisciplinaire (SI + sciences physiques + autre spécialité) sur un point mobilisé par le projet" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Préparer une présentation orale type Grand Oral : problématique, démarche, preuves, limites, ouverture" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Construire un script de démonstration : séquence, timing, matériels, risques et plan B" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Adapter la communication à un public : technique vs non spécialiste (vocabulaire, preuves, exemples)" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Rédiger un bilan de projet : objectifs, réalisations, écarts, correctifs, perspectives" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Mettre en forme une fiche produit finale : service rendu, architecture, performances validées, limites" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Analyser et justifier des choix éthiques et responsables (données, énergie, matériaux, cycle de vie)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Auto-évaluer sa communication : clarté, preuves, maîtrise technique, réponses aux questions" } } }
+      ]
+    }
+  }
+]

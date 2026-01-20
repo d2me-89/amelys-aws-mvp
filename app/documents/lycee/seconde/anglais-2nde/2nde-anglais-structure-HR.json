@@ -1,0 +1,602 @@
+[
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Nouns and determiners" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître la formation du pluriel des noms réguliers" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le pluriel des noms se terminant par -s, -x, -sh, -ch et -z" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le pluriel des noms se terminant par -y et -o" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le pluriel des noms irréguliers" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter une phrase avec un nom au pluriel régulier" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Compléter une phrase avec un nom au pluriel irrégulier" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une phrase avec le déterminant approprié" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre des groupes nominaux du singulier au pluriel" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre des groupes nominaux du pluriel au singulier" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français des phrases contenant des noms au pluriel" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en français des phrases contenant des noms singuliers et pluriels" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en anglais des phrases utilisant des noms au pluriel" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en anglais des phrases contenant des noms singuliers et pluriels" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Pronouns" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec un pronom personnel sujet" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec un pronom personnel complément" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase avec un pronom personnel réfléchi" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase avec un pronom démonstratif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter une phrase avec le pronom approprié" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Remplacer un groupe nominal par un pronom personnel sujet" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Remplacer un groupe nominal par un pronom personnel complément ou réfléchi" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Éviter les répétitions en utilisant un pronom" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français des phrases contenant des pronoms personnels sujets" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en anglais des phrases en utilisant des pronoms personnels sujets" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en anglais des phrases en utilisant des pronoms personnels compléments ou réfléchis" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Expressing possession" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer dans quel cas le génitif est nécessaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le génitif quand le nom se termine par un -s" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser le génitif si nécessaire" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase avec un déterminant possessif en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter une phrase avec un pronom possessif" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Reformuler une phrase en utilisant le génitif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Reformuler une phrase en utilisant un possessif" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français des phrases contenant un génitif" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en anglais des phrases en utilisant un génitif" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français des phrases contenant un déterminant ou pronom possessif" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en anglais des phrases en utilisant un déterminant ou pronom possessif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Adjectives, comparatives and superlatives" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes formes du comparatif de supériorité en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase à l’aide d’un comparatif de supériorité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase à l’aide d’un comparatif d’égalité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase à l’aide d’un comparatif d’infériorité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser les différents types de comparatifs" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les différentes formes du superlatif de supériorité en anglais" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Compléter une phrase à l’aide d’un superlatif de supériorité" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Compléter une phrase à l’aide d’un superlatif d’infériorité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Utiliser les différents types de superlatifs" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Dire l’inverse à l’aide des comparatifs" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Dire l’inverse à l’aide des superlatifs" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en français des phrases contenant un comparatif" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en anglais des phrases contenant un comparatif" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Traduire en français des phrases contenant un superlatif" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Traduire en anglais des phrases contenant un superlatif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Quantifiers" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir entre some, any et no" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir parmi les dérivés de some, any et no" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir entre many et much" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir entre a little et a few" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Choisir entre all et every" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Choisir entre either, neither et both" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mettre une phrase à la forme négative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre une phrase à la forme affirmative" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre une phrase à la forme interrogative" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français des phrases contenant some, any, no et leurs dérivés" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de some, any, no et leurs dérivés" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en français des phrases contenant many/much et a little/a few" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de many/much et a little/a few" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Traduire en français des phrases contenant either, neither ou both" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de either, neither ou both" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Present simple and present continuous (be + -ing)" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser le présent simple à la forme affirmative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le présent simple à la forme négative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser le présent simple à la forme interrogative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Utiliser le présent simple en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser le présent Be-ing à la forme affirmative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser le présent Be-ing à la forme négative" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser le présent Be-ing à la forme interrogative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser le présent simple ou le présent Be-ing en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Repérer les marques temporelles permettant de différencier présent simple et présent Be-ing" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Choisir entre le présent simple et le présent Be-ing" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Reformuler des phrases au présent simple à la forme affirmative ou négative" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Poser les questions correspondant aux réponses au présent simple" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Reformuler des phrases au présent Be-ing à la forme affirmative ou négative" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Poser les questions correspondant aux réponses au présent Be-ing" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Transformer une phrase du présent simple au présent Be-ing" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Traduire en français des phrases au présent simple" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Traduire en anglais des phrases au présent simple" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Traduire en français des phrases au présent Be-ing" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Traduire en anglais des phrases au présent Be-ing" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Past simple and past continuous (be + -ing)" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser le prétérit simple à la forme affirmative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le prétérit simple à la forme négative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser le prétérit simple à la forme interrogative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Utiliser le prétérit simple en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser le prétérit Be-ing à la forme affirmative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser le prétérit Be-ing à la forme négative" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser le prétérit Be-ing à la forme interrogative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser le prétérit Be-ing en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Choisir entre prétérit simple et prétérit Be-ing" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Reformuler des phrases au prétérit simple à la forme affirmative ou négative" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Poser les questions correspondant aux réponses au prétérit simple" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Reformuler des phrases au prétérit Be-ing à la forme affirmative ou négative" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Poser les questions correspondant aux réponses au prétérit Be-ing" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Transformer une phrase du prétérit simple au prétérit Be-ing" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Transformer une phrase du présent simple au prétérit simple" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Transformer une phrase du présent Be-ing au prétérit Be-ing" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Traduire en français des phrases au prétérit simple" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Traduire en anglais des phrases au prétérit simple" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Traduire en français des phrases au prétérit Be-ing" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Traduire en anglais des phrases au prétérit Be-ing" } } },
+      { "M": { "id": { "S": "E21" }, "titre": { "S": "Traduire en français des phrases contenant prétérit simple et prétérit Be-ing" } } },
+      { "M": { "id": { "S": "E22" }, "titre": { "S": "Traduire en anglais des phrases contenant prétérit simple et prétérit Be-ing" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Present perfect simple and present perfect continuous (have been + -ing)" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser le present perfect simple à la forme affirmative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le present perfect simple à la forme négative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser le present perfect simple à la forme interrogative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir entre prétérit simple et present perfect simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser le present perfect Be-ing à la forme affirmative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser le present perfect Be-ing à la forme négative" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser le present perfect Be-ing à la forme interrogative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Choisir entre present perfect simple et present perfect Be-ing" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reformuler des phrases au present perfect simple à la forme affirmative ou négative" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Poser les questions correspondant aux réponses au present perfect simple" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Reformuler des phrases au present perfect Be-ing à la forme affirmative ou négative" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Poser les questions correspondant aux réponses au present perfect Be-ing" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Passer des phrases du prétérit simple au present perfect" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Passer des phrases du present perfect simple au present perfect Be-ing" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Traduire en français des phrases au present perfect simple" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Traduire en anglais des phrases au present perfect simple" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Traduire en français des phrases au present perfect Be-ing" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Traduire en anglais des phrases au present perfect Be-ing" } } },
+      { "M": { "id": { "S": "E19" }, "titre": { "S": "Traduire en français des phrases contenant present perfect simple et present perfect Be-ing" } } },
+      { "M": { "id": { "S": "E20" }, "titre": { "S": "Traduire en anglais des phrases contenant present perfect simple et present perfect Be-ing" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Past perfect simple and past perfect continuous (had been + -ing)" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser le past perfect simple à la forme affirmative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le past perfect simple à la forme négative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser le past perfect simple à la forme interrogative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir entre present perfect simple et past perfect simple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser le past perfect Be-ing à la forme affirmative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser le past perfect Be-ing à la forme négative" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser le past perfect Be-ing à la forme interrogative" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Choisir entre past perfect simple et past perfect Be-ing" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reformuler des phrases au past perfect simple à la forme affirmative ou négative" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Poser les questions correspondant aux réponses au past perfect simple" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Reformuler des phrases au past perfect Be-ing à la forme affirmative ou négative" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Poser les questions correspondant aux réponses au past perfect Be-ing" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Passer des phrases du present perfect simple au past perfect simple" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Passer des phrases du past perfect simple au past perfect Be-ing" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Traduire en français des phrases au past perfect simple" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Traduire en anglais des phrases au past perfect simple" } } },
+      { "M": { "id": { "S": "E17" }, "titre": { "S": "Traduire en français des phrases au past perfect Be-ing" } } },
+      { "M": { "id": { "S": "E18" }, "titre": { "S": "Traduire en anglais des phrases au past perfect Be-ing" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Adverbial clauses" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les conjonctions de subordination" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser les conjonctions de subordination" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Exprimer la notion de conséquence à l’aide de so that ou such that" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir entre for et to pour exprimer un but" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Remettre une phrase comportant une subordonnée dans le bon ordre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Reformuler des phrases à l’aide d’une conjonction de subordination" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en français des phrases contenant des subordonnées circonstancielles" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de subordonnées circonstancielles" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "That-clauses and relative clauses" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter les phrases à l’aide de that si nécessaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter les phrases à l’aide de who ou which" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter les phrases à l’aide de that, which, who, where ou when" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter les phrases à l’aide de whose et whom" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Remplacer le that des phrases à l’aide de who, which ou whom" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser des subordonnées relatives pour écrire une seule phrase à partir de deux propositions" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en français des phrases contenant that" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de that" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français des phrases contenant des subordonnées relatives" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en anglais des phrases contenant des subordonnées relatives" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "For and since" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Choisir entre for et since" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Poser des questions à l’aide de how long ou since when" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reformuler des phrases à l’aide de for ou since" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer de for à since" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en français des phrases contenant for ou since" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de for ou since" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "As and like" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter les phrases à l’aide de as ou like" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter les phrases à l’aide de as if et such as" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Traduire en français des phrases contenant as ou like" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de as ou like" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "The future" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Exprimer le futur à l’aide de will" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Exprimer le futur à l’aide de be going to" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Exprimer le futur à l’aide du présent et d’une subordonnée de temps" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Exprimer le futur à l’aide de la forme la plus appropriée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre une phrase au futur à la forme négative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre une phrase au futur à la forme interrogative" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transformer des phrases du présent au futur" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Transformer des phrases du passé au futur" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français des phrases au futur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en anglais des phrases au futur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "The conditional" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Exprimer le conditionnel dans une phrase affirmative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Exprimer le conditionnel dans une phrase négative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Exprimer le conditionnel dans une phrase interrogative ou avec des réponses courtes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter des structures conditionnelles avec if" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre une phrase au conditionnel à la forme négative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Passer une phrase du futur au conditionnel" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Reformuler des phrases avec plus de politesse" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français des phrases au conditionnel" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en anglais des phrases au conditionnel" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "The imperative" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec un impératif à la forme affirmative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec un impératif à la forme négative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Passer une phrase affirmative à la forme négative et inversement" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer un ordre donné au discours indirect à la forme directe impérative" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Passer une phrase à l’indicatif en ordre à l’impératif" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français des phrases à l’impératif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en anglais des phrases à l’impératif" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "The passive voice" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec la forme passive" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec la forme passive progressive" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Conjuguer une phrase à la forme passive après un modal" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer une phrase de la forme active à la forme passive" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Passer une phrase de la forme passive à la forme active" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français une phrase contenant la forme passive" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en anglais une phrase à l’aide de la forme passive" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Reported speech" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le tableau de concordance des repères spatio-temporels" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter la partie rapportée d’un dialogue à la forme affirmative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter la partie rapportée d’un dialogue à la forme négative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer une phrase du discours direct au discours indirect" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Passer une phrase du discours indirect au discours direct" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français une phrase au discours indirect" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en anglais une phrase à l’aide du discours indirect" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C19" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "The interrogative form" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les mots interrogatifs en wh-" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les mots interrogatifs avec how" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter des phrases à la forme interrogative au présent" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter les phrases à l’aide de l’auxiliaire correspondant" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Remettre les questions dans le bon ordre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Poser les questions correspondant à une affirmation" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en français des questions" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en anglais des questions" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C20" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Verb + verb constructions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Placer to devant un verbe si nécessaire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter des tournures à l’aide de to ou d’un gérondif" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Traduire en français des phrases contenant des structures verbe + verbe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en anglais des phrases à l’aide des structures verbe + verbe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C21" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Modal verbs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différents auxiliaires modaux et leurs utilisations" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser can, can’t, could, couldn’t et be able to" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser must, mustn’t et have to" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Utiliser will et shall" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Choisir le bon auxiliaire modal" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Transformer des phrases à l’aide de can, can’t, could et couldn’t" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transformer des phrases à l’aide de must et mustn’t" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre des phrases contenant des modaux au passé" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reformuler des phrases à l’aide de modaux" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Reformuler une phrase à l’aide d’un modal exprimant la probabilité" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en français des phrases contenant can, can’t, could, couldn’t et be able to" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de can, can’t, could, couldn’t et be able to" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en français des phrases contenant des modaux variés" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de modaux variés" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C22" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Phrasal verbs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes particules" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase à l’aide d’une particule adverbiale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser les différents verbes prépositionnels" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase à l’aide d’un verbe prépositionnel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Remettre une phrase comportant un verbe à particule dans le bon ordre" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français des phrases contenant des verbes à particule" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en anglais des phrases à l’aide de verbes à particule" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C23" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Question tags" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser un question tag dans une phrase affirmative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser un question tag dans une phrase négative" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase avec un question tag" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer une phrase à la forme négative en modifiant le tag" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Passer une phrase à la forme affirmative en modifiant le tag" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français une phrase contenant un tag" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en anglais une phrase à l’aide d’un tag" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#ANGLAIS#T1#C24" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammar" },
+  "chapitreTitre": { "S": "Linking words in a text" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les mots de liaison permettant de structurer un plan" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les mots de liaison permettant d’opposer ou de confronter des idées" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les mots de liaison permettant d’ajouter une nouvelle idée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les mots de liaison permettant d’introduire un exemple" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les mots de liaison permettant d’établir des liens de cause à effet" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les mots de liaison permettant d’insister sur une idée" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les mots de liaison permettant de donner son opinion" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire les mots de liaison permettant d’annoncer un plan" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire les mots de liaison permettant d’exprimer la concession ou l’opposition" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire les mots de liaison permettant d’ajouter une nouvelle idée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire les mots de liaison permettant d’introduire un exemple" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire les mots de liaison permettant d’établir des liens de cause à effet" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en français un texte argumentatif" } } }
+    ]
+  }
+}
+]

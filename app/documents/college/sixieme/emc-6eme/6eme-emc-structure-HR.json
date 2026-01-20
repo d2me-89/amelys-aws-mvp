@@ -1,90 +1,115 @@
 [
 {
-  "PK": { "S": "SIXIEME#ENSEIGNEMENT-MORAL-CIVIQUE#CHAPITRE01" },
+  "PK": { "S": "CHAPITRE#6E#EMC#T1#C1" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "emc" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "EMC" },
   "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
-  "chapitreTitre": {
-    "S": "Les valeurs et les symboles de la République française et de l'Union européenne"
-  },
+  "chapitreTitre": { "S": "Les valeurs et les symboles de la République française et de l'Union européenne" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les valeurs de la République et les illustrer par des exemples du quotidien" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconnaître les symboles de la République française et expliquer leur rôle" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Associer des situations à la devise « Liberté, Égalité, Fraternité »" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la laïcité à partir de règles simples et de cas concrets" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Distinguer droits, libertés et devoirs dans une situation scolaire" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les symboles de l’Union européenne et ce qu’ils représentent" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier des valeurs communes à des actions de solidarité et de coopération" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une courte charte de classe en s’appuyant sur des valeurs républicaines" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ENSEIGNEMENT-MORAL-CIVIQUE#CHAPITRE02" },
+  "PK": { "S": "CHAPITRE#6E#EMC#T1#C2" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "emc" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "EMC" },
   "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
-  "chapitreTitre": {
-    "S": "Droits et devoirs"
-  },
+  "chapitreTitre": { "S": "Droits et devoirs" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les droits fondamentaux de l’enfant et du citoyen" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer un droit d’un devoir à partir de situations concrètes" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Associer des droits à des devoirs correspondants" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître des situations de respect ou de non-respect des règles" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre l’importance des règles pour vivre ensemble" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les droits et devoirs dans le cadre scolaire" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les conséquences du non-respect des règles" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Relier droits, devoirs et responsabilité individuelle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre le rôle des sanctions et des réparations" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les acteurs chargés de faire respecter les règles" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Proposer des règles favorisant le respect et la coopération dans un groupe" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ENSEIGNEMENT-MORAL-CIVIQUE#CHAPITRE03" },
+  "PK": { "S": "CHAPITRE#6E#EMC#T1#C3" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "emc" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "EMC" },
   "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
-  "chapitreTitre": {
-    "S": "L'égalité entre les hommes et les femmes"
-  },
+  "chapitreTitre": { "S": "L'égalité entre les hommes et les femmes" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre le principe d’égalité entre les filles et les garçons" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier des situations d’égalité et d’inégalité dans la vie quotidienne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître des stéréotypes liés au genre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les conséquences des discriminations entre les femmes et les hommes" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Relier le principe d’égalité à des droits communs pour tous" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier des actions favorisant l’égalité entre les femmes et les hommes" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Proposer des comportements respectueux favorisant l’égalité" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ENSEIGNEMENT-MORAL-CIVIQUE#CHAPITRE04" },
+  "PK": { "S": "CHAPITRE#6E#EMC#T1#C4" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "emc" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "EMC" },
   "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
-  "chapitreTitre": {
-    "S": "Le principe de la laïcité"
-  },
+  "chapitreTitre": { "S": "Le principe de la laïcité" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre la notion de laïcité et son rôle dans la République" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les libertés garanties par le principe de laïcité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer croyances personnelles et règles communes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser des situations de respect ou de non-respect de la laïcité" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le principe de neutralité de l’État et des services publics" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le rôle de l’école dans l’application de la laïcité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier la laïcité aux valeurs de liberté, d’égalité et de respect" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le droit de croire ou de ne pas croire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer comment la laïcité favorise le vivre-ensemble" } } }
     ]
   }
 }
 ,
 {
-  "PK": { "S": "SIXIEME#ENSEIGNEMENT-MORAL-CIVIQUE#CHAPITRE05" },
+  "PK": { "S": "CHAPITRE#6E#EMC#T1#C5" },
   "SK": { "S": "META" },
-  "niveau": { "S": "sixieme" },
-  "matiere": { "S": "emc" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Sixième" },
+  "matiere": { "S": "EMC" },
   "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
-  "chapitreTitre": {
-    "S": "La fraternité et la solidarité"
-  },
+  "chapitreTitre": { "S": "La fraternité et la solidarité" },
   "exercices": {
     "L": [
-      { "M": { "id": { "S": "E01" }, "titre": { "S": "Quiz 1" } } },
-      { "M": { "id": { "S": "E02" }, "titre": { "S": "Quiz 2" } } },
-      { "M": { "id": { "S": "E03" }, "titre": { "S": "Quiz 3" } } }
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre les notions de fraternité et de solidarité" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier des situations de solidarité dans la vie quotidienne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître des comportements favorisant l’entraide et le respect" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l’importance de la solidarité pour le vivre-ensemble" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Relier la fraternité aux valeurs de la République" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier des actions solidaires menées par des associations" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les conséquences du manque de solidarité" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le rôle de chacun dans les actions de solidarité" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Proposer des actions solidaires adaptées au cadre scolaire" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger un engagement personnel en faveur de la fraternité" } } }
     ]
   }
 }

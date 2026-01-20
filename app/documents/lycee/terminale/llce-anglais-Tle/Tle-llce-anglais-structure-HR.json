@@ -1,0 +1,153 @@
+[
+{
+  "PK": { "S": "CHAPITRE#TE#LLCE_ANGLAIS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Arts et débats d’idées" },
+  "chapitreTitre": { "S": "Art et contestation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les formes de contestation exprimées à travers une œuvre artistique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le message politique ou idéologique porté par une œuvre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier le contexte historique et social de production d’une œuvre engagée" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le rôle de l’artiste comme figure de résistance ou de provocation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les procédés artistiques utilisés pour susciter la critique ou la polémique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer différentes formes d’art contestataire issues de contextes distincts" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier la réception d’une œuvre contestataire par le public ou les institutions" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les limites et les risques de l’art engagé" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mobiliser le lexique de l’engagement, de la protestation et de la censure" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Interpréter la portée symbolique d’un geste artistique contestataire" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser les liens entre art, liberté d’expression et pouvoir" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Rédiger une réflexion argumentée sur le rôle de l’art dans les débats d’idées" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#LLCE_ANGLAIS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Arts et débats d’idées" },
+  "chapitreTitre": { "S": "L’art qui fait débat" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les sources de controverse autour d’une œuvre artistique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les arguments des partisans et des opposants à une œuvre" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier le rôle des médias dans la diffusion et l’amplification du débat artistique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les enjeux moraux, politiques ou religieux liés à une controverse artistique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les réactions institutionnelles face à une œuvre polémique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer plusieurs controverses artistiques issues de contextes différents" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier la notion de provocation dans la création artistique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre la frontière entre liberté artistique et censure" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mobiliser le lexique du débat, de la controverse et de la critique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Interpréter la portée symbolique d’une œuvre controversée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser l’impact d’un débat artistique sur la société" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Rédiger une réflexion argumentée sur la légitimité de l’art qui fait débat" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#LLCE_ANGLAIS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Arts et débats d’idées" },
+  "chapitreTitre": { "S": "L’art du débat" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’un discours argumentatif dans un contexte artistique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les stratégies rhétoriques utilisées dans un débat d’idées" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier la construction d’une argumentation convaincante" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le rôle des exemples et références artistiques dans un débat" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer différents points de vue sur une même question artistique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser la dimension polémique ou dialogique d’un échange d’idées" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mobiliser le lexique spécifique du débat et de l’argumentation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Interpréter les enjeux idéologiques d’un débat artistique" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser l’influence du débat d’idées sur la réception de l’art" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger une réflexion argumentée sur l’importance du débat dans le champ artistique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#LLCE_ANGLAIS#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Expression et construction de soi" },
+  "chapitreTitre": { "S": "L’expression des émotions" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les émotions exprimées dans un texte littéraire ou autobiographique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le lexique et les images associés à l’expression des émotions" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier le rôle des émotions dans la construction d’une voix narrative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre l’influence du point de vue sur l’expression émotionnelle" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser les procédés stylistiques servant à traduire l’intensité émotionnelle" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer différentes manières d’exprimer une même émotion" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Étudier le lien entre émotions et identité personnelle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le rôle cathartique de l’expression des émotions" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser la retenue ou l’excès émotionnel et leurs effets sur le lecteur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Mobiliser le lexique des émotions et des sentiments complexes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Interpréter la portée symbolique d’une émotion dans une œuvre" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser les enjeux culturels de l’expression émotionnelle" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Rédiger une réflexion argumentée sur le rôle des émotions dans la construction de soi" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#LLCE_ANGLAIS#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Expression et construction de soi" },
+  "chapitreTitre": { "S": "Mise en scène de soi" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les procédés de mise en scène de soi dans un texte autobiographique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le choix du point de vue et ses effets sur l’image de soi" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier le rôle du récit de soi dans la construction de l’identité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la frontière entre sincérité et stratégie discursive" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer différentes formes de mise en scène de soi selon les genres" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser l’usage du langage corporel ou visuel dans la représentation de soi" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mobiliser le lexique de l’identité, de l’image et de la représentation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Interpréter la portée symbolique d’une posture ou d’un rôle adopté" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser l’influence du regard de l’autre dans la construction de soi" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger une réflexion argumentée sur la mise en scène de soi comme construction identitaire" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TE#LLCE_ANGLAIS#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Expression et construction de soi" },
+  "chapitreTitre": { "S": "Initiation, apprentissage" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les étapes du parcours initiatique dans un récit" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser le rôle de l’épreuve dans le processus d’apprentissage" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier la figure du mentor ou du guide dans une œuvre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre la transformation du personnage au fil de l’initiation" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer différents récits d’apprentissage issus de contextes culturels variés" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les valeurs transmises à travers le parcours initiatique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Repérer les procédés narratifs structurant le récit d’apprentissage" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mobiliser le lexique de la formation, de l’évolution et de la transmission" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Interpréter la portée symbolique des épreuves et des rites de passage" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser les enjeux identitaires liés à l’apprentissage" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Rédiger une réflexion argumentée sur le rôle de l’initiation dans la construction de soi" } } }
+    ]
+  }
+}
+]

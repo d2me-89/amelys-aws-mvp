@@ -1,0 +1,233 @@
+[
+  {
+    "PK": { "S": "CHAPITRE#1ERE#NSI#T1#C1" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Histoire de l’informatique" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Placer sur une frise des événements clés de l’histoire de l’informatique et citer leurs protagonistes" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Relier des concepts (algorithme, machine, langage, information) aux grandes périodes de leur émergence" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer ce que change l’idée de « machine universelle » dans l’histoire des techniques" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier l’impact de l’évolution exponentielle de la puissance de calcul sur les usages" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Distinguer ordinateurs personnels, serveurs, fermes de calcul et méga-ordinateurs : usages et contraintes" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Associer des innovations (microprocesseur, internet, smartphone) à des changements de société" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer deux générations d’objets numériques : ce qui évolue (matériel, logiciel, réseau, interfaces)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser un court document historique : repérer problème, solution technique et limites" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Repérer des ruptures technologiques et expliquer pourquoi ce sont des ruptures" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier l’histoire d’internet (mise en réseau) à l’essor des services numériques actuels" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Associer un besoin (calcul, communication, stockage) aux solutions apparues à différentes époques" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Distinguer innovation scientifique et innovation technique sur des exemples informatiques" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Décrire comment un concept se diffuse : standards, langages, communautés, open source" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier des enjeux contemporains hérités de l’histoire : données, surveillance, dépendance, énergie" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Produire une synthèse : 10 repères historiques + 10 concepts associés (avec justification)" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#NSI#T1#C2" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Représentation des données : types et valeurs de base" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Convertir un entier positif d’une base à une autre (bases 2, 10, 16)" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Évaluer le nombre de bits nécessaires pour représenter un entier en base 2" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Déterminer une borne sur le nombre de bits nécessaires pour représenter la somme de deux entiers" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Déterminer une borne sur le nombre de bits nécessaires pour représenter le produit de deux entiers" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Représenter un entier relatif en complément à 2 sur un nombre de bits donné" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Interpréter un mot binaire en complément à 2 et retrouver l’entier relatif correspondant" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer sur quelques exemples une représentation approchée de réels (0,1 ; 0,25 ; 1/3)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Expliquer pourquoi certains calculs sur flottants donnent des résultats inattendus (ex. 0,2 + 0,1)" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier pourquoi il faut éviter de tester l’égalité stricte entre deux flottants" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Construire la table de vérité d’une expression booléenne avec and/or/not" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Utiliser et interpréter l’opérateur XOR sur des cas simples" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Concevoir une expression booléenne à partir d’un cahier des charges (conditions à respecter)" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Comparer ASCII, ISO-8859-1 et Unicode : expliquer l’intérêt des encodages" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Identifier des caractères mal décodés et proposer une hypothèse d’encodage" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Convertir un fichier texte dans différents encodages et vérifier le résultat" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#NSI#T1#C3" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Représentation des données : types construits" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Écrire une fonction qui renvoie un p-uplet de valeurs pour retourner plusieurs résultats" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir un p-uplet pour modéliser une donnée composée (ex. point (x,y), date (j,m,a))" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire et modifier des éléments d’un tableau par index" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Itérer sur les éléments d’un tableau et construire un résultat (compte, somme, filtre)" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Construire un tableau par compréhension à partir d’une règle de génération" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Créer et exploiter un tableau de tableaux pour représenter une matrice (a[i][j])" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Écrire une fonction qui parcourt une matrice et calcule un indicateur (somme, maximum, comptage)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Construire une entrée de dictionnaire (clé/valeur) pour modéliser une association" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Itérer sur un dictionnaire : clés, valeurs et couples (keys/values/items)" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Choisir entre tableau et dictionnaire selon le besoin (accès par index vs par clé)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Construire un dictionnaire de fréquences à partir d’une liste de valeurs" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Modéliser un enregistrement simple avec champs nommés (approche Python) sur un exemple concret" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Représenter des métadonnées (ex. EXIF) sous forme d’enregistrement et accéder à un champ" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Écrire une fonction qui transforme une liste d’enregistrements (filtre, tri, projection)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Déboguer un programme manipulant types construits : erreurs d’index, clés absentes, structure incohérente" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#NSI#T1#C4" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Traitement de données en tables" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire une table comme une liste de p-uplets nommés partageant les mêmes descripteurs" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Importer une table depuis un fichier texte tabulé ou un fichier CSV" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Vérifier la cohérence d’une table : types attendus, valeurs manquantes, champs obligatoires" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Détecter des doublons dans une table et proposer une stratégie de traitement" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Rechercher les lignes d’une table qui vérifient un critère simple (comparaisons)" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Rechercher des lignes avec un critère composé (logique propositionnelle : and/or/not)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Trier une table suivant une colonne et interpréter l’effet du tri" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Trier une table selon deux colonnes (clé principale + clé secondaire)" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Construire une nouvelle table en sélectionnant certains descripteurs (projection)" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Construire une nouvelle table en filtrant des lignes (sélection)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Fusionner deux tables en combinant des données à partir d’un descripteur commun" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Mettre en évidence la notion de domaine de valeurs sur une colonne (catégories possibles)" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Écrire une fonction de recherche paramétrable (colonne + prédicat) appliquée à une table" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Comparer deux méthodes de tri : tri intégré vs tri écrit par l’élève (avantages/limites)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Réaliser un mini-projet : importer un CSV, nettoyer, filtrer, trier et produire une table résultat" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#NSI#T1#C5" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Interactions entre l’homme et la machine sur le Web" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les composants graphiques d’une page Web permettant l’interaction (boutons, champs, liens…)" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Associer à chaque composant des événements possibles (clic, saisie, survol…)" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer description des composants (HTML) et comportement (réactions aux événements)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser une page simple : repérer où est gérée la réaction à un clic" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Modifier la méthode exécutée lors d’un clic sur un bouton pour changer le comportement" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire l’ordre d’exécution client/serveur sur un exemple : requête, traitement, réponse" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Distinguer ce qui est mémorisé côté client et ce qui est retransmis au serveur" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Reconnaître quand la transmission est chiffrée et expliquer l’intérêt de HTTPS" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser un formulaire simple : champs, valeurs, action, méthode" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Distinguer GET et POST et choisir selon la confidentialité des paramètres" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Repérer des paramètres dans une URL et expliquer leur rôle dans une requête" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Reconstituer un dialogue client-serveur à partir de traces simplifiées (requêtes/réponses)" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier une interaction asynchrone (mise à jour partielle) sur un exemple de page" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Proposer un cahier des charges d’IHM Web simple et lister événements à gérer" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Mini-projet : concevoir une page interactive (formulaire + traitement de réponse) sur un cas d’usage scolaire" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#NSI#T1#C6" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Architectures matérielles et systèmes d’exploitation" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Nommer les constituants d’une architecture de von Neumann et préciser leur rôle" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer processeur, mémoire, entrées-sorties et bus sur un schéma simplifié" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Dérouler l’exécution d’une séquence d’instructions simples de type langage machine" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer architectures mono-processeur et multi-processeur : intérêt et limites" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer l’intérêt du découpage en paquets et de l’encapsulation dans un réseau" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Simuler un protocole simple de récupération de perte de paquets (bit alterné)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier le protocole simulé aux notions vues sur TCP/IP (fiabilisation)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les constituants d’un réseau local d’établissement et leurs rôles" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer les fonctions principales d’un système d’exploitation" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Utiliser des commandes de base en ligne de commande (navigation, création, affichage)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Gérer droits et permissions d’accès aux fichiers sur un exemple (lecture/écriture/exécution)" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Comparer systèmes d’exploitation libres et propriétaires : principes et enjeux" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier le rôle des capteurs et actionneurs dans des périphériques d’entrée/sortie" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Réaliser par programmation une IHM répondant à un cahier des charges simple" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Mini-projet : mettre en place une arborescence, gérer permissions et exécuter un script en environnement libre" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#NSI#T1#C7" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Langages et programmation" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier dans un programme les constructions élémentaires : séquence, affectation, condition, boucles, fonctions" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Mettre en évidence le rôle des appels de fonction dans la structuration d’un programme" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer l’écriture d’un même programme simple dans deux styles de langages (impératif vs événementiel, par exemple)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Repérer, dans un nouveau langage, les traits communs et particularités (syntaxe, blocs, variables)" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Prototyper une fonction : nom, paramètres, valeur de retour, rôle" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Écrire des préconditions sur les arguments d’une fonction (types, domaines, contraintes)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Écrire des postconditions sur le résultat d’une fonction et vérifier sur des exemples" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser des assertions pour garantir une précondition ou une postcondition" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Concevoir un jeu de tests minimal mais pertinent pour valider une fonction" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser pourquoi « tests réussis » ne garantit pas la correction (contre-exemple à inventer)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Décomposer un programme en modules (fonctions) pour améliorer lisibilité et réutilisation" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Lire une documentation de bibliothèque et utiliser une fonction sur un cas donné" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Adapter un code source existant : comprendre interfaces, modifier sans casser les contrats" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Mettre au point un programme : identifier bugs, tracer, corriger et valider par tests" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Mini-projet : écrire un petit module (spécification + tests + documentation courte) réutilisable dans un autre programme" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#1ERE#NSI#T1#C8" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Première" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Algorithmique" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Écrire un algorithme de recherche d’une occurrence dans un tableau (parcours séquentiel)" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Écrire un algorithme de recherche d’un extremum dans un tableau et justifier son coût linéaire" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Écrire un algorithme de calcul d’une moyenne et analyser son coût" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Écrire un tri par sélection et décrire ce que fait l’algorithme étape par étape" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Écrire un tri par insertion et repérer les cas favorables/défavorables" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Décrire un invariant de boucle prouvant la correction du tri par insertion" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Décrire un invariant de boucle prouvant la correction du tri par sélection" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Justifier la terminaison d’un tri (insertion ou sélection) et relier à l’idée de variant" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Montrer le coût quadratique des tris insertion/sélection dans le pire cas (raisonnement sur les boucles)" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Écrire une recherche dichotomique dans un tableau trié" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Montrer la terminaison de la dichotomie à l’aide d’un variant (taille de l’intervalle)" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Écrire un algorithme des k plus proches voisins pour prédire la classe d’un élément" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Tester l’effet du choix de k sur la prédiction (petit jeu de données)" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Résoudre un problème par algorithme glouton (rendu de monnaie ou sac à dos) sur un exemple" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Comparer deux stratégies sur un même problème (glouton vs autre) et discuter limites/contre-exemples" } } }
+      ]
+    }
+  }
+]

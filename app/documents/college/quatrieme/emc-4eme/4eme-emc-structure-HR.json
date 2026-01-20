@@ -1,0 +1,105 @@
+[
+{
+  "PK": { "S": "CHAPITRE#4E#EMC#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La formation du citoyen dans une société démocratique" },
+  "chapitreTitre": { "S": "Les sentiments et l'idée d'appartenance" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de sentiment d’appartenance" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier différents groupes d’appartenance dans la vie quotidienne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le rôle des sentiments dans la construction de l’identité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer appartenance choisie et appartenance imposée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser des situations de valorisation ou de rejet liées à l’appartenance" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les risques du repli sur un seul groupe d’appartenance" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier sentiment d’appartenance et cohésion sociale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier des situations favorisant le respect des appartenances multiples" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre le rôle de l’école dans la construction du sentiment d’appartenance" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser des exemples de tensions liées à l’appartenance" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Proposer des actions favorisant le vivre-ensemble et l’inclusion" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#EMC#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La formation du citoyen dans une société démocratique" },
+  "chapitreTitre": { "S": "La démocratie représentative et la loi françaises" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de démocratie représentative" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les principes fondamentaux de la démocratie française" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le rôle du vote dans une démocratie représentative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les institutions qui représentent les citoyens" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le rôle de la loi dans l’organisation de la société" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Distinguer loi, règle et décision" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les étapes de l’élaboration d’une loi" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le principe d’égalité devant la loi" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser des situations d’application ou de non-application de la loi" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier démocratie représentative et État de droit" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre le rôle des citoyens dans le respect et l’évolution de la loi" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Argumenter sur l’importance de la loi dans une société démocratique" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#EMC#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La formation du citoyen dans une société démocratique" },
+  "chapitreTitre": { "S": "Les libertés fondamentales et les droits fondamentaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions de libertés fondamentales et de droits fondamentaux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les principales libertés fondamentales reconnues en France" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les droits fondamentaux garantis à chaque individu" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer droits civils, politiques, économiques et sociaux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le lien entre libertés fondamentales et démocratie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser des situations de respect ou d’atteinte aux libertés fondamentales" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le rôle de la loi dans la protection des droits fondamentaux" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les institutions chargées de garantir les droits et libertés" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Relier droits fondamentaux et égalité devant la loi" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre que les libertés peuvent être limitées pour protéger l’intérêt général" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser des cas concrets mettant en jeu des droits fondamentaux" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Argumenter sur l’importance de la protection des libertés et des droits fondamentaux" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#4E#EMC#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Quatrième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La formation du citoyen dans une société démocratique" },
+  "chapitreTitre": { "S": "Responsabilité et engagement face aux risques" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions de responsabilité et de risque" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier différents types de risques dans la vie quotidienne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les conséquences des comportements à risque" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Relier responsabilité individuelle et sécurité collective" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les règles visant à prévenir les risques" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le rôle des institutions dans la prévention des risques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser des situations d’engagement face à un danger ou un risque" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier des comportements responsables face aux risques" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre la notion de responsabilité juridique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier responsabilité, prévention et solidarité" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser des situations de mise en danger d’autrui" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Proposer des actions de prévention adaptées à différents risques" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Argumenter sur l’importance de l’engagement citoyen face aux risques" } } }
+    ]
+  }
+}
+]

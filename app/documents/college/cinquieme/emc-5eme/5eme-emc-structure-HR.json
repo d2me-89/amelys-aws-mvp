@@ -1,0 +1,98 @@
+[
+{
+  "PK": { "S": "CHAPITRE#5E#EMC#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
+  "chapitreTitre": { "S": "La liberté individuelle" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de liberté individuelle" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier des libertés individuelles garanties par la loi" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer liberté individuelle et libertés collectives" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre que la liberté s’exerce dans le respect des autres" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser des situations où la liberté individuelle est limitée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le rôle de la loi dans la protection des libertés" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Reconnaître des atteintes à la liberté individuelle" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Relier liberté individuelle et responsabilité personnelle" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre l’importance des libertés individuelles dans une démocratie" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Argumenter sur l’équilibre entre liberté individuelle et règles communes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#EMC#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
+  "chapitreTitre": { "S": "La justice dans la société et au collège" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Comprendre ce que signifie la justice dans une société démocratique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier le rôle de la justice dans le respect des droits et des règles" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer justice, sanction et vengeance" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître des situations justes ou injustes dans la vie quotidienne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le fonctionnement des règles et sanctions au collège" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les acteurs de la justice dans la société" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier justice, égalité et respect des règles communes" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser des situations de conflits et proposer des solutions justes" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Expliquer l’importance de la justice pour le vivre-ensemble" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#EMC#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
+  "chapitreTitre": { "S": "L'égalité, l'inégalité et la discrimination" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions d’égalité, d’inégalité et de discrimination" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier des situations d’égalité et d’inégalité dans la vie quotidienne" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reconnaître des situations de discrimination" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les critères interdits de discrimination" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Distinguer inégalité sociale et discrimination" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les conséquences des discriminations sur les individus et la société" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les moyens de lutte contre les discriminations" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Relier le principe d’égalité aux droits fondamentaux" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reconnaître des comportements favorisant l’égalité" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre le rôle de la loi dans la protection contre les discriminations" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser des situations vécues ou fictives de discrimination" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Proposer des actions pour favoriser l’égalité et le respect des personnes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#5E#EMC#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Cinquième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Les principes fondamentaux de la vie en République" },
+  "chapitreTitre": { "S": "L'engagement des citoyens dans la cité et dans leur établissement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion d’engagement citoyen" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier différentes formes d’engagement dans la cité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le rôle des citoyens dans la vie démocratique" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les lieux et instances d’engagement au collège" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le fonctionnement des instances représentatives des élèves" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser les effets positifs de l’engagement sur la vie collective" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier engagement, responsabilité et respect des règles" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Reconnaître des situations de participation ou de non-participation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Proposer des actions favorisant l’engagement des élèves" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger un projet d’engagement citoyen adapté à son établissement" } } }
+    ]
+  }
+}
+]

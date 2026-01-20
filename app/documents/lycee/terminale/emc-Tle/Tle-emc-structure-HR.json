@@ -1,0 +1,55 @@
+[
+{
+  "PK": { "S": "CHAPITRE#TERM#EMC#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La démocratie" },
+  "chapitreTitre": { "S": "La démocratie : principes, pratiques et renouvellement" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de démocratie et ses principes fondamentaux" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les différentes formes de démocratie" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les principes de la démocratie représentative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les pratiques démocratiques dans la vie politique française" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le rôle du suffrage universel dans la démocratie" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier les acteurs de la vie démocratique" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les limites et les fragilités des pratiques démocratiques" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les enjeux de la participation citoyenne" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les formes contemporaines de renouvellement démocratique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser le rôle des médias et du numérique dans la démocratie" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Relier démocratie, libertés publiques et État de droit" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les enjeux de la défiance citoyenne envers les institutions" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser des exemples de réformes ou d’innovations démocratiques" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Argumenter sur l’avenir de la démocratie dans les sociétés contemporaines" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#TERM#EMC#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La démocratie" },
+  "chapitreTitre": { "S": "Repenser et faire vivre la démocratie" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les enjeux contemporains de la démocratie" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre les causes de la crise de confiance démocratique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les limites de la démocratie représentative" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser le rôle de la participation citoyenne dans le renouveau démocratique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les formes de démocratie participative et délibérative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l’apport du numérique dans les pratiques démocratiques" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser le rôle des corps intermédiaires et de la société civile" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre les enjeux de l’engagement citoyen aujourd’hui" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser des exemples de dispositifs de renouveau démocratique" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier démocratie, libertés publiques et responsabilité citoyenne" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Évaluer les conditions nécessaires pour faire vivre durablement la démocratie" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Argumenter sur les perspectives d’évolution de la démocratie" } } }
+    ]
+  }
+}
+]

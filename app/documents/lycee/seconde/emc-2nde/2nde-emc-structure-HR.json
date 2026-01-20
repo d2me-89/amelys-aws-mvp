@@ -1,0 +1,83 @@
+[
+{
+  "PK": { "S": "CHAPITRE#2NDE#EMC#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Droits, libertés et responsabilités dans un État de droit" },
+  "chapitreTitre": { "S": "L’État de droit : garant des droits, libertés et d’un pluralisme démocratique" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion d’État de droit" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les principes fondamentaux d’un État de droit" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le lien entre État de droit et démocratie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les droits et libertés garantis dans un État de droit" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le principe du pluralisme démocratique" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le rôle de la Constitution dans la protection des droits" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre la séparation des pouvoirs dans un État de droit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier le rôle des juridictions dans la garantie des libertés" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser des situations de respect ou de remise en cause de l’État de droit" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier État de droit, droits fondamentaux et responsabilités citoyennes" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre les limites possibles aux libertés dans un État de droit" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser le rôle des médias et de la liberté d’expression dans le pluralisme démocratique" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Argumenter sur l’importance de l’État de droit pour la protection des libertés" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#EMC#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Droits, libertés et responsabilités dans un État de droit" },
+  "chapitreTitre": { "S": "Libertés et responsabilité : l’information" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la liberté d’information et la liberté d’expression" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les droits et devoirs liés à la diffusion de l’information" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le rôle de l’information dans une démocratie" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer information, opinion et rumeur" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les principes du pluralisme de l’information" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre les responsabilités juridiques liées à l’information" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser les limites légales à la liberté d’information" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les risques liés à la désinformation et aux fausses informations" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre le rôle des médias et des réseaux sociaux dans la diffusion de l’information" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser des situations d’usage responsable ou irresponsable de l’information" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Relier liberté d’information, esprit critique et responsabilité citoyenne" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre les moyens de vérification et de fiabilité de l’information" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Argumenter sur l’importance d’une information libre et responsable en démocratie" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#2NDE#EMC#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Seconde" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Droits, libertés et responsabilités dans un État de droit" },
+  "chapitreTitre": { "S": "Droit et responsabilité : la protection de l’environnement et la sauvegarde de la biodiversité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions de protection de l’environnement et de biodiversité" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les enjeux environnementaux actuels à différentes échelles" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre le lien entre activités humaines et atteintes à la biodiversité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Identifier les droits et devoirs des citoyens en matière de protection de l’environnement" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre le principe de responsabilité environnementale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Identifier le rôle de l’État et des collectivités dans la protection de l’environnement" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le rôle des lois et des accords internationaux environnementaux" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser des situations de conflits entre développement économique et protection de l’environnement" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier des actions individuelles favorables à la préservation de la biodiversité" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier des actions collectives et associatives de protection de l’environnement" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre le rôle de la justice dans la sanction des atteintes à l’environnement" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Relier protection de l’environnement, développement durable et citoyenneté" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser des exemples d’engagements citoyens pour l’environnement" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Argumenter sur la responsabilité des citoyens et des États face aux enjeux environnementaux" } } }
+    ]
+  }
+}
+]

@@ -2,17 +2,8 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import AppLayout from "@/app/components/AppLayout";
-import { useRouter } from "next/navigation";
 import { 
   LuSend, 
-  LuBrain, 
-  LuPaperclip, 
-  LuCamera, 
-  LuFolderPlus, 
-  LuSearch, 
-  LuGlobe, 
-  LuPenTool, 
-  LuPlug,
   LuChevronDown,
   LuStar,
   LuCheck,
@@ -22,30 +13,65 @@ import {
   LuThumbsDown,
   LuEllipsis,
   LuBot,
-  LuPlay
+  LuLoader2
 } from "react-icons/lu";
 
-// 🔧 CONFIGURATION DE L'API
-const API_URL_START = "https://1l0w2ryk9c.execute-api.eu-west-1.amazonaws.com/prod/chat/start";
-const API_URL_MESSAGE = "https://1l0w2ryk9c.execute-api.eu-west-1.amazonaws.com/prod/chat/message";
+// ============================================
+// 🔗 APPELS API
+// ============================================
+
+const API_URL = "https://5gty3ykr4d.execute-api.eu-west-1.amazonaws.com/prod";
+
+async function startCourse(userId: string) {
+  const response = await fetch(
+    `${API_URL}/college/mathematiques-sixieme/chapitre1-cours`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId }),
+    }
+  );
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new Error(error.error || 'Erreur lors du démarrage du cours');
+  }
+
+  return response.json();
+}
+
+async function sendMessage(conversationId: string, message: string) {
+  const response = await fetch(
+    `${API_URL}/conversation/${conversationId}/message`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message }),
+    }
+  );
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new Error(error.error || 'Erreur lors de l\'envoi du message');
+  }
+
+  return response.json();
+}
+
+// ============================================
+// 🎨 COMPOSANT PRINCIPAL
+// ============================================
 
 export default function MathematiquesSixiemeChapitre1CoursPage() {
-  const router = useRouter();
-  
-  // État de la session
-  const [sessionStarted, setSessionStarted] = useState(false);
   const [conversationId, setConversationId] = useState<string | null>(null);
-  const [isStarting, setIsStarting] = useState(false);
-  
-  // États de la conversation
   const [messages, setMessages] = useState<Array<{
-    id: number, 
+    id: string, 
     role: 'user' | 'assistant', 
     content: string,
     isLatestAssistant?: boolean
   }>>([]);
   const [inputValue, setInputValue] = useState("");
-  const [isTyping, setIsTyping] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [showHeaderMenu, setShowHeaderMenu] = useState(false);
   const [isInputFocused, setIsInputFocused] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -54,7 +80,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const lastUserMessageRef = useRef<HTMLDivElement>(null);
 
-  // Scroll vers le dernier message utilisateur
+  // Scroll vers le dernier message
   useEffect(() => {
     if (lastUserMessageRef.current) {
       setTimeout(() => {
@@ -66,7 +92,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     }
   }, [messages]);
 
-  // Fermer le menu header quand on clique à l'extérieur
+  // Fermer le menu header
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (headerMenuRef.current && !headerMenuRef.current.contains(event.target as Node)) {
@@ -83,135 +109,97 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
     };
   }, [showHeaderMenu]);
 
-  // 🚀 FONCTION : LANCER LA SESSION
-  const handleStartSession = async () => {
-    setIsStarting(true);
+  // ============================================
+  // 🚀 DÉMARRER LE COURS (APPEL API RÉEL)
+  // ============================================
+
+  const handleStartCourse = async () => {
+    setIsLoading(true);
     setError(null);
-    
+
     try {
-      // TODO: Récupérer le vrai userId (depuis authentification)
-      const userId = "user_demo_123";
+      // TODO: Remplacer par le vrai userId depuis l'authentification
+      const userId = "user_demo_" + Date.now();
       
-      const response = await fetch(API_URL_START, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+      console.log('[START] Démarrage du cours...');
+      const response = await startCourse(userId);
+      
+      console.log('[START] Cours démarré:', response.conversationId);
+      
+      setConversationId(response.conversationId);
+      
+      // Ajouter les messages initiaux
+      setMessages([
+        {
+          id: 'init',
+          role: 'user',
+          content: 'Bonjour ! Je suis prêt à commencer.',
         },
-        body: JSON.stringify({
-          userId: userId,
-          niveau: "6eme",
-          matiere: "mathematiques",
-          chapitre: "C1",
-          type: "cours-interactif"
-        })
-      });
-
-      if (!response.ok) {
-        throw new Error(`Erreur API: ${response.status}`);
-      }
-
-      const data = await response.json();
+        {
+          id: 'welcome',
+          role: 'assistant',
+          content: response.message,
+          isLatestAssistant: true
+        }
+      ]);
       
-      if (!data.success) {
-        throw new Error(data.error || "Erreur lors du démarrage de la session");
-      }
-
-      // Sauvegarder l'ID de conversation
-      setConversationId(data.conversationId);
-      
-      // Ajouter le message d'accueil de Claude
-      setMessages([{
-        id: Date.now(),
-        role: 'assistant',
-        content: data.message,
-        isLatestAssistant: true
-      }]);
-      
-      // Marquer la session comme démarrée
-      setSessionStarted(true);
-      setIsStarting(false);
-
     } catch (err) {
-      setIsStarting(false);
-      const errorMessage = err instanceof Error ? err.message : "Erreur de connexion";
-      setError(errorMessage);
-      console.error("Erreur lors du démarrage de la session:", err);
+      console.error('[START] Erreur:', err);
+      setError(err instanceof Error ? err.message : 'Une erreur est survenue');
+    } finally {
+      setIsLoading(false);
     }
   };
 
-  // 🚀 FONCTION : ENVOYER UN MESSAGE
+  // ============================================
+  // 💬 ENVOYER UN MESSAGE (APPEL API RÉEL)
+  // ============================================
+
   const handleSend = async () => {
     if (!inputValue.trim() || !conversationId) return;
     
     const userMessage = inputValue;
-    const messageId = Date.now();
     setInputValue("");
     setError(null);
     
-    // Retirer le flag isLatestAssistant des anciens messages
+    // Retirer le flag isLatestAssistant
     setMessages(prev => prev.map(msg => ({
       ...msg,
       isLatestAssistant: false
     })));
     
-    // Ajouter le message utilisateur à l'affichage
+    // Ajouter le message utilisateur immédiatement
+    const userMsgId = 'user_' + Date.now();
     setMessages(prev => [...prev, { 
-      id: messageId, 
+      id: userMsgId, 
       role: 'user', 
       content: userMessage
     }]);
     
-    // Indicateur de chargement
-    setIsTyping(true);
+    setIsLoading(true);
     
     try {
-      // TODO: Récupérer le vrai userId
-      const userId = "user_demo_123";
+      console.log('[SEND] Envoi du message...');
+      const response = await sendMessage(conversationId, userMessage);
       
-      const response = await fetch(API_URL_MESSAGE, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          conversationId: conversationId,
-          userId: userId,
-          message: userMessage
-        })
-      });
-
-      if (!response.ok) {
-        throw new Error(`Erreur API: ${response.status}`);
-      }
-
-      const data = await response.json();
+      console.log('[SEND] Réponse reçue:', response.messageId);
       
-      if (!data.success) {
-        throw new Error(data.error || "Erreur inconnue de l'API");
-      }
-
-      // Ajouter la réponse de Claude aux messages
-      setIsTyping(false);
+      // Ajouter la réponse de l'assistant
       setMessages(prev => [...prev, { 
-        id: Date.now(),
+        id: response.messageId,
         role: 'assistant', 
-        content: data.message,
+        content: response.message,
         isLatestAssistant: true
       }]);
-
+      
     } catch (err) {
-      setIsTyping(false);
-      const errorMessage = err instanceof Error ? err.message : "Erreur de connexion";
-      setError(errorMessage);
+      console.error('[SEND] Erreur:', err);
+      setError(err instanceof Error ? err.message : 'Erreur lors de l\'envoi du message');
       
-      setMessages(prev => [...prev, { 
-        id: Date.now(),
-        role: 'assistant', 
-        content: `❌ Désolé, une erreur s'est produite : ${errorMessage}. Veuillez réessayer.`,
-        isLatestAssistant: true
-      }]);
-      
-      console.error("Erreur lors de l'appel à l'API:", err);
+      // Retirer le message utilisateur en cas d'erreur
+      setMessages(prev => prev.filter(m => m.id !== userMsgId));
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -228,13 +216,13 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
         height: "calc(100vh - 70px)",
         background: "var(--background)"
       }}>
-        {/* Zone principale de conversation */}
+        {/* Zone principale */}
         <div style={{ 
           flex: 1,
           display: "flex",
           flexDirection: "column"
         }}>
-          {/* Header fixe */}
+          {/* Header */}
           <header style={{
             height: "60px",
             display: "flex",
@@ -244,7 +232,6 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             background: "var(--background)",
             flexShrink: 0
           }}>
-            {/* Gauche : Titre + Menu déroulant */}
             <div 
               ref={headerMenuRef}
               style={{ display: "flex", alignItems: "center", gap: "0.5rem", position: "relative" }}
@@ -276,7 +263,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                 <LuChevronDown size={18} />
               </button>
 
-              {/* Menu déroulant header */}
+              {/* Menu déroulant */}
               {showHeaderMenu && (
                 <div style={{
                   position: "absolute",
@@ -322,7 +309,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
             </div>
           </header>
 
-          {/* Zone de messages avec scroll */}
+          {/* Zone de messages */}
           <div 
             ref={chatContainerRef}
             style={{
@@ -341,291 +328,272 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
               flexDirection: "column",
               gap: "3rem"
             }}>
-            {!sessionStarted ? (
-              // 🎯 PAGE D'ACCUEIL AVANT LE LANCEMENT
-              <div style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                height: "100%",
-                gap: "2rem"
-              }}>
+              {/* ============================================ */}
+              {/* 🎯 ÉCRAN DE DÉMARRAGE */}
+              {/* ============================================ */}
+              {messages.length === 0 ? (
                 <div style={{
-                  fontSize: "4rem",
-                  marginBottom: "1rem"
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  height: "100%",
+                  gap: "1.5rem"
                 }}>
-                  📐
-                </div>
-                <h2 style={{
-                  fontSize: "1.8rem",
-                  fontWeight: 600,
-                  color: "#fff",
-                  margin: 0,
-                  textAlign: "center"
-                }}>
-                  Chapitre 1 : Les nombres entiers et décimaux
-                </h2>
-                <p style={{
-                  fontSize: "1.1rem",
-                  color: "rgba(255,255,255,0.7)",
-                  maxWidth: "600px",
-                  textAlign: "center",
-                  lineHeight: "1.7",
-                  margin: 0
-                }}>
-                  Prêt à démarrer ton cours interactif avec Amélys ? Clique sur le bouton ci-dessous pour lancer ta session d'apprentissage personnalisée !
-                </p>
-
-                {/* BOUTON LANCER LA SESSION */}
-                <button
-                  onClick={handleStartSession}
-                  disabled={isStarting}
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "0.75rem",
-                    padding: "1rem 2.5rem",
-                    fontSize: "1.2rem",
+                  <div style={{
+                    fontSize: "3rem",
+                    marginBottom: "1rem"
+                  }}>
+                    📐
+                  </div>
+                  <h2 style={{
+                    fontSize: "1.5rem",
                     fontWeight: 600,
                     color: "#fff",
-                    background: isStarting 
-                      ? "rgba(159, 122, 234, 0.5)"
-                      : "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
-                    border: "none",
-                    borderRadius: "12px",
-                    cursor: isStarting ? "not-allowed" : "pointer",
-                    transition: "all 0.3s ease",
-                    boxShadow: "0 4px 12px rgba(159, 122, 234, 0.4)",
-                    marginTop: "1rem"
-                  }}
-                  onMouseEnter={(e) => {
-                    if (!isStarting) {
-                      e.currentTarget.style.transform = "translateY(-2px)";
-                      e.currentTarget.style.boxShadow = "0 6px 16px rgba(159, 122, 234, 0.5)";
-                    }
-                  }}
-                  onMouseLeave={(e) => {
-                    if (!isStarting) {
-                      e.currentTarget.style.transform = "translateY(0)";
-                      e.currentTarget.style.boxShadow = "0 4px 12px rgba(159, 122, 234, 0.4)";
-                    }
-                  }}
-                >
-                  {isStarting ? (
-                    <>
-                      <div style={{
-                        width: "20px",
-                        height: "20px",
-                        border: "3px solid rgba(255,255,255,0.3)",
-                        borderTop: "3px solid #fff",
-                        borderRadius: "50%",
-                        animation: "spin 1s linear infinite"
-                      }} />
-                      Démarrage...
-                    </>
-                  ) : (
-                    <>
-                      <LuPlay size={24} />
-                      Lancer la session
-                    </>
-                  )}
-                </button>
+                    margin: 0
+                  }}>
+                    Chapitre 1 : Les nombres entiers et décimaux
+                  </h2>
+                  <p style={{
+                    fontSize: "1rem",
+                    color: "rgba(255,255,255,0.6)",
+                    textAlign: "center",
+                    maxWidth: "600px",
+                    lineHeight: "1.6",
+                    margin: 0
+                  }}>
+                    Bienvenue dans ce cours interactif ! Amélys va t'accompagner pas à pas 
+                    pour maîtriser les nombres entiers et décimaux.
+                  </p>
 
-                {/* Affichage des erreurs */}
-                {error && (
-                  <div style={{
-                    padding: "1rem 1.5rem",
-                    marginTop: "1rem",
-                    background: "rgba(239, 68, 68, 0.1)",
-                    border: "1px solid rgba(239, 68, 68, 0.3)",
-                    borderRadius: "8px",
-                    color: "#FCA5A5",
-                    fontSize: "0.95rem",
-                    maxWidth: "500px"
-                  }}>
-                    ⚠️ {error}
-                  </div>
-                )}
-              </div>
-            ) : (
-              <>
-                {/* Messages dans l'ordre chronologique */}
-                {messages.map((msg, index) => {
-                  const isLastUserMessage = msg.role === 'user' && 
-                    index === messages.findLastIndex(m => m.role === 'user');
-                  
-                  return (
-                    <MessageBubble 
-                      key={msg.id} 
-                      message={msg}
-                      ref={isLastUserMessage ? lastUserMessageRef : undefined}
-                      isLatestAssistant={msg.isLatestAssistant}
-                    />
-                  );
-                })}
-                
-                {/* Indicateur de frappe avec minHeight */}
-                {isTyping && (
-                  <div style={{
-                    display: "flex",
-                    gap: "1rem",
-                    maxWidth: "800px",
-                    minHeight: "calc(100vh - 250px)",
-                    alignItems: "flex-start"
-                  }}>
-                    <div style={{
-                      width: "32px",
-                      height: "32px",
-                      borderRadius: "50%",
-                      background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
+                  {/* ============================================ */}
+                  {/* 🚀 BOUTON COMMENCER LE COURS */}
+                  {/* ============================================ */}
+                  <button
+                    onClick={handleStartCourse}
+                    disabled={isLoading}
+                    style={{
+                      marginTop: "1rem",
+                      padding: "1rem 2rem",
+                      fontSize: "1.125rem",
+                      fontWeight: 600,
+                      color: "#fff",
+                      background: isLoading 
+                        ? "rgba(159, 122, 234, 0.5)" 
+                        : "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
+                      border: "none",
+                      borderRadius: "12px",
+                      cursor: isLoading ? "not-allowed" : "pointer",
+                      transition: "all 0.2s ease",
                       display: "flex",
                       alignItems: "center",
-                      justifyContent: "center",
-                      flexShrink: 0,
-                      color: "#fff"
-                    }}>
-                      <LuBot size={20} />
-                    </div>
+                      gap: "0.5rem",
+                      boxShadow: "0 4px 12px rgba(159, 122, 234, 0.3)"
+                    }}
+                    onMouseEnter={(e) => {
+                      if (!isLoading) {
+                        e.currentTarget.style.transform = "translateY(-2px)";
+                        e.currentTarget.style.boxShadow = "0 6px 16px rgba(159, 122, 234, 0.4)";
+                      }
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = "translateY(0)";
+                      e.currentTarget.style.boxShadow = "0 4px 12px rgba(159, 122, 234, 0.3)";
+                    }}
+                  >
+                    {isLoading ? (
+                      <>
+                        <LuLoader2 size={20} style={{ animation: "spin 1s linear infinite" }} />
+                        Démarrage en cours...
+                      </>
+                    ) : (
+                      "Commencer le cours"
+                    )}
+                  </button>
+
+                  {/* Affichage des erreurs */}
+                  {error && (
                     <div style={{
-                      background: "rgba(255,255,255,0.05)",
-                      padding: "1rem 1.25rem",
-                      borderRadius: "12px",
-                      display: "flex",
-                      gap: "0.3rem"
+                      padding: "1rem",
+                      background: "rgba(239, 68, 68, 0.1)",
+                      border: "1px solid rgba(239, 68, 68, 0.3)",
+                      borderRadius: "8px",
+                      color: "#FCA5A5",
+                      fontSize: "0.9rem",
+                      maxWidth: "600px",
+                      textAlign: "center"
                     }}>
-                      <span className="typing-dot" style={{ 
-                        width: "8px", 
-                        height: "8px", 
-                        borderRadius: "50%", 
-                        background: "#9F7AEA",
-                        animation: "typing 1.4s infinite"
-                      }} />
-                      <span className="typing-dot" style={{ 
-                        width: "8px", 
-                        height: "8px", 
-                        borderRadius: "50%", 
-                        background: "#9F7AEA",
-                        animation: "typing 1.4s infinite 0.2s"
-                      }} />
-                      <span className="typing-dot" style={{ 
-                        width: "8px", 
-                        height: "8px", 
-                        borderRadius: "50%", 
-                        background: "#9F7AEA",
-                        animation: "typing 1.4s infinite 0.4s"
-                      }} />
+                      ⚠️ {error}
                     </div>
-                  </div>
-                )}
-              </>
-            )}
+                  )}
+                </div>
+              ) : (
+                /* ============================================ */
+                /* 💬 MESSAGES */
+                /* ============================================ */
+                <>
+                  {messages.map((msg, index) => (
+                    <MessageBubble
+                      key={msg.id}
+                      message={msg}
+                      ref={msg.role === 'user' && index === messages.length - 1 ? lastUserMessageRef : null}
+                    />
+                  ))}
+
+                  {/* Indicateur de chargement */}
+                  {isLoading && (
+                    <div style={{
+                      display: "flex",
+                      gap: "1rem",
+                      maxWidth: "800px"
+                    }}>
+                      <div style={{
+                        width: "32px",
+                        height: "32px",
+                        borderRadius: "50%",
+                        background: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0
+                      }}>
+                        <LuBot size={20} style={{ color: "#fff" }} />
+                      </div>
+                      <div style={{
+                        background: "rgba(255,255,255,0.05)",
+                        padding: "1rem 1.25rem",
+                        borderRadius: "12px",
+                        display: "flex",
+                        gap: "0.5rem"
+                      }}>
+                        <div style={{
+                          width: "8px",
+                          height: "8px",
+                          borderRadius: "50%",
+                          background: "#9F7AEA",
+                          animation: "typing 1.4s infinite ease-in-out"
+                        }} />
+                        <div style={{
+                          width: "8px",
+                          height: "8px",
+                          borderRadius: "50%",
+                          background: "#9F7AEA",
+                          animation: "typing 1.4s infinite ease-in-out 0.2s"
+                        }} />
+                        <div style={{
+                          width: "8px",
+                          height: "8px",
+                          borderRadius: "50%",
+                          background: "#9F7AEA",
+                          animation: "typing 1.4s infinite ease-in-out 0.4s"
+                        }} />
+                      </div>
+                    </div>
+                  )}
+                </>
+              )}
             </div>
           </div>
 
-          {/* Input en bas - Visible seulement si session démarrée */}
-          {sessionStarted && (
+          {/* ============================================ */}
+          {/* ⌨️ ZONE DE SAISIE */}
+          {/* ============================================ */}
+          {conversationId && (
             <div style={{
-              padding: "0.125rem 1.5rem",
+              padding: "1rem 1.5rem",
+              borderTop: "1px solid rgba(255,255,255,0.1)",
               background: "var(--background)",
               flexShrink: 0
             }}>
               <div style={{
                 maxWidth: "800px",
                 margin: "0 auto",
-                position: "relative"
+                display: "flex",
+                alignItems: "flex-end",
+                gap: "0.75rem",
+                padding: "0.75rem 1rem",
+                background: "rgba(255,255,255,0.05)",
+                border: `2px solid ${isInputFocused ? '#9F7AEA' : 'rgba(255,255,255,0.15)'}`,
+                borderRadius: "12px",
+                transition: "border-color 0.2s ease"
               }}>
-                {/* Barre d'outils au-dessus de l'input */}
-                <div style={{
-                  display: "flex",
-                  gap: "0.5rem",
-                  marginBottom: "1.25rem",
-                  position: "relative"
-                }}>
-                  <ToolButton icon={<LuBrain size={18} />} tooltip="Réflexion approfondie" />
-                  <ToolButton icon={<LuPaperclip size={18} />} tooltip="Ajouter fichiers" />
-                  <ToolButton icon={<LuCamera size={18} />} tooltip="Ajouter photos" />
-                  <ToolButton icon={<LuFolderPlus size={18} />} tooltip="Ajouter au Projet" />
-                  <ToolButton icon={<LuSearch size={18} />} tooltip="Recherche" />
-                  <ToolButton icon={<LuGlobe size={18} />} tooltip="Recherche Web" />
-                  <ToolButton icon={<LuPenTool size={18} />} tooltip="Utiliser style" />
-                  <ToolButton icon={<LuPlug size={18} />} tooltip="Ajouter connecteurs" />
-                </div>
-
-                {/* Zone de saisie */}
-                <div style={{
-                  display: "flex",
-                  gap: "0.75rem",
-                  alignItems: "flex-end",
-                  background: "rgba(255,255,255,0.05)",
-                  border: isInputFocused 
-                    ? "1px solid #9F7AEA"
-                    : "1px solid rgba(255,255,255,0.15)",
-                  borderRadius: "12px",
-                  padding: "0.75rem 0.75rem",
-                  boxShadow: isInputFocused 
-                    ? "0 0 0 3px rgba(159, 122, 234, 0.2)"
-                    : "none",
-                  transition: "all 0.2s ease"
-                }}>
-                  <textarea
-                    value={inputValue}
-                    onChange={(e) => setInputValue(e.target.value)}
-                    onFocus={() => setIsInputFocused(true)}
-                    onBlur={() => setIsInputFocused(false)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' && !e.shiftKey) {
-                        e.preventDefault();
-                        handleSend();
-                      }
-                    }}
-                    placeholder="Message Amélys..."
-                    disabled={isTyping}
-                    style={{
-                      flex: 1,
-                      background: "transparent",
-                      border: "none",
-                      color: "#fff",
-                      fontSize: "1.125rem",
-                      resize: "none",
-                      outline: "none",
-                      minHeight: "20px",
-                      maxHeight: "150px",
-                      fontFamily: "inherit",
-                      lineHeight: "1.5"
-                    }}
-                  />
-                  <button
-                    onClick={handleSend}
-                    disabled={!inputValue.trim() || isTyping}
-                    style={{
-                      width: "36px",
-                      height: "36px",
-                      borderRadius: "8px",
-                      background: (inputValue.trim() && !isTyping)
-                        ? "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)"
-                        : "rgba(255,255,255,0.1)",
-                      border: "none",
-                      color: "#fff",
-                      cursor: (inputValue.trim() && !isTyping) ? "pointer" : "not-allowed",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      transition: "all 0.2s ease",
-                      flexShrink: 0,
-                      opacity: (inputValue.trim() && !isTyping) ? 1 : 0.5
-                    }}
-                  >
+                <textarea
+                  value={inputValue}
+                  onChange={(e) => setInputValue(e.target.value)}
+                  onFocus={() => setIsInputFocused(true)}
+                  onBlur={() => setIsInputFocused(false)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                      e.preventDefault();
+                      handleSend();
+                    }
+                  }}
+                  placeholder="Message Amélys..."
+                  disabled={isLoading}
+                  style={{
+                    flex: 1,
+                    background: "transparent",
+                    border: "none",
+                    color: "#fff",
+                    fontSize: "1.125rem",
+                    resize: "none",
+                    outline: "none",
+                    minHeight: "20px",
+                    maxHeight: "150px",
+                    fontFamily: "inherit",
+                    lineHeight: "1.5"
+                  }}
+                />
+                <button
+                  onClick={handleSend}
+                  disabled={!inputValue.trim() || isLoading}
+                  style={{
+                    width: "36px",
+                    height: "36px",
+                    borderRadius: "8px",
+                    background: (inputValue.trim() && !isLoading)
+                      ? "linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%)"
+                      : "rgba(255,255,255,0.1)",
+                    border: "none",
+                    color: "#fff",
+                    cursor: (inputValue.trim() && !isLoading) ? "pointer" : "not-allowed",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    transition: "all 0.2s ease",
+                    flexShrink: 0,
+                    opacity: (inputValue.trim() && !isLoading) ? 1 : 0.5
+                  }}
+                >
+                  {isLoading ? (
+                    <LuLoader2 size={18} style={{ animation: "spin 1s linear infinite" }} />
+                  ) : (
                     <LuSend size={18} />
-                  </button>
-                </div>
+                  )}
+                </button>
               </div>
+
+              {/* Affichage des erreurs dans la zone de saisie */}
+              {error && (
+                <div style={{
+                  maxWidth: "800px",
+                  margin: "0.5rem auto 0",
+                  padding: "0.75rem 1rem",
+                  background: "rgba(239, 68, 68, 0.1)",
+                  border: "1px solid rgba(239, 68, 68, 0.3)",
+                  borderRadius: "8px",
+                  color: "#FCA5A5",
+                  fontSize: "0.875rem"
+                }}>
+                  ⚠️ {error}
+                </div>
+              )}
             </div>
           )}
         </div>
       </div>
 
-      {/* Animations CSS */}
+      {/* Animations */}
       <style jsx global>{`
         @keyframes typing {
           0%, 60%, 100% {
@@ -639,23 +607,29 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
         }
         
         @keyframes spin {
-          0% { transform: rotate(0deg); }
-          100% { transform: rotate(360deg); }
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
         }
       `}</style>
     </AppLayout>
   );
 }
 
-// Composant MessageBubble
+// ============================================
+// 💬 COMPOSANT MESSAGE BUBBLE
+// ============================================
+
 interface MessageBubbleProps {
   message: { 
-    id: number, 
+    id: string, 
     role: 'user' | 'assistant', 
     content: string,
     isLatestAssistant?: boolean 
   };
-  isLatestAssistant?: boolean;
 }
 
 const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
@@ -701,7 +675,7 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
         )}
 
         <div style={{ flex: 1, position: "relative", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-          {/* Bulle de message */}
+          {/* Bulle */}
           <div style={{
             background: isUser 
               ? "#2f2f2f"
@@ -710,12 +684,13 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
             borderRadius: "12px",
             color: "#fff",
             lineHeight: "1.6",
-            fontSize: "1.125rem"
+            fontSize: "1.125rem",
+            whiteSpace: "pre-wrap"
           }}>
             {message.content}
           </div>
 
-          {/* Actions (hover) */}
+          {/* Actions */}
           {!isUser && (
             <div style={{
               display: "flex",
@@ -739,7 +714,7 @@ const MessageBubble = React.forwardRef<HTMLDivElement, MessageBubbleProps>(
 
 MessageBubble.displayName = 'MessageBubble';
 
-// Composant ActionButton
+// Action Button
 function ActionButton({ icon, onClick }: { icon: React.ReactNode; onClick?: () => void }) {
   return (
     <button 
@@ -768,64 +743,5 @@ function ActionButton({ icon, onClick }: { icon: React.ReactNode; onClick?: () =
     >
       {icon}
     </button>
-  );
-}
-
-// Composant ToolButton avec tooltip
-function ToolButton({ icon, tooltip }: { icon: React.ReactNode; tooltip: string }) {
-  const [showTooltip, setShowTooltip] = useState(false);
-
-  return (
-    <div style={{ position: "relative" }}>
-      <button
-        onMouseEnter={(e) => {
-          e.currentTarget.style.background = "rgba(159, 122, 234, 0.1)";
-          e.currentTarget.style.borderColor = "#9F7AEA";
-          setShowTooltip(true);
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.background = "rgba(255,255,255,0.05)";
-          e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-          setShowTooltip(false);
-        }}
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          width: "36px",
-          height: "36px",
-          background: "rgba(255,255,255,0.05)",
-          border: "1px solid rgba(255,255,255,0.15)",
-          borderRadius: "8px",
-          color: "#fff",
-          cursor: "pointer",
-          transition: "all 0.2s ease"
-        }}
-      >
-        {icon}
-      </button>
-      
-      {/* Tooltip */}
-      <div style={{
-        position: "absolute",
-        bottom: "100%",
-        left: "50%",
-        transform: "translateX(-50%)",
-        marginBottom: "0.5rem",
-        padding: "0.5rem 0.75rem",
-        background: "rgba(30, 30, 35, 0.98)",
-        border: "1px solid rgba(255,255,255,0.15)",
-        borderRadius: "6px",
-        color: "#fff",
-        fontSize: "0.8rem",
-        whiteSpace: "nowrap",
-        opacity: showTooltip ? 1 : 0,
-        pointerEvents: "none",
-        transition: "opacity 0.2s ease",
-        zIndex: 1001
-      }}>
-        {tooltip}
-      </div>
-    </div>
   );
 }

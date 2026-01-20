@@ -1,0 +1,425 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Le nom et ses déterminants" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître le pluriel des noms réguliers en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître le pluriel des noms finissant en -o, -x, -s, -sh, -ch et -z" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître le pluriel des noms finissant en -f et -fe" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître le pluriel des noms irréguliers en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser des noms réguliers au pluriel dans des phrases en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser des noms irréguliers au pluriel dans des phrases en anglais" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mettre des groupes nominaux du singulier au pluriel en anglais" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Mettre des groupes nominaux du pluriel au singulier en anglais" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français un texte anglais au pluriel" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français un texte anglais contenant des noms singuliers et pluriels" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en anglais un texte au pluriel" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en anglais un texte contenant des noms singuliers et pluriels" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les pronoms" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec un pronom personnel sujet en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase avec un pronom personnel complément en anglais" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter une phrase avec un pronom personnel réfléchi en anglais" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase avec un pronom démonstratif en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser les différents types de pronoms en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Remplacer un groupe nominal par un pronom personnel sujet en anglais" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Remplacer un groupe nominal par un pronom personnel complément ou réfléchi en anglais" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Éviter les répétitions en utilisant un pronom en anglais" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français un texte anglais contenant différents types de pronoms" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en anglais un texte en utilisant différents types de pronoms" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "L'expression de la possession" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Déterminer dans quel cas le génitif est nécessaire en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le génitif quand le nom se termine par un \"s\"" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser le génitif si nécessaire (ou une construction avec \"of\")" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase par un déterminant possessif en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter une phrase par un pronom possessif en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Reformuler une phrase en utilisant le génitif" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Reformuler une phrase en utilisant un possessif (déterminant ou pronom)" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français un texte contenant des génitifs, déterminants et pronoms possessifs" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en anglais des textes à l'aide de génitifs, déterminants et pronoms possessifs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les adjectifs qualificatifs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les adjectifs accompagnés d'une préposition en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter des phrases à l'aide d'un adjectif en anglais" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir le bon ordre lors d'une succession d'adjectifs en anglais" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les différentes formes du comparatif de supériorité en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser les différents types de comparatifs en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les différentes formes du superlatif de supériorité en anglais" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser les différents types de superlatifs en anglais" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Exprimer une nationalité en anglais à l'aide d'un adjectif" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre au pluriel des phrases contenant des adjectifs épithètes ou attributs en anglais" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Dire l'inverse à l'aide des comparatifs en anglais" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Dire l'inverse à l'aide des superlatifs en anglais" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire en français un texte contenant des adjectifs anglais" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en anglais un texte à l'aide d'adjectifs qualificatifs" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Traduire en français un texte contenant comparatifs et superlatifs en anglais" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Traduire en anglais un texte à l'aide de comparatifs et superlatifs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les adverbes" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase à l'aide d'un adverbe de manière en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase à l'aide d'un adverbe de temps en anglais" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir entre Yet, Already, Still et Again" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter des phrases à l'aide d'un adverbe en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Remettre dans l'ordre des phrases contenant un adverbe en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Former un adverbe à partir d'un nom ou d'un adjectif en anglais" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en français un texte anglais contenant des adverbes" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en anglais un texte à l'aide d'adverbes" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les quantifieurs" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les noms indénombrables que l'on peut quantifier en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les noms indénombrables que l'on ne peut pas quantifier en anglais" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter avec each, either, whole, all ou every" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Choisir entre les noms dénombrables ou les indénombrables pluriels en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Compléter des phrases à l'aide du bon quantifieur en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Choisir parmi les dérivés de Some, Any et No" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Reformuler une phrase en exprimant une grande quantité en anglais" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Reformuler une phrase en exprimant une petite quantité en anglais" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Reformuler des phrases à l'aide de few ou little" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en français un texte anglais contenant des quantifieurs" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en anglais un texte à l'aide de quantifieurs" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C7" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les subordonnées" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter des phrases à l'aide de Who ou Which" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter des phrases à l'aide de That, Which, Who, Where ou When" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter des phrases à l'aide de Whose et Whom" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase à l'aide d'une conjonction de subordination en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Remplacer le That des phrases par Who, Which ou Whom" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Utiliser des subordonnées relatives pour écrire une seule phrase à partir de deux propositions" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en français un texte anglais contenant des subordonnées" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en anglais un texte contenant des subordonnées" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C8" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les modaux" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différents auxiliaires modaux en anglais et leurs utilisations" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser Can, Can't, Could, Couldn't et Be able to" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser Must, Mustn't et Have to" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Utiliser Will et Shall" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Choisir le bon auxiliaire modal en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Reformuler une phrase à l'aide d'un modal exprimant la probabilité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transformer des phrases à l'aide de Can, Can't, Could et Couldn't" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Transformer des phrases à l'aide de Must et Mustn't" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mettre des phrases contenant des modaux au passé" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Reformuler des phrases à l'aide de modaux" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire en français un texte anglais contenant des modaux" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire un texte en anglais à l'aide de modaux" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C9" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "L'expression du présent" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser le présent simple en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le présent simple ou le présent Be-ing en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir entre le présent simple et le présent Be-ing" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase au présent simple ou au présent Be-ing à l'aide d'un tag" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Changer la forme d'une phrase au présent simple" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Changer la forme d'une phrase au présent Be-ing" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Passer du présent simple au présent Be-ing et inversement" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français un texte anglais au présent" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en anglais un texte au présent" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C10" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "L'expression du passé" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Utiliser le prétérit simple en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Utiliser le prétérit Be-ing en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Choisir entre le prétérit simple et le prétérit Be-ing" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Utiliser le present perfect simple en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Utiliser le present perfect Be-ing en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Choisir entre le present perfect simple et le present perfect Be-ing" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Utiliser le past perfect simple en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser le past perfect Be-ing en choisissant la forme appropriée" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Choisir entre le past perfect simple et le past perfect Be-ing" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Compléter des phrases en utilisant le bon temps du passé en anglais" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Passer des phrases à la forme négative" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Poser des questions portant sur un élément de la phrase" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Passer une phrase à la forme progressive" } } },
+      { "M": { "id": { "S": "E14" }, "titre": { "S": "Changer le temps d'une phrase" } } },
+      { "M": { "id": { "S": "E15" }, "titre": { "S": "Traduire en français un texte anglais au passé" } } },
+      { "M": { "id": { "S": "E16" }, "titre": { "S": "Traduire en anglais un texte au passé" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C11" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "L'expression du futur" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Exprimer le futur à l'aide de Will" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Exprimer le futur à l'aide de Be going to" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Exprimer le futur à l'aide du présent et d'une subordonnée de futur" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Exprimer le futur à l'aide de l'expression qui convient le mieux" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre une phrase au futur à la forme négative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Poser des questions portant sur un élément de la phrase" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Transformer des phrases du présent au futur" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Transformer des phrases du passé au futur" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en français un texte anglais au futur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire en anglais un texte au futur" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C12" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Le conditionnel" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Exprimer le conditionnel dans une phrase affirmative en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Exprimer le conditionnel dans une phrase négative en anglais" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Exprimer le conditionnel dans une phrase interrogative ou par des réponses courtes" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter des structures conditionnelles avec If" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Mettre une phrase au conditionnel à la forme négative" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Passer une phrase du futur au conditionnel" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Reformuler des phrases avec plus de politesse en utilisant le conditionnel" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire en français un texte anglais contenant du conditionnel" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire en anglais un texte en utilisant le conditionnel" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C13" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "La forme passive" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase avec la forme passive en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter des phrases à l'aide de By ou d'une autre préposition" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Passer une phrase de la forme active à la forme passive" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer une phrase de la forme passive à la forme active" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en français un texte anglais à la forme passive" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en anglais un texte à la forme passive" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C14" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Le discours indirect" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter des phrases au discours indirect en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Passer une phrase du discours direct au discours indirect" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Passer une phrase du discours indirect au discours direct" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en français une phrase anglaise au discours indirect" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en anglais une phrase à l'aide du discours indirect" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C15" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "L'expression du temps" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une phrase à l'aide de conjonctions de temps en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Choisir entre For et Since" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Reformuler des phrases à l'aide de For ou Since" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Passer de For à Since" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire des dates en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français des phrases contenant diverses expressions du temps" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en anglais des phrases contenant diverses expressions du temps" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C16" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les constructions verbe + verbe" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Placer To devant un verbe si nécessaire en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase à l'aide d'un gérondif en anglais" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Compléter des tournures à l'aide de To ou d'un gérondif en anglais" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Traduire en français des phrases contenant des structures verbe + verbe" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Traduire en anglais des phrases à l'aide des structures verbe + verbe" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C17" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les verbes à particule" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les différentes particules utilisées avec les verbes en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Compléter une phrase à l'aide d'une particule adverbiale" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Utiliser les différents verbes prépositionnels en anglais" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Compléter une phrase à l'aide d'un verbe prépositionnel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Remettre dans le bon ordre une phrase comportant un verbe à particule" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Traduire en français des phrases contenant des verbes à particule" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Traduire en anglais des phrases à l'aide de verbes à particule" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#ANGLAIS#T1#C18" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Terminale" },
+  "matiere": { "S": "Anglais" },
+  "themeTitre": { "S": "Grammaire et outils de la langue" },
+  "chapitreTitre": { "S": "Les mots de liaison dans un texte" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Connaître les mots de liaison permettant de mettre en valeur un plan en anglais" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Connaître les mots de liaison permettant d'opposer ou de confronter des idées en anglais" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Connaître les mots de liaison permettant d'ajouter une nouvelle idée en anglais" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Connaître les mots de liaison permettant d'introduire un exemple en anglais" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Connaître les mots de liaison permettant d'établir des liens de cause à effet en anglais" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Connaître les mots de liaison permettant d'insister sur une idée en anglais" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Connaître les mots de liaison permettant de donner son opinion en anglais" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Traduire les mots de liaison permettant d'annoncer un plan" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Traduire les mots de liaison permettant d'exprimer la concession ou l'opposition" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Traduire les mots de liaison permettant d'ajouter une nouvelle idée" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Traduire les mots de liaison permettant d'introduire un exemple" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Traduire les mots de liaison permettant d'établir des liens de cause à effet" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Traduire en français un texte argumentatif en anglais" } } }
+    ]
+  }
+}
+]

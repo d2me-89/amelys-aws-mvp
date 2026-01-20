@@ -1,13 +1,14 @@
 """
 Lambda: amelys-start-cours-conversation
-Rôle: Démarrer une nouvelle conversation de COURS INTERACTIF uniquement
+Rôle: Démarrer une nouvelle conversation (cours, exercices, binôme, contrôle, session-libre)
 Auteur: Amélys Platform
 
-URL Pattern: /{cycle}/{matiere}-{niveau}/chapitre{N}-cours
+URL Pattern: /{cycle}/{matiere-niveau}/{contenu}
 Exemples:
   - /primaire/mathematiques-cp/chapitre3-cours
   - /college/mathematiques-sixieme/chapitre3-cours
-  - /lycee/mathematiques-seconde/chapitre12-cours
+  - /college/mathematiques-sixieme/chapitre5-exercice2
+  - /lycee/francais-seconde/chapitre12-binome
 """
 
 import json
@@ -27,9 +28,6 @@ bedrock_runtime = boto3.client(
 TABLE_PROMPTS = 'amelys-prompts'
 TABLE_CONTENT_DATA = 'amelys-content-data'
 TABLE_CONVERSATIONS = 'amelys-conversations'
-
-# Type de prompt (fixe pour cette Lambda)
-PROMPT_TYPE = 'COURS-INTERACTIF'
 
 # Mapping des niveaux scolaires
 NIVEAU_MAPPING = {
@@ -84,45 +82,95 @@ def fix_encoding(text):
         return text
 
 
-def parse_url_path(path):
+def parse_path_parameters(path_params):
     """
-    Parse le path de l'URL pour extraire matiere, niveau, chapitre
+    Parse les path parameters d'API Gateway pour extraire matiere, niveau, chapitre, type
     
-    Exemples:
-      /primaire/mathematiques-cp/chapitre3-cours
-      → cycle='primaire', matiere='mathematiques', niveau='cp', chapitre='CHAPITRE03'
-      
-      /college/mathematiques-sixieme/chapitre3-cours
-      → cycle='college', matiere='mathematiques', niveau='sixieme', chapitre='CHAPITRE03'
-      
-      /lycee/mathematiques-seconde/chapitre12-cours
-      → cycle='lycee', matiere='mathematiques', niveau='seconde', chapitre='CHAPITRE12'
+    Path parameters reçus d'API Gateway:
+    {
+      "cycle": "college",
+      "matiere-niveau": "mathematiques-sixieme",
+      "contenu": "chapitre3-cours" ou "chapitre5-exercice2" ou "chapitre1-binome"
+    }
+    
+    Formats acceptés:
+    - chapitre{N}-cours
+    - chapitre{N}-exercice{M}
+    - chapitre{N}-binome
+    - chapitre{N}-controle
+    - chapitre{N}-session-libre
     
     Returns:
-      dict: {cycle, matiere, niveau, chapitre}
+      dict: {cycle, matiere, niveau, chapitre, type, exercice_id (optionnel)}
     """
-    # Pattern: /{cycle}/{matiere}-{niveau}/chapitre{N}-cours
-    # cycle peut être: primaire, college, lycee
-    pattern = r'/(primaire|college|lycee)/([a-z-]+)-([a-z]+)/chapitre(\d+)-cours'
+    cycle = path_params.get('cycle')
+    matiere_niveau = path_params.get('matiere-niveau')
+    contenu_param = path_params.get('contenu')
     
-    match = re.match(pattern, path)
+    if not all([cycle, matiere_niveau, contenu_param]):
+        raise ValueError(f"Paramètres manquants: cycle={cycle}, matiere-niveau={matiere_niveau}, contenu={contenu_param}")
+    
+    # Parser matiere-niveau: "mathematiques-sixieme" → "mathematiques", "sixieme"
+    parts = matiere_niveau.rsplit('-', 1)
+    if len(parts) != 2:
+        raise ValueError(f"Format matiere-niveau invalide: {matiere_niveau}. Attendu: matiere-niveau")
+    
+    matiere_raw = parts[0]  # 'mathematiques', 'physique-chimie', etc.
+    niveau_raw = parts[1]   # 'sixieme', 'cp', 'seconde', etc.
+    
+    # Parser le contenu pour extraire chapitre, type, et éventuellement exercice_id
+    # Patterns possibles:
+    # - chapitre{N}-cours
+    # - chapitre{N}-exercice{M}
+    # - chapitre{N}-binome
+    # - chapitre{N}-controle
+    # - chapitre{N}-session-libre
+    
+    # Pattern général: chapitre{N}-{type}{M?}
+    pattern = r'chapitre(\d+)-(cours|exercice\d+|binome|controle|session-libre)'
+    match = re.match(pattern, contenu_param)
+    
     if not match:
-        raise ValueError(f"Format d'URL invalide: {path}. Attendu: /{cycle}/{matiere}-{niveau}/chapitre{N}-cours")
+        raise ValueError(f"Format contenu invalide: {contenu_param}. Attendu: chapitre{{N}}-{{type}}")
     
-    cycle = match.group(1)         # 'primaire', 'college', 'lycee'
-    matiere_raw = match.group(2)   # 'mathematiques', 'physique-chimie', etc.
-    niveau_raw = match.group(3)    # 'sixieme', 'cp', 'seconde', etc.
-    chapitre_num = match.group(4)  # '3', '12', etc.
+    chapitre_num = match.group(1)  # '3', '12', etc.
+    type_raw = match.group(2)      # 'cours', 'exercice2', 'binome', etc.
     
-    # Convertir le numéro de chapitre en format CHAPITRE01, CHAPITRE02, etc.
-    chapitre_code = f"CHAPITRE{int(chapitre_num):02d}"  # 3 → CHAPITRE03, 12 → CHAPITRE12
+    # Convertir le numéro de chapitre en format CHAPITRE01, CHAPITRE02
+    chapitre_code = f"CHAPITRE{int(chapitre_num):02d}"
     
-    return {
+    # Déterminer le type et extraire l'ID exercice si nécessaire
+    exercice_id = None
+    
+    if type_raw == 'cours':
+        content_type = 'COURS-INTERACTIF'
+    elif type_raw.startswith('exercice'):
+        content_type = 'COMPETENCES-CLES'
+        # Extraire le numéro d'exercice: "exercice2" → "2"
+        exercice_match = re.match(r'exercice(\d+)', type_raw)
+        if exercice_match:
+            exercice_id = f"E{int(exercice_match.group(1)):02d}"  # "2" → "E02"
+    elif type_raw == 'binome':
+        content_type = 'EXERCICE-BINOME'
+    elif type_raw == 'controle':
+        content_type = 'CONTROLE-EVALUE'
+    elif type_raw == 'session-libre':
+        content_type = 'SESSION-LIBRE'
+    else:
+        raise ValueError(f"Type de contenu inconnu: {type_raw}")
+    
+    result = {
         'cycle': cycle,
         'matiere': matiere_raw,
         'niveau': niveau_raw,
-        'chapitre': chapitre_code
+        'chapitre': chapitre_code,
+        'type': content_type
     }
+    
+    if exercice_id:
+        result['exercice_id'] = exercice_id
+    
+    return result
 
 
 def lambda_handler(event, context):
@@ -130,7 +178,7 @@ def lambda_handler(event, context):
     Lambda handler pour démarrer une conversation
     
     Input (API Gateway):
-    - path: /college/mathematiques-sixieme/chapitre3-cours
+    - pathParameters: {"cycle": "college", "matiere-niveau": "mathematiques-sixieme", "contenu": "chapitre1-cours"}
     - body: {"userId": "user123"}
     
     Output:
@@ -143,26 +191,35 @@ def lambda_handler(event, context):
     
     try:
         # ÉTAPE 1 : PARSER LA REQUÊTE
-        path = event.get('path', event.get('rawPath', ''))
-        print(f"[START] Path reçu: {path}")
         
+        # Extraire pathParameters depuis API Gateway
+        path_params = event.get('pathParameters', {})
+        
+        if not path_params:
+            return error_response(400, 'Path parameters manquants')
+        
+        print(f"[START] Path parameters: {path_params}")
+        
+        # Parser le body pour récupérer userId
         body = json.loads(event.get('body', '{}'))
         user_id = body.get('userId')
         
         if not user_id:
             return error_response(400, 'Paramètre manquant: userId requis')
         
-        # Parser l'URL et extraire les paramètres
+        # Parser les path parameters pour extraire cycle, matiere, niveau, chapitre, type
         try:
-            url_params = parse_url_path(path)
+            url_params = parse_path_parameters(path_params)
             cycle = url_params['cycle']
             matiere_raw = url_params['matiere']
             niveau_raw = url_params['niveau']
             chapitre_code = url_params['chapitre']
+            content_type = url_params['type']
+            exercice_id = url_params.get('exercice_id')  # Optionnel
         except ValueError as e:
             return error_response(400, str(e))
         
-        print(f"[PARSE] Cycle: {cycle}, Matière: {matiere_raw}, Niveau: {niveau_raw}, Chapitre: {chapitre_code}")
+        print(f"[PARSE] Cycle: {cycle}, Matière: {matiere_raw}, Niveau: {niveau_raw}, Chapitre: {chapitre_code}, Type: {content_type}, Exercice: {exercice_id}")
         
         # Mapper vers les codes DynamoDB
         niveau_code = NIVEAU_MAPPING.get(niveau_raw.lower())
@@ -173,12 +230,12 @@ def lambda_handler(event, context):
         if not matiere_code:
             return error_response(400, f"Matière inconnue: {matiere_raw}")
         
-        print(f"[MAPPED] Niveau: {niveau_code}, Matière: {matiere_code}, Type: {PROMPT_TYPE}")
+        print(f"[MAPPED] Niveau: {niveau_code}, Matière: {matiere_code}, Type: {content_type}")
         
         # ÉTAPE 2 : CHARGER LE TEMPLATE DE PROMPT
         prompt_table = dynamodb.Table(TABLE_PROMPTS)
         
-        prompt_key = f"PROMPT#{PROMPT_TYPE}"
+        prompt_key = f"PROMPT#{content_type}"
         print(f"[PROMPT] Chargement: {prompt_key}")
         
         prompt_response = prompt_table.get_item(
@@ -264,7 +321,7 @@ def lambda_handler(event, context):
             'SK': f"CONV#{conversation_id}",
             'conversationId': conversation_id,
             'userId': user_id,
-            'type': PROMPT_TYPE,
+            'type': content_type,
             'contentKey': content_key,
             'systemPrompt': final_prompt,
             'status': 'active',
@@ -291,6 +348,10 @@ def lambda_handler(event, context):
                 'qcmScore': None
             }
         }
+        
+        # Ajouter exercice_id si présent
+        if exercice_id:
+            conversation_item['exerciceId'] = exercice_id
         
         conversations_table.put_item(Item=conversation_item)
         

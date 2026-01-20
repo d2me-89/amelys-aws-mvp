@@ -1,0 +1,55 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1RE#EMC#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Les principes républicains et la cohésion de la Nation" },
+  "chapitreTitre": { "S": "Les principes et les valeurs de la République à l’épreuve de la cohésion sociale" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les principes et les valeurs de la République française" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les fondements constitutionnels des valeurs républicaines" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre la notion de cohésion sociale" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les facteurs favorisant la cohésion sociale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les freins et les ruptures de la cohésion sociale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Relier égalité, solidarité et cohésion de la Nation" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le rôle des politiques publiques dans la cohésion sociale" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser des situations de tensions sociales au regard des valeurs républicaines" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre l’importance de la laïcité dans la cohésion sociale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier principes républicains et lutte contre les discriminations" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser des exemples d’initiatives favorisant la cohésion de la Nation" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre le rôle des citoyens dans le maintien de la cohésion sociale" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Argumenter sur l’actualité et la portée des valeurs républicaines" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1RE#EMC#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "Les principes républicains et la cohésion de la Nation" },
+  "chapitreTitre": { "S": "La République et la Nation" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions de République et de Nation" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre la construction historique de la Nation française" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les principes républicains qui fondent la Nation" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer nation civique et nation ethnique" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser le lien entre citoyenneté et appartenance nationale" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le rôle des symboles et des valeurs dans la cohésion nationale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les facteurs de cohésion et de fragilisation de la Nation" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Relier République, Nation et égalité des citoyens" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser des débats contemporains sur l’identité nationale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre le rôle de l’école dans la transmission des valeurs nationales" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Relier la Nation aux principes de solidarité et de cohésion sociale" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Analyser des exemples d’unité et de divisions au sein de la Nation" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Argumenter sur le sens et les enjeux actuels de la Nation dans la République" } } }
+    ]
+  }
+}
+]

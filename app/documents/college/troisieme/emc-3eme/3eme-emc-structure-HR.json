@@ -1,0 +1,126 @@
+[
+{
+  "PK": { "S": "CHAPITRE#3E#EMC#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La citoyenneté et les valeurs de la République démocratique" },
+  "chapitreTitre": { "S": "La citoyenneté française et la citoyenneté européenne" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de citoyenneté" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les conditions pour être citoyen français" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre les droits et devoirs du citoyen français" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Définir la citoyenneté européenne" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les droits liés à la citoyenneté européenne" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer citoyenneté française et citoyenneté européenne" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le rôle des citoyens dans les institutions européennes" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser des situations concrètes d’exercice de la citoyenneté" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Relier citoyenneté, droits fondamentaux et valeurs démocratiques" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Comprendre l’importance de la participation citoyenne à différentes échelles" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Argumenter sur l’intérêt de la citoyenneté européenne pour les citoyens français" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#EMC#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La citoyenneté et les valeurs de la République démocratique" },
+  "chapitreTitre": { "S": "Les droits de l'Homme et de l'enfant" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion de droits de l’Homme" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les grands principes des droits de l’Homme" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre l’origine historique des droits de l’Homme" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Définir les droits spécifiques de l’enfant" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier les droits fondamentaux reconnus aux enfants" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comparer droits de l’Homme et droits de l’enfant" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Analyser des situations de respect ou de violation des droits" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le rôle des institutions et des organisations internationales" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Relier droits de l’Homme, démocratie et État de droit" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier les moyens de protection des droits de l’enfant" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser des cas concrets mettant en jeu les droits de l’Homme ou de l’enfant" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Argumenter sur l’importance du respect des droits pour tous" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#EMC#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La citoyenneté et les valeurs de la République démocratique" },
+  "chapitreTitre": { "S": "Les enjeux de la laïcité" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir le principe de laïcité et ses fondements" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre les enjeux de la laïcité dans une société démocratique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les libertés garanties par la laïcité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer liberté de conscience et neutralité de l’État" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Analyser des situations de respect ou de remise en cause de la laïcité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le rôle de la laïcité dans le vivre-ensemble" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier la laïcité aux valeurs de liberté, d’égalité et de fraternité" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier les cadres d’application de la laïcité (école, services publics)" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Argumenter sur l’importance de la laïcité dans la République" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#EMC#T1#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La citoyenneté et les valeurs de la République démocratique" },
+  "chapitreTitre": { "S": "Les caractéristiques d'un État démocratique, l'exemple de la Ve République" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les caractéristiques d’un État démocratique" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les principes fondamentaux de la démocratie française" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comprendre l’organisation des pouvoirs dans la Ve République" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Distinguer pouvoir exécutif, législatif et judiciaire" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier le rôle du Président de la République" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre le rôle du Parlement dans la Ve République" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre le rôle de la justice dans un État de droit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Relier démocratie, Constitution et État de droit" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser des exemples de fonctionnement démocratique en France" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Argumenter sur l’importance des institutions démocratiques dans la République" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#3E#EMC#T1#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Troisième" },
+  "matiere": { "S": "EMC" },
+  "themeTitre": { "S": "La citoyenneté et les valeurs de la République démocratique" },
+  "chapitreTitre": { "S": "L'engagement pour conquérir et préserver des droits" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir la notion d’engagement citoyen" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Comprendre pourquoi les droits ont dû être conquis" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier des exemples historiques de conquête de droits" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les formes d’engagement collectif" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier le rôle des citoyens dans la préservation des droits" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser des situations de remise en cause des droits" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier engagement, démocratie et État de droit" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre le rôle des associations et des syndicats" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les moyens d’action citoyenne dans une démocratie" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Analyser des exemples d’engagement contemporains" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre les limites et les responsabilités liées à l’engagement" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Relier engagement citoyen et valeurs républicaines" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Argumenter sur l’importance de l’engagement pour préserver les droits" } } }
+    ]
+  }
+}
+]

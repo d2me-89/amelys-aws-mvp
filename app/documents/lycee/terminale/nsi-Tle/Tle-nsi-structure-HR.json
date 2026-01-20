@@ -1,0 +1,175 @@
+[
+  {
+    "PK": { "S": "CHAPITRE#TALE#NSI#T1#C1" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Histoire de l’informatique" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Compléter une frise : principaux événements de l’histoire de l’informatique et leurs protagonistes" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Comparer l’évolution des rôles relatifs du matériel et du logiciel sur deux périodes" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer comment la miniaturisation a transformé les machines et leurs usages" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Relier l’émergence des réseaux à l’évolution des architectures et des systèmes" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier des ruptures majeures (machine universelle, internet, SoC) et justifier" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Associer des innovations logicielles (OS, langages, API) à de nouveaux usages" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Distinguer calcul scientifique, informatique personnelle et informatique embarquée : enjeux et contraintes" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Relier l’histoire des bases de données à l’explosion des volumes de données" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Analyser un court texte : repérer le problème posé, la solution et ses conséquences" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer comment l’évolution des interfaces a changé l’accès au numérique" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Relier l’histoire des protocoles à l’essor des services sécurisés sur internet" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Distinguer standard, norme et implémentation sur des exemples informatiques" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier des impacts environnementaux liés à l’évolution matérielle et logicielle" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Produire une synthèse : 12 repères historiques + concepts associés (justifiés)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Préparer un exposé : une innovation (au choix) et ses effets sur données/algorithmes/machines" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#NSI#T1#C2" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Structures de données" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Décrire une structure de données par son interface (opérations disponibles)" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer interface et implémentation sur un exemple de structure linéaire" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Écrire deux implémentations d’une file : avec tableau puis avec deux piles" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Justifier l’intérêt de plusieurs implémentations : coût, simplicité, contraintes" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Définir une classe simple : attributs, méthodes, création d’objets" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Manipuler attributs et méthodes d’une classe dans un petit programme" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Reconnaître pile (LIFO) et file (FIFO) dans des scénarios concrets" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Choisir entre liste, pile, file et dictionnaire selon la situation à modéliser" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer la recherche d’une valeur dans une liste et dans un dictionnaire" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Identifier une situation nécessitant une structure arborescente" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Calculer taille et encadrement de la hauteur d’un arbre binaire sur des exemples" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Modéliser une situation en graphe : sommets, arêtes/arcs, orientation" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Implémenter un graphe par matrice d’adjacence et par liste de successeurs" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Passer d’une représentation de graphe à l’autre sur un exemple donné" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Mini-projet : modéliser un réseau (routier/social) et choisir la représentation adaptée au traitement" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#NSI#T1#C3" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Bases de données" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir les notions du modèle relationnel : relation, attribut, domaine, clé primaire, clé étrangère" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Lire un schéma relationnel et identifier relations, attributs et clés" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Distinguer la structure d’une base (schéma) de son contenu (données)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Repérer des redondances dans un schéma et expliquer le risque d’anomalies" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier anomalies d’insertion, de suppression et de mise à jour sur un exemple" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer l’intérêt des contraintes d’intégrité (domaine, relation, référence)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Identifier les services d’un SGBD : persistance, accès concurrents, sécurité, performance" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Décomposer une requête SQL en clauses : SELECT, FROM, WHERE" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Écrire une requête SELECT avec filtre WHERE sur des attributs" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Construire une requête avec JOIN pour combiner deux relations" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Utiliser DISTINCT et ORDER BY dans une requête d’interrogation" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Écrire une requête d’agrégation simple (COUNT, SUM, AVG) sans GROUP BY" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Construire des requêtes de mise à jour : INSERT, UPDATE, DELETE" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Analyser les conséquences d’une requête de mise à jour sur l’intégrité des données" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Mini-projet : concevoir un mini-schéma relationnel et écrire un ensemble de requêtes (interrogation + mise à jour)" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#NSI#T1#C4" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Architectures matérielles, systèmes d’exploitation et réseaux" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les composants d’un système sur puce (SoC) sur un schéma simplifié" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer les avantages de l’intégration (vitesse, consommation) sur un exemple de smartphone" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Décrire la création d’un processus et le rôle du système d’exploitation" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer l’ordonnancement : pourquoi et comment plusieurs processus partagent le CPU" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Repérer des processus actifs/en attente avec un outil standard et interpréter" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Mettre en évidence le risque d’interblocage (deadlock) sur un scénario" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Simuler un interblocage en mode débranché et proposer une prévention simple" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Identifier la route suivie par un paquet avec des tables de routage données (RIP : sauts)" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier la route suivie par un paquet avec des coûts de routes (OSPF : coût minimal)" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier routage et recherche de chemin sur un graphe (modélisation)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Décrire chiffrement symétrique et asymétrique : principe et usages" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Expliquer l’échange d’une clé symétrique via un protocole asymétrique (HTTPS)" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Distinguer clé publique et clé privée et identifier ce qui doit rester secret" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Analyser une situation de communication : choisir symétrique ou asymétrique et justifier" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Mini-projet : simuler un routage sur un graphe et intégrer une étape de sécurisation des échanges" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#NSI#T1#C5" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Langages et programmation" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer pourquoi un programme peut être considéré comme une donnée d’un autre programme" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier des situations où un programme est manipulé (interpréteur, compilateur, installation)" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer pourquoi la calculabilité ne dépend pas du langage de programmation" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Présenter sans formalisme l’idée d’indécidabilité du problème de l’arrêt" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Écrire une fonction récursive simple et expliciter ses cas d’arrêt" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser l’exécution d’un programme récursif (appels imbriqués, pile d’exécution)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Déboguer une récursivité : cas de base manquant, profondeur excessive, retour incorrect" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Utiliser une API/bibliothèque : lire la documentation et intégrer une fonction au bon endroit" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Créer un module simple, l’importer et le documenter (docstring courte)" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Comparer paradigmes impératif, fonctionnel et objet sur un même problème simple" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Choisir un paradigme adapté selon le champ d’application et justifier" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Repérer des causes typiques de bugs : typage, effets de bord, conditions non exhaustives" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Repérer des causes typiques de bugs : flottants, inégalités, index hors limites, mauvais nommage" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Renforcer la sûreté : assertions, tests, documentation, style de code et anticipation des erreurs" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Mini-projet : écrire un petit programme en combinant paradigmes, module, tests et correction de bugs" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#TALE#NSI#T1#C6" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Terminale" },
+    "matiere": { "S": "Numérique et sciences informatiques" },
+    "themeTitre": { "S": "Données, algorithmes, langages et machines" },
+    "chapitreTitre": { "S": "Algorithmique" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Calculer taille et hauteur d’un arbre binaire à partir d’une représentation donnée" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Parcourir un arbre : produire l’ordre infixe sur un exemple" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Parcourir un arbre : produire l’ordre préfixe sur un exemple" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Parcourir un arbre : produire l’ordre suffixe sur un exemple" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Parcourir un arbre en largeur d’abord et interpréter le résultat" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Rechercher une clé dans un arbre binaire de recherche et expliquer le coût attendu" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Insérer une clé dans un arbre binaire de recherche en respectant la propriété d’ordre" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Parcourir un graphe en profondeur d’abord (DFS) sur un graphe donné" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Parcourir un graphe en largeur d’abord (BFS) sur un graphe donné" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Détecter la présence d’un cycle sur un graphe simple (raisonnement + trace)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Chercher un chemin dans un graphe et expliquer les choix de représentation" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Écrire un algorithme « diviser pour régner » sur une tâche simple et identifier les sous-problèmes" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer l’intérêt du tri fusion : principe, récursivité et coût en n log2 n" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Mettre en œuvre une programmation dynamique sur un exemple (rendu de monnaie ou autre)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Étudier la recherche textuelle : expliquer l’idée de prétraitement du motif (Boyer–Moore)" } } }
+      ]
+    }
+  }
+]

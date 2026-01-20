@@ -1,0 +1,204 @@
+[
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SNT#T1#C1" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences numériques et technologie" },
+    "themeTitre": { "S": "Données – Algorithmes – Machines – Usages" },
+    "chapitreTitre": { "S": "Internet" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Différencier les rôles des protocoles IP et TCP à partir d’un scénario d’envoi de données" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Reconstituer le trajet d’un paquet : comprendre le routage étape par étape" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier les limites du routage : pannes, congestion et paquets détruits" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Expliquer la fiabilité de TCP : accusés de réception, renvois et réordonnancement" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Distinguer fiabilité et absence de garantie temporelle (latence, streaming, visioconférence)" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Décoder la structure d’une adresse IP (réseau / hôte) sur des exemples simples" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Relier une adresse symbolique à une adresse IP : comprendre le rôle du DNS" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Retrouver l’adresse IP d’un site à partir de son nom de domaine (et inversement) sur des cas réels" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Comparer réseaux physiques : filaire / sans fil, rapide / lent, ancien / récent" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Relier internet aux réseaux physiques : 4G/5G, Wi-Fi, Ethernet, ADSL, fibre, Bluetooth" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Comprendre un réseau pair-à-pair : principe, intérêt et limites" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier des usages licites et illicites possibles d’un réseau pair-à-pair" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Expliquer la neutralité du Net à partir d’exemples de contenus différents" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Analyser un cas de déni de service : comprendre le principe d’une saturation" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Estimer et interpréter un ordre de grandeur du trafic de données sur internet" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SNT#T1#C2" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences numériques et technologie" },
+    "themeTitre": { "S": "Données – Algorithmes – Machines – Usages" },
+    "chapitreTitre": { "S": "Le Web" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Retracer les grandes étapes de l’histoire du Web sur une frise chronologique" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer hypertexte et simple document : repérer les renvois et leurs effets" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Identifier ce qui relève du contenu (HTML) et du style (CSS) dans une page" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Lire et modifier une page HTML très simple sans casser sa structure" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Modifier la mise en forme d’une page en agissant uniquement sur le CSS" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Décomposer une URL : protocole, domaine, chemin, paramètres, ancre" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Reconnaître une page sécurisée et expliquer le rôle de HTTPS" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser une requête HTTP : méthode, en-têtes, paramètres et corps" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Comprendre le modèle client/serveur à partir d’un échange de requêtes/réponses" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Distinguer ce qui s’exécute côté client et côté serveur dans un service Web" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer le principe des moteurs de recherche : collecte, indexation, classement" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Tester la pertinence d’un classement : comparer les résultats de plusieurs moteurs" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Identifier des pratiques de référencement : mots-clés, titres, structure et liens" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Régler cookies, historique et paramètres de confidentialité d’un navigateur" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Repérer les risques : hameçonnage, scripts malveillants, traqueurs et traces locales" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SNT#T1#C3" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences numériques et technologie" },
+    "themeTitre": { "S": "Données – Algorithmes – Machines – Usages" },
+    "chapitreTitre": { "S": "Les réseaux sociaux" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Définir identité numérique et e-réputation à partir de situations concrètes" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Distinguer identification et authentification avec des exemples du quotidien" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer plusieurs réseaux sociaux selon leurs fonctionnalités et publics" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Estimer un ordre de grandeur du nombre d’utilisateurs pour différents réseaux" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Expliquer la notion de graphe de relations et repérer sommets/arêtes" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Calculer rayon, diamètre et centre sur des graphes simples" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Illustrer l’idée de « petit monde » sur un graphe (distances courtes)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Décrire comment les recommandations influencent l’information affichée" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Identifier les données collectées (explicites et implicites) par une plateforme" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Expliquer les bases d’un algorithme de recommandation (principe général)" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser le modèle économique : gratuité, publicité, profilage et données" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Paramétrer un compte pour limiter la visibilité de données personnelles" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Reconnaître différentes formes de cyberviolence et proposer des réponses adaptées" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Étudier un cas de publication sans consentement : risques et prévention" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Mettre en place une charte d’usage responsable des réseaux sociaux en contexte scolaire" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SNT#T1#C4" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences numériques et technologie" },
+    "themeTitre": { "S": "Données – Algorithmes – Machines – Usages" },
+    "chapitreTitre": { "S": "Les données structurées et leur traitement" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer donnée, information et métadonnée sur des exemples variés" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les descripteurs d’un objet et construire une table de collection" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Différencier valeur d’un descripteur et nom du descripteur (colonne vs cellule)" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Reconnaître des types de données (nombre, texte, date) et leurs traitements possibles" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Lire un fichier CSV : séparateur, en-têtes, lignes, encodage" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Effectuer un tri multicritère et interpréter l’effet du tri sur l’analyse" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Filtrer une table selon des conditions et expliquer le résultat obtenu" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Réaliser une recherche d’information dans une table (requête simple)" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Calculer des indicateurs (moyenne, médiane simple, total) sur une table" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Comparer le traitement d’un CSV : tableur vs script Python vs éditeur de texte" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Retrouver les métadonnées d’un fichier personnel et expliquer leur utilité" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Comprendre l’intérêt de plusieurs tables : éviter redondances et incohérences" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Croiser deux tables via un descripteur commun pour produire une nouvelle information" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Utiliser un site de données ouvertes : sélectionner, télécharger et décrire un jeu de données" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Expliquer cloud et synchronisation : partager un fichier et régler les droits d’accès" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SNT#T1#C5" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences numériques et technologie" },
+    "themeTitre": { "S": "Données – Algorithmes – Machines – Usages" },
+    "chapitreTitre": { "S": "Localisation, cartographie et mobilité" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Expliquer le principe de la géolocalisation par satellites (temps, distance, position)" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les rôles respectifs du GPS et d’autres systèmes (ex. Galileo) à grands traits" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Lire des coordonnées géographiques et situer un point sur une carte numérique" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Comparer cartes papier et cartes numériques : couches, zoom, recherche et itinéraires" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Identifier des couches d’information d’un portail cartographique et les exploiter" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Expliquer les difficultés du changement d’échelle (objets qui gardent une largeur lisible)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Calculer un itinéraire avec un outil et comparer plusieurs options de trajet" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Représenter un itinéraire comme un problème de graphe (nœuds, arcs, poids)" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Décoder une trame simple de type NMEA pour extraire latitude et longitude" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Repérer une géolocalisation dans des métadonnées (ex. photo) et l’interpréter" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Contribuer à une carte collaborative : proposer un ajout et vérifier sa cohérence" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier les risques : erreurs de carte, dépendance aux données, brouillage" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Analyser le suivi de localisation : usages utiles vs atteintes à la vie privée" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Régler les paramètres de confidentialité d’un téléphone pour autoriser/refuser la localisation" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Étudier un historique de déplacements : ce qu’il révèle et comment le limiter" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SNT#T1#C6" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences numériques et technologie" },
+    "themeTitre": { "S": "Données – Algorithmes – Machines – Usages" },
+    "chapitreTitre": { "S": "Informatique embarquée et objets connectés" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier capteurs, actionneurs et unités de traitement dans un objet du quotidien" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Expliquer le rôle d’une interface homme-machine (IHM) dans un système connecté" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Décrire une boucle de contrôle : acquisition, décision, action, retour" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Repérer des contraintes : consommation énergétique, autonomie, miniaturisation" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Comprendre l’enjeu du temps réel : délai maximal et conséquences d’un retard" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Écrire un programme simple d’acquisition d’une mesure simulée (capteur virtuel)" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Écrire un programme simple de commande d’un actionneur simulé (ex. LED/moteur)" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Concevoir une IHM minimale : boutons, états et retours d’information" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Associer des commandes textuelles à des actions physiques via un tableau de correspondance" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Décrire une architecture objet connecté : objet, réseau, application de pilotage" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Comparer microcontrôleur et ordinateur : puissance, mémoire, usages, coût" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier des risques de sécurité : mots de passe, mises à jour, objets détournés" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Étudier un cas d’usage critique (transport, santé) : sûreté vs sécurité" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Analyser les données collectées par un objet connecté et leurs implications" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Proposer des bonnes pratiques : mises à jour, réglages, réseau séparé, permissions" } } }
+      ]
+    }
+  }
+  ,
+  {
+    "PK": { "S": "CHAPITRE#2NDE#SNT#T1#C7" },
+    "SK": { "S": "META" },
+    "type": { "S": "CHAPITRE" },
+    "niveau": { "S": "Seconde" },
+    "matiere": { "S": "Sciences numériques et technologie" },
+    "themeTitre": { "S": "Données – Algorithmes – Machines – Usages" },
+    "chapitreTitre": { "S": "La photographie numérique" },
+    "exercices": {
+      "L": [
+        { "M": { "id": { "S": "E01" }, "titre": { "S": "Distinguer photosites du capteur et pixels de l’image finale" } } },
+        { "M": { "id": { "S": "E02" }, "titre": { "S": "Relier résolution du capteur et résolution de l’image selon des réglages" } } },
+        { "M": { "id": { "S": "E03" }, "titre": { "S": "Expliquer la profondeur de couleur et l’effet du nombre de bits" } } },
+        { "M": { "id": { "S": "E04" }, "titre": { "S": "Lire une représentation RVB et interpréter une couleur via ses composantes" } } },
+        { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer formats d’images : compressé/non compressé, avec/sans perte" } } },
+        { "M": { "id": { "S": "E06" }, "titre": { "S": "Retrouver les métadonnées EXIF d’une photo et identifier celles sensibles" } } },
+        { "M": { "id": { "S": "E07" }, "titre": { "S": "Programmer un passage en niveaux de gris par moyenne des composantes RVB" } } },
+        { "M": { "id": { "S": "E08" }, "titre": { "S": "Programmer un passage en niveaux de gris via un changement de modèle (RVB→TSL→RVB)" } } },
+        { "M": { "id": { "S": "E09" }, "titre": { "S": "Programmer l’effet négatif d’une image en transformant les composantes de pixels" } } },
+        { "M": { "id": { "S": "E10" }, "titre": { "S": "Programmer une détection simple de contours par comparaison de voisins et seuil" } } },
+        { "M": { "id": { "S": "E11" }, "titre": { "S": "Expliquer les étapes de construction d’une image : du capteur au fichier final" } } },
+        { "M": { "id": { "S": "E12" }, "titre": { "S": "Identifier le rôle des algorithmes : balance des blancs, contraste, netteté, réduction du bruit" } } },
+        { "M": { "id": { "S": "E13" }, "titre": { "S": "Comprendre l’idée de fusion d’images (HDR, panorama) et ses bénéfices" } } },
+        { "M": { "id": { "S": "E14" }, "titre": { "S": "Utiliser un logiciel de retouche : luminosité, contraste et couleurs (courbes/niveaux)" } } },
+        { "M": { "id": { "S": "E15" }, "titre": { "S": "Analyser les enjeux : partage massif, droit à l’oubli, trucages, traçage, archivage" } } }
+      ]
+    }
+  }
+]

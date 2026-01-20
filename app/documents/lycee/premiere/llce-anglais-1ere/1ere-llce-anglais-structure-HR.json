@@ -1,0 +1,147 @@
+[
+{
+  "PK": { "S": "CHAPITRE#1E#LLCE_ANGLAIS#T1#C1" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Imaginaires" },
+  "chapitreTitre": { "S": "L’imagination créatrice et visionnaire" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques de l’imagination créatrice dans un texte littéraire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer les procédés d’écriture permettant de créer un monde imaginaire" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser la construction d’une vision du futur dans un extrait de fiction" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre comment l’imaginaire reflète ou critique le monde réel" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer deux représentations imaginaires d’un même thème" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Interpréter le rôle de l’imaginaire dans la construction d’une identité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mobiliser le lexique de l’imaginaire et de la création artistique" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Rédiger une analyse personnelle sur la portée visionnaire d’une œuvre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#LLCE_ANGLAIS#T1#C2" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Imaginaires" },
+  "chapitreTitre": { "S": "Imaginaires effrayants" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques de l’imaginaire effrayant dans un texte narratif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer les champs lexicaux de la peur et de l’angoisse" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser les procédés stylistiques créant une atmosphère inquiétante" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre le rôle du suspense et de l’attente dans un récit" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier la figure du monstre ou de la créature inquiétante" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le point de vue narratif et ses effets sur le lecteur" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comparer deux extraits relevant de l’imaginaire de la peur" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre comment la peur révèle des angoisses collectives ou individuelles" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mobiliser le lexique spécifique du fantastique et de l’horreur" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Interpréter la portée symbolique d’un élément effrayant" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Rédiger une analyse argumentée sur les fonctions de la peur dans l’imaginaire" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#LLCE_ANGLAIS#T1#C3" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Imaginaires" },
+  "chapitreTitre": { "S": "Utopies et dystopies" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les caractéristiques d’une utopie dans un extrait littéraire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Identifier les caractéristiques d’une dystopie dans un texte de fiction" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Comparer une vision utopique et une vision dystopique d’une société" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Analyser les mécanismes de contrôle et de surveillance dans une dystopie" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Étudier le rôle de l’individu face à la société idéale ou oppressive" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Repérer les procédés narratifs servant la critique sociale" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Comprendre comment l’utopie et la dystopie interrogent le progrès" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser la dimension politique et idéologique d’un monde imaginaire" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mobiliser le lexique spécifique des sociétés imaginaires" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Interpréter la portée symbolique d’un élément utopique ou dystopique" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Rédiger une réflexion argumentée sur les fonctions des utopies et dystopies" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#LLCE_ANGLAIS#T2#C4" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Rencontres" },
+  "chapitreTitre": { "S": "L’amour et l’amitié" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les différentes formes d’amour et d’amitié dans un texte littéraire" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Repérer les sentiments et émotions exprimés dans un extrait narratif ou poétique" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Analyser la construction d’une relation entre deux personnages" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Étudier le rôle du dialogue dans l’expression des relations humaines" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer deux représentations de l’amour ou de l’amitié issues de contextes différents" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l’influence du contexte social et culturel sur les relations" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mobiliser le lexique des sentiments et des relations interpersonnelles" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Analyser les conflits et tensions au sein d’une relation" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Interpréter la portée symbolique d’une relation amoureuse ou amicale" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Rédiger une analyse personnelle sur les liens affectifs dans une œuvre" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#LLCE_ANGLAIS#T2#C5" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Rencontres" },
+  "chapitreTitre": { "S": "Relation entre l’individu et le groupe" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les relations entre l’individu et le groupe dans un texte narratif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les tensions entre conformité et individualité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier le rôle du groupe dans la construction de l’identité" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Repérer les mécanismes d’inclusion et d’exclusion sociale" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer différentes formes de rapports entre individu et collectivité" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Comprendre l’influence des normes et valeurs collectives sur l’individu" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Mobiliser le lexique des relations sociales et du vivre-ensemble" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Interpréter la portée symbolique du conflit entre individu et groupe" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Rédiger une réflexion argumentée sur la place de l’individu dans la société" } } }
+    ]
+  }
+}
+,
+{
+  "PK": { "S": "CHAPITRE#1E#LLCE_ANGLAIS#T2#C6" },
+  "SK": { "S": "META" },
+  "type": { "S": "CHAPITRE" },
+  "niveau": { "S": "Première" },
+  "matiere": { "S": "LLCE Anglais" },
+  "themeTitre": { "S": "Rencontres" },
+  "chapitreTitre": { "S": "La confrontation à la différence" },
+  "exercices": {
+    "L": [
+      { "M": { "id": { "S": "E01" }, "titre": { "S": "Identifier les formes de la différence dans un texte narratif ou argumentatif" } } },
+      { "M": { "id": { "S": "E02" }, "titre": { "S": "Analyser les réactions des personnages face à l’altérité" } } },
+      { "M": { "id": { "S": "E03" }, "titre": { "S": "Étudier les préjugés et stéréotypes présents dans une œuvre" } } },
+      { "M": { "id": { "S": "E04" }, "titre": { "S": "Comprendre les mécanismes de rejet, de peur ou de fascination de l’autre" } } },
+      { "M": { "id": { "S": "E05" }, "titre": { "S": "Comparer deux représentations de la différence issues de contextes culturels distincts" } } },
+      { "M": { "id": { "S": "E06" }, "titre": { "S": "Analyser le rôle du point de vue narratif dans la perception de l’altérité" } } },
+      { "M": { "id": { "S": "E07" }, "titre": { "S": "Repérer les enjeux identitaires liés à la confrontation à la différence" } } },
+      { "M": { "id": { "S": "E08" }, "titre": { "S": "Comprendre comment la rencontre avec l’autre transforme l’individu" } } },
+      { "M": { "id": { "S": "E09" }, "titre": { "S": "Mobiliser le lexique de l’altérité, de la diversité et de l’inclusion" } } },
+      { "M": { "id": { "S": "E10" }, "titre": { "S": "Interpréter la portée symbolique de la différence dans une œuvre" } } },
+      { "M": { "id": { "S": "E11" }, "titre": { "S": "Analyser les enjeux sociaux et politiques liés à la représentation de l’altérité" } } },
+      { "M": { "id": { "S": "E12" }, "titre": { "S": "Comparer des stratégies narratives favorisant l’empathie ou la distance" } } },
+      { "M": { "id": { "S": "E13" }, "titre": { "S": "Rédiger une réflexion argumentée sur l’importance de la confrontation à la différence" } } }
+    ]
+  }
+}
+]
