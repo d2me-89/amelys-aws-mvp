@@ -12,8 +12,7 @@ import {
   LuThumbsUp,
   LuThumbsDown,
   LuEllipsis,
-  LuBot,
-  LuLoader2
+  LuBot
 } from "react-icons/lu";
 
 // ============================================
@@ -403,7 +402,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                   >
                     {isLoading ? (
                       <>
-                        <LuLoader2 size={20} style={{ animation: "spin 1s linear infinite" }} />
+                        <LuRefreshCw size={20} style={{ animation: "spin 1s linear infinite" }} />
                         Démarrage en cours...
                       </>
                     ) : (
@@ -566,7 +565,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
                   }}
                 >
                   {isLoading ? (
-                    <LuLoader2 size={18} style={{ animation: "spin 1s linear infinite" }} />
+                    <LuRefreshCw size={18} style={{ animation: "spin 1s linear infinite" }} />
                   ) : (
                     <LuSend size={18} />
                   )}
