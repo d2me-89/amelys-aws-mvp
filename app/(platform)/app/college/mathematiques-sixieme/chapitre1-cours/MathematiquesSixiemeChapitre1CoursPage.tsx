@@ -80,6 +80,14 @@ async function getConversation(conversationId: string, userId: string) {
 // ============================================
 
 export default function MathematiquesSixiemeChapitre1CoursPage() {
+  // ============================================
+  // 🔑 CLÉ UNIQUE POUR CETTE PAGE
+  // ============================================
+  
+  // Générer une clé unique basée sur le contenu de la page
+  // Format: amelys_conv_{cycle}_{matiere}_{niveau}_{chapitre}_{type}
+  const STORAGE_KEY = 'amelys_conv_college_mathematiques_sixieme_chapitre1_cours';
+  
   const [conversationId, setConversationId] = useState<string | null>(null);
   const [messages, setMessages] = useState<Array<{
     id: string, 
@@ -106,7 +114,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
 
   useEffect(() => {
     const loadExistingConversation = async () => {
-      const savedConversationId = localStorage.getItem('amelys_conversation_chapitre1');
+      const savedConversationId = localStorage.getItem(STORAGE_KEY);
       
       if (!savedConversationId) {
         setIsLoadingConversation(false);
@@ -121,7 +129,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
         
         if (!savedUserId) {
           console.log('[LOAD] Pas de userId sauvegardé');
-          localStorage.removeItem('amelys_conversation_chapitre1');
+          localStorage.removeItem(STORAGE_KEY);
           setIsLoadingConversation(false);
           return;
         }
@@ -137,13 +145,19 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           setConversationId(conv.conversationId);
           
           // Convertir les messages au format attendu
-          const loadedMessages = conv.messages.map((msg: any) => ({
-            id: msg.id,
-            role: msg.role,
-            content: msg.content,
-            isLatestAssistant: false,
-            isStreaming: false
-          }));
+          // IMPORTANT: Filtrer le message initial automatique "Bonjour ! Je suis prêt à commencer."
+          const loadedMessages = conv.messages
+            .filter((msg: any) => {
+              // Exclure le message initial automatique
+              return !(msg.role === 'user' && msg.id === 'init');
+            })
+            .map((msg: any) => ({
+              id: msg.id,
+              role: msg.role,
+              content: msg.content,
+              isLatestAssistant: false,
+              isStreaming: false
+            }));
 
           // Marquer le dernier message assistant
           for (let i = loadedMessages.length - 1; i >= 0; i--) {
@@ -154,18 +168,25 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
           }
 
           setMessages(loadedMessages);
+          
+          // 📜 SCROLL INSTANTANÉ vers le bas après chargement (sans animation)
+          setTimeout(() => {
+            if (chatContainerRef.current) {
+              chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+            }
+          }, 50);
         }
         
       } catch (err) {
         console.error('[LOAD] Erreur:', err);
-        localStorage.removeItem('amelys_conversation_chapitre1');
+        localStorage.removeItem(STORAGE_KEY);
       } finally {
         setIsLoadingConversation(false);
       }
     };
 
     loadExistingConversation();
-  }, []);
+  }, [STORAGE_KEY]);
 
   // Scroll vers le dernier message
   useEffect(() => {
@@ -250,7 +271,7 @@ export default function MathematiquesSixiemeChapitre1CoursPage() {
       setConversationId(response.conversationId);
       
       // 💾 SAUVEGARDER dans localStorage
-      localStorage.setItem('amelys_conversation_chapitre1', response.conversationId);
+      localStorage.setItem(STORAGE_KEY, response.conversationId);
       localStorage.setItem('amelys_userId', userId);
       console.log('[SAVE] Conversation sauvegardée dans localStorage');
       
