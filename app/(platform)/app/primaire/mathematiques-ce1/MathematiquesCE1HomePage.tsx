@@ -26,13 +26,11 @@ import Link from "next/link";
 
 import chapitresData from "@/app/documents/primaire/ce1/mathematiques-ce1/ce1-maths-structure-HR.json";
 import mathsCE1IntroRaw from "@/app/documents/primaire/ce1/mathematiques-ce1/maths-ce1-introduction.json";
-import { 
-  faqCoursInteractif,
-  faqExerciceBinome,
-  faqCompetencesCles,
-  faqControleEvalue,
-  faqSessionLibre 
-} from '@/app/documents/faq';
+import faqCoursInteractifRaw from "@/app/documents/faq/faq-cours-interactif.json";
+import faqExerciceBinomeRaw from "@/app/documents/faq/faq-exercice-en-binome.json";
+import faqCompetencesClesRaw from "@/app/documents/faq/faq-competences-cles.json";
+import faqControleEvalueRaw from "@/app/documents/faq/faq-controle-evalue.json";
+import faqSessionLibreRaw from "@/app/documents/faq/faq-session-libre.json";
 
 const PRIMAIRE_COLORS = {
   gradient: "linear-gradient(135deg, #FB923C 0%, #F97316 50%, #EA580C 100%)",
