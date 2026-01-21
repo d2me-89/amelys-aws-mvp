@@ -3,189 +3,151 @@
  * FICHIER: app/components/shared/interface-matiere/FAQMenuItem.tsx
  * ============================================
  * 
- * DESCRIPTION:
- * Composant d'item de FAQ GÉNÉRIQUE avec contenu dépliable.
- * Gère l'affichage de différents types de contenu (paragraphe, listes).
- * 
- * FONCTIONNALITÉS:
- * - En-tête cliquable avec icône et titre
- * - Chevron animé (rotation 90°)
- * - Affichage conditionnel selon le type de contenu:
- *   - Paragraphes simples
- *   - Listes ordonnées (numérotées)
- *   - Listes à puces
- * 
- * CAS D'USAGE:
- * - "Cours interactif"
- * - "Exercice en binôme"
- * - "Compétences clés"
- * - "Contrôle évalué"
- * - "Session libre"
- * 
- * UTILISATION:
- * ```typescript
- * <FAQMenuItem
- *   icon={<LuBookOpen size={20} style={{ color: "#B794F6" }} />}
- *   data={faqCoursInteractifData}
- *   isOpen={isOpen}
- *   onToggle={() => toggle('cours-interactif')}
- * />
- * ```
+ * Item de FAQ MODULAIRE
+ * S'adapte aux 3 cycles
  */
 
 "use client";
 
-import { LuChevronRight } from "react-icons/lu";
-import { COLORS } from "./constants";
-import type { FAQData } from "./types";
+import { LuChevronDown, LuChevronUp } from "react-icons/lu";
+import { getCOLORS, type Cycle } from "./constants";
+
+/**
+ * Structure d'une FAQ
+ */
+type FAQData = {
+  titre: string;
+  sections: Array<{
+    titre: string;
+    contenu: string | string[];
+  }>;
+};
 
 /**
  * Props du composant FAQMenuItem
  */
 interface FAQMenuItemProps {
-  icon: React.ReactNode;  // Icône affichée (ex: LuBookOpen)
-  data: FAQData;          // Données de la FAQ (titre + sections)
-  isOpen: boolean;        // État ouvert/fermé
-  onToggle: () => void;   // Callback au clic
+  icon: React.ReactNode;
+  data: FAQData;
+  isOpen: boolean;
+  onToggle: () => void;
+  cycle?: Cycle; // 🔥 NOUVEAU
 }
 
 /**
- * Item de menu FAQ avec contenu dépliable
- * Composant principal qui affiche l'en-tête et gère le contenu
+ * Item de FAQ cliquable avec contenu dépliable
  */
-export function FAQMenuItem({ icon, data, isOpen, onToggle }: FAQMenuItemProps) {
+export function FAQMenuItem({ 
+  icon, 
+  data, 
+  isOpen, 
+  onToggle,
+  cycle = 'college' // 🔥 Par défaut collège
+}: FAQMenuItemProps) {
+  const COLORS = getCOLORS(cycle); // 🔥 Récupère les couleurs du cycle
+
   return (
-    <div style={{ marginTop: "1rem" }}>
-      {/* En-tête cliquable */}
-      <div
+    <div style={{
+      marginBottom: "1rem",
+      maxWidth: "780px" // 🔥 Limite la largeur
+    }}>
+      {/* Bouton principal */}
+      <button
         onClick={onToggle}
         style={{
-          padding: "0.75rem 1rem",
-          borderRadius: "8px",
+          width: "100%",
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          padding: "1rem 1.25rem",
+          background: COLORS.primary.bg,         // 🔥 Fond adaptatif
+          border: "none",
+          borderRadius: "12px",
           cursor: "pointer",
-          transition: "background 0.2s ease",
-          background: isOpen ? COLORS.overlay.hover : "transparent"
+          transition: "all 0.2s ease",
+          boxShadow: "0 2px 4px rgba(0,0,0,0.1)"
         }}
         onMouseEnter={(e) => {
-          if (!isOpen) e.currentTarget.style.background = COLORS.overlay.hover;
+          e.currentTarget.style.transform = "translateY(-2px)";
+          e.currentTarget.style.boxShadow = "0 4px 8px rgba(0,0,0,0.15)";
         }}
         onMouseLeave={(e) => {
-          if (!isOpen) e.currentTarget.style.background = "transparent";
+          e.currentTarget.style.transform = "translateY(0)";
+          e.currentTarget.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
         }}
       >
-        {/* Gauche: Icône + Titre */}
-        <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
-          {icon}
-          <span style={{ fontSize: "1.05rem", color: COLORS.white.full, fontWeight: 500 }}>
+        <div style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "0.75rem"
+        }}>
+          <div style={{ color: COLORS.primary.primary }}> {/* 🔥 Couleur adaptative */}
+            {icon}
+          </div>
+          <span style={{
+            fontSize: "1.05rem",
+            fontWeight: 600,
+            color: COLORS.primary.primary        // 🔥 Couleur adaptative
+          }}>
             {data.titre}
           </span>
         </div>
-        
-        {/* Droite: Chevron rotatif */}
-        <LuChevronRight 
-          size={18} 
-          style={{ 
-            color: "rgba(255,255,255,0.5)",
-            transform: isOpen ? "rotate(90deg)" : "rotate(0deg)",
-            transition: "transform 0.2s ease"
-          }} 
-        />
-      </div>
+
+        <div style={{ color: COLORS.primary.primary }}> {/* 🔥 Couleur adaptative */}
+          {isOpen ? <LuChevronUp size={20} /> : <LuChevronDown size={20} />}
+        </div>
+      </button>
 
       {/* Contenu dépliable */}
-      {isOpen && <FAQContent sections={data.sections} />}
-    </div>
-  );
-}
-
-/**
- * Props du composant FAQContent
- */
-interface FAQContentProps {
-  sections: FAQData['sections'];  // Sections de contenu à afficher
-}
-
-/**
- * Contenu de la FAQ avec sections multiples
- * Gère l'affichage selon le type de contenu (paragraphe, listes)
- */
-function FAQContent({ sections }: FAQContentProps) {
-  return (
-    <div style={{
-      padding: "1rem 1.5rem",
-      background: COLORS.overlay.dark,
-      borderRadius: "8px",
-      marginTop: "0.5rem"
-    }}>
-      {sections.map((section, index) => (
-        <div key={index} style={{ 
-          marginBottom: index < sections.length - 1 ? "1.5rem" : "0" 
+      {isOpen && (
+        <div style={{
+          marginTop: "0.75rem",
+          padding: "1.5rem",
+          background: "rgba(0,0,0,0.2)",
+          borderRadius: "12px"
         }}>
-          {/* Titre de la section */}
-          <h3 style={{
-            fontSize: "1.1rem",
-            fontWeight: 700,
-            color: COLORS.purple.light,
-            marginBottom: "0.5rem"
-          }}>
-            {section.titre}
-          </h3>
-          
-          {/* Contenu: Paragraphe simple */}
-          {section.type === "paragraphe" && typeof section.contenu === "string" && (
-            <p style={{
-              fontSize: "0.95rem",
-              color: "rgba(255,255,255,0.85)",
-              lineHeight: "1.6",
-              margin: 0
-            }}>
-              {section.contenu}
-            </p>
-          )}
-          
-          {/* Contenu: Liste ordonnée (numérotée) */}
-          {section.type === "liste-ordonnee" && Array.isArray(section.contenu) && (
-            <ol style={{
-              fontSize: "0.95rem",
-              color: "rgba(255,255,255,0.85)",
-              lineHeight: "1.6",
-              margin: 0,
-              paddingLeft: "1.5rem"
-            }}>
-              {section.contenu.map((item, idx) => (
-                <li key={idx} style={{ 
-                  marginBottom: idx < section.contenu.length - 1 ? "0.5rem" : "0" 
+          {data.sections.map((section, index) => (
+            <div 
+              key={index}
+              style={{
+                marginBottom: index < data.sections.length - 1 ? "1.5rem" : "0"
+              }}
+            >
+              <h4 style={{
+                fontSize: "1.05rem",
+                fontWeight: 700,
+                color: COLORS.primary.light,       // 🔥 Couleur adaptative
+                marginBottom: "0.75rem"
+              }}>
+                {section.titre}
+              </h4>
+
+              {typeof section.contenu === "string" ? (
+                <p style={{
+                  fontSize: "0.95rem",
+                  color: "rgba(255,255,255,0.85)",
+                  lineHeight: "1.6",
+                  margin: 0
                 }}>
-                  {item}
-                </li>
-              ))}
-            </ol>
-          )}
-          
-          {/* Contenu: Liste à puces */}
-          {section.type === "liste-puces" && Array.isArray(section.contenu) && (
-            <ul style={{
-              fontSize: "0.95rem",
-              color: "rgba(255,255,255,0.85)",
-              lineHeight: "1.6",
-              margin: 0,
-              paddingLeft: "1.5rem",
-              listStyle: "disc"
-            }}>
-              {section.contenu.map((item, idx) => (
-                <li key={idx} style={{ 
-                  marginBottom: idx < section.contenu.length - 1 ? "0.5rem" : "0" 
+                  {section.contenu}
+                </p>
+              ) : (
+                <ul style={{
+                  margin: 0,
+                  paddingLeft: "1.5rem",
+                  color: "rgba(255,255,255,0.85)",
+                  fontSize: "0.95rem",
+                  lineHeight: "1.8"
                 }}>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          )}
+                  {section.contenu.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
         </div>
-      ))}
+      )}
     </div>
   );
 }

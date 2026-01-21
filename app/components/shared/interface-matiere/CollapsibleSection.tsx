@@ -3,69 +3,48 @@
  * FICHIER: app/components/shared/interface-matiere/CollapsibleSection.tsx
  * ============================================
  * 
- * DESCRIPTION:
- * Composant de section dépliable/collapsible GÉNÉRIQUE.
- * Utilisé pour l'introduction, la FAQ, et potentiellement d'autres sections.
- * 
- * FONCTIONNALITÉS:
- * - En-tête cliquable avec icône et titre
- * - Animation d'ouverture/fermeture (chevron rotatif)
- * - Effet hover sur l'en-tête
- * - Contenu personnalisable via children
- * 
- * CAS D'USAGE:
- * - Section "Les mathématiques en sixième"
- * - Section "FAQ"
- * - Toute autre section dépliable
- * 
- * UTILISATION:
- * ```typescript
- * <CollapsibleSection
- *   icon={<LuCalculator size={22} />}
- *   title="Les mathématiques en sixième"
- *   isOpen={isOpen}
- *   onToggle={() => setIsOpen(!isOpen)}
- * >
- *   <p>Contenu de la section...</p>
- * </CollapsibleSection>
- * ```
+ * Section dépliable MODULAIRE
+ * S'adapte aux 3 cycles (primaire, collège, lycée)
  */
 
 "use client";
 
 import { LuChevronUp, LuChevronDown } from "react-icons/lu";
-import { COLORS } from "./constants";
+import { getCOLORS, type Cycle } from "./constants";
 
 /**
  * Props du composant CollapsibleSection
  */
 interface CollapsibleSectionProps {
-  icon: React.ReactNode;      // Icône affichée dans l'en-tête (ex: LuCalculator)
-  title: string;              // Titre de la section
-  isOpen: boolean;            // État ouvert/fermé
-  onToggle: () => void;       // Callback au clic sur l'en-tête
-  children: React.ReactNode;  // Contenu de la section (affiché si isOpen=true)
+  icon: React.ReactNode;
+  title: string;
+  isOpen: boolean;
+  onToggle: () => void;
+  children: React.ReactNode;
+  cycle?: Cycle; // 🔥 NOUVEAU : Cycle (optionnel, défaut 'college')
 }
 
 /**
  * Section dépliable avec en-tête cliquable
- * Affiche un chevron animé et gère l'état ouvert/fermé
  */
 export function CollapsibleSection({
   icon,
   title,
   isOpen,
   onToggle,
-  children
+  children,
+  cycle = 'college' // 🔥 Par défaut collège
 }: CollapsibleSectionProps) {
+  const COLORS = getCOLORS(cycle); // 🔥 Récupère les couleurs du cycle
+
   return (
     <div style={{
-      background: COLORS.overlay.light,
-      border: `1px solid ${COLORS.overlay.border}`,
+      background: "rgba(255,255,255,0.05)",
+      border: "1px solid rgba(255,255,255,0.1)",
       borderRadius: "16px",
       overflow: "hidden",
       marginBottom: "1.5rem",
-      maxWidth: "780px"
+      maxWidth: "780px" // 🔥 Limite la largeur
     }}>
       {/* En-tête cliquable */}
       <button
@@ -95,16 +74,16 @@ export function CollapsibleSection({
           alignItems: "center",
           gap: "0.85rem"
         }}>
-          {/* Badge avec icône */}
+          {/* Badge avec icône - COULEURS ADAPTATIVES */}
           <div style={{
             width: "42px",
             height: "42px",
             borderRadius: "11px",
-            background: COLORS.purple.bg,
+            background: COLORS.primary.bg,        // 🔥 Fond adaptatif
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            color: COLORS.purple.primary
+            color: COLORS.primary.primary         // 🔥 Couleur adaptative
           }}>
             {icon}
           </div>
@@ -113,7 +92,7 @@ export function CollapsibleSection({
           <span style={{
             fontSize: "1.25rem",
             fontWeight: 700,
-            color: COLORS.white.full
+            color: "#fff"
           }}>
             {title}
           </span>
@@ -129,7 +108,7 @@ export function CollapsibleSection({
       {isOpen && (
         <div style={{
           padding: "0 1.5rem 1.5rem 1.5rem",
-          borderTop: `1px solid ${COLORS.overlay.border}`
+          borderTop: "1px solid rgba(255,255,255,0.1)"
         }}>
           {children}
         </div>
