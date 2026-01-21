@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/HeroSection.tsx
+ * FICHIER: app/components/shared/interface-matiere/HeroSection.tsx
  * ============================================
  * 
  * DESCRIPTION:

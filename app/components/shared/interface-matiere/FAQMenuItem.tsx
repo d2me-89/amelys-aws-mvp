@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/FAQMenuItem.tsx
+ * FICHIER: app/components/shared/interface-matiere/FAQMenuItem.tsx
  * ============================================
  * 
  * DESCRIPTION:

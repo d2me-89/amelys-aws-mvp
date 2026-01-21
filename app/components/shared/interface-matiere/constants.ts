@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/constants.ts
+ * FICHIER: app/components/shared/interface-matiere/constants.ts
  * ============================================
  * 
  * DESCRIPTION:
@@ -14,7 +14,7 @@
  * 
  * UTILISATION:
  * ```typescript
- * import { COLORS, SPACING } from '@/app/components/shared/subject-home/constants';
+ * import { COLORS, SPACING } from '@/app/components/shared/interface-matiere/constants';
  * 
  * <div style={{ background: COLORS.purple.gradient }}>
  * ```

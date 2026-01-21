@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/CompetencesMenu.tsx
+ * FICHIER: app/components/shared/interface-matiere/CompetencesMenu.tsx
  * ============================================
  * 
  * DESCRIPTION:

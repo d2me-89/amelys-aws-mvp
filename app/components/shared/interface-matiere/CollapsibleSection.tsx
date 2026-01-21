@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/CollapsibleSection.tsx
+ * FICHIER: app/components/shared/interface-matiere/CollapsibleSection.tsx
  * ============================================
  * 
  * DESCRIPTION:

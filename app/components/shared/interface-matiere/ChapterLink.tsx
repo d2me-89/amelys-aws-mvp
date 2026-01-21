@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/ChapterLink.tsx
+ * FICHIER: app/components/shared/interface-matiere/ChapterLink.tsx
  * ============================================
  * 
  * DESCRIPTION:

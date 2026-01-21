@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/types.ts
+ * FICHIER: app/components/shared/interface-matiere/types.ts
  * ============================================
  * 
  * DESCRIPTION:
@@ -14,7 +14,7 @@
  * 
  * EXEMPLE:
  * ```typescript
- * import type { Chapitre, FAQData } from '@/app/components/shared/subject-home/types';
+ * import type { Chapitre, FAQData } from '@/app/components/shared/interface-matiere/types';
  * ```
  */
 

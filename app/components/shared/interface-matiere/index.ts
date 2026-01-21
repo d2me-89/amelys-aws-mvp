@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/index.ts
+ * FICHIER: app/components/shared/interface-matiere/index.ts
  * ============================================
  * 
  * DESCRIPTION:
@@ -15,9 +15,9 @@
  * UTILISATION:
  * Au lieu de:
  * ```typescript
- * import { HeroSection } from '@/app/components/shared/subject-home/HeroSection';
- * import { CTACard } from '@/app/components/shared/subject-home/CTACard';
- * import { ChapterItem } from '@/app/components/shared/subject-home/ChapterItem';
+ * import { HeroSection } from '@/app/components/shared/interface-matiere/HeroSection';
+ * import { CTACard } from '@/app/components/shared/interface-matiere/CTACard';
+ * import { ChapterItem } from '@/app/components/shared/interface-matiere/ChapterItem';
  * ```
  * 
  * On peut faire:
@@ -26,7 +26,7 @@
  *   HeroSection, 
  *   CTACard, 
  *   ChapterItem 
- * } from '@/app/components/shared/subject-home';
+ * } from '@/app/components/shared/interface-matiere';
  * ```
  */
 

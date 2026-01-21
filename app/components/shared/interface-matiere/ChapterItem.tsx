@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/ChapterItem.tsx
+ * FICHIER: app/components/shared/interface-matiere/ChapterItem.tsx
  * ============================================
  * 
  * DESCRIPTION:

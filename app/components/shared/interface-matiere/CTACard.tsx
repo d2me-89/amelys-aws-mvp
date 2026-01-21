@@ -1,6 +1,6 @@
 /**
  * ============================================
- * FICHIER: app/components/shared/subject-home/CTACard.tsx
+ * FICHIER: app/components/shared/interface-matiere/CTACard.tsx
  * ============================================
  * 
  * DESCRIPTION:

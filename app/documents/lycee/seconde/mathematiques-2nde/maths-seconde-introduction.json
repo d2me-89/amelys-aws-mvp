@@ -1,0 +1,20 @@
+{
+  "titre": "Les mathématiques en seconde et l'IA",
+  "sections": [
+    {
+      "titre": "Un cap important",
+      "contenu": "Entrer en seconde, c’est franchir une étape : le niveau monte, les notions deviennent plus abstraites, et on te demande davantage de méthode, de rigueur et d’autonomie en maths.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Amélys, ton compagnon IA",
+      "contenu": "C’est exactement pour ça qu’Amélys existe ! Cette intelligence artificielle pédagogique a été conçue pour t’accompagner tout au long de l’année : elle t’aide à comprendre les concepts (fonctions, équations, géométrie, statistiques…), à structurer tes raisonnements, à t’entraîner sur des exercices progressifs, à corriger tes erreurs avec bienveillance et à valoriser tes progrès.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Un accompagnement sur mesure",
+      "contenu": "Que tu vises la spécialité maths plus tard ou que tu veuilles simplement consolider tes bases, Amélys s’adapte à ton niveau, respecte ton rythme, et t’aide à gagner en confiance, en méthode et en efficacité pour réussir ta seconde.",
+      "type": "paragraphe"
+    }
+  ]
+}
