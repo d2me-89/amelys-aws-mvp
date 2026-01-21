@@ -77,7 +77,8 @@ export function ChapterItem({
       borderRadius: "12px",
       marginBottom: "1rem",
       border: "1px solid rgba(255,255,255,0.1)",
-      overflow: "hidden"
+      overflow: "hidden",
+      maxWidth: "780px" // 🔥 Limite la largeur comme FAQ
     }}>
       {/* En-tête cliquable */}
       <ChapterHeader 
@@ -97,16 +98,18 @@ export function ChapterItem({
           {/* 1. Cours interactif */}
           <ChapterLink 
             href={`${baseRoute}/chapitre${index + 1}-cours`}
-            icon={<LuBookOpen size={20} style={{ color: COLORS.primary.light }} />} // 🔥 Couleur adaptative
+            icon={<LuBookOpen size={20} />}
             text="Cours interactif"
             style={{ marginTop: "1rem" }}
+            cycle={cycle} // 🔥 Passe le cycle
           />
           
           {/* 2. Exercice en binôme */}
           <ChapterLink 
             href={`${baseRoute}/chapitre${index + 1}-binome`}
-            icon={<LuUsers size={20} style={{ color: COLORS.primary.light }} />} // 🔥 Couleur adaptative
+            icon={<LuUsers size={20} />}
             text="Exercice en binôme"
+            cycle={cycle} // 🔥 Passe le cycle
           />
 
           {/* 3. Compétences clés (avec sous-menu) */}
@@ -123,15 +126,17 @@ export function ChapterItem({
           {/* 4. Contrôle du chapitre */}
           <ChapterLink 
             href={`${baseRoute}/chapitre${index + 1}-controle`}
-            icon={<LuClipboardCheck size={20} style={{ color: COLORS.primary.light }} />} // 🔥 Couleur adaptative
+            icon={<LuClipboardCheck size={20} />}
             text="Contrôle du chapitre"
+            cycle={cycle} // 🔥 Passe le cycle
           />
 
           {/* 5. Session libre */}
           <ChapterLink 
             href={`${baseRoute}/chapitre${index + 1}-session-libre`}
-            icon={<LuMessageSquare size={20} style={{ color: COLORS.primary.light }} />} // 🔥 Couleur adaptative
+            icon={<LuMessageSquare size={20} />}
             text="Session libre"
+            cycle={cycle} // 🔥 Passe le cycle
           />
         </div>
       )}

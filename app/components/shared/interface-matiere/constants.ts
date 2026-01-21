@@ -63,7 +63,7 @@ const collegeTheme: CycleColors = {
   overlay: {
     light: "rgba(255,255,255,0.08)",
     border: "rgba(255,255,255,0.2)",
-    hover: "rgba(159, 122, 234, 0.15)",
+    hover: "rgba(159, 122, 234, 0.15)", // 🔥 Violet
     dark: "rgba(0,0,0,0.2)",
   },
 };
@@ -86,7 +86,7 @@ const lyceeTheme: CycleColors = {
   overlay: {
     light: "rgba(255,255,255,0.08)",
     border: "rgba(255,255,255,0.2)",
-    hover: "rgba(56, 189, 248, 0.15)",
+    hover: "rgba(56, 189, 248, 0.15)", // 🔥 Bleu
     dark: "rgba(0,0,0,0.2)",
   },
 };
@@ -109,7 +109,7 @@ const primaireTheme: CycleColors = {
   overlay: {
     light: "rgba(255,255,255,0.08)",
     border: "rgba(255,255,255,0.2)",
-    hover: "rgba(251, 146, 60, 0.15)",
+    hover: "rgba(251, 146, 60, 0.15)", // 🔥 Orange
     dark: "rgba(0,0,0,0.2)",
   },
 };

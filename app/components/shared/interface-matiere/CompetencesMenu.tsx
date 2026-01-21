@@ -25,7 +25,7 @@ interface CompetencesMenuProps {
 
 export const CompetencesMenu = forwardRef<HTMLDivElement, CompetencesMenuProps>(
   function CompetencesMenu({ chapterIndex, exercices, isOpen, onToggle, baseRoute, cycle = 'college' }, ref) {
-    const COLORS = getCOLORS(cycle); // 🔥 Récupère les couleurs du cycle
+    const COLORS = getCOLORS(cycle);
 
     return (
       <div ref={ref}>
@@ -38,8 +38,8 @@ export const CompetencesMenu = forwardRef<HTMLDivElement, CompetencesMenuProps>(
             alignItems: "center",
             justifyContent: "space-between",
             padding: "0.85rem 1rem",
-            background: "rgba(255,255,255,0.08)",
-            border: "1px solid rgba(255,255,255,0.15)",
+            background: "transparent", // 🔥 Transparent comme les autres
+            border: "none",
             borderRadius: "8px",
             color: "#fff",
             fontSize: "1rem",
@@ -49,14 +49,14 @@ export const CompetencesMenu = forwardRef<HTMLDivElement, CompetencesMenuProps>(
             marginTop: "0.75rem"
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.background = "rgba(255,255,255,0.12)";
+            e.currentTarget.style.background = COLORS.overlay.hover; // 🔥 Hover adaptatif
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.background = "rgba(255,255,255,0.08)";
+            e.currentTarget.style.background = "transparent";
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-            <LuTarget size={20} style={{ color: COLORS.primary.light }} /> {/* 🔥 Couleur adaptative */}
+            <LuTarget size={20} style={{ color: COLORS.primary.light }} />
             <span>Compétences clés</span>
           </div>
           
@@ -77,13 +77,13 @@ export const CompetencesMenu = forwardRef<HTMLDivElement, CompetencesMenuProps>(
                 href={`${baseRoute}/chapitre${chapterIndex + 1}-exercice${exercice.M.id.S.replace('E', '')}`}
                 icon={<span style={{ 
                   fontSize: "0.85rem", 
-                  color: COLORS.primary.light, // 🔥 Couleur adaptative
                   fontWeight: 700 
                 }}>
                   {exercice.M.id.S}
                 </span>}
                 text={exercice.M.titre.S}
                 style={{ fontSize: "0.95rem" }}
+                cycle={cycle}
               />
             ))}
           </div>
