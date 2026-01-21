@@ -1,170 +1,145 @@
 /**
- * Page principale du Collège (version refactorisée)
+ * Page d'accueil du Collège
  * 
- * Cette page affiche :
- * - Sélecteur de classes (6ème à 3ème + Brevet)
- * - Grille de matières selon la classe sélectionnée
- * - Grille des épreuves du brevet
- * - Message pour les classes non implémentées
- * 
- * Changements par rapport à l'original :
- * ✅ Données extraites dans utils/college/data.ts
- * ✅ Logique métier dans utils/college/helpers.ts
- * ✅ Styles dans utils/ui/styles.ts
- * ✅ Composants réutilisables créés
- * ✅ Code réduit de ~500 lignes à ~150 lignes
- * ✅ Plus maintenable et testable
+ * Affiche les matières disponibles pour chaque classe du collège.
+ * Utilise les composants unifiés avec le thème violet (cycle="college").
  */
 
 "use client";
 
-import { useState } from "react";
-import AppLayout from "@/app/components/AppLayout";
-import { ClasseButton, MatiereGrid } from "@/app/components/college";
+import { useState } from 'react';
+
+// ✅ Imports depuis les fichiers unifiés
+import { ClasseButton, MatiereGrid } from '@/app/components/shared';
 import { 
-  CLASSES, 
-  EPREUVES_BREVET, 
-  getMatieresParClasse,
+  Classe, 
+  Matiere,
+  Epreuve,
+  getMatieresParClasse, 
+  getEpreuves,
   getTitreClasse,
   getDescriptionClasse,
-  isBrevetClasse,
-  isRegularClasse,
-  getLabelClasse,
-} from "@/app/utils/college";
+  isExamenClasse,
+  CycleData 
+} from '@/app/utils/shared';
+import { CLASSES, MATIERES_PAR_CLASSE, EPREUVES_BREVET } from '@/app/utils/college';
 
-export default function CollegePage() {
-  const [selectedClass, setSelectedClass] = useState<string>("sixieme");
+export default function CollegeHomePage() {
+  // État pour la classe sélectionnée
+  const [selectedClasse, setSelectedClasse] = useState<string>("sixieme");
+  
+  // État pour la carte survolée
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
-  // Récupération des données selon la classe sélectionnée
-  const matieres = getMatieresParClasse(selectedClass);
-  const showMatieres = isRegularClasse(selectedClass);
-  const showBrevet = isBrevetClasse(selectedClass);
+  // Créer l'objet cycleData pour les helpers
+  const collegeData: CycleData = {
+    classes: CLASSES,
+    matieresParClasse: MATIERES_PAR_CLASSE,
+    epreuves: EPREUVES_BREVET
+  };
+
+  // Récupérer les matières ou épreuves selon la classe sélectionnée
+  const isExamen = isExamenClasse(selectedClasse);
+  const matieres: Matiere[] | Epreuve[] = isExamen
+    ? getEpreuves(collegeData)
+    : getMatieresParClasse(selectedClasse, collegeData);
+
+  // Générer le titre et la description
+  const titre = getTitreClasse(selectedClasse, isExamen);
+  const description = getDescriptionClasse(selectedClasse, collegeData);
 
   return (
-    <AppLayout>
-      <main style={{
-        padding: "1.5rem 3rem",
-        fontFamily: "sans-serif",
-        maxWidth: "1400px",
-        margin: "0 auto"
-      }}>
-        {/* En-tête de la page */}
-        <header>
-          <h1 style={{
-            fontSize: "2.5rem",
-            marginBottom: "0.5rem",
-            fontWeight: 700
-          }}>
-            Collège
-          </h1>
-
-          <p style={{
-            fontSize: "1.1rem",
-            opacity: 0.8,
-            marginBottom: "2rem"
-          }}>
-            Sélectionne ta classe pour accéder à tes matières
-          </p>
-        </header>
-
-        {/* Sélecteur de classes */}
-        <nav 
+    <div
+      style={{
+        minHeight: "100vh",
+        background: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+        padding: "3rem 2rem",
+      }}
+    >
+      {/* En-tête */}
+      <div
+        style={{
+          textAlign: "center",
+          marginBottom: "3rem",
+        }}
+      >
+        <h1
           style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: "2rem",
-            flexWrap: "wrap",
-            marginBottom: "2.5rem"
+            fontSize: "2.5rem",
+            fontWeight: 800,
+            marginBottom: "0.5rem",
+            background: "linear-gradient(135deg, #B794F6 0%, #9F7AEA 50%, #805AD5 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
           }}
-          aria-label="Sélection de classe"
         >
-          {CLASSES.map((cls) => (
-            <ClasseButton
-              key={cls.id}
-              classe={cls}
-              isSelected={selectedClass === cls.id}
-              onClick={() => setSelectedClass(cls.id)}
-            />
-          ))}
-        </nav>
+          Collège
+        </h1>
+        <p
+          style={{
+            fontSize: "1.1rem",
+            color: "rgba(255,255,255,0.7)",
+          }}
+        >
+          Construis tes bases avec Amélys
+        </p>
+      </div>
 
-        {/* Affichage des matières pour les classes régulières */}
-        {showMatieres && (
-          <section style={{ marginTop: "2rem" }}>
-            <h2 style={{
-              fontSize: "1.8rem",
-              marginBottom: "0.5rem",
-              fontWeight: 700
-            }}>
-              {getTitreClasse(selectedClass)}
-            </h2>
+      {/* Sélecteur de classes */}
+      <div
+        style={{
+          display: "flex",
+          gap: "1rem",
+          justifyContent: "center",
+          marginBottom: "3rem",
+          flexWrap: "wrap",
+        }}
+      >
+        {CLASSES.map((classe) => (
+          <ClasseButton
+            key={classe.id}
+            classe={classe}
+            isSelected={selectedClasse === classe.id}
+            onClick={() => setSelectedClasse(classe.id)}
+            cycle="college"  // 👈 Thème violet pour le collège
+          />
+        ))}
+      </div>
 
-            <p style={{
-              fontSize: "0.95rem",
-              opacity: 0.8,
-              marginBottom: "1.5rem"
-            }}>
-              {getDescriptionClasse(selectedClass)}
-            </p>
+      {/* Titre et description de la section */}
+      <div
+        style={{
+          textAlign: "center",
+          marginBottom: "2.5rem",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: "1.8rem",
+            fontWeight: 700,
+            color: "#fff",
+            marginBottom: "0.5rem",
+          }}
+        >
+          {titre}
+        </h2>
+        <p
+          style={{
+            fontSize: "0.95rem",
+            color: "rgba(255,255,255,0.6)",
+          }}
+        >
+          {description}
+        </p>
+      </div>
 
-            <MatiereGrid
-              matieres={matieres}
-              hoveredCard={hoveredCard}
-              onHoverChange={setHoveredCard}
-            />
-          </section>
-        )}
-
-        {/* Affichage des épreuves du Brevet */}
-        {showBrevet && (
-          <section style={{ marginTop: "2rem" }}>
-            <h2 style={{
-              fontSize: "1.8rem",
-              marginBottom: "0.5rem",
-              fontWeight: 700
-            }}>
-              Épreuves du Brevet
-            </h2>
-
-            <p style={{
-              fontSize: "0.95rem",
-              opacity: 0.8,
-              marginBottom: "1.5rem"
-            }}>
-              {getDescriptionClasse(selectedClass)}
-            </p>
-
-            <MatiereGrid
-              matieres={EPREUVES_BREVET}
-              hoveredCard={hoveredCard}
-              onHoverChange={setHoveredCard}
-            />
-          </section>
-        )}
-
-        {/* Message pour les classes non encore implémentées */}
-        {selectedClass && !showMatieres && !showBrevet && (
-          <div style={{
-            textAlign: "center",
-            padding: "3rem 2rem",
-            background: "rgba(183,148,246,0.1)",
-            borderRadius: "12px",
-            border: "1px solid rgba(183,148,246,0.3)",
-            marginTop: "3rem"
-          }}>
-            <p style={{
-              margin: 0,
-              fontSize: "1.1rem",
-              opacity: 0.9
-            }}>
-              🚧 Les matières pour{" "}
-              <strong>{getLabelClasse(selectedClass)}</strong>{" "}
-              arrivent bientôt !
-            </p>
-          </div>
-        )}
-      </main>
-    </AppLayout>
+      {/* Grille de matières */}
+      <MatiereGrid
+        matieres={matieres}
+        hoveredCard={hoveredCard}
+        onHoverChange={setHoveredCard}
+        cycle="college"  // 👈 Thème violet pour le collège
+      />
+    </div>
   );
 }
