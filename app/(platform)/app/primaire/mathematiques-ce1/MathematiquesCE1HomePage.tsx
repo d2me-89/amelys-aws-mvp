@@ -279,7 +279,7 @@ export default function MathematiquesCE1HomePage() {
           >
             <FAQMenuItem
               icon={<LuBookOpen size={20} />}
-              data={faqCoursInteractif as any}
+              data={faqCoursInteractifRaw as any}
               isOpen={faqToggle.isOpen('cours-interactif')}
               onToggle={() => faqToggle.toggle('cours-interactif')}
               cycle="primaire"
@@ -287,7 +287,7 @@ export default function MathematiquesCE1HomePage() {
             
             <FAQMenuItem
               icon={<LuUsers size={20} />}
-              data={faqExerciceBinome as any}
+              data={faqExerciceBinomeRaw as any}
               isOpen={faqToggle.isOpen('exercice-binome')}
               onToggle={() => faqToggle.toggle('exercice-binome')}
               cycle="primaire"
@@ -295,7 +295,7 @@ export default function MathematiquesCE1HomePage() {
             
             <FAQMenuItem
               icon={<LuTarget size={20} />}
-              data={faqCompetencesCles as any}
+              data={faqCompetencesClesRaw as any}
               isOpen={faqToggle.isOpen('competences-cles')}
               onToggle={() => faqToggle.toggle('competences-cles')}
               cycle="primaire"
@@ -303,7 +303,7 @@ export default function MathematiquesCE1HomePage() {
             
             <FAQMenuItem
               icon={<LuClipboardCheck size={20} />}
-              data={faqControleEvalue as any}
+              data={faqControleEvalueRaw as any}
               isOpen={faqToggle.isOpen('controle-evalue')}
               onToggle={() => faqToggle.toggle('controle-evalue')}
               cycle="primaire"
@@ -311,7 +311,7 @@ export default function MathematiquesCE1HomePage() {
             
             <FAQMenuItem
               icon={<LuMessageSquare size={20} />}
-              data={faqSessionLibre as any}
+              data={faqSessionLibreRaw as any}
               isOpen={faqToggle.isOpen('session-libre')}
               onToggle={() => faqToggle.toggle('session-libre')}
               cycle="primaire"
