@@ -25,7 +25,7 @@ export const MATIERES_PAR_CLASSE: Record<string, Matiere[]> = {
       nom: "Mathématiques",
       emoji: "📐",
       seances: 12,
-      path: "/app/lycee/seconde/matieres/mathematiques"
+      path: "/app/lycee/mathematiques-seconde"
     },
     {
       id: "francais",
