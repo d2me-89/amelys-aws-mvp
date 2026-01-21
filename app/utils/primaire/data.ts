@@ -1,6 +1,13 @@
 /**
  * Données statiques pour le primaire
  * 
+ * CONVENTION DE NOMMAGE DES PATHS :
+ * - Format : /app/primaire/[matiere]-[classe]
+ * - Exemples : 
+ *   - /app/primaire/francais-cp
+ *   - /app/primaire/mathematiques-ce1
+ *   - /app/primaire/sciences-technologie-cm2
+ * 
  * Ce fichier contient toutes les données de configuration :
  * - Liste des classes (CP à CM2)
  * - Matières par classe
@@ -24,229 +31,228 @@ export const MATIERES_PAR_CLASSE: Record<string, Matiere[]> = {
   cp: [
     {
       id: "francais",
-      nom: "Français CP",
+      nom: "Français",
       emoji: "📚",
       seances: 12,
-      path: "/app/primaire/cp/matieres/francais"
+      path: "/app/primaire/francais-cp"
     },
     {
       id: "mathematiques",
-      nom: "Mathématiques CP",
+      nom: "Mathématiques",
       emoji: "🔢",
       seances: 12,
-      path: "/app/primaire/cp/matieres/mathematiques"
+      path: "/app/primaire/mathematiques-cp"
     },
     {
       id: "histoire-geographie",
-      nom: "Histoire et géographie CP",
+      nom: "Histoire et géographie",
       emoji: "🌍",
       seances: 8,
-      path: "/app/primaire/cp/matieres/histoire-geographie"
+      path: "/app/primaire/histoire-geographie-cp"
     },
     {
       id: "emc",
-      nom: "Enseignement moral et civique CP",
+      nom: "Enseignement moral et civique",
       emoji: "⚖️",
       seances: 6,
-      path: "/app/primaire/cp/matieres/emc"
+      path: "/app/primaire/emc-cp"
     },
     {
       id: "sciences-technologie",
-      nom: "Sciences et technologie CP",
+      nom: "Sciences et technologie",
       emoji: "🔬",
       seances: 8,
-      path: "/app/primaire/cp/matieres/sciences-technologie"
+      path: "/app/primaire/sciences-technologie-cp"
     },
     {
       id: "anglais",
-      nom: "Anglais CP",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 8,
-      path: "/app/primaire/cp/matieres/anglais"
+      path: "/app/primaire/anglais-cp"
     }
   ],
 
   ce1: [
     {
       id: "francais",
-      nom: "Français CE1",
+      nom: "Français",
       emoji: "📚",
       seances: 12,
-      path: "/app/primaire/ce1/matieres/francais"
+      path: "/app/primaire/francais-ce1"
     },
     {
       id: "mathematiques",
-      nom: "Mathématiques CE1",
+      nom: "Mathématiques",
       emoji: "🔢",
       seances: 12,
-      path: "/app/primaire/ce1/matieres/mathematiques"
+      path: "/app/primaire/mathematiques-ce1"
     },
     {
       id: "histoire-geographie",
-      nom: "Histoire et géographie CE1",
+      nom: "Histoire et géographie",
       emoji: "🌍",
       seances: 8,
-      path: "/app/primaire/ce1/matieres/histoire-geographie"
+      path: "/app/primaire/histoire-geographie-ce1"
     },
     {
       id: "emc",
-      nom: "Enseignement moral et civique CE1",
+      nom: "Enseignement moral et civique",
       emoji: "⚖️",
       seances: 6,
-      path: "/app/primaire/ce1/matieres/emc"
+      path: "/app/primaire/emc-ce1"
     },
     {
       id: "sciences-technologie",
-      nom: "Sciences et technologie CE1",
+      nom: "Sciences et technologie",
       emoji: "🔬",
       seances: 8,
-      path: "/app/primaire/ce1/matieres/sciences-technologie"
+      path: "/app/primaire/sciences-technologie-ce1"
     },
     {
       id: "anglais",
-      nom: "Anglais CE1",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 8,
-      path: "/app/primaire/ce1/matieres/anglais"
+      path: "/app/primaire/anglais-ce1"
     }
   ],
 
   ce2: [
     {
       id: "francais",
-      nom: "Français CE2",
+      nom: "Français",
       emoji: "📚",
       seances: 12,
-      path: "/app/primaire/ce2/matieres/francais"
+      path: "/app/primaire/francais-ce2"
     },
     {
       id: "mathematiques",
-      nom: "Mathématiques CE2",
+      nom: "Mathématiques",
       emoji: "🔢",
       seances: 12,
-      path: "/app/primaire/ce2/matieres/mathematiques"
+      path: "/app/primaire/mathematiques-ce2"
     },
     {
       id: "histoire-geographie",
-      nom: "Histoire et géographie CE2",
+      nom: "Histoire et géographie",
       emoji: "🌍",
       seances: 8,
-      path: "/app/primaire/ce2/matieres/histoire-geographie"
+      path: "/app/primaire/histoire-geographie-ce2"
     },
     {
       id: "emc",
-      nom: "Enseignement moral et civique CE2",
+      nom: "Enseignement moral et civique",
       emoji: "⚖️",
       seances: 6,
-      path: "/app/primaire/ce2/matieres/emc"
+      path: "/app/primaire/emc-ce2"
     },
     {
       id: "sciences-technologie",
-      nom: "Sciences et technologie CE2",
+      nom: "Sciences et technologie",
       emoji: "🔬",
       seances: 8,
-      path: "/app/primaire/ce2/matieres/sciences-technologie"
+      path: "/app/primaire/sciences-technologie-ce2"
     },
     {
       id: "anglais",
-      nom: "Anglais CE2",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 8,
-      path: "/app/primaire/ce2/matieres/anglais"
+      path: "/app/primaire/anglais-ce2"
     }
   ],
 
   cm1: [
     {
       id: "francais",
-      nom: "Français CM1",
+      nom: "Français",
       emoji: "📚",
       seances: 12,
-      path: "/app/primaire/cm1/matieres/francais"
+      path: "/app/primaire/francais-cm1"
     },
     {
       id: "mathematiques",
-      nom: "Mathématiques CM1",
+      nom: "Mathématiques",
       emoji: "🔢",
       seances: 12,
-      path: "/app/primaire/cm1/matieres/mathematiques"
+      path: "/app/primaire/mathematiques-cm1"
     },
     {
       id: "histoire-geographie",
-      nom: "Histoire et géographie CM1",
+      nom: "Histoire et géographie",
       emoji: "🌍",
       seances: 8,
-      path: "/app/primaire/cm1/matieres/histoire-geographie"
+      path: "/app/primaire/histoire-geographie-cm1"
     },
     {
       id: "emc",
-      nom: "Enseignement moral et civique CM1",
+      nom: "Enseignement moral et civique",
       emoji: "⚖️",
       seances: 6,
-      path: "/app/primaire/cm1/matieres/emc"
+      path: "/app/primaire/emc-cm1"
     },
     {
       id: "sciences-technologie",
-      nom: "Sciences et technologie CM1",
+      nom: "Sciences et technologie",
       emoji: "🔬",
       seances: 8,
-      path: "/app/primaire/cm1/matieres/sciences-technologie"
+      path: "/app/primaire/sciences-technologie-cm1"
     },
     {
       id: "anglais",
-      nom: "Anglais CM1",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 8,
-      path: "/app/primaire/cm1/matieres/anglais"
+      path: "/app/primaire/anglais-cm1"
     }
   ],
 
   cm2: [
     {
       id: "francais",
-      nom: "Français CM2",
+      nom: "Français",
       emoji: "📚",
       seances: 12,
-      path: "/app/primaire/cm2/matieres/francais"
+      path: "/app/primaire/francais-cm2"
     },
     {
       id: "mathematiques",
-      nom: "Mathématiques CM2",
+      nom: "Mathématiques",
       emoji: "🔢",
       seances: 12,
-      path: "/app/primaire/cm2/matieres/mathematiques"
+      path: "/app/primaire/mathematiques-cm2"
     },
     {
       id: "histoire-geographie",
-      nom: "Histoire et géographie CM2",
+      nom: "Histoire et géographie",
       emoji: "🌍",
       seances: 8,
-      path: "/app/primaire/cm2/matieres/histoire-geographie"
+      path: "/app/primaire/histoire-geographie-cm2"
     },
     {
       id: "emc",
-      nom: "Enseignement moral et civique CM2",
+      nom: "Enseignement moral et civique",
       emoji: "⚖️",
       seances: 6,
-      path: "/app/primaire/cm2/matieres/emc"
+      path: "/app/primaire/emc-cm2"
     },
     {
       id: "sciences-technologie",
-      nom: "Sciences et technologie CM2",
+      nom: "Sciences et technologie",
       emoji: "🔬",
       seances: 8,
-      path: "/app/primaire/cm2/matieres/sciences-technologie"
+      path: "/app/primaire/sciences-technologie-cm2"
     },
     {
       id: "anglais",
-      nom: "Anglais CM2",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 8,
-      path: "/app/primaire/cm2/matieres/anglais"
+      path: "/app/primaire/anglais-cm2"
     }
   ],
 };
 
 // Le primaire n'a pas d'épreuves finales comme le brevet ou le baccalauréat
-// Cette constante est vide mais existe pour la cohérence avec les autres cycles
 export const EPREUVES_PRIMAIRE = [];

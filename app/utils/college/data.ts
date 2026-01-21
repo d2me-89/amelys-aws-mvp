@@ -1,6 +1,13 @@
 /**
  * Données statiques pour le collège
  * 
+ * CONVENTION DE NOMMAGE DES PATHS :
+ * - Format : /app/college/[matiere]-[classe]
+ * - Exemples : 
+ *   - /app/college/mathematiques-sixieme
+ *   - /app/college/francais-cinquieme
+ *   - /app/college/physique-chimie-quatrieme
+ * 
  * Ce fichier contient toutes les données de configuration :
  * - Liste des classes
  * - Matières par classe
@@ -23,271 +30,271 @@ export const MATIERES_PAR_CLASSE: Record<string, Matiere[]> = {
   sixieme: [
     {
       id: "mathematiques",
-      nom: "Mathématiques 6ème",
+      nom: "Mathématiques",
       emoji: "📐",
       seances: 13,
       path: "/app/college/mathematiques-sixieme"
     },
     {
       id: "francais",
-      nom: "Français 6ème",
+      nom: "Français",
       emoji: "📚",
       seances: 15,
-      path: "/app/college/sixieme/matieres/francais"
+      path: "/app/college/francais-sixieme"
     },
     {
       id: "histoire",
-      nom: "Histoire 6ème",
+      nom: "Histoire",
       emoji: "🏛️",
       seances: 11,
-      path: "/app/college/sixieme/matieres/histoire"
+      path: "/app/college/histoire-sixieme"
     },
     {
       id: "geographie",
-      nom: "Géographie 6ème",
+      nom: "Géographie",
       emoji: "🌍",
       seances: 9,
-      path: "/app/college/sixieme/matieres/geographie"
+      path: "/app/college/geographie-sixieme"
     },
     {
       id: "emc",
-      nom: "EMC 6ème",
+      nom: "EMC",
       emoji: "⚖️",
       seances: 8,
-      path: "/app/college/sixieme/matieres/emc"
+      path: "/app/college/emc-sixieme"
     },
     {
       id: "sciences",
-      nom: "Sciences 6ème",
+      nom: "Sciences",
       emoji: "🔬",
       seances: 13,
-      path: "/app/college/sixieme/matieres/sciences"
+      path: "/app/college/sciences-sixieme"
     },
     {
       id: "anglais",
-      nom: "Anglais 6ème",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 10,
-      path: "/app/college/sixieme/matieres/anglais"
+      path: "/app/college/anglais-sixieme"
     }
   ],
   
   cinquieme: [
     {
       id: "mathematiques",
-      nom: "Mathématiques 5ème",
+      nom: "Mathématiques",
       emoji: "📐",
       seances: 12,
-      path: "/app/college/cinquieme/matieres/mathematiques"
+      path: "/app/college/mathematiques-cinquieme"
     },
     {
       id: "francais",
-      nom: "Français 5ème",
+      nom: "Français",
       emoji: "📚",
       seances: 15,
-      path: "/app/college/cinquieme/matieres/francais"
+      path: "/app/college/francais-cinquieme"
     },
     {
       id: "histoire",
-      nom: "Histoire 5ème",
+      nom: "Histoire",
       emoji: "🏛️",
       seances: 11,
-      path: "/app/college/cinquieme/matieres/histoire"
+      path: "/app/college/histoire-cinquieme"
     },
     {
       id: "geographie",
-      nom: "Géographie 5ème",
+      nom: "Géographie",
       emoji: "🌍",
       seances: 9,
-      path: "/app/college/cinquieme/matieres/geographie"
+      path: "/app/college/geographie-cinquieme"
     },
     {
       id: "emc",
-      nom: "EMC 5ème",
+      nom: "EMC",
       emoji: "⚖️",
       seances: 8,
-      path: "/app/college/cinquieme/matieres/emc"
+      path: "/app/college/emc-cinquieme"
     },
     {
       id: "physique-chimie",
-      nom: "Physique-Chimie 5ème",
+      nom: "Physique-Chimie",
       emoji: "⚛️",
       seances: 10,
-      path: "/app/college/cinquieme/matieres/physique-chimie"
+      path: "/app/college/physique-chimie-cinquieme"
     },
     {
       id: "svt",
-      nom: "SVT 5ème",
+      nom: "SVT",
       emoji: "🧬",
       seances: 10,
-      path: "/app/college/cinquieme/matieres/svt"
+      path: "/app/college/svt-cinquieme"
     },
     {
       id: "technologie",
-      nom: "Technologie 5ème",
+      nom: "Technologie",
       emoji: "⚙️",
       seances: 10,
-      path: "/app/college/cinquieme/matieres/technologie"
+      path: "/app/college/technologie-cinquieme"
     },
     {
       id: "anglais",
-      nom: "Anglais 5ème",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 10,
-      path: "/app/college/cinquieme/matieres/anglais"
+      path: "/app/college/anglais-cinquieme"
     },
     {
       id: "espagnol",
-      nom: "Espagnol 5ème",
+      nom: "Espagnol",
       emoji: "🇪🇸",
       seances: 10,
-      path: "/app/college/cinquieme/matieres/espagnol"
+      path: "/app/college/espagnol-cinquieme"
     }
   ],
 
   quatrieme: [
     {
       id: "mathematiques",
-      nom: "Mathématiques 4ème",
+      nom: "Mathématiques",
       emoji: "📐",
       seances: 12,
-      path: "/app/college/quatrieme/matieres/mathematiques"
+      path: "/app/college/mathematiques-quatrieme"
     },
     {
       id: "francais",
-      nom: "Français 4ème",
+      nom: "Français",
       emoji: "📚",
       seances: 15,
-      path: "/app/college/quatrieme/matieres/francais"
+      path: "/app/college/francais-quatrieme"
     },
     {
       id: "histoire",
-      nom: "Histoire 4ème",
+      nom: "Histoire",
       emoji: "🏛️",
       seances: 11,
-      path: "/app/college/quatrieme/matieres/histoire"
+      path: "/app/college/histoire-quatrieme"
     },
     {
       id: "geographie",
-      nom: "Géographie 4ème",
+      nom: "Géographie",
       emoji: "🌍",
       seances: 9,
-      path: "/app/college/quatrieme/matieres/geographie"
+      path: "/app/college/geographie-quatrieme"
     },
     {
       id: "emc",
-      nom: "EMC 4ème",
+      nom: "EMC",
       emoji: "⚖️",
       seances: 8,
-      path: "/app/college/quatrieme/matieres/emc"
+      path: "/app/college/emc-quatrieme"
     },
     {
       id: "physique-chimie",
-      nom: "Physique-Chimie 4ème",
+      nom: "Physique-Chimie",
       emoji: "⚛️",
       seances: 10,
-      path: "/app/college/quatrieme/matieres/physique-chimie"
+      path: "/app/college/physique-chimie-quatrieme"
     },
     {
       id: "svt",
-      nom: "SVT 4ème",
+      nom: "SVT",
       emoji: "🧬",
       seances: 10,
-      path: "/app/college/quatrieme/matieres/svt"
+      path: "/app/college/svt-quatrieme"
     },
     {
       id: "technologie",
-      nom: "Technologie 4ème",
+      nom: "Technologie",
       emoji: "⚙️",
       seances: 10,
-      path: "/app/college/quatrieme/matieres/technologie"
+      path: "/app/college/technologie-quatrieme"
     },
     {
       id: "anglais",
-      nom: "Anglais 4ème",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 10,
-      path: "/app/college/quatrieme/matieres/anglais"
+      path: "/app/college/anglais-quatrieme"
     },
     {
       id: "espagnol",
-      nom: "Espagnol 4ème",
+      nom: "Espagnol",
       emoji: "🇪🇸",
       seances: 10,
-      path: "/app/college/quatrieme/matieres/espagnol"
+      path: "/app/college/espagnol-quatrieme"
     }
   ],
 
   troisieme: [
     {
       id: "mathematiques",
-      nom: "Mathématiques 3ème",
+      nom: "Mathématiques",
       emoji: "📐",
       seances: 12,
-      path: "/app/college/troisieme/matieres/mathematiques"
+      path: "/app/college/mathematiques-troisieme"
     },
     {
       id: "francais",
-      nom: "Français 3ème",
+      nom: "Français",
       emoji: "📚",
       seances: 15,
-      path: "/app/college/troisieme/matieres/francais"
+      path: "/app/college/francais-troisieme"
     },
     {
       id: "histoire",
-      nom: "Histoire 3ème",
+      nom: "Histoire",
       emoji: "🏛️",
       seances: 11,
-      path: "/app/college/troisieme/matieres/histoire"
+      path: "/app/college/histoire-troisieme"
     },
     {
       id: "geographie",
-      nom: "Géographie 3ème",
+      nom: "Géographie",
       emoji: "🌍",
       seances: 9,
-      path: "/app/college/troisieme/matieres/geographie"
+      path: "/app/college/geographie-troisieme"
     },
     {
       id: "emc",
-      nom: "EMC 3ème",
+      nom: "EMC",
       emoji: "⚖️",
       seances: 8,
-      path: "/app/college/troisieme/matieres/emc"
+      path: "/app/college/emc-troisieme"
     },
     {
       id: "physique-chimie",
-      nom: "Physique-Chimie 3ème",
+      nom: "Physique-Chimie",
       emoji: "⚛️",
       seances: 10,
-      path: "/app/college/troisieme/matieres/physique-chimie"
+      path: "/app/college/physique-chimie-troisieme"
     },
     {
       id: "svt",
-      nom: "SVT 3ème",
+      nom: "SVT",
       emoji: "🧬",
       seances: 10,
-      path: "/app/college/troisieme/matieres/svt"
+      path: "/app/college/svt-troisieme"
     },
     {
       id: "technologie",
-      nom: "Technologie 3ème",
+      nom: "Technologie",
       emoji: "⚙️",
       seances: 10,
-      path: "/app/college/troisieme/matieres/technologie"
+      path: "/app/college/technologie-troisieme"
     },
     {
       id: "anglais",
-      nom: "Anglais 3ème",
+      nom: "Anglais",
       emoji: "🇬🇧",
       seances: 10,
-      path: "/app/college/troisieme/matieres/anglais"
+      path: "/app/college/anglais-troisieme"
     },
     {
       id: "espagnol",
-      nom: "Espagnol 3ème",
+      nom: "Espagnol",
       emoji: "🇪🇸",
       seances: 10,
-      path: "/app/college/troisieme/matieres/espagnol"
+      path: "/app/college/espagnol-troisieme"
     }
   ],
 };
@@ -299,34 +306,34 @@ export const EPREUVES_BREVET: Epreuve[] = [
     nom: "Français",
     emoji: "📚",
     seances: 10,
-    path: "/app/college/brevet/epreuves/francais"
+    path: "/app/college/brevet-francais"
   },
   {
     id: "mathematiques",
     nom: "Mathématiques",
     emoji: "📐",
     seances: 10,
-    path: "/app/college/brevet/epreuves/mathematiques"
+    path: "/app/college/brevet-mathematiques"
   },
   {
     id: "histoire-geo-emc",
     nom: "Histoire-Géographie + EMC",
     emoji: "🏛️",
     seances: 10,
-    path: "/app/college/brevet/epreuves/histoire-geo-emc"
+    path: "/app/college/brevet-histoire-geo-emc"
   },
   {
     id: "sciences",
     nom: "Sciences",
     emoji: "🔬",
     seances: 10,
-    path: "/app/college/brevet/epreuves/sciences"
+    path: "/app/college/brevet-sciences"
   },
   {
     id: "oral",
     nom: "Oral du brevet",
-    emoji: "📣",
+    emoji: "🎤",
     seances: 10,
-    path: "/app/college/brevet/epreuves/oral"
+    path: "/app/college/brevet-oral"
   }
 ];

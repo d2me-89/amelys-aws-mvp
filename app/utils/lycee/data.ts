@@ -1,6 +1,13 @@
 /**
  * Données statiques pour le lycée
  * 
+ * CONVENTION DE NOMMAGE DES PATHS (cohérence avec le collège) :
+ * - Format : /app/lycee/[matiere]-[classe]
+ * - Exemples : 
+ *   - /app/lycee/mathematiques-seconde
+ *   - /app/lycee/francais-premiere
+ *   - /app/lycee/philosophie-terminale
+ * 
  * Ce fichier contient toutes les données de configuration :
  * - Liste des classes
  * - Matières par classe
@@ -24,7 +31,7 @@ export const MATIERES_PAR_CLASSE: Record<string, Matiere[]> = {
       id: "mathematiques",
       nom: "Mathématiques",
       emoji: "📐",
-      seances: 12,
+      seances: 14,
       path: "/app/lycee/mathematiques-seconde"
     },
     {
@@ -32,70 +39,70 @@ export const MATIERES_PAR_CLASSE: Record<string, Matiere[]> = {
       nom: "Français",
       emoji: "📚",
       seances: 15,
-      path: "/app/lycee/seconde/matieres/francais"
+      path: "/app/lycee/francais-seconde"
     },
     {
       id: "histoire",
       nom: "Histoire",
       emoji: "🏛️",
       seances: 11,
-      path: "/app/lycee/seconde/matieres/histoire"
+      path: "/app/lycee/histoire-seconde"
     },
     {
       id: "geographie",
       nom: "Géographie",
       emoji: "🌍",
       seances: 9,
-      path: "/app/lycee/seconde/matieres/geographie"
+      path: "/app/lycee/geographie-seconde"
     },
     {
       id: "emc",
       nom: "EMC",
       emoji: "⚖️",
       seances: 8,
-      path: "/app/lycee/seconde/matieres/emc"
+      path: "/app/lycee/emc-seconde"
     },
     {
       id: "ses",
       nom: "SES",
       emoji: "💼",
       seances: 10,
-      path: "/app/lycee/seconde/matieres/ses"
+      path: "/app/lycee/ses-seconde"
     },
     {
       id: "physique-chimie",
       nom: "Physique-Chimie",
       emoji: "⚛️",
       seances: 10,
-      path: "/app/lycee/seconde/matieres/physique-chimie"
+      path: "/app/lycee/physique-chimie-seconde"
     },
     {
       id: "svt",
       nom: "SVT",
       emoji: "🧬",
       seances: 10,
-      path: "/app/lycee/seconde/matieres/svt"
+      path: "/app/lycee/svt-seconde"
     },
     {
-      id: "nsi",
-      nom: "Numérique et sciences informatiques",
+      id: "snt",
+      nom: "Sciences numériques et technologie",
       emoji: "💻",
       seances: 10,
-      path: "/app/lycee/seconde/matieres/nsi"
+      path: "/app/lycee/snt-seconde"
     },
     {
       id: "anglais",
       nom: "Anglais",
       emoji: "🇬🇧",
       seances: 10,
-      path: "/app/lycee/seconde/matieres/anglais"
+      path: "/app/lycee/anglais-seconde"
     },
     {
       id: "espagnol",
       nom: "Espagnol",
       emoji: "🇪🇸",
       seances: 10,
-      path: "/app/lycee/seconde/matieres/espagnol"
+      path: "/app/lycee/espagnol-seconde"
     }
   ],
 
@@ -105,112 +112,112 @@ export const MATIERES_PAR_CLASSE: Record<string, Matiere[]> = {
       nom: "Mathématiques",
       emoji: "📐",
       seances: 12,
-      path: "/app/lycee/premiere/matieres/mathematiques"
+      path: "/app/lycee/mathematiques-premiere"
     },
     {
       id: "francais",
       nom: "Français",
       emoji: "📚",
       seances: 15,
-      path: "/app/lycee/premiere/matieres/francais"
+      path: "/app/lycee/francais-premiere"
     },
     {
       id: "histoire",
       nom: "Histoire",
       emoji: "🏛️",
       seances: 11,
-      path: "/app/lycee/premiere/matieres/histoire"
+      path: "/app/lycee/histoire-premiere"
     },
     {
       id: "geographie",
       nom: "Géographie",
       emoji: "🌍",
       seances: 9,
-      path: "/app/lycee/premiere/matieres/geographie"
+      path: "/app/lycee/geographie-premiere"
     },
     {
       id: "emc",
       nom: "EMC",
       emoji: "⚖️",
       seances: 8,
-      path: "/app/lycee/premiere/matieres/emc"
+      path: "/app/lycee/emc-premiere"
     },
     {
       id: "ses",
       nom: "SES",
       emoji: "💼",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/ses"
+      path: "/app/lycee/ses-premiere"
     },
     {
       id: "enseignement-scientifique",
       nom: "Enseignement scientifique",
       emoji: "🔬",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/enseignement-scientifique"
+      path: "/app/lycee/enseignement-scientifique-premiere"
     },
     {
       id: "physique-chimie",
       nom: "Physique-Chimie",
       emoji: "⚛️",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/physique-chimie"
+      path: "/app/lycee/physique-chimie-premiere"
     },
     {
       id: "svt",
       nom: "SVT",
       emoji: "🧬",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/svt"
+      path: "/app/lycee/svt-premiere"
     },
     {
       id: "nsi",
       nom: "Numérique et sciences informatiques",
       emoji: "💻",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/nsi"
+      path: "/app/lycee/nsi-premiere"
     },
     {
       id: "anglais",
       nom: "Anglais",
       emoji: "🇬🇧",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/anglais"
+      path: "/app/lycee/anglais-premiere"
     },
     {
       id: "espagnol",
       nom: "Espagnol",
       emoji: "🇪🇸",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/espagnol"
+      path: "/app/lycee/espagnol-premiere"
     },
     {
       id: "hggsp",
       nom: "Histoire-géographie, géopolitique et sciences politiques",
       emoji: "🌍",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/hggsp"
+      path: "/app/lycee/hggsp-premiere"
     },
     {
       id: "hlp",
       nom: "Humanités, littérature et philosophie",
       emoji: "📖",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/hlp"
+      path: "/app/lycee/hlp-premiere"
     },
     {
       id: "llce-anglais",
       nom: "LLCE Anglais",
       emoji: "🎭",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/llce-anglais"
+      path: "/app/lycee/llce-anglais-premiere"
     },
     {
       id: "sciences-ingenieur",
       nom: "Sciences de l'ingénieur",
       emoji: "⚙️",
       seances: 10,
-      path: "/app/lycee/premiere/matieres/sciences-ingenieur"
+      path: "/app/lycee/sciences-ingenieur-premiere"
     }
   ],
 
@@ -220,119 +227,126 @@ export const MATIERES_PAR_CLASSE: Record<string, Matiere[]> = {
       nom: "Mathématiques",
       emoji: "📐",
       seances: 12,
-      path: "/app/lycee/terminale/matieres/mathematiques"
+      path: "/app/lycee/mathematiques-terminale"
     },
     {
       id: "philosophie",
       nom: "Philosophie",
       emoji: "🤔",
       seances: 12,
-      path: "/app/lycee/terminale/matieres/philosophie"
+      path: "/app/lycee/philosophie-terminale"
     },
     {
       id: "histoire",
       nom: "Histoire",
       emoji: "🏛️",
       seances: 11,
-      path: "/app/lycee/terminale/matieres/histoire"
+      path: "/app/lycee/histoire-terminale"
     },
     {
       id: "geographie",
       nom: "Géographie",
       emoji: "🌍",
       seances: 9,
-      path: "/app/lycee/terminale/matieres/geographie"
+      path: "/app/lycee/geographie-terminale"
     },
     {
       id: "emc",
       nom: "EMC",
       emoji: "⚖️",
       seances: 8,
-      path: "/app/lycee/terminale/matieres/emc"
+      path: "/app/lycee/emc-terminale"
     },
     {
       id: "ses",
       nom: "SES",
       emoji: "💼",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/ses"
+      path: "/app/lycee/ses-terminale"
     },
     {
       id: "enseignement-scientifique",
       nom: "Enseignement scientifique",
       emoji: "🔬",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/enseignement-scientifique"
+      path: "/app/lycee/enseignement-scientifique-terminale"
     },
     {
       id: "physique-chimie",
       nom: "Physique-Chimie",
       emoji: "⚛️",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/physique-chimie"
+      path: "/app/lycee/physique-chimie-terminale"
     },
     {
       id: "svt",
       nom: "SVT",
       emoji: "🧬",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/svt"
+      path: "/app/lycee/svt-terminale"
     },
     {
       id: "nsi",
       nom: "Numérique et sciences informatiques",
       emoji: "💻",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/nsi"
+      path: "/app/lycee/nsi-terminale"
     },
     {
       id: "anglais",
       nom: "Anglais",
       emoji: "🇬🇧",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/anglais"
+      path: "/app/lycee/anglais-terminale"
     },
     {
       id: "espagnol",
       nom: "Espagnol",
       emoji: "🇪🇸",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/espagnol"
+      path: "/app/lycee/espagnol-terminale"
     },
     {
       id: "hggsp",
       nom: "Histoire-géographie, géopolitique et sciences politiques",
       emoji: "🌍",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/hggsp"
+      path: "/app/lycee/hggsp-terminale"
     },
     {
       id: "hlp",
       nom: "Humanités, littérature et philosophie",
       emoji: "📖",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/hlp"
+      path: "/app/lycee/hlp-terminale"
     },
     {
       id: "llce-anglais",
       nom: "LLCE Anglais",
       emoji: "🎭",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/llce-anglais"
+      path: "/app/lycee/llce-anglais-terminale"
     },
     {
       id: "sciences-ingenieur",
       nom: "Sciences de l'ingénieur",
       emoji: "⚙️",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/sciences-ingenieur"
+      path: "/app/lycee/sciences-ingenieur-terminale"
     },
     {
       id: "maths-complementaires",
       nom: "Mathématiques complémentaires",
       emoji: "📊",
       seances: 10,
-      path: "/app/lycee/terminale/matieres/maths-complementaires"
+      path: "/app/lycee/maths-complementaires-terminale"
+    },
+    {
+      id: "maths-expertes",
+      nom: "Mathématiques expertes",
+      emoji: "📈",
+      seances: 10,
+      path: "/app/lycee/maths-expertes-terminale"
     }
   ],
 };
@@ -344,104 +358,83 @@ export const EPREUVES_BACCALAUREAT: Epreuve[] = [
     nom: "Français",
     emoji: "📚",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/francais"
+    path: "/app/lycee/bac-francais"
   },
   {
     id: "philosophie",
     nom: "Philosophie",
     emoji: "🤔",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/philosophie"
+    path: "/app/lycee/bac-philosophie"
   },
   {
-    id: "ses",
-    nom: "SES",
-    emoji: "💼",
-    seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/ses"
-  },
-  {
-    id: "enseignement-scientifique",
-    nom: "Enseignement scientifique",
-    emoji: "🔬",
-    seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/enseignement-scientifique"
+    id: "grand-oral",
+    nom: "Grand oral",
+    emoji: "🎤",
+    seances: 8,
+    path: "/app/lycee/bac-grand-oral"
   },
   {
     id: "mathematiques",
     nom: "Mathématiques",
     emoji: "📐",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/mathematiques"
+    path: "/app/lycee/bac-mathematiques"
   },
   {
     id: "physique-chimie",
     nom: "Physique-Chimie",
     emoji: "⚛️",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/physique-chimie"
+    path: "/app/lycee/bac-physique-chimie"
   },
   {
     id: "svt",
     nom: "SVT",
     emoji: "🧬",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/svt"
+    path: "/app/lycee/bac-svt"
   },
   {
-    id: "nsi",
-    nom: "Numérique et sciences informatiques",
-    emoji: "💻",
+    id: "ses",
+    nom: "SES",
+    emoji: "💼",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/nsi"
-  },
-  {
-    id: "anglais",
-    nom: "Anglais",
-    emoji: "🇬🇧",
-    seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/anglais"
-  },
-  {
-    id: "espagnol",
-    nom: "Espagnol",
-    emoji: "🇪🇸",
-    seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/espagnol"
+    path: "/app/lycee/bac-ses"
   },
   {
     id: "hggsp",
-    nom: "Histoire-géographie, géopolitique et sciences politiques",
+    nom: "HGGSP",
     emoji: "🌍",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/hggsp"
+    path: "/app/lycee/bac-hggsp"
   },
   {
     id: "hlp",
-    nom: "Humanités, littérature et philosophie",
+    nom: "HLP",
     emoji: "📖",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/hlp"
+    path: "/app/lycee/bac-hlp"
   },
   {
     id: "llce-anglais",
     nom: "LLCE Anglais",
     emoji: "🎭",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/llce-anglais"
+    path: "/app/lycee/bac-llce-anglais"
+  },
+  {
+    id: "nsi",
+    nom: "NSI",
+    emoji: "💻",
+    seances: 10,
+    path: "/app/lycee/bac-nsi"
   },
   {
     id: "sciences-ingenieur",
     nom: "Sciences de l'ingénieur",
     emoji: "⚙️",
     seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/sciences-ingenieur"
-  },
-  {
-    id: "grand-oral",
-    nom: "Grand oral",
-    emoji: "📣",
-    seances: 10,
-    path: "/app/lycee/baccalaureat/epreuves/grand-oral"
+    path: "/app/lycee/bac-sciences-ingenieur"
   }
 ];
