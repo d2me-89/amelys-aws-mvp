@@ -8,6 +8,7 @@
 "use client";
 
 import { useState } from 'react';
+import AppLayout from '@/app/components/AppLayout';
 
 // ✅ Imports depuis les fichiers unifiés
 import { ClasseButton, MatiereGrid } from '@/app/components/shared';
@@ -49,13 +50,13 @@ export default function LyceeHomePage() {
   const description = getDescriptionClasse(selectedClasse, lyceeData);
 
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
-        padding: "3rem 2rem",
-      }}
-    >
+    <AppLayout>
+      <div
+        style={{
+          minHeight: "100vh",
+          padding: "3rem 2rem",
+        }}
+      >
       {/* En-tête */}
       <div
         style={{
@@ -141,5 +142,6 @@ export default function LyceeHomePage() {
         cycle="lycee"  // 👈 Thème bleu pour le lycée
       />
     </div>
+    </AppLayout>
   );
 }
