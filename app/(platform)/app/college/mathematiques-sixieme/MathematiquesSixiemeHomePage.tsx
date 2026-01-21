@@ -73,7 +73,7 @@ export default function MathematiquesSixiemeHomePage() {
   
   // Hooks personnalisés pour gérer les états
   const faqToggle = useFAQToggle();
-  const chapterToggle = useChapterToggle();
+  const chapterToggle = useChapterToggle(chapitresData.length);
 
   // ============================================
   // TRANSFORMATION DES DONNÉES
