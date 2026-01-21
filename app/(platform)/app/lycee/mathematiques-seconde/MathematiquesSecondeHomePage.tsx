@@ -105,9 +105,9 @@ export default function MathematiquesSecondeHomePage() {
       {/* ============================================ */}
       <div style={{
         background: LYCEE_COLORS.gradient,
-        padding: "3rem 4rem",
+        padding: "2rem 4rem",
         position: "relative",
-        minHeight: "240px",
+        minHeight: "180px",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center"
@@ -249,7 +249,7 @@ export default function MathematiquesSecondeHomePage() {
 
       {/* Contenu principal */}
       <div style={{
-        padding: "4rem 4rem 3rem 4rem",
+        padding: "2rem 4rem 3rem 4rem",
         maxWidth: "100%",
         margin: "0",
         display: "flex",

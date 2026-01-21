@@ -88,9 +88,9 @@ export default function MathematiquesSixiemeHomePage() {
       {/* Hero */}
       <div style={{
         background: COLLEGE_COLORS.gradient,
-        padding: "3rem 4rem",
+        padding: "2rem 4rem",
         position: "relative",
-        minHeight: "240px",
+        minHeight: "180px",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center"
@@ -226,7 +226,7 @@ export default function MathematiquesSixiemeHomePage() {
       </div>
 
       <div style={{
-        padding: "4rem 4rem 3rem 4rem",
+        padding: "2rem 4rem 3rem 4rem",
         maxWidth: "100%",
         margin: "0",
         display: "flex",
