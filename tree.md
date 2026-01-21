@@ -255,18 +255,16 @@
 │   │       ├── lycee
 │   │       │   ├── LyceeHomePage.tsx
 │   │       │   └── page.tsx
-│   │       └── page.tsx
+│   │       ├── page.tsx
+│   │       └── primaire
+│   │           ├── PrimaireHomePage.tsx
+│   │           └── page.tsx
 │   ├── INSTALLATION-SIDEBAR.md
 │   ├── components
 │   │   ├── AppLayout.tsx
 │   │   ├── Sidebar.tsx
 │   │   ├── SidebarContext.tsx
-│   │   ├── college
-│   │   │   ├── ClasseButton.tsx
-│   │   │   ├── MatiereCard.tsx
-│   │   │   ├── MatiereGrid.tsx
-│   │   │   └── index.ts
-│   │   └── lycee
+│   │   └── shared
 │   │       ├── ClasseButton.tsx
 │   │       ├── MatiereCard.tsx
 │   │       ├── MatiereGrid.tsx
@@ -507,18 +505,20 @@
 │   └── utils
 │       ├── college
 │       │   ├── data.ts
-│       │   ├── helpers.ts
-│       │   ├── index.ts
-│       │   └── types.ts
+│       │   └── index.ts
 │       ├── lycee
 │       │   ├── data.ts
+│       │   └── index.ts
+│       ├── primaire
+│       │   ├── data.ts
+│       │   └── index.ts
+│       ├── shared
 │       │   ├── helpers.ts
 │       │   ├── index.ts
 │       │   └── types.ts
 │       └── ui
 │           ├── index.ts
-│           ├── lyceeStyles.ts
-│           └── styles.ts
+│           └── theme.ts
 ├── backend
 │   ├── ARCHIVElambda-start-cours-conversation.py
 │   ├── lambda-start-cours-conversation.py
@@ -544,4 +544,4 @@
 ├── tree.md
 └── tsconfig.json
 
-369 directories, 176 files
+371 directories, 174 files

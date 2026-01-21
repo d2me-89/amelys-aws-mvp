@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import AppLayout from "@/app/components/AppLayout";
+import AppLayout from "@/app/components/sidebar/AppLayout";
 import ReactMarkdown from 'react-markdown';
 import { 
   LuSend, 

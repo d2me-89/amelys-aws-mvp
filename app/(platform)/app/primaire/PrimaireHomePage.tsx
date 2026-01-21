@@ -8,10 +8,10 @@
 "use client";
 
 import { useState } from 'react';
-import AppLayout from '@/app/components/AppLayout';
+import AppLayout from '@/app/components/sidebar/AppLayout';
 
 // ✅ Imports depuis les fichiers unifiés
-import { ClasseButton, MatiereGrid } from '@/app/components/shared';
+import { ClasseButton, MatiereGrid } from '@/app/components/shared/interface-cycle';
 import { 
   Classe, 
   Matiere,

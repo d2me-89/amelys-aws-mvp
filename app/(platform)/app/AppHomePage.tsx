@@ -11,7 +11,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import AppLayout from "@/app/components/AppLayout";
+import AppLayout from "@/app/components/sidebar/AppLayout";
 
 export default function AppHomePage() {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
