@@ -37,15 +37,16 @@ export const CompetencesMenu = forwardRef<HTMLDivElement, CompetencesMenuProps>(
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            padding: "0.85rem 1rem",
-            background: "transparent", // 🔥 Transparent comme les autres
+            padding: "0.75rem 1rem",
+            background: "transparent",
             border: "none",
             borderRadius: "8px",
             color: "#fff",
             fontSize: "1rem",
             fontWeight: 500,
             cursor: "pointer",
-            transition: "all 0.2s ease"
+            transition: "all 0.2s ease",
+            marginBottom: "0.4rem"
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.background = COLORS.overlay.hover; // 🔥 Hover adaptatif
