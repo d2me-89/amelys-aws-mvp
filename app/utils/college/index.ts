@@ -1,22 +1,8 @@
-// Export des types
-export type { Matiere, Epreuve, Classe } from './types';
+/**
+ * Export centralisé des données du collège
+ * 
+ * Permet d'importer facilement depuis un seul endroit :
+ * import { CLASSES, MATIERES_PAR_CLASSE } from '@/app/utils/college';
+ */
 
-// Export des données
-export { 
-  CLASSES, 
-  MATIERES_PAR_CLASSE, 
-  EPREUVES_BREVET 
-} from './data';
-
-// Export des helpers
-export {
-  getMatieresParClasse,
-  getEpreuvesBrevet,
-  getTitreClasse,
-  getNombreMatieresClasse,
-  getDescriptionClasse,
-  isBrevetClasse,
-  isRegularClasse,
-  getLabelClasse,
-  classeExists,
-} from './helpers';
+export { CLASSES, MATIERES_PAR_CLASSE, EPREUVES_BREVET } from './data';

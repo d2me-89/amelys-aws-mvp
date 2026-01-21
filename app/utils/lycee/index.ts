@@ -1,22 +1,8 @@
-// Export des types
-export type { Matiere, Epreuve, Classe } from './types';
+/**
+ * Export centralisé des données du lycée
+ * 
+ * Permet d'importer facilement depuis un seul endroit :
+ * import { CLASSES, MATIERES_PAR_CLASSE } from '@/app/utils/lycee';
+ */
 
-// Export des données
-export { 
-  CLASSES, 
-  MATIERES_PAR_CLASSE, 
-  EPREUVES_BACCALAUREAT 
-} from './data';
-
-// Export des helpers
-export {
-  getMatieresParClasse,
-  getEpreuvesBaccalaureat,
-  getTitreClasse,
-  getNombreMatieresClasse,
-  getDescriptionClasse,
-  isBaccalaureatClasse,
-  isRegularClasse,
-  getLabelClasse,
-  classeExists,
-} from './helpers';
+export { CLASSES, MATIERES_PAR_CLASSE, EPREUVES_BACCALAUREAT } from './data';

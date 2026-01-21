@@ -1,26 +1,21 @@
 /**
- * Composant MatiereCard
+ * Composant MatiereCard unifié pour collège et lycée
  * 
- * Carte individuelle représentant une matière ou une épreuve.
- * Inclut :
- * - Icône avec effet de brillance au hover
- * - Badge du nombre de séances
- * - Titre de la matière
- * - Espace réservé pour la progression future
+ * Ce composant remplace les deux versions séparées.
+ * Il s'adapte automatiquement au cycle (collège/lycée) grâce au système de thèmes.
  * 
  * Props:
  * - matiere: Objet contenant les infos de la matière
  * - isHovered: État du hover géré par le parent
  * - onHoverChange: Callback pour notifier le changement de hover
- * 
- * Avantage : Composant réutilisable pour matières ET épreuves du brevet
+ * - cycle: 'college' ou 'lycee' pour déterminer le thème de couleurs
  */
 
 "use client";
 
 import React from 'react';
 import Link from 'next/link';
-import { Matiere } from '@/app/utils/college/types';
+import { Matiere, Cycle } from '@/app/utils/shared/types';
 import {
   getCardStyle,
   getCardHeaderStyle,
@@ -30,18 +25,20 @@ import {
   getCardTitleStyle,
   getCardBodyStyle,
   getProgressPlaceholderStyle,
-} from '@/app/utils/ui/styles';
+} from '@/app/utils/ui/theme';
 
 type MatiereCardProps = {
   matiere: Matiere;
   isHovered: boolean;
   onHoverChange: (id: string | null) => void;
+  cycle: Cycle;  // 👈 Cette prop détermine le thème (violet ou bleu)
 };
 
 export const MatiereCard: React.FC<MatiereCardProps> = ({ 
   matiere, 
   isHovered, 
-  onHoverChange 
+  onHoverChange,
+  cycle  // 👈 On reçoit le cycle en props
 }) => {
   return (
     <Link
@@ -56,13 +53,13 @@ export const MatiereCard: React.FC<MatiereCardProps> = ({
       aria-label={`Accéder à ${matiere.nom}`}
     >
       <div style={getCardStyle(isHovered)}>
-        {/* En-tête avec gradient */}
-        <div style={getCardHeaderStyle()}>
-          {/* Effet de brillance */}
-          <div style={getGlowEffectStyle()} />
+        {/* En-tête avec gradient (couleur selon le cycle) */}
+        <div style={getCardHeaderStyle(cycle)}>
+          {/* Effet de brillance (couleur selon le cycle) */}
+          <div style={getGlowEffectStyle(cycle)} />
 
-          {/* Icône avec effet lumineux au hover */}
-          <div style={getIconContainerStyle(isHovered)}>
+          {/* Icône avec effet lumineux au hover (couleur selon le cycle) */}
+          <div style={getIconContainerStyle(isHovered, cycle)}>
             <span 
               style={{ fontSize: "1.87rem" }}
               aria-hidden="true"
@@ -74,8 +71,8 @@ export const MatiereCard: React.FC<MatiereCardProps> = ({
 
         {/* Corps de la carte */}
         <div style={getCardBodyStyle()}>
-          {/* Badge du nombre de séances */}
-          <div style={getBadgeStyle()}>
+          {/* Badge du nombre de séances (couleur selon le cycle) */}
+          <div style={getBadgeStyle(cycle)}>
             {matiere.seances} séances
           </div>
 

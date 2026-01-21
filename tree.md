@@ -260,7 +260,17 @@
 │   ├── components
 │   │   ├── AppLayout.tsx
 │   │   ├── Sidebar.tsx
-│   │   └── SidebarContext.tsx
+│   │   ├── SidebarContext.tsx
+│   │   ├── college
+│   │   │   ├── ClasseButton.tsx
+│   │   │   ├── MatiereCard.tsx
+│   │   │   ├── MatiereGrid.tsx
+│   │   │   └── index.ts
+│   │   └── lycee
+│   │       ├── ClasseButton.tsx
+│   │       ├── MatiereCard.tsx
+│   │       ├── MatiereGrid.tsx
+│   │       └── index.ts
 │   ├── documents
 │   │   ├── college
 │   │   │   ├── brevet
@@ -493,7 +503,28 @@
 │   ├── favicon.ico
 │   ├── globals.css
 │   ├── layout.tsx
-│   └── page.tsx
+│   ├── page.tsx
+│   └── utils
+│       ├── college
+│       │   ├── data.ts
+│       │   ├── helpers.ts
+│       │   ├── index.ts
+│       │   └── types.ts
+│       ├── lycee
+│       │   ├── data.ts
+│       │   ├── helpers.ts
+│       │   ├── index.ts
+│       │   └── types.ts
+│       └── ui
+│           ├── index.ts
+│           ├── lyceeStyles.ts
+│           └── styles.ts
+├── backend
+│   ├── ARCHIVElambda-start-cours-conversation.py
+│   ├── lambda-start-cours-conversation.py
+│   ├── lambda_get_conversation.py
+│   ├── lambda_send_message.py
+│   └── structure-dossier-matiere-exemple.sh
 ├── env.local
 ├── eslint.config.mjs
 ├── next-env.d.ts
@@ -511,11 +542,6 @@
 │   ├── vercel.svg
 │   └── window.svg
 ├── tree.md
-├── tsconfig.json
-└── utils
-    ├── lambda-start-cours-conversation.py
-    ├── lambda_get_conversation.py
-    ├── lambda_send_message.py
-    └── structure-dossier-matiere-exemple.sh
+└── tsconfig.json
 
-363 directories, 156 files
+369 directories, 176 files

@@ -1,6 +1,12 @@
-export { THEME_COLORS, GRADIENTS } from './styles';
+/**
+ * Export centralisé du système de thèmes
+ * 
+ * Permet d'importer facilement depuis un seul endroit :
+ * import { getTheme, getButtonStyle } from '@/app/utils/ui';
+ */
 
 export {
+  getTheme,
   getButtonStyle,
   getButtonHoverStyle,
   getCardStyle,
@@ -11,5 +17,4 @@ export {
   getCardTitleStyle,
   getCardBodyStyle,
   getProgressPlaceholderStyle,
-} from './styles';
-
+} from './theme';

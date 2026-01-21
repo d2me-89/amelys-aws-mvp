@@ -7,7 +7,7 @@
  * - Épreuves du baccalauréat
  */
 
-import { Classe, Matiere, Epreuve } from './types';
+import { Classe, Matiere, Epreuve } from '../shared/types';
 
 // Liste des classes disponibles
 export const CLASSES: Classe[] = [

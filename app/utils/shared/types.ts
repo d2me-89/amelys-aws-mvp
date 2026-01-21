@@ -1,8 +1,7 @@
 /**
- * Types TypeScript pour les entités du lycée
+ * Types TypeScript partagés entre collège et lycée
  * 
- * Ce fichier centralise tous les types utilisés dans l'application lycée.
- * Identiques aux types du collège pour garantir la cohérence.
+ * Ces types sont identiques pour les deux cycles, donc on les centralise ici.
  */
 
 export type Matiere = {
@@ -22,7 +21,12 @@ export type Epreuve = {
 };
 
 export type Classe = {
-  id: string;        // Identifiant (ex: "seconde")
-  label: string;     // Label affiché (ex: "Seconde")
+  id: string;        // Identifiant (ex: "sixieme" ou "seconde")
+  label: string;     // Label affiché (ex: "Sixième" ou "Seconde")
 };
 
+/**
+ * Type pour identifier le cycle scolaire
+ * Permet de différencier collège et lycée dans le code partagé
+ */
+export type Cycle = 'college' | 'lycee';

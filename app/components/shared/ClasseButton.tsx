@@ -1,31 +1,34 @@
 /**
- * Composant ClasseButton pour le lycée
+ * Composant ClasseButton unifié pour collège et lycée
  * 
- * Bouton de sélection de classe avec thème bleu pour le lycée.
- * Identique au composant du collège mais avec les couleurs bleues.
+ * Ce composant remplace les deux versions séparées.
+ * Il s'adapte automatiquement au cycle (collège/lycée) grâce au système de thèmes.
  * 
  * Props:
  * - classe: Objet contenant id et label de la classe
  * - isSelected: Indique si ce bouton est actuellement sélectionné
  * - onClick: Callback appelé lors du clic
+ * - cycle: 'college' ou 'lycee' pour déterminer le thème de couleurs
  */
 
 "use client";
 
 import React, { useState, CSSProperties } from 'react';
-import { Classe } from '@/app/utils/lycee/types';
-import { getLyceeButtonStyle, getLyceeButtonHoverStyle } from '@/app/utils/ui/lyceeStyles';
+import { Classe, Cycle } from '@/app/utils/shared/types';
+import { getButtonStyle, getButtonHoverStyle } from '@/app/utils/ui/theme';
 
 type ClasseButtonProps = {
   classe: Classe;
   isSelected: boolean;
   onClick: () => void;
+  cycle: Cycle;  // 👈 Cette prop détermine le thème (violet ou bleu)
 };
 
-export const LyceeClasseButton: React.FC<ClasseButtonProps> = ({ 
+export const ClasseButton: React.FC<ClasseButtonProps> = ({ 
   classe, 
   isSelected, 
-  onClick 
+  onClick,
+  cycle  // 👈 On reçoit le cycle en props
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -41,9 +44,9 @@ export const LyceeClasseButton: React.FC<ClasseButtonProps> = ({
     }
   };
 
-  // Calcul du style final
-  const baseStyle = getLyceeButtonStyle(isSelected);
-  const hoverStyle = getLyceeButtonHoverStyle();
+  // 👇 On passe le cycle à la fonction de style
+  const baseStyle = getButtonStyle(isSelected, cycle);
+  const hoverStyle = getButtonHoverStyle();
   const finalStyle: CSSProperties = isHovered && !isSelected
     ? { ...baseStyle, ...hoverStyle }
     : baseStyle;

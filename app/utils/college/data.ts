@@ -5,11 +5,9 @@
  * - Liste des classes
  * - Matières par classe
  * - Épreuves du brevet
- * 
- * Avantage : facilite la maintenance et l'ajout de nouvelles matières
  */
 
-import { Classe, Matiere, Epreuve } from './types';
+import { Classe, Matiere, Epreuve } from '../shared/types';
 
 // Liste des classes disponibles
 export const CLASSES: Classe[] = [

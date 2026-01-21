@@ -1,146 +1,145 @@
 /**
- * Page principale du Lycée (version refactorisée)
+ * Page d'accueil du Lycée
  * 
- * Cette page affiche :
- * - Sélecteur de classes (Seconde, Première, Terminale, Baccalauréat)
- * - Grille de matières selon la classe sélectionnée
- * - Grille des épreuves du baccalauréat
- * 
- * Changements par rapport à l'original :
- * ✅ Données extraites dans utils/lycee/data.ts
- * ✅ Logique métier dans utils/lycee/helpers.ts
- * ✅ Styles bleus dans utils/ui/lyceeStyles.ts
- * ✅ Composants réutilisables créés
- * ✅ Code réduit de ~600 lignes à ~150 lignes
- * ✅ Architecture identique au collège pour cohérence
+ * Affiche les matières disponibles pour chaque classe du lycée.
+ * Utilise les composants unifiés avec le thème bleu (cycle="lycee").
  */
 
 "use client";
 
-import { useState } from "react";
-import AppLayout from "@/app/components/AppLayout";
-import { LyceeClasseButton, LyceeMatiereGrid } from "@/app/components/lycee";
-import { CLASSES, EPREUVES_BACCALAUREAT } from "@/app/utils/lycee";
-import {
-  getMatieresParClasse,
+import { useState } from 'react';
+
+// ✅ Imports depuis les fichiers unifiés
+import { ClasseButton, MatiereGrid } from '@/app/components/shared';
+import { 
+  Classe, 
+  Matiere,
+  Epreuve,
+  getMatieresParClasse, 
+  getEpreuves,
   getTitreClasse,
   getDescriptionClasse,
-  isBaccalaureatClasse,
-  isRegularClasse,
-  getLabelClasse,
-} from "@/app/utils/lycee";
+  isExamenClasse,
+  CycleData 
+} from '@/app/utils/shared';
+import { CLASSES, MATIERES_PAR_CLASSE, EPREUVES_BACCALAUREAT } from '@/app/utils/lycee';
 
-export default function LyceePage() {
-  const [selectedClass, setSelectedClass] = useState<string>("seconde");
+export default function LyceeHomePage() {
+  // État pour la classe sélectionnée
+  const [selectedClasse, setSelectedClasse] = useState<string>("seconde");
+  
+  // État pour la carte survolée
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
-  // Récupération des données selon la classe sélectionnée
-  const matieres = getMatieresParClasse(selectedClass);
-  const showMatieres = isRegularClasse(selectedClass);
-  const showBaccalaureat = isBaccalaureatClasse(selectedClass);
+  // Créer l'objet cycleData pour les helpers
+  const lyceeData: CycleData = {
+    classes: CLASSES,
+    matieresParClasse: MATIERES_PAR_CLASSE,
+    epreuves: EPREUVES_BACCALAUREAT
+  };
+
+  // Récupérer les matières ou épreuves selon la classe sélectionnée
+  const isExamen = isExamenClasse(selectedClasse);
+  const matieres: Matiere[] | Epreuve[] = isExamen
+    ? getEpreuves(lyceeData)
+    : getMatieresParClasse(selectedClasse, lyceeData);
+
+  // Générer le titre et la description
+  const titre = getTitreClasse(selectedClasse, isExamen);
+  const description = getDescriptionClasse(selectedClasse, lyceeData);
 
   return (
-    <AppLayout>
-      <main style={{
-        padding: "1.5rem 3rem",
-        fontFamily: "sans-serif",
-        maxWidth: "1400px",
-        margin: "0 auto"
-      }}>
-        {/* En-tête de la page */}
-        <header>
-          <h1 style={{
-            fontSize: "2.5rem",
-            marginBottom: "0.5rem",
-            fontWeight: 700
-          }}>
-            Lycée
-          </h1>
-
-          <p style={{
-            fontSize: "1.1rem",
-            opacity: 0.8,
-            marginBottom: "2rem"
-          }}>
-            Sélectionne ta classe pour accéder à tes matières
-          </p>
-        </header>
-
-        {/* Sélecteur de classes */}
-        <nav 
+    <div
+      style={{
+        minHeight: "100vh",
+        background: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+        padding: "3rem 2rem",
+      }}
+    >
+      {/* En-tête */}
+      <div
+        style={{
+          textAlign: "center",
+          marginBottom: "3rem",
+        }}
+      >
+        <h1
           style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: "2rem",
-            flexWrap: "wrap",
-            marginBottom: "2.5rem"
+            fontSize: "2.5rem",
+            fontWeight: 800,
+            marginBottom: "0.5rem",
+            background: "linear-gradient(135deg, #38BDF8 0%, #0EA5E9 50%, #0284C7 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
           }}
-          aria-label="Sélection de classe"
         >
-          {CLASSES.map((cls) => (
-            <LyceeClasseButton
-              key={cls.id}
-              classe={cls}
-              isSelected={selectedClass === cls.id}
-              onClick={() => setSelectedClass(cls.id)}
-            />
-          ))}
-        </nav>
+          Lycée
+        </h1>
+        <p
+          style={{
+            fontSize: "1.1rem",
+            color: "rgba(255,255,255,0.7)",
+          }}
+        >
+          Prépare ton avenir avec Amélys
+        </p>
+      </div>
 
-        {/* Affichage des matières pour les classes régulières */}
-        {showMatieres && (
-          <section style={{ marginTop: "2rem" }}>
-            <h2 style={{
-              fontSize: "1.8rem",
-              marginBottom: "0.5rem",
-              fontWeight: 700
-            }}>
-              {getTitreClasse(selectedClass)}
-            </h2>
+      {/* Sélecteur de classes */}
+      <div
+        style={{
+          display: "flex",
+          gap: "1rem",
+          justifyContent: "center",
+          marginBottom: "3rem",
+          flexWrap: "wrap",
+        }}
+      >
+        {CLASSES.map((classe) => (
+          <ClasseButton
+            key={classe.id}
+            classe={classe}
+            isSelected={selectedClasse === classe.id}
+            onClick={() => setSelectedClasse(classe.id)}
+            cycle="lycee"  // 👈 Thème bleu pour le lycée
+          />
+        ))}
+      </div>
 
-            <p style={{
-              fontSize: "0.95rem",
-              opacity: 0.8,
-              marginBottom: "1.5rem"
-            }}>
-              {getDescriptionClasse(selectedClass)}
-            </p>
+      {/* Titre et description de la section */}
+      <div
+        style={{
+          textAlign: "center",
+          marginBottom: "2.5rem",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: "1.8rem",
+            fontWeight: 700,
+            color: "#fff",
+            marginBottom: "0.5rem",
+          }}
+        >
+          {titre}
+        </h2>
+        <p
+          style={{
+            fontSize: "0.95rem",
+            color: "rgba(255,255,255,0.6)",
+          }}
+        >
+          {description}
+        </p>
+      </div>
 
-            <LyceeMatiereGrid
-              matieres={matieres}
-              hoveredCard={hoveredCard}
-              onHoverChange={setHoveredCard}
-            />
-          </section>
-        )}
-
-        {/* Affichage des épreuves du Baccalauréat */}
-        {showBaccalaureat && (
-          <section style={{ marginTop: "2rem" }}>
-            <h2 style={{
-              fontSize: "1.8rem",
-              marginBottom: "0.5rem",
-              fontWeight: 700
-            }}>
-              {getTitreClasse(selectedClass)}
-            </h2>
-
-            <p style={{
-              fontSize: "0.95rem",
-              opacity: 0.8,
-              marginBottom: "1.5rem"
-            }}>
-              {getDescriptionClasse(selectedClass)}
-            </p>
-
-            <LyceeMatiereGrid
-              matieres={EPREUVES_BACCALAUREAT}
-              hoveredCard={hoveredCard}
-              onHoverChange={setHoveredCard}
-            />
-          </section>
-        )}
-      </main>
-    </AppLayout>
+      {/* Grille de matières */}
+      <MatiereGrid
+        matieres={matieres}
+        hoveredCard={hoveredCard}
+        onHoverChange={setHoveredCard}
+        cycle="lycee"  // 👈 Thème bleu pour le lycée
+      />
+    </div>
   );
 }
