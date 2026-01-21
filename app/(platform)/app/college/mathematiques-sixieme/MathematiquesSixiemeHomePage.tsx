@@ -1,8 +1,3 @@
-/**
- * MathematiquesSixiemeHomePage - VERSION MODULAIRE
- * Utilise cycle="college" partout
- */
-
 "use client";
 
 import { useMemo, useState } from "react";
@@ -88,9 +83,9 @@ export default function MathematiquesSixiemeHomePage() {
       {/* Hero */}
       <div style={{
         background: COLLEGE_COLORS.gradient,
-        padding: "2rem 4rem",
+        padding: "1.5rem 4rem",
         position: "relative",
-        minHeight: "180px",
+        minHeight: "140px",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center"

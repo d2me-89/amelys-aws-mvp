@@ -1,17 +1,3 @@
-/**
- * ============================================
- * FICHIER: app/(platform)/app/lycee/mathematiques-seconde/MathematiquesSecondeHomePage.tsx
- * ============================================
- * 
- * Page d'accueil Mathématiques Seconde - THÈME BLEU LYCÉE
- * 
- * DIFFÉRENCES avec la version 6ème :
- * - Thème BLEU au lieu de violet
- * - Badge "SECONDE" au lieu de "SIXIÈME"
- * - Route /app/lycee au lieu de /app/college
- * - 14 chapitres au lieu de 9
- */
-
 "use client";
 
 import { useMemo, useState } from "react";
@@ -105,9 +91,9 @@ export default function MathematiquesSecondeHomePage() {
       {/* ============================================ */}
       <div style={{
         background: LYCEE_COLORS.gradient,
-        padding: "2rem 4rem",
+        padding: "1.5rem 4rem",
         position: "relative",
-        minHeight: "180px",
+        minHeight: "140px",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center"
