@@ -15,7 +15,7 @@
 "use client";
 
 import React from 'react';
-import { Matiere } from '@/utils/college/types';
+import { Matiere } from '@/app/utils/college/types';
 import { MatiereCard } from './MatiereCard';
 
 type MatiereGridProps = {
