@@ -261,11 +261,11 @@ export default function MathematiquesSecondeHomePage() {
           {/* SECTION 1: INTRODUCTION */}
           {/* ============================================ */}
           <CollapsibleSection
-            icon={<LuCalculator size={22} />} {/* 🔥 Pas de style */}
+            icon={<LuCalculator size={22} />}
             title="Les mathématiques en seconde"
             isOpen={isIntroOpen}
             onToggle={() => setIsIntroOpen(!isIntroOpen)}
-            cycle="lycee" {/* 🔥 BLEU */}
+            cycle="lycee"
           >
             <div style={{
               padding: "1rem 1.5rem",
@@ -305,50 +305,50 @@ export default function MathematiquesSecondeHomePage() {
           {/* SECTION 2: FAQ */}
           {/* ============================================ */}
           <CollapsibleSection
-            icon={<LuCircleHelp size={22} />} {/* 🔥 Pas de style */}
+            icon={<LuCircleHelp size={22} />}
             title="FAQ"
             isOpen={isFAQOpen}
             onToggle={() => setIsFAQOpen(!isFAQOpen)}
-            cycle="lycee" {/* 🔥 BLEU */}
+            cycle="lycee"
           >
             <FAQMenuItem
-              icon={<LuBookOpen size={20} />} {/* 🔥 Pas de style */}
+              icon={<LuBookOpen size={20} />}
               data={faqCoursInteractifRaw as any}
               isOpen={faqToggle.isOpen('cours-interactif')}
               onToggle={() => faqToggle.toggle('cours-interactif')}
-              cycle="lycee" {/* 🔥 BLEU */}
+              cycle="lycee"
             />
             
             <FAQMenuItem
-              icon={<LuUsers size={20} />} {/* 🔥 Pas de style */}
+              icon={<LuUsers size={20} />}
               data={faqExerciceBinomeRaw as any}
               isOpen={faqToggle.isOpen('exercice-binome')}
               onToggle={() => faqToggle.toggle('exercice-binome')}
-              cycle="lycee" {/* 🔥 BLEU */}
+              cycle="lycee"
             />
             
             <FAQMenuItem
-              icon={<LuTarget size={20} />} {/* 🔥 Pas de style */}
+              icon={<LuTarget size={20} />}
               data={faqCompetencesClesRaw as any}
               isOpen={faqToggle.isOpen('competences-cles')}
               onToggle={() => faqToggle.toggle('competences-cles')}
-              cycle="lycee" {/* 🔥 BLEU */}
+              cycle="lycee"
             />
             
             <FAQMenuItem
-              icon={<LuClipboardCheck size={20} />} {/* 🔥 Pas de style */}
+              icon={<LuClipboardCheck size={20} />}
               data={faqControleEvalueRaw as any}
               isOpen={faqToggle.isOpen('controle-evalue')}
               onToggle={() => faqToggle.toggle('controle-evalue')}
-              cycle="lycee" {/* 🔥 BLEU */}
+              cycle="lycee"
             />
             
             <FAQMenuItem
-              icon={<LuMessageSquare size={20} />} {/* 🔥 Pas de style */}
+              icon={<LuMessageSquare size={20} />}
               data={faqSessionLibreRaw as any}
               isOpen={faqToggle.isOpen('session-libre')}
               onToggle={() => faqToggle.toggle('session-libre')}
-              cycle="lycee" {/* 🔥 BLEU */}
+              cycle="lycee"
             />
           </CollapsibleSection>
 
@@ -409,7 +409,7 @@ export default function MathematiquesSecondeHomePage() {
               onToggle={() => chapterToggle.toggleChapter(chapitre.id)}
               exercices={chapitresData[index].exercices.L}
               baseRoute="/app/lycee/mathematiques-seconde"
-              cycle="lycee" {/* 🔥 BLEU */}
+              cycle="lycee"
             />
           ))}
         </div>
