@@ -1,7 +1,7 @@
 /**
- * Système de thèmes unifié pour collège et lycée
+ * Système de thèmes unifié pour primaire, collège et lycée
  * 
- * Au lieu d'avoir deux fichiers séparés, on a un seul système avec deux thèmes.
+ * Au lieu d'avoir trois fichiers séparés, on a un seul système avec trois thèmes.
  * Avantage : plus facile à maintenir, on peut ajouter d'autres thèmes facilement.
  */
 
@@ -127,12 +127,59 @@ const lyceeTheme: Theme = {
   }
 };
 
+// Thème orange pour le primaire
+const primaireTheme: Theme = {
+  name: 'primaire',
+  colors: {
+    accent: {
+      primary: "#FB923C",      // orange-400
+      secondary: "#F97316",    // orange-500
+      dark: "#EA580C",         // orange-600
+      light: "#FED7AA",        // orange-200
+      lighter: "#FED7AA",      // orange-200
+      lightest: "#FDBA74",     // orange-300
+    },
+    background: {
+      card: "rgba(255,255,255,0.05)",
+      cardHover: "rgba(255,255,255,0.1)",
+      overlay: "rgba(255,255,255,0.03)",
+    },
+    border: {
+      default: "rgba(255,255,255,0.1)",
+      hover: "rgba(255,255,255,0.3)",
+      accent: "rgba(251,146,60,0.4)",
+      accentHover: "rgba(251,146,60,0.5)",
+    },
+    text: {
+      primary: "#fff",
+      secondary: "rgba(255,255,255,0.9)",
+      muted: "rgba(255,255,255,0.5)",
+      badge: "#FDBA74",
+    }
+  },
+  gradients: {
+    button: "linear-gradient(135deg, #FB923C 0%, #F97316 50%, #EA580C 100%)",
+    cardHeader: "linear-gradient(135deg, #FED7AA 0%, #FED7AA 50%, #FDBA74 100%)",
+    badge: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(40,40,40,0.6) 100%)",
+    radialGlow: "radial-gradient(circle, rgba(251,146,60,0.2) 0%, transparent 70%)",
+  }
+};
+
 // ============================================
 // Fonction pour obtenir le thème selon le cycle
 // ============================================
 
 export function getTheme(cycle: Cycle): Theme {
-  return cycle === 'college' ? collegeTheme : lyceeTheme;
+  switch(cycle) {
+    case 'primaire':
+      return primaireTheme;
+    case 'college':
+      return collegeTheme;
+    case 'lycee':
+      return lyceeTheme;
+    default:
+      return collegeTheme; // Fallback
+  }
 }
 
 // ============================================

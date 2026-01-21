@@ -1,7 +1,7 @@
 /**
- * Types TypeScript partagés entre collège et lycée
+ * Types TypeScript partagés entre primaire, collège et lycée
  * 
- * Ces types sont identiques pour les deux cycles, donc on les centralise ici.
+ * Ces types sont identiques pour tous les cycles, donc on les centralise ici.
  */
 
 export type Matiere = {
@@ -27,6 +27,6 @@ export type Classe = {
 
 /**
  * Type pour identifier le cycle scolaire
- * Permet de différencier collège et lycée dans le code partagé
+ * Permet de différencier primaire, collège et lycée dans le code partagé
  */
-export type Cycle = 'college' | 'lycee';
+export type Cycle = 'primaire' | 'college' | 'lycee';

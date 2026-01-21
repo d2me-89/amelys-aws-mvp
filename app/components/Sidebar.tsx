@@ -8,9 +8,10 @@ import { useSidebar } from "./SidebarContext";
 // Import React Icons - Style Lucide (comme Claude)
 import { 
   LuLayoutDashboard,     // Tableau de bord
+  LuBookOpen,            // Primaire
   LuGraduationCap,       // Collège
   LuAward,               // Lycée
-  LuMessageSquare,       // AmélysAsk
+  LuMessageSquare,       // Autres
   LuTarget,              // Parcours
   LuDownload,            // Cours téléchargeables
   LuUsers,               // Profs en ligne
@@ -52,8 +53,7 @@ export default function Sidebar() {
           minHeight: "70px",
         }}
       >
-        {/* Amélys - Ã  gauche, disparaît en mode réduit */}
-        {/* Amélys - à gauche, disparaît en mode réduit */}
+        {/* Amélys - À gauche, disparaît en mode réduit */}
         {isOpen && (
           <Link 
             href="/app"
@@ -75,7 +75,7 @@ export default function Sidebar() {
           </Link>
         )}
 
-        {/* Bouton ☰ - Ã  droite en mode étendu, centré en mode réduit */}
+        {/* Bouton ☰ - À droite en mode étendu, centré en mode réduit */}
         <button
           onClick={toggleSidebar}
           style={{
@@ -122,11 +122,11 @@ export default function Sidebar() {
           isActive={pathname === "/app"}
         />
         <SidebarLink
-          href="/app/amelysask"
-          icon={<LuMessageSquare />}
+          href="/app/primaire"
+          icon={<LuBookOpen />}
           label="Primaire"
           isOpen={isOpen}
-          isActive={pathname === "/app/primaire"}
+          isActive={pathname.startsWith("/app/primaire")}
         />
         <SidebarLink
           href="/app/college"
@@ -243,7 +243,7 @@ export default function Sidebar() {
 // Composant SidebarLink avec tooltip positionné correctement
 interface SidebarLinkProps {
   href: string;
-  icon: React.ReactNode;  // ← Changé de string Ã  ReactNode pour React Icons
+  icon: React.ReactNode;
   label: string;
   isOpen: boolean;
   isActive: boolean;
