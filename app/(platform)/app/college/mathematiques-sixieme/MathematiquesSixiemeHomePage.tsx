@@ -1,15 +1,6 @@
 /**
- * ============================================
- * FICHIER: app/(platform)/app/college/mathematiques-sixieme/MathematiquesSixiemeHomePage.tsx
- * ============================================
- * 
- * Page d'accueil Mathématiques Sixième - THÈME VIOLET COLLÈGE
- * 
- * VERSION AUTONOME :
- * - Ne dépend PAS de HeroSection (reconstruit inline)
- * - Ne dépend PAS de CTACard (reconstruit inline)
- * - Toutes les couleurs violettes en constantes locales
- * - Compatible avec les composants partagés qui fonctionnent
+ * MathematiquesSixiemeHomePage - VERSION MODULAIRE
+ * Utilise cycle="college" partout
  */
 
 "use client";
@@ -38,7 +29,6 @@ import {
 } from "react-icons/lu";
 import Link from "next/link";
 
-// Imports des données JSON
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 import mathsSixiemeIntroRaw from "@/app/documents/college/sixieme/mathematiques-6eme/maths-sixieme-introduction.json";
 import faqCoursInteractifRaw from "@/app/documents/faq/faq-cours-interactif.json";
@@ -47,9 +37,6 @@ import faqCompetencesClesRaw from "@/app/documents/faq/faq-competences-cles.json
 import faqControleEvalueRaw from "@/app/documents/faq/faq-controle-evalue.json";
 import faqSessionLibreRaw from "@/app/documents/faq/faq-session-libre.json";
 
-// ============================================
-// CONSTANTES VIOLETTES COLLÈGE
-// ============================================
 const COLLEGE_COLORS = {
   gradient: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 50%, #6B46C1 100%)",
   gradientHover: "linear-gradient(135deg, #805AD5 0%, #6B46C1 100%)",
@@ -71,7 +58,6 @@ export default function MathematiquesSixiemeHomePage() {
   const faqToggle = useFAQToggle();
   const chapterToggle = useChapterToggle();
 
-  // Transformation des chapitres
   const chapitres: Chapitre[] = useMemo(() => {
     return chapitresData.map((chapitre: any, index: number) => ({
       id: `C${index + 1}`,
@@ -93,16 +79,13 @@ export default function MathematiquesSixiemeHomePage() {
 
   return (
     <AppLayout>
-      {/* Bande supérieure */}
       <div style={{
         background: "var(--background)",
         height: "70px",
         borderBottom: "1px solid rgba(255,255,255,0.1)"
       }} />
 
-      {/* ============================================ */}
-      {/* HERO SECTION - GRADIENT VIOLET COLLÈGE */}
-      {/* ============================================ */}
+      {/* Hero */}
       <div style={{
         background: COLLEGE_COLORS.gradient,
         padding: "3rem 4rem",
@@ -120,9 +103,7 @@ export default function MathematiquesSixiemeHomePage() {
           justifyContent: "space-between",
           position: "relative"
         }}>
-          {/* Partie gauche */}
           <div style={{ flex: 1 }}>
-            {/* Badge SIXIÈME */}
             <div style={{
               display: "inline-block",
               padding: "0.65rem 1.6rem",
@@ -164,7 +145,6 @@ export default function MathematiquesSixiemeHomePage() {
             </h1>
           </div>
           
-          {/* CTA Card */}
           <div style={{
             width: "360px",
             background: "#ffffff",
@@ -172,7 +152,6 @@ export default function MathematiquesSixiemeHomePage() {
             padding: "2rem",
             boxShadow: "0 8px 24px rgba(0,0,0,0.12)"
           }}>
-            {/* Bouton Lancer l'IA */}
             <Link href="/app/college/mathematiques-sixieme/chapitre1-cours" style={{ textDecoration: "none" }}>
               <button
                 onMouseEnter={() => setHoveredButton(true)}
@@ -207,7 +186,6 @@ export default function MathematiquesSixiemeHomePage() {
               margin: "1.5rem 0"
             }} />
 
-            {/* Stats */}
             <div style={{ display: "flex", alignItems: "center", gap: "0.85rem", marginBottom: "1.1rem" }}>
               <div style={{
                 width: "40px",
@@ -247,7 +225,6 @@ export default function MathematiquesSixiemeHomePage() {
         </div>
       </div>
 
-      {/* Contenu principal */}
       <div style={{
         padding: "4rem 4rem 3rem 4rem",
         maxWidth: "100%",
@@ -257,14 +234,12 @@ export default function MathematiquesSixiemeHomePage() {
       }}>
         <div style={{ width: "100%", maxWidth: "1350px" }}>
           
-          {/* ============================================ */}
-          {/* SECTION 1: INTRODUCTION */}
-          {/* ============================================ */}
           <CollapsibleSection
             icon={<LuCalculator size={22} />}
             title="Les mathématiques en sixième"
             isOpen={isIntroOpen}
             onToggle={() => setIsIntroOpen(!isIntroOpen)}
+            cycle="college"
           >
             <div style={{
               padding: "1rem 1.5rem",
@@ -300,54 +275,54 @@ export default function MathematiquesSixiemeHomePage() {
             </div>
           </CollapsibleSection>
 
-          {/* ============================================ */}
-          {/* SECTION 2: FAQ */}
-          {/* ============================================ */}
           <CollapsibleSection
             icon={<LuCircleHelp size={22} />}
             title="FAQ"
             isOpen={isFAQOpen}
             onToggle={() => setIsFAQOpen(!isFAQOpen)}
+            cycle="college"
           >
             <FAQMenuItem
-              icon={<LuBookOpen size={20} style={{ color: COLLEGE_COLORS.light }} />}
+              icon={<LuBookOpen size={20} />}
               data={faqCoursInteractifRaw as any}
               isOpen={faqToggle.isOpen('cours-interactif')}
               onToggle={() => faqToggle.toggle('cours-interactif')}
+              cycle="college"
             />
             
             <FAQMenuItem
-              icon={<LuUsers size={20} style={{ color: COLLEGE_COLORS.light }} />}
+              icon={<LuUsers size={20} />}
               data={faqExerciceBinomeRaw as any}
               isOpen={faqToggle.isOpen('exercice-binome')}
               onToggle={() => faqToggle.toggle('exercice-binome')}
+              cycle="college"
             />
             
             <FAQMenuItem
-              icon={<LuTarget size={20} style={{ color: COLLEGE_COLORS.light }} />}
+              icon={<LuTarget size={20} />}
               data={faqCompetencesClesRaw as any}
               isOpen={faqToggle.isOpen('competences-cles')}
               onToggle={() => faqToggle.toggle('competences-cles')}
+              cycle="college"
             />
             
             <FAQMenuItem
-              icon={<LuClipboardCheck size={20} style={{ color: COLLEGE_COLORS.light }} />}
+              icon={<LuClipboardCheck size={20} />}
               data={faqControleEvalueRaw as any}
               isOpen={faqToggle.isOpen('controle-evalue')}
               onToggle={() => faqToggle.toggle('controle-evalue')}
+              cycle="college"
             />
             
             <FAQMenuItem
-              icon={<LuMessageSquare size={20} style={{ color: COLLEGE_COLORS.light }} />}
+              icon={<LuMessageSquare size={20} />}
               data={faqSessionLibreRaw as any}
               isOpen={faqToggle.isOpen('session-libre')}
               onToggle={() => faqToggle.toggle('session-libre')}
+              cycle="college"
             />
           </CollapsibleSection>
 
-          {/* ============================================ */}
-          {/* SECTION 3: CONTENU DU COURS */}
-          {/* ============================================ */}
           <div style={{
             display: "flex",
             alignItems: "center",
@@ -365,7 +340,6 @@ export default function MathematiquesSixiemeHomePage() {
               Contenu du cours
             </h2>
 
-            {/* Bouton Tout afficher/cacher */}
             <button
               onClick={() => chapterToggle.toggleAll(chaptersIds)}
               style={{
@@ -392,7 +366,6 @@ export default function MathematiquesSixiemeHomePage() {
             </button>
           </div>
 
-          {/* Liste des chapitres */}
           {chapitres.map((chapitre, index) => (
             <ChapterItem
               key={chapitre.id}
@@ -402,6 +375,7 @@ export default function MathematiquesSixiemeHomePage() {
               onToggle={() => chapterToggle.toggleChapter(chapitre.id)}
               exercices={chapitresData[index].exercices.L}
               baseRoute="/app/college/mathematiques-sixieme"
+              cycle="college"
             />
           ))}
         </div>

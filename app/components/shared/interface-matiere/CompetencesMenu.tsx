@@ -43,7 +43,7 @@ export const CompetencesMenu = forwardRef<HTMLDivElement, CompetencesMenuProps>(
             borderRadius: "8px",
             color: "#fff",
             fontSize: "1rem",
-            fontWeight: 600,
+            fontWeight: 500,
             cursor: "pointer",
             transition: "all 0.2s ease",
             marginTop: "0.75rem"
