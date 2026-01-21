@@ -40,13 +40,11 @@ import {
 // Imports des données JSON
 import chapitresData from "@/app/documents/lycee/seconde/mathematiques-2nde/2nde-maths-architecture-HR.json";
 import mathsSecondeIntroRaw from "@/app/documents/lycee/seconde/mathematiques-2nde/maths-seconde-introduction.json";
-import { 
-  faqCoursInteractif, 
-  faqExerciceBinome,
-  faqCompetencesCles,
-  faqControleEvalue,
-  faqSessionLibre 
-} from '@/app/documents/faq';
+import faqCoursInteractifRaw from "@/app/documents/faq/faq-cours-interactif.json";
+import faqExerciceBinomeRaw from "@/app/documents/faq/faq-exercice-en-binome.json";
+import faqCompetencesClesRaw from "@/app/documents/faq/faq-competences-cles.json";
+import faqControleEvalueRaw from "@/app/documents/faq/faq-controle-evalue.json";
+import faqSessionLibreRaw from "@/app/documents/faq/faq-session-libre.json";
 import Link from "next/link";
 
 // ============================================

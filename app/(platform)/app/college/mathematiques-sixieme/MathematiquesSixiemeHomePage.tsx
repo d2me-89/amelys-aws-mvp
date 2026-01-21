@@ -31,13 +31,11 @@ import Link from "next/link";
 
 import chapitresData from "@/app/documents/college/sixieme/mathematiques-6eme/6eme-maths-architecture-HR.json";
 import mathsSixiemeIntroRaw from "@/app/documents/college/sixieme/mathematiques-6eme/maths-sixieme-introduction.json";
-import { 
-  faqCoursInteractif, 
-  faqExerciceBinome,
-  faqCompetencesCles,
-  faqControleEvalue,
-  faqSessionLibre 
-} from '@/app/documents/faq';
+import faqCoursInteractifRaw from "@/app/documents/faq/faq-cours-interactif.json";
+import faqExerciceBinomeRaw from "@/app/documents/faq/faq-exercice-en-binome.json";
+import faqCompetencesClesRaw from "@/app/documents/faq/faq-competences-cles.json";
+import faqControleEvalueRaw from "@/app/documents/faq/faq-controle-evalue.json";
+import faqSessionLibreRaw from "@/app/documents/faq/faq-session-libre.json";
 
 const COLLEGE_COLORS = {
   gradient: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 50%, #6B46C1 100%)",
