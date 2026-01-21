@@ -83,9 +83,9 @@ export default function MathematiquesCE1HomePage() {
       {/* Hero Orange */}
       <div style={{
         background: PRIMAIRE_COLORS.gradient,
-        padding: "2rem 4rem",
+        padding: "1.5rem 4rem",
         position: "relative",
-        minHeight: "180px",
+        minHeight: "100px",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center"
