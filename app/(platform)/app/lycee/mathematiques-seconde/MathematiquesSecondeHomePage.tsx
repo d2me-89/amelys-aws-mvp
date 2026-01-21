@@ -93,7 +93,7 @@ export default function MathematiquesSecondeHomePage() {
         background: LYCEE_COLORS.gradient,
         padding: "1.5rem 4rem",
         position: "relative",
-        minHeight: "140px",
+        minHeight: "100px",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center"
