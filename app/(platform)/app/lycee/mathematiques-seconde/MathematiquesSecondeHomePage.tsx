@@ -114,18 +114,68 @@ export default function MathematiquesSecondeHomePage() {
         borderBottom: "1px solid rgba(255,255,255,0.1)"
       }} />
 
-      {/* Hero avec CTA */}
-      <HeroSection 
-        level="Seconde" 
-        levelRoute="/app/lycee"
-        subjectTitle="Mathématiques"
-      >
-        <CTACard 
-          nombreSeances={stats.nombreSeances}
-          nombreContenusPedagogiques={stats.nombreContenusPedagogiques}
-          startLink="/app/lycee/mathematiques-seconde/chapitre1-cours"
-        />
-      </HeroSection>
+      {/* Hero avec CTA - THÈME BLEU LYCÉE */}
+      <div style={{
+        background: "linear-gradient(135deg, #38BDF8 0%, #0EA5E9 50%, #0284C7 100%)",  // 🔵 GRADIENT BLEU
+        padding: "3rem 4rem",
+        position: "relative",
+        minHeight: "240px",
+        display: "flex",
+        alignItems: "flex-start",
+        justifyContent: "center"
+      }}>
+        <div style={{
+          width: "100%",
+          maxWidth: "1350px",
+          display: "flex",
+          alignItems: "flex-start",
+          justifyContent: "space-between",
+          position: "relative"
+        }}>
+          {/* Partie gauche: Badge niveau + Titre matière */}
+          <div style={{ flex: 1 }}>
+            {/* Badge Seconde */}
+            <div style={{
+              display: "inline-block",
+              padding: "0.65rem 1.6rem",
+              background: "#ffffff",
+              borderRadius: "50px",
+              fontSize: "1rem",
+              fontWeight: 700,
+              textTransform: "uppercase",
+              letterSpacing: "0.8px",
+              color: "#1a1a1a",
+              marginBottom: "1.2rem",
+              border: "2px solid rgba(255, 255, 255, 0.5)",
+              boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+              cursor: "pointer",
+              transition: "all 0.2s ease"
+            }}
+            onClick={() => window.location.href = '/app/lycee'}
+            >
+              SECONDE
+            </div>
+            
+            <h1 style={{
+              fontSize: "2.8rem",
+              fontWeight: 800,
+              color: "#ffffff",
+              margin: 0,
+              lineHeight: 1.2,
+              textShadow: "0 2px 10px rgba(0,0,0,0.2)"
+            }}>
+              Mathématiques
+            </h1>
+          </div>
+          
+          {/* Partie droite: CTA Card */}
+          <CTACard 
+            nombreSeances={stats.nombreSeances}
+            nombreContenusPedagogiques={stats.nombreContenusPedagogiques}
+            startLink="/app/lycee/mathematiques-seconde/chapitre1-cours"
+          />
+        </div>
+      </div>
 
       {/* Contenu principal */}
       <div style={{
@@ -234,11 +284,11 @@ export default function MathematiquesSecondeHomePage() {
             justifyContent: "space-between",
             alignItems: "center",
             marginTop: "3rem",
-            marginBottom: "1.5rem"
+            marginBottom: "2rem"  // 🔵 Augmenté de 1.5rem à 2rem
           }}>
             <h2 style={{
-              fontSize: "1.8rem",
-              fontWeight: 700,
+              fontSize: "2rem",  // 🔵 Comme la version 6ème
+              fontWeight: 800,
               color: "#fff",
               margin: 0
             }}>
