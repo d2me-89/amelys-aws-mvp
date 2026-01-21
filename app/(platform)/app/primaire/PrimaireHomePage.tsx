@@ -30,11 +30,11 @@ export default function PrimaireHomePage() {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
   // Créer l'objet cycleData pour les helpers
-  // Note : pas d'épreuves pour le primaire, donc on ne passe pas le champ epreuves
+  // Note : pas d'épreuves pour le primaire, donc on passe un tableau vide
   const primaireData: CycleData = {
     classes: CLASSES,
     matieresParClasse: MATIERES_PAR_CLASSE,
-    // epreuves n'est pas défini car le primaire n'a pas d'épreuves
+    epreuves: [],  // Tableau vide car le primaire n'a pas d'épreuves
   };
 
   // Récupérer les matières pour la classe sélectionnée
