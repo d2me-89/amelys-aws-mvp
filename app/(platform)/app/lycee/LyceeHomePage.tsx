@@ -19,9 +19,9 @@
 
 import { useState } from "react";
 import AppLayout from "@/app/components/AppLayout";
-import { LyceeClasseButton } from "@/components/lycee/ClasseButton";
-import { LyceeMatiereGrid } from "@/components/lycee/MatiereGrid";
-import { CLASSES, EPREUVES_BACCALAUREAT } from "@/utils/lycee/data";
+import { LyceeClasseButton } from "@/app/components/lycee";
+import { LyceeMatiereGrid } from "@/app/components/lycee";
+import { CLASSES, EPREUVES_BACCALAUREAT } from "@/app/utils/lycee";
 import {
   getMatieresParClasse,
   getTitreClasse,
@@ -29,7 +29,7 @@ import {
   isBaccalaureatClasse,
   isRegularClasse,
   getLabelClasse,
-} from "@/utils/lycee/helpers";
+} from "@/utils/lycee";
 
 export default function LyceePage() {
   const [selectedClass, setSelectedClass] = useState<string>("seconde");
