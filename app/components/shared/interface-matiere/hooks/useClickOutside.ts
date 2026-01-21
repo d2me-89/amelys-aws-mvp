@@ -33,56 +33,38 @@
 
 "use client";
 
-import { useEffect, RefObject } from "react";
+import { useEffect } from "react";
 
-/**
- * Hook pour détecter les clics en dehors d'un élément du DOM
- * 
- * @param ref - Référence React à l'élément à surveiller
- * @param handler - Fonction à exécuter lors d'un clic extérieur
- * @param isActive - Si false, le hook est désactivé (défaut: true)
- * 
- * @example
- * ```typescript
- * const menuRef = useRef<HTMLDivElement>(null);
- * useClickOutside(menuRef, () => console.log('Clic extérieur!'), true);
- * ```
- */
-export function useClickOutside(
-  ref: RefObject<HTMLElement>,
-  handler: () => void,
-  isActive: boolean = true
+type AnyEvent = MouseEvent | TouchEvent;
+
+export function useClickOutside<T extends HTMLElement>(
+  ref: React.RefObject<T | null>,
+  onOutside: (event: AnyEvent) => void,
+  enabled: boolean = true
 ) {
   useEffect(() => {
-    // Si le hook est désactivé, ne rien faire
-    if (!isActive) return;
+    if (!enabled) return;
 
-    /**
-     * Gestionnaire d'événement pour les clics
-     * Vérifie si le clic est à l'extérieur de l'élément référencé
-     */
-    const handleClickOutside = (event: MouseEvent) => {
-      // Si la ref n'existe pas ou si le clic est à l'intérieur, ignorer
-      if (ref.current && !ref.current.contains(event.target as Node)) {
-        handler();
-      }
+    const handler = (event: AnyEvent) => {
+      const el = ref.current;
+
+      // le ref n'est pas encore monté
+      if (!el) return;
+
+      // clic à l'intérieur → on ignore
+      if (el.contains(event.target as Node)) return;
+
+      // clic extérieur
+      onOutside(event);
     };
 
-    // Ajouter l'écouteur d'événement au document
-    // On utilise 'mousedown' au lieu de 'click' pour une meilleure réactivité
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handler);
+    document.addEventListener("touchstart", handler);
 
-    // Fonction de nettoyage : retirer l'écouteur quand le composant est démonté
-    // ou quand les dépendances changent
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handler);
+      document.removeEventListener("touchstart", handler);
     };
-  }, [ref, handler, isActive]); // Re-exécuter si ces valeurs changent
+  }, [ref, onOutside, enabled]);
 }
 
-/**
- * NOTES DE PERFORMANCE:
- * - L'écouteur n'est ajouté que si isActive est true
- * - Le nettoyage automatique évite les fuites mémoire
- * - Utilise mousedown au lieu de click pour une détection plus rapide
- */
