@@ -237,74 +237,52 @@ export default function MathematiquesSecondeHomePage() {
             marginBottom: "1.5rem"
           }}>
             <h2 style={{
-              fontSize: "2rem",
-              fontWeight: 800,
+              fontSize: "1.8rem",
+              fontWeight: 700,
               color: "#fff",
               margin: 0
             }}>
               Contenu du cours
             </h2>
 
-            <div style={{ display: "flex", gap: "1rem" }}>
-              <button
-                onClick={() => chapterToggle.expandAll(chaptersIds)}
-                style={{
-                  padding: "0.75rem 2rem",
-                  fontSize: "1rem",
-                  fontWeight: 600,
-                  borderRadius: "50px",
-                  color: "#fff",
-                  background: "linear-gradient(135deg, #38BDF8 0%, #0EA5E9 50%, #0284C7 100%)",  /* 🔵 GRADIENT BLEU */
-                  border: "2px solid rgba(56,189,248,0.5)",  /* 🔵 BORDURE BLEUE */
-                  cursor: "pointer",
-                  transition: "all 0.3s ease"
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "scale(1.05)";
-                  e.currentTarget.style.boxShadow = "0 0 25px rgba(56,189,248,0.4)";  /* 🔵 GLOW BLEU */
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "scale(1)";
-                  e.currentTarget.style.boxShadow = "none";
-                }}
-              >
-                Tout déplier
-              </button>
-
-              <button
-                onClick={() => chapterToggle.collapseAll(chaptersIds)}
-                style={{
-                  padding: "0.75rem 2rem",
-                  fontSize: "1rem",
-                  fontWeight: 600,
-                  borderRadius: "50px",
-                  color: "rgba(255,255,255,0.9)",
-                  background: "rgba(255,255,255,0.1)",
-                  border: "2px solid rgba(255,255,255,0.2)",
-                  cursor: "pointer",
-                  transition: "all 0.3s ease"
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.background = "rgba(255,255,255,0.15)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.background = "rgba(255,255,255,0.1)";
-                }}
-              >
-                Tout replier
-              </button>
-            </div>
+            {/* Bouton Tout afficher/cacher */}
+            <button
+              onClick={() => chapterToggle.toggleAll(chaptersIds)}
+              style={{
+                padding: "0.6rem 1.2rem",
+                background: "rgba(56, 189, 248, 0.2)",  /* 🔵 BG BLEU */
+                border: "1px solid rgba(56, 189, 248, 0.4)",  /* 🔵 BORDURE BLEUE */
+                borderRadius: "8px",
+                color: "#38BDF8",  /* 🔵 TEXTE BLEU */
+                fontSize: "0.9rem",
+                fontWeight: 600,
+                cursor: "pointer",
+                transition: "all 0.2s ease"
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = "rgba(56, 189, 248, 0.3)";
+                e.currentTarget.style.borderColor = "rgba(56, 189, 248, 0.6)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = "rgba(56, 189, 248, 0.2)";
+                e.currentTarget.style.borderColor = "rgba(56, 189, 248, 0.4)";
+              }}
+            >
+              {chapterToggle.areAllOpen(chaptersIds) ? "Tout cacher" : "Tout afficher"}
+            </button>
           </div>
 
           {/* Liste des chapitres */}
           <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-            {chapitres.map((chapitre) => (
+            {chapitres.map((chapitre, index) => (
               <ChapterItem
                 key={chapitre.id}
                 chapitre={chapitre}
-                isOpen={chapterToggle.isOpen(chapitre.id)}
-                onToggle={() => chapterToggle.toggle(chapitre.id)}
-                baseRoute="/app/lycee/mathematiques-seconde"  /* 🔵 ROUTE LYCÉE */
+                index={index}
+                isOpen={chapterToggle.openChapters[chapitre.id] || false}
+                onToggle={() => chapterToggle.toggleChapter(chapitre.id)}
+                exercices={chapitresData[index].exercices.L}
+                baseRoute="/app/lycee/mathematiques-seconde"
               />
             ))}
           </div>
