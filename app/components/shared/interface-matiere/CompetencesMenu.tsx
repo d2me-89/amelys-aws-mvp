@@ -45,8 +45,7 @@ export const CompetencesMenu = forwardRef<HTMLDivElement, CompetencesMenuProps>(
             fontSize: "1rem",
             fontWeight: 500,
             cursor: "pointer",
-            transition: "all 0.2s ease",
-            marginTop: "0.75rem"
+            transition: "all 0.2s ease"
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.background = COLORS.overlay.hover; // 🔥 Hover adaptatif
