@@ -3,27 +3,8 @@
  * FICHIER: app/components/shared/interface-matiere/CTACard.tsx
  * ============================================
  * 
- * DESCRIPTION:
- * Carte d'appel à l'action (CTA) affichée dans le Hero.
- * GÉNÉRIQUE - Fonctionne pour toutes les matières et niveaux.
- * 
- * FONCTIONNALITÉS:
- * - Bouton principal "Lancer l'IA" avec effet hover
- * - Affichage des statistiques (nombre de chapitres et contenus)
- * - Positionnement absolu pour chevaucher le Hero
- * 
- * COMPOSANTS INCLUS:
- * - CTACard: Carte principale avec bouton et stats
- * - InfoItem: Item d'information (icône + texte)
- * 
- * UTILISATION:
- * ```typescript
- * <CTACard 
- *   nombreSeances={13}
- *   nombreContenusPedagogiques={156}
- *   startLink="/app/college/mathematiques-sixieme/chapitre1-cours"
- * />
- * ```
+ * Carte Call-To-Action MODULAIRE
+ * S'adapte automatiquement aux 3 cycles (primaire, collège, lycée)
  */
 
 "use client";
@@ -31,70 +12,65 @@
 import { useState } from "react";
 import Link from "next/link";
 import { LuPlay, LuBrain, LuSparkles } from "react-icons/lu";
-import { COLORS } from "./constants";
+import { getCOLORS, type Cycle } from "./constants";
 
 /**
  * Props du composant CTACard
  */
 interface CTACardProps {
-  nombreSeances: number;              // Nombre total de chapitres/séances
-  nombreContenusPedagogiques: number; // Nombre total de contenus pédagogiques
-  startLink: string;                  // URL vers le premier cours
+  nombreSeances: number;
+  nombreContenusPedagogiques: number;
+  startLink: string;
+  cycle: Cycle; // 🔥 NOUVEAU : Cycle pour déterminer les couleurs
 }
 
 /**
- * Carte d'appel à l'action avec bouton et statistiques
- * Positionnée en absolu dans le Hero pour créer un effet de chevauchement
+ * Carte Call-To-Action avec bouton et statistiques
+ * S'adapte automatiquement aux couleurs du cycle
  */
 export function CTACard({ 
   nombreSeances, 
-  nombreContenusPedagogiques,
-  startLink 
+  nombreContenusPedagogiques, 
+  startLink,
+  cycle 
 }: CTACardProps) {
-  // État local pour gérer l'effet hover du bouton
   const [hoveredButton, setHoveredButton] = useState(false);
+  const COLORS = getCOLORS(cycle); // 🔥 Récupère les couleurs du cycle
 
   return (
     <div style={{
+      width: "360px",
       background: COLORS.white.full,
-      borderRadius: "16px",
-      padding: "2.5rem",
-      minWidth: "360px",
-      maxWidth: "360px",
-      boxShadow: "0 10px 40px rgba(0,0,0,0.15)",
-      position: "absolute",
-      right: "0",
-      top: "50%",
-      transform: "translateY(-20%)" // Chevauche légèrement le Hero
+      borderRadius: "20px",
+      padding: "2rem",
+      boxShadow: "0 8px 24px rgba(0,0,0,0.12)"
     }}>
       {/* Bouton principal "Lancer l'IA" */}
-      <Link
-        href={startLink}
-        style={{ textDecoration: "none", display: "block" }}
-        onMouseEnter={() => setHoveredButton(true)}
-        onMouseLeave={() => setHoveredButton(false)}
-      >
-        <button style={{
-          width: "100%",
-          padding: "1.2rem 1.5rem",
-          background: hoveredButton 
-            ? COLORS.purple.gradientHover 
-            : COLORS.purple.gradient,
-          color: COLORS.white.full,
-          border: "none",
-          borderRadius: "12px",
-          fontSize: "1.1rem",
-          fontWeight: 700,
-          cursor: "pointer",
-          transition: "all 0.3s ease",
-          boxShadow: hoveredButton
-            ? "0 8px 20px rgba(128, 90, 213, 0.4)"
-            : "0 4px 12px rgba(159, 122, 234, 0.3)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: "0.75rem"
-        }}>
+      <Link href={startLink} style={{ textDecoration: "none" }}>
+        <button
+          onMouseEnter={() => setHoveredButton(true)}
+          onMouseLeave={() => setHoveredButton(false)}
+          style={{
+            width: "100%",
+            padding: "1.15rem 1.75rem",
+            background: hoveredButton 
+              ? COLORS.primary.gradientHover  // 🔥 Gradient hover adaptatif
+              : COLORS.primary.gradient,       // 🔥 Gradient adaptatif
+            color: COLORS.white.full,
+            border: "none",
+            borderRadius: "12px",
+            fontSize: "1.1rem",
+            fontWeight: 700,
+            cursor: "pointer",
+            transition: "all 0.3s ease",
+            boxShadow: hoveredButton
+              ? `0 8px 20px ${COLORS.primary.primary}66` // 🔥 Shadow adaptatif
+              : `0 4px 12px ${COLORS.primary.primary}4D`,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "0.75rem"
+          }}>
           <LuPlay size={22} />
           Lancer l'IA
         </button>
@@ -111,11 +87,15 @@ export function CTACard({
       <InfoItem 
         icon={<LuBrain size={22} />}
         text={`${nombreSeances} Chapitres`}
+        bgGradient={COLORS.primary.bg}      // 🔥 Fond adaptatif
+        iconColor={COLORS.primary.primary}  // 🔥 Couleur icône adaptative
       />
       
       <InfoItem 
         icon={<LuSparkles size={22} />}
         text={`${nombreContenusPedagogiques} Contenus interactifs`}
+        bgGradient={COLORS.primary.bg}
+        iconColor={COLORS.primary.primary}
       />
     </div>
   );
@@ -125,15 +105,16 @@ export function CTACard({
  * Props d'un item d'information
  */
 interface InfoItemProps {
-  icon: React.ReactNode;  // Icône React (composant Lucide)
-  text: string;           // Texte à afficher
+  icon: React.ReactNode;
+  text: string;
+  bgGradient: string;   // 🔥 NOUVEAU : Fond adaptatif
+  iconColor: string;    // 🔥 NOUVEAU : Couleur icône adaptative
 }
 
 /**
  * Item d'information avec icône et texte
- * Utilisé pour afficher les statistiques dans la CTACard
  */
-function InfoItem({ icon, text }: InfoItemProps) {
+function InfoItem({ icon, text, bgGradient, iconColor }: InfoItemProps) {
   return (
     <div style={{
       display: "flex",
@@ -146,11 +127,11 @@ function InfoItem({ icon, text }: InfoItemProps) {
         width: "40px",
         height: "40px",
         borderRadius: "10px",
-        background: COLORS.purple.bg,
+        background: bgGradient,   // 🔥 Fond adaptatif
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        color: COLORS.purple.primary
+        color: iconColor          // 🔥 Couleur adaptative
       }}>
         {icon}
       </div>
@@ -159,7 +140,7 @@ function InfoItem({ icon, text }: InfoItemProps) {
       <span style={{
         fontSize: "1.05rem",
         fontWeight: 600,
-        color: COLORS.white.text
+        color: "#2D3748"
       }}>
         {text}
       </span>

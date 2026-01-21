@@ -3,58 +3,42 @@
  * FICHIER: app/components/shared/interface-matiere/HeroSection.tsx
  * ============================================
  * 
- * DESCRIPTION:
- * Composant du bandeau supérieur (Hero) pour TOUTES les pages matière-classe.
- * Affiche le niveau scolaire (badge) et le titre de la matière.
- * 
- * GÉNÉRIQUE - S'adapte à:
- * - Tous niveaux: Sixième, Troisième, Seconde, Terminale, etc.
- * - Toutes matières: Mathématiques, Physique, Français, Histoire, etc.
- * 
- * COMPOSANTS INCLUS:
- * - HeroSection: Conteneur principal avec dégradé violet
- * - LevelBadge: Badge cliquable du niveau scolaire
- * 
- * UTILISATION:
- * ```typescript
- * <HeroSection 
- *   level="Sixième" 
- *   levelRoute="/app/college"
- *   subjectTitle="Mathématiques"
- * >
- *   <CTACard {...} /> // Optionnel: carte d'action à droite
- * </HeroSection>
- * ```
+ * Composant du bandeau supérieur (Hero) MODULAIRE
+ * S'adapte automatiquement aux 3 cycles (primaire, collège, lycée)
  */
 
 "use client";
 
 import Link from "next/link";
-import { COLORS } from "./constants";
+import { getCOLORS, type Cycle } from "./constants";
 
 /**
  * Props du composant HeroSection
  */
 interface HeroSectionProps {
-  level: string;              // Niveau scolaire (ex: "Sixième", "Terminale")
-  levelRoute: string;         // Route vers la page du niveau (ex: "/app/college")
+  level: string;              // Niveau scolaire (ex: "Sixième", "Seconde")
+  levelRoute: string;         // Route vers la page du niveau
   subjectTitle: string;       // Titre de la matière (ex: "Mathématiques")
+  cycle: Cycle;               // 🔥 NOUVEAU : Cycle pour déterminer les couleurs
   children?: React.ReactNode; // Contenu additionnel (ex: CTACard)
 }
 
 /**
  * Composant principal du bandeau Hero
- * Affiche le niveau et le titre de la matière avec un dégradé violet
+ * S'adapte automatiquement aux couleurs du cycle
  */
 export function HeroSection({ 
   level, 
   levelRoute, 
   subjectTitle,
+  cycle,
   children 
 }: HeroSectionProps) {
+  const COLORS = getCOLORS(cycle); // 🔥 Récupère les couleurs du cycle
+
   return (
     <div style={{
-      background: COLORS.purple.gradient,
+      background: COLORS.primary.gradient, // 🔥 Gradient adaptatif
       padding: "3rem 4rem",
       position: "relative",
       minHeight: "240px",
@@ -98,13 +82,12 @@ export function HeroSection({
  * Props du badge de niveau
  */
 interface LevelBadgeProps {
-  level: string;       // Texte du badge (ex: "Sixième")
-  levelRoute: string;  // Route de navigation au clic
+  level: string;
+  levelRoute: string;
 }
 
 /**
  * Badge cliquable affichant le niveau scolaire
- * Avec effet hover et animation au survol
  */
 function LevelBadge({ level, levelRoute }: LevelBadgeProps) {
   return (
@@ -112,7 +95,7 @@ function LevelBadge({ level, levelRoute }: LevelBadgeProps) {
       <div style={{
         display: "inline-block",
         padding: "0.65rem 1.6rem",
-        background: COLORS.white.full,
+        background: "#ffffff",
         borderRadius: "50px",
         fontSize: "1rem",
         fontWeight: 700,

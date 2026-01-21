@@ -3,32 +3,36 @@
  * FICHIER: app/components/shared/interface-matiere/constants.ts
  * ============================================
  * 
- * DESCRIPTION:
- * Constantes de style MODULAIRES pour les 3 cycles (primaire, collège, lycée).
- * Chaque cycle a son propre thème de couleurs.
+ * SYSTÈME MODULAIRE DE COULEURS
+ * Supporte 3 cycles : primaire (orange), collège (violet), lycée (bleu)
  * 
  * UTILISATION:
  * ```typescript
- * import { getCOLORS } from '@/app/components/shared/interface-matiere/constants';
+ * import { getCOLORS } from './constants';
  * 
- * const COLORS = getCOLORS('lycee');  // Récupère le thème bleu lycée
- * <div style={{ background: COLORS.primary.gradient }}>
+ * // Dans un composant
+ * const COLORS = getCOLORS('lycee');  // Récupère le thème bleu
  * ```
  */
 
-import { Cycle } from '@/app/utils/shared/types';
+/**
+ * Type pour identifier le cycle scolaire
+ */
+export type Cycle = 'primaire' | 'college' | 'lycee';
 
 /**
  * Structure des couleurs pour un cycle
  */
+export type ColorTheme = {
+  gradient: string;
+  gradientHover: string;
+  light: string;
+  bg: string;
+  primary: string;
+};
+
 export type CycleColors = {
-  primary: {
-    gradient: string;
-    gradientHover: string;
-    light: string;
-    bg: string;
-    main: string;
-  };
+  primary: ColorTheme;
   white: {
     full: string;
     text: string;
@@ -44,13 +48,13 @@ export type CycleColors = {
 // ============================================
 // THÈME VIOLET - COLLÈGE
 // ============================================
-const collegeColors: CycleColors = {
+const collegeTheme: CycleColors = {
   primary: {
     gradient: "linear-gradient(135deg, #9F7AEA 0%, #805AD5 50%, #6B46C1 100%)",
     gradientHover: "linear-gradient(135deg, #805AD5 0%, #6B46C1 100%)",
     light: "#B794F6",
     bg: "linear-gradient(135deg, #E9D5FF 0%, #DDD6FE 100%)",
-    main: "#805AD5",
+    primary: "#805AD5",
   },
   white: {
     full: "#fff",
@@ -67,13 +71,13 @@ const collegeColors: CycleColors = {
 // ============================================
 // THÈME BLEU - LYCÉE
 // ============================================
-const lyceeColors: CycleColors = {
+const lyceeTheme: CycleColors = {
   primary: {
     gradient: "linear-gradient(135deg, #38BDF8 0%, #0EA5E9 50%, #0284C7 100%)",
     gradientHover: "linear-gradient(135deg, #0EA5E9 0%, #0284C7 100%)",
     light: "#7DD3FC",
     bg: "linear-gradient(135deg, #E0F2FE 0%, #BAE6FD 100%)",
-    main: "#0EA5E9",
+    primary: "#0EA5E9",
   },
   white: {
     full: "#fff",
@@ -90,13 +94,13 @@ const lyceeColors: CycleColors = {
 // ============================================
 // THÈME ORANGE - PRIMAIRE
 // ============================================
-const primaireColors: CycleColors = {
+const primaireTheme: CycleColors = {
   primary: {
     gradient: "linear-gradient(135deg, #FB923C 0%, #F97316 50%, #EA580C 100%)",
     gradientHover: "linear-gradient(135deg, #F97316 0%, #EA580C 100%)",
     light: "#FDBA74",
     bg: "linear-gradient(135deg, #FED7AA 0%, #FED7AA 100%)",
-    main: "#F97316",
+    primary: "#F97316",
   },
   white: {
     full: "#fff",
@@ -112,19 +116,32 @@ const primaireColors: CycleColors = {
 
 /**
  * Fonction pour récupérer les couleurs selon le cycle
+ * 
+ * @param cycle - 'primaire' | 'college' | 'lycee'
+ * @returns Les couleurs correspondantes au cycle
  */
 export function getCOLORS(cycle: Cycle): CycleColors {
   switch(cycle) {
     case 'primaire':
-      return primaireColors;
+      return primaireTheme;
     case 'college':
-      return collegeColors;
+      return collegeTheme;
     case 'lycee':
-      return lyceeColors;
+      return lyceeTheme;
     default:
-      return collegeColors; // Fallback
+      return collegeTheme; // Fallback
   }
 }
+
+// ============================================
+// EXPORT PAR DÉFAUT (COLLÈGE) pour compatibilité
+// ============================================
+// Pour les composants qui utilisent encore l'ancienne structure COLORS.purple
+export const COLORS = {
+  purple: collegeTheme.primary,
+  white: collegeTheme.white,
+  overlay: collegeTheme.overlay,
+} as const;
 
 // ============================================
 // CONSTANTES COMMUNES (indépendantes du cycle)
@@ -165,6 +182,3 @@ export const TRANSITIONS = {
   normal: '0.3s',
   slow: '0.5s',
 } as const;
-
-// Export par défaut (collège) pour compatibilité
-export const COLORS = collegeColors;

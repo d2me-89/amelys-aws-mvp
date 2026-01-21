@@ -3,118 +3,101 @@
  * FICHIER: app/components/shared/interface-matiere/ChapterItem.tsx
  * ============================================
  * 
- * DESCRIPTION:
- * Composant GÉNÉRIQUE représentant un chapitre complet avec tous ses contenus.
- * Affiche l'en-tête du chapitre et les 5 types de contenus pédagogiques.
- * 
- * FONCTIONNALITÉS:
- * - En-tête cliquable avec numéro et titre du chapitre
- * - Liste des 5 contenus pédagogiques:
- *   1. Cours interactif
- *   2. Exercice en binôme
- *   3. Compétences clés (avec sous-menu)
- *   4. Contrôle du chapitre
- *   5. Session libre
- * - Gestion du clic extérieur pour fermer le menu compétences
- * 
- * ARCHITECTURE:
- * - ChapterItem: Composant principal
- * - ChapterHeader: En-tête avec numéro et titre
- * - ChapterLink: Liens vers les contenus
- * - CompetencesMenu: Menu des exercices de compétences
- * 
- * UTILISATION:
- * ```typescript
- * <ChapterItem 
- *   chapitre={chapitre}
- *   index={0}
- *   isOpen={openChapters['C1']}
- *   onToggle={() => toggleChapter('C1')}
- *   exercices={chapitresData[0].exercices.L}
- *   baseRoute="/app/college/mathematiques-sixieme"
- * />
- * ```
+ * Composant ChapterItem MODULAIRE
+ * S'adapte automatiquement aux 3 cycles (primaire, collège, lycée)
  */
 
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import { 
-  LuChevronUp, 
   LuChevronDown, 
+  LuChevronUp, 
   LuBookOpen, 
   LuUsers, 
+  LuTarget, 
   LuClipboardCheck, 
   LuMessageSquare 
 } from "react-icons/lu";
-import { CompetencesMenu } from "./CompetencesMenu";
+import { getCOLORS, type Cycle } from "./constants";
 import { ChapterLink } from "./ChapterLink";
+import { CompetencesMenu } from "./CompetencesMenu";
 import { useClickOutside } from "./hooks/useClickOutside";
-import { COLORS } from "./constants";
-import type { Chapitre, ChapterExercise } from "./types";
+
+/**
+ * Type d'un chapitre
+ */
+export type Chapitre = {
+  id: string;
+  theme: string;
+  titre: string;
+  nombreExercices: number;
+};
 
 /**
  * Props du composant ChapterItem
  */
 interface ChapterItemProps {
-  chapitre: Chapitre;             // Données du chapitre
-  index: number;                  // Index du chapitre (0-based)
-  isOpen: boolean;                // État ouvert/fermé
-  onToggle: () => void;           // Callback pour toggle
-  exercices: ChapterExercise[];   // Liste des exercices
-  baseRoute: string;              // Route de base (ex: "/app/college/mathematiques-sixieme")
+  chapitre: Chapitre;
+  index: number;
+  isOpen: boolean;
+  onToggle: () => void;
+  exercices: any[];
+  baseRoute: string;
+  cycle?: Cycle; // 🔥 NOUVEAU : Cycle (optionnel, par défaut 'college')
 }
 
 /**
- * Composant principal d'un item de chapitre
- * Contient l'en-tête et tous les contenus pédagogiques
+ * Composant ChapterItem
+ * Affiche un chapitre avec ses liens de contenu
  */
-export function ChapterItem({ 
-  chapitre, 
-  index, 
-  isOpen, 
+export function ChapterItem({
+  chapitre,
+  index,
+  isOpen,
   onToggle,
   exercices,
-  baseRoute
+  baseRoute,
+  cycle = 'college' // 🔥 Par défaut collège si non spécifié
 }: ChapterItemProps) {
-  // État local pour le menu des compétences
   const [isCompetencesOpen, setIsCompetencesOpen] = useState(false);
-  const competencesRef = useRef<HTMLDivElement | null>(null);
+  const competencesRef = useRef<HTMLDivElement>(null);
+  
+  const COLORS = getCOLORS(cycle); // 🔥 Récupère les couleurs du cycle
 
-  // Ferme le menu des compétences au clic extérieur
-  useClickOutside(
-    competencesRef, 
-    () => setIsCompetencesOpen(false), 
-    isCompetencesOpen
-  );
+  useClickOutside(competencesRef, () => {
+    if (isCompetencesOpen) {
+      setIsCompetencesOpen(false);
+    }
+  });
 
   return (
     <div style={{
-      background: COLORS.overlay.light,
-      border: `1px solid ${COLORS.overlay.border}`,
-      borderRadius: "16px",
-      overflow: "visible",
-      marginBottom: "1.5rem",
-      maxWidth: "780px"
+      background: "rgba(255,255,255,0.05)",
+      borderRadius: "12px",
+      marginBottom: "1rem",
+      border: "1px solid rgba(255,255,255,0.1)",
+      overflow: "hidden"
     }}>
-      {/* En-tête du chapitre */}
+      {/* En-tête cliquable */}
       <ChapterHeader 
         chapitre={chapitre}
         index={index}
         isOpen={isOpen}
         onToggle={onToggle}
+        cycle={cycle} // 🔥 Passe le cycle
       />
 
-      {/* Contenu dépliable: les 5 types de contenus */}
+      {/* Contenu dépliable */}
       {isOpen && (
         <div style={{
-          padding: "0 2rem 1.5rem 2rem",
-          borderTop: `1px solid ${COLORS.overlay.border}`
+          padding: "0.5rem 1.5rem 1.5rem 1.5rem",
+          background: "rgba(0,0,0,0.15)"
         }}>
           {/* 1. Cours interactif */}
           <ChapterLink 
             href={`${baseRoute}/chapitre${index + 1}-cours`}
-            icon={<LuBookOpen size={20} style={{ color: COLORS.purple.light }} />}
+            icon={<LuBookOpen size={20} style={{ color: COLORS.primary.light }} />} // 🔥 Couleur adaptative
             text="Cours interactif"
             style={{ marginTop: "1rem" }}
           />
@@ -122,7 +105,7 @@ export function ChapterItem({
           {/* 2. Exercice en binôme */}
           <ChapterLink 
             href={`${baseRoute}/chapitre${index + 1}-binome`}
-            icon={<LuUsers size={20} style={{ color: COLORS.purple.light }} />}
+            icon={<LuUsers size={20} style={{ color: COLORS.primary.light }} />} // 🔥 Couleur adaptative
             text="Exercice en binôme"
           />
 
@@ -134,19 +117,20 @@ export function ChapterItem({
             isOpen={isCompetencesOpen}
             onToggle={() => setIsCompetencesOpen(!isCompetencesOpen)}
             baseRoute={baseRoute}
+            cycle={cycle} // 🔥 Passe le cycle
           />
 
           {/* 4. Contrôle du chapitre */}
           <ChapterLink 
             href={`${baseRoute}/chapitre${index + 1}-controle`}
-            icon={<LuClipboardCheck size={20} style={{ color: COLORS.purple.light }} />}
+            icon={<LuClipboardCheck size={20} style={{ color: COLORS.primary.light }} />} // 🔥 Couleur adaptative
             text="Contrôle du chapitre"
           />
 
           {/* 5. Session libre */}
           <ChapterLink 
             href={`${baseRoute}/chapitre${index + 1}-session-libre`}
-            icon={<LuMessageSquare size={20} style={{ color: COLORS.purple.light }} />}
+            icon={<LuMessageSquare size={20} style={{ color: COLORS.primary.light }} />} // 🔥 Couleur adaptative
             text="Session libre"
           />
         </div>
@@ -163,18 +147,21 @@ interface ChapterHeaderProps {
   index: number;
   isOpen: boolean;
   onToggle: () => void;
+  cycle: Cycle; // 🔥 NOUVEAU
 }
 
 /**
  * En-tête cliquable d'un chapitre
- * Affiche le numéro, le titre et le chevron
  */
 function ChapterHeader({ 
   chapitre, 
   index, 
   isOpen, 
-  onToggle 
+  onToggle,
+  cycle 
 }: ChapterHeaderProps) {
+  const COLORS = getCOLORS(cycle); // 🔥 Récupère les couleurs du cycle
+
   return (
     <button
       type="button"
@@ -204,11 +191,11 @@ function ChapterHeader({
           width: "42px",
           height: "42px",
           borderRadius: "11px",
-          background: COLORS.purple.bg,
+          background: COLORS.primary.bg,       // 🔥 Fond adaptatif
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          color: COLORS.purple.primary,
+          color: COLORS.primary.primary,       // 🔥 Couleur adaptative
           fontSize: "1.3rem",
           fontWeight: 700
         }}>
@@ -219,7 +206,7 @@ function ChapterHeader({
         <span style={{
           fontSize: "1.25rem",
           fontWeight: 700,
-          color: COLORS.white.full
+          color: "#fff"
         }}>
           {chapitre.titre}
         </span>
