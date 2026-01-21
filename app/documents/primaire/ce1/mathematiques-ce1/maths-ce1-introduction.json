@@ -1,0 +1,20 @@
+{
+  "titre": "Les mathématiques en CE1 et l'IA",
+  "sections": [
+    {
+      "titre": "Une nouvelle étape",
+      "contenu": "Entrer en CE1, c’est apprendre plein de nouvelles choses : lire mieux, écrire plus facilement, et surtout faire des maths un peu plus compliquées qu’en CP. On découvre les nombres plus grands, les additions, les soustractions, et parfois on peut hésiter ou se tromper… et c’est normal !",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Amélys, ton compagnon IA",
+      "contenu": "C’est justement pour ça qu’Amélys existe ! Amélys est une intelligence artificielle gentille et patiente qui t’aide à comprendre les maths pas à pas. Elle t’explique avec des mots simples, te propose des exercices comme des petits jeux, t’aide quand tu te trompes et te félicite quand tu réussis.",
+      "type": "paragraphe"
+    },
+    {
+      "titre": "Apprendre à ton rythme",
+      "contenu": "Que tu adores les maths ou que tu aies encore un peu de mal, Amélys avance à ton rythme. Elle t’aide à mieux compter, à calculer, à résoudre des petits problèmes et à prendre confiance en toi pour réussir ton année de CE1 avec le sourire.",
+      "type": "paragraphe"
+    }
+  ]
+}

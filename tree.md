@@ -7,7 +7,6 @@
 │   │       ├── college
 │   │       │   ├── CollegeHomePage.tsx
 │   │       │   ├── mathematiques-sixieme
-│   │       │   │   ├── ARCHIVEMathematiquesSixiemeChapitre1CoursPage.tsx
 │   │       │   │   ├── MathematiquesSixiemeHomePage.tsx
 │   │       │   │   ├── chapitre1-binome
 │   │       │   │   ├── chapitre1-controle
@@ -254,6 +253,9 @@
 │   │       │   └── page.tsx
 │   │       ├── lycee
 │   │       │   ├── LyceeHomePage.tsx
+│   │       │   ├── mathematiques-seconde
+│   │       │   │   ├── MathematiquesSecondeHomePage.tsx
+│   │       │   │   └── page.tsx
 │   │       │   └── page.tsx
 │   │       ├── page.tsx
 │   │       └── primaire
@@ -261,14 +263,31 @@
 │   │           └── page.tsx
 │   ├── INSTALLATION-SIDEBAR.md
 │   ├── components
-│   │   ├── AppLayout.tsx
-│   │   ├── Sidebar.tsx
-│   │   ├── SidebarContext.tsx
-│   │   └── shared
-│   │       ├── ClasseButton.tsx
-│   │       ├── MatiereCard.tsx
-│   │       ├── MatiereGrid.tsx
-│   │       └── index.ts
+│   │   ├── shared
+│   │   │   ├── interface-cycle
+│   │   │   │   ├── ClasseButton.tsx
+│   │   │   │   ├── MatiereCard.tsx
+│   │   │   │   ├── MatiereGrid.tsx
+│   │   │   │   └── index.ts
+│   │   │   └── interface-matiere
+│   │   │       ├── CTACard.tsx
+│   │   │       ├── ChapterItem.tsx
+│   │   │       ├── ChapterLink.tsx
+│   │   │       ├── CollapsibleSection.tsx
+│   │   │       ├── CompetencesMenu.tsx
+│   │   │       ├── FAQMenuItem.tsx
+│   │   │       ├── HeroSection.tsx
+│   │   │       ├── constants.ts
+│   │   │       ├── hooks
+│   │   │       │   ├── useChapterToggle.ts
+│   │   │       │   ├── useClickOutside.ts
+│   │   │       │   └── useFAQToggle.ts
+│   │   │       ├── index.ts
+│   │   │       └── types.ts
+│   │   └── sidebar
+│   │       ├── AppLayout.tsx
+│   │       ├── Sidebar.tsx
+│   │       └── SidebarContext.tsx
 │   ├── documents
 │   │   ├── college
 │   │   │   ├── brevet
@@ -369,135 +388,145 @@
 │   │   │   ├── faq-cours-interactif.json
 │   │   │   ├── faq-exercice-en-binome.json
 │   │   │   └── faq-session-libre.json
-│   │   └── lycee
-│   │       ├── baccalaureat
-│   │       │   ├── francais-Tle
-│   │       │   ├── grand-oral-bac
-│   │       │   ├── hggsp-bac
-│   │       │   ├── hlp-bac
-│   │       │   ├── llce-bac
-│   │       │   ├── mathematiques-bac
-│   │       │   ├── nsi-bac
-│   │       │   ├── philosophie-bac
-│   │       │   ├── physique-chimie-bac
-│   │       │   ├── sciences-ingenieur-bac
-│   │       │   ├── ses-bac
-│   │       │   └── svt-Tle
-│   │       ├── premiere
-│   │       │   ├── anglais-1ere
-│   │       │   │   └── 1ere-anglais-structure-HR.json
-│   │       │   ├── emc-1ere
-│   │       │   │   └── 1ere-emc-structure-HR.json
-│   │       │   ├── enseignement-scientifique-1ere
-│   │       │   │   └── 1ere-enseignement-scientifique-architecture-HR.json
-│   │       │   ├── espagnol-1ere
-│   │       │   │   └── 1ere-espagnol-structure-HR.json
-│   │       │   ├── francais-1ere
-│   │       │   │   └── Tle-français-structure-HR.json
-│   │       │   ├── geographie-1ere
-│   │       │   │   ├── 1ere-geographie-structure-HR.json
-│   │       │   │   └── spe577_annexe2_1062939.pdf
-│   │       │   ├── hggsp-1ere
-│   │       │   │   └── 1ere-hggsp-architecture-HR.json
-│   │       │   ├── histoire-1ere
-│   │       │   │   └── 1ere-histoire-structure-HR.json
-│   │       │   ├── hlp-1ere
-│   │       │   │   └── 1ere-hlp-architecture-HR.json
-│   │       │   ├── llce-anglais-1ere
-│   │       │   │   └── 1ere-llce-anglais-structure-HR.json
-│   │       │   ├── mathematiques-1ere
-│   │       │   │   ├── 1ere-maths-architecture-DDB.json
-│   │       │   │   ├── 1ere-maths-architecture-HR.json
-│   │       │   │   └── spe632_annexe_1063168.pdf
-│   │       │   ├── nsi-1ere
-│   │       │   │   ├── 1ere-nsi-structure-HR.json
-│   │       │   │   └── spe633_annexe_1063268.pdf
-│   │       │   ├── physique-chimie-1ere
-│   │       │   │   └── 1ere-physique-chimie-structure-HR.json
-│   │       │   ├── sciences-ingenieur-1ere
-│   │       │   │   ├── 1ere-sciences-ingenieur-structure-HR.json
-│   │       │   │   └── spe640_annexe_1063436 (1).pdf
-│   │       │   ├── ses-1ere
-│   │       │   │   └── 1ere-ses-structure-HR.json
-│   │       │   └── svt-1ere
-│   │       │       └── 1ere-svt-structure-HR.json
-│   │       ├── seconde
-│   │       │   ├── anglais-2nde
-│   │       │   │   └── 2nde-anglais-structure-HR.json
-│   │       │   ├── emc-2nde
-│   │       │   │   └── 2nde-emc-structure-HR.json
-│   │       │   ├── espagnol-2nde
-│   │       │   │   └── 2nde-espagnol-structure-HR.json
-│   │       │   ├── francais-2nde
-│   │       │   │   └── 2nde-français-structure-HR.json
-│   │       │   ├── géographie-2nde
-│   │       │   │   ├── 2nde-geographie-structure-HR.json
-│   │       │   │   └── hist-geog_annexe-1_2e_bo.pdf
-│   │       │   ├── histoire-2nde
-│   │       │   │   ├── 2nde-histoire-structure-HR.json
-│   │       │   │   └── hist-geog_annexe-1_2e_bo (1).pdf
-│   │       │   ├── mathematiques-2nde
-│   │       │   │   ├── 2nde-maths-architecture-DDB.json
-│   │       │   │   ├── 2nde-maths-architecture-HR.json
-│   │       │   │   └── spe631_annexe_1062957.pdf
-│   │       │   ├── physique-chimie-2nde
-│   │       │   │   └── 2nde-physique-chimie-structure-HR.json
-│   │       │   ├── sciences-ingenieur-2nde
-│   │       │   │   ├── 2nde-sciences-ingenieur-structure-HR.json
-│   │       │   │   └── spe570_annexe_1062531.pdf
-│   │       │   ├── ses-2nde
-│   │       │   │   └── 2nde-ses-structure-HR.json
-│   │       │   ├── snt-2nde
-│   │       │   │   ├── 2nde-snt-structure-HR.json
-│   │       │   │   └── spe641_annexe_1063085.pdf
-│   │       │   └── svt-2nde
-│   │       │       └── 2nde-svt-structure-HR.json
-│   │       └── terminale
-│   │           ├── anglais-Tle
-│   │           │   └── Tle-anglais-structure-HR.json
-│   │           ├── emc-Tle
-│   │           │   └── Tle-emc-structure-HR.json
-│   │           ├── enseignement-scientifique-Tle
-│   │           │   └── Tle-enseignement-scientifique-architecture-HR.json
-│   │           ├── espagnol-Tle
-│   │           │   └── Tle-espagnol-structure-HR.json
-│   │           ├── geographie-Tle
-│   │           │   ├── Tle-geographie-structure-HR.json
-│   │           │   └── spe243_annexe1_1159172.pdf
-│   │           ├── hggsp-Tle
-│   │           │   └── Tle-hggsp-architecture-HR.json
-│   │           ├── histoire-Tle
-│   │           │   ├── Tle-histoire-structure-HR.json
-│   │           │   └── spe243_annexe1_1159172 (1).pdf
-│   │           ├── hlp-Tle
-│   │           │   └── Tle-hlp-architecture-HR.json
-│   │           ├── llce-anglais-Tle
-│   │           │   └── Tle-llce-anglais-structure-HR.json
-│   │           ├── mathematiques-Tle
-│   │           │   ├── Tle-maths-architecture-DDB.json
-│   │           │   ├── Tle-maths-architecture-HR.json
-│   │           │   └── spe246_annexe_1158907.pdf
-│   │           ├── mathematiques-complementaires-Tle
-│   │           │   ├── Tle-maths-complementaires-architecture-HR.json
-│   │           │   └── spe265_annexe_1159134.pdf
-│   │           ├── mathematiques-expertes-Tle
-│   │           │   ├── Tle-maths-expertes-architecture-HR.json
-│   │           │   └── spe264_annexe_1158825.pdf
-│   │           ├── nsi-Tle
-│   │           │   ├── Tle-nsi-structure-HR.json
-│   │           │   └── spe247_annexe_1158933.pdf
-│   │           ├── philosophie-Tle
-│   │           │   └── Tle-philosophie-architecture-HR.json
-│   │           ├── physique-chimie-Tle
-│   │           │   └── Tle-physique-chimie-structure-HR.json
-│   │           ├── sciences-ingenieur-Tle
-│   │           │   ├── Tle-sciences-ingenieur-structure-HR.json
-│   │           │   ├── spe269_annexe_1159036.pdf
-│   │           │   └── spe640_annexe_1063436.pdf
-│   │           ├── ses-Tle
-│   │           │   └── Tlre-ses-structure-HR.json
-│   │           └── svt-Tle
-│   │               └── Tle-svt-structure-HR.json
+│   │   ├── lycee
+│   │   │   ├── baccalaureat
+│   │   │   │   ├── francais-Tle
+│   │   │   │   ├── grand-oral-bac
+│   │   │   │   ├── hggsp-bac
+│   │   │   │   ├── hlp-bac
+│   │   │   │   ├── llce-bac
+│   │   │   │   ├── mathematiques-bac
+│   │   │   │   ├── nsi-bac
+│   │   │   │   ├── philosophie-bac
+│   │   │   │   ├── physique-chimie-bac
+│   │   │   │   ├── sciences-ingenieur-bac
+│   │   │   │   ├── ses-bac
+│   │   │   │   └── svt-Tle
+│   │   │   ├── premiere
+│   │   │   │   ├── anglais-1ere
+│   │   │   │   │   └── 1ere-anglais-structure-HR.json
+│   │   │   │   ├── emc-1ere
+│   │   │   │   │   └── 1ere-emc-structure-HR.json
+│   │   │   │   ├── enseignement-scientifique-1ere
+│   │   │   │   │   └── 1ere-enseignement-scientifique-architecture-HR.json
+│   │   │   │   ├── espagnol-1ere
+│   │   │   │   │   └── 1ere-espagnol-structure-HR.json
+│   │   │   │   ├── francais-1ere
+│   │   │   │   │   └── Tle-français-structure-HR.json
+│   │   │   │   ├── geographie-1ere
+│   │   │   │   │   ├── 1ere-geographie-structure-HR.json
+│   │   │   │   │   └── spe577_annexe2_1062939.pdf
+│   │   │   │   ├── hggsp-1ere
+│   │   │   │   │   └── 1ere-hggsp-architecture-HR.json
+│   │   │   │   ├── histoire-1ere
+│   │   │   │   │   └── 1ere-histoire-structure-HR.json
+│   │   │   │   ├── hlp-1ere
+│   │   │   │   │   └── 1ere-hlp-architecture-HR.json
+│   │   │   │   ├── llce-anglais-1ere
+│   │   │   │   │   └── 1ere-llce-anglais-structure-HR.json
+│   │   │   │   ├── mathematiques-1ere
+│   │   │   │   │   ├── 1ere-maths-architecture-DDB.json
+│   │   │   │   │   ├── 1ere-maths-architecture-HR.json
+│   │   │   │   │   └── spe632_annexe_1063168.pdf
+│   │   │   │   ├── nsi-1ere
+│   │   │   │   │   ├── 1ere-nsi-structure-HR.json
+│   │   │   │   │   └── spe633_annexe_1063268.pdf
+│   │   │   │   ├── physique-chimie-1ere
+│   │   │   │   │   └── 1ere-physique-chimie-structure-HR.json
+│   │   │   │   ├── sciences-ingenieur-1ere
+│   │   │   │   │   ├── 1ere-sciences-ingenieur-structure-HR.json
+│   │   │   │   │   └── spe640_annexe_1063436 (1).pdf
+│   │   │   │   ├── ses-1ere
+│   │   │   │   │   └── 1ere-ses-structure-HR.json
+│   │   │   │   └── svt-1ere
+│   │   │   │       └── 1ere-svt-structure-HR.json
+│   │   │   ├── seconde
+│   │   │   │   ├── anglais-2nde
+│   │   │   │   │   └── 2nde-anglais-structure-HR.json
+│   │   │   │   ├── emc-2nde
+│   │   │   │   │   └── 2nde-emc-structure-HR.json
+│   │   │   │   ├── espagnol-2nde
+│   │   │   │   │   └── 2nde-espagnol-structure-HR.json
+│   │   │   │   ├── francais-2nde
+│   │   │   │   │   └── 2nde-français-structure-HR.json
+│   │   │   │   ├── géographie-2nde
+│   │   │   │   │   ├── 2nde-geographie-structure-HR.json
+│   │   │   │   │   └── hist-geog_annexe-1_2e_bo.pdf
+│   │   │   │   ├── histoire-2nde
+│   │   │   │   │   ├── 2nde-histoire-structure-HR.json
+│   │   │   │   │   └── hist-geog_annexe-1_2e_bo (1).pdf
+│   │   │   │   ├── mathematiques-2nde
+│   │   │   │   │   ├── 2nde-maths-architecture-DDB.json
+│   │   │   │   │   ├── 2nde-maths-architecture-HR.json
+│   │   │   │   │   ├── maths-seconde-introduction.json
+│   │   │   │   │   └── spe631_annexe_1062957.pdf
+│   │   │   │   ├── physique-chimie-2nde
+│   │   │   │   │   └── 2nde-physique-chimie-structure-HR.json
+│   │   │   │   ├── sciences-ingenieur-2nde
+│   │   │   │   │   ├── 2nde-sciences-ingenieur-structure-HR.json
+│   │   │   │   │   └── spe570_annexe_1062531.pdf
+│   │   │   │   ├── ses-2nde
+│   │   │   │   │   └── 2nde-ses-structure-HR.json
+│   │   │   │   ├── snt-2nde
+│   │   │   │   │   ├── 2nde-snt-structure-HR.json
+│   │   │   │   │   └── spe641_annexe_1063085.pdf
+│   │   │   │   └── svt-2nde
+│   │   │   │       └── 2nde-svt-structure-HR.json
+│   │   │   └── terminale
+│   │   │       ├── anglais-Tle
+│   │   │       │   └── Tle-anglais-structure-HR.json
+│   │   │       ├── emc-Tle
+│   │   │       │   └── Tle-emc-structure-HR.json
+│   │   │       ├── enseignement-scientifique-Tle
+│   │   │       │   └── Tle-enseignement-scientifique-architecture-HR.json
+│   │   │       ├── espagnol-Tle
+│   │   │       │   └── Tle-espagnol-structure-HR.json
+│   │   │       ├── geographie-Tle
+│   │   │       │   ├── Tle-geographie-structure-HR.json
+│   │   │       │   └── spe243_annexe1_1159172.pdf
+│   │   │       ├── hggsp-Tle
+│   │   │       │   └── Tle-hggsp-architecture-HR.json
+│   │   │       ├── histoire-Tle
+│   │   │       │   ├── Tle-histoire-structure-HR.json
+│   │   │       │   └── spe243_annexe1_1159172 (1).pdf
+│   │   │       ├── hlp-Tle
+│   │   │       │   └── Tle-hlp-architecture-HR.json
+│   │   │       ├── llce-anglais-Tle
+│   │   │       │   └── Tle-llce-anglais-structure-HR.json
+│   │   │       ├── mathematiques-Tle
+│   │   │       │   ├── Tle-maths-architecture-DDB.json
+│   │   │       │   ├── Tle-maths-architecture-HR.json
+│   │   │       │   └── spe246_annexe_1158907.pdf
+│   │   │       ├── mathematiques-complementaires-Tle
+│   │   │       │   ├── Tle-maths-complementaires-architecture-HR.json
+│   │   │       │   └── spe265_annexe_1159134.pdf
+│   │   │       ├── mathematiques-expertes-Tle
+│   │   │       │   ├── Tle-maths-expertes-architecture-HR.json
+│   │   │       │   └── spe264_annexe_1158825.pdf
+│   │   │       ├── nsi-Tle
+│   │   │       │   ├── Tle-nsi-structure-HR.json
+│   │   │       │   └── spe247_annexe_1158933.pdf
+│   │   │       ├── philosophie-Tle
+│   │   │       │   └── Tle-philosophie-architecture-HR.json
+│   │   │       ├── physique-chimie-Tle
+│   │   │       │   └── Tle-physique-chimie-structure-HR.json
+│   │   │       ├── sciences-ingenieur-Tle
+│   │   │       │   ├── Tle-sciences-ingenieur-structure-HR.json
+│   │   │       │   ├── spe269_annexe_1159036.pdf
+│   │   │       │   └── spe640_annexe_1063436.pdf
+│   │   │       ├── ses-Tle
+│   │   │       │   └── Tlre-ses-structure-HR.json
+│   │   │       └── svt-Tle
+│   │   │           └── Tle-svt-structure-HR.json
+│   │   └── primaire
+│   │       ├── ce1
+│   │       │   └── mathematiques-ce1
+│   │       │       ├── ce1-maths-structure-HR.json
+│   │       │       └── maths-ce1-introduction.json
+│   │       ├── ce2
+│   │       ├── cm1
+│   │       ├── cm2
+│   │       └── cp
 │   ├── favicon.ico
 │   ├── globals.css
 │   ├── layout.tsx
@@ -544,4 +573,4 @@
 ├── tree.md
 └── tsconfig.json
 
-371 directories, 174 files
+383 directories, 191 files
