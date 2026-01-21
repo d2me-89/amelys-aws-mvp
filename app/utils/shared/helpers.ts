@@ -1,7 +1,7 @@
 /**
- * Fonctions utilitaires unifiées pour collège et lycée
+ * Fonctions utilitaires unifiées pour primaire, collège et lycée
  * 
- * Ce fichier remplace les helpers séparés de college/ et lycee/.
+ * Ce fichier remplace les helpers séparés de primaire/, college/ et lycee/.
  * Les fonctions sont identiques, seules les données changent.
  */
 
@@ -9,11 +9,12 @@ import { Matiere, Epreuve, Classe } from '../shared/types';
 
 /**
  * Type pour la structure de données complète d'un cycle
+ * Note: epreuves est optionnel car le primaire n'a pas d'épreuves
  */
 export type CycleData = {
   classes: Classe[];
   matieresParClasse: Record<string, Matiere[]>;
-  epreuves: Epreuve[];
+  epreuves?: Epreuve[];  // Optionnel (primaire n'a pas d'épreuves)
 };
 
 /**
@@ -28,9 +29,10 @@ export function getMatieresParClasse(
 
 /**
  * Récupère les épreuves (brevet ou baccalauréat)
+ * Retourne un tableau vide si le cycle n'a pas d'épreuves (ex: primaire)
  */
 export function getEpreuves(cycleData: CycleData): Epreuve[] {
-  return cycleData.epreuves;
+  return cycleData.epreuves || [];
 }
 
 /**
@@ -46,6 +48,12 @@ export function getTitreClasse(classeId: string, isExamen: boolean): string {
 
   // Pour les classes régulières
   const titres: Record<string, string> = {
+    // Primaire
+    cp: "Matières de CP",
+    ce1: "Matières de CE1",
+    ce2: "Matières de CE2",
+    cm1: "Matières de CM1",
+    cm2: "Matières de CM2",
     // Collège
     sixieme: "Matières de Sixième",
     cinquieme: "Matières de Cinquième",
@@ -69,7 +77,7 @@ export function getNombreMatieresClasse(
 ): number {
   // Pour les examens
   if (classeId === 'brevet' || classeId === 'baccalaureat') {
-    return cycleData.epreuves.length;
+    return cycleData.epreuves?.length || 0;
   }
 
   // Pour les classes régulières
@@ -106,6 +114,7 @@ export function isExamenClasse(classeId: string): boolean {
  */
 export function isRegularClasse(classeId: string): boolean {
   const classesRegulieres = [
+    'cp', 'ce1', 'ce2', 'cm1', 'cm2',  // Primaire
     'sixieme', 'cinquieme', 'quatrieme', 'troisieme',  // Collège
     'seconde', 'premiere', 'terminale'  // Lycée
   ];
