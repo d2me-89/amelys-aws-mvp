@@ -6,7 +6,7 @@
 
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { LuSend, LuRefreshCw } from 'react-icons/lu';
 import { COLORS, BORDERS, FONT_SIZES, TRANSITIONS } from '../styles/animations';
 
@@ -37,8 +37,18 @@ export function ChatInput({
   error,
 }: ChatInputProps) {
   const [isFocused, setIsFocused] = useState(false);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const canSend = value.trim() && !disabled && !isLoading;
+
+  // Auto-resize du textarea
+  useEffect(() => {
+    const textarea = textareaRef.current;
+    if (textarea) {
+      textarea.style.height = 'auto';
+      textarea.style.height = `${textarea.scrollHeight}px`;
+    }
+  }, [value]);
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -77,6 +87,7 @@ export function ChatInput({
       >
         {/* Textarea */}
         <textarea
+          ref={textareaRef}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           onFocus={() => setIsFocused(true)}
@@ -84,6 +95,7 @@ export function ChatInput({
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
           disabled={disabled || isLoading}
+          rows={1}
           style={{
             flex: 1,
             background: 'transparent',
@@ -92,10 +104,11 @@ export function ChatInput({
             fontSize: FONT_SIZES.lg,
             resize: 'none',
             outline: 'none',
-            minHeight: '20px',
-            maxHeight: '150px',
+            minHeight: '24px',
+            maxHeight: '200px',
             fontFamily: 'inherit',
             lineHeight: '1.5',
+            overflow: 'auto',
           }}
         />
 
