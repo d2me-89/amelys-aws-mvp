@@ -11,3 +11,4 @@ export { ChatInput, default as ChatInputDefault } from './ChatInput';
 export { StartScreen, default as StartScreenDefault } from './StartScreen';
 export { TypingIndicator, default as TypingIndicatorDefault } from './TypingIndicator';
 export { LoadingIndicator, default as LoadingIndicatorDefault } from './LoadingIndicator';
+
