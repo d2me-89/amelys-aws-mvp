@@ -99,7 +99,7 @@ export function MessageList({
           display: 'flex',
           flexDirection: 'column',
           gap: '3rem',
-          marginBottom: '100px',
+          marginBottom: '50px',
         }}
       >
         {/* Loader initial */}
