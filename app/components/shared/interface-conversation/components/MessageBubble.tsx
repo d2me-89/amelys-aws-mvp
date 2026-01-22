@@ -100,12 +100,18 @@ export const MessageBubble = forwardRef<HTMLDivElement, MessageBubbleProps>(
     const [showActions, setShowActions] = useState(false);
 
     const handleCopy = () => {
-      navigator.clipboard.writeText(message.content);
+      const messageElement = document.querySelector(`[data-message-id="${message.id}"] .message-content`);
+      if (messageElement) {
+        navigator.clipboard.writeText((messageElement as HTMLElement).innerText);
+      } else {
+        navigator.clipboard.writeText(message.content);
+      }
     };
 
     return (
       <div
         ref={ref}
+        data-message-id={message.id}
         onMouseEnter={() => setShowActions(true)}
         onMouseLeave={() => setShowActions(false)}
         style={{
