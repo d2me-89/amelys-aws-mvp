@@ -63,7 +63,7 @@ export function ConversationLayout({
       <div
         style={{ 
           display: 'flex', 
-          height: '100vh',
+          height: 'calc(100vh - 10px)',
           background: COLORS.background,
         }}
       >
