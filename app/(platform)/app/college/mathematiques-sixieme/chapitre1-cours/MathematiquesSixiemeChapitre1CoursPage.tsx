@@ -13,7 +13,7 @@ import {
   ConversationLayout, 
   ContentConfig, 
   ContentInfo 
-} from '@/app/components/interface-conversation';
+} from '@/app/components/shared/interface-conversation';
 
 // ============================================
 // ⚙️ CONFIGURATION
