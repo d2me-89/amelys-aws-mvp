@@ -57,7 +57,11 @@ export function ChatInput({
         background: COLORS.background,
         flexShrink: 0,
         position: 'fixed',
-        bottom: '10vh'
+        bottom: '10vh',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        width: '100%',
+        maxWidth: '800px',
       }}
     >
       {/* Container principal */}
