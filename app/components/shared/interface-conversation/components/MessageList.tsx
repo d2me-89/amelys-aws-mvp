@@ -87,6 +87,7 @@ export function MessageList({
         overflowX: 'hidden',
         display: 'flex',
         justifyContent: 'center',
+        alignItems: 'flex-start',
         padding: '2rem 1rem',
         scrollBehavior: 'smooth',
       }}
@@ -98,7 +99,7 @@ export function MessageList({
           display: 'flex',
           flexDirection: 'column',
           gap: '3rem',
-          paddingBottom: '100px',
+          marginBottom: '100px',
         }}
       >
         {/* Loader initial */}
