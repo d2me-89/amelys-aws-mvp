@@ -8,7 +8,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import { LuBot } from 'react-icons/lu';
 import { ContentConfig, ContentInfo } from '../types';
 import { useConversation } from '../hooks/useConversation';
 import { ConversationHeader } from './ConversationHeader';
@@ -97,49 +96,15 @@ export function ConversationLayout({
 
           {/* Zone de saisie (uniquement si conversation active) */}
           {conversationId && (
-            <>
-              {/* Icône Amélys */}
-              <div
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  paddingBottom: '0.5rem',
-                }}
-              >
-                <div
-                  style={{
-                    width: '100%',
-                    maxWidth: '900px',
-                    paddingLeft: '1.5rem',
-                  }}
-                >
-                  <div
-                    style={{
-                      width: '28px',
-                      height: '28px',
-                      borderRadius: '50%',
-                      background: `linear-gradient(135deg, ${COLORS.primary} 0%, ${COLORS.primaryDark} 100%)`,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      color: '#fff',
-                    }}
-                  >
-                    <LuBot size={16} />
-                  </div>
-                </div>
-              </div>
-
-              <ChatInput
-                value={inputValue}
-                onChange={setInputValue}
-                onSend={handleSend}
-                disabled={!!streamingMessageId}
-                isLoading={isLoading && !streamingMessageId}
-                placeholder={inputPlaceholder}
-                error={conversationId ? error : null}
-              />
-            </>
+            <ChatInput
+              value={inputValue}
+              onChange={setInputValue}
+              onSend={handleSend}
+              disabled={!!streamingMessageId}
+              isLoading={isLoading && !streamingMessageId}
+              placeholder={inputPlaceholder}
+              error={conversationId ? error : null}
+            />
           )}
         </div>
       </div>
