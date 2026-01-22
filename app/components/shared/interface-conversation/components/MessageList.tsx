@@ -55,7 +55,7 @@ export function MessageList({
     if (lastUserMessageRef.current) {
       setTimeout(() => {
         lastUserMessageRef.current?.scrollIntoView({
-          behavior: 'smooth',
+          behavior: 'instant',
           block: 'start',
         });
       }, 50);
