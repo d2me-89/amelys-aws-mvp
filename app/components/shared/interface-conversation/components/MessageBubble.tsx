@@ -123,6 +123,7 @@ export const MessageBubble = forwardRef<HTMLDivElement, MessageBubbleProps>(
           position: 'relative',
           scrollMarginTop: '20px',
           minHeight: message.isLatestAssistant ? 'calc(100vh - 250px)' : 'auto',
+          marginBottom: message.isLatestAssistant ? '80px' : '0',
         }}
       >
         {/* Avatar assistant */}
