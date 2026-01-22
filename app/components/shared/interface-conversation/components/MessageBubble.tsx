@@ -10,7 +10,6 @@
 
 import React, { useState, forwardRef } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { LuBot } from 'react-icons/lu';
 import { Message } from '../types';
 import { MessageActions } from './MessageActions';
 import { COLORS, BORDERS, FONT_SIZES } from '../styles/animations';
@@ -123,28 +122,8 @@ export const MessageBubble = forwardRef<HTMLDivElement, MessageBubbleProps>(
           position: 'relative',
           scrollMarginTop: '20px',
           minHeight: message.isLatestAssistant ? 'calc(100vh - 250px)' : 'auto',
-          marginBottom: message.isLatestAssistant ? '80px' : '0',
         }}
       >
-        {/* Avatar assistant */}
-        {!isUser && (
-          <div
-            style={{
-              width: '32px',
-              height: '32px',
-              borderRadius: '50%',
-              background: `linear-gradient(135deg, ${COLORS.primary} 0%, ${COLORS.primaryDark} 100%)`,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexShrink: 0,
-              color: '#fff',
-            }}
-          >
-            <LuBot size={20} />
-          </div>
-        )}
-
         <div style={{ flex: 1, position: 'relative', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
           {/* Bulle de message */}
           <div 
