@@ -52,8 +52,8 @@ export function ChatInput({
   return (
     <div
       style={{
-        padding: '1.5rem',
-        paddingBottom: '2rem',
+        padding: '0.75rem 1.5rem',
+        paddingBottom: '1rem',
         background: COLORS.background,
         flexShrink: 0,
         display: 'flex',
@@ -69,7 +69,6 @@ export function ChatInput({
           alignItems: 'flex-end',
           gap: '0.75rem',
           padding: '0.75rem 1rem',
-          bottom: '2vh',
           background: COLORS.surface,
           border: `2px solid ${isFocused ? COLORS.borderFocus : COLORS.border}`,
           borderRadius: BORDERS.radiusLg,
