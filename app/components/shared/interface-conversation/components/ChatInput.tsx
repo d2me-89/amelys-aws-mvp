@@ -56,7 +56,8 @@ export function ChatInput({
         borderTop: `1px solid ${COLORS.border}`,
         background: COLORS.background,
         flexShrink: 0,
-        marginTop: '10vh'
+        position: 'fixed',
+        bottom: '10vh'
       }}
     >
       {/* Container principal */}
