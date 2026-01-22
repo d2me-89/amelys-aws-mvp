@@ -3,7 +3,6 @@
  * 
  * Affiche un message dans la conversation avec un style différent
  * selon qu'il s'agit d'un message utilisateur ou assistant.
- * Supporte le rendu Markdown pour les messages de l'assistant.
  */
 
 "use client";
