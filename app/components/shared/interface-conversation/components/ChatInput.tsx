@@ -54,14 +54,14 @@ export function ChatInput({
       style={{
         padding: '1rem 1.5rem',
         borderTop: `1px solid ${COLORS.border}`,
-        background: COLORS.background,
+        background: 'transparent',
         flexShrink: 0,
         position: 'fixed',
         bottom: '2vh',
-        left: '50%',
+        left: 'calc(50% + 30px)',
         transform: 'translateX(-50%)',
         width: '100%',
-        maxWidth: '800px',
+        maxWidth: '900px',
       }}
     >
       {/* Container principal */}
