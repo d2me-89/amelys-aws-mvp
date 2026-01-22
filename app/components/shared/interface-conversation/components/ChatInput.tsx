@@ -58,6 +58,7 @@ export function ChatInput({
         flexShrink: 0,
         display: 'flex',
         justifyContent: 'center',
+        bottom: '2vh',
       }}
     >
       {/* Container principal */}
