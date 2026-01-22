@@ -52,8 +52,8 @@ export function ChatInput({
   return (
     <div
       style={{
-        padding: '0.5rem 1rem',
-        paddingBottom: '0.5rem',
+        padding: '0.75rem 1.5rem',
+        paddingBottom: '1rem',
         background: COLORS.background,
         flexShrink: 0,
         display: 'flex',
