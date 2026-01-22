@@ -58,7 +58,6 @@ export function ChatInput({
         flexShrink: 0,
         display: 'flex',
         justifyContent: 'center',
-        bottom: '2vh',
       }}
     >
       {/* Container principal */}
@@ -70,6 +69,7 @@ export function ChatInput({
           alignItems: 'flex-end',
           gap: '0.75rem',
           padding: '0.75rem 1rem',
+          bottom: '2vh',
           background: COLORS.surface,
           border: `2px solid ${isFocused ? COLORS.borderFocus : COLORS.border}`,
           borderRadius: BORDERS.radiusLg,
