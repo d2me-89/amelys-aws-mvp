@@ -3,6 +3,7 @@
  * 
  * Affiche un message dans la conversation avec un style différent
  * selon qu'il s'agit d'un message utilisateur ou assistant.
+ * Supporte le rendu Markdown pour les messages de l'assistant.
  */
 
 "use client";
@@ -18,11 +19,7 @@ import { COLORS, BORDERS, FONT_SIZES } from '../styles/animations';
 // 🎨 MARKDOWN COMPONENTS
 // ============================================
 
-/**
- * Composants personnalisés pour le rendu Markdown
- */
 const markdownComponents = {
-  // Titres
   h1: ({ node, ...props }: any) => (
     <h1 style={{ fontSize: '1.5rem', fontWeight: 700, marginTop: '1rem', marginBottom: '0.5rem' }} {...props} />
   ),
@@ -35,16 +32,12 @@ const markdownComponents = {
   h4: ({ node, ...props }: any) => (
     <h4 style={{ fontSize: '1.15rem', fontWeight: 600, marginTop: '0.75rem', marginBottom: '0.5rem' }} {...props} />
   ),
-  
-  // Gras et italique
   strong: ({ node, ...props }: any) => (
     <strong style={{ fontWeight: 700, color: '#fff' }} {...props} />
   ),
   em: ({ node, ...props }: any) => (
     <em style={{ fontStyle: 'italic', color: 'rgba(255,255,255,0.9)' }} {...props} />
   ),
-  
-  // Listes
   ul: ({ node, ...props }: any) => (
     <ul style={{ marginLeft: '1.5rem', marginTop: '0.5rem', marginBottom: '0.5rem' }} {...props} />
   ),
@@ -54,13 +47,9 @@ const markdownComponents = {
   li: ({ node, ...props }: any) => (
     <li style={{ marginBottom: '0.25rem' }} {...props} />
   ),
-  
-  // Paragraphes
   p: ({ node, ...props }: any) => (
     <p style={{ marginBottom: '0.75rem' }} {...props} />
   ),
-  
-  // Code
   code: ({ node, inline, ...props }: any) => 
     inline ? (
       <code style={{ 
@@ -83,13 +72,9 @@ const markdownComponents = {
         marginBottom: '0.5rem'
       }} {...props} />
     ),
-  
-  // Séparateurs
   hr: ({ node, ...props }: any) => (
     <hr style={{ border: 'none', borderTop: '1px solid rgba(255,255,255,0.2)', margin: '1rem 0' }} {...props} />
   ),
-  
-  // Blockquotes
   blockquote: ({ node, ...props }: any) => (
     <blockquote style={{ 
       borderLeft: `3px solid ${COLORS.primary}`, 
@@ -131,7 +116,6 @@ export const MessageBubble = forwardRef<HTMLDivElement, MessageBubbleProps>(
           flexDirection: isUser ? 'row-reverse' : 'row',
           position: 'relative',
           scrollMarginTop: '20px',
-          // Le dernier message assistant prend toute la hauteur disponible
           minHeight: message.isLatestAssistant ? 'calc(100vh - 250px)' : 'auto',
         }}
       >
@@ -180,6 +164,7 @@ export const MessageBubble = forwardRef<HTMLDivElement, MessageBubbleProps>(
           {!isUser && (
             <MessageActions
               visible={showActions}
+              alwaysShow={message.isLatestAssistant}
               onCopy={handleCopy}
               onRegenerate={() => {}}
               onLike={() => {}}
