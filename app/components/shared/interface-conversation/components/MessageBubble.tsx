@@ -129,10 +129,10 @@ export const MessageBubble = forwardRef<HTMLDivElement, MessageBubbleProps>(
           <div 
             className="message-content"
             style={{
-              background: isUser ? COLORS.userBubble : COLORS.assistantBubble,
+              background: isUser ? '#000' : COLORS.assistantBubble,
               padding: '1rem 1.25rem',
               borderRadius: BORDERS.radiusLg,
-              color: COLORS.text,
+              color: isUser ? '#fff' : COLORS.text,
               lineHeight: '1.6',
               fontSize: FONT_SIZES.lg,
             }}
