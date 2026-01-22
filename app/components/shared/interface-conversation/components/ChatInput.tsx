@@ -52,23 +52,19 @@ export function ChatInput({
   return (
     <div
       style={{
-        padding: '1rem 1.5rem',
-        borderTop: `1px solid ${COLORS.border}`,
-        background: 'transparent',
+        padding: '1.5rem',
+        paddingBottom: '2rem',
+        background: COLORS.background,
         flexShrink: 0,
-        position: 'fixed',
-        bottom: '2vh',
-        left: 'calc(50% + 30px)',
-        transform: 'translateX(-50%)',
-        width: '100%',
-        maxWidth: '900px',
+        display: 'flex',
+        justifyContent: 'center',
       }}
     >
       {/* Container principal */}
       <div
         style={{
-          maxWidth: '800px',
-          margin: '0 auto',
+          width: '100%',
+          maxWidth: '900px',
           display: 'flex',
           alignItems: 'flex-end',
           gap: '0.75rem',
@@ -137,7 +133,7 @@ export function ChatInput({
       {error && (
         <div
           style={{
-            maxWidth: '800px',
+            maxWidth: '900px',
             margin: '0.5rem auto 0',
             padding: '0.75rem 1rem',
             background: COLORS.errorBg,
